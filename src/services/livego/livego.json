@@ -618,7 +618,7 @@
     {
         "channelName": "SD הוט 3",
         "tvgName": "hot.3.il",
-        "tvgId": "ערוץ.3.il",
+        "tvgId": "hot3-hd-il",
         "tvgLogo": "https://i.ibb.co/Cmq24Hf/HOT-3.png",
         "groupTitle": "Israel: HOT",
         "channelId": 6106
@@ -626,7 +626,7 @@
     {
         "channelName": "SD הוט 8",
         "tvgName": "hot.8.il",
-        "tvgId": "ערוץ.8.il",
+        "tvgId": "hot-8-il-hd",
         "tvgLogo": "https://i.ibb.co/kGg4c26/HOT-8.png",
         "groupTitle": "Israel: HOT",
         "channelId": 8141
@@ -634,7 +634,7 @@
     {
         "channelName": "SD הוט זון",
         "tvgName": "hot.zone.il",
-        "tvgId": "2691",
+        "tvgId": "hot-zone-hd-il",
         "tvgLogo": "https://i.ibb.co/3CrKZpP/HOT-Zone.png",
         "groupTitle": "Israel: HOT",
         "channelId": 6107
@@ -642,7 +642,7 @@
     {
         "channelName": "SD הוט קומדי סנטרל",
         "tvgName": "hot.comedy.central.il",
-        "tvgId": "5024",
+        "tvgId": "hot-comedy-central-il-hd",
         "tvgLogo": "https://i.ibb.co/HDVknX5/HOT-Comedy-Central.png",
         "groupTitle": "Israel: HOT",
         "channelId": 6104
@@ -650,7 +650,7 @@
     {
         "channelName": "SD הוט בידור ישראלי",
         "tvgName": "hot.bidur.israeli.il",
-        "tvgId": "הוט.בידור.ישראלי.il",
+        "tvgId": "entertainment-il",
         "tvgLogo": "https://i.ibb.co/5jcfbhy/HOT-Bidur.png",
         "groupTitle": "Israel: HOT",
         "channelId": 6102
@@ -658,7 +658,7 @@
     {
         "channelName": "SD הוט סינמה 1",
         "tvgName": "hot.cinema.1.il",
-        "tvgId": "2688",
+        "tvgId": "hot-cinema1-il",
         "tvgLogo": "https://i.ibb.co/ZWLdg0b/HOT-C1.png",
         "groupTitle": "Israel: HOT",
         "channelId": 23802
@@ -666,7 +666,7 @@
     {
         "channelName": "SD הוט סינמה 1",
         "tvgName": "hot.cinema.1.il",
-        "tvgId": "2688",
+        "tvgId": "hot-cinema1-il",
         "tvgLogo": "https://i.ibb.co/ZWLdg0b/HOT-C1.png",
         "groupTitle": "Israel: HOT",
         "channelId": 6108
@@ -674,7 +674,7 @@
     {
         "channelName": "SD הוט סינמה 2",
         "tvgName": "hot.cinema.2.il",
-        "tvgId": "2702",
+        "tvgId": "hot-cinema2-il",
         "tvgLogo": "https://i.ibb.co/bsDpWgX/HOT-C2.png",
         "groupTitle": "Israel: HOT",
         "channelId": 25821
@@ -682,7 +682,7 @@
     {
         "channelName": "SD הוט סינמה 2",
         "tvgName": "hot.cinema.2.il",
-        "tvgId": "2702",
+        "tvgId": "hot-cinema2-il",
         "tvgLogo": "https://i.ibb.co/bsDpWgX/HOT-C2.png",
         "groupTitle": "Israel: HOT",
         "channelId": 5960
@@ -690,7 +690,7 @@
     {
         "channelName": "SD הוט סינמה 3",
         "tvgName": "hot.cinema.3.il",
-        "tvgId": "2703",
+        "tvgId": "hot-cinema3-il",
         "tvgLogo": "https://i.ibb.co/vJX7LhD/HOT-C3.png",
         "groupTitle": "Israel: HOT",
         "channelId": 64397
@@ -698,7 +698,7 @@
     {
         "channelName": "SD הוט סינמה 3",
         "tvgName": "hot.cinema.3.il",
-        "tvgId": "2703",
+        "tvgId": "hot-cinema3-il",
         "tvgLogo": "https://i.ibb.co/vJX7LhD/HOT-C3.png",
         "groupTitle": "Israel: HOT",
         "channelId": 25822
@@ -706,7 +706,7 @@
     {
         "channelName": "SD הוט סינמה 3",
         "tvgName": "hot.cinema.3.il",
-        "tvgId": "2703",
+        "tvgId": "hot-cinema3-il",
         "tvgLogo": "https://i.ibb.co/vJX7LhD/HOT-C3.png",
         "groupTitle": "Israel: HOT",
         "channelId": 5961
@@ -714,7 +714,7 @@
     {
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "2687",
+        "tvgId": "hot-cinema4-il",
         "tvgLogo": "https://i.ibb.co/KNfwwwJ/HOT-C4.png",
         "groupTitle": "Israel: HOT",
         "channelId": 64339
@@ -722,7 +722,7 @@
     {
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "2687",
+        "tvgId": "hot-cinema4-il",
         "tvgLogo": "https://i.ibb.co/KNfwwwJ/HOT-C4.png",
         "groupTitle": "Israel: HOT",
         "channelId": 25823
@@ -730,7 +730,7 @@
     {
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "2687",
+        "tvgId": "hot-cinema4-il",
         "tvgLogo": "https://i.ibb.co/KNfwwwJ/HOT-C4.png",
         "groupTitle": "Israel: HOT",
         "channelId": 6109
@@ -738,7 +738,7 @@
     {
         "channelName": "HOT HBO HD",
         "tvgName": "hot.hbo.il",
-        "tvgId": "2685",
+        "tvgId": "hot-hbo-il",
         "tvgLogo": "https://i.ibb.co/nQZKTYH/HOT-HBO.png",
         "groupTitle": "Israel: HOT",
         "channelId": 41504
@@ -746,7 +746,7 @@
     {
         "channelName": "HOT HBO HD",
         "tvgName": "hot.hbo.il",
-        "tvgId": "2685",
+        "tvgId": "hot-hbo-il",
         "tvgLogo": "https://i.ibb.co/nQZKTYH/HOT-HBO.png",
         "groupTitle": "Israel: HOT",
         "channelId": 6110
@@ -850,7 +850,7 @@
     {
         "channelName": "SD הוט לולי",
         "tvgName": "luli.il",
-        "tvgId": "2695",
+        "tvgId": "luli-il",
         "tvgLogo": "https://i.ibb.co/swfmw5y/hot-luli.png",
         "groupTitle": "Israel: Kids",
         "channelId": 12034
@@ -1050,7 +1050,7 @@
     {
         "channelName": "HD רשת האוכל",
         "tvgName": "food.network.il",
-        "tvgId": "Food.Network.HD.-.EN.pl",
+        "tvgId": "food-network-il",
         "tvgLogo": "https://i.ibb.co/jTZj08R/Food-Network.png",
         "groupTitle": "Israel: Style Living",
         "channelId": 22645
@@ -1130,7 +1130,7 @@
     {
         "channelName": "SD ערוץ הטיולים",
         "tvgName": "travel.channel.sd.il",
-        "tvgId": "Travel.Channel.HDTV.(East).(TRAVD).us",
+        "tvgId": "travel-channel-il",
         "tvgLogo": "https://i.ibb.co/LkrRJqk/Travel-Channel.png",
         "groupTitle": "Israel: Style Living",
         "channelId": 7340
@@ -1258,7 +1258,7 @@
     {
         "channelName": "SD הוט בוליווד",
         "tvgName": "hot.bollywood.il",
-        "tvgId": "5071",
+        "tvgId": "hot-bollywood-il",
         "tvgLogo": "https://i.ibb.co/pyDNKw1/hot-Bollywood.png",
         "groupTitle": "Israel: Foreign Languages",
         "channelId": 62379
