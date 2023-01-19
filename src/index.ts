@@ -3,6 +3,10 @@ import { generateM3u } from "./m3u-gen";
 
 const app = Express();
 
+app.get("/", (_, res) => {
+  res.redirect("https://dikodahan.github.io");
+})
+
 app.get("/playlist", (req, res, _next) => {
   const { u: username, p: password } = req.query;
   if (
