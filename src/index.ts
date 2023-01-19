@@ -13,7 +13,7 @@ app.get("/:service", (req, res) => {
   const service = req.params.service;
 
   try {
-    const generator = SERVICE_GENERATORS[service];
+    const generator = SERVICE_GENERATORS[service?.toLowerCase()];
     if (!generator) {
       throw new UserException("Invalid service", 400);
     }

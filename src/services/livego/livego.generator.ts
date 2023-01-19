@@ -1,6 +1,6 @@
 import LiveGo from "./livego.json";
-import EPG from "../../epg.json";
 import { UserException } from "../../user-exception";
+import { epgGenerator } from "../epg.generator";
 
 export function* liveGoGenerator(
   username: string,
@@ -10,8 +10,9 @@ export function* liveGoGenerator(
     throw new UserException("Invalid username or password", 400);
   }
 
-  yield `#EXTM3U url-tvg="${EPG.preferred}"`;
-  yield "";
+  for (const line of epgGenerator()) {
+    yield line;
+  }
 
   for (const { tvgId, tvgLogo, groupTitle, channelName, channelId } of LiveGo) {
     yield "";
