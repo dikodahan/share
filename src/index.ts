@@ -4,7 +4,7 @@ import { generateM3u } from "./m3u-gen";
 const app = Express();
 
 app.get("/playlist", (req, res, _next) => {
-  const { username, password } = req.query;
+  const { u: username, p: password } = req.query;
   if (
     !username ||
     typeof username !== "string" ||
