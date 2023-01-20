@@ -7,6 +7,6 @@ type M3uGenerator = (username: string, password: string) => Generator<string, vo
 
 export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
     "livego": liveGoGenerator,
-    "crystal": CrystalGenerator,
+    "crystal": crystalGenerator,
     "antifriz": antiFrizGenerator
 }
