@@ -2,7 +2,7 @@
 import { antiFrizGenerator } from "./antifriz/antifriz.generator";
 import { liveGoGenerator } from "./livego/livego.generator";
 import { crystalGenerator } from "./crystal/crystal.generator";
-import { liveGoTestGenerator } from "./testing/livegotest.generator";
+import { liveGoTestGenerator } from "./livegotest/livegotest.generator";
 
 type M3uGenerator = (username: string, password: string) => Generator<string, void, unknown>;
 
