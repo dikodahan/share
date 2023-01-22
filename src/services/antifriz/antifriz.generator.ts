@@ -9,7 +9,7 @@ export function* antiFrizGenerator(
   _: string,
   token: string
 ): Generator<string, void, unknown> {
-  if (!token) {
+  if (!token || token == "TOKEN") {
     throw new UserException("Invalid token", 400);
   }
 

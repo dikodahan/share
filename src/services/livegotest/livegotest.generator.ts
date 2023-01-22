@@ -6,10 +6,7 @@ export function* liveGoTestGenerator(
   username: string,
   password: string
 ): Generator<string, void, unknown> {
-  if (!username || !password) {
-    throw new UserException("Invalid username or password", 400);
-  }
-  else if (username == "USERNAME" || password == "PASSWORD") {
+  if (!username || !password || username == "USERNAME" || password == "PASSWORD") {
     throw new UserException("Invalid username or password", 400);
   }
 

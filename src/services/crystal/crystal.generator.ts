@@ -6,7 +6,7 @@ export function* crystalGenerator(
   username: string,
   password: string
 ): Generator<string, void, unknown> {
-  if (!username || !password) {
+  if (!username || !password || username == "USERNAME" || password == "PASSWORD") {
     throw new UserException("Invalid username or password", 400);
   }
 
