@@ -1,4 +1,5 @@
 {
-    "preferred": "https://github.com/epgshare01/share01/raw/master/epg_ripper_ALL_SOURCES1.xml.gz",
-    "secondary": "https://antifriztv.com/xmltv.xml.gz"
+    "preferred": "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz",
+    "secondary": "https://antifriztv.com/xmltv.xml.gz",
+    "alternative": "http://epg.it999.ru/epg2.xml.gz"
 }
