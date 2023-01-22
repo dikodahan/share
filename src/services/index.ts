@@ -10,5 +10,5 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
     "livego": liveGoGenerator,
     "crystal": crystalGenerator,
     "antifriz": antiFrizGenerator,
-    "testing": liveGoTestGenerator
+    "livegotest": liveGoTestGenerator
 }
