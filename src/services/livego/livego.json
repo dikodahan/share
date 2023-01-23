@@ -824,7 +824,7 @@
         "channelId": 3340
     },
     {
-        "channelName": "SD ניק טין",
+        "channelName": "SD טין ניק",
         "tvgName": "nick.teen.il",
         "tvgId": "Teennick.[TeenNick].il",
         "tvgLogo": "https://dikodahan.github.io/picons/light/TeenNick.png",
@@ -979,7 +979,7 @@
         "channelName": "SD דיסקוברי מדע",
         "tvgName": "discovery.science.il",
         "tvgId": "Discovery.Science.[Discovery.Science].il",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Discovery-Science.phg",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Discovery-Science.png",
         "groupTitle": "Israel: Nature & History",
         "channelId": 41253
     },
@@ -1203,7 +1203,7 @@
         "channelName": "SD מכאן 33",
         "tvgName": "makan.33.il",
         "tvgId": "מכאן.[Makan].il",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Makan-33.jpg",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Makan-33.png",
         "groupTitle": "Israel: Foreign Languages",
         "channelId": 40335
     },
@@ -1211,12 +1211,12 @@
         "channelName": "SD מכאן 33",
         "tvgName": "makan.33.il",
         "tvgId": "מכאן.[Makan].il",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Makan-33.jpg",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Makan-33.png",
         "groupTitle": "Israel: Foreign Languages",
         "channelId": 18132
     },
     {
-        "channelName": "HD ערוץ האלא",
+        "channelName": "HD ערוץ הלא טיוי",
         "tvgName": "hala.il",
         "tvgId": "Hala.TV.[HALA.TV].il",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Hala-TV.png",
