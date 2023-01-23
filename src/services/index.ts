@@ -1,5 +1,6 @@
 // @spellchecker: ignore livego
 import { antiFrizGenerator } from "./antifriz/antifriz.generator";
+import { antiFrizDmGenerator } from "./antifrizdm/antifrizdm.generator";
 import { liveGoGenerator } from "./livego/livego.generator";
 import { liveGoDmGenerator } from "./livegodm/livegodm.generator";
 import { crystalGenerator } from "./crystal/crystal.generator";
@@ -15,5 +16,6 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
     "crystal": crystalGenerator,
     "crystaldm": crystalDmGenerator,
     "antifriz": antiFrizGenerator,
+    "antifrizdm": antiFrizDmGenerator,
     "livegotest": liveGoTestGenerator
 }
