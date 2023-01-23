@@ -1,4 +1,4 @@
-import AntiFrizDm from "./antifrizDm.json";
+import AntiFrizDm from "./antifrizdm.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 
