@@ -1192,14 +1192,6 @@
         "channelId": 12299
     },
     {
-        "channelName": "SD הערוץ הים תיכוני",
-        "tvgName": "mediterranean.channel.il",
-        "tvgId": "yamtihoni-il",
-        "tvgLogo": "https://i.ibb.co/Y3bmhjy/Yam-Tihoni.png",
-        "groupTitle": "Israel: Foreign Languages",
-        "channelId": 12031
-    },
-    {
         "channelName": "SD מכאן 33",
         "tvgName": "makan.33.il",
         "tvgId": "makan33-il",
@@ -1238,6 +1230,14 @@
         "tvgLogo": "https://i.ibb.co/B6tX7Gn/VivaPlus.png",
         "groupTitle": "Israel: Foreign Languages",
         "channelId": 6101
+    },
+    {
+        "channelName": "SD הערוץ הים תיכוני",
+        "tvgName": "mediterranean.channel.il",
+        "tvgId": "yamtihoni-il",
+        "tvgLogo": "https://i.ibb.co/Y3bmhjy/Yam-Tihoni.png",
+        "groupTitle": "Israel: Foreign Languages",
+        "channelId": 12031
     },
     {
         "channelName": "SD ערוץ הדרמות הטורקיות+",

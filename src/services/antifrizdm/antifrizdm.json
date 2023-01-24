@@ -559,15 +559,6 @@
     },
     {
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "ים.תיכוני.[Mediterranean.Channel].il",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Yam-Tihoni-DM.png",
-        "tvgRec": "7",
-        "catchupDays": "7",
-        "channelName": "הערוץ הים תיכוני",
-        "channelId": "yamtihoni-il"
-    },
-    {
-        "groupTitle": "Israel: Foreign Languages",
         "tvgId": "ויוה.[Viva].il",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Viva-DM.png",
         "tvgRec": "7",
@@ -583,6 +574,15 @@
         "catchupDays": "7",
         "channelName": "ויוה+",
         "channelId": "viva-plus-il"
+    },
+    {
+        "groupTitle": "Israel: Foreign Languages",
+        "tvgId": "ים.תיכוני.[Mediterranean.Channel].il",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Yam-Tihoni-DM.png",
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הערוץ הים תיכוני",
+        "channelId": "yamtihoni-il"
     },
     {
         "groupTitle": "Israel: Foreign Languages",
