@@ -6,6 +6,7 @@ import { liveGoDmGenerator } from "./livegodm/livegodm.generator";
 import { crystalGenerator } from "./crystal/crystal.generator";
 import { crystalDmGenerator } from "./crystaldm/crystaldm.generator";
 import { dinoGenerator } from "./dino/dino.generator";
+import { dinoDmGenerator } from "./dinodm/dinodm.generator";
 import { liveGoTestGenerator } from "./livegotest/livegotest.generator";
 
 
@@ -17,6 +18,7 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
     "crystal": crystalGenerator,
     "crystaldm": crystalDmGenerator,
     "dino": dinoGenerator,
+    "dinodm": dinoDmGenerator,
     "antifriz": antiFrizGenerator,
     "antifrizdm": antiFrizDmGenerator,
     "livegotest": liveGoTestGenerator
