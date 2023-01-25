@@ -1,5 +1,6 @@
 [
     {
+        "extGrp": "ראשי",
         "channelName": "SD כאן 11",
         "tvgName": "11-kanal-il",
         "tvgId": "11-kanal-il",
@@ -8,6 +9,7 @@
         "channelId": 18131
     },
     {
+        "extGrp": "ראשי",
         "channelName": "SD כאן 11",
         "tvgName": "11-kanal-il",
         "tvgId": "11-kanal-il",
@@ -16,6 +18,7 @@
         "channelId": 3298
     },
     {
+        "extGrp": "ראשי",
         "channelName": "FHD קשת 12",
         "tvgName": "12-kanal-il",
         "tvgId": "12-kanal-il",
@@ -24,6 +27,7 @@
         "channelId": 19374
     },
     {
+        "extGrp": "ראשי",
         "channelName": "FHD קשת 12",
         "tvgName": "12-kanal-il",
         "tvgId": "12-kanal-il",
@@ -32,6 +36,7 @@
         "channelId": 16272
     },
     {
+        "extGrp": "ראשי",
         "channelName": "SD קשת 12",
         "tvgName": "12-kanal-il",
         "tvgId": "12-kanal-il",
@@ -40,6 +45,7 @@
         "channelId": 14596
     },
     {
+        "extGrp": "ראשי",
         "channelName": "FHD רשת 13",
         "tvgName": "13-kanal-il",
         "tvgId": "13-kanal-il",
@@ -48,6 +54,7 @@
         "channelId": 19375
     },
     {
+        "extGrp": "ראשי",
         "channelName": "HD רשת 13",
         "tvgName": "13-kanal-il",
         "tvgId": "13-kanal-il",
@@ -56,6 +63,7 @@
         "channelId": 20218
     },
     {
+        "extGrp": "ראשי",
         "channelName": "SD רשת 13",
         "tvgName": "13-kanal-il",
         "tvgId": "13-kanal-il",
@@ -64,6 +72,7 @@
         "channelId": 3299
     },
     {
+        "extGrp": "ראשי",
         "channelName": "HD ערוץ 14",
         "tvgName": "channel.14.il",
         "tvgId": "14-kanal-il",
@@ -72,6 +81,7 @@
         "channelId": 61503
     },
     {
+        "extGrp": "ראשי",
         "channelName": "HD ערוץ 14",
         "tvgName": "channel.14.il",
         "tvgId": "14-kanal-il",
@@ -80,6 +90,7 @@
         "channelId": 16514
     },
     {
+        "extGrp": "ראשי",
         "channelName": "HD ערוץ 14",
         "tvgName": "channel.14.il",
         "tvgId": "14-kanal-il",
@@ -88,6 +99,7 @@
         "channelId": 3301
     },
     {
+        "extGrp": "ראשי",
         "channelName": "HD כאן חינוכית",
         "tvgName": "kan.hinuchit.il",
         "tvgId": "kan23-il",
@@ -96,6 +108,7 @@
         "channelId": 40771
     },
     {
+        "extGrp": "ראשי",
         "channelName": "SD כאן חינוכית",
         "tvgName": "kan.hinuchit.il",
         "tvgId": "kan23-il",
@@ -104,6 +117,7 @@
         "channelId": 19376
     },
     {
+        "extGrp": "ראשי",
         "channelName": "HD ערוץ הכנסת",
         "tvgName": "knesset.il",
         "tvgId": "ערוץ.הכנסת.[Knesset].il",
@@ -112,6 +126,7 @@
         "channelId": 14595
     },
     {
+        "extGrp": "ראשי",
         "channelName": "HD ערוץ הכנסת",
         "tvgName": "knesset.il",
         "tvgId": "ערוץ.הכנסת.[Knesset].il",
@@ -120,6 +135,7 @@
         "channelId": 12033
     },
     {
+        "extGrp": "ראשי",
         "channelName": "SD ערוץ ההידברות",
         "tvgName": "hidabrut.il",
         "tvgId": "ערוץ.הידברות.[Hidabroot].il",
@@ -128,6 +144,7 @@
         "channelId": 7343
     },
     {
+        "extGrp": "ראשי",
         "channelName": "HD חדשות ערוץ 12",
         "tvgName": "channel.12.news.il",
         "tvgId": "",
@@ -136,6 +153,7 @@
         "channelId": 41078
     },
     {
+        "extGrp": "ספורט",
         "channelName": "FHD יס ספורט 1",
         "tvgName": "sport1-hd-il",
         "tvgId": "sport1-hd-il",
@@ -144,6 +162,7 @@
         "channelId": 20415
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD יס ספורט 1",
         "tvgName": "sport1-hd-il",
         "tvgId": "sport1-hd-il",
@@ -152,6 +171,7 @@
         "channelId": 5958
     },
     {
+        "extGrp": "ספורט",
         "channelName": "FHD יס ספורט 2",
         "tvgName": "sport2-hd-il",
         "tvgId": "sport2-hd-il",
@@ -160,6 +180,7 @@
         "channelId": 21901
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD יס ספורט 2",
         "tvgName": "sport2-hd-il",
         "tvgId": "sport2-hd-il",
@@ -168,6 +189,7 @@
         "channelId": 5957
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD יס ספורט 3",
         "tvgName": "sport3-hd-il",
         "tvgId": "sport3-hd-il",
@@ -176,6 +198,7 @@
         "channelId": 11471
     },
     {
+        "extGrp": "ספורט",
         "channelName": "SD יס ספורט 3",
         "tvgName": "sport3-hd-il",
         "tvgId": "sport3-hd-il",
@@ -184,6 +207,7 @@
         "channelId": 21899
     },
     {
+        "extGrp": "ספורט",
         "channelName": "FHD יס ספורט 4",
         "tvgName": "sport4-hd-il",
         "tvgId": "sport4-hd-il",
@@ -192,6 +216,7 @@
         "channelId": 21900
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD יס ספורט 4",
         "tvgName": "sport4-hd-il",
         "tvgId": "sport4-hd-il",
@@ -200,6 +225,7 @@
         "channelId": 11472
     },
     {
+        "extGrp": "ספורט",
         "channelName": "FHD ספורט 5",
         "tvgName": "sport5-hd-il",
         "tvgId": "sport5-hd-il",
@@ -208,6 +234,7 @@
         "channelId": 83774
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD ספורט 5",
         "tvgName": "sport5-hd-il",
         "tvgId": "sport5-hd-il",
@@ -216,6 +243,7 @@
         "channelId": 20416
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD ספורט 5",
         "tvgName": "sport5-hd-il",
         "tvgId": "sport5-hd-il",
@@ -224,6 +252,7 @@
         "channelId": 19813
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD ספורט 5",
         "tvgName": "sport5-hd-il",
         "tvgId": "sport5-hd-il",
@@ -232,6 +261,7 @@
         "channelId": 41502
     },
     {
+        "extGrp": "ספורט",
         "channelName": "4K ספורט 5",
         "tvgName": "sport.5.4k.il",
         "tvgId": "sport5-il-4k",
@@ -240,6 +270,7 @@
         "channelId": 50637
     },
     {
+        "extGrp": "ספורט",
         "channelName": "FHD ספורט 5 לייב",
         "tvgName": "sport5-plus-live-hd-il",
         "tvgId": "sport5-plus-live-hd-il",
@@ -248,6 +279,7 @@
         "channelId": 83775
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD ספורט 5 לייב",
         "tvgName": "sport5-plus-live-hd-il",
         "tvgId": "sport5-plus-live-hd-il",
@@ -256,6 +288,7 @@
         "channelId": 25825
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD ספורט 5 לייב",
         "tvgName": "sport5-plus-live-hd-il",
         "tvgId": "sport5-plus-live-hd-il",
@@ -264,6 +297,7 @@
         "channelId": 16521
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD ספורט 5 סטארס",
         "tvgName": "sport.5.starts.il",
         "tvgId": "sport5-stars-il-hd",
@@ -272,6 +306,7 @@
         "channelId": 83776
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD ספורט 5 סטארס",
         "tvgName": "sport.5.starts.il",
         "tvgId": "sport5-stars-il-hd",
@@ -280,6 +315,7 @@
         "channelId": 5955
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD ספורט 5 סטארס",
         "tvgName": "sport.5.starts.il",
         "tvgId": "sport5-stars-il-hd",
@@ -288,6 +324,7 @@
         "channelId": 25826
     },
     {
+        "extGrp": "ספורט",
         "channelName": "HD ספורט 5 פלוס",
         "tvgName": "sport.5.plus.il",
         "tvgId": "yes-sport5-plus-il-hd",
@@ -296,6 +333,7 @@
         "channelId": 12823
     },
     {
+        "extGrp": "ספורט",
         "channelName": "SD ספורט 5 פלוס",
         "tvgName": "sport.5.plus.il",
         "tvgId": "yes-sport5-plus-il-hd",
@@ -304,6 +342,7 @@
         "channelId": 22315
     },
     {
+        "extGrp": "ספורט",
         "channelName": "SD ספורט 5 גולד",
         "tvgName": "sport.5.gold.il",
         "tvgId": "5GOLD.[Sport.5.Gold.(57)].il",
@@ -312,6 +351,7 @@
         "channelId": 11725
     },
     {
+        "extGrp": "ספורט",
         "channelName": "SD פוקס ספורט מרוצים",
         "tvgName": "fox.sports.racing.il",
         "tvgId": "Fox.Sports.Racing.HDTV.(FOXSR).ca",
@@ -320,6 +360,7 @@
         "channelId": 3341
     },
     {
+        "extGrp": "ספורט",
         "channelName": "ONE 1 FHD P50",
         "tvgName": "one-hd-i",
         "tvgId": "one-hd-il",
@@ -328,6 +369,7 @@
         "channelId": 83772
     },
     {
+        "extGrp": "ספורט",
         "channelName": "ONE 1 FHD",
         "tvgName": "one-hd-i",
         "tvgId": "one-hd-il",
@@ -336,6 +378,7 @@
         "channelId": 21903
     },
     {
+        "extGrp": "ספורט",
         "channelName": "ONE 1 HD",
         "tvgName": "one-hd-i",
         "tvgId": "one-hd-il",
@@ -344,6 +387,7 @@
         "channelId": 5956
     },
     {
+        "extGrp": "ספורט",
         "channelName": "ONE 2 FHD P50",
         "tvgName": "one2-hd-il",
         "tvgId": "one2-hd-il",
@@ -352,6 +396,7 @@
         "channelId": 19104
     },
     {
+        "extGrp": "ספורט",
         "channelName": "ONE 2 FHD",
         "tvgName": "one2-hd-il",
         "tvgId": "one2-hd-il",
@@ -360,6 +405,7 @@
         "channelId": 25827
     },
     {
+        "extGrp": "ספורט",
         "channelName": "ONE 2 HD",
         "tvgName": "one2-hd-il",
         "tvgId": "one2-hd-il",
@@ -368,6 +414,7 @@
         "channelId": 83773
     },
     {
+        "extGrp": "ספורט",
         "channelName": "Eurosport 1 HD",
         "tvgName": "eurosport.1.il",
         "tvgId": "EUROSPORT.[EUROSPORT.HD].il",
@@ -376,6 +423,7 @@
         "channelId": 19377
     },
     {
+        "extGrp": "ספורט",
         "channelName": "Eurosport 2 HD",
         "tvgName": "eurosport.2.il",
         "tvgId": "EUROSPORT.2.[Eurosport.2].il",
@@ -384,6 +432,7 @@
         "channelId": 19379
     },
     {
+        "extGrp": "ספורט",
         "channelName": "SD Trace ספורט סטארס",
         "tvgName": "trace.sport.stars.il",
         "tvgId": "Trace.Sport.Stars.HD.ba",
@@ -392,6 +441,7 @@
         "channelId": 63091
     },
     {
+        "extGrp": "YES",
         "channelName": "SD ערוץ ההומור",
         "tvgName": "humor.channel.il",
         "tvgId": "ערוץ.ההומור.[Humor.Channel].il",
@@ -400,6 +450,7 @@
         "channelId": 19380
     },
     {
+        "extGrp": "YES",
         "channelName": "YES FHD טלויזיה פעולה",
         "tvgName": "yes.tv.action.il",
         "tvgId": "yes-action-hd-il",
@@ -408,6 +459,7 @@
         "channelId": 16517
     },
     {
+        "extGrp": "YES",
         "channelName": "YES FHD טלויזיה פעולה",
         "tvgName": "yes.tv.action.il",
         "tvgId": "yes-action-hd-il",
@@ -416,6 +468,7 @@
         "channelId": 25833
     },
     {
+        "extGrp": "YES",
         "channelName": "YES HD טלויזיה פעולה",
         "tvgName": "yes.tv.action.il",
         "tvgId": "yes-action-hd-il",
@@ -424,6 +477,7 @@
         "channelId": 45723
     },
     {
+        "extGrp": "YES",
         "channelName": "YES FHD טלויזיה קומדיה",
         "tvgName": "yes.tv.comedy.il",
         "tvgId": "yes-comedy-hd-il",
@@ -432,6 +486,7 @@
         "channelId": 45725
     },
     {
+        "extGrp": "YES",
         "channelName": "YES FHD טלויזיה קומדיה",
         "tvgName": "yes.tv.comedy.il",
         "tvgId": "yes-comedy-hd-il",
@@ -440,6 +495,7 @@
         "channelId": 16518
     },
     {
+        "extGrp": "YES",
         "channelName": "YES FHD טלויזיה קומדיה",
         "tvgName": "yes.tv.comedy.il",
         "tvgId": "yes-comedy-hd-il",
@@ -448,6 +504,7 @@
         "channelId": 25837
     },
     {
+        "extGrp": "YES",
         "channelName": "YES HD טלויזיה דרמה",
         "tvgName": "yes.tv.actiondrama.il",
         "tvgId": "yes-drama-hd-il",
@@ -456,6 +513,7 @@
         "channelId": 45722
     },
     {
+        "extGrp": "YES",
         "channelName": "YES HD טלויזיה דרמה",
         "tvgName": "yes.tv.drama.il",
         "tvgId": "yes-drama-hd-il",
@@ -464,6 +522,7 @@
         "channelId": 16520
     },
     {
+        "extGrp": "YES",
         "channelName": "YES HD טלויזיה דרמה",
         "tvgName": "yes.tv.drama.il",
         "tvgId": "yes-drama-hd-il",
@@ -472,6 +531,7 @@
         "channelId": 25835
     },
     {
+        "extGrp": "YES",
         "channelName": "YES HD סרטים פעולה",
         "tvgName": "yes.movies.action.il",
         "tvgId": "yes-movies-action-hd-il",
@@ -480,6 +540,7 @@
         "channelId": 45721
     },
     {
+        "extGrp": "YES",
         "channelName": "YES HD סרטים פעולה",
         "tvgName": "yes.movies.action.il",
         "tvgId": "yes-movies-action-hd-il",
@@ -488,6 +549,7 @@
         "channelId": 64338
     },
     {
+        "extGrp": "YES",
         "channelName": "YES RUS FHD סרטים פעולה",
         "tvgName": "yes.movies.action.il",
         "tvgId": "yes-movies-action-hd-il",
@@ -496,6 +558,7 @@
         "channelId": 16513
     },
     {
+        "extGrp": "YES",
         "channelName": "YES RUS FHD סרטים פעולה",
         "tvgName": "yes.movies.action.il",
         "tvgId": "yes-movies-action-hd-il",
@@ -504,6 +567,7 @@
         "channelId": 25829
     },
     {
+        "extGrp": "YES",
         "channelName": "YES HD סרטים דרמה",
         "tvgName": "yes.movies.drama.il",
         "tvgId": "yes-movies-drama-il-hd",
@@ -512,6 +576,7 @@
         "channelId": 45719
     },
     {
+        "extGrp": "YES",
         "channelName": "YES HD סרטים דרמה",
         "tvgName": "yes.movies.drama.il",
         "tvgId": "yes-movies-drama-il-hd",
@@ -520,6 +585,7 @@
         "channelId": 64340
     },
     {
+        "extGrp": "YES",
         "channelName": "YES RUS FHD סרטים דרמה",
         "tvgName": "yes.movies.drama.il",
         "tvgId": "yes-movies-drama-il-hd",
@@ -528,6 +594,7 @@
         "channelId": 16512
     },
     {
+        "extGrp": "YES",
         "channelName": "YES RUS FHD סרטים דרמה",
         "tvgName": "yes.movies.drama.il",
         "tvgId": "yes-movies-drama-il-hd",
@@ -536,6 +603,7 @@
         "channelId": 25828
     },
     {
+        "extGrp": "YES",
         "channelName": "YES HD סרטים קומדיה",
         "tvgName": "yes.movies.comedy.il",
         "tvgId": "yes-movies-comedy-il",
@@ -544,6 +612,7 @@
         "channelId": 45720
     },
     {
+        "extGrp": "YES",
         "channelName": "YES RUS FHD סרטים קומדיה",
         "tvgName": "yes.movies.comedy.il",
         "tvgId": "yes-movies-comedy-il",
@@ -552,6 +621,7 @@
         "channelId": 16515
     },
     {
+        "extGrp": "YES",
         "channelName": "YES RUS FHD סרטים קומדיה",
         "tvgName": "yes.movies.comedy.il",
         "tvgId": "yes-movies-comedy-il",
@@ -560,6 +630,7 @@
         "channelId": 25831
     },
     {
+        "extGrp": "YES",
         "channelName": "YES SD קולנוע ישראלי",
         "tvgName": "yes.israeli.movies.il",
         "tvgId": "yes-israel-il",
@@ -568,6 +639,7 @@
         "channelId": 26119
     },
     {
+        "extGrp": "YES",
         "channelName": "YES SD קולנוע ישראלי",
         "tvgName": "yes.israeli.movies.il",
         "tvgId": "yes-israel-il",
@@ -576,6 +648,7 @@
         "channelId": 16522
     },
     {
+        "extGrp": "YES",
         "channelName": "YES FHD סרטים ילדים",
         "tvgName": "yes.movies.kids.il",
         "tvgId": "yes-movies-kids-hd-il",
@@ -584,6 +657,7 @@
         "channelId": 60460
     },
     {
+        "extGrp": "YES",
         "channelName": "YES HD סרטים ילדים",
         "tvgName": "yes.movies.kids.il",
         "tvgId": "yes-movies-kids-hd-il",
@@ -592,6 +666,7 @@
         "channelId": 45718
     },
     {
+        "extGrp": "YES",
         "channelName": "YES FHD דוקו",
         "tvgName": "yes.docu.il",
         "tvgId": "yes-docu-il-hd",
@@ -600,6 +675,7 @@
         "channelId": 16519
     },
     {
+        "extGrp": "YES",
         "channelName": "YES FHD דוקו",
         "tvgName": "yes.docu.il",
         "tvgId": "yes-docu-il-hd",
@@ -608,6 +684,7 @@
         "channelId": 25834
     },
     {
+        "extGrp": "YES",
         "channelName": "YES FHD דוקו",
         "tvgName": "yes.docu.il",
         "tvgId": "yes-docu-il-hd",
@@ -616,6 +693,7 @@
         "channelId": 25832
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט 3",
         "tvgName": "hot.3.il",
         "tvgId": "hot3-hd-il",
@@ -624,6 +702,7 @@
         "channelId": 6106
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט 8",
         "tvgName": "hot.8.il",
         "tvgId": "hot-8-il-hd",
@@ -632,6 +711,7 @@
         "channelId": 8141
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט זון",
         "tvgName": "hot.zone.il",
         "tvgId": "hot-zone-hd-il",
@@ -640,6 +720,7 @@
         "channelId": 6107
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט קומדי סנטרל",
         "tvgName": "hot.comedy.central.il",
         "tvgId": "hot-comedy-central-il-hd",
@@ -648,6 +729,7 @@
         "channelId": 6104
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט בידור ישראלי",
         "tvgName": "hot.bidur.israeli.il",
         "tvgId": "entertainment-il",
@@ -656,6 +738,7 @@
         "channelId": 6102
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט סינמה 1",
         "tvgName": "hot.cinema.1.il",
         "tvgId": "hot-cinema1-il",
@@ -664,6 +747,7 @@
         "channelId": 23802
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט סינמה 1",
         "tvgName": "hot.cinema.1.il",
         "tvgId": "hot-cinema1-il",
@@ -672,6 +756,7 @@
         "channelId": 6108
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט סינמה 2",
         "tvgName": "hot.cinema.2.il",
         "tvgId": "hot-cinema2-il",
@@ -680,6 +765,7 @@
         "channelId": 25821
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט סינמה 2",
         "tvgName": "hot.cinema.2.il",
         "tvgId": "hot-cinema2-il",
@@ -688,6 +774,7 @@
         "channelId": 5960
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט סינמה 3",
         "tvgName": "hot.cinema.3.il",
         "tvgId": "hot-cinema3-il",
@@ -696,6 +783,7 @@
         "channelId": 64397
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט סינמה 3",
         "tvgName": "hot.cinema.3.il",
         "tvgId": "hot-cinema3-il",
@@ -704,6 +792,7 @@
         "channelId": 25822
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט סינמה 3",
         "tvgName": "hot.cinema.3.il",
         "tvgId": "hot-cinema3-il",
@@ -712,6 +801,7 @@
         "channelId": 5961
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
         "tvgId": "hot-cinema4-il",
@@ -720,6 +810,7 @@
         "channelId": 64339
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
         "tvgId": "hot-cinema4-il",
@@ -728,6 +819,7 @@
         "channelId": 25823
     },
     {
+        "extGrp": "HOT",
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
         "tvgId": "hot-cinema4-il",
@@ -736,6 +828,7 @@
         "channelId": 6109
     },
     {
+        "extGrp": "HOT",
         "channelName": "HOT HBO HD",
         "tvgName": "hot.hbo.il",
         "tvgId": "hot-hbo-il",
@@ -744,6 +837,7 @@
         "channelId": 41504
     },
     {
+        "extGrp": "HOT",
         "channelName": "HOT HBO HD",
         "tvgName": "hot.hbo.il",
         "tvgId": "hot-hbo-il",
@@ -752,6 +846,7 @@
         "channelId": 6110
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD זום",
         "tvgName": "zoom.il",
         "tvgId": "zoom-il",
@@ -760,6 +855,7 @@
         "channelId": 8146
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD הופ!",
         "tvgName": "hop.il",
         "tvgId": "הופ!.[HOP].il",
@@ -768,6 +864,7 @@
         "channelId": 16062
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD הופ! ילדות ישראלית",
         "tvgName": "hop.yaldut.israelit.il",
         "tvgId": "hop-childhood-il",
@@ -776,6 +873,7 @@
         "channelId": 6114
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD הופ! ילדות ישראלית",
         "tvgName": "hop.yaldut.israelit.il",
         "tvgId": "hop-childhood-il",
@@ -784,6 +882,7 @@
         "channelId": 41501
     },
     {
+        "extGrp": "ילדים",
         "channelName": "HD דיסני",
         "tvgName": "disney.il",
         "tvgId": "yes-disney-il-hd",
@@ -792,6 +891,7 @@
         "channelId": 9574
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD דיסני ג׳וניור",
         "tvgName": "disney-jr-il",
         "tvgId": "disney-jr-il",
@@ -800,6 +900,7 @@
         "channelId": 9575
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD ניקולודיאון",
         "tvgName": "nickolodeon.il",
         "tvgId": "yes-nickelodeon-il",
@@ -808,6 +909,7 @@
         "channelId": 19515
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD ניק ג׳וניור",
         "tvgName": "nick-jr-il",
         "tvgId": "nick-jr-il",
@@ -816,6 +918,7 @@
         "channelId": 6113
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD ניק ג׳וניור",
         "tvgName": "nick-jr-il",
         "tvgId": "nick-jr-il",
@@ -824,6 +927,7 @@
         "channelId": 3340
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD ניק טין",
         "tvgName": "teennick-il",
         "tvgId": "teennick-il",
@@ -832,6 +936,7 @@
         "channelId": 6112
     },
     {
+        "extGrp": "ילדים",
         "channelName": "HD בייבי",
         "tvgName": "baby-il",
         "tvgId": "baby-il",
@@ -840,6 +945,7 @@
         "channelId": 6111
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD ערוץ וויז",
         "tvgName": "wiz.il",
         "tvgId": "yes-wiz-il",
@@ -848,6 +954,7 @@
         "channelId": 12035
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD הוט לולי",
         "tvgName": "luli.il",
         "tvgId": "luli-il",
@@ -856,6 +963,7 @@
         "channelId": 12034
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD ג׳וניור",
         "tvgName": "junior.il",
         "tvgId": "junior-il",
@@ -864,6 +972,7 @@
         "channelId": 34679
     },
     {
+        "extGrp": "ילדים",
         "channelName": "SD ג׳וניור",
         "tvgName": "junior.il",
         "tvgId": "junior-il",
@@ -872,6 +981,7 @@
         "channelId": 8143
     },
     {
+        "extGrp": "מוזיקה",
         "channelName": "FHD ערוץ 24",
         "tvgName": "channel.24.il",
         "tvgId": "channel24-il-hd",
@@ -880,6 +990,7 @@
         "channelId": 41254
     },
     {
+        "extGrp": "מוזיקה",
         "channelName": "FHD ערוץ 24",
         "tvgName": "channel.24.il",
         "tvgId": "channel24-il-hd",
@@ -888,6 +999,7 @@
         "channelId": 3303
     },
     {
+        "extGrp": "מוזיקה",
         "channelName": "MTV SD ישראל",
         "tvgName": "mtv.israel.il",
         "tvgId": "MTV.[MTV.(MTV.Music)].il",
@@ -896,6 +1008,7 @@
         "channelId": 9573
     },
     {
+        "extGrp": "מוזיקה",
         "channelName": "MTV SD להיטים",
         "tvgName": "mtv.hits.il",
         "tvgId": "MTV.HITS.[MTV.HITS].il",
@@ -904,6 +1017,7 @@
         "channelId": 42010
     },
     {
+        "extGrp": "מוזיקה",
         "channelName": "MTV SD 00s",
         "tvgName": "mtv.00s.il",
         "tvgId": "MTV.00’s.[MTV.00s.(VH1)].il",
@@ -912,6 +1026,7 @@
         "channelId": 42007
     },
     {
+        "extGrp": "מוזיקה",
         "channelName": "MTV SD 80s",
         "tvgName": "mtv.80s.il",
         "tvgId": "MTV.80s.[MTV.80s.(VH1.Classic)].il",
@@ -920,6 +1035,7 @@
         "channelId": 42008
     },
     {
+        "extGrp": "טבע והיסטוריה",
         "channelName": "SD אנימל פלאנט",
         "tvgName": "animal.planet.il",
         "tvgId": "Animal.Planet.[ANIMAL.PLANET].il",
@@ -928,6 +1044,7 @@
         "channelId": 35323
     },
     {
+        "extGrp": "טבע והיסטוריה",
         "channelName": "HD נשיונל ג׳יאוגרפיק",
         "tvgName": "national.geographic.il",
         "tvgId": "yes-natgeo-il-hd",
@@ -936,6 +1053,7 @@
         "channelId": 40774
     },
     {
+        "extGrp": "טבע והיסטוריה",
         "channelName": "HD נשיונל ג׳יאוגרפיק",
         "tvgName": "national.geographic.il",
         "tvgId": "yes-natgeo-il-hd",
@@ -944,6 +1062,7 @@
         "channelId": 9571
     },
     {
+        "extGrp": "טבע והיסטוריה",
         "channelName": "HD נשיונל ג׳יאוגרפיק פראי",
         "tvgName": "nat.geo.wild.il",
         "tvgId": "yes-natgeo-wild-il-hd",
@@ -952,6 +1071,7 @@
         "channelId": 40775
     },
     {
+        "extGrp": "טבע והיסטוריה",
         "channelName": "HD נשיונל ג׳יאוגרפיק פראי",
         "tvgName": "nat.geo.wild.il",
         "tvgId": "yes-natgeo-wild-il-hd",
@@ -960,6 +1080,7 @@
         "channelId": 7344
     },
     {
+        "extGrp": "טבע והיסטוריה",
         "channelName": "SD נשיונל ג׳יאוגרפיק פראי",
         "tvgName": "nat.geo.wild.il",
         "tvgId": "yes-natgeo-wild-il-hd",
@@ -968,6 +1089,7 @@
         "channelId": 12586
     },
     {
+        "extGrp": "טבע והיסטוריה",
         "channelName": "SD דיסקוברי",
         "tvgName": "discovery.il",
         "tvgId": "discovery-hd-il",
@@ -976,6 +1098,7 @@
         "channelId": 7342
     },
     {
+        "extGrp": "טבע והיסטוריה",
         "channelName": "SD דיסקוברי מדע",
         "tvgName": "discovery.science.il",
         "tvgId": "Discovery.Science.[Discovery.Science].il",
@@ -984,6 +1107,7 @@
         "channelId": 41253
     },
     {
+        "extGrp": "טבע והיסטוריה",
         "channelName": "HD היסטוריה",
         "tvgName": "history.hd.il",
         "tvgId": "היסטוריה.HD.[History.HD].il",
@@ -992,6 +1116,7 @@
         "channelId": 8142
     },
     {
+        "extGrp": "טבע והיסטוריה",
         "channelName": "SD היסטוריה",
         "tvgName": "history.il",
         "tvgId": "ערוץ.ההיסטוריה.[History.SD].il",
@@ -1000,6 +1125,7 @@
         "channelId": 22644
     },
     {
+        "extGrp": "ריאליטי ודוקומנטרי",
         "channelName": "FHD ערוץ האח הגדול",
         "tvgName": "big.brother.il",
         "tvgId": "האח.הגדול.il",
@@ -1008,6 +1134,7 @@
         "channelId": 41078
     },
     {
+        "extGrp": "ריאליטי ודוקומנטרי",
         "channelName": "HD ערוץ האח הגדול",
         "tvgName": "big.brother.il",
         "tvgId": "האח.הגדול.il",
@@ -1016,6 +1143,7 @@
         "channelId": 17205
     },
     {
+        "extGrp": "ריאליטי ודוקומנטרי",
         "channelName": "TLC SD",
         "tvgName": "tlc.il",
         "tvgId": "TLC.[TLC.(78)].il",
@@ -1024,6 +1152,7 @@
         "channelId": 35322
     },
     {
+        "extGrp": "ריאליטי ודוקומנטרי",
         "channelName": "CBS SD ריאליטי",
         "tvgName": "cbs-reality-il",
         "tvgId": "cbs-reality-il",
@@ -1032,6 +1161,7 @@
         "channelId": 14723
     },
     {
+        "extGrp": "ריאליטי ודוקומנטרי",
         "channelName": "SD ערוץ החקירות",
         "tvgName": "investigation.discovery.il",
         "tvgId": "Investigation.Discovery.[IDXTRA].il",
@@ -1040,6 +1170,7 @@
         "channelId": 63092
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "SD ערוץ האוכל",
         "tvgName": "food.channel.il",
         "tvgId": "ערוץ.האוכל.[Food.Channel].il",
@@ -1048,6 +1179,7 @@
         "channelId": 7341
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "HD רשת האוכל",
         "tvgName": "food.network.il",
         "tvgId": "food-network-il",
@@ -1056,6 +1188,7 @@
         "channelId": 22645
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "SD בית+",
         "tvgName": "home.plus.il",
         "tvgId": "home-plus-il",
@@ -1064,6 +1197,7 @@
         "channelId": 6103
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "SD חיים טוב",
         "tvgName": "fine.living.il",
         "tvgId": "Fine.Living.al",
@@ -1072,6 +1206,7 @@
         "channelId": 12029
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "SD ערוץ החיים הטובים",
         "tvgName": "good.life.il",
         "tvgId": "good-life-il",
@@ -1080,6 +1215,7 @@
         "channelId": 16283
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "SD ערוץ הבריאות",
         "tvgName": "health.channel.il",
         "tvgId": "health-il",
@@ -1088,6 +1224,7 @@
         "channelId": 12032
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "SD ערוץ הסטייל",
         "tvgName": "style.channel.il",
         "tvgId": "ערוץ.הסטייל.[Style.Channel.(Fashion.IL)].il",
@@ -1096,6 +1233,7 @@
         "channelId": 23716
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "SD ערוץ האופנה",
         "tvgName": "ftv.il",
         "tvgId": "FTV.[FTV].il",
@@ -1104,6 +1242,7 @@
         "channelId": 41252
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "E! SD בידור",
         "tvgName": "e.entertainment.il",
         "tvgId": "e-il",
@@ -1112,6 +1251,7 @@
         "channelId": 14639
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "SD ערוץ אגו",
         "tvgName": "ego.channel.il",
         "tvgId": "ego-total-il",
@@ -1120,6 +1260,7 @@
         "channelId": 12586
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "SD ערוץ הטיולים",
         "tvgName": "travel.channel.il",
         "tvgId": "ערוץ.הטיולים.[Travel.Channel].il",
@@ -1128,6 +1269,7 @@
         "channelId": 25824
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "SD ערוץ הטיולים",
         "tvgName": "travel.channel.sd.il",
         "tvgId": "travel-channel-il",
@@ -1136,6 +1278,7 @@
         "channelId": 7340
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "SD לייפטיים",
         "tvgName": "lifetime.il",
         "tvgId": "LIFETIME.ph",
@@ -1144,6 +1287,7 @@
         "channelId": 12030
     },
     {
+        "extGrp": "תרבות וסטייל",
         "channelName": "FHD ערוץ הקניות",
         "tvgName": "shopping.channel.il",
         "tvgId": "ערוץ.הקניות.[Shopping.Channel.(Channel.21)].il",
@@ -1152,6 +1296,7 @@
         "channelId": 19513
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "FHD ערוץ 9",
         "tvgName": "channel.9.il",
         "tvgId": "9-kanal-hd-il",
@@ -1160,6 +1305,7 @@
         "channelId": 6105
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "SD ערוץ 9",
         "tvgName": "channel.9.il",
         "tvgId": "9-kanal-hd-il",
@@ -1168,6 +1314,7 @@
         "channelId": 40334
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "MeTV HD",
         "tvgName": "metv.us",
         "tvgId": "MeTV.KSAT-DT2.us",
@@ -1176,6 +1323,7 @@
         "channelId": 23122
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "SD פוקס ביזנס",
         "tvgName": "fox.business.network.us",
         "tvgId": "Fox.Business.Network.HDTV.(FBNHD).us",
@@ -1184,6 +1332,7 @@
         "channelId": 42009
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "i 24 FHD",
         "tvgName": "i24-il",
         "tvgId": "i24-il",
@@ -1192,6 +1341,7 @@
         "channelId": 12299
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "SD מכאן 33",
         "tvgName": "makan.33.il",
         "tvgId": "makan33-il",
@@ -1200,6 +1350,7 @@
         "channelId": 40335
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "SD מכאן 33",
         "tvgName": "makan.33.il",
         "tvgId": "makan33-il",
@@ -1208,6 +1359,7 @@
         "channelId": 18132
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "HD ערוץ האלא",
         "tvgName": "hala.il",
         "tvgId": "Hala.TV.[HALA.TV].il",
@@ -1216,6 +1368,7 @@
         "channelId": 19381
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "SD ויוה",
         "tvgName": "viva.il",
         "tvgId": "viva-il",
@@ -1224,6 +1377,7 @@
         "channelId": 14531
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "SD ויוה+",
         "tvgName": "viva.plus.il",
         "tvgId": "viva-plus-il",
@@ -1232,6 +1386,7 @@
         "channelId": 6101
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "SD הערוץ הים תיכוני",
         "tvgName": "mediterranean.channel.il",
         "tvgId": "yamtihoni-il",
@@ -1240,6 +1395,7 @@
         "channelId": 12031
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "SD ערוץ הדרמות הטורקיות+",
         "tvgName": "turkish.drama.channel.plus.il",
         "tvgId": "turkish-dramas-plus-il",
@@ -1248,6 +1404,7 @@
         "channelId": 34819
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "SD ערוץ הדרמות הטורקיות 2",
         "tvgName": "turkish.drama.channel.2.il",
         "tvgId": "ערוץ.הדרמות.הטורקיות.2.[Turkish.Drama.2].il",
@@ -1256,6 +1413,7 @@
         "channelId": 45726
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "SD הוט בוליווד",
         "tvgName": "hot.bollywood.il",
         "tvgId": "hot-bollywood-il",
@@ -1264,6 +1422,7 @@
         "channelId": 62379
     },
     {
+        "extGrp": "שפות זרות",
         "channelName": "SD יס בוליווד",
         "tvgName": "yes.bollywood.il",
         "tvgId": "yesBollywood.[Bollywood].il",
