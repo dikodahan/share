@@ -14,9 +14,10 @@ export function* liveGoDmGenerator(
     yield line;
   }
 
-  for (const { tvgId, tvgLogo, groupTitle, channelName, channelId } of LiveGoDm) {
+  for (const { tvgId, tvgLogo, extGrp, channelName, channelId } of LiveGoDm) {
     yield "";
-    yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" group-title="${groupTitle}",${channelName}`;
+    yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+    yield `#EXTGRP:${extGrp}`;
     yield `http://livego.club:8080/${username}/${password}/${channelId}`;
   }
 }

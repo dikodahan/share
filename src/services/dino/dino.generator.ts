@@ -14,9 +14,10 @@ export function* dinoGenerator(
     yield line;
   }
 
-  for (const { tvgId, tvgLogo, groupTitle, channelName, channelId } of Dino) {
+  for (const { tvgId, tvgLogo, extGrp, channelName, channelId } of Dino) {
     yield "";
-    yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" group-title="${groupTitle}",${channelName}`;
+    yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+    yield `#EXTGRP:${extGrp}`;
     yield `http://smart.cwdn.cx:80/${username}/${password}/${channelId}`;
   }
 }

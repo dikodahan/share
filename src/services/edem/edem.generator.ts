@@ -19,12 +19,13 @@ export function* edemGenerator(
   for (const {
     tvgId,
     tvgLogo,
-    groupTitle,
+    extGrp,
     channelName,
     channelId,
   } of Edem) {
     yield "";
-    yield `#EXTINF:0 group-title="${groupTitle}" tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="3",${channelName}`;
+    yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="3",${channelName}`;
+    yield `#EXTGRP:${extGrp}`;
     yield `${BASE_URL}/${token}/${channelId}/index.m3u`;
   }
 }

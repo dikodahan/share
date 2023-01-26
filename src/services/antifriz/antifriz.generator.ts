@@ -20,14 +20,15 @@ export function* antiFrizGenerator(
   for (const {
     tvgId,
     tvgLogo,
-    groupTitle,
+    extGrp,
     channelName,
     channelId,
     tvgRec,
     catchupDays,
   } of AntiFriz) {
     yield "";
-    yield `#EXTINF:0 group-title="${groupTitle}" tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
+    yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
+    yield `#EXTGRP:${extGrp}`;
     yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
   }
 }
