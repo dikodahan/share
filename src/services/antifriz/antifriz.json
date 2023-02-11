@@ -32,6 +32,16 @@
     {
         "extGrp": "ראשי",
         "groupTitle": "Israel: Main",
+        "tvgId": "ערוץ.14.[Channel.14.(Channel.20).HD].il",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Channel-14.png",
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ 14",
+        "channelId": "14-kanal-il"
+    },
+    {
+        "extGrp": "ראשי",
+        "groupTitle": "Israel: Main",
         "tvgId": "כאן.חינוכית.[Kan.Educational].il",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Kan-Chinuchit.png",
         "tvgRec": "7",
@@ -157,7 +167,7 @@
         "tvgRec": "7",
         "catchupDays": "7",
         "channelName": "ערוץ ההומור",
-        "channelId": "14-kanal-il"
+        "channelId": "humor-channel-il-hd"
     },
     {
         "extGrp": "ערוצי יס",
