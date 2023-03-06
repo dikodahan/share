@@ -352,6 +352,16 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
+        "tvgId": "cinema-family-il-hd",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Cinema-Family.png",
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט סינמה משפחה",
+        "channelId": "cinema-family-il-hd"
+    },
+    {
+        "extGrp": "ערוצי הוט",
+        "groupTitle": "Israel: HOT",
         "tvgId": "hot-hbo-il",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-HBO.png",
         "tvgRec": "7",
@@ -522,6 +532,16 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
+        "tvgId": "hot-real-il-hd",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Reality.png",
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט ריאליטי",
+        "channelId": "hot-real-il-hd"
+    },
+    {
+        "extGrp": "תרבות וסטייל",
+        "groupTitle": "Israel: Style & Culture",
         "tvgId": "CBS.reality.[CBS.Reality].il",
         "tvgLogo": "https://dikodahan.github.io/picons/light/CBS-Reality.png",
         "tvgRec": "7",
@@ -652,6 +672,16 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
+        "tvgId": "viva-premium-il-hd",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Viva-Premium.png",
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ויוה פרימיום",
+        "channelId": "viva-premium-il-hd"
+    },
+    {
+        "extGrp": "שפות זרות",
+        "groupTitle": "Israel: Foreign Languages",
         "tvgId": "ים.תיכוני.[Mediterranean.Channel].il",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yam-Tihoni.png",
         "tvgRec": "7",
@@ -662,12 +692,42 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
+        "tvgId": "Mediterranean.Plus].il[.+הערוץ.הים.תיכוני",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Yam-Tihoni-Plus.png",
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הערוץ הים תיכוני+",
+        "channelId": "yam-tichoni-plus-hd"
+    },
+    {
+        "extGrp": "שפות זרות",
+        "groupTitle": "Israel: Foreign Languages",
         "tvgId": "ערוץ.הדרמות.הטורקיות+.[Turkish.Drama].il",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Turkish-Drama-Plus.png",
         "tvgRec": "7",
         "catchupDays": "7",
         "channelName": "ערוץ הדרמות הטורקיות+",
         "channelId": "turkish-dramas-plus-il"
+    },
+    {
+        "extGrp": "שפות זרות",
+        "groupTitle": "Israel: Foreign Languages",
+        "tvgId": "ערוץ.הדרמות.הטורקיות.2.[Turkish.Drama.2].il",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Turkish-Drama-2.png",
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ הדרמות הטורקיות 2",
+        "channelId": "turkish-dramas2-il-hd"
+    },
+    {
+        "extGrp": "שפות זרות",
+        "groupTitle": "Israel: Foreign Languages",
+        "tvgId": "ערוץ.הדרמות.הטורקיות.3.[Turkish.Drama.3].il",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Turkish-Drama-3.png",
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ הדרמות הטורקיות 3",
+        "channelId": "turkish-dramas3-il-hd"
     },
     {
         "extGrp": "שפות זרות",
