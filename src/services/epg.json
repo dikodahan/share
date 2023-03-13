@@ -1,5 +1,6 @@
 {
-    "preferred": "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz",
-    "secondary": "https://antifriztv.com/xmltv.xml.gz",
+    "preferred": "https://github.com/dikodahan/share02/raw/main/src/DikoPlusEPG.xml.gz",
+    "secondary": "https://epgshare01.online/epgshare01/epg_ripper_ALL_SOURCES1.xml.gz",
+    "tertiary": "https://antifriztv.com/xmltv.xml.gz",
     "alternative": "http://epg.it999.ru/epg2.xml.gz"
 }
