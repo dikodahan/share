@@ -1160,6 +1160,14 @@
         "channelId": 930
     },
     {
+        "channelName": "i 24 FHD",
+        "tvgName": "i24.il",
+        "tvgId": "FRANCE 24 [FRANCE 24]",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/France-24-DM.png",
+        "extGrp": "חדשות מהעולם",
+        "channelId": 12299
+    },
+    {
         "channelName": "FHD ערוץ 9",
         "tvgName": "channel.9.il",
         "tvgId": "ישראל פלוס [Israel Plus (9)]",
@@ -1174,14 +1182,6 @@
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Channel-9-DM.png",
         "extGrp": "שפות זרות",
         "channelId": 40334
-    },
-    {
-        "channelName": "i 24 FHD",
-        "tvgName": "i24.il",
-        "tvgId": "FRANCE 24 [FRANCE 24]",
-        "tvgLogo": "https://dikodahan.github.io/picons/dark/France-24-DM.png",
-        "extGrp": "שפות זרות",
-        "channelId": 12299
     },
     {
         "channelName": "SD מכאן 33",
