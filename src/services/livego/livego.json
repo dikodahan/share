@@ -720,6 +720,14 @@
         "channelId": 6109
     },
     {
+        "channelName": "FHD הוט סינמה משפחה",
+        "tvgName": "hot.cinema.family",
+        "tvgId": "Cinema Family",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Cinema-Family.png",
+        "extGrp": "ערוצי הוט",
+        "channelId": 41501
+    },
+    {
         "channelName": "HOT HBO HD",
         "tvgName": "hot.hbo.il",
         "tvgId": "HOT HBO",
@@ -758,14 +766,6 @@
         "tvgLogo": "https://dikodahan.github.io/picons/light/Hop-Yaldot.png",
         "extGrp": "ילדים",
         "channelId": 6114
-    },
-    {
-        "channelName": "SD הופ! ילדות ישראלית",
-        "tvgName": "hop.yaldut.israelit.il",
-        "tvgId": "ילדות ישראלית [HOP! Childhood]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Hop-Yaldot.png",
-        "extGrp": "ילדים",
-        "channelId": 41501
     },
     {
         "channelName": "HD דיסני",
@@ -1248,19 +1248,19 @@
         "channelId": 45726
     },
     {
-        "channelName": "SD הוט בוליווד",
-        "tvgName": "hot.bollywood.il",
-        "tvgId": "BOLLYWOOD HD",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Bollywood.png",
-        "extGrp": "שפות זרות",
-        "channelId": 62379
-    },
-    {
-        "channelName": "SD יס בוליווד",
+        "channelName": "HD הוט בוליווד",
         "tvgName": "yes.bollywood.il",
         "tvgId": "BOLLYWOOD HD",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Bollywood.png",
         "extGrp": "שפות זרות",
         "channelId": 20368
+    },
+    {
+        "channelName": "HD הוט בוליווד",
+        "tvgName": "yes.bollywood.il",
+        "tvgId": "BOLLYWOOD HD",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Bollywood.png",
+        "extGrp": "שפות זרות",
+        "channelId": 12028
     }
 ]
