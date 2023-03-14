@@ -904,6 +904,14 @@
         "channelId": 42008
     },
     {
+        "channelName": "מוזיקה קלאסית",
+        "tvgName": "stingray.classic",
+        "tvgId": "CLASSICA [Classica HD]",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Stingray-Classica-DM.png",
+        "extGrp": "מוזיקה",
+        "channelId": 58502
+    },
+    {
         "channelName": "SD אנימל פלאנט",
         "tvgName": "animal.planet.il",
         "tvgId": "Animal Planet [ANIMAL PLANET]",
