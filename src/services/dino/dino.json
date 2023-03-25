@@ -498,7 +498,7 @@
     {
       "channelName"     : "הוט 8",
       "tvgName"         : "IS - HOT CHANNEL 8 UHD",
-      "tvgId"           : "ערוץ 8",
+      "tvgId"           : "HOT8",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-8.png",
       "extGrp"          : "ערוצי הוט",
       "channelId"       : 260766
@@ -514,7 +514,7 @@
     {
       "channelName"     : "הוט קומדי סנטרל",
       "tvgName"         : "IS - HOT COMEDY CENTRAL UHD",
-      "tvgId"           : "HOT קומדי סנטרל",
+      "tvgId"           : "HOT COMEDY",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Comedy-Central.png",
       "extGrp"          : "ערוצי הוט",
       "channelId"       : 260775
@@ -522,7 +522,7 @@
     {
       "channelName"     : "הוט בידור ישראלי",
       "tvgName"         : "IS - HOT ENTERTAINMENT UHD",
-      "tvgId"           : "HOT בידור ישראלי",
+      "tvgId"           : "הוט בידור",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Bidur.png",
       "extGrp"          : "ערוצי הוט",
       "channelId"       : 260767
@@ -562,7 +562,7 @@
     {
       "channelName"     : "הוט סינמה 4",
       "tvgName"         : "IS - HOT DRAMA UHD",
-      "tvgId"           : "HOT DRAMA HD",
+      "tvgId"           : "HOT cinema 4",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-C4.png",
       "extGrp"          : "ערוצי הוט",
       "channelId"       : 260771
@@ -1056,9 +1056,9 @@
       "channelId"       : 260802
     },
     {
-      "channelName"     : "מוזיקה il",
+      "channelName"     : "ערוץ מוזיקה IL",
       "tvgName"         : "IS - MUSIC IL FHD",
-      "tvgId"           : "מוזיקה il",
+      "tvgId"           : "ערוץ מוזיקה IL",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/Music-il.png",
       "extGrp"          : "תרבות וסטייל",
       "channelId"       : 812453
@@ -1178,7 +1178,7 @@
     {
       "channelName"     : "הוט בוליווד",
       "tvgName"         : "IS - HOT BOLLYWOOD UHD",
-      "tvgId"           : "BOLLYWOOD HD",
+      "tvgId"           : "Bollywood HD",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Bollywood.png",
       "extGrp"          : "שפות זרות",
       "channelId"       : 260764

@@ -610,7 +610,7 @@
     {
         "channelName": "SD הוט 8",
         "tvgName": "hot.8.il",
-        "tvgId": "ערוץ 8",
+        "tvgId": "HOT8",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/HOT-8-DM.png",
         "extGrp": "ערוצי הוט",
         "channelId": 8141
@@ -626,7 +626,7 @@
     {
         "channelName": "SD הוט קומדי סנטרל",
         "tvgName": "hot.comedy.central.il",
-        "tvgId": "HOT קומדי סנטרל",
+        "tvgId": "HOT COMEDY",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/HOT-Comedy-Central-DM.png",
         "extGrp": "ערוצי הוט",
         "channelId": 6104
@@ -634,7 +634,7 @@
     {
         "channelName": "SD הוט בידור ישראלי",
         "tvgName": "hot.bidur.israeli.il",
-        "tvgId": "HOT בידור ישראלי",
+        "tvgId": "הוט בידור",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/HOT-Bidur-DM.png",
         "extGrp": "ערוצי הוט",
         "channelId": 6102
@@ -698,7 +698,7 @@
     {
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "HOT DRAMA HD",
+        "tvgId": "HOT cinema 4",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/HOT-C4-DM.png",
         "extGrp": "ערוצי הוט",
         "channelId": 64339
@@ -706,7 +706,7 @@
     {
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "HOT DRAMA HD",
+        "tvgId": "HOT cinema 4",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/HOT-C4-DM.png",
         "extGrp": "ערוצי הוט",
         "channelId": 25823
@@ -714,7 +714,7 @@
     {
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "HOT DRAMA HD",
+        "tvgId": "HOT cinema 4",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/HOT-C4-DM.png",
         "extGrp": "ערוצי הוט",
         "channelId": 6109
@@ -1042,7 +1042,7 @@
     {
         "channelName": "HD רשת האוכל",
         "tvgName": "food.network.il",
-        "tvgId": "FOOD NETWORK SD",
+        "tvgId": "Food Network",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Food-Network-DM.png",
         "extGrp": "תרבות וסטייל",
         "channelId": 22645
@@ -1114,7 +1114,7 @@
     {
         "channelName": "SD ערוץ הטיולים",
         "tvgName": "travel.channel.sd.il",
-        "tvgId": "TRAVEL CHANNEL SD",
+        "tvgId": "Travel Channel",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Travel-Channel-DM.png",
         "extGrp": "תרבות וסטייל",
         "channelId": 7340
@@ -1258,7 +1258,7 @@
     {
         "channelName": "HD הוט בוליווד",
         "tvgName": "yes.bollywood.il",
-        "tvgId": "BOLLYWOOD HD",
+        "tvgId": "Bollywood HD",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Bollywood-DM.png",
         "extGrp": "שפות זרות",
         "channelId": 20368
@@ -1266,7 +1266,7 @@
     {
         "channelName": "HD הוט בוליווד",
         "tvgName": "yes.bollywood.il",
-        "tvgId": "BOLLYWOOD HD",
+        "tvgId": "Bollywood HD",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Bollywood-DM.png",
         "extGrp": "שפות זרות",
         "channelId": 12028

@@ -444,7 +444,7 @@
       "extGrp"          : "ערוצי הוט",
       "channelName"     : "הוט 8",
       "tvgName"         : "IL: HOT 8",
-      "tvgId"           : "ערוץ 8",
+      "tvgId"           : "HOT8",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-8.png",
       "groupTitle"      : "IL: HOT",
       "channelId"       : 2419895
@@ -462,7 +462,7 @@
       "extGrp"          : "ערוצי הוט",
       "channelName"     : "הוט קומדי סנטרל",
       "tvgName"         : "IL: HOT COMEDY CENTRAL",
-      "tvgId"           : "HOT קומדי סנטרל",
+      "tvgId"           : "HOT COMEDY",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Comedy-Central.png",
       "groupTitle"      : "IL: HOT",
       "channelId"       : 2419904
@@ -471,7 +471,7 @@
       "extGrp"          : "ערוצי הוט",
       "channelName"     : "הוט בידור ישראלי",
       "tvgName"         : "IL: HOT BIDUR",
-      "tvgId"           : "HOT בידור ישראלי",
+      "tvgId"           : "הוט בידור",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Bidur.png",
       "groupTitle"      : "IL: HOT",
       "channelId"       : 2419905
@@ -507,7 +507,7 @@
       "extGrp"          : "ערוצי הוט",
       "channelName"     : "הוט סינמה 4",
       "tvgName"         : "IL: HOT CINEMA 4",
-      "tvgId"           : "HOT DRAMA HD",
+      "tvgId"           : "HOT cinema 4",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-C4.png",
       "groupTitle"      : "IL: HOT",
       "channelId"       : 2419902
@@ -939,7 +939,7 @@
       "extGrp"          : "שפות זרות",
       "channelName"     : "הוט בוליווד",
       "tvgName"         : "IL: HOT BOLLYSHOW",
-      "tvgId"           : "BOLLYWOOD HD",
+      "tvgId"           : "Bollywood HD",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Bollywood.png",
       "groupTitle"      : "IL: Foreign Languages",
       "channelId"       : 2419907
@@ -948,7 +948,7 @@
       "extGrp"          : "שפות זרות",
       "channelName"     : "הוט בוליווד",
       "tvgName"         : "IL: HOT BOLLYWOOD",
-      "tvgId"           : "BOLLYWOOD HD",
+      "tvgId"           : "Bollywood HD",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Bollywood.png",
       "groupTitle"      : "IL: Foreign Languages",
       "channelId"       : 2419906

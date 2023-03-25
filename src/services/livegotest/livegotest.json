@@ -705,7 +705,7 @@
         "extGrp": "ערוצי הוט",
         "channelName": "SD הוט 8",
         "tvgName": "hot.8.il",
-        "tvgId": "ערוץ 8",
+        "tvgId": "HOT8",
         "tvgLogo": "https://i.ibb.co/kGg4c26/HOT-8.png",
         "groupTitle": "Israel: HOT",
         "channelId": 8141
@@ -723,7 +723,7 @@
         "extGrp": "ערוצי הוט",
         "channelName": "SD הוט קומדי סנטרל",
         "tvgName": "hot.comedy.central.il",
-        "tvgId": "HOT קומדי סנטרל",
+        "tvgId": "HOT COMEDY",
         "tvgLogo": "https://i.ibb.co/HDVknX5/HOT-Comedy-Central.png",
         "groupTitle": "Israel: HOT",
         "channelId": 6104
@@ -732,7 +732,7 @@
         "extGrp": "ערוצי הוט",
         "channelName": "SD הוט בידור ישראלי",
         "tvgName": "hot.bidur.israeli.il",
-        "tvgId": "HOT בידור ישראלי",
+        "tvgId": "הוט בידור",
         "tvgLogo": "https://i.ibb.co/5jcfbhy/HOT-Bidur.png",
         "groupTitle": "Israel: HOT",
         "channelId": 6102
@@ -804,7 +804,7 @@
         "extGrp": "ערוצי הוט",
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "HOT DRAMA HD",
+        "tvgId": "HOT cinema 4",
         "tvgLogo": "https://i.ibb.co/KNfwwwJ/HOT-C4.png",
         "groupTitle": "Israel: HOT",
         "channelId": 64339
@@ -813,7 +813,7 @@
         "extGrp": "ערוצי הוט",
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "HOT DRAMA HD",
+        "tvgId": "HOT cinema 4",
         "tvgLogo": "https://i.ibb.co/KNfwwwJ/HOT-C4.png",
         "groupTitle": "Israel: HOT",
         "channelId": 25823
@@ -822,7 +822,7 @@
         "extGrp": "ערוצי הוט",
         "channelName": "SD הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "HOT DRAMA HD",
+        "tvgId": "HOT cinema 4",
         "tvgLogo": "https://i.ibb.co/KNfwwwJ/HOT-C4.png",
         "groupTitle": "Israel: HOT",
         "channelId": 6109
@@ -1182,7 +1182,7 @@
         "extGrp": "תרבות וסטייל",
         "channelName": "HD רשת האוכל",
         "tvgName": "food.network.il",
-        "tvgId": "FOOD NETWORK SD",
+        "tvgId": "Food Network",
         "tvgLogo": "https://i.ibb.co/jTZj08R/Food-Network.png",
         "groupTitle": "Israel: Style Living",
         "channelId": 22645
@@ -1272,7 +1272,7 @@
         "extGrp": "תרבות וסטייל",
         "channelName": "SD ערוץ הטיולים",
         "tvgName": "travel.channel.sd.il",
-        "tvgId": "TRAVEL CHANNEL SD",
+        "tvgId": "Travel Channel",
         "tvgLogo": "https://i.ibb.co/LkrRJqk/Travel-Channel.png",
         "groupTitle": "Israel: Style Living",
         "channelId": 7340
@@ -1416,7 +1416,7 @@
         "extGrp": "שפות זרות",
         "channelName": "SD הוט בוליווד",
         "tvgName": "hot.bollywood.il",
-        "tvgId": "BOLLYWOOD HD",
+        "tvgId": "Bollywood HD",
         "tvgLogo": "https://i.ibb.co/pyDNKw1/hot-Bollywood.png",
         "groupTitle": "Israel: Foreign Languages",
         "channelId": 62379
@@ -1425,7 +1425,7 @@
         "extGrp": "שפות זרות",
         "channelName": "SD יס בוליווד",
         "tvgName": "yes.bollywood.il",
-        "tvgId": "BOLLYWOOD HD",
+        "tvgId": "Bollywood HD",
         "tvgLogo": "https://i.ibb.co/LP0Nc1d/yes-Bollywoo-D.png",
         "groupTitle": "Israel: Foreign Languages",
         "channelId": 20368

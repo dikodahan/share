@@ -730,7 +730,7 @@
     {
       "channelName"     : "הוט 8",
       "tvgName"         : "|IL| HOT 8",
-      "tvgId"           : "ערוץ 8",
+      "tvgId"           : "HOT8",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-8.png",
       "extGrp"          : "ערוצי הוט",
       "channelId"       : 233299
@@ -754,7 +754,7 @@
     {
       "channelName"     : "הוט קומדי סנטרל",
       "tvgName"         : "|IL| HOT COMEDY CENTRAL",
-      "tvgId"           : "HOT קומדי סנטרל",
+      "tvgId"           : "HOT COMEDY",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Comedy-Central.png",
       "extGrp"          : "ערוצי הוט",
       "channelId"       : 233304
@@ -762,7 +762,7 @@
     {
       "channelName"     : "הוט בידור ישראלי",
       "tvgName"         : "|IL| ENTERTAINMENT",
-      "tvgId"           : "HOT בידור ישראלי",
+      "tvgId"           : "הוט בידור",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Bidur.png",
       "extGrp"          : "ערוצי הוט",
       "channelId"       : 9853
@@ -818,7 +818,7 @@
     {
       "channelName"     : "הוט סינמה 4",
       "tvgName"         : "|IL| HOT CINEMA 4",
-      "tvgId"           : "HOT DRAMA HD",
+      "tvgId"           : "HOT cinema 4",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-C4.png",
       "extGrp"          : "ערוצי הוט",
       "channelId"       : 233307
@@ -826,7 +826,7 @@
     {
       "channelName"     : "הוט סינמה 4",
       "tvgName"         : "|IL| FUN HD",
-      "tvgId"           : "HOT DRAMA HD",
+      "tvgId"           : "HOT cinema 4",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-C4.png",
       "extGrp"          : "ערוצי הוט",
       "channelId"       : 9901
@@ -1234,7 +1234,7 @@
     {
       "channelName"     : "הוט בוליווד",
       "tvgName"         : "|IL| HOT BOLLYWOOD",
-      "tvgId"           : "BOLLYWOOD HD",
+      "tvgId"           : "Bollywood HD",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Bollywood.png",
       "extGrp"      : "שפות זרות",
       "channelId"       : 233303

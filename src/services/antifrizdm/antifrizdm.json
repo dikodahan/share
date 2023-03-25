@@ -272,12 +272,12 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "ערוץ 8",
+        "tvgId": "HOT8",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-8-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
         "channelName": "הוט 8",
-        "channelId": "ערוץ 8"
+        "channelId": "HOT8"
     },
     {
         "extGrp": "ערוצי הוט",
@@ -292,22 +292,22 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT קומדי סנטרל",
+        "tvgId": "HOT COMEDY",
         "tvgLogo": "hhttps://dikodahan.github.io/picons/light/HOT-Comedy-Central-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
         "channelName": "הוט קומדי סנטרל",
-        "channelId": "HOT קומדי סנטרל"
+        "channelId": "HOT COMEDY"
     },
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT בידור ישראלי",
+        "tvgId": "הוט בידור",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Bidur-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
         "channelName": "הוט בידור ישראלי",
-        "channelId": "HOT בידור ישראלי"
+        "channelId": "הוט בידור"
     },
     {
         "extGrp": "ערוצי הוט",
@@ -342,12 +342,12 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT DRAMA HD",
+        "tvgId": "HOT cinema 4",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C4-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
         "channelName": "הוט סינמה 4",
-        "channelId": "HOT DRAMA HD"
+        "channelId": "HOT cinema 4"
     },
     {
         "extGrp": "ערוצי הוט",
@@ -582,7 +582,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "מוזיקה il",
+        "tvgId": "ערוץ מוזיקה IL",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Music-il-DM.png",
         "tvgRec": "0",
         "catchupDays": "0",
@@ -732,7 +732,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "BOLLYWOOD HD",
+        "tvgId": "Bollywood HD",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Bollywood-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",

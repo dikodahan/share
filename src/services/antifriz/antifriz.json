@@ -272,7 +272,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "ערוץ 8",
+        "tvgId": "HOT8",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-8.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -292,7 +292,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT קומדי סנטרל",
+        "tvgId": "HOT COMEDY",
         "tvgLogo": "hhttps://dikodahan.github.io/picons/light/HOT-Comedy-Central.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -302,7 +302,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT בידור ישראלי",
+        "tvgId": "הוט בידור",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Bidur.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -342,7 +342,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT DRAMA HD",
+        "tvgId": "HOT cinema 4",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C4.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -582,7 +582,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "מוזיקה il",
+        "tvgId": "ערוץ מוזיקה IL",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Music-il.png",
         "tvgRec": "0",
         "catchupDays": "0",
@@ -732,7 +732,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "BOLLYWOOD HD",
+        "tvgId": "Bollywood HD",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Bollywood.png",
         "tvgRec": "7",
         "catchupDays": "7",

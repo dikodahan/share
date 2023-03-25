@@ -434,7 +434,7 @@
   {
     "channelName"     : "הוט 8",
     "tvgName"         : "",
-    "tvgId"           : "ערוץ 8",
+    "tvgId"           : "HOT8",
     "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-8.png",
     "extGrp"          : "IL: HOT",
     "tvgRec"          : 0,
@@ -461,7 +461,7 @@
   {
     "channelName"     : "הוט קומדי סנטרל",
     "tvgName"         : "",
-    "tvgId"           : "HOT קומדי סנטרל",
+    "tvgId"           : "HOT COMEDY",
     "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Comedy-Central.png",
     "extGrp"          : "IL: HOT",
     "tvgRec"          : 0,
@@ -470,7 +470,7 @@
   {
     "channelName"     : "הוט בידור ישראלי",
     "tvgName"         : "",
-    "tvgId"           : "HOT בידור ישראלי",
+    "tvgId"           : "הוט בידור",
     "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Bidur.png",
     "extGrp"          : "IL: HOT",
     "tvgRec"          : 3,
@@ -479,7 +479,7 @@
   {
     "channelName"     : "הוט בידור ישראלי",
     "tvgName"         : "",
-    "tvgId"           : "HOT בידור ישראלי",
+    "tvgId"           : "הוט בידור",
     "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Bidur.png",
     "extGrp"          : "IL: HOT",
     "tvgRec"          : 0,
@@ -542,7 +542,7 @@
   {
     "channelName"     : "הוט סינמה 4",
     "tvgName"         : "",
-    "tvgId"           : "HOT DRAMA HD",
+    "tvgId"           : "HOT cinema 4",
     "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-C4.png",
     "extGrp"          : "IL: HOT",
     "tvgRec"          : 3,
@@ -551,7 +551,7 @@
   {
     "channelName"     : "הוט סינמה 4",
     "tvgName"         : "",
-    "tvgId"           : "HOT DRAMA HD",
+    "tvgId"           : "HOT cinema 4",
     "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-C4.png",
     "extGrp"          : "IL: HOT",
     "tvgRec"          : 0,
@@ -857,7 +857,7 @@
   {
     "channelName"     : "il מוזיקה",
     "tvgName"         : "",
-    "tvgId"           : "מוזיקה il",
+    "tvgId"           : "ערוץ מוזיקה IL",
     "tvgLogo"         : "https://dikodahan.github.io/picons/light/Music-il.png",
     "extGrp"          : "IL: Culture & Style",
     "tvgRec"          : 0,
@@ -992,7 +992,7 @@
   {
     "channelName"     : "הוט בוליווד",
     "tvgName"         : "",
-    "tvgId"           : "BOLLYWOOD HD",
+    "tvgId"           : "Bollywood HD",
     "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Bollywood.png",
     "extGrp"          : "IL: Foreign Languages",
     "tvgRec"          : 0,
