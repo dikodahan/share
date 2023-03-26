@@ -714,7 +714,7 @@
         "extGrp": "ערוצי הוט",
         "channelName": "SD הוט זון",
         "tvgName": "hot.zone.il",
-        "tvgId": "Hot Zone",
+        "tvgId": "HOT Zone"
         "tvgLogo": "https://i.ibb.co/3CrKZpP/HOT-Zone.png",
         "groupTitle": "Israel: HOT",
         "channelId": 6107
@@ -1326,7 +1326,7 @@
         "extGrp": "שפות זרות",
         "channelName": "SD פוקס ביזנס",
         "tvgName": "fox.business.network.us",
-        "tvgId": "Fox Business",
+        "tvgId": "פוקס ביזנס",
         "tvgLogo": "https://i.ibb.co/Hr2DxRR/fox-business.png",
         "groupTitle": "Israel: Foreign Languages",
         "channelId": 42009

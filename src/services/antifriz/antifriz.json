@@ -282,7 +282,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "Hot Zone",
+        "tvgId": "HOT Zone"
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Zone.png",
         "tvgRec": "7",
         "catchupDays": "7",

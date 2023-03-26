@@ -618,7 +618,7 @@
     {
         "channelName": "SD הוט זון",
         "tvgName": "hot.zone.il",
-        "tvgId": "Hot Zone",
+        "tvgId": "HOT Zone"
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Zone.png",
         "extGrp": "ערוצי הוט",
         "channelId": 6107
@@ -1146,7 +1146,7 @@
     {
         "channelName": "SD פוקס ביזנס",
         "tvgName": "fox.business.network.us",
-        "tvgId": "Fox Business",
+        "tvgId": "פוקס ביזנס",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Fox-Business.png",
         "extGrp": "חדשות מהעולם",
         "channelId": 42009
