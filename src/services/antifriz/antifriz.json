@@ -2,7 +2,7 @@
     {
         "extGrp": "ראשי",
         "groupTitle": "Israel: Main",
-        "tvgId": "כאן 11 [Kan HD]",
+        "tvgId": "כאן 11 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Kan-11.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -12,7 +12,7 @@
     {
         "extGrp": "ראשי",
         "groupTitle": "Israel: Main",
-        "tvgId": "קשת [Keshet HD]",
+        "tvgId": "קשת [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Keshet-12.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -22,7 +22,7 @@
     {
         "extGrp": "ראשי",
         "groupTitle": "Israel: Main",
-        "tvgId": "רשת [Reshet HD]",
+        "tvgId": "רשת [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Reshet-13.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -32,7 +32,7 @@
     {
         "extGrp": "ראשי",
         "groupTitle": "Israel: Main",
-        "tvgId": "ערוץ 14 [Channel 14 HD]",
+        "tvgId": "ערוץ 14 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Channel-14.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -42,7 +42,7 @@
     {
         "extGrp": "ראשי",
         "groupTitle": "Israel: Main",
-        "tvgId": "כאן חינוכית [Kan Educational]",
+        "tvgId": "כאן חינוכית [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Kan-Chinuchit.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -52,7 +52,7 @@
     {
         "extGrp": "ספורט",
         "groupTitle": "Israel: Sports",
-        "tvgId": "ספורט 1 SD [Sport 1 single (63)]",
+        "tvgId": "ספורט 1 SD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport1.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -62,7 +62,7 @@
     {
         "extGrp": "ספורט",
         "groupTitle": "Israel: Sports",
-        "tvgId": "ספורט 2 HD [Sport 2 HD]",
+        "tvgId": "ספורט 2 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport2.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -72,7 +72,7 @@
     {
         "extGrp": "ספורט",
         "groupTitle": "Israel: Sports",
-        "tvgId": "ספורט 3 HD [Sport 3 HD]",
+        "tvgId": "ספורט 3 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport3.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -82,7 +82,7 @@
     {
         "extGrp": "ספורט",
         "groupTitle": "Israel: Sports",
-        "tvgId": "ספורט 4 HD [Sport 4 HD]",
+        "tvgId": "ספורט 4 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport4.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -92,7 +92,7 @@
     {
         "extGrp": "ספורט",
         "groupTitle": "Israel: Sports",
-        "tvgId": "5sport HD [Sport 5 HD (55)]",
+        "tvgId": "5sport HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Sport.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -102,7 +102,7 @@
     {
         "extGrp": "ספורט",
         "groupTitle": "Israel: Sports",
-        "tvgId": "5SPORT 4K [Sport 5 4K]",
+        "tvgId": "5SPORT 4K [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Sport-4K.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -112,7 +112,7 @@
     {
         "extGrp": "ספורט",
         "groupTitle": "Israel: Sports",
-        "tvgId": "5PLUS HD [Sport 5+ HD (56)]",
+        "tvgId": "5PLUS HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Plus.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -122,7 +122,7 @@
     {
         "extGrp": "ספורט",
         "groupTitle": "Israel: Sports",
-        "tvgId": "5LIVE HD [Sport 5 Live HD (58)]",
+        "tvgId": "5LIVE HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Live.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -132,7 +132,7 @@
     {
         "extGrp": "ספורט",
         "groupTitle": "Israel: Sports",
-        "tvgId": "5STARS [Sport 5 Stars HD (59)]",
+        "tvgId": "5STARS [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Stars.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -142,7 +142,7 @@
     {
         "extGrp": "ספורט",
         "groupTitle": "Israel: Sports",
-        "tvgId": "ONE [ONE HD]",
+        "tvgId": "ONE [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/ONE.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -152,7 +152,7 @@
     {
         "extGrp": "ספורט",
         "groupTitle": "Israel: Sports",
-        "tvgId": "ONE2 [ONE2 HD]",
+        "tvgId": "ONE2 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/ONE2.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -162,7 +162,7 @@
     {
         "extGrp": "ערוצי יס",
         "groupTitle": "Israel: YES",
-        "tvgId": "ערוץ ההומור [Humor Channel]",
+        "tvgId": "ערוץ ההומור [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Humor-Channel.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -172,7 +172,7 @@
     {
         "extGrp": "ערוצי יס",
         "groupTitle": "Israel: YES",
-        "tvgId": "yes TV ACTION [yes TV Action]",
+        "tvgId": "yes TV ACTION [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Action.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -182,7 +182,7 @@
     {
         "extGrp": "ערוצי יס",
         "groupTitle": "Israel: YES",
-        "tvgId": "yes TV COMEDY [yes TV Comedy]",
+        "tvgId": "yes TV COMEDY [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Comedy.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -192,7 +192,7 @@
     {
         "extGrp": "ערוצי יס",
         "groupTitle": "Israel: YES",
-        "tvgId": "yes TV DRAMA [yes TV Drama]",
+        "tvgId": "yes TV DRAMA [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Drama.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -202,7 +202,7 @@
     {
         "extGrp": "ערוצי יס",
         "groupTitle": "Israel: YES",
-        "tvgId": "yes MOVIES ACTION [yes Movies Action]",
+        "tvgId": "yes MOVIES ACTION [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Action.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -212,7 +212,7 @@
     {
         "extGrp": "ערוצי יס",
         "groupTitle": "Israel: YES",
-        "tvgId": "yes MOVIES COMEDY [yes Movies Comedy]",
+        "tvgId": "yes MOVIES COMEDY [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Comedy.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -222,7 +222,7 @@
     {
         "extGrp": "ערוצי יס",
         "groupTitle": "Israel: YES",
-        "tvgId": "yes MOVIES DRAMA [yes Movies Drama]",
+        "tvgId": "yes MOVIES DRAMA [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Drama.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -232,7 +232,7 @@
     {
         "extGrp": "ערוצי יס",
         "groupTitle": "Israel: YES",
-        "tvgId": "yes MOVIES KIDS [yes Movies Kids]",
+        "tvgId": "yes MOVIES KIDS [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Kids.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -242,7 +242,7 @@
     {
         "extGrp": "ערוצי יס",
         "groupTitle": "Israel: YES",
-        "tvgId": "yes קולנוע ישראלי [yes Israeli Cinema HD]",
+        "tvgId": "yes קולנוע ישראלי [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Israeli.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -252,7 +252,7 @@
     {
         "extGrp": "ערוצי יס",
         "groupTitle": "Israel: YES",
-        "tvgId": "yes דוקו [yes Docu HD]",
+        "tvgId": "yes דוקו [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Docu.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -262,7 +262,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT3",
+        "tvgId": "HOT3 [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-3.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -272,7 +272,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT8",
+        "tvgId": "HOT8 [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-8.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -282,7 +282,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT Zone",
+        "tvgId": "HOT Zone [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Zone.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -292,7 +292,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT COMEDY",
+        "tvgId": "HOT COMEDY [HOT]",
         "tvgLogo": "hhttps://dikodahan.github.io/picons/light/HOT-Comedy-Central.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -302,7 +302,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "הוט בידור",
+        "tvgId": "הוט בידור [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Bidur.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -312,7 +312,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT cinema 1",
+        "tvgId": "HOT cinema 1 [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C1.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -322,7 +322,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT cinema 2",
+        "tvgId": "HOT cinema 2 [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C2.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -332,7 +332,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT cinema 3",
+        "tvgId": "HOT cinema 3 [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C3.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -342,7 +342,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT cinema 4",
+        "tvgId": "HOT cinema 4 [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C4.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -352,7 +352,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "Cinema Family",
+        "tvgId": "Cinema Family [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Cinema-Family.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -362,7 +362,7 @@
     {
         "extGrp": "ערוצי הוט",
         "groupTitle": "Israel: HOT",
-        "tvgId": "HOT HBO",
+        "tvgId": "HOT HBO [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-HBO.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -372,7 +372,7 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "דיסני HD [Disney HD]",
+        "tvgId": "דיסני HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Disney.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -382,7 +382,7 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "דיסני ג’וניור [Disney Junior]",
+        "tvgId": "דיסני ג’וניור [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Disney-Jr.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -392,7 +392,7 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "ניקלודיאון [Nickelodeon]",
+        "tvgId": "ניקלודיאון [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Nick.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -402,7 +402,7 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "ניק ג’וניור [NICK Junior]",
+        "tvgId": "ניק ג’וניור [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Nick-Jr.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -412,7 +412,7 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "Teennick [TeenNick]",
+        "tvgId": "Teennick [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/TeenNick.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -422,7 +422,7 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "הופ! [HOP]",
+        "tvgId": "הופ! [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Hop.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -432,7 +432,7 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "HOT לולי",
+        "tvgId": "HOT לולי [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Luli.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -442,7 +442,7 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "בייבי [Baby]",
+        "tvgId": "בייבי [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Baby.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -452,7 +452,7 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "Zoom [ZOOM]",
+        "tvgId": "Zoom [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Zoom.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -462,7 +462,7 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "ערוץ WiZ [WiZ]",
+        "tvgId": "ערוץ WiZ [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Wiz.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -472,7 +472,7 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "ג’וניור [Junior]",
+        "tvgId": "ג’וניור [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Junior.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -482,7 +482,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "ערוץ הטיולים [Travel Channel]",
+        "tvgId": "ערוץ הטיולים [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Hatiyulim.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -492,7 +492,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "בית+ [Home and Family]",
+        "tvgId": "בית+ [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Home-Plus.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -502,7 +502,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "ערוץ האוכל [Food Channel]",
+        "tvgId": "ערוץ האוכל [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Haochel.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -512,7 +512,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "ערוץ בריאות [Health Channel]",
+        "tvgId": "ערוץ בריאות [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Health.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -522,7 +522,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "החיים הטובים [LifeStyle]",
+        "tvgId": "החיים הטובים [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Hachaim.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -532,7 +532,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "ערוץ הריאליטי [Reality Channel (Reshet)]",
+        "tvgId": "ערוץ הריאליטי [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Reality.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -542,7 +542,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "CBS reality [CBS Reality]",
+        "tvgId": "CBS reality [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/CBS-Reality.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -552,7 +552,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "ערוץ אגו [EGO]",
+        "tvgId": "ערוץ אגו [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Ego.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -562,7 +562,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "E! [E]",
+        "tvgId": "E! [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/E-Entertainment.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -572,7 +572,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "ערוץ 24 החדש [Music 24]",
+        "tvgId": "ערוץ 24 החדש [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Channel-24.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -582,7 +582,7 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "ערוץ מוזיקה IL",
+        "tvgId": "ערוץ מוזיקה IL [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Music-il.png",
         "tvgRec": "0",
         "catchupDays": "0",
@@ -592,7 +592,7 @@
     {
         "extGrp": "טבע והיסטוריה",
         "groupTitle": "Israel: Nature & History",
-        "tvgId": "National Geographic [National G. HD]",
+        "tvgId": "National Geographic [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/National-Geographic.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -602,7 +602,7 @@
     {
         "extGrp": "טבע והיסטוריה",
         "groupTitle": "Israel: Nature & History",
-        "tvgId": "NG WILD [National G. Wild HD]",
+        "tvgId": "NG WILD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Nat-Geo-Wild.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -612,7 +612,7 @@
     {
         "extGrp": "טבע והיסטוריה",
         "groupTitle": "Israel: Nature & History",
-        "tvgId": "דיסקברי HD [Discovery HD]",
+        "tvgId": "דיסקברי HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Discovery.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -622,7 +622,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "ישראל פלוס [Israel Plus (9)]",
+        "tvgId": "ישראל פלוס [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Channel-9.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -632,7 +632,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "מכאן [Makan]",
+        "tvgId": "מכאן [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Makan-33.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -642,7 +642,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "FRANCE 24 [FRANCE 24]",
+        "tvgId": "FRANCE 24 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/France-24.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -652,7 +652,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "ויוה [Viva]",
+        "tvgId": "ויוה [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Viva.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -662,7 +662,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "ויוה+ [Viva Plus]",
+        "tvgId": "ויוה+ [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Viva-Plus.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -672,7 +672,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "Viva Premium [Viva Premium]",
+        "tvgId": "Viva Premium [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Viva-Premium.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -682,7 +682,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "ים תיכוני [Mediterranean Channel]",
+        "tvgId": "ים תיכוני [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yam-Tihoni.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -692,7 +692,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "הערוץ הים תיכוני+ [Mediterranean Plus]",
+        "tvgId": "הערוץ הים תיכוני+ [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yam-Tihoni-Plus.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -702,7 +702,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "ערוץ הדרמות הטורקיות+ [Turkish Drama]",
+        "tvgId": "ערוץ הדרמות הטורקיות+ [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Turkish-Drama-Plus.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -712,7 +712,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "ערוץ הדרמות הטורקיות 2 [Turkish Drama 2]",
+        "tvgId": "ערוץ הדרמות הטורקיות 2 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Turkish-Drama-2.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -722,7 +722,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "ערוץ הדרמות הטורקיות 3 [Turkish Drama 3]",
+        "tvgId": "ערוץ הדרמות הטורקיות 3 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Turkish-Drama-3.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -732,7 +732,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "Bollywood HD",
+        "tvgId": "Bollywood HD [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Bollywood.png",
         "tvgRec": "7",
         "catchupDays": "7",
@@ -742,7 +742,7 @@
     {
         "extGrp": "שפות זרות",
         "groupTitle": "Israel: Foreign Languages",
-        "tvgId": "BollyShow [Bollyshow]",
+        "tvgId": "BollyShow [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Bollyshow.png",
         "tvgRec": "7",
         "catchupDays": "7",
