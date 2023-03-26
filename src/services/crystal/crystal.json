@@ -738,7 +738,7 @@
     {
       "channelName"     : "הוט זון",
       "tvgName"         : "|IL| HOT ZONE",
-      "tvgId"           : "HOT Zone"
+      "tvgId"           : "HOT Zone",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Zone.png",
       "extGrp"          : "ערוצי הוט",
       "channelId"       : 233306
@@ -746,7 +746,7 @@
     {
       "channelName"     : "הוט זון",
       "tvgName"         : "|IL| ZONE HD",
-      "tvgId"           : "HOT Zone"
+      "tvgId"           : "HOT Zone",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Zone.png",
       "extGrp"          : "ערוצי הוט",
       "channelId"       : 9883
