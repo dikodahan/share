@@ -1,5 +1,41 @@
 [
     {
+    "channelName": "AMC",
+    "tvgName": "US: AMC HD",
+    "tvgId": "AMC.HDTV.(East).(AMCHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/amc-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5229
+    },
+    {
+    "channelName": "Cinemax",
+    "tvgName": "US: Cinemax East",
+    "tvgId": "Cinemax.HDTV.(East).(MAXHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5393
+    },
+    {
+    "channelName": "Cinemax (West)",
+    "tvgName": "VIP US: Cinemax Moremax",
+    "tvgId": "Cinemax.HDTV.(West).(MAXHDW).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10693
+    },
+    {
+    "channelName": "Cinemax (West)",
+    "tvgName": "VIP US: Cinemax West",
+    "tvgId": "Cinemax.HDTV.(West).(MAXHDW).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 30735
+    },
+    {
     "channelName": "Cinemax ActionMax",
     "tvgName": "VIP US: Cinemax 5 Star Max",
     "tvgId": "ActionMAX.HDTV.(East).(AMXHD).us",
@@ -27,21 +63,381 @@
     "channelId": 10721
     },
     {
-    "channelName": "Cinemax (West)",
-    "tvgName": "VIP US: Cinemax Moremax",
-    "tvgId": "Cinemax.HDTV.(West).(MAXHDW).us",
-    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-us.png",
-    "extGrp": "Live: USA",
+    "channelName": "Cinemax ActionMax",
+    "tvgName": "US: Cinemax Moremax",
+    "tvgId": "ActionMAX.HDTV.(East).(AMXHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-actionmax-us.png",
+    "extGrp": "Movies",
     "tvgShift": 0,
-    "channelId": 10693
+    "channelId": 5395
     },
     {
-    "channelName": "Cinemax MoreMax (West)",
+    "channelName": "Cinemax ActionMax",
+    "tvgName": "US: Cinemax ActionMax East",
+    "tvgId": "ActionMAX.HDTV.(East).(AMXHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-actionmax-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5394
+    },
+    {
+    "channelName": "Cinemax ActionMax",
+    "tvgName": "US: Cinemax 5 StarMax",
+    "tvgId": "ActionMAX.HDTV.(East).(AMXHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-actionmax-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5392
+    },
+    {
+    "channelName": "Cinemax MoreMax",
     "tvgName": "VIP US: Cinemax Thrillermax",
     "tvgId": "More.Max.(East).(MOMAX).us",
     "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-moremax-us.png",
-    "extGrp": "Live: USA",
-    "tvgShift": 3,
+    "extGrp": "Movies",
+    "tvgShift": 0,
     "channelId": 30734
+    },
+    {
+    "channelName": "Cinemax MovieMax",
+    "tvgName": "VIP US: Moviemax HD",
+    "tvgId": "MOVIEMAX.HDTV.(MMXHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-moviemax-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 30736
+    },
+    {
+    "channelName": "Cinemax OuterMax",
+    "tvgName": "VIP US: Outermax",
+    "tvgId": "OuterMax.east.us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-outermax-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 22872
+    },
+    {
+    "channelName": "FX",
+    "tvgName": "VIP US: FX HD",
+    "tvgId": "FX.HDTV.(East).(FX.HD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fx-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10728
+    },
+    {
+    "channelName": "FX",
+    "tvgName": "US: FX HD",
+    "tvgId": "FX.HDTV.(East).(FX.HD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fx-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5231
+    },
+    {
+    "channelName": "FX Movie",
+    "tvgName": "VIP US: FX Movie",
+    "tvgId": "FX.Movie.Channel.HDTV.(FXMHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fxm-movie-channel-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 22905
+    },
+    {
+    "channelName": "Hallmark",
+    "tvgName": "VIP US: HALLMARK HD",
+    "tvgId": "Hallmark.Channel.HDTV.(East).(HALLHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hallmark-channel-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10730
+    },
+    {
+    "channelName": "Hallmark Movies & Mysteries",
+    "tvgName": "VIP US: Hallmark Movies & Mysteries",
+    "tvgId": "Hallmark.Movies.and.Mysteries.HDTV.(HMMHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hallmark-movies-and-mysteries-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 22884
+    },
+    {
+    "channelName": "HBO",
+    "tvgName": "VIP US: HBO HD",
+    "tvgId": "HBO.HDTV.(East).(HBOHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hbo-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10732
+    },
+    {
+    "channelName": "HBO",
+    "tvgName": "US: HBO HD",
+    "tvgId": "HBO.HDTV.(East).(HBOHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hbo-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 3592
+    },
+    {
+    "channelName": "HBO (West)",
+    "tvgName": "US: HBO East HD",
+    "tvgId": "HBO.HDTV.(West).(HBOHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hbo-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5388
+    },
+    {
+    "channelName": "HBO Zone",
+    "tvgName": "VIP US: HBO ZONE",
+    "tvgId": "HBO.Zone.HDTV.(East).(HBOZHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hbo-zone-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10734
+    },
+    {
+    "channelName": "HBO Zone",
+    "tvgName": "US:  HBO Zone HD",
+    "tvgId": "HBO.Zone.HDTV.(East).(HBOZHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hbo-zone-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5389
+    },
+    {
+    "channelName": "HBO Family",
+    "tvgName": "VIP US: HBO Family HD",
+    "tvgId": "HBO.Family.HDTV.(East).(HBOFHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hbo-family-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10674
+    },
+    {
+    "channelName": "IFC HD",
+    "tvgName": "VIP US: IFC HD",
+    "tvgId": "IFC.HDTV.(East).(IFCHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ifc-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 22887
+    },
+    {
+    "channelName": "Lifetime",
+    "tvgName": "VIP US: LIFE TIME",
+    "tvgId": "Lifetime.Television.HDTV.(East).(LIFEH).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/lifetime-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10736
+    },
+    {
+    "channelName": "Lifetime",
+    "tvgName": "VIP US: LIFETIME HD",
+    "tvgId": "Lifetime.Television.HDTV.(East).(LIFEH).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/lifetime-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10715
+    },
+    {
+    "channelName": "LMN",
+    "tvgName": "VIP US: LMN HD",
+    "tvgId": "Lifetime.Movies.HDTV.(East).(LIFEMOV).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/lifetime-movie-network-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10666
+    },
+    {
+    "channelName": "MGM+",
+    "tvgName": "VIP US: Epix",
+    "tvgId": "MGM+.HDTV.(East).(MGM+HD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mgm-plus-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 22908
+    },
+    {
+    "channelName": "MGM+ Drive-In",
+    "tvgName": "VIP US: Epix Drive",
+    "tvgId": "MGM+.Drive-In.(MGM+DI).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mgm-plus-drive-in-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 30733
+    },
+    {
+    "channelName": "MGM+ Marquee",
+    "tvgName": "VIP US: Epix Hits",
+    "tvgId": "MGM+.Marquee.HDTV.(East).(MGM+MRQ).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mgm-plus-marquee-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 22907
+    },
+    {
+    "channelName": "Showtime",
+    "tvgName": "VIP US: Showtime HD",
+    "tvgId": "Showtime.HDTV.(East).(SHOHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/showtime-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10739
+    },
+    {
+    "channelName": "Showtime",
+    "tvgName": "US: ShowTime HD",
+    "tvgId": "Showtime.HDTV.(East).(SHOHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/showtime-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5390
+    },
+    {
+    "channelName": "Showtime 2",
+    "tvgName": "VIP US: Showtime Extreme HD",
+    "tvgId": "Showtime.2.HDTV.(East).(SHO2HD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/showtime-2-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10660
+    },
+    {
+    "channelName": "Showtime 2",
+    "tvgName": "VIP US: Showtime Women",
+    "tvgId": "Showtime.2.HDTV.(East).(SHO2HD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/showtime-2-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 22862
+    },
+    {
+    "channelName": "Showtime 2",
+    "tvgName": "US: Showtime Next",
+    "tvgId": "Showtime.2.HDTV.(East).(SHO2HD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/showtime-2-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5399
+    },
+    {
+    "channelName": "Showtime 2",
+    "tvgName": "US: Showtime Next",
+    "tvgId": "Showtime.2.HDTV.(East).(SHO2HD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/showtime-2-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5398
+    },
+    {
+    "channelName": "Showtime Beyond",
+    "tvgName": "VIP US: Showtime Beyond",
+    "tvgId": "SHOxBET(East).(SHOBET).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/showtime-beyond-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 22864
+    },
+    {
+    "channelName": "Showtime Showcase",
+    "tvgName": "US: Showtime Showcase",
+    "tvgId": "Showtime.Showcase.HDTV.(East).(SHOCHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/showtime-showcase-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5402
+    },
+    {
+    "channelName": "Starz",
+    "tvgName": "VIP US: Starz Cinema",
+    "tvgId": "STARZ.HD.(East).(STZHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10741
+    },
+    {
+    "channelName": "Starz",
+    "tvgName": "VIP US: Starz East",
+    "tvgId": "STARZ.HD.(East).(STZHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10743
+    },
+    {
+    "channelName": "Starz",
+    "tvgName": "VIP US: Starz Encore East",
+    "tvgId": "STARZ.HD.(East).(STZHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10725
+    },
+    {
+    "channelName": "Starz",
+    "tvgName": "US: Starz Cinema HD",
+    "tvgId": "STARZ.HD.(East).(STZHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 874
+    },
+    {
+    "channelName": "Starz (West)",
+    "tvgName": "VIP US: Starz West",
+    "tvgId": "STARZ.HD.(West).(SZHDw).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10746
+    },
+    {
+    "channelName": "Starz Edge",
+    "tvgName": "US: STARZ EDGE HD",
+    "tvgId": "STARZ.Edge.HD.(East).(SZEHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-edge-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5397
+    },
+    {
+    "channelName": "Starz Encore",
+    "tvgName": "VIP US: Starz Encore HD",
+    "tvgId": "STARZ.ENCORE.HD.(East).(STZEH).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-encore-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10724
+    },
+    {
+    "channelName": "SYFY",
+    "tvgName": "VIP US: SYFY HD",
+    "tvgId": "Syfy.HDTV.(SYFYHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/syfy-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 10684
+    },
+    {
+    "channelName": "SYFY",
+    "tvgName": "US: SYFY HD",
+    "tvgId": "Turner.Classic.Movies.HDTV.(TCMHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/tcm-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 5238
+    },
+    {
+    "channelName": "TCM",
+    "tvgName": "VIP US: TCM",
+    "tvgId": "Turner.Classic.Movies.HDTV.(TCMHD).us",
+    "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/tcm-us.png",
+    "extGrp": "Movies",
+    "tvgShift": 0,
+    "channelId": 22858
     }
 ]
