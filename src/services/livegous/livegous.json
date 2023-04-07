@@ -361,15 +361,6 @@
     },
     {
         "channelName": "Starz",
-        "tvgName": "VIP US: Starz Cinema",
-        "tvgId": "STARZ.HD.(East).(STZHD).us",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-us.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 10741
-    },
-    {
-        "channelName": "Starz",
         "tvgName": "VIP US: Starz East",
         "tvgId": "STARZ.HD.(East).(STZHD).us",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-us.png",
@@ -387,15 +378,6 @@
         "channelId": 10725
     },
     {
-        "channelName": "Starz",
-        "tvgName": "US: Starz Cinema HD",
-        "tvgId": "STARZ.HD.(East).(STZHD).us",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-us.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 874
-    },
-    {
         "channelName": "Starz (West)",
         "tvgName": "VIP US: Starz West",
         "tvgId": "STARZ.HD.(West).(SZHDw).us",
@@ -403,6 +385,24 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 10746
+    },
+    {
+        "channelName": "Starz Cinema",
+        "tvgName": "VIP US: Starz Cinema",
+        "tvgId": "STARZ.Cinema.(East).(STZCI).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-cinema-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 10741
+    },
+    {
+        "channelName": "Starz Cinema",
+        "tvgName": "US: Starz Cinema HD",
+        "tvgId": "STARZ.Cinema.(East).(STZCI).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-cinema-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 874
     },
     {
         "channelName": "Starz Edge",
@@ -434,8 +434,8 @@
     {
         "channelName": "SYFY",
         "tvgName": "US: SYFY HD",
-        "tvgId": "Turner.Classic.Movies.HDTV.(TCMHD).us",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/tcm-us.png",
+        "tvgId": "Syfy.HDTV.(SYFYHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/syfy-us.png",
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 5238
