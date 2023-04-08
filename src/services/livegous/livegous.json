@@ -952,5 +952,338 @@
         "extGrp": "Locals ABC",
         "tvgShift": 0,
         "channelId": 22109
+    },
+    {
+        "channelName": "CBS Atlanta (WGCL)",
+        "tvgName": "VIP US: CBS Atlanta",
+        "tvgId": "CBS.(WGCL).Atlanta,.GA.us",
+        "tvgLogo": "https://www.gab.org/wp-content/uploads/2020/01/WGCL-TV.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22108
+    },
+    {
+        "channelName": "CBS Augusta (WRDW)",
+        "tvgName": "VIP US: CBS News HD",
+        "tvgId": "CBS.(WRDW).Augusta,.GA.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/4/47/Wrdw_tv_logo.PNG",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 10755
+    },
+    {
+        "channelName": "CBS Baltimore (WJZ)",
+        "tvgName": "VIP US: CBS Baltimore",
+        "tvgId": "CBS.(WJZ).Baltimore,.MD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-13-wjz-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22107
+    },
+    {
+        "channelName": "CBS Boston (WBZ)",
+        "tvgName": "VIP US: CBS Boston",
+        "tvgId": "CBS.(WBZ).Boston,.MA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/cbs-4-wbz-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22106
+    },
+    {
+        "channelName": "CBS Charlotte (WBTV)",
+        "tvgName": "VIP US: CBS Charlotte",
+        "tvgId": "CBS.(WBTV).Charlotte,.NC.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-3-wbtv-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22105
+    },
+    {
+        "channelName": "CBS Chicago (WBBM)",
+        "tvgName": "VIP US: CBS Chicago",
+        "tvgId": "CBS.(WBBM).Chicago,.IL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-2-wbbm-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22104
+    },
+    {
+        "channelName": "CBS Cleveland (WOIO)",
+        "tvgName": "VIP US: CBS Cleveland",
+        "tvgId": "CBS.(WOIO).Cleveland,.OH.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-19-woio-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22103
+    },
+    {
+        "channelName": "CBS Columbus (WBNS)",
+        "tvgName": "VIP US: CBS Columbus",
+        "tvgId": "CBS.(WBNS).Columbus,.OH.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/cbs-10-wbns-icon-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22102
+    },
+    {
+        "channelName": "CBS Dallas (KTVT)",
+        "tvgName": "VIP US: CBS Dallas",
+        "tvgId": "CBS.(KTVT).Fort.Worth,.TX.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-11-wtvd-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22101
+    },
+    {
+        "channelName": "CBS Bangor (WABI)",
+        "tvgName": "VIP US: CBS Bangor",
+        "tvgId": "CBS.(WABI).Bangor,.ME.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-5-wabi-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 27868
+    },
+    {
+        "channelName": "CBS Denver (KCNC)",
+        "tvgName": "VIP US: CBS Denver",
+        "tvgId": "CBS.(KCNC).Denver,.CO.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-4-kcnc-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22100
+    },
+    {
+        "channelName": "CBS Detroit (WWJ)",
+        "tvgName": "VIP US: CBS Detroit",
+        "tvgId": "CBS.(WWJ).Detroit,.MI.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/WWJ_CBS_62_2016.svg/1200px-WWJ_CBS_62_2016.svg.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22099
+    },
+    {
+        "channelName": "CBS Greensboro (WFMY)",
+        "tvgName": "VIP US: CBS Greensboro",
+        "tvgId": "CBS.(WFMY).Greensboro,.NC.us",
+        "tvgLogo": "https://static-newson.akamaized.net/icons/v3/tegna/WFMY.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22098
+    },
+    {
+        "channelName": "CBS Hartford (WFSB)",
+        "tvgName": "VIP US: CBS Hartford",
+        "tvgId": "CBS.(WFSB).Hartford,.CT.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-3-wfsb-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22097
+    },
+    {
+        "channelName": "CBS Raleigh (WNCN)",
+        "tvgName": "VIP US: CBS HD",
+        "tvgId": "CBS.(WNCN).Raleigh-Durham,.NC.us",
+        "tvgLogo": "https://www.cbs17.com/wp-content/uploads/sites/29/2019/06/cropped-Browser-tab-logo.jpg",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 10767
+    },
+    {
+        "channelName": "CBS Houston (KHOU)",
+        "tvgName": "VIP US: CBS Houston",
+        "tvgId": "CBS.(KHOU).Houston,.TX.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-11-khou-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22096
+    },
+    {
+        "channelName": "CBS Jacksonville (WJAX)",
+        "tvgName": "VIP US: CBS Jacksonville",
+        "tvgId": "CBS.(WJAX).Jacksonville,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-47-wjax-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22095
+    },
+    {
+        "channelName": "CBS Kansas City (KCTV)",
+        "tvgName": "VIP US: CBS Kansas City",
+        "tvgId": "CBS.(KCTV).Kansas.City,.MO.us",
+        "tvgLogo": "https://static.wikia.nocookie.net/annex/images/7/72/KCTV_5_CBS.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22094
+    },
+    {
+        "channelName": "CBS Los Angeles (KCBS)",
+        "tvgName": "VIP US: CBS Los Angeles",
+        "tvgId": "CBS.(KCBS).Los.Angeles,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-2-kcbs-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22093
+    },
+    {
+        "channelName": "CBS Miami (WFOR)",
+        "tvgName": "VIP US: CBS Miami",
+        "tvgId": "CBS.(WFOR).Miami,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-4-wfor-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22092
+    },
+    {
+        "channelName": "CBS Milwaukee (WDJT)",
+        "tvgName": "VIP US: CBS Milwaukee",
+        "tvgId": "CBS.(WDJT).Milwaukee,.WI.HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-58-wdjt-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22091
+    },
+    {
+        "channelName": "CBS Minneapolis (WCCO)",
+        "tvgName": "VIP US: CBS Minneapolis",
+        "tvgId": "CBS.(WCCO).Minneapolis,.MN.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/db/WCCO_CBS_4_logo.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22090
+    },
+    {
+        "channelName": "CBS Nashville (WTVF)",
+        "tvgName": "VIP US: CBS Nashville",
+        "tvgId": "CBS.(WTVF).Nashville,.TN.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-5-wtvh-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22089
+    },
+    {
+        "channelName": "CBS New Orleans (WWL)",
+        "tvgName": "VIP US: CBS New Orleans",
+        "tvgId": "CBS.(WWL).New.Orleans,.LA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-4-wwltv-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22088
+    },
+    {
+        "channelName": "CBS New York (WCBS)",
+        "tvgName": "VIP US: CBS New York",
+        "tvgId": "CBS.(WCBS).New.York,.NY.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-2-wcbs-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22087
+    },
+    {
+        "channelName": "CBS Orlando (WKMG)",
+        "tvgName": "VIP US: CBS Orlando",
+        "tvgId": "CBS.(WKMG).Orlando,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-6-wkmg-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22086
+    },
+    {
+        "channelName": "CBS Philadelphia (KYW)",
+        "tvgName": "VIP US: CBS Philadelphia",
+        "tvgId": "CBS.(KYW).Philadelphia,.PA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-3-kyw-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22085
+    },
+    {
+        "channelName": "CBS Phoenix (KPHO)",
+        "tvgName": "VIP US: CBS Phoenix",
+        "tvgId": "CBS.(KPHO).Phoenix,.AZ.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-5-kpho-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22084
+    },
+    {
+        "channelName": "CBS Pittsburgh (KDKA)",
+        "tvgName": "VIP US: CBS Pittsburgh",
+        "tvgId": "CBS.(KDKA).Pittsburgh,.PA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-2-kdka-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22083
+    },
+    {
+        "channelName": "CBS Providence (WPRI)",
+        "tvgName": "VIP US: CBS Providence",
+        "tvgId": "CBS.(WPRI).E..Providence,.RI.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/3/38/WPRI-TV_12_logo.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22079
+    },
+    {
+        "channelName": "CBS Sacramento (KOVR)",
+        "tvgName": "VIP US: CBS Sacramento",
+        "tvgId": "CBS.(KOVR).Sacramento,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-13-kovr-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22082
+    },
+    {
+        "channelName": "CBS San Antonio (KENS)",
+        "tvgName": "VIP US: CBS San Antonio",
+        "tvgId": "CBS.(KENS).San.Antonio,.TX.us",
+        "tvgLogo": "https://safoodbank.org/wp-content/uploads/2019/07/KENS-5-CBS-San-Antonio-logo-blue.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22081
+    },
+    {
+        "channelName": "CBS San Diego (KFMB)",
+        "tvgName": "VIP US: CBS San Diego",
+        "tvgId": "CBS.(KFMB).San.Diego,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-8-kfmb-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22080
+    },
+    {
+        "channelName": "CBS Seattle (KIRO)",
+        "tvgName": "VIP US: CBS Seattle",
+        "tvgId": "CBS.(KIRO).Seattle,.WA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-7-kiro-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22078
+    },
+    {
+        "channelName": "CBS St Louis (KMOV)",
+        "tvgName": "VIP US: CBS St Louis",
+        "tvgId": "CBS.(KMOV).St..Louis,.MO.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-4-kmov-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22077
+    },
+    {
+        "channelName": "CBS Tampa Bay (WTSP)",
+        "tvgName": "VIP US: CBS Tampas",
+        "tvgId": "CBS.(WTSP).Tampa.Bay,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-10-wtsp-us.png",
+        "extGrp": "Locals CBS",
+        "tvgShift": 0,
+        "channelId": 22076
+    },
+    {
+        "channelName": "CBS Washington (WUSA)",
+        "tvgName": "VIP US: CBS Washington",
+        "tvgId": "CBS.(WUSA).District.of.Columbia.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cbs-9-wusa-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 22075
     }
 ]
