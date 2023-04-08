@@ -448,5 +448,185 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 22858
+    },
+    {
+        "channelName": "AL JAZEERA",
+        "tvgName": "VIP US: AL JAZEERA HD",
+        "tvgId": "Al.Jazeera.(English.-.North.America).(ALJAZEE).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/aljazeera-uk.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 10698
+    },
+    {
+        "channelName": "Bloomberg TV",
+        "tvgName": "VIP US: BLOOMBERG TV",
+        "tvgId": "Bloomberg.in.HDTV.(BTVHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bloomberg-television-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 10747
+    },
+    {
+        "channelName": "C-SPAN 1",
+        "tvgName": "VIP US: C-SPAN 1 HD",
+        "tvgId": "Cable.Satellite.Public.Affairs.Network.(CSPAN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/c-span-1-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 10712
+    },
+    {
+        "channelName": "C-SPAN 2",
+        "tvgName": "VIP US: C-SPAN 2 HD",
+        "tvgId": "Cable.Satellite.Public.Affairs.Network.2.(CSPAN2).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/c-span-2-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 10711
+    },
+    {
+        "channelName": "C-SPAN 3",
+        "tvgName": "VIP US: C-SPAN 3 HD",
+        "tvgId": "CSPAN3.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/c-span-3-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 10710
+    },
+    {
+        "channelName": "CBS News",
+        "tvgName": "VIP US: CBS News HD",
+        "tvgId": "CBS.News.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cbs-news-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 10755
+    },
+    {
+        "channelName": "CBS News",
+        "tvgName": "VIP US: ABC Action News",
+        "tvgId": "CBS.News.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cbs-news-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 10652
+    },
+    {
+        "channelName": "Cheddar News",
+        "tvgName": "VIP US: CHEDDAR News HD",
+        "tvgId": "CheddarNews.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cheddar-news-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 22854
+    },
+    {
+        "channelName": "CNBC World",
+        "tvgName": "VIP US: CNBC World HD",
+        "tvgId": "Consumer.News.and.Business.Channel.HDTV.(CNBCH).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cnbc-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 3589
+    },
+    {
+        "channelName": "CNN",
+        "tvgName": "US: CNN HD",
+        "tvgId": "Cable.News.Network.HDTV.(CNNHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cnn-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 876
+    },
+    {
+        "channelName": "CNN",
+        "tvgName": "VIP US: CNN HD",
+        "tvgId": "Cable.News.Network.HDTV.(CNNHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cnn-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 10749
+    },
+    {
+        "channelName": "FOX Business",
+        "tvgName": "US: FOX Business HD",
+        "tvgId": "Fox.Business.Network.HDTV.(FBNHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fox-business-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 5233
+    },
+    {
+        "channelName": "Fox News",
+        "tvgName": "VIP US: Fox News",
+        "tvgId": "Fox.News.Channel.HDTV.(East).(FNCHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fox-news-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 10727
+    },
+    {
+        "channelName": "Fox News",
+        "tvgName": "VIP US: Fox News Channel",
+        "tvgId": "Fox.News.Channel.HDTV.(East).(FNCHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fox-news-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 22000
+    },
+    {
+        "channelName": "Headline News",
+        "tvgName": "VIP US: Headline News",
+        "tvgId": "HLN.HDTV.(HLNHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hln-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 22882
+    },
+    {
+        "channelName": "MSNBC",
+        "tvgName": "US: MSNBC HD",
+        "tvgId": "msnbc.HDTV.(msnbcH).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/msnbc-alt-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 8000
+    },
+    {
+        "channelName": "MSNBC",
+        "tvgName": "VIP US: MSNBC HD",
+        "tvgId": "msnbc.HDTV.(msnbcH).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/msnbc-alt-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 10669
+    },
+    {
+        "channelName": "News Nation",
+        "tvgName": "VIP US: WGN America",
+        "tvgId": "NewsNation.HDTV.(NEWSNTN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/news-nation-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 22850
+    },
+    {
+        "channelName": "News Nation",
+        "tvgName": "VIP US: WGN News",
+        "tvgId": "NewsNation.HDTV.(NEWSNTN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/news-nation-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 22853
+    },
+    {
+        "channelName": "OAN",
+        "tvgName": "VIP US: ONE AMERICA NETWORK",
+        "tvgId": "One.America.News.Network.HDTV.(East).(OANHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/one-america-news-network-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 22873
     }
 ]
