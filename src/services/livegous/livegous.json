@@ -628,5 +628,329 @@
         "extGrp": "News",
         "tvgShift": 0,
         "channelId": 22873
+    },
+    {
+        "channelName": "ABC Albany (WTEN)",
+        "tvgName": "VIP US: ABC Albany",
+        "tvgId": "ABC.(WTEN).Albany,.NY.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-10-wten-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22133
+    },
+    {
+        "channelName": "ABC Atlanta (WSB)",
+        "tvgName": "VIP US: ABC Atlanta",
+        "tvgId": "ABC.(WSB).Atlanta,.GA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-2-wsb-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22143
+    },
+    {
+        "channelName": "ABC Bangor (WVII)",
+        "tvgName": "VIP US: ABC Bangor",
+        "tvgId": "ABC.(WVII).Bangor,.ME.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/abc-7-wvii-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22117
+    },
+    {
+        "channelName": "ABC Baltimore (WMAR)",
+        "tvgName": "VIP US: ABC Baltimore",
+        "tvgId": "ABC.(WMAR).Baltimore,.MD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-2-wmar-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22142
+    },
+    {
+        "channelName": "ABC Birmingham (WBMA)",
+        "tvgName": "VIP US: ABC Birmingham",
+        "tvgId": "ABC.(WBMA).Birmingham,.AL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-33-40-wbma-ld-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22137
+    },
+    {
+        "channelName": "ABC Boston (WCVB)",
+        "tvgName": "VIP US: ABC Boston",
+        "tvgId": "ABC.(WCVB).Boston,.MA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-5-wcvb-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22141
+    },
+    {
+        "channelName": "ABC Charlotte (WSOC)",
+        "tvgName": "VIP US: ABC Charlotte",
+        "tvgId": "ABC.(WSOC).Charlotte,.NC.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-9-wsoc-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22140
+    },
+    {
+        "channelName": "ABC Chicago (WLS)",
+        "tvgName": "VIP US: ABC Chicago",
+        "tvgId": "ABC.(WLS).Chicago,.IL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-7-wls-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22139
+    },
+    {
+        "channelName": "ABC Cleveland (WEWS)",
+        "tvgName": "VIP US: ABC Cleveland",
+        "tvgId": "ABC.(WEWS).Cleveland,.OH.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/abc-5-wews-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22138
+    },
+    {
+        "channelName": "ABC Dallas (WFAA)",
+        "tvgName": "VIP US: ABC Dallas",
+        "tvgId": "ABC.(WFAA).Dallas,.TX.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-8-wfaa-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22136
+    },
+    {
+        "channelName": "ABC Denver (KMGH)",
+        "tvgName": "VIP US: ABC Denver",
+        "tvgId": "ABC.(KMGH).Denver,.CO.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-7-kmgh-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22135
+    },
+    {
+        "channelName": "ABC Detroit (WXYZ)",
+        "tvgName": "VIP US: ABC Detroit",
+        "tvgId": "ABC.(WXYZ).Detroit,.MI.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-7-wxyz-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22134
+    },
+    {
+        "channelName": "ABC Fresno (KFSN)",
+        "tvgName": "VIP US: ABC Fresno",
+        "tvgId": "ABC.(KFSN).Fresno,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-30-kfsn-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22132
+    },
+    {
+        "channelName": "ABC houston (KTRK)",
+        "tvgName": "VIP US: ABC houston",
+        "tvgId": "ABC.(KTRK).Houston,.TX.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-13-ktrk-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22131
+    },
+    {
+        "channelName": "ABC Indianapolis (WRTV)",
+        "tvgName": "VIP US: ABC Indianapolis",
+        "tvgId": "ABC.(WRTV).Indianapolis,.IN.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-6-wrtv-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22130
+    },
+    {
+        "channelName": "ABC Kansas City (KMBC)",
+        "tvgName": "VIP US: ABC Kansas City",
+        "tvgId": "ABC.(KMBC).Kansas.City,.MO.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-9-kmbc-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22129
+    },
+    {
+        "channelName": "ABC Los Angeles (KABC)",
+        "tvgName": "VIP US: ABC Los Angeles",
+        "tvgId": "ABC.(KABC).Los.Angeles,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-7-wabc-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22128
+    },
+    {
+        "channelName": "ABC Miami (WPLG)",
+        "tvgName": "VIP US: ABC Miami",
+        "tvgId": "ABC.(WPLG).Miami,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-10-wplg-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22127
+    },
+    {
+        "channelName": "ABC Milwaukee (WISN)",
+        "tvgName": "VIP US: ABC Milwaukee",
+        "tvgId": "ABC.(WISN).Milwaukee,.WI.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-12-wisn-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22126
+    },
+    {
+        "channelName": "ABC Nashville (WKRN)",
+        "tvgName": "VIP US: ABC Nashville",
+        "tvgId": "ABC.(WKRN).Nashville,.TN.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-2-wmar-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22125
+    },
+    {
+        "channelName": "ABC New York (WABC)",
+        "tvgName": "VIP US: ABC New York",
+        "tvgId": "ABC.(WABC).New.York,.NY.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-7-wabc-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22124
+    },
+    {
+        "channelName": "ABC Orlando (WFTV)",
+        "tvgName": "VIP US: ABC Orlando",
+        "tvgId": "ABC.(WFTV).Orlando,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-9-wftv-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22123
+    },
+    {
+        "channelName": "ABC Philadelphia (WPVI)",
+        "tvgName": "VIP US: ABC Philadelphia",
+        "tvgId": "ABC.(WPVI).Philadelphia,.PA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-6-wpvi-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22122
+    },
+    {
+        "channelName": "ABC Phoenix (KNXV)",
+        "tvgName": "VIP US: ABC Phoenix",
+        "tvgId": "ABC.(KNXV).Phoenix,.AZ.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-15-knxv-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22121
+    },
+    {
+        "channelName": "ABC Pittsburgh (WTEA)",
+        "tvgName": "VIP US: ABC Pittsburgh",
+        "tvgId": "ABC.(WTAE).Pittsburgh,.PA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-4-wtae-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22120
+    },
+    {
+        "channelName": "ABC Portland (KATU)",
+        "tvgName": "VIP US: ABC Portland",
+        "tvgId": "ABC.(KATU).Portland,.OR.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-2-katu-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22119
+    },
+    {
+        "channelName": "ABC Sacramento (KXTV)",
+        "tvgName": "VIP US: ABC Sacramento",
+        "tvgId": "ABC.(KXTV).Sacramento,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-10-kxtv-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22118
+    },
+    {
+        "channelName": "ABC Salt lake city (KTVX)",
+        "tvgName": "VIP US: ABC Salt lake city",
+        "tvgId": "ABC.(KTVX).Salt.Lake.City,.UT.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-4-kxly-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22116
+    },
+    {
+        "channelName": "ABC San Antonio (KSAT)",
+        "tvgName": "VIP US: ABC San Antonio",
+        "tvgId": "ABC.(KSAT).San.Antonio,.TX.us",
+        "tvgLogo": "https://cdn.shopify.com/s/files/1/1268/8777/articles/KSAT_32d58712-f4d2-49cd-990b-704d2e53b832_grande.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22115
+    },
+    {
+        "channelName": "ABC San Diego (KGTV)",
+        "tvgName": "VIP US: ABC San Diego",
+        "tvgId": "ABC.(KGTV).San.Diego,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-10-kgtv-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22114
+    },
+    {
+        "channelName": "ABC San Francisco (KGO)",
+        "tvgName": "VIP US: ABC San Francisco",
+        "tvgId": "ABC.(KGO).San.Francisco,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-7-kgo-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22113
+    },
+    {
+        "channelName": "ABC Sarasota (WWSB)",
+        "tvgName": "VIP US: 7 WWSB FL Sarasota HD",
+        "tvgId": "ABC.(WWSB).Sarsota,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-7-kabc-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 10719
+    },
+    {
+        "channelName": "ABC Seattle (KOMO)",
+        "tvgName": "VIP US: ABC Seattle",
+        "tvgId": "ABC.(KOMO).Seattle,.WA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-4-komo-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22112
+    },
+    {
+        "channelName": "ABC St Louis (KDNL)",
+        "tvgName": "VIP US: ABC St Louis",
+        "tvgId": "ABC.(KDNL).St..Louis,.MO.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-30-kdnl-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22111
+    },
+    {
+        "channelName": "ABC Tampa Bay (WFTS)",
+        "tvgName": "VIP US: ABC Tampa Bay",
+        "tvgId": "ABC.(WFTS).Tampa.Bay,.FL.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/b/b1/WFTS-TV_%282021%29.svg",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22110
+    },
+    {
+        "channelName": "ABC Washington (WJLA)",
+        "tvgName": "VIP US: ABC Washington",
+        "tvgId": "ABC.(WJLA).District.of.Columbia.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/abc-7-wjla-us.png",
+        "extGrp": "Locals ABC",
+        "tvgShift": 0,
+        "channelId": 22109
     }
 ]
