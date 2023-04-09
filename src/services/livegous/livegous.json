@@ -1627,5 +1627,347 @@
         "extGrp": "Locals FOX",
         "tvgShift": 0,
         "channelId": 21986
+    },
+    {
+        "channelName": "NBC Atlanta (WXIA)",
+        "tvgName": "VIP US: NBC Atlanta",
+        "tvgId": "NBC.(WXIA).Atlanta,.GA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-11-wxia-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22074
+    },
+    {
+        "channelName": "NBC Baltimore (WBAL)",
+        "tvgName": "VIP US: NBC Baltimore",
+        "tvgId": "NBC.(WBAL).Baltimore,.MD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-11-wbal-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22073
+    },
+    {
+        "channelName": "NBC Boston (WBTS)",
+        "tvgName": "VIP US: NBC HD",
+        "tvgId": "NBC.(WBTS-CD).Nashua,.NH.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-10-wbts-cd-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 9917
+    },
+    {
+        "channelName": "NBC Buffalo (WGRZ)",
+        "tvgName": "VIP US: NBC Buffalo",
+        "tvgId": "NBC.(WGRZ).Buffalo,.NY.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-2-wgrz-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22071
+    },
+    {
+        "channelName": "NBC Charlotte (WCNC)",
+        "tvgName": "VIP US: NBC Charlotte",
+        "tvgId": "NBC.(WCNC).Charlotte,.NC.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-wcnc-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22070
+    },
+    {
+        "channelName": "NBC Chicago (WMAQ)",
+        "tvgName": "VIP US: NBC Chicago",
+        "tvgId": "NBC.(WMAQ).Chicago,.IL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-5-wmaq-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22069
+    },
+    {
+        "channelName": "NBC Cincinnati (WLWT)",
+        "tvgName": "VIP US: NBC Cincinnati",
+        "tvgId": "NBC.(WLWT).Cincinnati,.OH.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-5-wlwt-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22068
+    },
+    {
+        "channelName": "NBC Cleveland (WKYC)",
+        "tvgName": "VIP US: NBC Cleveland",
+        "tvgId": "NBC.(WKYC).Cleveland,.OH.us",
+        "tvgLogo": "https://livenewsglobe.com/wp-content/uploads/2020/10/WKYC_News_logo.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22067
+    },
+    {
+        "channelName": "NBC Dallas (KXAS)",
+        "tvgName": "VIP US: NBC Dallas",
+        "tvgId": "NBC.(KXAS).Fort.Worth,.TX.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-5-kxas-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22066
+    },
+    {
+        "channelName": "NBC Denver (KUSA)",
+        "tvgName": "VIP US: NBC Denver",
+        "tvgId": "NBC.(KUSA).Denver,.CO.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-9-kusa-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22065
+    },
+    {
+        "channelName": "NBC Detroit (WDIV)",
+        "tvgName": "VIP US: NBC Detroit",
+        "tvgId": "NBC.(WDIV).Detroit,.MI.us",
+        "tvgLogo": "https://static.wikia.nocookie.net/annex/images/c/cb/ScreenHunter_30595_Nov._19_18.59.jpg",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22064
+    },
+    {
+        "channelName": "NBC Green Bay (WGBA)",
+        "tvgName": "VIP US: NBC Green Bay",
+        "tvgId": "NBC.(WGBA).Green.Bay,.WI.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/nbc26wgba.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22063
+    },
+    {
+        "channelName": "NBC Hartford (WVIT)",
+        "tvgName": "VIP US: NBC Hartford",
+        "tvgId": "NBC.(WVIT).W..Hartford,.CT.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-ct-wvit-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22062
+    },
+    {
+        "channelName": "NBC Houston (KPRC)",
+        "tvgName": "VIP US: NBC Houston",
+        "tvgId": "NBC.(KPRC).Houston,.TX.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-2-kprc-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22061
+    },
+    {
+        "channelName": "NBC Indianapolis (WTHR)",
+        "tvgName": "VIP US: NBC Indianapolis",
+        "tvgId": "NBC.(WTHR).Indianapolis,.IN.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-13-wthr-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22060
+    },
+    {
+        "channelName": "NBC Jacksonville (WTLV)",
+        "tvgName": "VIP US: NBC Jacksonville",
+        "tvgId": "NBC.(WTLV).Jacksonville,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-12-wtlv-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22059
+    },
+    {
+        "channelName": "NBC Kansas City (KSHB)",
+        "tvgName": "VIP US: NBC Kansas City",
+        "tvgId": "NBC.(KSHB).Kansas.City,.MO.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/KSHB-TV_logo.svg/1200px-KSHB-TV_logo.svg.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22058
+    },
+    {
+        "channelName": "NBC Los Angeles (KNBC)",
+        "tvgName": "VIP US: NBC Los Angeles",
+        "tvgId": "NBC.(KNBC).Los.Angeles,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-4-knbc-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22057
+    },
+    {
+        "channelName": "NBC Miami (WTVJ)",
+        "tvgName": "VIP US: NBC Miami",
+        "tvgId": "NBC.(WTVJ).Miami,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-6-wtvj-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22056
+    },
+    {
+        "channelName": "NBC Milwaukee (WTMJ)",
+        "tvgName": "VIP US: NBC Milwaukee",
+        "tvgId": "NBC.(WTMJ).Milwaukee,.WI.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/nbc-4-wtmj-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22055
+    },
+    {
+        "channelName": "NBC Minneapolis (KARE)",
+        "tvgName": "VIP US: NBC Minneapolis",
+        "tvgId": "NBC.(KARE).Minneapolis,.MN.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-11-kare-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22054
+    },
+    {
+        "channelName": "NBC Nashville (WSMV)",
+        "tvgName": "VIP US: NBC Nashville",
+        "tvgId": "NBC.(WSMV).Nashville,.TN.us",
+        "tvgLogo": "https://static.wikia.nocookie.net/tvstations/images/5/57/WSMV-TV_4_logo.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22053
+    },
+    {
+        "channelName": "NBC New Orleans (WDSU)",
+        "tvgName": "VIP US: NBC New Orleans",
+        "tvgId": "NBC.(WDSU).New.Orleans,.LA.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/3/3a/WDSU_6_logo.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22052
+    },
+    {
+        "channelName": "NBC New York (WNBC)",
+        "tvgName": "VIP US: NBC New York",
+        "tvgId": "NBC.(WNBC).New.York,.NY.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-4-wnbc-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22051
+    },
+    {
+        "channelName": "NBC Orlando (WESH)",
+        "tvgName": "VIP US: NBC Orlando",
+        "tvgId": "NBC.(WESH).Daytona.Beach,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-2-wesh-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22050
+    },
+    {
+        "channelName": "NBC Philadelphia (WCAU)",
+        "tvgName": "VIP US: NBC Philadelphia",
+        "tvgId": "NBC.(WCAU).Philadelphia,.PA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-10-wcau-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22049
+    },
+    {
+        "channelName": "NBC Phoenix (KPNX)",
+        "tvgName": "VIP US: NBC Phoenix",
+        "tvgId": "NBC.(KPNX).Phoenix,.AZ.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-12-kpnx-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22048
+    },
+    {
+        "channelName": "NBC Pittsburgh (WPXI)",
+        "tvgName": "VIP US: NBC Pittsburgh",
+        "tvgId": "NBC.(WPXI).Pittsburgh,.PA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-11-wpxi-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22047
+    },
+    {
+        "channelName": "NBC Portland (KGW)",
+        "tvgName": "VIP US: NBC Portland",
+        "tvgId": "NBC.(KGW).Portland,.OR.us",
+        "tvgLogo": "https://static.wikia.nocookie.net/the-alternate-tv/images/e/e6/KGW_Logo_2014.svg.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22046
+    },
+    {
+        "channelName": "NBC Raleigh (WRAL)",
+        "tvgName": "VIP US: NBC Raleigh",
+        "tvgId": "NBC.(WRAL).Raleigh-Durham,.NC.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/WRAL-TV_%281993%29.svg/640px-WRAL-TV_%281993%29.svg.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22045
+    },
+    {
+        "channelName": "NBC Sacramento (KCRA)",
+        "tvgName": "VIP US: NBC Sacramento",
+        "tvgId": "NBC.(KCRA).Sacramento,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-3-kcra-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22044
+    },
+    {
+        "channelName": "NBC Salt Lake City (KSL)",
+        "tvgName": "VIP US: NBC Salt Lake City",
+        "tvgId": "NBC.(KSL).Salt.Lake.City,.UT.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-5-ksl-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22043
+    },
+    {
+        "channelName": "NBC San Diego (KNSD)",
+        "tvgName": "VIP US: NBC San Diego",
+        "tvgId": "NBC.(KNSD).San.Diego,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-7-knsd-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22042
+    },
+    {
+        "channelName": "NBC San Francisco (KNTV)",
+        "tvgName": "VIP US: NBC San Francisco",
+        "tvgId": "NBC.(KNTV).San.Francisco,.CA.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/KNTV_11_NBC_Bay_Area.svg/640px-KNTV_11_NBC_Bay_Area.svg.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22041
+    },
+    {
+        "channelName": "NBC Seattle (KING)",
+        "tvgName": "VIP US: NBC Seattle",
+        "tvgId": "NBC.(KING).Seattle,.WA.us",
+        "tvgLogo": "https://interactive.king5.com/konnected-2019/img/k5logo.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22040
+    },
+    {
+        "channelName": "NBC St Louis (KSDK)",
+        "tvgName": "VIP US: NBC St Louis",
+        "tvgId": "NBC.(KSDK).St..Louis,.MO.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/KSDK_5_On_Your_Side_logo.svg/1200px-KSDK_5_On_Your_Side_logo.svg.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22038
+    },
+    {
+        "channelName": "NBC Washington (WRC)",
+        "tvgName": "VIP US: NBC Washington",
+        "tvgId": "NBC.(WRC).District.of.Columbia.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/nbc-4-wrc-us.png",
+        "extGrp": "Locals NBC",
+        "tvgShift": 0,
+        "channelId": 22036
+    },
+    {
+        "channelName": "FOX Washington (WTTG)",
+        "tvgName": "VIP US: FOX Washington",
+        "tvgId": "FOX.(WTTG).District.of.Columbia.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Logo_of_WTTG-TV_%281998-2006%29.png/170px-Logo_of_WTTG-TV_%281998-2006%29.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21986
     }
 ]
