@@ -1285,5 +1285,347 @@
         "extGrp": "Locals CBS",
         "tvgShift": 0,
         "channelId": 22075
+    },
+    {
+        "channelName": "FOX Atlanta (WAGA)",
+        "tvgName": "VIP US: FOX Atlanta",
+        "tvgId": "FOX.(WAGA).Atlanta,.GA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/fox-5-waga-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22030
+    },
+    {
+        "channelName": "FOX Austin (KTBC)",
+        "tvgName": "VIP US: FOX Austin",
+        "tvgId": "FOX.(KTBC).Austin,.TX.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/fox-7-ktbc-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22029
+    },
+    {
+        "channelName": "FOX Baltimore (WBFF)",
+        "tvgName": "VIP US: FOX Baltimore",
+        "tvgId": "FOX.(WBFF).Baltimore,.MD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-45-wbff-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22028
+    },
+    {
+        "channelName": "FOX Boston (WFXT)",
+        "tvgName": "VIP US: FOX Boston",
+        "tvgId": "FOX.(WFXT).Boston,.MA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-25-wfxt-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22026
+    },
+    {
+        "channelName": "FOX Buffalo (WUTV)",
+        "tvgName": "VIP US: FOX Buffalo",
+        "tvgId": "FOX.(WUTV).Buffalo,.NY.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-29-wutv-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22025
+    },
+    {
+        "channelName": "FOX Chicago (WFLD)",
+        "tvgName": "VIP US: FOX Chicago",
+        "tvgId": "FOX.(WFLD).Chicago,.IL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/fox-32-wfld-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22023
+    },
+    {
+        "channelName": "FOX Cleveland (WJW)",
+        "tvgName": "VIP US: FOX Cleveland",
+        "tvgId": "FOX.(WJW).Cleveland,.OH.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-8-wjw-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22022
+    },
+    {
+        "channelName": "FOX Dallas (KDFW)",
+        "tvgName": "VIP US: FOX Dallas",
+        "tvgId": "FOX.(KDFW).Dallas,.TX.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/fox-4-kdfw-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22017
+    },
+    {
+        "channelName": "FOX Dallas (KDFW)",
+        "tvgName": "VIP US: FOX Dallas",
+        "tvgId": "FOX.(KDFW).Dallas,.TX.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/fox-4-kdfw-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22017
+    },
+    {
+        "channelName": "FOX Denver (KDVR)",
+        "tvgName": "VIP US: FOX Denver",
+        "tvgId": "FOX.(KDVR).Denver,.CO.HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-31-kdvr-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22016
+    },
+    {
+        "channelName": "FOX Detroit (WJBK)",
+        "tvgName": "VIP US: FOX Detroit",
+        "tvgId": "FOX.(WJBK).Detroit,.MI.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-2-wjbk-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22014
+    },
+    {
+        "channelName": "FOX Green Bay (WLUK)",
+        "tvgName": "VIP US: FOX Green Bay",
+        "tvgId": "FOX.(WLUK).Green.Bay,.WI.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/9/94/LOGO_WLUK_FOX11_solid_legal.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22013
+    },
+    {
+        "channelName": "FOX Hartford (WTIC)",
+        "tvgName": "VIP US: FOX Hartford",
+        "tvgId": "FOX.(WTIC).Hartford,.CT.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-61-wtic-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22012
+    },
+    {
+        "channelName": "FOX Houston (KRIV)",
+        "tvgName": "VIP US: FOX Houston",
+        "tvgId": "FOX.(KRIV).Houston,.TX.us",
+        "tvgLogo": "https://static.wikia.nocookie.net/tvstations/images/e/e9/KRIV_Fox_26.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22011
+    },
+    {
+        "channelName": "FOX Indianapolis (WXIN)",
+        "tvgName": "VIP US: FOX Indianapolis",
+        "tvgId": "FOX.(WXIN).Indianapolis,.IN.us",
+        "tvgLogo": "https://static.wikia.nocookie.net/tvstations/images/f/f6/WXIN_2013_stacked.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22010
+    },
+    {
+        "channelName": "FOX Jacksonville (WFOX)",
+        "tvgName": "VIP US: FOX Jacksonville",
+        "tvgId": "FOX.(WFOX).Jacksonville,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-30-wfox-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22009
+    },
+    {
+        "channelName": "FOX Kansas City (WDAF)",
+        "tvgName": "VIP US: FOX Kansas City",
+        "tvgId": "FOX.(WDAF).Kansas.City,.MO.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-4-wdaf-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22008
+    },
+    {
+        "channelName": "FOX Los Angeles (KTTV)",
+        "tvgName": "VIP US: FOX Los Angeles",
+        "tvgId": "FOX.(KTTV).Los.Angeles,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-11-kttv-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22007
+    },
+    {
+        "channelName": "FOX Miami (WSVN)",
+        "tvgName": "VIP US: FOX Miami",
+        "tvgId": "FOX.(WSVN).Miami,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/7-news-miami-wsvn-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22006
+    },
+    {
+        "channelName": "FOX Milwaukee (WITI)",
+        "tvgName": "VIP US: FOX Milwaukee",
+        "tvgId": "FOX.(WITI).Milwaukee,.WI.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-6-witi-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22005
+    },
+    {
+        "channelName": "FOX Minneapolis (KMSP)",
+        "tvgName": "VIP US: FOX Minneapolis",
+        "tvgId": "FOX.(KMSP).Minneapolis,.MN.HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-9-kmsp-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22004
+    },
+    {
+        "channelName": "FOX Nashville (WZTV)",
+        "tvgName": "VIP US: FOX Nashville",
+        "tvgId": "FOX.(WZTV).Nashville,.TN.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-17-wztv-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22003
+    },
+    {
+        "channelName": "FOX New Orleans",
+        "tvgName": "VIP US: FOX New Orleans",
+        "tvgId": "FOX.(WVUE).New.Orleans,.LA.us",
+        "tvgLogo": "https://chambermaster.blob.core.windows.net/images/customers/611/members/3649/logos/MEMBER_PAGE_HEADER/FOX_8_LOCAL_FIRST_MASTER_RED.jpg",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22002
+    },
+    {
+        "channelName": "Fox New York (WNYW)",
+        "tvgName": "VIP US: FOX New York",
+        "tvgId": "FOX.(WNYW).New.York,.NY.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-5-wnyw-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22001
+    },
+    {
+        "channelName": "FOX Orlando (WOFL)",
+        "tvgName": "VIP US: FOX Orlando",
+        "tvgId": "FOX.(WOFL).Orlando,.FL.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/fox-35-wofl-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21998
+    },
+    {
+        "channelName": "FOX Philadelphia (WTXF)",
+        "tvgName": "VIP US: FOX Philadelphia",
+        "tvgId": "FOX.(WTXF).Philadelphia,.PA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-29-wtxf-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21997
+    },
+    {
+        "channelName": "FOX Phoenix (KSAZ)",
+        "tvgName": "VIP US: FOX Phoenix",
+        "tvgId": "FOX.(KSAZ).Phoenix,.AZ.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-10-ksaz-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21996
+    },
+    {
+        "channelName": "FOX Pittsburgh (WPGH)",
+        "tvgName": "VIP US: FOX Pittsburgh",
+        "tvgId": "FOX.(WPGH).Pittsburgh,.PA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-53-wpgh-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21995
+    },
+    {
+        "channelName": "Fox Portland (KPTV)",
+        "tvgName": "VIP US: Fox Portland",
+        "tvgId": "FOX.(KPTV).Portland,.OR.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-12-kptv-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 22021
+    },
+    {
+        "channelName": "FOX Sacramento (KTXL)",
+        "tvgName": "VIP US: FOX Sacramento",
+        "tvgId": "FOX.(KTXL).Sacramento,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-40-ktxl-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21994
+    },
+    {
+        "channelName": "FOX Salt Lake City (KSTU)",
+        "tvgName": "VIP US: FOX Salt Lake City",
+        "tvgId": "FOX.(KSTU).Salt.Lake.City,.UT.us",
+        "tvgLogo": "https://static.wikia.nocookie.net/annex/images/6/68/KSTU_2020.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21993
+    },
+    {
+        "channelName": "FOX San Antonio (KABB)",
+        "tvgName": "VIP US: FOX San Antonio",
+        "tvgId": "FOX.(KABB).San.Antonio,.TX.us",
+        "tvgLogo": "https://static.wikia.nocookie.net/logo-timeline/images/b/bc/KABB_Fox_29_San_Antonio.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21992
+    },
+    {
+        "channelName": "FOX San Diego (KSWB)",
+        "tvgName": "VIP US: FOX San Diego",
+        "tvgId": "FOX.(KSWB).San.Diego,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/wip/fox-5-kswb-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21991
+    },
+    {
+        "channelName": "FOX San Francisco (KTVU)",
+        "tvgName": "VIP US: FOX San Francisco",
+        "tvgId": "FOX.(KTVU).San.Francisco,.CA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-2-ktvu-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21990
+    },
+    {
+        "channelName": "FOX Seattle (KCPQ)",
+        "tvgName": "VIP US: FOX Seattle",
+        "tvgId": "FOX.(KCPQ).Tacoma,.WA.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Fts-seattle-a.svg/1200px-Fts-seattle-a.svg.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21989
+    },
+    {
+        "channelName": "FOX St Louis (KTVI)",
+        "tvgName": "VIP US: FOX St Louis",
+        "tvgId": "FOX.(KTVI).St..Louis,.MO.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/fox-2-ktvi-us.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21988
+    },
+    {
+        "channelName": "FOX Tampa Bay (WTVT)",
+        "tvgName": "VIP US: FOX Tampa",
+        "tvgId": "FOX.(WTVT).Tampa.Bay,.FL.us",
+        "tvgLogo": "https://static.wikia.nocookie.net/logopedia/images/7/79/Fox13.jpg",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21987
+    },
+    {
+        "channelName": "FOX Washington (WTTG)",
+        "tvgName": "VIP US: FOX Washington",
+        "tvgId": "FOX.(WTTG).District.of.Columbia.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Logo_of_WTTG-TV_%281998-2006%29.png/170px-Logo_of_WTTG-TV_%281998-2006%29.png",
+        "extGrp": "Locals FOX",
+        "tvgShift": 0,
+        "channelId": 21986
     }
 ]
