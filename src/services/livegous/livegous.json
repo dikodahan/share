@@ -153,6 +153,14 @@
         "channelId": 22905
     },
     {
+        "channelName": "Grit",
+        "tvgName": "VIP US: Grit",
+        "tvgId": "Grit.TV.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/grit-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22900
+    },{
         "channelName": "Hallmark",
         "tvgName": "VIP US: HALLMARK HD",
         "tvgId": "Hallmark.Channel.HDTV.(East).(HALLHD).us",
@@ -160,6 +168,15 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 10730
+    },
+    {
+        "channelName": "Hallmark Drama",
+        "tvgName": "VIP US: Hallmark Drama",
+        "tvgId": "Hallmark.Drama.HDTV.(HALDRHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hallmark-drama-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22885
     },
     {
         "channelName": "Hallmark Movies & Mysteries",
@@ -450,6 +467,627 @@
         "channelId": 22858
     },
     {
+        "channelName": "A&E HD",
+        "tvgName": "VIP US: A&E HD",
+        "tvgId": "A.and.E.Network.HDTV.(A.and.EHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/a-and-e-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10699
+    },
+    {
+        "channelName": "A&E HD",
+        "tvgName": "US: A&E TV HD",
+        "tvgId": "A.and.E.Network.HDTV.(A.and.EHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/a-and-e-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 5240
+    },
+    {
+        "channelName": "ABC Spark",
+        "tvgName": "VIP US: ABC FAMILY/SPARK",
+        "tvgId": "ABC.Spark.HDTV.(HABCS).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/abc-spark-ca.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10654
+    },
+    {
+        "channelName": "Adult Swim",
+        "tvgName": "VIP US: Adult Swim",
+        "tvgId": "Adult.Swim.(ADSM).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/adult-swim-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10648
+    },
+    {
+        "channelName": "AHC",
+        "tvgName": "VIP US: AHC",
+        "tvgId": "American.Heroes.Channel.(AHC).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/american-heroes-channel-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10647
+    },
+    {
+        "channelName": "AHC",
+        "tvgName": "VIP US: Heroes Channel HD",
+        "tvgId": "American.Heroes.Channel.(AHC).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/american-heroes-channel-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22895
+    },
+    {
+        "channelName": "Antenna TV",
+        "tvgName": "VIP US: Antenna Tv",
+        "tvgId": "Antenna.TV.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/antenna-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22924
+    },
+    {
+        "channelName": "AXS TV",
+        "tvgName": "VIP US: AXS HD",
+        "tvgId": "AXSTV.HD.(AXSTV).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/axs-tv-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22863
+    },
+    {
+        "channelName": "BBC America",
+        "tvgName": "VIP US: BBC America",
+        "tvgId": "BBC.America.HDTV.(East).(BBC).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bbc-america-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10697
+    },
+    {
+        "channelName": "BET",
+        "tvgName": "VIP US: BET",
+        "tvgId": "Black.Entertainment.Television.HDTV.(East).(BET-HD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bet-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22923
+    },
+    {
+        "channelName": "BET Her",
+        "tvgName": "VIP US: BET Her",
+        "tvgId": "BET.Her.HDTV.(BHERHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bet-her-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22922
+    },
+    {
+        "channelName": "Blaze TV",
+        "tvgName": "VIP US: The Blaze",
+        "tvgId": "BLAZE.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/blaze-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22880
+    },
+    {
+        "channelName": "Bravo",
+        "tvgName": "VIP US: Bravo HD",
+        "tvgId": "Bravo.HDTV.(East).(BRAVOD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bravo-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10701
+    },
+    {
+        "channelName": "Bravo",
+        "tvgName": "US: BRAVO HD",
+        "tvgId": "Bravo.HDTV.(East).(BRAVOD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bravo-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 5228
+    },
+    {
+        "channelName": "Buzzr TV",
+        "tvgName": "VIP US: Buzzer",
+        "tvgId": "BUZZR.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Buzzr_logo.svg/1200px-Buzzr_logo.svg.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22920
+    },
+    {
+        "channelName": "Buzzr TV",
+        "tvgName": "US: Buzzr",
+        "tvgId": "BUZZR.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Buzzr_logo.svg/1200px-Buzzr_logo.svg.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 5244
+    },
+    {
+        "channelName": "CMT",
+        "tvgName": "VIP US: CMT HD",
+        "tvgId": "CMT.HDTV.(East).(CMTHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cmt-color-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10718
+    },
+    {
+        "channelName": "Comedy Central",
+        "tvgName": "VIP US: COMEDY CENTRAL",
+        "tvgId": "Comedy.Central.HDTV.(East).(CMDHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/comedy-central-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10692
+    },
+    {
+        "channelName": "Comedy Central",
+        "tvgName": "US: COMEDY CENTRAL HD",
+        "tvgId": "Comedy.Central.HDTV.(East).(CMDHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/comedy-central-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 5242
+    },
+    {
+        "channelName": "Country network",
+        "tvgName": "VIP US: Country network",
+        "tvgId": "The.Country.Network.(WWRD).Centerville,.OH.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/the-country-network-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": -1,
+        "channelId": 22916
+    },
+    {
+        "channelName": "Cowboy Channel",
+        "tvgName": "VIP US: Cowboy Channel",
+        "tvgId": "The.Cowboy.Channel.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cowboy-channel-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22915
+    },
+    {
+        "channelName": "COZI",
+        "tvgName": "VIP US: COZI Tv",
+        "tvgId": "COZI.TV.(COZI).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cozi-tv-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22919
+    },
+    {
+        "channelName": "COZI",
+        "tvgName": "US: Cozi TV",
+        "tvgId": "COZI.TV.(COZI).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cozi-tv-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 5225
+    },
+    {
+        "channelName": "CW New York",
+        "tvgName": "VIP US: CW HD",
+        "tvgId": "WPIX.New.York.(SUPERSTATION).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cw/cw-11-wpix-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10748
+    },
+    {
+        "channelName": "CW New York",
+        "tvgName": "US: CW HD",
+        "tvgId": "WPIX.New.York.(SUPERSTATION).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/cw/cw-11-wpix-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 5230
+    },
+    {
+        "channelName": "Daystar TV",
+        "tvgName": "VIP US: DAYSTAR TV",
+        "tvgId": "Daystar.Television.Network.(DAYSTAR).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/daystar-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 41467
+    },
+    {
+        "channelName": "Discovery Life",
+        "tvgName": "VIP US: Discovery Life HD",
+        "tvgId": "Discovery.Life.Channel.(DLIF).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/discovery-life-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22912
+    },
+    {
+        "channelName": "EWTN",
+        "tvgName": "VIP US: EWTN",
+        "tvgId": "Eternal.Word.Television.Network.(EWTN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/ewtn-icon-int.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 41468
+    },
+    {
+        "channelName": "Hope Channel",
+        "tvgName": "VIP US: Hope Channel",
+        "tvgId": "Hope.Channel.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hope-channel-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10772
+    },
+    {
+        "channelName": "Investigation Discovery",
+        "tvgName": "US: Investigation Discovery",
+        "tvgId": "Investigation.Discovery.HDTV.(IDHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/investigation-discovery-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 5410
+    },
+    {
+        "channelName": "Investigation Discovery",
+        "tvgName": "VIP US: Discovery ID HD",
+        "tvgId": "Investigation.Discovery.HDTV.(IDHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/investigation-discovery-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22913
+    },
+    {
+        "channelName": "Freeform",
+        "tvgName": "VIP US: FreeRom HD",
+        "tvgId": "Freeform.HDTV.(East).(FRFHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/freeform-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 5234
+    },
+    {
+        "channelName": "Fuse",
+        "tvgName": "VIP US: Fuse",
+        "tvgId": "Fuse.HDTV.(East).(FUSED).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fuse-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22902
+    },
+    {
+        "channelName": "Fuse",
+        "tvgName": "VIP US: Fusion",
+        "tvgId": "Fuse.HDTV.(East).(FUSED).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fuse-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22901
+    },
+    {
+        "channelName": "FXX",
+        "tvgName": "VIP US: FXX",
+        "tvgId": "FXX.HDTV.(East).(FXXHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fxx-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22904
+    },
+    {
+        "channelName": "FYI",
+        "tvgName": "VIP US: FYI",
+        "tvgId": "FYI.HDTV.(FYIHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fyi-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22903
+    },
+    {
+        "channelName": "GSN TV",
+        "tvgName": "VIP US: GSN TV",
+        "tvgId": "Game.Show.Network.HDTV.(EAST).(GMSHWHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/game-show-network-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10675
+    },
+    {
+        "channelName": "ION TV",
+        "tvgName": "VIP US: ION TV",
+        "tvgId": "ION.East.Cable/Dish.(ION).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ion-television-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22879
+    },
+    {
+        "channelName": "Me TV",
+        "tvgName": "VIP US: ME Tv",
+        "tvgId": "Me.TV.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/me-tv-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22875
+    },
+    {
+        "channelName": "MTV",
+        "tvgName": "VIP US: MTV HD",
+        "tvgId": "MTV.HDTV.(East).(MTVHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mtv-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10757
+    },
+    {
+        "channelName": "MY9 TV",
+        "tvgName": "VIP US: MY9 TV",
+        "tvgId": "MNT.(WWOR).New.York,.NY.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/mytv/my-9-wwor-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10665
+    },
+    {
+        "channelName": "Oxygen",
+        "tvgName": "VIP US: Oxygen",
+        "tvgId": "Oxygen.(East).(OXYGN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/oxygen-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22870
+    },
+    {
+        "channelName": "Oxygen",
+        "tvgName": "VIP US: OxyGen HD",
+        "tvgId": "Oxygen.(East).(OXYGN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/oxygen-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22892
+    },
+    {
+        "channelName": "Paramount Network",
+        "tvgName": "VIP US: SPIKE TV",
+        "tvgId": "Paramount.Network.HDTV.(East).(PARHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/paramount-network-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10756
+    },
+    {
+        "channelName": "Paramount Network",
+        "tvgName": "US: SPIKE / PARA HD",
+        "tvgId": "Paramount.Network.HDTV.(East).(PARHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/paramount-network-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 5237
+    },
+    {
+        "channelName": "PBS",
+        "tvgName": "VIP US: PBS Kids",
+        "tvgId": "PBS.(WNET).New.York,.NY.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/pbs/pbs-wnet-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10680
+    },
+    {
+        "channelName": "Pop TV",
+        "tvgName": "VIP US: Pop TV",
+        "tvgId": "Pop.(East).(POP).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/pop-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22868
+    },
+    {
+        "channelName": "Reelz",
+        "tvgName": "VIP US: Reelz",
+        "tvgId": "ReelzChannel.HDTV.(REELZH).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/reelz-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22865
+    },
+    {
+        "channelName": "Start TV",
+        "tvgName": "VIP US: Star Channel FHD",
+        "tvgId": "Start.TV.Network.(East.Feed).(START).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/start-tv-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10679
+    },
+    {
+        "channelName": "TBS",
+        "tvgName": "VIP US: TBS HD",
+        "tvgId": "TBS.Superstation.HDTV.(East).(TBSHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/tbs-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10750
+    },
+    {
+        "channelName": "TBS",
+        "tvgName": "US: TBS HD",
+        "tvgId": "TBS.Superstation.HDTV.(East).(TBSHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/tbs-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 3587
+    },
+    {
+        "channelName": "TLC",
+        "tvgName": "VIP US: TLC HD",
+        "tvgId": "The.Learning.Channel.HDTV.(East).(TLCHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tlc-ca.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10764
+    },
+    {
+        "channelName": "TNT",
+        "tvgName": "VIP US: TNT HD",
+        "tvgId": "Turner.Network.Television.HDTV.(East).(TNTHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/tnt-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10751
+    },
+    {
+        "channelName": "TV Land",
+        "tvgName": "VIP US: TV Land",
+        "tvgId": "TV.Land.(East).(TVLAND).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/tv-land-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22856
+    },
+    {
+        "channelName": "TV One",
+        "tvgName": "VIP US: TV One",
+        "tvgId": "TV.ONE.HDTV.(TVONEHD).us",
+        "tvgLogo": "https://tvone.tv/wp-content/themes/tvone/assets/TVOne_represent_tm.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22859
+    },
+    {
+        "channelName": "USA Network",
+        "tvgName": "VIP US: USA Network",
+        "tvgId": "USA.Network.HDTV.(East).(USAHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/usa-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 10753
+    },
+    {
+        "channelName": "USA Network",
+        "tvgName": "VIP US: USA Network HD",
+        "tvgId": "USA.Network.HDTV.(East).(USAHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/usa-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22852
+    },
+    {
+        "channelName": "USA Network",
+        "tvgName": "US: USA Network HD",
+        "tvgId": "USA.Network.HDTV.(East).(USAHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/usa-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 871
+    },
+    {
+        "channelName": "vice TV",
+        "tvgName": "VIP US: Viceland HD",
+        "tvgId": "VICE.HDTV.(VICEHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/vice-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22851
+    },
+    {
+        "channelName": "Boomerang",
+        "tvgName": "VIP US: Boomerang",
+        "tvgId": "Boomerang.(BOOM).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/boomerang-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 15554
+    },
+    {
+        "channelName": "Cartoon Network",
+        "tvgName": "US: Cartoon Network HD",
+        "tvgId": "Cartoon.Network.(West).(TOON).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cartoon-network-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 7932
+    },
+    {
+        "channelName": "Cartoon Network",
+        "tvgName": "VIP US: CARTOON NETWORK",
+        "tvgId": "Cartoon.Network.(West).(TOON).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cartoon-network-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 10694
+    },
+    {
+        "channelName": "Disney Channel",
+        "tvgName": "VIP US: Disney HD",
+        "tvgId": "The.Disney.Channel.HDTV.(East).(DISHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/disney-channel-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 22911
+    },
+    {
+        "channelName": "Disney Jr",
+        "tvgName": "VIP US: DISNEY JR HD",
+        "tvgId": "Disney.Junior.HDTV.East.(DISJr).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/disney-junior-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 10735
+    },
+    {
+        "channelName": "Disney XD",
+        "tvgName": "VIP US: Disney XD HD",
+        "tvgId": "Disney.XD.(East).(DISXD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/disney-xd-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 22910
+    },
+    {
+        "channelName": "Nick",
+        "tvgName": "VIP US: NICK HD (kids)",
+        "tvgId": "Nickelodeon.HDTV.(East).(NICHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nick-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 10663
+    },
+    {
+        "channelName": "Nick",
+        "tvgName": "US: NICKELODEN HD",
+        "tvgId": "Nickelodeon.HDTV.(East).(NICHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nick-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 5236
+    },
+    {
+        "channelName": "TeenNick",
+        "tvgName": "VIP US: Teen Nick HD",
+        "tvgId": "TeenNick.(East).(TNCK).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/teen-nick-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 10678
+    },
+    {
+        "channelName": "TeenNick",
+        "tvgName": "VIP US: NICKELODEON KIDS",
+        "tvgId": "TeenNick.(East).(TNCK).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/teen-nick-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 10695
+    },
+    {
         "channelName": "AL JAZEERA",
         "tvgName": "VIP US: AL JAZEERA HD",
         "tvgId": "Al.Jazeera.(English.-.North.America).(ALJAZEE).ca",
@@ -628,6 +1266,276 @@
         "extGrp": "News",
         "tvgShift": 0,
         "channelId": 22873
+    },
+    {
+        "channelName": "BET Jams",
+        "tvgName": "VIP US: My Jam TV HD",
+        "tvgId": "BET.Jams.(BETJ).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bet-jams-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 22893
+    },
+    {
+        "channelName": "Cooking Channel",
+        "tvgName": "VIP US: Cooking Channel",
+        "tvgId": "The.Cooking.Channel.HDTV.(COOKHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cooking-channel-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 22917
+    },
+    {
+        "channelName": "Destination America",
+        "tvgName": "VIP US:  DESTINATION AMERICA",
+        "tvgId": "Destination.America.HDTV.(DESTAMHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/destination-america-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 10645
+    },
+    {
+        "channelName": "Discovery Family",
+        "tvgName": "VIP US: Discovery Family",
+        "tvgId": "Discovery.Family.Channel.HDTV.(DFCHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/discovery-family-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 22914
+    },
+    {
+        "channelName": "Discovery Velocity",
+        "tvgName": "VIP US: DISCOVERY VELOCITY HD",
+        "tvgId": "Discovery.Velocity.HDTV.(DVHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/discovery-velocity-ca.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 10690
+    },
+    {
+        "channelName": "Magnolia Network",
+        "tvgName": "VIP US: DIY HD",
+        "tvgId": "Magnolia.Network.HDTV.(MAGNOLIA).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/magnolia-network-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 22909
+    },
+    {
+        "channelName": "E! Entertainment",
+        "tvgName": "VIP US: E! Network HD",
+        "tvgId": "E!.Entertainment.Television.HDTV.(East).(E!.HD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/e-entertainment-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 10689
+    },
+    {
+        "channelName": "Food Network",
+        "tvgName": "VIP US: FOOD NETWORK",
+        "tvgId": "Food.Network.HDTV.(East).(FOODHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/food-network-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 10688
+    },
+    {
+        "channelName": "HGTV",
+        "tvgName": "VIP US: HGTV HD",
+        "tvgId": "Home.and.Garden.Television.HDTV.(East).(HGTVD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hgtv-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 10668
+    },
+    {
+        "channelName": "MTV Live",
+        "tvgName": "VIP US: MTV LIVE HD",
+        "tvgId": "MTV.Live.HDTV.(MTVL).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mtv-live-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 10760
+    },
+    {
+        "channelName": "QVC",
+        "tvgName": "VIP US: QVC",
+        "tvgId": "Quality.Value.Convenience.Network.HDTV.(QVCHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/qvc-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 22867
+    },
+    {
+        "channelName": "REVOLT",
+        "tvgName": "VIP US: REVOLT",
+        "tvgId": "Revolt.HDTV.(RVLTHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/revolt-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 22866
+    },
+    {
+        "channelName": "Travel Channel",
+        "tvgName": "VIP US: TRAVEL CHANNEL",
+        "tvgId": "Travel.Channel.HDTV.(East).(TRAVD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/travel-channel-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 10765
+    },
+    {
+        "channelName": "tru TV",
+        "tvgName": "VIP US: TRU TV",
+        "tvgId": "truTV.HDTV.(East).(TruTVD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/tru-tv-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 10657
+    },
+    {
+        "channelName": "Animal Planet",
+        "tvgName": "US: Animal Planet HD",
+        "tvgId": "Animal.Planet.HDTV.(East).(APHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/animal-planet-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 5406
+    },
+    {
+        "channelName": "Animal Planet",
+        "tvgName": "VIP US: ANIMAL PLANET",
+        "tvgId": "Animal.Planet.HDTV.(East).(APHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/animal-planet-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 10768
+    },
+    {
+        "channelName": "Discovery Channel",
+        "tvgName": "US: Discovery Channel HD",
+        "tvgId": "The.Discovery.Channel.HDTV.(East).(DSCHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/discovery-channel-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 5408
+    },
+    {
+        "channelName": "Discovery Channel",
+        "tvgName": "VIP US: DISCOVERY CHANNEL HD",
+        "tvgId": "The.Discovery.Channel.HDTV.(East).(DSCHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/discovery-channel-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 10761
+    },
+    {
+        "channelName": "Discovery Science",
+        "tvgName": "VIP US: Discovery Science HD",
+        "tvgId": "Science.HDTV.(SCIHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/discovery-science-icon-shade-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 15405
+    },
+    {
+        "channelName": "T+E",
+        "tvgName": "VIP US: Escape",
+        "tvgId": "T+E.(T+E).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/travel-and-escape-ca.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 22906
+    },
+    {
+        "channelName": "History",
+        "tvgName": "US: HISTORY",
+        "tvgId": "History.HDTV.(East).(HISHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/history-channel-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 5405
+    },
+    {
+        "channelName": "History",
+        "tvgName": "VIP US: HISTORY HD",
+        "tvgId": "History.HDTV.(East).(HISHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/history-channel-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 10762
+    },
+    {
+        "channelName": "History 2",
+        "tvgName": "US: H2",
+        "tvgId": "History2.Canada.(H2).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/history-channel-2-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 3594
+    },
+    {
+        "channelName": "NASA TV",
+        "tvgName": "VIP US: NASA TV HD",
+        "tvgId": "NASA.Television.(NASA).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nasa-tv-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 10649
+    },
+    {
+        "channelName": "National Geographic",
+        "tvgName": "VIP US: NAT GEO HD",
+        "tvgId": "National.Geographic.Channel.HDTV.(NGCHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/national-geographic-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 10759
+    },
+    {
+        "channelName": "Nat Geo Wild",
+        "tvgName": "VIP US: Nat Geo Wild HD",
+        "tvgId": "NatGeo.WILD.HDTV.(NGWILD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nat-geo-wild-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 22874
+    },
+    {
+        "channelName": "Outdoor HD",
+        "tvgName": "VIP US: Outdoor HD",
+        "tvgId": "Outdoor.Channel.HDTV.(OUTHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/outdoor-channel-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 19599
+    },
+    {
+        "channelName": "Pursuit Channel",
+        "tvgName": "VIP US: Pursuit Channel",
+        "tvgId": "Pursuit.Channel.(DISH.only).(PRST).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/pursuit-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 22857
+    },
+    {
+        "channelName": "Rev'n",
+        "tvgName": "VIP US: Rev'n",
+        "tvgId": "REVN.TV.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/2/29/Rev%27n_logo.jpg",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 111062
+    },
+    {
+        "channelName": "Smithsonian Channel",
+        "tvgName": "VIP US: Smithsonian Channel",
+        "tvgId": "Smithsonian.Channel.HDTV.(East).(SMITHHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/smithsonian-channel-us.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 22861
     },
     {
         "channelName": "ABC Albany (WTEN)",
