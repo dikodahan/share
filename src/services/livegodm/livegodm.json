@@ -723,7 +723,7 @@
         "channelName": "FHD הוט סינמה משפחה",
         "tvgName": "hot.cinema.family",
         "tvgId": "Cinema Family [HOT]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Cinema-Family-DM.png",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/HOT-Cinema-Family-DM.png",
         "extGrp": "ערוצי הוט",
         "channelId": 41501
     },
@@ -907,7 +907,7 @@
         "channelName": "מוזיקה קלאסית",
         "tvgName": "stingray.classic",
         "tvgId": "CLASSICA [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Stingray-Classica-DM.png",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/Stingray-Classica-DM.png",
         "extGrp": "מוזיקה",
         "channelId": 58502
     },
@@ -1131,7 +1131,7 @@
         "channelName": "FHD חדשות סי אן אן",
         "tvgName": "CNN HD",
         "tvgId": "CNN [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/CNN-DM.png",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/CNN-DM.png",
         "extGrp": "חדשות מהעולם",
         "channelId": 33597
     },
@@ -1139,7 +1139,7 @@
         "channelName": "HD חדשות פוקס",
         "tvgName": "Fox News",
         "tvgId": "FOX NEWS [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Fox-News-DM.png",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/Fox-News-DM.png",
         "extGrp": "חדשות מהעולם",
         "channelId": 22000
     },
@@ -1147,7 +1147,7 @@
         "channelName": "SD פוקס ביזנס",
         "tvgName": "fox.business.network.us",
         "tvgId": "פוקס ביזנס [HOT]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Fox-Business-DM.png",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/Fox-Business-DM.png",
         "extGrp": "חדשות מהעולם",
         "channelId": 42009
     },
@@ -1155,7 +1155,7 @@
         "channelName": "SD חדשות בלומברג",
         "tvgName": "BLOOMBERG TV",
         "tvgId": "בלומברג [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Bloomberg-DM.png",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/Bloomberg-DM.png",
         "extGrp": "חדשות מהעולם",
         "channelId": 10747
     },
@@ -1163,7 +1163,7 @@
         "channelName": "SD חדשות סקיי",
         "tvgName": "Sky News",
         "tvgId": "SKY NEWS [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Sky-News-DM.png",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/Sky-News-DM.png",
         "extGrp": "חדשות מהעולם",
         "channelId": 930
     },
@@ -1259,7 +1259,7 @@
         "channelName": "HD הוט בוליווד",
         "tvgName": "yes.bollywood.il",
         "tvgId": "Bollywood HD [HOT]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Bollywood-DM.png",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-Bollywood-DM.png",
         "extGrp": "שפות זרות",
         "channelId": 20368
     },
@@ -1267,7 +1267,7 @@
         "channelName": "HD הוט בוליווד",
         "tvgName": "yes.bollywood.il",
         "tvgId": "Bollywood HD [HOT]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Bollywood-DM.png",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-Bollywood-DM.png",
         "extGrp": "שפות זרות",
         "channelId": 12028
     }
