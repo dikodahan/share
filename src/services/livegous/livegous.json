@@ -3318,5 +3318,545 @@
         "extGrp": "Locals FOX",
         "tvgShift": 0,
         "channelId": 21986
+    },
+    {
+        "channelName": "Cinema PPV 01",
+        "tvgName": "VIP US: Cinema PPV 01",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34834
+    },
+    {
+        "channelName": "Cinema PPV 02",
+        "tvgName": "VIP US: Cinema PPV 02",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34835
+    },
+    {
+        "channelName": "Cinema PPV 03",
+        "tvgName": "VIP US: Cinema PPV 03",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34836
+    },
+    {
+        "channelName": "Cinema PPV 04",
+        "tvgName": "VIP US: Cinema PPV 04",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34837
+    },
+    {
+        "channelName": "Cinema PPV 05",
+        "tvgName": "VIP US: Cinema PPV 05",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34838
+    },
+    {
+        "channelName": "Cinema PPV 06",
+        "tvgName": "VIP US: Cinema PPV 06",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34839
+    },
+    {
+        "channelName": "Cinema PPV 07",
+        "tvgName": "VIP US: Cinema PPV 07",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34840
+    },
+    {
+        "channelName": "Cinema PPV 08",
+        "tvgName": "VIP US: Cinema PPV 08",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34841
+    },
+    {
+        "channelName": "Cinema PPV 09",
+        "tvgName": "VIP US: Cinema PPV 09",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34842
+    },
+    {
+        "channelName": "Cinema PPV 10",
+        "tvgName": "VIP US: Cinema PPV 10",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34843
+    },
+    {
+        "channelName": "Cinema PPV 11",
+        "tvgName": "VIP US: Cinema PPV 11",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34844
+    },
+    {
+        "channelName": "Cinema PPV 12",
+        "tvgName": "VIP US: Cinema PPV 12",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34845
+    },
+    {
+        "channelName": "Cinema PPV 13",
+        "tvgName": "VIP US: Cinema PPV 13",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34846
+    },
+    {
+        "channelName": "Cinema PPV 14",
+        "tvgName": "VIP US: Cinema PPV 14",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34847
+    },
+    {
+        "channelName": "Cinema PPV 15",
+        "tvgName": "VIP US: Cinema PPV 15",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34848
+    },
+    {
+        "channelName": "Cinema PPV 16",
+        "tvgName": "VIP US: Cinema PPV 16",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34849
+    },
+    {
+        "channelName": "Cinema PPV 17",
+        "tvgName": "VIP US: Cinema PPV 17",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34850
+    },
+    {
+        "channelName": "Cinema PPV 18",
+        "tvgName": "VIP US: Cinema PPV 18",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34851
+    },
+    {
+        "channelName": "Cinema PPV 19",
+        "tvgName": "VIP US: Cinema PPV 19",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34852
+    },
+    {
+        "channelName": "Cinema PPV 20",
+        "tvgName": "VIP US: Cinema PPV 20",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34853
+    },
+    {
+        "channelName": "Cinema PPV 21",
+        "tvgName": "VIP US: Cinema PPV 21",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34854
+    },
+    {
+        "channelName": "Cinema PPV 22",
+        "tvgName": "VIP US: Cinema PPV 22",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34855
+    },
+    {
+        "channelName": "Cinema PPV 23",
+        "tvgName": "VIP US: Cinema PPV 23",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34856
+    },
+    {
+        "channelName": "Cinema PPV 24",
+        "tvgName": "VIP US: Cinema PPV 24",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34857
+    },
+    {
+        "channelName": "Cinema PPV 25",
+        "tvgName": "VIP US: Cinema PPV 25",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34858
+    },
+    {
+        "channelName": "Cinema PPV 26",
+        "tvgName": "VIP US: Cinema PPV 26",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34859
+    },
+    {
+        "channelName": "Cinema PPV 27",
+        "tvgName": "VIP US: Cinema PPV 27",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34860
+    },
+    {
+        "channelName": "Cinema PPV 28",
+        "tvgName": "VIP US: Cinema PPV 28",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34861
+    },
+    {
+        "channelName": "Cinema PPV 29",
+        "tvgName": "VIP US: Cinema PPV 29",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34862
+    },
+    {
+        "channelName": "Cinema PPV 30",
+        "tvgName": "VIP US: Cinema PPV 30",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34863
+    },
+    {
+        "channelName": "Cinema PPV 31",
+        "tvgName": "VIP US: Cinema PPV 31",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34864
+    },
+    {
+        "channelName": "Cinema PPV 32",
+        "tvgName": "VIP US: Cinema PPV 32",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34865
+    },
+    {
+        "channelName": "Cinema PPV 33",
+        "tvgName": "VIP US: Cinema PPV 33",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34866
+    },
+    {
+        "channelName": "Cinema PPV 34",
+        "tvgName": "VIP US: Cinema PPV 34",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34867
+    },
+    {
+        "channelName": "Cinema PPV 35",
+        "tvgName": "VIP US: Cinema PPV 35",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34868
+    },
+    {
+        "channelName": "Cinema PPV 36",
+        "tvgName": "VIP US: Cinema PPV 36",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34869
+    },
+    {
+        "channelName": "Cinema PPV 37",
+        "tvgName": "VIP US: Cinema PPV 37",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34870
+    },
+    {
+        "channelName": "Cinema PPV 38",
+        "tvgName": "VIP US: Cinema PPV 38",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34871
+    },
+    {
+        "channelName": "Cinema PPV 39",
+        "tvgName": "VIP US: Cinema PPV 39",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34872
+    },
+    {
+        "channelName": "Cinema PPV 40",
+        "tvgName": "VIP US: Cinema PPV 40",
+        "tvgId": "",
+        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
+        "extGrp": "Cinema PPV",
+        "tvgShift": 0,
+        "channelId": 34873
+    },
+    {
+        "channelName": "EMPIRE CINEMA 007",
+        "tvgName": "VIP US: EMPIRE CINEMA 007 HD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40251
+    },
+    {
+        "channelName": "EMPIRE CINEMA @THEATRE",
+        "tvgName": "VIP US: EMPIRE CINEMA @THEATRE",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40252
+    },
+    {
+        "channelName": "EMPIRE CINEMA ACTION",
+        "tvgName": "VIP US: EMPIRE CINEMA ACTION FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40253
+    },
+    {
+        "channelName": "EMPIRE CINEMA ADVENTURE",
+        "tvgName": "VIP US: EMPIRE CINEMA ADVENTURE FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40254
+    },
+    {
+        "channelName": "EMPIRE CINEMA ANIMATION",
+        "tvgName": "VIP US: EMPIRE CINEMA ANIMATION FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40255
+    },
+    {
+        "channelName": "EMPIRE CINEMA BIOGRAPHY",
+        "tvgName": "VIP US: EMPIRE CINEMA BIOGRAPHY FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40256
+    },
+    {
+        "channelName": "EMPIRE CINEMA COMEDY",
+        "tvgName": "VIP US: EMPIRE CINEMA COMEDY FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40257
+    },
+    {
+        "channelName": "EMPIRE CINEMA COMICULT",
+        "tvgName": "VIP US: EMPIRE CINEMA COMICULT FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40258
+    },
+    {
+        "channelName": "EMPIRE CINEMA DRAMA",
+        "tvgName": "VIP US: EMPIRE CINEMA DRAMA FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40259
+    },
+    {
+        "channelName": "EMPIRE CINEMA FAMILY",
+        "tvgName": "VIP US: EMPIRE CINEMA FAMILY FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40260
+    },
+    {
+        "channelName": "EMPIRE CINEMA FANTASY",
+        "tvgName": "VIP US: EMPIRE CINEMA FANTASY FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40261
+    },
+    {
+        "channelName": "EMPIRE CINEMA HINDI",
+        "tvgName": "VIP US: EMPIRE CINEMA HINDI FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40262
+    },
+    {
+        "channelName": "EMPIRE CINEMA HORROR",
+        "tvgName": "VIP US: EMPIRE CINEMA HORROR FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40263
+    },
+    {
+        "channelName": "EMPIRE CINEMA MYTHOLOGY",
+        "tvgName": "VIP US: EMPIRE CINEMA MYTHOLOGY HD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40264
+    },
+    {
+        "channelName": "EMPIRE CINEMA PREMIERE",
+        "tvgName": "VIP US: EMPIRE CINEMA PREMIERE FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40265
+    },
+    {
+        "channelName": "EMPIRE CINEMA RELIGION",
+        "tvgName": "VIP US: EMPIRE CINEMA RELIGION HD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40266
+    },
+    {
+        "channelName": "EMPIRE CINEMA ROMANCE",
+        "tvgName": "VIP US: EMPIRE CINEMA ROMANCE FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40267
+    },
+    {
+        "channelName": "EMPIRE CINEMA SCI FI",
+        "tvgName": "VIP US: EMPIRE CINEMA SCI FI FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40268
+    },
+    {
+        "channelName": "EMPIRE CINEMA THRILLER",
+        "tvgName": "VIP US: EMPIRE CINEMA THRILLER FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40269
+    },
+    {
+        "channelName": "EMPIRE CINEMA WESTERN",
+        "tvgName": "VIP US: EMPIRE CINEMA WESTERN FHD",
+        "tvgId": "",
+        "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
+        "extGrp": "Empire Cinema",
+        "tvgShift": 0,
+        "channelId": 40270
     }
 ]
