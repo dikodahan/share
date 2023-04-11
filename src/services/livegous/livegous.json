@@ -45,6 +45,15 @@
         "channelId": 30735
     },
     {
+        "channelName": "Cinemax (West)",
+        "tvgName": "US: Cinemax 5 StarMax",
+        "tvgId": "Cinemax.HDTV.(West).(MAXHDW).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 5392
+    },
+    {
         "channelName": "Cinemax ActionMax",
         "tvgName": "VIP US: Cinemax 5 Star Max",
         "tvgId": "ActionMAX.HDTV.(East).(AMXHD).us",
@@ -88,15 +97,6 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 5394
-    },
-    {
-        "channelName": "Cinemax ActionMax",
-        "tvgName": "US: Cinemax 5 StarMax",
-        "tvgId": "ActionMAX.HDTV.(East).(AMXHD).us",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-actionmax-us.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 5392
     },
     {
         "channelName": "Cinemax MoreMax",
@@ -872,15 +872,6 @@
         "channelId": 5237
     },
     {
-        "channelName": "PBS",
-        "tvgName": "VIP US: PBS Kids",
-        "tvgId": "PBS.(WNET).New.York,.NY.us",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/us-local/pbs/pbs-wnet-us.png",
-        "extGrp": "Entertainment",
-        "tvgShift": 0,
-        "channelId": 10680
-    },
-    {
         "channelName": "Pop TV",
         "tvgName": "VIP US: Pop TV",
         "tvgId": "Pop.(East).(POP).us",
@@ -1070,6 +1061,15 @@
         "channelId": 5236
     },
     {
+        "channelName": "PBS Kids",
+        "tvgName": "VIP US: PBS Kids",
+        "tvgId": "PBS.Kids.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/pbs-kids-dot-icon-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 10680
+    },
+    {
         "channelName": "TeenNick",
         "tvgName": "VIP US: Teen Nick HD",
         "tvgId": "TeenNick.(East).(TNCK).us",
@@ -1086,6 +1086,15 @@
         "extGrp": "Kids",
         "tvgShift": 0,
         "channelId": 10695
+    },
+    {
+        "channelName": "ABC News Live",
+        "tvgName": "VIP US: ABC Action News",
+        "tvgId": "ABCNEWS.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/abc-news-live-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 10652
     },
     {
         "channelName": "AL JAZEERA",
