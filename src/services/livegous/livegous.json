@@ -1583,6 +1583,15 @@
         "channelId": 10749
     },
     {
+        "channelName": "CNN International",
+        "tvgName": "uk: CNN HD",
+        "tvgId": "CNN.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/cnn-international-int.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 31078
+    },
+    {
         "channelName": "FOX Business",
         "tvgName": "US: FOX Business HD",
         "tvgId": "Fox.Business.Network.HDTV.(FBNHD).us",
