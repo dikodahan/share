@@ -153,6 +153,15 @@
         "channelId": 22905
     },
     {
+        "channelName": "Great! Movies Action",
+        "tvgName": "VIP UK: Great! Movies Action",
+        "tvgId": "GREAT!.action.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/great-movies-action-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 74230
+    },
+    {
         "channelName": "Grit",
         "tvgName": "VIP US: Grit",
         "tvgId": "Grit.TV.us",
@@ -377,6 +386,195 @@
         "channelId": 5402
     },
     {
+        "channelName": "Sky Cinema Action",
+        "tvgName": "VIP UK: Sky Cinema Action HD",
+        "tvgId": "Sky.Action.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-action-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 12576
+    },
+    {
+        "channelName": "Sky Cinema Action",
+        "tvgName": "UK: Sky Movies Action & Adv",
+        "tvgId": "Sky.Action.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-action-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 264
+    },
+    {
+        "channelName": "Sky Cinema Animation",
+        "tvgName": "VIP UK: Sky Cinema Animation HD",
+        "tvgId": "SkyAnimationHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-animation-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 12575
+    },
+    {
+        "channelName": "Sky Cinema Comedy",
+        "tvgName": "VIP UK: Sky Cinema Comedy HD",
+        "tvgId": "Sky.Comedy.Cinema.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-comedy-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 12577
+    },
+    {
+        "channelName": "Sky Cinema Comedy",
+        "tvgName": "UK: Sky Movies Comedy",
+        "tvgId": "Sky.Comedy.Cinema.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-comedy-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 263
+    },
+    {
+        "channelName": "Sky Cinema Drama",
+        "tvgName": "VIP UK: Sky Cinema Drama HD",
+        "tvgId": "Sky.Drama.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-drama-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 11772
+    },
+    {
+        "channelName": "Sky Cinema Drama",
+        "tvgName": "UK: Sky Movies Drama",
+        "tvgId": "Sky.Drama.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-drama-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 265
+    },
+    {
+        "channelName": "Sky Cinema Family",
+        "tvgName": "VIP UK: Sky Cinema Disney HD",
+        "tvgId": "Sky.Family.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-family-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 11773
+    },
+    {
+        "channelName": "Sky Cinema Family",
+        "tvgName": "VIP UK: Sky Cinema Family HD",
+        "tvgId": "Sky.Family.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-family-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 29790
+    },
+    {
+        "channelName": "Sky Cinema Family",
+        "tvgName": "UK: Sky Movies Family",
+        "tvgId": "Sky.Family.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-family-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 266
+    },
+    {
+        "channelName": "Sky Cinema Greats",
+        "tvgName": "VIP UK: Sky Cinema Greats HD",
+        "tvgId": "Sky.Greats.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-greats-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 11771
+    },
+    {
+        "channelName": "Sky Cinema Greats",
+        "tvgName": "UK: Sky Movies Modern-Geant",
+        "tvgId": "Sky.Greats.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-greats-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 262
+    },
+    {
+        "channelName": "Sky Cinema Hits",
+        "tvgName": "VIP UK: Sky Cinema Hits HD",
+        "tvgId": "Sky.Hits.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-hits-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 60881
+    },
+    {
+        "channelName": "Sky Cinema Premiere",
+        "tvgName": "VIP UK: Sky Cinema Premiere HD",
+        "tvgId": "SkyPremiereHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-premiere-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 11769
+    },
+    {
+        "channelName": "Sky Cinema Premiere",
+        "tvgName": "UK: Sky Movies Premiere",
+        "tvgId": "SkyPremiereHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-premiere-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 261
+    },
+    {
+        "channelName": "Sky Cinema SC-FI & Horror",
+        "tvgName": "VIP UK: Sky Cinema SC-FI & Horror HD",
+        "tvgId": "Sky.ScFi/HorHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-sci-fi-horror-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 11768
+    },
+    {
+        "channelName": "Sky Cinema SC-FI & Horror",
+        "tvgName": "UK: Sky Movies Sci-Fi",
+        "tvgId": "Sky.ScFi/HorHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-sci-fi-horror-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 254
+    },
+    {
+        "channelName": "Sky Cinema Select",
+        "tvgName": "VIP UK: Sky Cinema Select HD",
+        "tvgId": "Sky.Cinema.Select.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-select-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 12579
+    },
+    {
+        "channelName": "Sky Cinema Select",
+        "tvgName": "UK: Sky Movies Select",
+        "tvgId": "Sky.Cinema.Select.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-select-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 260
+    },
+    {
+        "channelName": "Sky Cinema Thriller",
+        "tvgName": "VIP UK: Sky Cinema Thriller HD",
+        "tvgId": "Sky.Thriller.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-thriller-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 12578
+    },
+    {
+        "channelName": "Sky Cinema Thriller",
+        "tvgName": "UK: Sky Movies Thriller",
+        "tvgId": "Sky.Thriller.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-thriller-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 270
+    },
+    {
         "channelName": "Starz",
         "tvgName": "VIP US: Starz East",
         "tvgId": "STARZ.HD.(East).(STZHD).us",
@@ -548,6 +746,51 @@
         "channelId": 10697
     },
     {
+        "channelName": "BBC One",
+        "tvgName": "VIP UK: BBC One UHD",
+        "tvgId": "BBC.One.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-one-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 125419
+    },
+    {
+        "channelName": "BBC One",
+        "tvgName": "VIP UK: BBC One",
+        "tvgId": "BBC.One.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-one-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 2240
+    },
+    {
+        "channelName": "BBC Two",
+        "tvgName": "VIP UK: BBC Two FHD",
+        "tvgId": "BBC.Two.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-two-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 2238
+    },
+    {
+        "channelName": "BBC Three",
+        "tvgName": "VIP UK: BBC Three FHD",
+        "tvgId": "BBC.Three.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-three-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 2239
+    },
+    {
+        "channelName": "BBC Four",
+        "tvgName": "VIP UK: BBC Four FHD",
+        "tvgId": "BBC.Four.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-four-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 8169
+    },
+    {
         "channelName": "BET",
         "tvgName": "VIP US: BET",
         "tvgId": "Black.Entertainment.Television.HDTV.(East).(BET-HD).us",
@@ -609,6 +852,24 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 5244
+    },
+    {
+        "channelName": "Channel 4",
+        "tvgName": "VIP UK: Channel 4 FHD",
+        "tvgId": "Channel.4.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/channel-4-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 8170
+    },
+    {
+        "channelName": "Channel 5",
+        "tvgName": "VIP UK: Channel 5 FHD",
+        "tvgId": "Channel.5.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/channel-5-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 8171
     },
     {
         "channelName": "CMT",
@@ -809,6 +1070,42 @@
         "channelId": 22879
     },
     {
+        "channelName": "ITV",
+        "tvgName": "VIP UK: ITV FHD",
+        "tvgId": "ITV.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 6886
+    },
+    {
+        "channelName": "ITV 2",
+        "tvgName": "VIP UK: ITV 2 FHD",
+        "tvgId": "ITV2.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-2-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 7623
+    },
+    {
+        "channelName": "ITV 3",
+        "tvgName": "VIP UK: ITV 3 FHD",
+        "tvgId": "ITV3.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-3-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 8182
+    },
+    {
+        "channelName": "ITV 4",
+        "tvgName": "VIP UK: ITV 4 FHD",
+        "tvgId": "ITV4.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-4-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 7624
+    },
+    {
         "channelName": "Me TV",
         "tvgName": "VIP US: ME Tv",
         "tvgId": "Me.TV.us",
@@ -888,6 +1185,69 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 22865
+    },
+    {
+        "channelName": "Sky Atlantic",
+        "tvgName": "VIP UK: Sky Atlantic HD",
+        "tvgId": "Sky.Atlantic.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-atlantic-icon-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 12581
+    },
+    {
+        "channelName": "Sky Atlantic",
+        "tvgName": "UK: Sky Atlantic",
+        "tvgId": "Sky.Atlantic.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-atlantic-icon-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 12275
+    },
+    {
+        "channelName": "Sky Documentaries",
+        "tvgName": "VIP UK: Sky Documentary FHD",
+        "tvgId": "Sky.Documentaries.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-documentaries-icon-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 30634
+    },
+    {
+        "channelName": "Sky Showcase",
+        "tvgName": "UK: Sky Movies Showcase",
+        "tvgId": "SkyShowcaseHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-showcase-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 269
+    },
+    {
+        "channelName": "Sky Witness",
+        "tvgName": "VIP UK: Sky Witness HD",
+        "tvgId": "Sky.Witness.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-witness-icon-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 20567
+    },
+    {
+        "channelName": "Sky Witness",
+        "tvgName": "UK: Sky Witness",
+        "tvgId": "Sky.Witness.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-witness-icon-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 20568
+    },
+    {
+        "channelName": "Sky Crime",
+        "tvgName": "VIP UK: Sky Crime FHD",
+        "tvgId": "Sky.Crime.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-crime-icon-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 20586
     },
     {
         "channelName": "Start TV",
@@ -987,6 +1347,33 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 22851
+    },
+    {
+        "channelName": "Virgin Media One",
+        "tvgName": "VIP UK: Virgin Media One",
+        "tvgId": "Virgin.Media.One.ie",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/virgin-media-one-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22622
+    },
+    {
+        "channelName": "Virgin Media Two",
+        "tvgName": "VIP UK: Virgin Media Two",
+        "tvgId": "Virgin.Media.Two.ie",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/virgin-media-two-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22623
+    },
+    {
+        "channelName": "Virgin Media Three",
+        "tvgName": "VIP UK: Virgin Media Three",
+        "tvgId": "Virgin.Media.Three.ie",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/virgin-media-three-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22624
     },
     {
         "channelName": "Boomerang",
@@ -1277,6 +1664,15 @@
         "channelId": 22873
     },
     {
+        "channelName": "Sky News",
+        "tvgName": "UK: Sky News",
+        "tvgId": "Sky.News.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-news-icon-uk.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 930
+    },
+    {
         "channelName": "BET Jams",
         "tvgName": "VIP US: My Jam TV HD",
         "tvgId": "BET.Jams.(BETJ).us",
@@ -1385,6 +1781,15 @@
         "channelId": 22866
     },
     {
+        "channelName": "Sky Arts",
+        "tvgName": "UK: Sky Arts",
+        "tvgId": "Sky.Arts.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-arts-icon-uk.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 414
+    },
+    {
         "channelName": "Travel Channel",
         "tvgName": "VIP US: TRAVEL CHANNEL",
         "tvgId": "Travel.Channel.HDTV.(East).(TRAVD).us",
@@ -1446,15 +1851,6 @@
         "extGrp": "Nature & History",
         "tvgShift": 0,
         "channelId": 15405
-    },
-    {
-        "channelName": "T+E",
-        "tvgName": "VIP US: Escape",
-        "tvgId": "T+E.(T+E).ca",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/travel-and-escape-ca.png",
-        "extGrp": "Nature & History",
-        "tvgShift": 0,
-        "channelId": 22906
     },
     {
         "channelName": "History",
@@ -1536,6 +1932,33 @@
         "extGrp": "Nature & History",
         "tvgShift": 0,
         "channelId": 111062
+    },
+    {
+        "channelName": "Sky History",
+        "tvgName": "VIP UK: Sky History FHD",
+        "tvgId": "Sky.HistoryHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-history-icon-uk.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 12475
+    },
+    {
+        "channelName": "Sky Nature",
+        "tvgName": "VIP UK: Sky Nature FHD",
+        "tvgId": "Sky.Nature.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-nature-icon-uk.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 20585
+    },
+    {
+        "channelName": "T+E",
+        "tvgName": "VIP US: Escape",
+        "tvgId": "T+E.(T+E).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/travel-and-escape-ca.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 22906
     },
     {
         "channelName": "Smithsonian Channel",
