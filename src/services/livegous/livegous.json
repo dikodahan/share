@@ -413,24 +413,6 @@
         "channelId": 12575
     },
     {
-        "channelName": "Sky Cinema Comedy",
-        "tvgName": "VIP UK: Sky Cinema Comedy HD",
-        "tvgId": "Sky.Comedy.Cinema.uk",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-comedy-icon-uk.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 12577
-    },
-    {
-        "channelName": "Sky Cinema Comedy",
-        "tvgName": "UK: Sky Movies Comedy",
-        "tvgId": "Sky.Comedy.Cinema.uk",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-comedy-icon-uk.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 263
-    },
-    {
         "channelName": "Sky Cinema Drama",
         "tvgName": "VIP UK: Sky Cinema Drama HD",
         "tvgId": "Sky.Drama.HD.uk",
@@ -447,6 +429,15 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 265
+    },
+    {
+        "channelName": "Sky Cinema Drama",
+        "tvgName": "UK: Sky Movies Showcase",
+        "tvgId": "Sky.Drama.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-showcase-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 269
     },
     {
         "channelName": "Sky Cinema Family",
@@ -504,21 +495,21 @@
     },
     {
         "channelName": "Sky Cinema Premiere",
-        "tvgName": "VIP UK: Sky Cinema Premiere HD",
-        "tvgId": "SkyPremiereHD.uk",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-premiere-icon-uk.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 11769
-    },
-    {
-        "channelName": "Sky Cinema Premiere",
         "tvgName": "UK: Sky Movies Premiere",
         "tvgId": "SkyPremiereHD.uk",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-premiere-icon-uk.png",
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 261
+    },
+    {
+        "channelName": "Sky Cinema Premiere",
+        "tvgName": "VIP UK: Sky Cinema Premiere HD",
+        "tvgId": "SkyPremiereHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-premiere-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 11769
     },
     {
         "channelName": "Sky Cinema SC-FI & Horror",
@@ -1214,6 +1205,42 @@
         "channelId": 30634
     },
     {
+        "channelName": "Sky Witness",
+        "tvgName": "UK: Sky Witness",
+        "tvgId": "Sky.Witness.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-witness-icon-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 20568
+    },
+    {
+        "channelName": "Sky Comedy",
+        "tvgName": "VIP UK: Sky Cinema Comedy HD",
+        "tvgId": "Sky.Comedy.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-comedy-icon-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 12577
+    },
+    {
+        "channelName": "Sky Comedy",
+        "tvgName": "UK: Sky Movies Comedy",
+        "tvgId": "Sky.Comedy.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-comedy-icon-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 263
+    },
+    {
+        "channelName": "Sky Crime",
+        "tvgName": "VIP UK: Sky Crime FHD",
+        "tvgId": "Sky.Crime.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-crime-icon-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 20586
+    },
+    {
         "channelName": "Sky Showcase",
         "tvgName": "UK: Sky Movies Showcase",
         "tvgId": "SkyShowcaseHD.uk",
@@ -1230,24 +1257,6 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 20567
-    },
-    {
-        "channelName": "Sky Witness",
-        "tvgName": "UK: Sky Witness",
-        "tvgId": "Sky.Witness.HD.uk",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-witness-icon-uk.png",
-        "extGrp": "Entertainment",
-        "tvgShift": 0,
-        "channelId": 20568
-    },
-    {
-        "channelName": "Sky Crime",
-        "tvgName": "VIP UK: Sky Crime FHD",
-        "tvgId": "Sky.Crime.HD.uk",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-crime-icon-uk.png",
-        "extGrp": "Entertainment",
-        "tvgShift": 0,
-        "channelId": 20586
     },
     {
         "channelName": "Start TV",
