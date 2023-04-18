@@ -1406,7 +1406,7 @@
         "channelName": "AT&T SportsNet Rocky Mountain",
         "tvgName": "VIP US: AT&T Sports Net HD",
         "tvgId": "ATT.SportsNet.Rocky.Mountain.(ATTSN).us",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/at-and-t-sportsnet-us.png",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/custom/at-and-t-sportsnet-rocky-mountain-custom-us.png",
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 34678
@@ -1621,7 +1621,7 @@
     {
         "channelName": "BEIN SPORTS Connect",
         "tvgName": "VIP US: BEIN SPORTS Connect FHD",
-        "tvgId": "beIN.SPORTS.CONNECT.LaLiga.(BEIN3-I).us",
+        "tvgId": "beIN.Sports.HDTV.(English).(beIn).us",
         "tvgLogo": "https://www.bein.com/en/wp-content/uploads/sites/3/2019/06/connect-logo-300x300.png",
         "extGrp": "Sports",
         "tvgShift": 0,
