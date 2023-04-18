@@ -1385,6 +1385,834 @@
         "channelId": 22624
     },
     {
+        "channelName": "ACC Network",
+        "tvgName": "VIP US: ACC HD",
+        "tvgId": "ACC.Network.HDTV.(ACCN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-accn-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 22871
+    },
+    {
+        "channelName": "AT&T SportsNet Pittsburgh",
+        "tvgName": "VIP US: At&t SportsNet Pittsburgh",
+        "tvgId": "ATT.SportsNet.Pittsburgh.HDTV.(Pittsburgh.DMA).(ATTHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/custom/at-and-t-sportsnet-pittsburgh-custom-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 111036
+    },
+    {
+        "channelName": "AT&T SportsNet Rocky Mountain",
+        "tvgName": "VIP US: AT&T Sports Net HD",
+        "tvgId": "ATT.SportsNet.Rocky.Mountain.(ATTSN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/at-and-t-sportsnet-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 34678
+    },
+    {
+        "channelName": "AT&T SportsNet Rocky Mountain",
+        "tvgName": "VIP US: AT&T SportsNet Rocky Mountain West HD",
+        "tvgId": "ATT.SportsNet.Rocky.Mountain.(ATTSN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/custom/at-and-t-sportsnet-rocky-mountain-custom-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 111039
+    },
+    {
+        "channelName": "AT&T SportsNet SouthWest",
+        "tvgName": "VIP US: At&t SportsNet SouthWest",
+        "tvgId": "ATTSWHD.ATT.SportsNet.Southwest.HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/custom/at-and-t-sportsnet-southwest-custom-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 111040
+    },
+    {
+        "channelName": "Bally Sports Arizona",
+        "tvgName": "VIP US: Bally Sports Arizona HD",
+        "tvgId": "Bally.Sports.Arizona.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-arizona-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25868
+    },
+    {
+        "channelName": "Bally Sports Carolina",
+        "tvgName": "VIP US: Bally Sports Carolina HD",
+        "tvgId": "Bally.Sports.Southeast.North.Carolina.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-southeast-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 38077
+    },
+    {
+        "channelName": "Bally Sports Detroit",
+        "tvgName": "VIP US: Bally Sports Detroit",
+        "tvgId": "Bally.Sports.Detroit.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-detroit-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10650
+    },
+    {
+        "channelName": "Bally Sports Detroit",
+        "tvgName": "VIP US: Bally Sports Detroit HD",
+        "tvgId": "Bally.Sports.Detroit.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-detroit-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25875
+    },
+    {
+        "channelName": "Bally Sports Florida",
+        "tvgName": "VIP US: Bally Sports Florida HD",
+        "tvgId": "Bally.Sports.Florida.1.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-florida-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25874
+    },
+    {
+        "channelName": "Bally Sports Indianna",
+        "tvgName": "VIP US: Bally Sports Indianna HD",
+        "tvgId": "Bally.Sports.Indiana.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-indiana-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25877
+    },
+    {
+        "channelName": "Bally Sports Kannas City",
+        "tvgName": "VIP US: Bally Sports Kannas CityHD",
+        "tvgId": "Bally.Sports.Midwest.Kansas.City.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-kansas-city-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25876
+    },
+    {
+        "channelName": "Bally Sports Mid West",
+        "tvgName": "VIP US: Bally Sports Mid West HD",
+        "tvgId": "Bally.Sports.Midwest.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-midwest-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25865
+    },
+    {
+        "channelName": "Bally Sports North Plus",
+        "tvgName": "VIP US: Bally Sports North HD",
+        "tvgId": "Bally.Sports.North.Plus.(BSNOR+).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-north-plus-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25873
+    },
+    {
+        "channelName": "Bally Sports Ohio",
+        "tvgName": "VIP US: Bally Sports Ohio HD",
+        "tvgId": "Bally.Sports.Ohio.Cleveland.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-ohio-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25864
+    },
+    {
+        "channelName": "Bally Sports Oklahoma",
+        "tvgName": "VIP US: Bally Sports Oklahoma HD",
+        "tvgId": "Bally.Sports.Oklahoma.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-oklahoma-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25859
+    },
+    {
+        "channelName": "Bally Sports San Diego",
+        "tvgName": "VIP US: Bally Sports San Diego HD",
+        "tvgId": "Bally.Sports.San.Diego.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-san-diego-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25871
+    },
+    {
+        "channelName": "Bally Sports South East",
+        "tvgName": "VIP US: Bally Sports South East HD",
+        "tvgId": "Bally.Sports.Southeast.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-southeast-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25863
+    },
+    {
+        "channelName": "Bally Sports South",
+        "tvgName": "VIP US: Bally Sports South HD",
+        "tvgId": "Bally.Sports.South.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-south-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25872
+    },
+    {
+        "channelName": "Bally Sports South West",
+        "tvgName": "VIP US: Bally Sports South West HD",
+        "tvgId": "Bally.Sports.Southwest.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-southwest-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25913
+    },
+    {
+        "channelName": "Bally Sports Sun",
+        "tvgName": "VIP US: Bally Sports Sun HD",
+        "tvgId": "Bally.Sports.Sun.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-sun-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25862
+    },
+    {
+        "channelName": "Bally Sports Sun",
+        "tvgName": "VIP US: FOX SOCCER SUN HD",
+        "tvgId": "Bally.Sports.Sun.HDTV.(BSSUNHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-sun-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10670
+    },
+    {
+        "channelName": "Bally Sports Tennessee",
+        "tvgName": "VIP US: Bally Sports Tennessee HD",
+        "tvgId": "Bally.Sports.South.TN.Nashville.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-south-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25860
+    },
+    {
+        "channelName": "Bally Sports West",
+        "tvgName": "VIP US: Bally Sports West HD",
+        "tvgId": "Bally.Sports.West.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-west-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25861
+    },
+    {
+        "channelName": "Bally Sports West Prime Ticket",
+        "tvgName": "VIP US: Bally Sports West Prime Ticket HD",
+        "tvgId": "Bally.Sports.SoCal.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-socal-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25866
+    },
+    {
+        "channelName": "Bally Sports Wisconsin",
+        "tvgName": "VIP US: Bally Sports Wisconsin HD",
+        "tvgId": "Bally.Sports.Wisconsin.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bally-sports-wisconsin-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25870
+    },
+    {
+        "channelName": "BEIN SPORTS Connect",
+        "tvgName": "VIP US: BEIN SPORTS Connect FHD",
+        "tvgId": "beIN.SPORTS.CONNECT.LaLiga.(BEIN3-I).us",
+        "tvgLogo": "https://www.bein.com/en/wp-content/uploads/sites/3/2019/06/connect-logo-300x300.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30738
+    },
+    {
+        "channelName": "BEIN Sports US",
+        "tvgName": "VIP US: BEIN SPORTS US",
+        "tvgId": "beIN.Sports.HDTV.(English).(beIn).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/beinsports/old/stacked/bein-sports-int.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10696
+    },
+    {
+        "channelName": "Big Ten Network",
+        "tvgName": "VIP US: Big Ten Network HD",
+        "tvgId": "Big.Ten.Network.HDTV.(National).(BTNHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/big-ten-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10681
+    },
+    {
+        "channelName": "Billiard TV",
+        "tvgName": "VIP US: Billiard TV",
+        "tvgId": "BilliardTV.us",
+        "tvgLogo": "https://images.prismic.io/atmosphere-marketing/372f3f16-2a2d-401b-ba32-08e6f8e01693_Billiards+-+Channel+Logo.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 111061
+    },
+    {
+        "channelName": "CBS Sport Network",
+        "tvgName": "VIP US: CBS Sport Network HD",
+        "tvgId": "CBS.Sports.Network.HDTV.(CBSSD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cbs-sports-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 8398
+    },
+    {
+        "channelName": "Edge Sports",
+        "tvgName": "VIP US: Edge Sports",
+        "tvgId": "EdgeSport.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/vod/edge-sport-vod.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 111058
+    },
+    {
+        "channelName": "ESPN",
+        "tvgName": "VIP US: ESPN",
+        "tvgId": "ESPN.HDTV.(Dish).(ESPNHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10774
+    },
+    {
+        "channelName": "ESPN 2",
+        "tvgName": "VIP US: ESPN 2 HD",
+        "tvgId": "ESPN2.HDTV.(Dish).(ESPN2HD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-2-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10773
+    },
+    {
+        "channelName": "ESPN News",
+        "tvgName": "VIP US: ESPN NEWS",
+        "tvgId": "ESPN.News.HDTV.(ESNEWSHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espnews-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10771
+    },
+    {
+        "channelName": "ESPN U",
+        "tvgName": "VIP US: ESPN U HD",
+        "tvgId": "ESPNU.HDTV.(ESPNUHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-u-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 26665
+    },
+    {
+        "channelName": "FanDuel TV",
+        "tvgName": "VIP US: TVG 2 HD",
+        "tvgId": "FanDuel.TV.(FANDUEL).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fanduel-tv-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 27808
+    },
+    {
+        "channelName": "FOX Soccer Plus",
+        "tvgName": "VIP US: Fox Soccer Plus HD",
+        "tvgId": "Fox.Soccer.Plus.(FSPLUS).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fox-soccer-plus-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 12568
+    },
+    {
+        "channelName": "FOX Sports 1",
+        "tvgName": "VIP US: FOX SPORTS ONE",
+        "tvgId": "Fox.Sports.1.HDTV.(FS1HD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fox-sports-1-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10769
+    },
+    {
+        "channelName": "FOX Sports 2",
+        "tvgName": "VIP US: FOX SPORTS TWO HD",
+        "tvgId": "Fox.Sports.2.HDTV.(FS2HD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fox-sports-2-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10716
+    },
+    {
+        "channelName": "Fubo Sports Network",
+        "tvgName": "VIP US: Fubo Sports Network HD",
+        "tvgId": "FuboSportsNetwork.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fubo-sports-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 40250
+    },
+    {
+        "channelName": "GOL TV",
+        "tvgName": "VIP US: GOL TV HD",
+        "tvgId": "GOLTV.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/gol-tv-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 23200
+    },
+    {
+        "channelName": "Marquee Sports Network",
+        "tvgName": "VIP US: Marquee Sports Network",
+        "tvgId": "MARQ.Marquee.Sports.Network.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/marquee-sports-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 34874
+    },
+    {
+        "channelName": "MAV TV",
+        "tvgName": "VIP US: MAV HD",
+        "tvgId": "Mav.TV.HDTV.(MavHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mav-tv-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 22888
+    },
+    {
+        "channelName": "MLB Network",
+        "tvgName": "VIP US: MLB HD",
+        "tvgId": "MLB.Network.HDTV.(DISH).(MLBHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10737
+    },
+    {
+        "channelName": "MSG 2",
+        "tvgName": "VIP US: MSG 2 HD",
+        "tvgId": "MSGZ2HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/msg-2-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25858
+    },
+    {
+        "channelName": "MSG",
+        "tvgName": "VIP US: MSG HD",
+        "tvgId": "Madison.Square.Garden.HDTV.(MSG.HD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/msg-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 21705
+    },
+    {
+        "channelName": "MSG Plus",
+        "tvgName": "VIP US: MSG Plus",
+        "tvgId": "Madison.Square.Garden.Plus.HDTV.(MSG+H).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/msgsn-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 21706
+    },
+    {
+        "channelName": "MSG Plus",
+        "tvgName": "VIP US: MSG Plus HD",
+        "tvgId": "Madison.Square.Garden.Plus.HDTV.(MSG+H).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/msgsn-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25857
+    },
+    {
+        "channelName": "NBA TV Canada",
+        "tvgName": "VIP US: LIVE NBA 1",
+        "tvgId": "NBA.TV.Canada.HDTV.(NBAHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/nba-tv-ca.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10944
+    },
+    {
+        "channelName": "NBA TV Canada",
+        "tvgName": "VIP US: LIVE NBA 1 HD",
+        "tvgId": "NBA.TV.Canada.HDTV.(NBAHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/nba-tv-ca.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10945
+    },
+    {
+        "channelName": "NBCSN Bay Area",
+        "tvgName": "VIP US: NBCSN BAY AREA HD",
+        "tvgId": "NBC.Sports.Bay.Area.(CSNBA).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nbcsn-bay-area-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25855
+    },
+    {
+        "channelName": "NBCSN Boston",
+        "tvgName": "VIP US: NBCSN BOSTON HD",
+        "tvgId": "NBC.Sports.Boston.(NBCSB).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nbcsn-boston-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 34677
+    },
+    {
+        "channelName": "NBCSN California",
+        "tvgName": "VIP US: NBCSN CALIFORNIA HD",
+        "tvgId": "NBC.Sports.California.HDTV.(NBCSCA).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nbcsn-california-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25856
+    },
+    {
+        "channelName": "NBCSN Chicago",
+        "tvgName": "VIP US: NBCSN CHICAGO HD",
+        "tvgId": "NBC.Sports.Chicago.HDTV.(NBCSCHHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nbcsn-chicago-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 25854
+    },
+    {
+        "channelName": "NBCSN",
+        "tvgName": "VIP US: NBCSN Gold HD",
+        "tvgId": "NULL",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nbcsn-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 15529
+    },
+    {
+        "channelName": "NBCSN",
+        "tvgName": "VIP US: NBCSN HD",
+        "tvgId": "NULL",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nbcsn-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 7685
+    },
+    {
+        "channelName": "NBCSN Northwest",
+        "tvgName": "VIP US: NBCSN NORTHWEST HD",
+        "tvgId": "NBCSNWH.NBC.Sports.Northwest.HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nbcsn-northwest-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 23805
+    },
+    {
+        "channelName": "NBCSN Philadelphia",
+        "tvgName": "VIP US: NBCSN PHILADELPHIA HD",
+        "tvgId": "NBC.Sports.Philadelphia.HDTV.(NBCSPAHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nbcsn-philadelphia-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 23806
+    },
+    {
+        "channelName": "NBCSN Washington",
+        "tvgName": "VIP US: NBCSN WASHINGTON HD",
+        "tvgId": "NBC.Sports.Washington.(NBCSWA).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nbcsn-washington-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 23807
+    },
+    {
+        "channelName": "NESN",
+        "tvgName": "VIP US: NESN 2",
+        "tvgId": "New.England.Sports.Network.HDTV.(NESNHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nesn-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 22035
+    },
+    {
+        "channelName": "NESN",
+        "tvgName": "VIP US: NESN HD",
+        "tvgId": "New.England.Sports.Network.HDTV.(NESNHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nesn-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 16367
+    },
+    {
+        "channelName": "NESN Plus",
+        "tvgName": "VIP US: NESN Plus",
+        "tvgId": "New.England.Sports.Network.Plus.HDTV.(NESN+).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nesn-plus-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 22034
+    },
+    {
+        "channelName": "Next Level Sports",
+        "tvgName": "VIP US: Eleven Sports Network",
+        "tvgId": "Next.Level.Sports(NXTLVL).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/next-level-sports-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 22877
+    },
+    {
+        "channelName": "NFL Network",
+        "tvgName": "VIP US: NFL Network HD",
+        "tvgId": "The.NFL.Network.HDTV.(NFLHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10776
+    },
+    {
+        "channelName": "NFL Network",
+        "tvgName": "VIP US: NFL Now",
+        "tvgId": "The.NFL.Network.HDTV.(NFLHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10777
+    },
+    {
+        "channelName": "NFL RedZone (Live on GameDay)",
+        "tvgName": "VIP US: NFL RedZone (Live on GameDay)",
+        "tvgId": "NFL.RedZone.HDTV.(NFLRZD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-red-zone-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10775
+    },
+    {
+        "channelName": "NHL Network",
+        "tvgName": "VIP US: NHL NETWORK",
+        "tvgId": "NHL.Network.US.HDTV.(NHLHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10686
+    },
+    {
+        "channelName": "NHL Network",
+        "tvgName": "VIP US: NHLTV NETWORK HD",
+        "tvgId": "NHL.Network.US.HDTV.(NHLHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10667
+    },
+    {
+        "channelName": "Pac12 Arizona",
+        "tvgName": "VIP US: Pac12 Arizona HD US",
+        "tvgId": "Pac-12.Arizona.HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/pac-12-bay-area-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 9861
+    },
+    {
+        "channelName": "Pac12 Bay Area",
+        "tvgName": "VIP US: Pac12 Area HD US",
+        "tvgId": "Pac-12.Bay.Area.HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/pac-12-arizona-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 9860
+    },
+    {
+        "channelName": "Pac12 Los Angeles",
+        "tvgName": "VIP US: Pac12 Los Angeles HD US",
+        "tvgId": "Pac-12.LA.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/pac-12-los-angeles-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 9862
+    },
+    {
+        "channelName": "Pac12 Mountain",
+        "tvgName": "VIP US: Pac12 Mountain HD",
+        "tvgId": "Pac-12.Mountain.HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/pac-12-mountain-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 9863
+    },
+    {
+        "channelName": "Pac12 Network",
+        "tvgName": "VIP US: Pac12 Network HD US",
+        "tvgId": "Pac-12.Network.HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/pac-12-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 9866
+    },
+    {
+        "channelName": "Pac12 Oregon",
+        "tvgName": "VIP US: Pac12 Oregon HD US",
+        "tvgId": "Pac-12.Oregon.HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/pac-12-oregon-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 9864
+    },
+    {
+        "channelName": "Pac12 Washington",
+        "tvgName": "VIP US: Pac12 Washington HD US",
+        "tvgId": "Pac-12.Washington.HD.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/pac-12-washington-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 9865
+    },
+    {
+        "channelName": "Red Bull TV",
+        "tvgName": "VIP US: Red Bull TV HD",
+        "tvgId": "Redbull.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/red-bull-tv-int.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 111047
+    },
+    {
+        "channelName": "ROOT Sports",
+        "tvgName": "VIP US: ROOT Sports",
+        "tvgId": "Root.Sports.Northwest.(ROOT).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/root-sports-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 111045
+    },
+    {
+        "channelName": "SEC Network",
+        "tvgName": "VIP US: SEC Network HD",
+        "tvgId": "SEC.Network.HDTV.(SECN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/sec-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 22891
+    },
+    {
+        "channelName": "Sky Sports Golf",
+        "tvgName": "VIP US: NBC GOLF",
+        "tvgId": "SkySp.Golf.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-golf-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10687
+    },
+    {
+        "channelName": "SNY",
+        "tvgName": "VIP US: SNY SportsNet New York FHD US",
+        "tvgId": "SportsNet.New.York.HDTV.(SNYHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/sny-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 22890
+    },
+    {
+        "channelName": "Stadium",
+        "tvgName": "VIP US: SBG Stadium",
+        "tvgId": "Stadium.TV.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/stadium-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 22033
+    },
+    {
+        "channelName": "Stadium MNT",
+        "tvgName": "VIP US: SBG Stadium 1",
+        "tvgId": "Stadium/MNT.(WKEF-TV3).Dayton,.OH.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/stadium-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 22032
+    },
+    {
+        "channelName": "Tennis Channel",
+        "tvgName": "US: TENNIS HD",
+        "tvgId": "Tennis.Channel.HDTV.(TNNSHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/tennis-channel-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 5407
+    },
+    {
+        "channelName": "Tennis Channel",
+        "tvgName": "VIP US: TENNIS HD",
+        "tvgId": "Tennis.Channel.HDTV.(TNNSHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/tennis-channel-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10658
+    },
+    {
+        "channelName": "The Sportsman Channel",
+        "tvgName": "VIP US: The Sportsman Channel HD",
+        "tvgId": "The.Sportsman.Channel.HDTV.(SPTMANHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/sportsman-channel-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 22881
+    },
+    {
+        "channelName": "VSiN",
+        "tvgName": "VIP US: VSiN",
+        "tvgId": "Vegas.Stats.and.Information.Network.(VSIN).us",
+        "tvgLogo": "https://mma.prnewswire.com/media/1232659/VSiN_Logo.jpg",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 111035
+    },
+    {
+        "channelName": "Willow Xtra",
+        "tvgName": "VIP US: Willow Cricket HD",
+        "tvgId": "Willow.Xtra.(WILLX).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/willow-xtra-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 111052
+    },
+    {
+        "channelName": "World Fishing Network",
+        "tvgName": "VIP US: World Fishing Network HD",
+        "tvgId": "World.Fishing.Network.(US).(WFN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/world-fishing-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10723
+    },
+    {
+        "channelName": "World Fishing Network",
+        "tvgName": "VIP US: World Fishing Network",
+        "tvgId": "World.Fishing.Network.(US).(WFN).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/world-fishing-network-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 111050
+    },
+    {
+        "channelName": "World Poker Tour",
+        "tvgName": "VIP US: Poker Go",
+        "tvgId": "TheWorldPokerTour.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/vod/wpt-world-poker-tour-vod-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 26910
+    },
+    {
+        "channelName": "WWE Network",
+        "tvgName": "VIP US: WWE Network",
+        "tvgId": "WWE.Network.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/wwe-us.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 10766
+    },
+    {
         "channelName": "Boomerang",
         "tvgName": "VIP US: Boomerang",
         "tvgId": "Boomerang.(BOOM).us",
@@ -1770,6 +2598,15 @@
         "extGrp": "Lifestyle",
         "tvgShift": 0,
         "channelId": 10668
+    },
+    {
+        "channelName": "MotorTrend",
+        "tvgName": "VIP US: MotorTrend",
+        "tvgId": "Motor.Trend.HDTV.(MTHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/motor-trend-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 111048
     },
     {
         "channelName": "MTV Live",
@@ -3329,369 +4166,9 @@
         "channelId": 21986
     },
     {
-        "channelName": "Cinema PPV 01",
-        "tvgName": "VIP US: Cinema PPV 01",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34834
-    },
-    {
-        "channelName": "Cinema PPV 02",
-        "tvgName": "VIP US: Cinema PPV 02",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34835
-    },
-    {
-        "channelName": "Cinema PPV 03",
-        "tvgName": "VIP US: Cinema PPV 03",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34836
-    },
-    {
-        "channelName": "Cinema PPV 04",
-        "tvgName": "VIP US: Cinema PPV 04",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34837
-    },
-    {
-        "channelName": "Cinema PPV 05",
-        "tvgName": "VIP US: Cinema PPV 05",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34838
-    },
-    {
-        "channelName": "Cinema PPV 06",
-        "tvgName": "VIP US: Cinema PPV 06",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34839
-    },
-    {
-        "channelName": "Cinema PPV 07",
-        "tvgName": "VIP US: Cinema PPV 07",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34840
-    },
-    {
-        "channelName": "Cinema PPV 08",
-        "tvgName": "VIP US: Cinema PPV 08",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34841
-    },
-    {
-        "channelName": "Cinema PPV 09",
-        "tvgName": "VIP US: Cinema PPV 09",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34842
-    },
-    {
-        "channelName": "Cinema PPV 10",
-        "tvgName": "VIP US: Cinema PPV 10",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34843
-    },
-    {
-        "channelName": "Cinema PPV 11",
-        "tvgName": "VIP US: Cinema PPV 11",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34844
-    },
-    {
-        "channelName": "Cinema PPV 12",
-        "tvgName": "VIP US: Cinema PPV 12",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34845
-    },
-    {
-        "channelName": "Cinema PPV 13",
-        "tvgName": "VIP US: Cinema PPV 13",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34846
-    },
-    {
-        "channelName": "Cinema PPV 14",
-        "tvgName": "VIP US: Cinema PPV 14",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34847
-    },
-    {
-        "channelName": "Cinema PPV 15",
-        "tvgName": "VIP US: Cinema PPV 15",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34848
-    },
-    {
-        "channelName": "Cinema PPV 16",
-        "tvgName": "VIP US: Cinema PPV 16",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34849
-    },
-    {
-        "channelName": "Cinema PPV 17",
-        "tvgName": "VIP US: Cinema PPV 17",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34850
-    },
-    {
-        "channelName": "Cinema PPV 18",
-        "tvgName": "VIP US: Cinema PPV 18",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34851
-    },
-    {
-        "channelName": "Cinema PPV 19",
-        "tvgName": "VIP US: Cinema PPV 19",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34852
-    },
-    {
-        "channelName": "Cinema PPV 20",
-        "tvgName": "VIP US: Cinema PPV 20",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34853
-    },
-    {
-        "channelName": "Cinema PPV 21",
-        "tvgName": "VIP US: Cinema PPV 21",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34854
-    },
-    {
-        "channelName": "Cinema PPV 22",
-        "tvgName": "VIP US: Cinema PPV 22",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34855
-    },
-    {
-        "channelName": "Cinema PPV 23",
-        "tvgName": "VIP US: Cinema PPV 23",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34856
-    },
-    {
-        "channelName": "Cinema PPV 24",
-        "tvgName": "VIP US: Cinema PPV 24",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34857
-    },
-    {
-        "channelName": "Cinema PPV 25",
-        "tvgName": "VIP US: Cinema PPV 25",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34858
-    },
-    {
-        "channelName": "Cinema PPV 26",
-        "tvgName": "VIP US: Cinema PPV 26",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34859
-    },
-    {
-        "channelName": "Cinema PPV 27",
-        "tvgName": "VIP US: Cinema PPV 27",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34860
-    },
-    {
-        "channelName": "Cinema PPV 28",
-        "tvgName": "VIP US: Cinema PPV 28",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34861
-    },
-    {
-        "channelName": "Cinema PPV 29",
-        "tvgName": "VIP US: Cinema PPV 29",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34862
-    },
-    {
-        "channelName": "Cinema PPV 30",
-        "tvgName": "VIP US: Cinema PPV 30",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34863
-    },
-    {
-        "channelName": "Cinema PPV 31",
-        "tvgName": "VIP US: Cinema PPV 31",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34864
-    },
-    {
-        "channelName": "Cinema PPV 32",
-        "tvgName": "VIP US: Cinema PPV 32",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34865
-    },
-    {
-        "channelName": "Cinema PPV 33",
-        "tvgName": "VIP US: Cinema PPV 33",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34866
-    },
-    {
-        "channelName": "Cinema PPV 34",
-        "tvgName": "VIP US: Cinema PPV 34",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34867
-    },
-    {
-        "channelName": "Cinema PPV 35",
-        "tvgName": "VIP US: Cinema PPV 35",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34868
-    },
-    {
-        "channelName": "Cinema PPV 36",
-        "tvgName": "VIP US: Cinema PPV 36",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34869
-    },
-    {
-        "channelName": "Cinema PPV 37",
-        "tvgName": "VIP US: Cinema PPV 37",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34870
-    },
-    {
-        "channelName": "Cinema PPV 38",
-        "tvgName": "VIP US: Cinema PPV 38",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34871
-    },
-    {
-        "channelName": "Cinema PPV 39",
-        "tvgName": "VIP US: Cinema PPV 39",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34872
-    },
-    {
-        "channelName": "Cinema PPV 40",
-        "tvgName": "VIP US: Cinema PPV 40",
-        "tvgId": "",
-        "tvgLogo": "https://image.roku.com/developer_channels/prod/17358a96ae7515eaf5a58685c8e4f8d12ddb26230df4d69cb904b9274dbc6568.png",
-        "extGrp": "Cinema PPV",
-        "tvgShift": 0,
-        "channelId": 34873
-    },
-    {
         "channelName": "EMPIRE CINEMA 007",
         "tvgName": "VIP US: EMPIRE CINEMA 007 HD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3700,7 +4177,7 @@
     {
         "channelName": "EMPIRE CINEMA @THEATRE",
         "tvgName": "VIP US: EMPIRE CINEMA @THEATRE",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3709,7 +4186,7 @@
     {
         "channelName": "EMPIRE CINEMA ACTION",
         "tvgName": "VIP US: EMPIRE CINEMA ACTION FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3718,7 +4195,7 @@
     {
         "channelName": "EMPIRE CINEMA ADVENTURE",
         "tvgName": "VIP US: EMPIRE CINEMA ADVENTURE FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3727,7 +4204,7 @@
     {
         "channelName": "EMPIRE CINEMA ANIMATION",
         "tvgName": "VIP US: EMPIRE CINEMA ANIMATION FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3736,7 +4213,7 @@
     {
         "channelName": "EMPIRE CINEMA BIOGRAPHY",
         "tvgName": "VIP US: EMPIRE CINEMA BIOGRAPHY FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3745,7 +4222,7 @@
     {
         "channelName": "EMPIRE CINEMA COMEDY",
         "tvgName": "VIP US: EMPIRE CINEMA COMEDY FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3754,7 +4231,7 @@
     {
         "channelName": "EMPIRE CINEMA COMICULT",
         "tvgName": "VIP US: EMPIRE CINEMA COMICULT FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3763,7 +4240,7 @@
     {
         "channelName": "EMPIRE CINEMA DRAMA",
         "tvgName": "VIP US: EMPIRE CINEMA DRAMA FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3772,7 +4249,7 @@
     {
         "channelName": "EMPIRE CINEMA FAMILY",
         "tvgName": "VIP US: EMPIRE CINEMA FAMILY FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3781,7 +4258,7 @@
     {
         "channelName": "EMPIRE CINEMA FANTASY",
         "tvgName": "VIP US: EMPIRE CINEMA FANTASY FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3790,7 +4267,7 @@
     {
         "channelName": "EMPIRE CINEMA HINDI",
         "tvgName": "VIP US: EMPIRE CINEMA HINDI FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3799,7 +4276,7 @@
     {
         "channelName": "EMPIRE CINEMA HORROR",
         "tvgName": "VIP US: EMPIRE CINEMA HORROR FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3808,7 +4285,7 @@
     {
         "channelName": "EMPIRE CINEMA MYTHOLOGY",
         "tvgName": "VIP US: EMPIRE CINEMA MYTHOLOGY HD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3817,7 +4294,7 @@
     {
         "channelName": "EMPIRE CINEMA PREMIERE",
         "tvgName": "VIP US: EMPIRE CINEMA PREMIERE FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3826,7 +4303,7 @@
     {
         "channelName": "EMPIRE CINEMA RELIGION",
         "tvgName": "VIP US: EMPIRE CINEMA RELIGION HD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3835,7 +4312,7 @@
     {
         "channelName": "EMPIRE CINEMA ROMANCE",
         "tvgName": "VIP US: EMPIRE CINEMA ROMANCE FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3844,7 +4321,7 @@
     {
         "channelName": "EMPIRE CINEMA SCI FI",
         "tvgName": "VIP US: EMPIRE CINEMA SCI FI FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3853,7 +4330,7 @@
     {
         "channelName": "EMPIRE CINEMA THRILLER",
         "tvgName": "VIP US: EMPIRE CINEMA THRILLER FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
@@ -3862,10 +4339,2044 @@
     {
         "channelName": "EMPIRE CINEMA WESTERN",
         "tvgName": "VIP US: EMPIRE CINEMA WESTERN FHD",
-        "tvgId": "",
+        "tvgId": "Movie.Dummy.us",
         "tvgLogo": "https://pbs.twimg.com/profile_images/1460919280900390916/1xjeFUOp_400x400.jpg",
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
         "channelId": 40270
+    },
+    {
+        "channelName": "ESPN + EVENT 00",
+        "tvgName": "VIP US: ESPN + EVENT 00",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98526
+    },
+    {
+        "channelName": "ESPN + EVENT 01",
+        "tvgName": "VIP US: ESPN + EVENT 01",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98527
+    },
+    {
+        "channelName": "ESPN + EVENT 02",
+        "tvgName": "VIP US: ESPN + EVENT 02",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98528
+    },
+    {
+        "channelName": "ESPN + EVENT 03",
+        "tvgName": "VIP US: ESPN + EVENT 03",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98529
+    },
+    {
+        "channelName": "ESPN + EVENT 04",
+        "tvgName": "VIP US: ESPN + EVENT 04",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98530
+    },
+    {
+        "channelName": "ESPN + EVENT 05",
+        "tvgName": "VIP US: ESPN + EVENT 05",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98531
+    },
+    {
+        "channelName": "ESPN + EVENT 06",
+        "tvgName": "VIP US: ESPN + EVENT 06",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98532
+    },
+    {
+        "channelName": "ESPN + EVENT 07",
+        "tvgName": "VIP US: ESPN + EVENT 07",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98533
+    },
+    {
+        "channelName": "ESPN + EVENT 08",
+        "tvgName": "VIP US: ESPN + EVENT 08",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98534
+    },
+    {
+        "channelName": "ESPN + EVENT 09",
+        "tvgName": "VIP US: ESPN + EVENT 09",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98535
+    },
+    {
+        "channelName": "ESPN + EVENT 10",
+        "tvgName": "VIP US: ESPN + EVENT 10",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98536
+    },
+    {
+        "channelName": "ESPN + EVENT 11",
+        "tvgName": "VIP US: ESPN + EVENT 11",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98537
+    },
+    {
+        "channelName": "ESPN + EVENT 12",
+        "tvgName": "VIP US: ESPN + EVENT 12",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98538
+    },
+    {
+        "channelName": "ESPN + EVENT 13",
+        "tvgName": "VIP US: ESPN + EVENT 13",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98539
+    },
+    {
+        "channelName": "ESPN + EVENT 14",
+        "tvgName": "VIP US: ESPN + EVENT 14",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98540
+    },
+    {
+        "channelName": "ESPN + EVENT 15",
+        "tvgName": "VIP US: ESPN + EVENT 15",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98541
+    },
+    {
+        "channelName": "ESPN + EVENT 16",
+        "tvgName": "VIP US: ESPN + EVENT 16",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98542
+    },
+    {
+        "channelName": "ESPN + EVENT 17",
+        "tvgName": "VIP US: ESPN + EVENT 17",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98543
+    },
+    {
+        "channelName": "ESPN + EVENT 18",
+        "tvgName": "VIP US: ESPN + EVENT 18",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98544
+    },
+    {
+        "channelName": "ESPN + EVENT 19",
+        "tvgName": "VIP US: ESPN + EVENT 19",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98545
+    },
+    {
+        "channelName": "ESPN + EVENT 20",
+        "tvgName": "VIP US: ESPN + EVENT 20",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98546
+    },
+    {
+        "channelName": "ESPN + EVENT 21",
+        "tvgName": "VIP US: ESPN + EVENT 21",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98547
+    },
+    {
+        "channelName": "ESPN + EVENT 22",
+        "tvgName": "VIP US: ESPN + EVENT 22",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98548
+    },
+    {
+        "channelName": "ESPN + EVENT 23",
+        "tvgName": "VIP US: ESPN + EVENT 23",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98549
+    },
+    {
+        "channelName": "ESPN + EVENT 24",
+        "tvgName": "VIP US: ESPN + EVENT 24",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98550
+    },
+    {
+        "channelName": "ESPN + EVENT 25",
+        "tvgName": "VIP US: ESPN + EVENT 25",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98551
+    },
+    {
+        "channelName": "ESPN + EVENT 26",
+        "tvgName": "VIP US: ESPN + EVENT 26",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98552
+    },
+    {
+        "channelName": "ESPN + EVENT 27",
+        "tvgName": "VIP US: ESPN + EVENT 27",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98553
+    },
+    {
+        "channelName": "ESPN + EVENT 28",
+        "tvgName": "VIP US: ESPN + EVENT 28",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98554
+    },
+    {
+        "channelName": "ESPN + EVENT 29",
+        "tvgName": "VIP US: ESPN + EVENT 29",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98555
+    },
+    {
+        "channelName": "ESPN + EVENT 30",
+        "tvgName": "VIP US: ESPN + EVENT 30",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98556
+    },
+    {
+        "channelName": "ESPN + EVENT 31",
+        "tvgName": "VIP US: ESPN + EVENT 31",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98557
+    },
+    {
+        "channelName": "ESPN + EVENT 32",
+        "tvgName": "VIP US: ESPN + EVENT 32",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98558
+    },
+    {
+        "channelName": "ESPN + EVENT 33",
+        "tvgName": "VIP US: ESPN + EVENT 33",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98559
+    },
+    {
+        "channelName": "ESPN + EVENT 34",
+        "tvgName": "VIP US: ESPN + EVENT 34",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98560
+    },
+    {
+        "channelName": "ESPN + EVENT 35",
+        "tvgName": "VIP US: ESPN + EVENT 35",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98561
+    },
+    {
+        "channelName": "ESPN + EVENT 36",
+        "tvgName": "VIP US: ESPN + EVENT 36",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98562
+    },
+    {
+        "channelName": "ESPN + EVENT 37",
+        "tvgName": "VIP US: ESPN + EVENT 37",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98563
+    },
+    {
+        "channelName": "ESPN + EVENT 38",
+        "tvgName": "VIP US: ESPN + EVENT 38",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98564
+    },
+    {
+        "channelName": "ESPN + EVENT 39",
+        "tvgName": "VIP US: ESPN + EVENT 39",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98565
+    },
+    {
+        "channelName": "ESPN + EVENT 40",
+        "tvgName": "VIP US: ESPN + EVENT 40",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98566
+    },
+    {
+        "channelName": "ESPN + EVENT 41",
+        "tvgName": "VIP US: ESPN + EVENT 41",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98567
+    },
+    {
+        "channelName": "ESPN + EVENT 42",
+        "tvgName": "VIP US: ESPN + EVENT 42",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98568
+    },
+    {
+        "channelName": "ESPN + EVENT 43",
+        "tvgName": "VIP US: ESPN + EVENT 43",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98569
+    },
+    {
+        "channelName": "ESPN + EVENT 44",
+        "tvgName": "VIP US: ESPN + EVENT 44",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98570
+    },
+    {
+        "channelName": "ESPN + EVENT 45",
+        "tvgName": "VIP US: ESPN + EVENT 45",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98571
+    },
+    {
+        "channelName": "ESPN + EVENT 46",
+        "tvgName": "VIP US: ESPN + EVENT 46",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98572
+    },
+    {
+        "channelName": "ESPN + EVENT 47",
+        "tvgName": "VIP US: ESPN + EVENT 47",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98573
+    },
+    {
+        "channelName": "ESPN + EVENT 48",
+        "tvgName": "VIP US: ESPN + EVENT 48",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98574
+    },
+    {
+        "channelName": "ESPN + EVENT 49",
+        "tvgName": "VIP US: ESPN + EVENT 49",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98575
+    },
+    {
+        "channelName": "ESPN + EVENT 50",
+        "tvgName": "VIP US: ESPN + EVENT 50",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98576
+    },
+    {
+        "channelName": "ESPN + EVENT 51",
+        "tvgName": "VIP US: ESPN + EVENT 51",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98577
+    },
+    {
+        "channelName": "ESPN + EVENT 52",
+        "tvgName": "VIP US: ESPN + EVENT 52",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98578
+    },
+    {
+        "channelName": "ESPN + EVENT 53",
+        "tvgName": "VIP US: ESPN + EVENT 53",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98579
+    },
+    {
+        "channelName": "ESPN + EVENT 54",
+        "tvgName": "VIP US: ESPN + EVENT 54",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98580
+    },
+    {
+        "channelName": "ESPN + EVENT 55",
+        "tvgName": "VIP US: ESPN + EVENT 55",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98581
+    },
+    {
+        "channelName": "ESPN + EVENT 56",
+        "tvgName": "VIP US: ESPN + EVENT 56",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98582
+    },
+    {
+        "channelName": "ESPN + EVENT 57",
+        "tvgName": "VIP US: ESPN + EVENT 57",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98583
+    },
+    {
+        "channelName": "ESPN + EVENT 58",
+        "tvgName": "VIP US: ESPN + EVENT 58",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98584
+    },
+    {
+        "channelName": "ESPN + EVENT 59",
+        "tvgName": "VIP US: ESPN + EVENT 59",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98585
+    },
+    {
+        "channelName": "ESPN + EVENT 60",
+        "tvgName": "VIP US: ESPN + EVENT 60",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98586
+    },
+    {
+        "channelName": "ESPN + EVENT 61",
+        "tvgName": "VIP US: ESPN + EVENT 61",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98587
+    },
+    {
+        "channelName": "ESPN + EVENT 62",
+        "tvgName": "VIP US: ESPN + EVENT 62",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98588
+    },
+    {
+        "channelName": "ESPN + EVENT 63",
+        "tvgName": "VIP US: ESPN + EVENT 63",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98589
+    },
+    {
+        "channelName": "ESPN + EVENT 64",
+        "tvgName": "VIP US: ESPN + EVENT 64",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98590
+    },
+    {
+        "channelName": "ESPN + EVENT 65",
+        "tvgName": "VIP US: ESPN + EVENT 65",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98591
+    },
+    {
+        "channelName": "ESPN + EVENT 66",
+        "tvgName": "VIP US: ESPN + EVENT 66",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98592
+    },
+    {
+        "channelName": "ESPN + EVENT 67",
+        "tvgName": "VIP US: ESPN + EVENT 67",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98593
+    },
+    {
+        "channelName": "ESPN + EVENT 68",
+        "tvgName": "VIP US: ESPN + EVENT 68",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98594
+    },
+    {
+        "channelName": "ESPN + EVENT 69",
+        "tvgName": "VIP US: ESPN + EVENT 69",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98595
+    },
+    {
+        "channelName": "ESPN + EVENT 70",
+        "tvgName": "VIP US: ESPN + EVENT 70",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98596
+    },
+    {
+        "channelName": "ESPN + EVENT 71",
+        "tvgName": "VIP US: ESPN + EVENT 71",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98597
+    },
+    {
+        "channelName": "ESPN + EVENT 72",
+        "tvgName": "VIP US: ESPN + EVENT 72",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98598
+    },
+    {
+        "channelName": "ESPN + EVENT 73",
+        "tvgName": "VIP US: ESPN + EVENT 73",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98599
+    },
+    {
+        "channelName": "ESPN + EVENT 74",
+        "tvgName": "VIP US: ESPN + EVENT 74",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98600
+    },
+    {
+        "channelName": "ESPN + EVENT 75",
+        "tvgName": "VIP US: ESPN + EVENT 75",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98601
+    },
+    {
+        "channelName": "ESPN + EVENT 76",
+        "tvgName": "VIP US: ESPN + EVENT 76",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98602
+    },
+    {
+        "channelName": "ESPN + EVENT 77",
+        "tvgName": "VIP US: ESPN + EVENT 77",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98603
+    },
+    {
+        "channelName": "ESPN + EVENT 78",
+        "tvgName": "VIP US: ESPN + EVENT 78",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98604
+    },
+    {
+        "channelName": "ESPN + EVENT 79",
+        "tvgName": "VIP US: ESPN + EVENT 79",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98605
+    },
+    {
+        "channelName": "ESPN + EVENT 80",
+        "tvgName": "VIP US: ESPN + EVENT 80",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98606
+    },
+    {
+        "channelName": "ESPN + EVENT 81",
+        "tvgName": "VIP US: ESPN + EVENT 81",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98607
+    },
+    {
+        "channelName": "ESPN + EVENT 82",
+        "tvgName": "VIP US: ESPN + EVENT 82",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98608
+    },
+    {
+        "channelName": "ESPN + EVENT 83",
+        "tvgName": "VIP US: ESPN + EVENT 83",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98609
+    },
+    {
+        "channelName": "ESPN + EVENT 84",
+        "tvgName": "VIP US: ESPN + EVENT 84",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98610
+    },
+    {
+        "channelName": "ESPN + EVENT 85",
+        "tvgName": "VIP US: ESPN + EVENT 85",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98611
+    },
+    {
+        "channelName": "ESPN + EVENT 86",
+        "tvgName": "VIP US: ESPN + EVENT 86",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98612
+    },
+    {
+        "channelName": "ESPN + EVENT 87",
+        "tvgName": "VIP US: ESPN + EVENT 87",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98613
+    },
+    {
+        "channelName": "ESPN + EVENT 88",
+        "tvgName": "VIP US: ESPN + EVENT 88",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98614
+    },
+    {
+        "channelName": "ESPN + EVENT 89",
+        "tvgName": "VIP US: ESPN + EVENT 89",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98615
+    },
+    {
+        "channelName": "ESPN + EVENT 90",
+        "tvgName": "VIP US: ESPN + EVENT 90",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98616
+    },
+    {
+        "channelName": "ESPN + EVENT 91",
+        "tvgName": "VIP US: ESPN + EVENT 91",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98617
+    },
+    {
+        "channelName": "ESPN + EVENT 92",
+        "tvgName": "VIP US: ESPN + EVENT 92",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98618
+    },
+    {
+        "channelName": "ESPN + EVENT 93",
+        "tvgName": "VIP US: ESPN + EVENT 93",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98619
+    },
+    {
+        "channelName": "ESPN + EVENT 94",
+        "tvgName": "VIP US: ESPN + EVENT 94",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98620
+    },
+    {
+        "channelName": "ESPN + EVENT 95",
+        "tvgName": "VIP US: ESPN + EVENT 95",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98621
+    },
+    {
+        "channelName": "ESPN + EVENT 96",
+        "tvgName": "VIP US: ESPN + EVENT 96",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98622
+    },
+    {
+        "channelName": "ESPN + EVENT 97",
+        "tvgName": "VIP US: ESPN + EVENT 97",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98623
+    },
+    {
+        "channelName": "ESPN + EVENT 98",
+        "tvgName": "VIP US: ESPN + EVENT 98",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98624
+    },
+    {
+        "channelName": "ESPN + EVENT 99",
+        "tvgName": "VIP US: ESPN + EVENT 99",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98625
+    },
+    {
+        "channelName": "ESPN + EVENT 100",
+        "tvgName": "VIP US: ESPN + EVENT 100",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98626
+    },
+    {
+        "channelName": "ESPN + EVENT 101",
+        "tvgName": "VIP US: ESPN + EVENT 101",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98627
+    },
+    {
+        "channelName": "ESPN + EVENT 102",
+        "tvgName": "VIP US: ESPN + EVENT 102",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98628
+    },
+    {
+        "channelName": "ESPN + EVENT 103",
+        "tvgName": "VIP US: ESPN + EVENT 103",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98629
+    },
+    {
+        "channelName": "ESPN + EVENT 104",
+        "tvgName": "VIP US: ESPN + EVENT 104",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98630
+    },
+    {
+        "channelName": "ESPN + EVENT 105",
+        "tvgName": "VIP US: ESPN + EVENT 105",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98631
+    },
+    {
+        "channelName": "ESPN + EVENT 106",
+        "tvgName": "VIP US: ESPN + EVENT 106",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98632
+    },
+    {
+        "channelName": "ESPN + EVENT 107",
+        "tvgName": "VIP US: ESPN + EVENT 107",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98633
+    },
+    {
+        "channelName": "ESPN + EVENT 108",
+        "tvgName": "VIP US: ESPN + EVENT 108",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98634
+    },
+    {
+        "channelName": "ESPN + EVENT 109",
+        "tvgName": "VIP US: ESPN + EVENT 109",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98635
+    },
+    {
+        "channelName": "ESPN + EVENT 110",
+        "tvgName": "VIP US: ESPN + EVENT 110",
+        "tvgId": "ESPN+.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/espn-plus-us.png",
+        "extGrp": "ESPN+",
+        "tvgShift": 0,
+        "channelId": 98636
+    },
+    {
+        "channelName": "Fite TV Event 01 [Live During Events Only]",
+        "tvgName": "VIP US: Fite TV Event 01 [Live During Events Only]",
+        "tvgId": "FITE.TV.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fite-tv-us.png",
+        "extGrp": "Fite TV Pass",
+        "tvgShift": 0,
+        "channelId": 111082
+    },
+    {
+        "channelName": "Fite TV Event 02 [Live During Events Only]",
+        "tvgName": "VIP US: Fite TV Event 02 [Live During Events Only]",
+        "tvgId": "FITE.TV.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fite-tv-us.png",
+        "extGrp": "Fite TV Pass",
+        "tvgShift": 0,
+        "channelId": 111083
+    },
+    {
+        "channelName": "Fite TV Event 03 [Live During Events Only]",
+        "tvgName": "VIP US: Fite TV Event 03 [Live During Events Only]",
+        "tvgId": "FITE.TV.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fite-tv-us.png",
+        "extGrp": "Fite TV Pass",
+        "tvgShift": 0,
+        "channelId": 111084
+    },
+    {
+        "channelName": "Fite TV Event 04 [Live During Events Only]",
+        "tvgName": "VIP US: Fite TV Event 04 [Live During Events Only]",
+        "tvgId": "FITE.TV.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fite-tv-us.png",
+        "extGrp": "Fite TV Pass",
+        "tvgShift": 0,
+        "channelId": 111085
+    },
+    {
+        "channelName": "Fite TV Event 05 [Live During Events Only]",
+        "tvgName": "VIP US: Fite TV Event 05 [Live During Events Only]",
+        "tvgId": "FITE.TV.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fite-tv-us.png",
+        "extGrp": "Fite TV Pass",
+        "tvgShift": 0,
+        "channelId": 111086
+    },
+    {
+        "channelName": "Fite TV Event 06 [Live During Events Only]",
+        "tvgName": "VIP US: Fite TV Event 06 [Live During Events Only]",
+        "tvgId": "FITE.TV.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fite-tv-us.png",
+        "extGrp": "Fite TV Pass",
+        "tvgShift": 0,
+        "channelId": 111087
+    },
+    {
+        "channelName": "Fite TV Event 07 [Live During Events Only]",
+        "tvgName": "VIP US: Fite TV Event 07 [Live During Events Only]",
+        "tvgId": "FITE.TV.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/fite-tv-us.png",
+        "extGrp": "Fite TV Pass",
+        "tvgShift": 0,
+        "channelId": 111088
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 01",
+        "tvgName": "VIP US: Fox Soccer Match Pass 01",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34730
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 02",
+        "tvgName": "VIP US: Fox Soccer Match Pass 02",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34731
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 03",
+        "tvgName": "VIP US: Fox Soccer Match Pass 03",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34732
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 04",
+        "tvgName": "VIP US: Fox Soccer Match Pass 04",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34733
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 05",
+        "tvgName": "VIP US: Fox Soccer Match Pass 05",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34736
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 06",
+        "tvgName": "VIP US: Fox Soccer Match Pass 06",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34734
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 07",
+        "tvgName": "VIP US: Fox Soccer Match Pass 07",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34735
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 08",
+        "tvgName": "VIP US: Fox Soccer Match Pass 08",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34737
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 09",
+        "tvgName": "VIP US: Fox Soccer Match Pass 09",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34738
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 10",
+        "tvgName": "VIP US: Fox Soccer Match Pass 10",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34739
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 11",
+        "tvgName": "VIP US: Fox Soccer Match Pass 11",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34740
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 12",
+        "tvgName": "VIP US: Fox Soccer Match Pass 12",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34744
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 13",
+        "tvgName": "VIP US: Fox Soccer Match Pass 13",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34741
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 14",
+        "tvgName": "VIP US: Fox Soccer Match Pass 14",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34742
+    },
+    {
+        "channelName": "Fox Soccer Match Pass 15",
+        "tvgName": "VIP US: Fox Soccer Match Pass 15",
+        "tvgId": "MLS.Soccer.Dummy.us",
+        "tvgLogo": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/76/84/4c/76844ce0-2609-8663-543e-b20c19568bd1/source/512x512bb.jpg",
+        "extGrp": "FS Match Pass",
+        "tvgShift": 0,
+        "channelId": 34743
+    },
+    {
+        "channelName": "MLB Extra Innings 721 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 721 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME1).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19288
+    },
+    {
+        "channelName": "MLB Extra Innings 722 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 722 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME2).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19287
+    },
+    {
+        "channelName": "MLB Extra Innings 723 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 723 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME3).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19286
+    },
+    {
+        "channelName": "MLB Extra Innings 724 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 724 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME4).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19285
+    },
+    {
+        "channelName": "MLB Extra Innings 725 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 725 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME5).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19284
+    },
+    {
+        "channelName": "MLB Extra Innings 726 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 726 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME6).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19283
+    },
+    {
+        "channelName": "MLB Extra Innings 727 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 727 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME7).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19282
+    },
+    {
+        "channelName": "MLB Extra Innings 728 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 728 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME8).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19281
+    },
+    {
+        "channelName": "MLB Extra Innings 729 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 729 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME9).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19280
+    },
+    {
+        "channelName": "MLB Extra Innings 730 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 730 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME10).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19279
+    },
+    {
+        "channelName": "MLB Extra Innings 731 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 731 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME11).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19278
+    },
+    {
+        "channelName": "MLB Extra Innings 732 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 732 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME12).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19277
+    },
+    {
+        "channelName": "MLB Extra Innings 733 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 733 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME13).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19276
+    },
+    {
+        "channelName": "MLB Extra Innings 734 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 734 HD US",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME14).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19275
+    },
+    {
+        "channelName": "MLB Extra Innings 735 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 735 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19274
+    },
+    {
+        "channelName": "MLB Extra Innings 736 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 736 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19273
+    },
+    {
+        "channelName": "MLB Extra Innings 737 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 737 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19272
+    },
+    {
+        "channelName": "MLB Extra Innings 738 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 738 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19271
+    },
+    {
+        "channelName": "MLB Extra Innings 739 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 739 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19270
+    },
+    {
+        "channelName": "MLB Extra Innings 740 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 740 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19269
+    },
+    {
+        "channelName": "MLB Extra Innings 741 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 741 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19268
+    },
+    {
+        "channelName": "MLB Extra Innings 742 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 742 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19267
+    },
+    {
+        "channelName": "MLB Extra Innings 743 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 743 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19266
+    },
+    {
+        "channelName": "MLB Extra Innings 744 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 744 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19265
+    },
+    {
+        "channelName": "MLB Extra Innings 745 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 745 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19264
+    },
+    {
+        "channelName": "MLB Extra Innings 746 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 746 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19263
+    },
+    {
+        "channelName": "MLB Extra Innings 747 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 747 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19262
+    },
+    {
+        "channelName": "MLB Extra Innings 748 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 748 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19261
+    },
+    {
+        "channelName": "MLB Extra Innings 749 HD US",
+        "tvgName": "VIP US: MLB Extra Innings 749 HD US",
+        "tvgId": "MLB.Baseball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/mlb-extra-innings-us.png",
+        "extGrp": "MLB Pass",
+        "tvgShift": 0,
+        "channelId": 19260
+    },
+    {
+        "channelName": "NBA League Pass Live 750 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 750 HD US",
+        "tvgId": "NBA.0.League.Pass.(High.Definition).(Bell.TV).(NBA0HDEX).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19259
+    },
+    {
+        "channelName": "NBA League Pass Live 751 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 751 HD US",
+        "tvgId": "NBA.League.Pass.(TEAM1).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19258
+    },
+    {
+        "channelName": "NBA League Pass Live 752 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 752 HD US",
+        "tvgId": "NBA.League.Pass.(TEAM2).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19257
+    },
+    {
+        "channelName": "NBA League Pass Live 753 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 753 HD US",
+        "tvgId": "NBA.League.Pass.(TEAM3).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19256
+    },
+    {
+        "channelName": "NBA League Pass Live 754 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 754 HD US",
+        "tvgId": "NBA.League.Pass.(TEAM4).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19255
+    },
+    {
+        "channelName": "NBA League Pass Live 755 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 755 HD US",
+        "tvgId": "NBA.League.Pass.(TEAM5).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19254
+    },
+    {
+        "channelName": "NBA League Pass Live 756 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 756 HD US",
+        "tvgId": "NBA.League.Pass/MLS.Direct.Kick.(TEAM6).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19253
+    },
+    {
+        "channelName": "NBA League Pass Live 757 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 757 HD US",
+        "tvgId": "NBA.League.Pass/MLS.Direct.Kick.(TEAM7).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19252
+    },
+    {
+        "channelName": "NBA League Pass Live 758 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 758 HD US",
+        "tvgId": "NBA.League.Pass/MLS.Direct.Kick.(TEAM8).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19251
+    },
+    {
+        "channelName": "NBA League Pass Live 759 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 759 HD US",
+        "tvgId": "NBA.League.Pass/MLS.Direct.Kick.(TEAM9).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19250
+    },
+    {
+        "channelName": "NBA League Pass Live 760 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 760 HD US",
+        "tvgId": "NBA.10.League.Pass.(Bell.TV).(NBA10HDX).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19249
+    },
+    {
+        "channelName": "NBA League Pass Live 761 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 761 HD US",
+        "tvgId": "NBA.League.Pass.(TEAM11).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19248
+    },
+    {
+        "channelName": "NBA League Pass Live 762 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 762 HD US",
+        "tvgId": "NBA.Basketball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19247
+    },
+    {
+        "channelName": "NBA League Pass Live 763 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 763 HD US",
+        "tvgId": "NBA.Basketball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19246
+    },
+    {
+        "channelName": "NBA League Pass Live 764 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 764 HD US",
+        "tvgId": "NBA.Basketball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19245
+    },
+    {
+        "channelName": "NBA League Pass Live 765 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 765 HD US",
+        "tvgId": "NBA.Basketball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19244
+    },
+    {
+        "channelName": "NBA League Pass Live 766 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 766 HD US",
+        "tvgId": "NBA.Basketball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19243
+    },
+    {
+        "channelName": "NBA League Pass Live 767 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 767 HD US",
+        "tvgId": "NBA.Basketball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19242
+    },
+    {
+        "channelName": "NBA League Pass Live 768 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 768 HD US",
+        "tvgId": "NBA.Basketball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19241
+    },
+    {
+        "channelName": "NBA League Pass Live 769 HD US",
+        "tvgName": "VIP US: NBA League Pass Live 769 HD US",
+        "tvgId": "NBA.Basketball.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/sports/ppv-live/nba-league-pass.png",
+        "extGrp": "NBA Pass",
+        "tvgShift": 0,
+        "channelId": 19240
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 705 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 705 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL1).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19239
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 706 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 706 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL2).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19238
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 707 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 707 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL3).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19237
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 708 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 708 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL4).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19236
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 709 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 709 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL5).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19235
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 710 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 710 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL6).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19234
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 711 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 711 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL7).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19233
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 712 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 712 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL8).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19232
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 713 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 713 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL9).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19231
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 714 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 714 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL10).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19230
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 715 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 715 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL11).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19229
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 716 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 716 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL12).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19228
+    },
+    {
+        "channelName": "NFL SUNDAY TICKET 717 US",
+        "tvgName": "VIP US: NFL SUNDAY TICKET 717 US",
+        "tvgId": "NFL.Sunday.Ticket.(NFL13).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nfl-game-pass-us.png",
+        "extGrp": "NFL Pass",
+        "tvgShift": 0,
+        "channelId": 19227
+    },
+    {
+        "channelName": "NHL Ice Center Pass 1 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 1 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME1).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66383
+    },
+    {
+        "channelName": "NHL Ice Center Pass 2 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 2 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME2).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66384
+    },
+    {
+        "channelName": "NHL Ice Center Pass 3 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 3 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME3).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66385
+    },
+    {
+        "channelName": "NHL Ice Center Pass 4 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 4 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME4).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66386
+    },
+    {
+        "channelName": "NHL Ice Center Pass 5 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 5 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME5).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66387
+    },
+    {
+        "channelName": "NHL Ice Center Pass 6 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 6 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME6).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66388
+    },
+    {
+        "channelName": "NHL Ice Center Pass 7 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 7 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME7).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66389
+    },
+    {
+        "channelName": "NHL Ice Center Pass 8 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 8 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME8).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66390
+    },
+    {
+        "channelName": "NHL Ice Center Pass 9 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 9 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME9).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66391
+    },
+    {
+        "channelName": "NHL Ice Center Pass 10 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 10 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME10).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66392
+    },
+    {
+        "channelName": "NHL Ice Center Pass 11 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 11 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME11).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66393
+    },
+    {
+        "channelName": "NHL Ice Center Pass 12 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 12 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME12).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66394
+    },
+    {
+        "channelName": "NHL Ice Center Pass 13 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 13 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME13).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66395
+    },
+    {
+        "channelName": "NHL Ice Center Pass 14 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 14 FHD",
+        "tvgId": "NHL.Center.Ice.&amp;.MLB.Extra.Innings.(GAME14).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66396
+    },
+    {
+        "channelName": "NHL Ice Center Pass 15 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 15 FHD",
+        "tvgId": "NHL.Hockey.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66397
+    },
+    {
+        "channelName": "NHL Ice Center Pass 16 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 16 FHD",
+        "tvgId": "NHL.Hockey.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66398
+    },
+    {
+        "channelName": "NHL Ice Center Pass 17 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 17 FHD",
+        "tvgId": "NHL.Hockey.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66399
+    },
+    {
+        "channelName": "NHL Ice Center Pass 18 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 18 FHD",
+        "tvgId": "NHL.Hockey.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66400
+    },
+    {
+        "channelName": "NHL Ice Center Pass 19 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 19 FHD",
+        "tvgId": "NHL.Hockey.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66401
+    },
+    {
+        "channelName": "NHL Ice Center Pass 20 FHD",
+        "tvgName": "VIP US: NHL Ice Center Pass 20 FHD",
+        "tvgId": "NHL.Hockey.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/nhl-center-ice-us.png",
+        "extGrp": "NHL Pass",
+        "tvgShift": 0,
+        "channelId": 66402
+    },
+    {
+        "channelName": "UFC Fight Pass 01",
+        "tvgName": "VIP US: UFC Fight Pass FHD",
+        "tvgId": "UFC.Fight.Pass.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ufc-fight-pass-us.png",
+        "extGrp": "UFC Pass",
+        "tvgShift": 0,
+        "channelId": 27971
+    },
+    {
+        "channelName": "UFC Fight Pass 02",
+        "tvgName": "VIP US: UFC Fight Pass 02",
+        "tvgId": "UFC.Fight.Pass.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ufc-fight-pass-us.png",
+        "extGrp": "UFC Pass",
+        "tvgShift": 0,
+        "channelId": 34746
+    },
+    {
+        "channelName": "UFC Fight Pass 03",
+        "tvgName": "VIP US: UFC Fight Pass 03",
+        "tvgId": "UFC.Fight.Pass.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ufc-fight-pass-us.png",
+        "extGrp": "UFC Pass",
+        "tvgShift": 0,
+        "channelId": 34747
+    },
+    {
+        "channelName": "UFC Fight Pass 04",
+        "tvgName": "VIP US: UFC Fight Pass 04",
+        "tvgId": "UFC.Fight.Pass.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ufc-fight-pass-us.png",
+        "extGrp": "UFC Pass",
+        "tvgShift": 0,
+        "channelId": 34748
+    },
+    {
+        "channelName": "UFC Fight Pass 05",
+        "tvgName": "VIP US: UFC Fight Pass 05",
+        "tvgId": "UFC.Fight.Pass.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ufc-fight-pass-us.png",
+        "extGrp": "UFC Pass",
+        "tvgShift": 0,
+        "channelId": 34749
+    },
+    {
+        "channelName": "UFC Fight Pass 06",
+        "tvgName": "VIP US: UFC Fight Pass 06",
+        "tvgId": "UFC.Fight.Pass.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ufc-fight-pass-us.png",
+        "extGrp": "UFC Pass",
+        "tvgShift": 0,
+        "channelId": 34750
+    },
+    {
+        "channelName": "UFC Fight Pass 07",
+        "tvgName": "VIP US: UFC Fight Pass 07",
+        "tvgId": "UFC.Fight.Pass.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ufc-fight-pass-us.png",
+        "extGrp": "UFC Pass",
+        "tvgShift": 0,
+        "channelId": 34751
+    },
+    {
+        "channelName": "UFC Fight Pass 08",
+        "tvgName": "VIP US: UFC Fight Pass 08",
+        "tvgId": "UFC.Fight.Pass.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ufc-fight-pass-us.png",
+        "extGrp": "UFC Pass",
+        "tvgShift": 0,
+        "channelId": 34752
+    },
+    {
+        "channelName": "UFC Fight Pass 09",
+        "tvgName": "VIP US: UFC Fight Pass 09",
+        "tvgId": "UFC.Fight.Pass.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ufc-fight-pass-us.png",
+        "extGrp": "UFC Pass",
+        "tvgShift": 0,
+        "channelId": 34753
+    },
+    {
+        "channelName": "UFC Fight Pass 10",
+        "tvgName": "VIP US: UFC Fight Pass 10",
+        "tvgId": "UFC.Fight.Pass.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ufc-fight-pass-us.png",
+        "extGrp": "UFC Pass",
+        "tvgShift": 0,
+        "channelId": 34754
+    },
+    {
+        "channelName": "UFC Fight Pass (Live Only)",
+        "tvgName": "VIP US: UFC Fight Pass Live Only",
+        "tvgId": "UFC.Fight.Pass.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ufc-fight-pass-us.png",
+        "extGrp": "UFC Pass",
+        "tvgShift": 0,
+        "channelId": 34745
     }
 ]
