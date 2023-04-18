@@ -6378,5 +6378,275 @@
         "extGrp": "UFC Pass",
         "tvgShift": 0,
         "channelId": 34745
+    },
+    {
+        "channelName": "F1TV Main Event",
+        "tvgName": "VIP US: F1TV Main Event",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111396
+    },
+    {
+        "channelName": "F1TV 1",
+        "tvgName": "VIP US: F1TV 1",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111397
+    },
+    {
+        "channelName": "F1TV 2",
+        "tvgName": "VIP US: F1TV 2",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111398
+    },
+    {
+        "channelName": "F1TV 3",
+        "tvgName": "VIP US: F1TV 3",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111399
+    },
+    {
+        "channelName": "F1TV 4",
+        "tvgName": "VIP US: F1TV 4",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111400
+    },
+    {
+        "channelName": "F1TV 5",
+        "tvgName": "VIP US: F1TV 5",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111401
+    },
+    {
+        "channelName": "F1TV 6",
+        "tvgName": "VIP US: F1TV 6",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111402
+    },
+    {
+        "channelName": "F1TV Data Channel (Events Only)",
+        "tvgName": "VIP US: F1TV Data Channel (Events Only)",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111403
+    },
+    {
+        "channelName": "F1TV Driver Tracker Channel (Events Only)",
+        "tvgName": "VIP US: F1TV Driver Tracker Channel (Events Only)",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111404
+    },
+    {
+        "channelName": "F1TV Pit Lane Channel (Events Only)",
+        "tvgName": "VIP US: F1TV Pit Lane Channel (Events Only)",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111405
+    },
+    {
+        "channelName": "F1TV Cams Max Verstappen | Red Bull Racing",
+        "tvgName": "VIP US: F1TV Cams Max Verstappen | Red Bull Racing",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111406
+    },
+    {
+        "channelName": "F1TV Cams Daniel Ricciardo | McLaren",
+        "tvgName": "VIP US: F1TV Cams Daniel Ricciardo | McLaren",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111407
+    },
+    {
+        "channelName": "F1TV Cams Lando Norris | McLaren",
+        "tvgName": "VIP US: F1TV Cams Lando Norris | McLaren",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111408
+    },
+    {
+        "channelName": "F1TV Cams Sebastian Vettel | Aston Martin",
+        "tvgName": "VIP US: F1TV Cams Sebastian Vettel | Aston Martin",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111409
+    },
+    {
+        "channelName": "F1TV Cams Nicholas Latifi | Williams",
+        "tvgName": "VIP US: F1TV Cams Nicholas Latifi | Williams",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111410
+    },
+    {
+        "channelName": "F1TV Cams Pierre Gasly | AlphaTauri",
+        "tvgName": "VIP US: F1TV Cams Pierre Gasly | AlphaTauri",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111411
+    },
+    {
+        "channelName": "F1TV Cams Sergio Perez | Red Bull Racing",
+        "tvgName": "VIP US: F1TV Cams Sergio Perez | Red Bull Racing",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111412
+    },
+    {
+        "channelName": "F1TV Cams Fernando Alonso | Alpine",
+        "tvgName": "VIP US: F1TV Cams Fernando Alonso | Alpine",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111413
+    },
+    {
+        "channelName": "F1TV Cams Charles Leclerc | Ferrari",
+        "tvgName": "VIP US: F1TV Cams Charles Leclerc | Ferrari",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111414
+    },
+    {
+        "channelName": "F1TV Cams Lance Stroll | Aston Martin",
+        "tvgName": "VIP US: F1TV Cams Lance Stroll | Aston Martin",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111415
+    },
+    {
+        "channelName": "F1TV Cams Kevin Magnussen | Haas F1 Team",
+        "tvgName": "VIP US: F1TV Cams Kevin Magnussen | Haas F1 Team",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111416
+    },
+    {
+        "channelName": "F1TV Cams Yuki Tsunoda | AlphaTauri",
+        "tvgName": "VIP US: F1TV Cams Yuki Tsunoda | AlphaTauri",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111417
+    },
+    {
+        "channelName": "F1TV Cams Alexander Albon | Williams",
+        "tvgName": "VIP US: F1TV Cams Alexander Albon | Williams",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111418
+    },
+    {
+        "channelName": "F1TV Cams Guanyu Zhou | Alfa Romeo",
+        "tvgName": "VIP US: F1TV Cams Guanyu Zhou | Alfa Romeo",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111419
+    },
+    {
+        "channelName": "F1TV Cams Esteban Ocon | Alpine",
+        "tvgName": "VIP US: F1TV Cams Esteban Ocon | Alpine",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111420
+    },
+    {
+        "channelName": "F1TV Cams Lewis Hamilton | Mercedes",
+        "tvgName": "VIP US: F1TV Cams Lewis Hamilton | Mercedes",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111421
+    },
+    {
+        "channelName": "F1TV Cams Mick Schumacher | Haas F1 Team",
+        "tvgName": "VIP US: F1TV Cams Mick Schumacher | Haas F1 Team",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111422
+    },
+    {
+        "channelName": "F1TV Cams Carlos Sainz | Ferrari",
+        "tvgName": "VIP US: F1TV Cams Carlos Sainz | Ferrari",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111423
+    },
+    {
+        "channelName": "F1TV Cams George Russell | Mercedes",
+        "tvgName": "VIP US: F1TV Cams George Russell | Mercedes",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111424
+    },
+    {
+        "channelName": "F1TV Cams Valtteri Bottas | Alfa Romeo",
+        "tvgName": "VIP US: F1TV Cams Valtteri Bottas | Alfa Romeo",
+        "tvgId": "Racing.Dummy.us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/f1-tv-int.png",
+        "extGrp": "F1 Pass",
+        "tvgShift": 0,
+        "channelId": 111425
     }
 ]
