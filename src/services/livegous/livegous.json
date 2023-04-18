@@ -153,6 +153,15 @@
         "channelId": 22905
     },
     {
+        "channelName": "Great! Movies +1",
+        "tvgName": "VIP UK: Great! Movies Classic",
+        "tvgId": "GREAT!.movies+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/great-movies-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 74231
+    },
+    {
         "channelName": "Great! Movies Action",
         "tvgName": "VIP UK: Great! Movies Action",
         "tvgId": "GREAT!.action.uk",
@@ -1367,6 +1376,15 @@
         "channelId": 22622
     },
     {
+        "channelName": "Virgin Media One",
+        "tvgName": "VIP UK: Virgin Media Sport HD",
+        "tvgId": "Virgin.Media.One.ie",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/virgin-media-one-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 26923
+    },
+    {
         "channelName": "Virgin Media Two",
         "tvgName": "VIP UK: Virgin Media Two",
         "tvgId": "Virgin.Media.Two.ie",
@@ -1655,6 +1673,141 @@
         "channelId": 111061
     },
     {
+        "channelName": "BT Sports 1",
+        "tvgName": "VIP UK: BT Sports 1 FHD",
+        "tvgId": "BT.Sport.1.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-1-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 60877
+    },
+    {
+        "channelName": "BT Sports 1",
+        "tvgName": "VIP UK: BT Sports 1 HD",
+        "tvgId": "BT.Sport.1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-1-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 8178
+    },
+    {
+        "channelName": "BT Sports 2",
+        "tvgName": "VIP UK: BT Sports 2 FHD",
+        "tvgId": "BT.Sport.2.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-2-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 60878
+    },
+    {
+        "channelName": "BT Sports 2",
+        "tvgName": "VIP UK: BT Sports 2 HD",
+        "tvgId": "BT.Sport.2.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-2-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 8179
+    },
+    {
+        "channelName": "BT Sports 3",
+        "tvgName": "VIP UK: BT Sports 3 FHD",
+        "tvgId": "BT.Sport.3.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-3-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 60879
+    },
+    {
+        "channelName": "BT Sports 3",
+        "tvgName": "VIP UK: BT Sports 3 HD",
+        "tvgId": "BT.Sport.3.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-3-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 8180
+    },
+    {
+        "channelName": "BT Sports 4",
+        "tvgName": "VIP UK: BT Sports 4 FHD",
+        "tvgId": "BT.Sport.4.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-4-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 60880
+    },
+    {
+        "channelName": "BT Sports 4",
+        "tvgName": "VIP UK: BT Sports 4 HD",
+        "tvgId": "BT.Sport.4.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-4-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 20199
+    },
+    {
+        "channelName": "BT Sports 5",
+        "tvgName": "VIP UK: BT Sports 5 FHD",
+        "tvgId": "BT.Sport.5.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-5-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 118260
+    },
+    {
+        "channelName": "BT Sports 6",
+        "tvgName": "VIP UK: BT Sports 6 FHD",
+        "tvgId": "BT.Sport.6.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-6-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 118261
+    },
+    {
+        "channelName": "BT Sports 7",
+        "tvgName": "VIP UK: BT Sports 7 FHD",
+        "tvgId": "BT.Sport.7.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-7-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 118262
+    },
+    {
+        "channelName": "BT Sports 8",
+        "tvgName": "VIP UK: BT Sports 8 FHD",
+        "tvgId": "BT.Sport.8.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-8-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 118263
+    },
+    {
+        "channelName": "BT Sports 9",
+        "tvgName": "VIP UK: BT Sports 9 FHD",
+        "tvgId": "BT.Sport.9.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-9-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 118264
+    },
+    {
+        "channelName": "BT Sports 10",
+        "tvgName": "VIP UK: BT Sports 10 FHD",
+        "tvgId": "BT.Sport.10.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-10-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 118265
+    },
+    {
+        "channelName": "BT Sport Ultimate 4K",
+        "tvgName": "VIP UK: BT Sport Ultimate 4K",
+        "tvgId": "BT.Sport.Ultimate.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-ultimate-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 124500
+    },
+    {
         "channelName": "CBS Sport Network",
         "tvgName": "VIP US: CBS Sport Network HD",
         "tvgId": "CBS.Sports.Network.HDTV.(CBSSD).us",
@@ -1662,6 +1815,33 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 8398
+    },
+    {
+        "channelName": "Coral TV 1",
+        "tvgName": "VIP UK: Coral TV 1",
+        "tvgId": "Sporty.Stuff.TV.Dummy.us",
+        "tvgLogo": "https://ca1-in-ilford.dccdn.net/assets/images/business-directory/logo-coral_2020-12-03-154117.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 20590
+    },
+    {
+        "channelName": "Coral TV 2",
+        "tvgName": "VIP UK: Coral TV 2",
+        "tvgId": "Sporty.Stuff.TV.Dummy.us",
+        "tvgLogo": "https://ca1-in-ilford.dccdn.net/assets/images/business-directory/logo-coral_2020-12-03-154117.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 74233
+    },
+    {
+        "channelName": "DAZN 1",
+        "tvgName": "VIP UK: DAZN 1 FHD",
+        "tvgId": "DAZN.1.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/spain/dazn-1-es.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 74229
     },
     {
         "channelName": "Edge Sports",
@@ -1707,6 +1887,24 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 26665
+    },
+    {
+        "channelName": "Eurosport 1",
+        "tvgName": "VIP UK: Eurosport 1 FHD",
+        "tvgId": "Eurosport.1.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/eurosport-1-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 66148
+    },
+    {
+        "channelName": "Eurosport 2",
+        "tvgName": "VIP UK: Eurosport 2 FHD",
+        "tvgId": "Eurosport.2.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/eurosport-2-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 66149
     },
     {
         "channelName": "FanDuel TV",
@@ -1761,6 +1959,42 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 23200
+    },
+    {
+        "channelName": "Ladbrokes TV",
+        "tvgName": "VIP UK: Ladbrokes TV",
+        "tvgId": "Sporty.Stuff.TV.Dummy.us",
+        "tvgLogo": "https://1000logos.net/wp-content/uploads/2020/05/Ladbrokes-Logo.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 20588
+    },
+    {
+        "channelName": "Ladbrokes TV 2",
+        "tvgName": "VIP UK: Ladbrokes TV 2",
+        "tvgId": "Sporty.Stuff.TV.Dummy.us",
+        "tvgLogo": "https://1000logos.net/wp-content/uploads/2020/05/Ladbrokes-Logo.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 20589
+    },
+    {
+        "channelName": "Ladbrokes TV 3",
+        "tvgName": "VIP UK: Ladbrokes TV 3",
+        "tvgId": "Sporty.Stuff.TV.Dummy.us",
+        "tvgLogo": "https://1000logos.net/wp-content/uploads/2020/05/Ladbrokes-Logo.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 74232
+    },
+    {
+        "channelName": "LaLiga TV",
+        "tvgName": "VIP UK: LA LIGA HD",
+        "tvgId": "LaLigaTV.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/laliga-tv-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 18771
     },
     {
         "channelName": "Marquee Sports Network",
@@ -2096,6 +2330,114 @@
         "channelId": 22891
     },
     {
+        "channelName": "Sky Sport Action",
+        "tvgName": "VIP UK: Sky Sport Action FHD",
+        "tvgId": "SkySp.ActionHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-action-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30348
+    },
+    {
+        "channelName": "Sky Sport Action",
+        "tvgName": "VIP UK: Sky Sport Action HD 1080P",
+        "tvgId": "SkySp.ActionHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-action-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 8174
+    },
+    {
+        "channelName": "Sky Sport Arena",
+        "tvgName": "VIP UK: Sky Sport Arena FHD",
+        "tvgId": "SkySp.ArenaHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-arena-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30347
+    },
+    {
+        "channelName": "Sky Sport Arena",
+        "tvgName": "VIP UK: Sky Sport Arena HD 1080P",
+        "tvgId": "SkySp.ArenaHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-arena-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 12662
+    },
+    {
+        "channelName": "Sky Sport Cricket",
+        "tvgName": "VIP UK: Sky Sport Cricket FHD",
+        "tvgId": "SkySpCricket.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-cricket-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30346
+    },
+    {
+        "channelName": "Sky Sport Cricket",
+        "tvgName": "VIP UK: Sky Sport Cricket HD 1080P",
+        "tvgId": "SkySpCricket.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-cricket-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 8173
+    },
+    {
+        "channelName": "Sky Sport F1",
+        "tvgName": "VIP UK: Sky Sport F1 FHD",
+        "tvgId": "SkySp.F1.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-f1-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30345
+    },
+    {
+        "channelName": "Sky Sport F1",
+        "tvgName": "VIP UK: Sky Sport F1 HD 1080P",
+        "tvgId": "SkySp.F1.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-f1-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 8177
+    },
+    {
+        "channelName": "Sky Sport Football",
+        "tvgName": "VIP UK: Sky Sport Football FHD",
+        "tvgId": "SkySp.F&apos;ball.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-football-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30344
+    },
+    {
+        "channelName": "Sky Sport Football",
+        "tvgName": "VIP UK: Sky Sport Football HD 1080P",
+        "tvgId": "SkySp.F&apos;ball.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-football-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 12663
+    },
+    {
+        "channelName": "Sky Sport Golf",
+        "tvgName": "VIP UK: Sky Sport Golf FHD",
+        "tvgId": "SkySp.Golf.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-golf-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30343
+    },
+    {
+        "channelName": "Sky Sport Golf",
+        "tvgName": "VIP UK: Sky Sport Golf HD 1080P",
+        "tvgId": "SkySp.Golf.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-golf-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 8175
+    },
+    {
         "channelName": "Sky Sports Golf",
         "tvgName": "VIP US: NBC GOLF",
         "tvgId": "SkySp.Golf.uk",
@@ -2103,6 +2445,96 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 10687
+    },
+    {
+        "channelName": "Sky Sport Main Events",
+        "tvgName": "VIP UK: Sky Sport Main Event FHD",
+        "tvgId": "SkySpMainEvHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-main-event-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30342
+    },
+    {
+        "channelName": "Sky Sport Main Events",
+        "tvgName": "VIP UK: Sky Sport Main Events HD 1080P",
+        "tvgId": "SkySpMainEvHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-main-event-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 8172
+    },
+    {
+        "channelName": "Sky Sport Mix",
+        "tvgName": "VIP UK: Sky Sport Mix FHD",
+        "tvgId": "SkySp.Mix.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-mix-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30339
+    },
+    {
+        "channelName": "Sky Sport Mix",
+        "tvgName": "VIP UK: Sky Sport Mix HD 1080P",
+        "tvgId": "SkySp.Mix.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-mix-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 28990
+    },
+    {
+        "channelName": "Sky Sport News",
+        "tvgName": "VIP UK: Sky Sport News FHD",
+        "tvgId": "SkySp.News.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-news-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30338
+    },
+    {
+        "channelName": "Sky Sport News",
+        "tvgName": "VIP UK: Sky Sport News HD 1080P",
+        "tvgId": "SkySp.News.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-news-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 28991
+    },
+    {
+        "channelName": "Sky Sport Premier League",
+        "tvgName": "VIP UK: Sky Sport Premier League FHD",
+        "tvgId": "SkySp.PL.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-premier-league-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30341
+    },
+    {
+        "channelName": "Sky Sport Premier League",
+        "tvgName": "VIP UK: Sky Sport PL HD 1080P",
+        "tvgId": "SkySp.PL.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-premier-league-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 8176
+    },
+    {
+        "channelName": "Sky Sport Racing",
+        "tvgName": "VIP UK: Sky Sport Racing",
+        "tvgId": "SkySp.Racing.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-racing-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 26015
+    },
+    {
+        "channelName": "Sky Sport Racing",
+        "tvgName": "VIP UK: Sky Sport Racing FHD",
+        "tvgId": "SkySp.Racing.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-racing-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30340
     },
     {
         "channelName": "SNY",
@@ -2157,6 +2589,33 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 22881
+    },
+    {
+        "channelName": "Viaplay Sports 1",
+        "tvgName": "VIP UK: Viaplay Sports 1 FHD",
+        "tvgId": "Viaplay.1.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/viaplay-sports-1-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 22620
+    },
+    {
+        "channelName": "Viaplay Sports 2",
+        "tvgName": "VIP UK: Viaplay Sports 2 FHD",
+        "tvgId": "Viaplay.2.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/viaplay-sports-2-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30440
+    },
+    {
+        "channelName": "Viaplay Xtra",
+        "tvgName": "VIP UK: Viaplay Xtra HD",
+        "tvgId": "ViaplayXtraHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/viaplay-xtra-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 16288
     },
     {
         "channelName": "VSiN",
@@ -4344,6 +4803,654 @@
         "extGrp": "Empire Cinema",
         "tvgShift": 0,
         "channelId": 40270
+    },
+    {
+        "channelName": "Birmingham City",
+        "tvgName": "VIP UK: CHAMP| Birmingham City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139170
+    },
+    {
+        "channelName": "Blackburn Rovers",
+        "tvgName": "VIP UK: CHAMP| Blackburn Rovers  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139171
+    },
+    {
+        "channelName": "Blackpool",
+        "tvgName": "VIP UK: CHAMP| Blackpool  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139172
+    },
+    {
+        "channelName": "Bristol City",
+        "tvgName": "VIP UK: CHAMP| Bristol City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139173
+    },
+    {
+        "channelName": "Burnley",
+        "tvgName": "VIP UK: CHAMP| Burnley  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139174
+    },
+    {
+        "channelName": "Cardiff City",
+        "tvgName": "VIP UK: CHAMP| Cardiff City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139175
+    },
+    {
+        "channelName": "Coventry City",
+        "tvgName": "VIP UK: CHAMP| Coventry City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139176
+    },
+    {
+        "channelName": "Huddersfield Town",
+        "tvgName": "VIP UK: CHAMP| Huddersfield Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139177
+    },
+    {
+        "channelName": "Hull City",
+        "tvgName": "VIP UK: CHAMP| Hull City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139178
+    },
+    {
+        "channelName": "Luton Town",
+        "tvgName": "VIP UK: CHAMP| Luton Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139179
+    },
+    {
+        "channelName": "Middlesbrough",
+        "tvgName": "VIP UK: CHAMP| Middlesbrough  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139180
+    },
+    {
+        "channelName": "Milwall",
+        "tvgName": "VIP UK: CHAMP| Milwall  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139181
+    },
+    {
+        "channelName": "Norwich City",
+        "tvgName": "VIP UK: CHAMP| Norwich City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139182
+    },
+    {
+        "channelName": "Preston North End",
+        "tvgName": "VIP UK: CHAMP| Preston North End  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139183
+    },
+    {
+        "channelName": "Queens Park Rangers",
+        "tvgName": "VIP UK: CHAMP| Queens Park Rangers  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139184
+    },
+    {
+        "channelName": "Reading",
+        "tvgName": "VIP UK: CHAMP| Reading  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139185
+    },
+    {
+        "channelName": "Rotherham United",
+        "tvgName": "VIP UK: CHAMP| Rotherham United  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139186
+    },
+    {
+        "channelName": "Sheffield United",
+        "tvgName": "VIP UK: CHAMP| Sheffield United  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139187
+    },
+    {
+        "channelName": "Stoke City",
+        "tvgName": "VIP UK: CHAMP| Stoke City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139188
+    },
+    {
+        "channelName": "Sunderland",
+        "tvgName": "VIP UK: CHAMP| Sunderland  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139189
+    },
+    {
+        "channelName": "Swansea City",
+        "tvgName": "VIP UK: CHAMP| Swansea City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139190
+    },
+    {
+        "channelName": "Watford",
+        "tvgName": "VIP UK: CHAMP| Watford  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139192
+    },
+    {
+        "channelName": "West Bromwich Albion",
+        "tvgName": "VIP UK: CHAMP| West Bromwich Albion  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139191
+    },
+    {
+        "channelName": "Wigan Athletic",
+        "tvgName": "VIP UK: CHAMP| Wigan Athletic  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://seeklogo.com/images/S/sky-bet-championship-logo-C4F6910987-seeklogo.com.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139193
+    },
+    {
+        "channelName": "L1| Accrington Stanley",
+        "tvgName": "VIP UK: L1| Accrington Stanley  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139194
+    },
+    {
+        "channelName": "L1| Barnley",
+        "tvgName": "VIP UK: L1| Barnley  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139195
+    },
+    {
+        "channelName": "L1| Bolton Wanderers",
+        "tvgName": "VIP UK: L1| Bolton Wanderers  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139196
+    },
+    {
+        "channelName": "L1| Bristol Rovers",
+        "tvgName": "VIP UK: L1| Bristol Rovers  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139197
+    },
+    {
+        "channelName": "L1| Burton Albion",
+        "tvgName": "VIP UK: L1| Burton Albion  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139198
+    },
+    {
+        "channelName": "L1| Cambridge United",
+        "tvgName": "VIP UK: L1| Cambridge United  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139199
+    },
+    {
+        "channelName": "L1| Charlton Athletic",
+        "tvgName": "VIP UK: L1| Charlton Athletic  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139200
+    },
+    {
+        "channelName": "L1| Cheltenham Town",
+        "tvgName": "VIP UK: L1| Cheltenham Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139201
+    },
+    {
+        "channelName": "L1| Derby County",
+        "tvgName": "VIP UK: L1| Derby County  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139202
+    },
+    {
+        "channelName": "L1| Exeter City",
+        "tvgName": "VIP UK: L1| Exeter City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139203
+    },
+    {
+        "channelName": "L1| Fleetwood Town",
+        "tvgName": "VIP UK: L1| Fleetwood Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139204
+    },
+    {
+        "channelName": "L1| Forest Green Rovers",
+        "tvgName": "VIP UK: L1| Forest Green Rovers  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139205
+    },
+    {
+        "channelName": "L1| Ipswich Town",
+        "tvgName": "VIP UK: L1| Ipswich Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139206
+    },
+    {
+        "channelName": "L1| Lincoln City",
+        "tvgName": "VIP UK: L1| Lincoln City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139207
+    },
+    {
+        "channelName": "L1| MK Dons",
+        "tvgName": "VIP UK: L1| MK Dons  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139208
+    },
+    {
+        "channelName": "L1| Morecambe",
+        "tvgName": "VIP UK: L1| Morecambe  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139209
+    },
+    {
+        "channelName": "L1| Oxford United",
+        "tvgName": "VIP UK: L1| Oxford United  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139210
+    },
+    {
+        "channelName": "L1| Peterborough United",
+        "tvgName": "VIP UK: L1| Peterborough United  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139211
+    },
+    {
+        "channelName": "L1| Plymouth Argyle",
+        "tvgName": "VIP UK: L1| Plymouth Argyle  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139212
+    },
+    {
+        "channelName": "L1| Port Vale",
+        "tvgName": "VIP UK: L1| Port Vale  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139214
+    },
+    {
+        "channelName": "L1| Portsmouth",
+        "tvgName": "VIP UK: L1| Portsmouth  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139213
+    },
+    {
+        "channelName": "L1| Sheffield Wednesday",
+        "tvgName": "VIP UK: L1| Sheffield Wednesday  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139215
+    },
+    {
+        "channelName": "L1| Shrewsbury Town",
+        "tvgName": "VIP UK: L1| Shrewsbury Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139216
+    },
+    {
+        "channelName": "L1| Wycombe Wanderers",
+        "tvgName": "VIP UK: L1| Wycombe Wanderers  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/c/ca/League_one.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139217
+    },
+    {
+        "channelName": "L2| AFC Wimbledon",
+        "tvgName": "VIP UK: L2| AFC Wimbledon  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139218
+    },
+    {
+        "channelName": "L2| Barrow",
+        "tvgName": "VIP UK: L2| Barrow  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139219
+    },
+    {
+        "channelName": "L2| Bradford City",
+        "tvgName": "VIP UK: L2| Bradford City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139220
+    },
+    {
+        "channelName": "L2| Carlisle United",
+        "tvgName": "VIP UK: L2| Carlisle United  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139221
+    },
+    {
+        "channelName": "L2| Colchester United",
+        "tvgName": "VIP UK: L2| Colchester United  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139222
+    },
+    {
+        "channelName": "L2| Crawley Town",
+        "tvgName": "VIP UK: L2| Crawley Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139223
+    },
+    {
+        "channelName": "L2| Crewe Alexandra",
+        "tvgName": "VIP UK: L2| Crewe Alexandra  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139224
+    },
+    {
+        "channelName": "L2| Doncaster Rovers",
+        "tvgName": "VIP UK: L2| Doncaster Rovers  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139225
+    },
+    {
+        "channelName": "L2| Gillingham",
+        "tvgName": "VIP UK: L2| Gillingham  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139226
+    },
+    {
+        "channelName": "L2| Grimsby Town",
+        "tvgName": "VIP UK: L2| Grimsby Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139227
+    },
+    {
+        "channelName": "L2| Harrogate Town",
+        "tvgName": "VIP UK: L2| Harrogate Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139228
+    },
+    {
+        "channelName": "L2| Hartlepool United",
+        "tvgName": "VIP UK: L2| Hartlepool United  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139229
+    },
+    {
+        "channelName": "L2| Leyton Orient",
+        "tvgName": "VIP UK: L2| Leyton Orient  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139230
+    },
+    {
+        "channelName": "L2| Mansfield Town",
+        "tvgName": "VIP UK: L2| Mansfield Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139231
+    },
+    {
+        "channelName": "L2| Newport County",
+        "tvgName": "VIP UK: L2| Newport County  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139232
+    },
+    {
+        "channelName": "L2| Northampton Town",
+        "tvgName": "VIP UK: L2| Northampton Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139233
+    },
+    {
+        "channelName": "L2| Rochdale",
+        "tvgName": "VIP UK: L2| Rochdale  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139234
+    },
+    {
+        "channelName": "L2| Salford City",
+        "tvgName": "VIP UK: L2| Salford City  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139235
+    },
+    {
+        "channelName": "L2| Stevenage",
+        "tvgName": "VIP UK: L2| Stevenage  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139236
+    },
+    {
+        "channelName": "L2| Stockport County",
+        "tvgName": "VIP UK: L2| Stockport County  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139237
+    },
+    {
+        "channelName": "L2| Sutton United",
+        "tvgName": "VIP UK: L2| Sutton United  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139238
+    },
+    {
+        "channelName": "L2| Swindon Town",
+        "tvgName": "VIP UK: L2| Swindon Town  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139239
+    },
+    {
+        "channelName": "L2| Tranmere Rovers",
+        "tvgName": "VIP UK: L2| Tranmere Rovers  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139240
+    },
+    {
+        "channelName": "L2| Walsall",
+        "tvgName": "VIP UK: L2| Walsall  ",
+        "tvgId": "Football.Dummy.us",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/d/d2/EFL_League_Two_Logo.png",
+        "extGrp": "EFL",
+        "tvgShift": 0,
+        "channelId": 139241
     },
     {
         "channelName": "ESPN + EVENT 00",
