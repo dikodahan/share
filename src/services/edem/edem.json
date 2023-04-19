@@ -72,6 +72,24 @@
     "channelId"       : 12261
   },
   {
+    "channelName"     : "ערוץ 98",
+    "tvgName"         : "",
+    "tvgId"           : "ערוץ 98 [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Channel-98.png",
+    "extGrp"          : "IL: Main",
+    "tvgRec"          : 0,
+    "channelId"       : 2369
+  },
+  {
+    "channelName"     : "ערוץ ההידברות",
+    "tvgName"         : "",
+    "tvgId"           : "ערוץ הידברות [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Hidabrut.png",
+    "extGrp"          : "IL: Main",
+    "tvgRec"          : 0,
+    "channelId"       : 12211
+  },
+  {
     "channelName"     : "כאן חינוכית",
     "tvgName"         : "",
     "tvgId"           : "כאן חינוכית [YES]",
@@ -88,24 +106,6 @@
     "extGrp"          : "IL: Main",
     "tvgRec"          : 0,
     "channelId"       : 12269
-  },
-  {
-    "channelName"     : "ספורט 1",
-    "tvgName"         : "",
-    "tvgId"           : "ספורט 1 SD [YES]",
-    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Sport1.png",
-    "extGrp"          : "IL: Sports",
-    "tvgRec"          : 3,
-    "channelId"       : 2353
-  },
-  {
-    "channelName"     : "ספורט 1",
-    "tvgName"         : "",
-    "tvgId"           : "ספורט 1 SD [YES]",
-    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Sport1.png",
-    "extGrp"          : "IL: Sports",
-    "tvgRec"          : 0,
-    "channelId"       : 12249
   },
   {
     "channelName"     : "ספורט 1",
@@ -189,6 +189,15 @@
     "channelId"       : 2391
   },
   {
+    "channelName"     : "ספורט 5",
+    "tvgName"         : "",
+    "tvgId"           : "5sport HD [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/5-Sport.png",
+    "extGrp"          : "IL: Sports",
+    "tvgRec"          : 3,
+    "channelId"       : 2341
+  },
+  {
     "channelName"     : "4K ספורט 5",
     "tvgName"         : "",
     "tvgId"           : "5SPORT 4K [YES]",
@@ -196,15 +205,6 @@
     "extGrp"          : "IL: Sports",
     "tvgRec"          : 0,
     "channelId"       : 12277
-  },
-  {
-    "channelName"     : "ספורט 5 לייב",
-    "tvgName"         : "",
-    "tvgId"           : "5LIVE HD [YES]",
-    "tvgLogo"         : "https://dikodahan.github.io/picons/light/5-Live.png",
-    "extGrp"          : "IL: Sports",
-    "tvgRec"          : 3,
-    "channelId"       : 2341
   },
   {
     "channelName"     : "ספורט 5 לייב",
@@ -234,6 +234,24 @@
     "channelId"       : 12232
   },
   {
+    "channelName"     : "ספורט 5 סטארס",
+    "tvgName"         : "",
+    "tvgId"           : "5STARS [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/5-Stars.png",
+    "extGrp"          : "IL: Sports",
+    "tvgRec"          : 3,
+    "channelId"       : 7074
+  },
+  {
+    "channelName"     : "ספורט 5 סטארס",
+    "tvgName"         : "",
+    "tvgId"           : "5STARS [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/5-Stars.png",
+    "extGrp"          : "IL: Sports",
+    "tvgRec"          : 0,
+    "channelId"       : 12278
+  },
+  {
     "channelName"     : "ONE",
     "tvgName"         : "",
     "tvgId"           : "ONE [YES]",
@@ -241,6 +259,24 @@
     "extGrp"          : "IL: Sports",
     "tvgRec"          : 3,
     "channelId"       : 2340
+  },
+  {
+    "channelName"     : "ONE",
+    "tvgName"         : "",
+    "tvgId"           : "ONE [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/ONE.png",
+    "extGrp"          : "IL: Sports",
+    "tvgRec"          : 0,
+    "channelId"       : 12230
+  },
+  {
+    "channelName"     : "ONE 2",
+    "tvgName"         : "",
+    "tvgId"           : "ONE2 [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/ONE2.png",
+    "extGrp"          : "IL: Sports",
+    "tvgRec"          : 0,
+    "channelId"       : 12231
   },
   {
     "channelName"     : "ONE 2",
@@ -261,6 +297,24 @@
     "channelId"       : 7203
   },
   {
+    "channelName"     : "ספורט אקסטרים",
+    "tvgName"         : "",
+    "tvgId"           : "Extreme Sports [HOT]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Extreme-Sports.png",
+    "extGrp"          : "IL: Sports",
+    "tvgRec"          : 0,
+    "channelId"       : 12208
+  },
+  {
+    "channelName"     : "ערוץ ההומור",
+    "tvgName"         : "",
+    "tvgId"           : "ערוץ ההומור [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Humor-Channel.png",
+    "extGrp"          : "IL: YES",
+    "tvgRec"          : 0,
+    "channelId"       : 12223
+  },
+  {
     "channelName"     : "יס טלויזיה פעולה",
     "tvgName"         : "",
     "tvgId"           : "yes TV ACTION [YES]",
@@ -268,6 +322,15 @@
     "extGrp"          : "IL: YES",
     "tvgRec"          : 3,
     "channelId"       : 2346
+  },
+  {
+    "channelName"     : "יס טלויזיה פעולה",
+    "tvgName"         : "",
+    "tvgId"           : "yes TV ACTION [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Yes-TV-Action.png",
+    "extGrp"          : "IL: YES",
+    "tvgRec"          : 0,
+    "channelId"       : 12280
   },
   {
     "channelName"     : "יס טלויזיה קומדיה",
@@ -412,6 +475,15 @@
     "extGrp"          : "IL: YES",
     "tvgRec"          : 0,
     "channelId"       : 12258
+  },
+  {
+    "channelName"     : "יס דוקו",
+    "tvgName"         : "",
+    "tvgId"           : "yes דוקו [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Yes-Docu.png",
+    "extGrp"          : "IL: YES",
+    "tvgRec"          : 3,
+    "channelId"       : 7113
   },
   {
     "channelName"     : "הוט 3",
@@ -594,13 +666,13 @@
     "channelId"       : 2364
   },
   {
-    "channelName"     : "הופ!",
+    "channelName"     : "הוט לולי",
     "tvgName"         : "",
-    "tvgId"           : "הופ! [YES]",
-    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Hop.png",
+    "tvgId"           : "HOT לולי [HOT]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Luli.png",
     "extGrp"          : "IL: Kids",
-    "tvgRec"          : 3,
-    "channelId"       : 2338
+    "tvgRec"          : 0,
+    "channelId"       : 12246
   },
   {
     "channelName"     : "הופ!",
@@ -609,7 +681,7 @@
     "tvgLogo"         : "https://dikodahan.github.io/picons/light/Hop.png",
     "extGrp"          : "IL: Kids",
     "tvgRec"          : 3,
-    "channelId"       : 2368
+    "channelId"       : 2338
   },
   {
     "channelName"     : "הופ!",
@@ -646,6 +718,24 @@
     "extGrp"          : "IL: Kids",
     "tvgRec"          : 0,
     "channelId"       : 12213
+  },
+  {
+    "channelName"     : "A+",
+    "tvgName"         : "",
+    "tvgId"           : "A+ ערוץ [PARTNER]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/A-Plus.png",
+    "extGrp"          : "IL: Kids",
+    "tvgRec"          : 0,
+    "channelId"       : 12266
+  },
+  {
+    "channelName"     : "וויז",
+    "tvgName"         : "",
+    "tvgId"           : "ערוץ WiZ [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Wiz.png",
+    "extGrp"          : "IL: Kids",
+    "tvgRec"          : 0,
+    "channelId"       : 12266
   },
   {
     "channelName"     : "דיסני",
@@ -801,6 +891,15 @@
     "channelId"       : 2378
   },
   {
+    "channelName"     : "ערוץ הבריאות",
+    "tvgName"         : "",
+    "tvgId"           : "ערוץ בריאות [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Health.png",
+    "extGrp"          : "IL: Culture & Style",
+    "tvgRec"          : 0,
+    "channelId"       : 12210
+  },
+  {
     "channelName"     : "ערוץ החיים הטובים",
     "tvgName"         : "",
     "tvgId"           : "החיים הטובים [YES]",
@@ -817,6 +916,24 @@
     "extGrp"          : "IL: Culture & Style",
     "tvgRec"          : 3,
     "channelId"       : 2339
+  },
+  {
+    "channelName"     : "ערוץ האופנה הישראלי",
+    "tvgName"         : "",
+    "tvgId"           : "ערוץ האופנה FTV [HOT]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/FTV-Israel.png",
+    "extGrp"          : "IL: Culture & Style",
+    "tvgRec"          : 3,
+    "channelId"       : 2368
+  },
+  {
+    "channelName"     : "ערוץ E! ",
+    "tvgName"         : "",
+    "tvgId"           : "E! [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/E-Entertainment.png",
+    "extGrp"          : "IL: Culture & Style",
+    "tvgRec"          : 0,
+    "channelId"       : 12243
   },
   {
     "channelName"     : "ערוץ הטיולים",
@@ -846,6 +963,15 @@
     "channelId"       : 2377
   },
   {
+    "channelName"     : "ערוץ האוכל",
+    "tvgName"         : "",
+    "tvgId"           : "ערוץ האוכל [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Haochel.png",
+    "extGrp"          : "IL: Culture & Style",
+    "tvgRec"          : 0,
+    "channelId"       : 12209
+  },
+  {
     "channelName"     : "ערוץ אגו",
     "tvgName"         : "",
     "tvgId"           : "ערוץ אגו [YES]",
@@ -853,6 +979,24 @@
     "extGrp"          : "IL: Culture & Style",
     "tvgRec"          : 3,
     "channelId"       : 2376
+  },
+  {
+    "channelName"     : "ערוץ אגו",
+    "tvgName"         : "",
+    "tvgId"           : "ערוץ אגו [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Ego.png",
+    "extGrp"          : "IL: Culture & Style",
+    "tvgRec"          : 0,
+    "channelId"       : 12207
+  },
+  {
+    "channelName"     : "ערוץ 24",
+    "tvgName"         : "",
+    "tvgId"           : "ערוץ 24 החדש [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Channel-24.png",
+    "extGrp"          : "IL: Culture & Style",
+    "tvgRec"          : 0,
+    "channelId"       : 12262
   },
   {
     "channelName"     : "il מוזיקה",
@@ -997,5 +1141,14 @@
     "extGrp"          : "IL: Foreign Languages",
     "tvgRec"          : 0,
     "channelId"       : 12267
+  },
+  {
+    "channelName"     : "הוט בולישואו",
+    "tvgName"         : "",
+    "tvgId"           : "BollyShow [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/light/Yes-Bollyshow.png",
+    "extGrp"          : "IL: Foreign Languages",
+    "tvgRec"          : 0,
+    "channelId"       : 12268
   }
 ]
