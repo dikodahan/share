@@ -1,6 +1,6 @@
 [
     {
-        "channelName": "SD כאן 11",
+        "channelName": "כאן 11",
         "tvgName": "kan.11.il",
         "tvgId": "כאן 11 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Kan-11-DM.png",
@@ -8,7 +8,7 @@
         "channelId": 18131
     },
     {
-        "channelName": "SD כאן 11",
+        "channelName": "כאן 11",
         "tvgName": "kan.11.il",
         "tvgId": "כאן 11 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Kan-11-DM.png",
@@ -16,7 +16,7 @@
         "channelId": 3298
     },
     {
-        "channelName": "FHD קשת 12",
+        "channelName": "קשת 12",
         "tvgName": "keshet.12.il",
         "tvgId": "קשת [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Keshet-12-DM.png",
@@ -24,7 +24,7 @@
         "channelId": 19374
     },
     {
-        "channelName": "FHD קשת 12",
+        "channelName": "קשת 12",
         "tvgName": "keshet.12.il",
         "tvgId": "קשת [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Keshet-12-DM.png",
@@ -32,7 +32,7 @@
         "channelId": 16272
     },
     {
-        "channelName": "SD קשת 12",
+        "channelName": "קשת 12",
         "tvgName": "keshet.12.il",
         "tvgId": "קשת [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Keshet-12-DM.png",
@@ -40,7 +40,7 @@
         "channelId": 14596
     },
     {
-        "channelName": "FHD רשת 13",
+        "channelName": "רשת 13",
         "tvgName": "reshet.13.il",
         "tvgId": "רשת [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Reshet-13-DM.png",
@@ -48,7 +48,7 @@
         "channelId": 19375
     },
     {
-        "channelName": "HD רשת 13",
+        "channelName": "רשת 13",
         "tvgName": "reshet.13.il",
         "tvgId": "רשת [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Reshet-13-DM.png",
@@ -56,7 +56,7 @@
         "channelId": 20218
     },
     {
-        "channelName": "SD רשת 13",
+        "channelName": "רשת 13",
         "tvgName": "reshet.13.il",
         "tvgId": "רשת [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Reshet-13-DM.png",
@@ -64,7 +64,7 @@
         "channelId": 3299
     },
     {
-        "channelName": "HD ערוץ 14",
+        "channelName": "ערוץ 14",
         "tvgName": "channel.14.il",
         "tvgId": "ערוץ 14 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Channel-14-DM.png",
@@ -72,7 +72,7 @@
         "channelId": 61503
     },
     {
-        "channelName": "HD ערוץ 14",
+        "channelName": "ערוץ 14",
         "tvgName": "channel.14.il",
         "tvgId": "ערוץ 14 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Channel-14-DM.png",
@@ -80,7 +80,7 @@
         "channelId": 16514
     },
     {
-        "channelName": "HD ערוץ 14",
+        "channelName": "ערוץ 14",
         "tvgName": "channel.14.il",
         "tvgId": "ערוץ 14 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Channel-14-DM.png",
@@ -88,7 +88,7 @@
         "channelId": 3301
     },
     {
-        "channelName": "HD כאן חינוכית",
+        "channelName": "כאן חינוכית",
         "tvgName": "kan.hinuchit.il",
         "tvgId": "כאן חינוכית [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Kan-Chinuchit-DM.png",
@@ -96,7 +96,7 @@
         "channelId": 40771
     },
     {
-        "channelName": "SD כאן חינוכית",
+        "channelName": "כאן חינוכית",
         "tvgName": "kan.hinuchit.il",
         "tvgId": "כאן חינוכית [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Kan-Chinuchit-DM.png",
@@ -104,7 +104,7 @@
         "channelId": 19376
     },
     {
-        "channelName": "HD ערוץ הכנסת",
+        "channelName": "ערוץ הכנסת",
         "tvgName": "knesset.il",
         "tvgId": "ערוץ הכנסת [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Knesset-DM.png",
@@ -112,7 +112,7 @@
         "channelId": 14595
     },
     {
-        "channelName": "HD ערוץ הכנסת",
+        "channelName": "ערוץ הכנסת",
         "tvgName": "knesset.il",
         "tvgId": "ערוץ הכנסת [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Knesset-DM.png",
@@ -120,15 +120,15 @@
         "channelId": 12033
     },
     {
-        "channelName": "SD ערוץ ההידברות",
+        "channelName": "קבלה לעם",
         "tvgName": "hidabrut.il",
-        "tvgId": "ערוץ הידברות [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/dark/Hidabrut-DM.png",
+        "tvgId": "קבלה לעם [HOT]",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/Kabalah-DM.png",
         "extGrp": "ראשי",
         "channelId": 7343
     },
     {
-        "channelName": "FHD יס ספורט 1",
+        "channelName": "יס ספורט 1",
         "tvgName": "yes.sport.1.il",
         "tvgId": "ספורט 1 SD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Sport1-DM.png",
@@ -136,7 +136,7 @@
         "channelId": 20415
     },
     {
-        "channelName": "HD יס ספורט 1",
+        "channelName": "יס ספורט 1",
         "tvgName": "yes.sport.1.hd.il",
         "tvgId": "ספורט 1 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Sport1-DM.png",
@@ -144,7 +144,7 @@
         "channelId": 5958
     },
     {
-        "channelName": "FHD יס ספורט 2",
+        "channelName": "יס ספורט 2",
         "tvgName": "yes.sport.2.il",
         "tvgId": "ספורט 2 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Sport2-DM.png",
@@ -152,7 +152,7 @@
         "channelId": 21901
     },
     {
-        "channelName": "HD יס ספורט 2",
+        "channelName": "יס ספורט 2",
         "tvgName": "yes.sport.2.il",
         "tvgId": "ספורט 2 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Sport2-DM.png",
@@ -160,7 +160,7 @@
         "channelId": 5957
     },
     {
-        "channelName": "HD יס ספורט 3",
+        "channelName": "יס ספורט 3",
         "tvgName": "yes.sport.3.il",
         "tvgId": "ספורט 3 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Sport3-DM.png",
@@ -168,7 +168,7 @@
         "channelId": 11471
     },
     {
-        "channelName": "SD יס ספורט 3",
+        "channelName": "יס ספורט 3",
         "tvgName": "yes.sport.3.il",
         "tvgId": "ספורט 3 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Sport3-DM.png",
@@ -176,7 +176,7 @@
         "channelId": 21899
     },
     {
-        "channelName": "FHD יס ספורט 4",
+        "channelName": "יס ספורט 4",
         "tvgName": "yes.sport.4.il",
         "tvgId": "ספורט 4 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Sport4-DM.png",
@@ -184,7 +184,7 @@
         "channelId": 21900
     },
     {
-        "channelName": "HD יס ספורט 4",
+        "channelName": "יס ספורט 4",
         "tvgName": "yes.sport.4.il",
         "tvgId": "ספורט 4 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Sport4-DM.png",
@@ -192,7 +192,7 @@
         "channelId": 11472
     },
     {
-        "channelName": "FHD ספורט 5",
+        "channelName": "ספורט 5",
         "tvgName": "sport.5.il",
         "tvgId": "5sport HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Sport-DM.png",
@@ -200,7 +200,7 @@
         "channelId": 83774
     },
     {
-        "channelName": "HD ספורט 5",
+        "channelName": "ספורט 5",
         "tvgName": "sport.5.il",
         "tvgId": "5sport HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Sport-DM.png",
@@ -208,7 +208,7 @@
         "channelId": 20416
     },
     {
-        "channelName": "HD ספורט 5",
+        "channelName": "ספורט 5",
         "tvgName": "sport.5.il",
         "tvgId": "5sport HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Sport-DM.png",
@@ -216,7 +216,7 @@
         "channelId": 19813
     },
     {
-        "channelName": "HD ספורט 5",
+        "channelName": "ספורט 5",
         "tvgName": "sport.5.il",
         "tvgId": "5sport HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Sport-DM.png",
@@ -232,7 +232,7 @@
         "channelId": 50637
     },
     {
-        "channelName": "FHD ספורט 5 לייב",
+        "channelName": "ספורט 5 לייב",
         "tvgName": "sport.5.live.il",
         "tvgId": "5LIVE HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Live-DM.png",
@@ -240,7 +240,7 @@
         "channelId": 83775
     },
     {
-        "channelName": "HD ספורט 5 לייב",
+        "channelName": "ספורט 5 לייב",
         "tvgName": "sport.5.live.il",
         "tvgId": "5LIVE HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Live-DM.png",
@@ -248,7 +248,7 @@
         "channelId": 25825
     },
     {
-        "channelName": "HD ספורט 5 לייב",
+        "channelName": "ספורט 5 לייב",
         "tvgName": "sport.5.live.il",
         "tvgId": "5LIVE HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Live-DM.png",
@@ -256,7 +256,7 @@
         "channelId": 16521
     },
     {
-        "channelName": "HD ספורט 5 סטארס",
+        "channelName": "ספורט 5 סטארס",
         "tvgName": "sport.5.starts.il",
         "tvgId": "5STARS [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Stars-DM.png",
@@ -264,7 +264,7 @@
         "channelId": 83776
     },
     {
-        "channelName": "HD ספורט 5 סטארס",
+        "channelName": "ספורט 5 סטארס",
         "tvgName": "sport.5.starts.il",
         "tvgId": "5STARS [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Stars-DM.png",
@@ -272,7 +272,7 @@
         "channelId": 5955
     },
     {
-        "channelName": "HD ספורט 5 סטארס",
+        "channelName": "ספורט 5 סטארס",
         "tvgName": "sport.5.starts.il",
         "tvgId": "5STARS [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Stars-DM.png",
@@ -280,7 +280,7 @@
         "channelId": 25826
     },
     {
-        "channelName": "HD ספורט 5 פלוס",
+        "channelName": "ספורט 5 פלוס",
         "tvgName": "sport.5.plus.il",
         "tvgId": "5PLUS HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Plus-DM.png",
@@ -288,7 +288,7 @@
         "channelId": 12823
     },
     {
-        "channelName": "SD ספורט 5 פלוס",
+        "channelName": "ספורט 5 פלוס",
         "tvgName": "sport.5.plus.il",
         "tvgId": "5PLUS HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Plus-DM.png",
@@ -296,7 +296,7 @@
         "channelId": 22315
     },
     {
-        "channelName": "SD ספורט 5 גולד",
+        "channelName": "ספורט 5 גולד",
         "tvgName": "sport.5.gold.il",
         "tvgId": "5GOLD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/5-Gold-DM.png",
@@ -304,7 +304,7 @@
         "channelId": 11725
     },
     {
-        "channelName": "ONE 1 FHD P50",
+        "channelName": "ONE 1",
         "tvgName": "one.1.il",
         "tvgId": "ONE [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/ONE-DM.png",
@@ -312,7 +312,7 @@
         "channelId": 83772
     },
     {
-        "channelName": "ONE 1 FHD",
+        "channelName": "ONE 1",
         "tvgName": "one.1.il",
         "tvgId": "ONE [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/ONE-DM.png",
@@ -320,7 +320,7 @@
         "channelId": 21903
     },
     {
-        "channelName": "ONE 1 HD",
+        "channelName": "ONE 1",
         "tvgName": "one.1.il",
         "tvgId": "ONE [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/ONE-DM.png",
@@ -328,7 +328,7 @@
         "channelId": 5956
     },
     {
-        "channelName": "ONE 2 FHD P50",
+        "channelName": "ONE 2",
         "tvgName": "one.2.il",
         "tvgId": "ONE2 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/ONE2-DM.png",
@@ -336,7 +336,7 @@
         "channelId": 19104
     },
     {
-        "channelName": "ONE 2 FHD",
+        "channelName": "ONE 2",
         "tvgName": "one.2.il",
         "tvgId": "ONE2 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/ONE2-DM.png",
@@ -344,7 +344,7 @@
         "channelId": 25827
     },
     {
-        "channelName": "ONE 2 HD",
+        "channelName": "ONE 2",
         "tvgName": "one.2.il",
         "tvgId": "ONE2 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/ONE2-DM.png",
@@ -352,7 +352,7 @@
         "channelId": 83773
     },
     {
-        "channelName": "Eurosport 1 HD",
+        "channelName": "Eurosport 1",
         "tvgName": "eurosport.1.il",
         "tvgId": "EUROSPORT [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Eurosport1-DM.png",
@@ -360,7 +360,7 @@
         "channelId": 19377
     },
     {
-        "channelName": "Eurosport 2 HD",
+        "channelName": "Eurosport 2",
         "tvgName": "eurosport.2.il",
         "tvgId": "EUROSPORT 2 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Eurosport2-DM.png",
@@ -368,7 +368,7 @@
         "channelId": 19379
     },
     {
-        "channelName": "SD Trace ספורט סטארס",
+        "channelName": "Trace ספורט סטארס",
         "tvgName": "trace.sport.stars.il",
         "tvgId": "TRACE ספורט [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/TraceSS-DM.png",
@@ -376,7 +376,7 @@
         "channelId": 63091
     },
     {
-        "channelName": "SD ערוץ ההומור",
+        "channelName": "ערוץ ההומור",
         "tvgName": "humor.channel.il",
         "tvgId": "ערוץ ההומור [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Humor-Channel-DM.png",
@@ -384,7 +384,7 @@
         "channelId": 19380
     },
     {
-        "channelName": "YES FHD טלויזיה פעולה",
+        "channelName": "יס טלויזיה פעולה",
         "tvgName": "yes.tv.action.il",
         "tvgId": "yes TV ACTION [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-TV-Action-DM.png",
@@ -392,7 +392,7 @@
         "channelId": 16517
     },
     {
-        "channelName": "YES FHD טלויזיה פעולה",
+        "channelName": "יס טלויזיה פעולה",
         "tvgName": "yes.tv.action.il",
         "tvgId": "yes TV ACTION [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-TV-Action-DM.png",
@@ -400,7 +400,7 @@
         "channelId": 25833
     },
     {
-        "channelName": "YES HD טלויזיה פעולה",
+        "channelName": "יס טלויזיה פעולה",
         "tvgName": "yes.tv.action.il",
         "tvgId": "yes TV ACTION [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-TV-Action-DM.png",
@@ -408,7 +408,7 @@
         "channelId": 45723
     },
     {
-        "channelName": "YES FHD טלויזיה קומדיה",
+        "channelName": "יס טלויזיה קומדיה",
         "tvgName": "yes.tv.comedy.il",
         "tvgId": "yes TV COMEDY [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-TV-Comedy-DM.png",
@@ -416,15 +416,7 @@
         "channelId": 45725
     },
     {
-        "channelName": "YES FHD טלויזיה קומדיה",
-        "tvgName": "yes.tv.comedy.il",
-        "tvgId": "yes TV COMEDY [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-TV-Comedy-DM.png",
-        "extGrp": "ערוצי יס",
-        "channelId": 16518
-    },
-    {
-        "channelName": "YES FHD טלויזיה קומדיה",
+        "channelName": "יס טלויזיה קומדיה",
         "tvgName": "yes.tv.comedy.il",
         "tvgId": "yes TV COMEDY [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-TV-Comedy-DM.png",
@@ -432,7 +424,7 @@
         "channelId": 25837
     },
     {
-        "channelName": "YES HD טלויזיה דרמה",
+        "channelName": "יס טלויזיה דרמה",
         "tvgName": "yes.tv.actiondrama.il",
         "tvgId": "yes TV DRAMA [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-TV-Drama-DM.png",
@@ -440,23 +432,7 @@
         "channelId": 45722
     },
     {
-        "channelName": "YES HD טלויזיה דרמה",
-        "tvgName": "yes.tv.drama.il",
-        "tvgId": "yes TV DRAMA [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-TV-Drama-DM.png",
-        "extGrp": "ערוצי יס",
-        "channelId": 16520
-    },
-    {
-        "channelName": "YES HD טלויזיה דרמה",
-        "tvgName": "yes.tv.drama.il",
-        "tvgId": "yes TV DRAMA [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-TV-Drama-DM.png",
-        "extGrp": "ערוצי יס",
-        "channelId": 25835
-    },
-    {
-        "channelName": "YES HD סרטים פעולה",
+        "channelName": "יס סרטים פעולה",
         "tvgName": "yes.movies.action.il",
         "tvgId": "yes MOVIES ACTION [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-Movies-Action-DM.png",
@@ -464,15 +440,7 @@
         "channelId": 45721
     },
     {
-        "channelName": "YES HD סרטים פעולה",
-        "tvgName": "yes.movies.action.il",
-        "tvgId": "yes MOVIES ACTION [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-Movies-Action-DM.png",
-        "extGrp": "ערוצי יס",
-        "channelId": 64338
-    },
-    {
-        "channelName": "YES RUS FHD סרטים פעולה",
+        "channelName": "יס סרטים פעולה",
         "tvgName": "yes.movies.action.il",
         "tvgId": "yes MOVIES ACTION [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-Movies-Action-DM.png",
@@ -480,12 +448,20 @@
         "channelId": 16513
     },
     {
-        "channelName": "YES RUS FHD סרטים פעולה",
+        "channelName": "יס סרטים פעולה",
         "tvgName": "yes.movies.action.il",
         "tvgId": "yes MOVIES ACTION [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-Movies-Action-DM.png",
         "extGrp": "ערוצי יס",
         "channelId": 25829
+    },
+    {
+        "channelName": "יס סרטים דרמה",
+        "tvgName": "yes.tv.drama.il",
+        "tvgId": "yes MOVIES DRAMA [YES]",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-Movies-Drama-DM.png",
+        "extGrp": "ערוצי יס",
+        "channelId": 16520
     },
     {
         "channelName": "YES HD סרטים דרמה",
@@ -654,6 +630,14 @@
         "tvgLogo": "https://dikodahan.github.io/picons/dark/HOT-C1-DM.png",
         "extGrp": "ערוצי הוט",
         "channelId": 6108
+    },
+    {
+        "channelName": "הוט סינמה 2",
+        "tvgName": "yes.movies.action.il",
+        "tvgId": "HOT cinema 2 [HOT]",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/HOT-C2-DM.png",
+        "extGrp": "ערוצי הוט",
+        "channelId": 64338
     },
     {
         "channelName": "SD הוט סינמה 2",
@@ -918,6 +902,14 @@
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Animal-Planet-DM.png",
         "extGrp": "טבע והיסטוריה",
         "channelId": 35323
+    },
+    {
+        "channelName": "HD נשיונל ג׳יאוגרפיק",
+        "tvgName": "yes.tv.comedy.il",
+        "tvgId": "National Geographic [YES]",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/National-Geographic-DM.png",
+        "extGrp": "טבע והיסטוריה",
+        "channelId": 16518
     },
     {
         "channelName": "HD נשיונל ג׳יאוגרפיק",
