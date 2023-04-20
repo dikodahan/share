@@ -761,14 +761,6 @@
     },
     {
         "channelName": "דיסני ג׳וניור",
-        "tvgName": "junior.il",
-        "tvgId": "דיסני ג’וניור [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Disney-Jr.png",
-        "extGrp": "ילדים",
-        "channelId": 8143
-    },
-    {
-        "channelName": "דיסני ג׳וניור",
         "tvgName": "disney.junior.il",
         "tvgId": "דיסני ג’וניור [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Disney-Jr.png",
@@ -830,6 +822,14 @@
         "tvgLogo": "https://dikodahan.github.io/picons/light/Junior.png",
         "extGrp": "ילדים",
         "channelId": 34679
+    },
+    {
+        "channelName": "ג׳וניור",
+        "tvgName": "junior.il",
+        "tvgId": "ג’וניור [YES]",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Junior.png",
+        "extGrp": "ילדים",
+        "channelId": 8143
     },
     {
         "channelName": "ערוץ 24",
