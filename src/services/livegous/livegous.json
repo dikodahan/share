@@ -18,6 +18,15 @@
         "channelId": 5229
     },
     {
+        "channelName": "AMC",
+        "tvgName": "VIP CAN: AMC",
+        "tvgId": "AMC.HDTV.(Canada).(AMCHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/amc-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22788
+    },
+    {
         "channelName": "Cinemax",
         "tvgName": "US: Cinemax East",
         "tvgId": "Cinemax.HDTV.(East).(MAXHD).us",
@@ -25,6 +34,15 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 5393
+    },
+    {
+        "channelName": "Cinemax",
+        "tvgName": "VIP CAN: CINEMAX (WEST) HD",
+        "tvgId": "Cinemax.HDTV.(East).(MAXHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 33710
     },
     {
         "channelName": "Cinemax (West)",
@@ -124,6 +142,42 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 22872
+    },
+    {
+        "channelName": "CRAVE 1",
+        "tvgName": "VIP CAN: CRAVE 1 HD",
+        "tvgId": "Crave.1.(East).(CRVM1).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/crave-1-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 33713
+    },
+    {
+        "channelName": "CRAVE 2",
+        "tvgName": "VIP CAN: CRAVE 2 HD",
+        "tvgId": "Crave.2.(East).(CRVM2).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/crave-2-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 33714
+    },
+    {
+        "channelName": "CRAVE 3",
+        "tvgName": "VIP CAN: CRAVE 3 HD",
+        "tvgId": "Crave.3.(East).(CRVM3).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/crave-3-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 33715
+    },
+    {
+        "channelName": "CRAVE 4",
+        "tvgName": "VIP CAN: CRAVE 4 HD",
+        "tvgId": "Crave.4.(East).(CRVM4).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/crave-4-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 33716
     },
     {
         "channelName": "FX",
@@ -683,6 +737,24 @@
         "channelId": 5240
     },
     {
+        "channelName": "A & E",
+        "tvgName": "VIP CAN: A & E",
+        "tvgId": "A.and.E.HD.Network.Canada.(A.and.EHDC).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/a-and-e-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22793
+    },
+    {
+        "channelName": "ABC Spark",
+        "tvgName": "VIP CAN: ABC Spark HD",
+        "tvgId": "ABC.Spark.HDTV.(HABCS).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/abc-spark-ca.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 15328
+    },
+    {
         "channelName": "ABC Spark",
         "tvgName": "VIP US: ABC FAMILY/SPARK",
         "tvgId": "ABC.Spark.HDTV.(HABCS).ca",
@@ -717,6 +789,15 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 22895
+    },
+    {
+        "channelName": "AHC",
+        "tvgName": "VIP CAN: AHC HD",
+        "tvgId": "American.Heroes.Channel.(AHC).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/american-heroes-channel-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 15327
     },
     {
         "channelName": "Antenna TV",
@@ -872,6 +953,15 @@
         "channelId": 8171
     },
     {
+        "channelName": "CHCH",
+        "tvgName": "VIP CAN: CHCH",
+        "tvgId": "CHCH.HDTV.(CHCHH).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/chch-ca.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22771
+    },
+    {
         "channelName": "CMT",
         "tvgName": "VIP US: CMT HD",
         "tvgId": "CMT.HDTV.(East).(CMTHD).us",
@@ -897,6 +987,15 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 5242
+    },
+    {
+        "channelName": "COMET",
+        "tvgName": "VIP CAN: Comedy",
+        "tvgId": "Comet.TV.(COMET).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/comet-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 15321
     },
     {
         "channelName": "Country network",
@@ -933,6 +1032,15 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 5225
+    },
+    {
+        "channelName": "Crime + Investigation",
+        "tvgName": "VIP CAN: C&I",
+        "tvgId": "Crime.+.Investigation.(CI).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/crime-and-investigation-ca.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 22761
     },
     {
         "channelName": "CW New York",
@@ -1635,6 +1743,42 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 25870
+    },
+    {
+        "channelName": "BeIN Sports HD",
+        "tvgName": "VIP CAN: BEIN SPORTS FHD",
+        "tvgId": "beIN.Sports.HDTV.(English).(beIn).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/beinsports/old/stacked/bein-sports-hd-int.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 30992
+    },
+    {
+        "channelName": "BeIN Sports",
+        "tvgName": "VIP CAN: BEIN SPORTS 1 FHD",
+        "tvgId": "beIN.Sports.HD.my",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/beinsports/old/stacked/bein-sports-1-int.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 130897
+    },
+    {
+        "channelName": "BeIN Sports 2",
+        "tvgName": "VIP CAN: BEIN SPORTS 2 FHD",
+        "tvgId": "beIN.Sports.2.my",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/beinsports/old/stacked/bein-sports-2-int.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 130898
+    },
+    {
+        "channelName": "BeIN Sports 3",
+        "tvgName": "VIP CAN: BEIN SPORTS 3 FHD",
+        "tvgId": "beIN.Sports.3.my",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/international/beinsports/old/stacked/bein-sports-3-int.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 130899
     },
     {
         "channelName": "BEIN SPORTS Connect",
@@ -2699,6 +2843,15 @@
         "channelId": 10694
     },
     {
+        "channelName": "Cartoon Network",
+        "tvgName": "VIP CAN: Adult Swim",
+        "tvgId": "Cartoon.Network.(Canada).(CN).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/cartoon-network-ca.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 33696
+    },
+    {
         "channelName": "Disney Channel",
         "tvgName": "VIP US: Disney HD",
         "tvgId": "The.Disney.Channel.HDTV.(East).(DISHD).us",
@@ -2798,6 +2951,15 @@
         "channelId": 10747
     },
     {
+        "channelName": "BNN",
+        "tvgName": "VIP CAN: BNN",
+        "tvgId": "BNN.Business.News.Network.Bloomberg.HDTV.(BNNBHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/bnn-bloomberg-ca.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 22785
+    },
+    {
         "channelName": "C-SPAN 1",
         "tvgName": "VIP US: C-SPAN 1 HD",
         "tvgId": "Cable.Satellite.Public.Affairs.Network.(CSPAN).us",
@@ -2823,6 +2985,15 @@
         "extGrp": "News",
         "tvgShift": 0,
         "channelId": 10710
+    },
+    {
+        "channelName": "CBC News",
+        "tvgName": "VIP CAN: CBC NEWS",
+        "tvgId": "CBC.News.Network.HDTV.(CBCNEWHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/cbc-news-network-ca.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 22779
     },
     {
         "channelName": "CBS News",
@@ -2861,6 +3032,15 @@
         "channelId": 3589
     },
     {
+        "channelName": "CNBC World",
+        "tvgName": "VIP CAN: CNBC",
+        "tvgId": "Consumer.News.and.Business.Channel.Canada.(CNBC).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cnbc-world-flat-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 22766
+    },
+    {
         "channelName": "CNN",
         "tvgName": "US: CNN HD",
         "tvgId": "Cable.News.Network.HDTV.(CNNHD).us",
@@ -2879,6 +3059,15 @@
         "channelId": 10749
     },
     {
+        "channelName": "CNN",
+        "tvgName": "VIP CAN: CNN",
+        "tvgId": "Cable.News.Network.HDTV.(CNNHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cnn-us.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 22765
+    },
+    {
         "channelName": "CNN International",
         "tvgName": "uk: CNN HD",
         "tvgId": "CNN.HD.uk",
@@ -2886,6 +3075,15 @@
         "extGrp": "News",
         "tvgShift": 0,
         "channelId": 31078
+    },
+    {
+        "channelName": "CP24",
+        "tvgName": "VIP CAN: CP24 HD",
+        "tvgId": "CablePulse.24.HDTV.(CP24H).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/cp24-ca.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 15297
     },
     {
         "channelName": "FOX Business",
@@ -2994,6 +3192,24 @@
         "extGrp": "Lifestyle",
         "tvgShift": 0,
         "channelId": 22917
+    },
+    {
+        "channelName": "Cooking Channel",
+        "tvgName": "VIP CAN: COOKING CHANNEL",
+        "tvgId": "The.Cooking.Channel.HDTV.(Canada).(COOK).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cooking-channel-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 22764
+    },
+    {
+        "channelName": "Cottage Life",
+        "tvgName": "VIP CAN: Cottage Life FHD",
+        "tvgId": "Cottage.Life.(COTT).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/cottage-life-ca.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 33712
     },
     {
         "channelName": "Destination America",
@@ -3138,6 +3354,24 @@
         "extGrp": "Nature & History",
         "tvgShift": 0,
         "channelId": 10768
+    },
+    {
+        "channelName": "Animal Planet",
+        "tvgName": "VIP CAN: ANIMAL PLANET",
+        "tvgId": "Animal.Planet.Canada.HDTV.(APHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/animal-planet-ca.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 22787
+    },
+    {
+        "channelName": "APTN",
+        "tvgName": "VIP CAN: APTN",
+        "tvgId": "Aboriginal.Peoples.Television.Network.HDTV.(East).(APTNHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/aptn-ca.png",
+        "extGrp": "Nature & History",
+        "tvgShift": 0,
+        "channelId": 22753
     },
     {
         "channelName": "Discovery Channel",
@@ -4623,6 +4857,51 @@
         "extGrp": "Locals FOX",
         "tvgShift": 0,
         "channelId": 21986
+    },
+    {
+        "channelName": "CBC Calgary",
+        "tvgName": "VIP CAN: CBC CALGARY HD",
+        "tvgId": "CBC.Calgary.HDTV.(CBRTHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/local/cbc-calgary-cbrt-ca.png",
+        "extGrp": "Locals CA",
+        "tvgShift": 0,
+        "channelId": 33701
+    },
+    {
+        "channelName": "CBC Edmonton",
+        "tvgName": "VIP CAN: CBC EDMONTON",
+        "tvgId": "CBC.Edmonton.HDTV.(CBXTHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/local/cbc-edmonton-cbxt-ca.png",
+        "extGrp": "Locals CA",
+        "tvgShift": 0,
+        "channelId": 33702
+    },
+    {
+        "channelName": "CBC Toronto",
+        "tvgName": "VIP CAN: CBC TORONTO",
+        "tvgId": "CBC.Toronto.HDTV.(CBLTHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/cbc-toronto-ca.png",
+        "extGrp": "Locals CA",
+        "tvgShift": 0,
+        "channelId": 22776
+    },
+    {
+        "channelName": "CBC Vancouver",
+        "tvgName": "VIP CAN: CBC VANCOUVER",
+        "tvgId": "CBC.Vancouver.HDTV.(CBUTHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/cbc-vancouver-ca.png",
+        "extGrp": "Locals CA",
+        "tvgShift": 0,
+        "channelId": 22775
+    },
+    {
+        "channelName": "CBC Windsor",
+        "tvgName": "VIP CAN: CBC WINDSOR HD",
+        "tvgId": "CBET.Windsor.(CBET).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/cbc-windsor-ca.png",
+        "extGrp": "Locals CA",
+        "tvgShift": 0,
+        "channelId": 33705
     },
     {
         "channelName": "EMPIRE CINEMA 007",
