@@ -719,7 +719,61 @@
         "channelId": 22858
     },
     {
-        "channelName": "A&E HD",
+        "channelName": "4seven",
+        "tvgName": "UK: 4seven",
+        "tvgId": "4seven.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/4-seven-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 12517
+    },
+    {
+        "channelName": "5Select",
+        "tvgName": "UK: 5 Select",
+        "tvgId": "5SELECT.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/5-select-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 12309
+    },
+    {
+        "channelName": "5Star",
+        "tvgName": "UK: 5 Star",
+        "tvgId": "5STAR.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/5-star-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 7616
+    },
+    {
+        "channelName": "5Star  +1",
+        "tvgName": "UK: 5 Star  1",
+        "tvgId": "5STAR+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/5-star-plus-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74140
+    },
+    {
+        "channelName": "5Usa",
+        "tvgName": "UK: 5 Usa",
+        "tvgId": "5.USA.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/5-usa-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 922
+    },
+    {
+        "channelName": "5Usa  +1",
+        "tvgName": "UK: 5 Usa  1",
+        "tvgId": "5USA+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/5-usa-plus-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74141
+    },
+    {
+        "channelName": "A&E",
         "tvgName": "VIP US: A&E HD",
         "tvgId": "A.and.E.Network.HDTV.(A.and.EHD).us",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/a-and-e-us.png",
@@ -728,7 +782,7 @@
         "channelId": 10699
     },
     {
-        "channelName": "A&E HD",
+        "channelName": "A&E",
         "tvgName": "US: A&E TV HD",
         "tvgId": "A.and.E.Network.HDTV.(A.and.EHD).us",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/a-and-e-us.png",
@@ -737,7 +791,7 @@
         "channelId": 5240
     },
     {
-        "channelName": "A & E",
+        "channelName": "A&E",
         "tvgName": "VIP CAN: A & E",
         "tvgId": "A.and.E.HD.Network.Canada.(A.and.EHDC).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/a-and-e-us.png",
@@ -800,6 +854,24 @@
         "channelId": 15327
     },
     {
+        "channelName": "Alibi",
+        "tvgName": "UK: Alibi",
+        "tvgId": "alibi.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/alibi-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 933
+    },
+    {
+        "channelName": "Alibi  +1",
+        "tvgName": "UK: Alibi  1",
+        "tvgId": "alibi+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/alibi-plus-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74143
+    },
+    {
         "channelName": "Antenna TV",
         "tvgName": "VIP US: Antenna Tv",
         "tvgId": "Antenna.TV.us",
@@ -845,6 +917,51 @@
         "channelId": 2240
     },
     {
+        "channelName": "BBC One",
+        "tvgName": "UK: BBC 1",
+        "tvgId": "BBC.One.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-one-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 274
+    },
+    {
+        "channelName": "BBC One Northern Ireland",
+        "tvgName": "UK: BBC One Northern Ireland",
+        "tvgId": "BBC.One.NI.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-one-northern-ireland-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 29122
+    },
+    {
+        "channelName": "BBC One Scotland",
+        "tvgName": "UK: BBC Scotland",
+        "tvgId": "BBC.One.ScotHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-one-scotland-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 29121
+    },
+    {
+        "channelName": "BBC One Scotland",
+        "tvgName": "UK: BBC One Scotland",
+        "tvgId": "BBC.One.ScotHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-one-scotland-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 17995
+    },
+    {
+        "channelName": "BBC One Wales",
+        "tvgName": "UK: BBC One Wales",
+        "tvgId": "BBC.One.Wal.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-one-wales-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 17997
+    },
+    {
         "channelName": "BBC Two",
         "tvgName": "VIP UK: BBC Two FHD",
         "tvgId": "BBC.Two.HD.uk",
@@ -854,6 +971,24 @@
         "channelId": 2238
     },
     {
+        "channelName": "BBC Two",
+        "tvgName": "UK: BBC 2",
+        "tvgId": "BBC.Two.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-two-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 273
+    },
+    {
+        "channelName": "BBC Two Wales",
+        "tvgName": "UK: BBC Two Wales",
+        "tvgId": "BBC.Two.Wal.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-two-wales-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 29123
+    },
+    {
         "channelName": "BBC Three",
         "tvgName": "VIP UK: BBC Three FHD",
         "tvgId": "BBC.Three.HD.uk",
@@ -861,6 +996,15 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 2239
+    },
+    {
+        "channelName": "BBC Three",
+        "tvgName": "UK: BBC 3",
+        "tvgId": "BBC.Three.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-three-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 272
     },
     {
         "channelName": "BBC Four",
@@ -881,6 +1025,15 @@
         "channelId": 22923
     },
     {
+        "channelName": "BET",
+        "tvgName": "VIP US: BET",
+        "tvgId": "Black.Entertainment.Television.HDTV.(East).(BET-HD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/bet-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 7618
+    },
+    {
         "channelName": "BET Her",
         "tvgName": "VIP US: BET Her",
         "tvgId": "BET.Her.HDTV.(BHERHD).us",
@@ -897,6 +1050,15 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 22880
+    },
+    {
+        "channelName": "Blaze TV",
+        "tvgName": "VIP US: The Blaze",
+        "tvgId": "BLAZE.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/blaze-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 12514
     },
     {
         "channelName": "Bravo",
@@ -917,6 +1079,15 @@
         "channelId": 5228
     },
     {
+        "channelName": "British Muslim",
+        "tvgName": "UK: British Muslim",
+        "tvgId": "British.Muslim.uk",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/5/56/British_Muslim_TV_logo.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74148
+    },
+    {
         "channelName": "Buzzr TV",
         "tvgName": "VIP US: Buzzer",
         "tvgId": "Buzzr.TV.us",
@@ -935,6 +1106,33 @@
         "channelId": 5244
     },
     {
+        "channelName": "CBS Reality",
+        "tvgName": "UK: CBS Reality",
+        "tvgId": "CBS.Reality.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/cbs-reality-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 925
+    },
+    {
+        "channelName": "CBS Reality. +1",
+        "tvgName": "UK: CBS Justice",
+        "tvgId": "CBS.Reality+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/cbs-reality-plus-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 926
+    },
+    {
+        "channelName": "Challenge",
+        "tvgName": "UK: Challenge",
+        "tvgId": "Challenge.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/challenge-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 12512
+    },
+    {
         "channelName": "Channel 4",
         "tvgName": "VIP UK: Channel 4 FHD",
         "tvgId": "Channel.4.HD.uk",
@@ -944,6 +1142,24 @@
         "channelId": 8170
     },
     {
+        "channelName": "Channel 4",
+        "tvgName": "UK: Channel 4 HD",
+        "tvgId": "Channel.4.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/channel-4-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 927
+    },
+    {
+        "channelName": "Channel 5",
+        "tvgName": "UK: Channel 5 HD",
+        "tvgId": "Channel.5.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/channel-5-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 928
+    },
+    {
         "channelName": "Channel 5",
         "tvgName": "VIP UK: Channel 5 FHD",
         "tvgId": "Channel.5.HD.uk",
@@ -951,6 +1167,15 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 8171
+    },
+    {
+        "channelName": "Channel 5  +1",
+        "tvgName": "UK: Channel 5  1",
+        "tvgId": "Channel.5+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/channel-5-plus-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74149
     },
     {
         "channelName": "CHCH",
@@ -1178,7 +1403,7 @@
         "channelId": 22879
     },
     {
-        "channelName": "ITV",
+        "channelName": "itv",
         "tvgName": "VIP UK: ITV FHD",
         "tvgId": "ITV.HD.uk",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-uk.png",
@@ -1187,7 +1412,25 @@
         "channelId": 6886
     },
     {
-        "channelName": "ITV 2",
+        "channelName": "Itv 1",
+        "tvgName": "UK: Itv 1",
+        "tvgId": "ITV1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-1-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 268
+    },
+    {
+        "channelName": "itv 1  +1",
+        "tvgName": "UK: ITV 1  1",
+        "tvgId": "ITV1+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-1-plus-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74182
+    },
+    {
+        "channelName": "itv 2",
         "tvgName": "VIP UK: ITV 2 FHD",
         "tvgId": "ITV2.HD.uk",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-2-uk.png",
@@ -1196,7 +1439,25 @@
         "channelId": 7623
     },
     {
-        "channelName": "ITV 3",
+        "channelName": "Itv 2",
+        "tvgName": "UK: Itv 2",
+        "tvgId": "ITV2.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-2-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 267
+    },
+    {
+        "channelName": "itv 2  +1",
+        "tvgName": "UK: ITV 2  1",
+        "tvgId": "ITV2+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-2-plus-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74183
+    },
+    {
+        "channelName": "itv 3",
         "tvgName": "VIP UK: ITV 3 FHD",
         "tvgId": "ITV3.HD.uk",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-3-uk.png",
@@ -1205,13 +1466,49 @@
         "channelId": 8182
     },
     {
-        "channelName": "ITV 4",
+        "channelName": "Itv 3",
+        "tvgName": "UK: Itv 3",
+        "tvgId": "ITV3.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-3-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 252
+    },
+    {
+        "channelName": "itv 3  +1",
+        "tvgName": "UK: ITV 3  1",
+        "tvgId": "ITV3+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-3-plus-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74184
+    },
+    {
+        "channelName": "itv 4",
         "tvgName": "VIP UK: ITV 4 FHD",
         "tvgId": "ITV4.HD.uk",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-4-uk.png",
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 7624
+    },
+    {
+        "channelName": "Itv 4",
+        "tvgName": "UK: Itv 4",
+        "tvgId": "ITV4.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-4-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 251
+    },
+    {
+        "channelName": "itv 4  +1",
+        "tvgName": "UK: ITV 4  1",
+        "tvgId": "ITV4+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-4-plus-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74185
     },
     {
         "channelName": "Me TV",
@@ -1284,6 +1581,15 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 22868
+    },
+    {
+        "channelName": "RealityXtra",
+        "tvgName": "UK: CBS Drama",
+        "tvgId": "RealityXtra.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/reality-xtra-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 924
     },
     {
         "channelName": "Reelz",
@@ -1500,6 +1806,15 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 22623
+    },
+    {
+        "channelName": "Virgin Media Two",
+        "tvgName": "VIP UK: Virgin Media Two",
+        "tvgId": "Virgin.Media.Two.ie",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/virgin-media-two-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 920
     },
     {
         "channelName": "Virgin Media Three",
@@ -1835,6 +2150,24 @@
         "channelId": 8178
     },
     {
+        "channelName": "BT Sports 1",
+        "tvgName": "VIP UK: BT Sports 1 HD",
+        "tvgId": "BT.Sport.1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-1-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 1641
+    },
+    {
+        "channelName": "BT Sports 1",
+        "tvgName": "VIP UK: BT Sports 1 HD",
+        "tvgId": "BT.Sport.1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-1-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 374
+    },
+    {
         "channelName": "BT Sports 2",
         "tvgName": "VIP UK: BT Sports 2 FHD",
         "tvgId": "BT.Sport.2.HD.uk",
@@ -1851,6 +2184,24 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 8179
+    },
+    {
+        "channelName": "BT Sports 2",
+        "tvgName": "VIP UK: BT Sports 2 HD",
+        "tvgId": "BT.Sport.2.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-2-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 2512
+    },
+    {
+        "channelName": "BT Sports 2",
+        "tvgName": "VIP UK: BT Sports 2 HD",
+        "tvgId": "BT.Sport.2.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-2-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 375
     },
     {
         "channelName": "BT Sports 3",
@@ -1871,6 +2222,24 @@
         "channelId": 8180
     },
     {
+        "channelName": "BT Sports 3",
+        "tvgName": "VIP UK: BT Sports 3 HD",
+        "tvgId": "BT.Sport.3.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-3-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 2513
+    },
+    {
+        "channelName": "BT Sports 3",
+        "tvgName": "VIP UK: BT Sports 3 HD",
+        "tvgId": "BT.Sport.3.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-3-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 1282
+    },
+    {
         "channelName": "BT Sports 4",
         "tvgName": "VIP UK: BT Sports 4 FHD",
         "tvgId": "BT.Sport.4.HD.uk",
@@ -1889,6 +2258,24 @@
         "channelId": 20199
     },
     {
+        "channelName": "BT Sports 4",
+        "tvgName": "VIP UK: BT Sports 4 HD",
+        "tvgId": "BT.Sport.4.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-4-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 587
+    },
+    {
+        "channelName": "BT Sports 4",
+        "tvgName": "VIP UK: BT Sports 4 HD",
+        "tvgId": "BT.Sport.4.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-4-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 7613
+    },
+    {
         "channelName": "BT Sports 5",
         "tvgName": "VIP UK: BT Sports 5 FHD",
         "tvgId": "BT.Sport.5.uk",
@@ -1896,6 +2283,15 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 118260
+    },
+    {
+        "channelName": "BT Sports 5",
+        "tvgName": "VIP UK: BT Sports 5 FHD",
+        "tvgId": "BT.Sport.5.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-5-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 7610
     },
     {
         "channelName": "BT Sports 6",
@@ -1907,6 +2303,15 @@
         "channelId": 118261
     },
     {
+        "channelName": "BT Sports 6",
+        "tvgName": "VIP UK: BT Sports 6 FHD",
+        "tvgId": "BT.Sport.6.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-6-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 7611
+    },
+    {
         "channelName": "BT Sports 7",
         "tvgName": "VIP UK: BT Sports 7 FHD",
         "tvgId": "BT.Sport.7.uk",
@@ -1914,6 +2319,15 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 118262
+    },
+    {
+        "channelName": "BT Sports 7",
+        "tvgName": "VIP UK: BT Sports 7 FHD",
+        "tvgId": "BT.Sport.7.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bt-sport-7-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 7612
     },
     {
         "channelName": "BT Sports 8",
@@ -1988,6 +2402,15 @@
         "channelId": 74229
     },
     {
+        "channelName": "DAZN 1",
+        "tvgName": "VIP UK: DAZN 1 FHD",
+        "tvgId": "DAZN.1.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/spain/dazn-1-es.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 118153
+    },
+    {
         "channelName": "Edge Sports",
         "tvgName": "VIP US: Edge Sports",
         "tvgId": "EdgeSport.us",
@@ -2042,6 +2465,15 @@
         "channelId": 66148
     },
     {
+        "channelName": "Eurosport 1",
+        "tvgName": "VIP UK: Eurosport 1 FHD",
+        "tvgId": "Eurosport.1.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/eurosport-1-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 1634
+    },
+    {
         "channelName": "Eurosport 2",
         "tvgName": "VIP UK: Eurosport 2 FHD",
         "tvgId": "Eurosport.2.HD.uk",
@@ -2049,6 +2481,15 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 66149
+    },
+    {
+        "channelName": "Eurosport 2",
+        "tvgName": "VIP UK: Eurosport 2 FHD",
+        "tvgId": "Eurosport.2.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/eurosport-2-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 1633
     },
     {
         "channelName": "FanDuel TV",
@@ -2085,6 +2526,15 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 10716
+    },
+    {
+        "channelName": "FOX Sports Racing",
+        "tvgName": "VIP US: FOX SPORTS TWO HD",
+        "tvgId": "Fox.Sports.Racing.HDTV.(FOXSR).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/fox-sports-racing-ca.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 3341
     },
     {
         "channelName": "Fubo Sports Network",
@@ -2139,6 +2589,24 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 18771
+    },
+    {
+        "channelName": "Manchester United TV",
+        "tvgName": "UK: MUTV HD",
+        "tvgId": "MUTV.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/mutv-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 7631
+    },
+    {
+        "channelName": "Manchester United TV",
+        "tvgName": "UK: MUTV",
+        "tvgId": "MUTV.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/mutv-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 1238
     },
     {
         "channelName": "Marquee Sports Network",
@@ -2447,6 +2915,15 @@
         "channelId": 9865
     },
     {
+        "channelName": "Racing TV",
+        "tvgName": "UK: Racing HD",
+        "tvgId": "Racing.TV.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/racing-tv-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 14151
+    },
+    {
         "channelName": "Red Bull TV",
         "tvgName": "VIP US: Red Bull TV HD",
         "tvgId": "Redbull.Dummy.us",
@@ -2492,6 +2969,24 @@
         "channelId": 8174
     },
     {
+        "channelName": "Sky Sport Action",
+        "tvgName": "VIP UK: Sky Sport Action HD 1080P",
+        "tvgId": "SkySp.ActionHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-action-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 257
+    },
+    {
+        "channelName": "Sky Sport Action",
+        "tvgName": "VIP UK: Sky Sport Action HD 1080P",
+        "tvgId": "SkySp.ActionHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-action-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 6682
+    },
+    {
         "channelName": "Sky Sport Arena",
         "tvgName": "VIP UK: Sky Sport Arena FHD",
         "tvgId": "SkySp.ArenaHD.uk",
@@ -2508,6 +3003,15 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 12662
+    },
+    {
+        "channelName": "Sky Sport Arena",
+        "tvgName": "VIP UK: Sky Sport Arena HD 1080P",
+        "tvgId": "SkySp.ArenaHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-arena-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 12665
     },
     {
         "channelName": "Sky Sport Cricket",
@@ -2528,6 +3032,24 @@
         "channelId": 8173
     },
     {
+        "channelName": "Sky Sport Cricket",
+        "tvgName": "VIP UK: Sky Sport Cricket HD 1080P",
+        "tvgId": "SkySpCricket.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-cricket-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 258
+    },
+    {
+        "channelName": "Sky Sport Cricket",
+        "tvgName": "VIP UK: Sky Sport Cricket HD 1080P",
+        "tvgId": "SkySpCricket.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-cricket-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 6681
+    },
+    {
         "channelName": "Sky Sport F1",
         "tvgName": "VIP UK: Sky Sport F1 FHD",
         "tvgId": "SkySp.F1.HD.uk",
@@ -2546,6 +3068,15 @@
         "channelId": 8177
     },
     {
+        "channelName": "Sky Sport F1",
+        "tvgName": "VIP UK: Sky Sport F1 HD 1080P",
+        "tvgId": "SkySp.F1.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-f1-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 253
+    },
+    {
         "channelName": "Sky Sport Football",
         "tvgName": "VIP UK: Sky Sport Football FHD",
         "tvgId": "SkySp.F&apos;ball.HD.uk",
@@ -2562,6 +3093,15 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 12663
+    },
+    {
+        "channelName": "Sky Sport Football",
+        "tvgName": "VIP UK: Sky Sport Football HD 1080P",
+        "tvgId": "SkySp.F&apos;ball.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-football-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 15406
     },
     {
         "channelName": "Sky Sport Golf",
@@ -2591,6 +3131,24 @@
         "channelId": 10687
     },
     {
+        "channelName": "Sky Sports Golf",
+        "tvgName": "VIP US: NBC GOLF",
+        "tvgId": "SkySp.Golf.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-golf-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 256
+    },
+    {
+        "channelName": "Sky Sports Golf",
+        "tvgName": "VIP US: NBC GOLF",
+        "tvgId": "SkySp.Golf.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-golf-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 6683
+    },
+    {
         "channelName": "Sky Sport Main Events",
         "tvgName": "VIP UK: Sky Sport Main Event FHD",
         "tvgId": "SkySpMainEvHD.uk",
@@ -2607,6 +3165,15 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 8172
+    },
+    {
+        "channelName": "Sky Sport Main Events",
+        "tvgName": "VIP UK: Sky Sport Main Events HD 1080P",
+        "tvgId": "SkySpMainEvHD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-main-event-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 6680
     },
     {
         "channelName": "Sky Sport Mix",
@@ -2645,6 +3212,15 @@
         "channelId": 28991
     },
     {
+        "channelName": "Sky Sport News",
+        "tvgName": "VIP UK: Sky Sport News HD 1080P",
+        "tvgId": "SkySp.News.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-news-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 416
+    },
+    {
         "channelName": "Sky Sport Premier League",
         "tvgName": "VIP UK: Sky Sport Premier League FHD",
         "tvgId": "SkySp.PL.HD.uk",
@@ -2661,6 +3237,24 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 8176
+    },
+    {
+        "channelName": "Sky Sport Premier League",
+        "tvgName": "VIP UK: Sky Sport PL HD 1080P",
+        "tvgId": "SkySp.PL.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-premier-league-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 255
+    },
+    {
+        "channelName": "Sky Sport Premier League",
+        "tvgName": "VIP UK: Sky Sport PL HD 1080P",
+        "tvgId": "SkySp.PL.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-sports-premier-league-icon-uk.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 6684
     },
     {
         "channelName": "Sky Sport Racing",
@@ -2816,6 +3410,60 @@
         "channelId": 10766
     },
     {
+        "channelName": "baby TV",
+        "tvgName": "UK: baby tv",
+        "tvgId": "BabyTV.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/baby-tv-uk.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 2232
+    },
+    {
+        "channelName": "BBC CBBC",
+        "tvgName": "UK: BBC Two Scotland",
+        "tvgId": "CBBC.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-cbbc-uk.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 17996
+    },
+    {
+        "channelName": "BBC CBBC",
+        "tvgName": "UK: CBBC",
+        "tvgId": "CBBC.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-cbbc-uk.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 6147
+    },
+    {
+        "channelName": "BBC CBBC",
+        "tvgName": "UK: BBC Two Northern Ireland",
+        "tvgId": "CBBC.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-cbbc-uk.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 29124
+    },
+    {
+        "channelName": "BBC CBeebies",
+        "tvgName": "UK: CBeebies HD",
+        "tvgId": "CBeebies.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-cbeebies-uk.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 6146
+    },
+    {
+        "channelName": "BBC CBeebies",
+        "tvgName": "UK: BBC 4",
+        "tvgId": "CBeebies.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-cbeebies-uk.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 271
+    },
+    {
         "channelName": "Boomerang",
         "tvgName": "VIP US: Boomerang",
         "tvgId": "Boomerang.(BOOM).us",
@@ -2823,6 +3471,24 @@
         "extGrp": "Kids",
         "tvgShift": 0,
         "channelId": 15554
+    },
+    {
+        "channelName": "Boomerang",
+        "tvgName": "VIP US: Boomerang",
+        "tvgId": "Boomerang.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/boomerang-us.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 1285
+    },
+    {
+        "channelName": "C itv",
+        "tvgName": "UK: C ITV",
+        "tvgId": "CITV.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/c-itv-uk.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 12511
     },
     {
         "channelName": "Cartoon Network",
@@ -2850,6 +3516,24 @@
         "extGrp": "Kids",
         "tvgShift": 0,
         "channelId": 33696
+    },
+    {
+        "channelName": "Cartoon network",
+        "tvgName": "UK: Cartoon network",
+        "tvgId": "Cartoon.Netwrk.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/cartoon-network-uk.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 2231
+    },
+    {
+        "channelName": "Cartoonito",
+        "tvgName": "UK: Cartoonito",
+        "tvgId": "Cartoonito.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/cartoonito-uk.png",
+        "extGrp": "Kids",
+        "tvgShift": 0,
+        "channelId": 17913
     },
     {
         "channelName": "Disney Channel",
@@ -2940,6 +3624,24 @@
         "extGrp": "News",
         "tvgShift": 0,
         "channelId": 10698
+    },
+    {
+        "channelName": "BBC News",
+        "tvgName": "UK: BBC News HD",
+        "tvgId": "BBC.NEWS.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-news-uk.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 915
+    },
+    {
+        "channelName": "BBC News",
+        "tvgName": "UK: BBC World News",
+        "tvgId": "BBC.NEWS.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/bbc-news-uk.png",
+        "extGrp": "News",
+        "tvgShift": 0,
+        "channelId": 26106
     },
     {
         "channelName": "Bloomberg TV",
@@ -3176,6 +3878,15 @@
         "channelId": 930
     },
     {
+        "channelName": "4Music",
+        "tvgName": "UK: BOX Hits",
+        "tvgId": "4Music.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/4-music-uk.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 20572
+    },
+    {
         "channelName": "BET Jams",
         "tvgName": "VIP US: My Jam TV HD",
         "tvgId": "BET.Jams.(BETJ).us",
@@ -3183,6 +3894,15 @@
         "extGrp": "Lifestyle",
         "tvgShift": 0,
         "channelId": 22893
+    },
+    {
+        "channelName": "Clubbing TV",
+        "tvgName": "UK: Clubland TV",
+        "tvgId": "Clubbing.TV.pl",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/vod/clubbing-tv-vod.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 42042
     },
     {
         "channelName": "Cooking Channel",
@@ -3239,15 +3959,6 @@
         "channelId": 10690
     },
     {
-        "channelName": "Magnolia Network",
-        "tvgName": "VIP US: DIY HD",
-        "tvgId": "Magnolia.Network.HDTV.(MAGNOLIA).us",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/magnolia-network-us.png",
-        "extGrp": "Lifestyle",
-        "tvgShift": 0,
-        "channelId": 22909
-    },
-    {
         "channelName": "E! Entertainment",
         "tvgName": "VIP US: E! Network HD",
         "tvgId": "E!.Entertainment.Television.HDTV.(East).(E!.HD).us",
@@ -3275,6 +3986,15 @@
         "channelId": 10668
     },
     {
+        "channelName": "Magnolia Network",
+        "tvgName": "VIP US: DIY HD",
+        "tvgId": "Magnolia.Network.HDTV.(MAGNOLIA).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/magnolia-network-us.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 22909
+    },
+    {
         "channelName": "MotorTrend",
         "tvgName": "VIP US: MotorTrend",
         "tvgId": "Motor.Trend.HDTV.(MTHD).us",
@@ -3291,6 +4011,15 @@
         "extGrp": "Lifestyle",
         "tvgShift": 0,
         "channelId": 10760
+    },
+    {
+        "channelName": "MTV Music",
+        "tvgName": "UK: Club MTV",
+        "tvgId": "MTV.MUSIC.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/mtv-music-uk.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 12308
     },
     {
         "channelName": "QVC",
