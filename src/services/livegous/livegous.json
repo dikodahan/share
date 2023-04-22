@@ -3901,7 +3901,7 @@
         "tvgId": "Clubbing.TV.pl",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/misc/vod/clubbing-tv-vod.png",
         "extGrp": "Lifestyle",
-        "tvgShift": 0,
+        "tvgShift": -1,
         "channelId": 42042
     },
     {
