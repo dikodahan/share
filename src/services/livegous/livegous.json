@@ -73,6 +73,15 @@
     },
     {
         "channelName": "Cinemax ActionMax",
+        "tvgName": "VIP US: Cinemax East",
+        "tvgId": "ActionMAX.HDTV.(East).(AMXHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-actionmax-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 10721
+    },
+    {
+        "channelName": "Cinemax ActionMax",
         "tvgName": "VIP US: Cinemax 5 Star Max",
         "tvgId": "ActionMAX.HDTV.(East).(AMXHD).us",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-actionmax-us.png",
@@ -88,15 +97,6 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 10720
-    },
-    {
-        "channelName": "Cinemax ActionMax",
-        "tvgName": "VIP US: Cinemax East",
-        "tvgId": "ActionMAX.HDTV.(East).(AMXHD).us",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/cinemax-actionmax-us.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 10721
     },
     {
         "channelName": "Cinemax ActionMax",
@@ -486,21 +486,30 @@
     },
     {
         "channelName": "Sky Cinema Drama",
-        "tvgName": "UK: Sky Movies Drama",
-        "tvgId": "Sky.Drama.HD.uk",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-drama-icon-uk.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 265
-    },
-    {
-        "channelName": "Sky Cinema Drama",
         "tvgName": "UK: Sky Movies Showcase",
         "tvgId": "Sky.Drama.HD.uk",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-drama-icon-uk.png",
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 269
+    },
+    {
+        "channelName": "Sky Cinema Drama",
+        "tvgName": "VIP UK: Sky Cinema Select HD",
+        "tvgId": "Sky.Drama.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-drama-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 12579
+    },
+    {
+        "channelName": "Sky Cinema Drama",
+        "tvgName": "UK: Sky Movies Drama",
+        "tvgId": "Sky.Drama.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-drama-icon-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 265
     },
     {
         "channelName": "Sky Cinema Family",
@@ -566,15 +575,6 @@
         "channelId": 261
     },
     {
-        "channelName": "Sky Cinema Premiere",
-        "tvgName": "VIP UK: Sky Cinema Premiere HD",
-        "tvgId": "SkyPremiereHD.uk",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-premiere-icon-uk.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 11769
-    },
-    {
         "channelName": "Sky Cinema SC-FI & Horror",
         "tvgName": "VIP UK: Sky Cinema SC-FI & Horror HD",
         "tvgId": "Sky.ScFi/HorHD.uk",
@@ -591,15 +591,6 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 254
-    },
-    {
-        "channelName": "Sky Cinema Select",
-        "tvgName": "VIP UK: Sky Cinema Select HD",
-        "tvgId": "Sky.Cinema.Select.uk",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-select-icon-uk.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 12579
     },
     {
         "channelName": "Sky Cinema Select",
@@ -656,24 +647,6 @@
         "channelId": 10746
     },
     {
-        "channelName": "Starz Cinema",
-        "tvgName": "VIP US: Starz Cinema",
-        "tvgId": "STARZ.Cinema.(East).(STZCI).us",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-cinema-us.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 10741
-    },
-    {
-        "channelName": "Starz Cinema",
-        "tvgName": "US: Starz Cinema HD",
-        "tvgId": "STARZ.Cinema.(East).(STZCI).us",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-cinema-us.png",
-        "extGrp": "Movies",
-        "tvgShift": 0,
-        "channelId": 874
-    },
-    {
         "channelName": "Starz Edge",
         "tvgName": "US: STARZ EDGE HD",
         "tvgId": "STARZ.Edge.HD.(East).(SZEHD).us",
@@ -683,13 +656,31 @@
         "channelId": 5397
     },
     {
-        "channelName": "Starz Encore",
+        "channelName": "Starz Encore (West)",
         "tvgName": "VIP US: Starz Encore HD",
-        "tvgId": "STARZ.ENCORE.HD.(East).(STZEH).us",
+        "tvgId": "STARZ.ENCORE.(West).(SZEN).us",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-encore-us.png",
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 10724
+    },
+    {
+        "channelName": "Starz Encore Westerns",
+        "tvgName": "VIP US: Starz Cinema",
+        "tvgId": "STARZ.ENCORE.Westerns.(East).(STZWS).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-encore-westerns-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 10741
+    },
+    {
+        "channelName": "Starz Encore Westerns",
+        "tvgName": "US: Starz Cinema HD",
+        "tvgId": "STARZ.ENCORE.Westerns.(East).(STZWS).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-encore-westerns-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 874
     },
     {
         "channelName": "SYFY",
