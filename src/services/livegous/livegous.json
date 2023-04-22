@@ -550,7 +550,7 @@
     {
         "channelName": "Sky Cinema Hits",
         "tvgName": "VIP UK: Sky Cinema Hits HD",
-        "tvgId": "Sky.Hits.HD.uk",
+        "tvgId": "SkyMegaHitsHD.uk",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/sky-cinema-hits-icon-uk.png",
         "extGrp": "Movies",
         "tvgShift": 0,
@@ -919,7 +919,7 @@
     {
         "channelName": "Buzzr TV",
         "tvgName": "VIP US: Buzzer",
-        "tvgId": "BUZZR.us",
+        "tvgId": "Buzzr.TV.us",
         "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Buzzr_logo.svg/1200px-Buzzr_logo.svg.png",
         "extGrp": "Entertainment",
         "tvgShift": 0,
@@ -928,7 +928,7 @@
     {
         "channelName": "Buzzr TV",
         "tvgName": "US: Buzzr",
-        "tvgId": "BUZZR.us",
+        "tvgId": "Buzzr.TV.us",
         "tvgLogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Buzzr_logo.svg/1200px-Buzzr_logo.svg.png",
         "extGrp": "Entertainment",
         "tvgShift": 0,
