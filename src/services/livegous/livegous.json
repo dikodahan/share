@@ -219,16 +219,16 @@
         "channelName": "Great! Movies +1",
         "tvgName": "VIP UK: Great! Movies Classic",
         "tvgId": "GREAT!.movies+1.uk",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/great-movies-uk.png",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/great-movies-plus-uk.png",
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 74231
     },
     {
-        "channelName": "Great! Movies Action",
+        "channelName": "Great! Movies +1",
         "tvgName": "VIP UK: Great! Movies Action",
-        "tvgId": "GREAT!.action.uk",
-        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/great-movies-action-uk.png",
+        "tvgId": "GREAT!.movies+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/great-movies-plus-uk.png",
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 74230
@@ -672,6 +672,24 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 270
+    },
+    {
+        "channelName": "Sky Movies Greats",
+        "tvgName": "VIP NZ: Sky Movies Greats HD",
+        "tvgId": "Great.Movies.nz",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/new-zealand/sky-movies-greats-nz.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 128282
+    },
+    {
+        "channelName": "Sky Movies Premiere",
+        "tvgName": "VIP NZ: Sky Movies Premiere HD",
+        "tvgId": "Premiere.Movies.nz",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/new-zealand/sky-movies-premiere-nz.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 128283
     },
     {
         "channelName": "Slice",
