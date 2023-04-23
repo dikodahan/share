@@ -332,6 +332,15 @@
         "channelId": 10674
     },
     {
+        "channelName": "HBO Family",
+        "tvgName": "VIP CAN: HBO1",
+        "tvgId": "HBO.Family.HDTV.(East).(HBOFHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/hbo-family-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 15310
+    },
+    {
         "channelName": "IFC HD",
         "tvgName": "VIP US: IFC HD",
         "tvgId": "IFC.HDTV.(East).(IFCHD).us",
@@ -339,6 +348,15 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 22887
+    },
+    {
+        "channelName": "IFC HD",
+        "tvgName": "VIP CAN: IFC",
+        "tvgId": "IFC.HDTV.(East).(IFCHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/ifc-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22727
     },
     {
         "channelName": "Lifetime",
@@ -393,6 +411,24 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 22907
+    },
+    {
+        "channelName": "MovieTime",
+        "tvgName": "VIP CAN: MOVIETIME",
+        "tvgId": "MovieTime.HDTV.(MTMHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/movietime-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22723
+    },
+    {
+        "channelName": "Showcase",
+        "tvgName": "VIP CAN: SHOWCASE EAST",
+        "tvgId": "Showcase.Television.HDTV.(East).(SC-HD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/showcase-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22711
     },
     {
         "channelName": "Showtime",
@@ -465,6 +501,15 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 5402
+    },
+    {
+        "channelName": "Silver Screen Classics",
+        "tvgName": "VIP CAN: SILVER SCREEN CLASSICS",
+        "tvgId": "Silver.Screen.Classics.(SSC.SD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/silver-screen-classics-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22710
     },
     {
         "channelName": "Sky Cinema Action",
@@ -638,6 +683,24 @@
         "channelId": 270
     },
     {
+        "channelName": "Slice",
+        "tvgName": "VIP CAN: Slice HD",
+        "tvgId": "Slice.TV.HDTV.(SLICE).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/slice-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 33788
+    },
+    {
+        "channelName": "Slice",
+        "tvgName": "VIP CAN: Slice HD",
+        "tvgId": "Slice.TV.HDTV.(SLICE).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/slice-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22709
+    },
+    {
         "channelName": "Starz",
         "tvgName": "VIP US: Starz East",
         "tvgId": "STARZ.HD.(East).(STZHD).us",
@@ -681,6 +744,15 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 5397
+    },
+    {
+        "channelName": "Starz Edge",
+        "tvgName": "US: STARZ EDGE HD",
+        "tvgId": "STARZ.Edge.HD.(East).(SZEHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-edge-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 33790
     },
     {
         "channelName": "Starz Encore (West)",
@@ -1644,6 +1716,15 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 10756
+    },
+    {
+        "channelName": "Paramount Network",
+        "tvgName": "VIP US: SPIKE TV",
+        "tvgId": "Paramount.Network.HDTV.(East).(PARHD).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/paramount-network-us.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 33783
     },
     {
         "channelName": "Paramount Network",
@@ -2942,6 +3023,24 @@
         "channelId": 10667
     },
     {
+        "channelName": "One Soccer",
+        "tvgName": "VIP CAN: One Soccer HD",
+        "tvgId": "ONESOC.ca",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/OneSoccer_logo.svg/1200px-OneSoccer_logo.svg.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 33804
+    },
+    {
+        "channelName": "One Soccer",
+        "tvgName": "VIP CAN: One Soccer HD",
+        "tvgId": "ONESOC.ca",
+        "tvgLogo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/OneSoccer_logo.svg/1200px-OneSoccer_logo.svg.png",
+        "extGrp": "Sports",
+        "tvgShift": 0,
+        "channelId": 33782
+    },
+    {
         "channelName": "Pac12 Arizona",
         "tvgName": "VIP US: Pac12 Arizona HD US",
         "tvgId": "Pac-12.Arizona.HD.us",
@@ -3417,6 +3516,96 @@
         "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 22881
+    },
+    {
+        "channelName": "TSN 1",
+        "tvgName": "VIP CAN: TSN 1 HD",
+        "tvgId": "The.Sports.Network.HDTV.(TSNHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-1-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22696
+    },
+    {
+        "channelName": "TSN 1",
+        "tvgName": "CAN: TSN Sport 1",
+        "tvgId": "The.Sports.Network.HDTV.(TSNHD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-1-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 3046
+    },
+    {
+        "channelName": "TSN 2",
+        "tvgName": "VIP CAN: TSN 2 HD",
+        "tvgId": "The.Sports.Network.2.HDTV.(TSN2D).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-2-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22695
+    },
+    {
+        "channelName": "TSN 2",
+        "tvgName": "CAN: TSN Sport 2",
+        "tvgId": "The.Sports.Network.2.HDTV.(TSN2D).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-2-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 3047
+    },
+    {
+        "channelName": "TSN 3",
+        "tvgName": "VIP CAN: TSN 3 HD",
+        "tvgId": "The.Sports.Network.3.HDTV.(TSN3HD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-3-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22694
+    },
+    {
+        "channelName": "TSN 3",
+        "tvgName": "CAN: TSN Sport 3",
+        "tvgId": "The.Sports.Network.3.HDTV.(TSN3HD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-3-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 3048
+    },
+    {
+        "channelName": "TSN 4",
+        "tvgName": "VIP CAN: TSN 4 HD",
+        "tvgId": "The.Sports.Network.4.HDTV.(TSN4H).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-4-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22693
+    },
+    {
+        "channelName": "TSN 4",
+        "tvgName": "CAN: TSN Sport 4",
+        "tvgId": "The.Sports.Network.4.HDTV.(TSN4H).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-4-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 3049
+    },
+    {
+        "channelName": "TSN 5",
+        "tvgName": "VIP CAN: TSN 5 HD",
+        "tvgId": "The.Sports.Network.5.HDTV.(TSN5HD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-5-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 22692
+    },
+    {
+        "channelName": "TSN 5",
+        "tvgName": "CAN: TSN Sport 5",
+        "tvgId": "The.Sports.Network.5.HDTV.(TSN5HD).ca",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-5-ca.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 3050
     },
     {
         "channelName": "Viaplay Sports 1",
