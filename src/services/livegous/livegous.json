@@ -3522,7 +3522,7 @@
         "tvgName": "VIP CAN: TSN 1 HD",
         "tvgId": "The.Sports.Network.HDTV.(TSNHD).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-1-ca.png",
-        "extGrp": "Movies",
+        "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 22696
     },
@@ -3531,7 +3531,7 @@
         "tvgName": "CAN: TSN Sport 1",
         "tvgId": "The.Sports.Network.HDTV.(TSNHD).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-1-ca.png",
-        "extGrp": "Movies",
+        "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 3046
     },
@@ -3540,7 +3540,7 @@
         "tvgName": "VIP CAN: TSN 2 HD",
         "tvgId": "The.Sports.Network.2.HDTV.(TSN2D).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-2-ca.png",
-        "extGrp": "Movies",
+        "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 22695
     },
@@ -3549,7 +3549,7 @@
         "tvgName": "CAN: TSN Sport 2",
         "tvgId": "The.Sports.Network.2.HDTV.(TSN2D).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-2-ca.png",
-        "extGrp": "Movies",
+        "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 3047
     },
@@ -3558,7 +3558,7 @@
         "tvgName": "VIP CAN: TSN 3 HD",
         "tvgId": "The.Sports.Network.3.HDTV.(TSN3HD).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-3-ca.png",
-        "extGrp": "Movies",
+        "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 22694
     },
@@ -3567,7 +3567,7 @@
         "tvgName": "CAN: TSN Sport 3",
         "tvgId": "The.Sports.Network.3.HDTV.(TSN3HD).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-3-ca.png",
-        "extGrp": "Movies",
+        "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 3048
     },
@@ -3576,7 +3576,7 @@
         "tvgName": "VIP CAN: TSN 4 HD",
         "tvgId": "The.Sports.Network.4.HDTV.(TSN4H).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-4-ca.png",
-        "extGrp": "Movies",
+        "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 22693
     },
@@ -3585,7 +3585,7 @@
         "tvgName": "CAN: TSN Sport 4",
         "tvgId": "The.Sports.Network.4.HDTV.(TSN4H).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-4-ca.png",
-        "extGrp": "Movies",
+        "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 3049
     },
@@ -3594,7 +3594,7 @@
         "tvgName": "VIP CAN: TSN 5 HD",
         "tvgId": "The.Sports.Network.5.HDTV.(TSN5HD).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-5-ca.png",
-        "extGrp": "Movies",
+        "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 22692
     },
@@ -3603,7 +3603,7 @@
         "tvgName": "CAN: TSN Sport 5",
         "tvgId": "The.Sports.Network.5.HDTV.(TSN5HD).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-5-ca.png",
-        "extGrp": "Movies",
+        "extGrp": "Sports",
         "tvgShift": 0,
         "channelId": 3050
     },
