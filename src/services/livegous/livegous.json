@@ -3541,7 +3541,7 @@
         "tvgId": "The.Sports.Network.2.HDTV.(TSN2D).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-2-ca.png",
         "extGrp": "Sports",
-        "tvgShift": 0,
+        "tvgShift": -1,
         "channelId": 22695
     },
     {
@@ -3550,7 +3550,7 @@
         "tvgId": "The.Sports.Network.2.HDTV.(TSN2D).ca",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/canada/tsn-2-ca.png",
         "extGrp": "Sports",
-        "tvgShift": 0,
+        "tvgShift": -1,
         "channelId": 3047
     },
     {
