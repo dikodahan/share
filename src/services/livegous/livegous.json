@@ -27,6 +27,114 @@
         "channelId": 22788
     },
     {
+        "channelName": "Bein Movies 1",
+        "tvgName": "VIP AR: BeIN Movies 1FHD",
+        "tvgId": "MOVIES1_PREMIERE_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-1-premiere-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 34543
+    },
+    {
+        "channelName": "Bein Movies 1",
+        "tvgName": "VIP AR: BeIN Movies 1HD",
+        "tvgId": "MOVIES1_PREMIERE_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-1-premiere-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 160
+    },
+    {
+        "channelName": "Bein Movies 1",
+        "tvgName": "VIP AR: BeIN Movies 1HD BKUP2",
+        "tvgId": "MOVIES1_PREMIERE_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-1-premiere-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 7934
+    },
+    {
+        "channelName": "Bein Movies 2",
+        "tvgName": "VIP AR: BeIN Movies 2FHD",
+        "tvgId": "MOVIES2_ACTION_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-2-action-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 34544
+    },
+    {
+        "channelName": "Bein Movies 2",
+        "tvgName": "VIP AR: BeIN Movies 2HD",
+        "tvgId": "MOVIES2_ACTION_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-2-action-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 136
+    },
+    {
+        "channelName": "Bein Movies 2",
+        "tvgName": "VIP AR: BeIN Movies 2HD BKUP2",
+        "tvgId": "MOVIES2_ACTION_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-2-action-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 7935
+    },
+    {
+        "channelName": "Bein Movies 3",
+        "tvgName": "VIP AR: BeIN Movies 3FHD",
+        "tvgId": "MOVIES3_DRAMA_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-3-drama-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 34545
+    },
+    {
+        "channelName": "Bein Movies 3",
+        "tvgName": "VIP AR: BeIN Movies 3HD",
+        "tvgId": "MOVIES3_DRAMA_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-3-drama-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 2762
+    },
+    {
+        "channelName": "Bein Movies 3",
+        "tvgName": "VIP AR: BeIN Movies 3HD BKUP2",
+        "tvgId": "MOVIES3_DRAMA_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-3-drama-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 7936
+    },
+    {
+        "channelName": "Bein Movies 4",
+        "tvgName": "VIP AR: BeIN Movies 4FHD",
+        "tvgId": "MOVIES4_FAMILY_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-4-family-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 34546
+    },
+    {
+        "channelName": "Bein Movies 4",
+        "tvgName": "VIP AR: BeIN Movies 4HD",
+        "tvgId": "MOVIES4_FAMILY_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-4-family-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 4019
+    },
+    {
+        "channelName": "Bein Movies 4",
+        "tvgName": "VIP AR: BeIN Movies 4HD BKUP2",
+        "tvgId": "MOVIES4_FAMILY_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-movies-4-family-mea.png",
+        "extGrp": "Movies",
+        "tvgShift": 1,
+        "channelId": 7937
+    },
+    {
         "channelName": "Cinemax",
         "tvgName": "US: Cinemax East",
         "tvgId": "Cinemax.HDTV.(East).(MAXHD).us",
@@ -1158,6 +1266,24 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 8169
+    },
+    {
+        "channelName": "BeIN Series 1",
+        "tvgName": "VIP AR: Bein Series 1HD",
+        "tvgId": "SERIES1_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-series-1-mea.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 1,
+        "channelId": 15586
+    },
+    {
+        "channelName": "BeIN Series 2",
+        "tvgName": "VIP AR: Bein Series 2HD",
+        "tvgId": "SERIES2_DIGITAL_EN.bein",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/world-middle-east/bein-series-2-mea.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 1,
+        "channelId": 7671
     },
     {
         "channelName": "BET",
