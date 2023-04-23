@@ -27,6 +27,15 @@
         "channelId": 22788
     },
     {
+        "channelName": "CineLife",
+        "tvgName": "uk: TG4",
+        "tvgId": "CineLife.us",
+        "tvgLogo": "https://cinelife.com/wp-content/uploads/2020/04/cinelife_logo.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 1255
+    },
+    {
         "channelName": "Cinemax",
         "tvgName": "US: Cinemax East",
         "tvgId": "Cinemax.HDTV.(East).(MAXHD).us",
@@ -178,6 +187,15 @@
         "extGrp": "Movies",
         "tvgShift": 0,
         "channelId": 33716
+    },
+    {
+        "channelName": "Film4",
+        "tvgName": "uk: FILM 4  1",
+        "tvgId": "Film4.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/film-4-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 74166
     },
     {
         "channelName": "FX",
@@ -647,6 +665,15 @@
         "channelId": 10746
     },
     {
+        "channelName": "Starz (West)",
+        "tvgName": "VIP US: Starz West",
+        "tvgId": "STARZ.HD.(West).(SZHDw).us",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/starz-us.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 12488
+    },
+    {
         "channelName": "Starz Edge",
         "tvgName": "US: STARZ EDGE HD",
         "tvgId": "STARZ.Edge.HD.(East).(SZEHD).us",
@@ -710,13 +737,58 @@
         "channelId": 22858
     },
     {
-        "channelName": "4seven",
+        "channelName": "TCM Movies",
+        "tvgName": "uk: TCM HD",
+        "tvgId": "TCM.Movies.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/tcm-movies-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 21324
+    },
+    {
+        "channelName": "TCM Movies +1",
+        "tvgName": "uk: Tcm Movies  1",
+        "tvgId": "TCM.Movies+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/tcm-movies-plus-uk.png",
+        "extGrp": "Movies",
+        "tvgShift": 0,
+        "channelId": 74220
+    },
+    {
+        "channelName": "4More",
+        "tvgName": "uk: More 4 HD",
+        "tvgId": "More4.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/4-more-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 7630
+    },
+    {
+        "channelName": "4More  +1",
+        "tvgName": "uk: More 4  1",
+        "tvgId": "More4+1.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/4-more-plus-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74203
+    },
+    {
+        "channelName": "4Seven",
         "tvgName": "UK: 4seven",
         "tvgId": "4seven.uk",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/4-seven-uk.png",
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 12517
+    },
+    {
+        "channelName": "5Action",
+        "tvgName": "uk: iON TV",
+        "tvgId": "5ACTION.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/5-action-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74181
     },
     {
         "channelName": "5Select",
@@ -1502,6 +1574,24 @@
         "channelId": 74185
     },
     {
+        "channelName": "itv BE",
+        "tvgName": "uk: ITV BE  1",
+        "tvgId": "ITVBe.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-be-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 2224
+    },
+    {
+        "channelName": "itv BE",
+        "tvgName": "uk: ITV BE  1",
+        "tvgId": "ITVBe.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/itv-be-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 74187
+    },
+    {
         "channelName": "Me TV",
         "tvgName": "VIP US: ME Tv",
         "tvgId": "Me.TV.us",
@@ -1815,6 +1905,15 @@
         "extGrp": "Entertainment",
         "tvgShift": 0,
         "channelId": 22624
+    },
+    {
+        "channelName": "W",
+        "tvgName": "uk: W HD",
+        "tvgId": "W.HD.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/w-network-uk.png",
+        "extGrp": "Entertainment",
+        "tvgShift": 0,
+        "channelId": 12476
     },
     {
         "channelName": "ACC Network",
@@ -4058,6 +4157,15 @@
         "channelId": 10657
     },
     {
+        "channelName": "Yesterday",
+        "tvgName": "uk: Yesterday HD",
+        "tvgId": "YESTERDAY.uk",
+        "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-kingdom/yesterday-uk.png",
+        "extGrp": "Lifestyle",
+        "tvgShift": 0,
+        "channelId": 936
+    },
+    {
         "channelName": "Animal Planet",
         "tvgName": "US: Animal Planet HD",
         "tvgId": "Animal.Planet.HDTV.(East).(APHD).us",
@@ -4141,7 +4249,7 @@
     {
         "channelName": "History 2",
         "tvgName": "US: H2",
-        "tvgId": "History2.Canada.(H2).ca",
+        "tvgId": "HISTORY2.Europe.(GB,EN).no",
         "tvgLogo": "https://github.com/tv-logo/tv-logos/raw/main/countries/united-states/history-channel-2-us.png",
         "extGrp": "Nature & History",
         "tvgShift": 0,
