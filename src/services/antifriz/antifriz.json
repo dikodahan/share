@@ -632,6 +632,16 @@
     {
         "extGrp": "טבע והיסטוריה",
         "groupTitle": "Israel: Nature & History",
+        "tvgId": "Discovery Science [YES]",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Discovery-Science.png",
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "דיסקוברי מדע",
+        "channelId": "discovery-science-il"
+    },
+    {
+        "extGrp": "טבע והיסטוריה",
+        "groupTitle": "Israel: Nature & History",
         "tvgId": "ערוץ ההיסטוריה [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/History.png",
         "tvgRec": "7",
