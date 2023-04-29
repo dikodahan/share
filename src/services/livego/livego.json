@@ -136,7 +136,7 @@
         "channelId": 20415
     },
     {
-        "channelName": "יס ספורט 1",
+        "channelName": "ספורט 1",
         "tvgName": "yes.sport.1.hd.il",
         "tvgId": "ספורט 1 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport1.png",
@@ -144,7 +144,7 @@
         "channelId": 5958
     },
     {
-        "channelName": "יס ספורט 2",
+        "channelName": "ספורט 2",
         "tvgName": "yes.sport.2.il",
         "tvgId": "ספורט 2 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport2.png",
@@ -152,7 +152,7 @@
         "channelId": 21901
     },
     {
-        "channelName": "יס ספורט 2",
+        "channelName": "ספורט 2",
         "tvgName": "yes.sport.2.il",
         "tvgId": "ספורט 2 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport2.png",
@@ -160,7 +160,7 @@
         "channelId": 5957
     },
     {
-        "channelName": "יס ספורט 3",
+        "channelName": "ספורט 3",
         "tvgName": "yes.sport.3.il",
         "tvgId": "ספורט 3 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport3.png",
@@ -168,7 +168,7 @@
         "channelId": 11471
     },
     {
-        "channelName": "יס ספורט 3",
+        "channelName": "ספורט 3",
         "tvgName": "yes.sport.3.il",
         "tvgId": "ספורט 3 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport3.png",
@@ -176,7 +176,7 @@
         "channelId": 21899
     },
     {
-        "channelName": "יס ספורט 4",
+        "channelName": "ספורט 4",
         "tvgName": "yes.sport.4.il",
         "tvgId": "ספורט 4 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport4.png",
@@ -184,7 +184,7 @@
         "channelId": 21900
     },
     {
-        "channelName": "יס ספורט 4",
+        "channelName": "ספורט 4",
         "tvgName": "yes.sport.4.il",
         "tvgId": "ספורט 4 HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport4.png",
@@ -424,6 +424,22 @@
         "channelId": 25837
     },
     {
+        "channelName": "יס טלויזיה קומדיה",
+        "tvgName": "yes.tv.comedy.il",
+        "tvgId": "yes TV COMEDY [YES]",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Comedy.png",
+        "extGrp": "ערוצי יס",
+        "channelId": 16518
+    },
+    {
+        "channelName": "יס טלויזיה דרמה",
+        "tvgName": "yes.tv.drama.il",
+        "tvgId": "yes TV DRAMA [YES]",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Drama.png",
+        "extGrp": "ערוצי יס",
+        "channelId": 16520
+    },
+    {
         "channelName": "יס טלויזיה דרמה",
         "tvgName": "yes.tv.actiondrama.il",
         "tvgId": "yes TV DRAMA [YES]",
@@ -438,22 +454,6 @@
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Action.png",
         "extGrp": "ערוצי יס",
         "channelId": 45721
-    },
-    {
-        "channelName": "יס סרטים פעולה",
-        "tvgName": "yes.movies.drama.il",
-        "tvgId": "yes MOVIES ACTION [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Action.png",
-        "extGrp": "ערוצי יס",
-        "channelId": 16512
-    },
-    {
-        "channelName": "יס סרטים פעולה",
-        "tvgName": "yes.movies.drama.il",
-        "tvgId": "yes MOVIES ACTION [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Action.png",
-        "extGrp": "ערוצי יס",
-        "channelId": 25828
     },
     {
         "channelName": "יס סרטים פעולה",
@@ -473,11 +473,11 @@
     },
     {
         "channelName": "יס סרטים דרמה",
-        "tvgName": "yes.tv.drama.il",
+        "tvgName": "yes.movies.drama.il",
         "tvgId": "yes MOVIES DRAMA [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Drama.png",
         "extGrp": "ערוצי יס",
-        "channelId": 16520
+        "channelId": 45719
     },
     {
         "channelName": "יס סרטים דרמה",
@@ -485,7 +485,15 @@
         "tvgId": "yes MOVIES DRAMA [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Drama.png",
         "extGrp": "ערוצי יס",
-        "channelId": 45719
+        "channelId": 16512
+    },
+    {
+        "channelName": "יס סרטים דרמה",
+        "tvgName": "yes.movies.drama.il",
+        "tvgId": "yes MOVIES DRAMA [YES]",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Drama.png",
+        "extGrp": "ערוצי יס",
+        "channelId": 25828
     },
     {
         "channelName": "יס סרטים קומדיה",
@@ -625,14 +633,6 @@
     },
     {
         "channelName": "הוט סינמה 2",
-        "tvgName": "yes.movies.action.il",
-        "tvgId": "HOT cinema 2 [HOT]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C2.png",
-        "extGrp": "ערוצי הוט",
-        "channelId": 64338
-    },
-    {
-        "channelName": "הוט סינמה 2",
         "tvgName": "hot.cinema.2.il",
         "tvgId": "HOT cinema 2 [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C2.png",
@@ -648,6 +648,14 @@
         "channelId": 5960
     },
     {
+        "channelName": "הוט סינמה 2",
+        "tvgName": "yes.movies.action.il",
+        "tvgId": "HOT cinema 2 [HOT]",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C2.png",
+        "extGrp": "ערוצי הוט",
+        "channelId": 64338
+    },
+    {
         "channelName": "הוט סינמה 3",
         "tvgName": "hot.cinema.3.il",
         "tvgId": "HOT cinema 3 [HOT]",
@@ -661,7 +669,7 @@
         "tvgId": "HOT cinema 3 [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C3.png",
         "extGrp": "ערוצי הוט",
-        "channelId": 64397
+        "channelId": 5961
     },
     {
         "channelName": "הוט סינמה 3",
@@ -669,7 +677,7 @@
         "tvgId": "HOT cinema 3 [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C3.png",
         "extGrp": "ערוצי הוט",
-        "channelId": 5961
+        "channelId": 64397
     },
     {
         "channelName": "הוט סינמה 4",
@@ -678,14 +686,6 @@
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C4.png",
         "extGrp": "ערוצי הוט",
         "channelId": 64340
-    },
-    {
-        "channelName": "הוט סינמה 4",
-        "tvgName": "hot.cinema.4.il",
-        "tvgId": "HOT cinema 4 [HOT]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C4.png",
-        "extGrp": "ערוצי הוט",
-        "channelId": 64339
     },
     {
         "channelName": "הוט סינמה 4",
@@ -702,6 +702,14 @@
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C4.png",
         "extGrp": "ערוצי הוט",
         "channelId": 6109
+    },
+    {
+        "channelName": "הוט סינמה 4",
+        "tvgName": "hot.cinema.4.il",
+        "tvgId": "HOT cinema 4 [HOT]",
+        "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C4.png",
+        "extGrp": "ערוצי הוט",
+        "channelId": 64339
     },
     {
         "channelName": "הוט סינמה משפחה",
@@ -821,7 +829,7 @@
         "tvgId": "ג’וניור [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Junior.png",
         "extGrp": "ילדים",
-        "channelId": 34679
+        "channelId": 8143
     },
     {
         "channelName": "ג׳וניור",
@@ -829,7 +837,7 @@
         "tvgId": "ג’וניור [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Junior.png",
         "extGrp": "ילדים",
-        "channelId": 8143
+        "channelId": 34679
     },
     {
         "channelName": "ערוץ 24",
@@ -894,14 +902,6 @@
         "tvgLogo": "https://dikodahan.github.io/picons/light/Animal-Planet.png",
         "extGrp": "טבע והיסטוריה",
         "channelId": 35323
-    },
-    {
-        "channelName": "נשיונל ג׳יאוגרפיק",
-        "tvgName": "yes.tv.comedy.il",
-        "tvgId": "National Geographic [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/National-Geographic.png",
-        "extGrp": "טבע והיסטוריה",
-        "channelId": 16518
     },
     {
         "channelName": "נשיונל ג׳יאוגרפיק",
