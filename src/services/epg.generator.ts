@@ -6,6 +6,6 @@ export function* epgGenerator(): Generator<string, void, unknown> {
 }
 
 export function* epgGeneratorUs(): Generator<string, void, unknown> {
-  yield `#EXTM3U url-tvg="${EPG.epgsahre}"`;
+  yield `#EXTM3U url-tvg="${EPG.epgshare}"`;
   yield "";
 }
