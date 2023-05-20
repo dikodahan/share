@@ -4,6 +4,7 @@ import { edemGenerator } from "./edem/edem.generator";
 import { edemDmGenerator } from "./edemdm/edemdm.generator";
 import { liveGoUsGenerator } from "./livegous/livegous.generator";
 import { liveGoDmGenerator } from "./livegodm/livegodm.generator";
+import { liveGoGenerator } from "./livego/livego.generator";
 import { crystalGenerator } from "./crystal/crystal.generator";
 import { crystalDmGenerator } from "./crystaldm/crystaldm.generator";
 import { dinoGenerator } from "./dino/dino.generator";
@@ -14,6 +15,7 @@ import { liveGoTestGenerator } from "./livegotest/livegotest.generator";
 type M3uGenerator = (username: string, password: string) => Generator<string, void, unknown>;
 
 export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
+    "livego": liveGoGenerator,
     "livegodm": liveGoDmGenerator,
     "livegous": liveGoUsGenerator,
     "crystal": crystalGenerator,
