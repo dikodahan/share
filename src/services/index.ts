@@ -1,4 +1,3 @@
-// @spellchecker: ignore livego
 import { antiFrizGenerator } from "./antifriz/antifriz.generator";
 import { antiFrizDmGenerator } from "./antifrizdm/antifrizdm.generator";
 import { edemGenerator } from "./edem/edem.generator";
