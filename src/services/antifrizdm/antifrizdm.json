@@ -502,11 +502,11 @@
     {
         "extGrp": "תרבות וסטייל",
         "groupTitle": "Israel: Style & Culture",
-        "tvgId": "ערוץ האוכל [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/dark/Haochel-DM.png",
+        "tvgId": "Food Network [HOT]",
+        "tvgLogo": "https://dikodahan.github.io/picons/dark/Food-Network-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
-        "channelName": "ערוץ האוכל",
+        "channelName": "רשת האוכל",
         "channelId": "food-network-il"
     },
     {
