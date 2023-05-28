@@ -11,7 +11,7 @@ const names = [
 const channels = {};
 
 names.forEach((name) => {
-  const data = fs.readFileSync(`./services/${name}/${name}.json`, 'utf8');
+  const data = fs.readFileSync(`./src/services/${name}/${name}.json`, 'utf8');
   const records = JSON.parse(data);
   channels[name] = Array.from(new Set(records.map(r => r.channelName)));
 });
