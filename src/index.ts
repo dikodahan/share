@@ -4,9 +4,9 @@ import { UserException } from "./user-exception";
 
 const app = Express();
 
-// app.get("/", (_, res) => {
-//   res.redirect("https://dikodahan.github.io");
-// });
+app.get("/", (_, res) => {
+  res.redirect("https://dikodahan.github.io");
+});
 
 app.use("/", Express.static('public', {
   fallthrough: true
