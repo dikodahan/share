@@ -9,7 +9,7 @@ const names = [
 ];
 
 const channels = {};
-
+console.log(`running in '${process.pwd()}`);
 names.forEach((name) => {
   const data = fs.readFileSync(`./src/services/${name}/${name}.json`, 'utf8');
   const records = JSON.parse(data);
