@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "tsc",
+    "build:channels": "node src/generate-aggregated-channel-names.js",
+    "build": "tsc & npm run build:channels",
     "watch": "tsc -w",
     "start": "node lib/index.js",
     "prestart": "npm run build"
