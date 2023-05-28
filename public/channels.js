@@ -6,7 +6,7 @@
   function createRow(channelName, services) {
     return `<tr>
       <td>${channelName}</td>
-      ${Object.entries(services).map(([service, channels]) => createService(channelName, service, channels))}
+      ${Object.entries(services).map(([service, channels]) => createService(channelName, service, channels)).join("\n")}
     </tr>`
   }
 
