@@ -112,7 +112,7 @@
     "channelId"       : 260805
   },
   {
-    "channelName"     : "הידברות",
+    "channelName"     : "ערוץ הידברות",
     "tvgName"         : "IS - HIDABROOT",
     "tvgId"           : "ערוץ הידברות [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/Hidabrut-DM.png",
@@ -560,7 +560,7 @@
     "channelId"       : 260771
   },
   {
-    "channelName"     : "הוט HBO",
+    "channelName"     : "HBO הוט",
     "tvgName"         : "IS - HOT HBO UHD",
     "tvgId"           : "HOT HBO [HOT]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/HOT-HBO-DM.png",
@@ -824,7 +824,7 @@
     "channelId"       : 260778
   },
   {
-    "channelName"     : "ערוץ ההיסטוריה HD",
+    "channelName"     : "HD היסטוריה",
     "tvgName"         : "IS - HISTORY UHD",
     "tvgId"           : "היסטוריה HD [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/History-HD-DM.png",
@@ -832,7 +832,7 @@
     "channelId"       : 260777
   },
   {
-    "channelName"     : "ערוץ ההיסטוריה HD",
+    "channelName"     : "HD היסטוריה",
     "tvgName"         : "IS - YES HISTORY FHD",
     "tvgId"           : "היסטוריה HD [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/History-HD-DM.png",
@@ -992,7 +992,7 @@
     "channelId"       : 812455
   },
   {
-    "channelName"     : "ריאליטי CBS",
+    "channelName"     : "CBS ריאליטי",
     "tvgName"         : "IS - YES CBS HD",
     "tvgId"           : "CBS reality [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/CBS-Reality-DM.png",
@@ -1000,7 +1000,7 @@
     "channelId"       : 812460
   },
   {
-    "channelName"     : "ריאליטי CBS",
+    "channelName"     : "CBS ריאליטי",
     "tvgName"         : "IS - REALITY CHANNEL",
     "tvgId"           : "CBS reality [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/CBS-Reality-DM.png",
@@ -1008,7 +1008,7 @@
     "channelId"       : 812454
   },
   {
-    "channelName"     : "ריאליטי CBS",
+    "channelName"     : "CBS ריאליטי",
     "tvgName"         : "IS - CBS REALITY",
     "tvgId"           : "CBS reality [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/CBS-Reality-DM.png",
@@ -1048,7 +1048,7 @@
     "channelId"       : 260802
   },
   {
-    "channelName"     : "ערוץ מוזיקה IL",
+    "channelName"     : "IL מוזיקה",
     "tvgName"         : "IS - MUSIC IL FHD",
     "tvgId"           : "ערוץ מוזיקה IL [HOT]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/Music-il-DM.png",
@@ -1056,7 +1056,7 @@
     "channelId"       : 812453
   },
   {
-    "channelName"     : "לייב MTV",
+    "channelName"     : "MTV לייב",
     "tvgName"         : "IS - MTV MUSIC",
     "tvgId"           : "MTV HD [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/MTV-Live-DM.png",
@@ -1064,7 +1064,7 @@
     "channelId"       : 260804
   },
   {
-    "channelName"     : "לייב MTV",
+    "channelName"     : "MTV לייב",
     "tvgName"         : "IS - YES MTV MUSIC",
     "tvgId"           : "MTV HD [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/MTV-Live-DM.png",
