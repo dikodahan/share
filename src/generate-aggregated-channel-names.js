@@ -6,7 +6,7 @@ const names = [
   "antifriz",
   "crystal",
   "dino",
-  "eden"
+  "edem"
 ];
 
 const channels = {};
