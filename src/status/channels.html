@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Channels</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+      th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: lightgray;
+      }
+      .check {
+        color: green;
+      }
+      .cross {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th>Channel Name</th>
+          <th>Livego</th>
+          <th>Antifriz</th>
+          <th>Crystal</th>
+          <th>Dino</th>
+          <th>Eden</th>
+        </tr>
+      </thead>
+      <tbody>
+        <script type="module">
+          import { channelNames } from './channels.ts';
+
+          const files = [
+            'livego',
+            'antifriz',
+            'crystal',
+            'dino',
+            'eden',
+          ];
+
+          const tableBody = document.querySelector('tbody');
+
+          channelNames.forEach((channelName) => {
+            const row = document.createElement('tr');
+            const channelNameCell = document.createElement('td');
+            channelNameCell.textContent = channelName;
+            row.appendChild(channelNameCell);
+
+            files.forEach((file) => {
+              const cell = document.createElement('td');
+              cell.classList.add(channelName.toLowerCase().replace(/\s/g, '-'));
+              row.appendChild(cell);
+            });
+
+            tableBody.appendChild(row);
+          });
+
+          fetch('./services.json')
+            .then((response) => response.json())
+            .then((data) => {
+              files.forEach((file, index) => {
+                const services = data[file];
+
+                channelNames.forEach((channelName) => {
+                  const cell = document.querySelector(`.${channelName.toLowerCase().replace(/\s/g, '-')}`);
+                  if (services.includes(channelName)) {
+                    cell.innerHTML = '&#10003;'; // checkmark
+                    cell.classList.add('check');
+                  } else {
+                    cell.innerHTML = '&#10007;'; // cross
+                    cell.classList.add('cross');
+                  }
+                });
+              });
+            });
+        </script>
+      </tbody>
+    </table>
+  </body>
+</html>
