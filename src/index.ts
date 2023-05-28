@@ -45,4 +45,6 @@ app.get("/:service", (req, res) => {
   }
 });
 
+app.use(express.static('public'))
+
 app.listen(3000, () => console.log("Started"));
