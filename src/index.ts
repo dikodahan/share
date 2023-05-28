@@ -4,9 +4,13 @@ import { UserException } from "./user-exception";
 
 const app = Express();
 
-app.get("/", (_, res) => {
-  res.redirect("https://dikodahan.github.io");
-});
+// app.get("/", (_, res) => {
+//   res.redirect("https://dikodahan.github.io");
+// });
+
+app.use("/", Express.static('public', {
+  fallthrough: true
+}));
 
 app.get("/:service", (req, res) => {
   const { u: username, p: password } = req.query;
@@ -44,7 +48,5 @@ app.get("/:service", (req, res) => {
       : res.status(500).send("Internal Server Error");
   }
 });
-
-app.use(express.static('public'))
 
 app.listen(3000, () => console.log("Started"));
