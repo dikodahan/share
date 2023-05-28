@@ -1,8 +1,8 @@
-import LiveGo from "./livego.json";
+import LiveGoDm from "./livegodm.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 
-export function* liveGoGenerator(
+export function* liveGoDmGenerator(
   username: string,
   password: string
 ): Generator<string, void, unknown> {
@@ -14,7 +14,7 @@ export function* liveGoGenerator(
     yield line;
   }
 
-  for (const { tvgId, tvgLogo, extGrp, channelName, channelId } of LiveGo) {
+  for (const { tvgId, tvgLogo, extGrp, channelName, channelId } of LiveGoDm) {
     yield "";
     yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
     yield `#EXTGRP:${extGrp}`;
