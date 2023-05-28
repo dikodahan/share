@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require("path");
 
 const names = [
   "livego",
@@ -9,11 +10,11 @@ const names = [
 ];
 
 const channels = {};
-console.log(`running in '${process.cwd()}`);
-console.log(fs.readdirSync(process.cwd()).join("\n"));
 
 names.forEach((name) => {
-  const data = fs.readFileSync(`./src/services/${name}/${name}.json`, 'utf8');
+  const file = path.join(__dirname, "src", "services", name, `${name}.json`);
+  console.log(`reading '${file}'`);
+  const data = fs.readFileSync(file, 'utf8');
   const records = JSON.parse(data);
   channels[name] = Array.from(new Set(records.map(r => r.channelName)));
 });
