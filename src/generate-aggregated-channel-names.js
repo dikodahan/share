@@ -12,7 +12,7 @@ const names = [
 const channels = {};
 
 names.forEach((name) => {
-  const file = path.join(__dirname, "src", "services", name, `${name}.json`);
+  const file = path.join(__dirname, "services", name, `${name}.json`);
   console.log(`reading '${file}'`);
   const data = fs.readFileSync(file, 'utf8');
   const records = JSON.parse(data);
