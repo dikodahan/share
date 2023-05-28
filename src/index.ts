@@ -9,7 +9,8 @@ app.get("/", (_, res) => {
 });
 
 app.use("/", Express.static('public', {
-  fallthrough: true
+  fallthrough: true,
+  extensions: ["html"]
 }));
 
 app.get("/:service", (req, res) => {
