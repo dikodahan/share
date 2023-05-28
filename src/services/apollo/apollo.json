@@ -334,7 +334,7 @@
     },
     {
       "extGrp"          : "ילדים",
-      "channelName"     : "טין ניק",
+      "channelName"     : "ניק טין",
       "tvgName"         : "IL: YES-TEENNICK FHD",
       "tvgId"           : "Teennick [YES]",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/TeenNick.png",
@@ -649,7 +649,7 @@
     },
     {
       "extGrp"          : "תרבות וסטייל",
-      "channelName"     : "בידור E",
+      "channelName"     : "E! ערוץ",
       "tvgName"         : "IL: YES-E!",
       "tvgId"           : "E! [YES]",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/E-Entertainment.png",
@@ -847,7 +847,7 @@
     },
     {
       "extGrp"          : "שפות זרות",
-      "channelName"     : "France 24",
+      "channelName": "i24 צרפת",
       "tvgName"         : "IL: I 24 NEWS ISRAEL",
       "tvgId"           : "FRANCE 24 [YES]",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/France-24.png",
@@ -865,7 +865,7 @@
     },
     {
       "extGrp"          : "שפות זרות",
-      "channelName"     : "הלא טיוי",
+      "channelName"     : "ערוץ הלא טיוי",
       "tvgName"         : "IL: YES-HALA TV FHD",
       "tvgId"           : "Hala TV [YES]",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/Hala-TV.png",
@@ -874,7 +874,7 @@
     },
     {
       "extGrp"          : "שפות זרות",
-      "channelName"     : "הלא טיוי",
+      "channelName"     : "ערוץ הלא טיוי",
       "tvgName"         : "IL: YES-HALA-TV",
       "tvgId"           : "Hala TV [YES]",
       "tvgLogo"         : "https://dikodahan.github.io/picons/light/Hala-TV.png",

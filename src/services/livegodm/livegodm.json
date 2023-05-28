@@ -304,7 +304,7 @@
         "channelId": 11725
     },
     {
-        "channelName": "ONE 1",
+        "channelName": "ONE",
         "tvgName": "one.1.il",
         "tvgId": "ONE [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/ONE-DM.png",
@@ -312,7 +312,7 @@
         "channelId": 83772
     },
     {
-        "channelName": "ONE 1",
+        "channelName": "ONE",
         "tvgName": "one.1.il",
         "tvgId": "ONE [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/ONE-DM.png",
@@ -320,7 +320,7 @@
         "channelId": 21903
     },
     {
-        "channelName": "ONE 1",
+        "channelName": "ONE",
         "tvgName": "one.1.il",
         "tvgId": "ONE [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/ONE-DM.png",
@@ -352,7 +352,7 @@
         "channelId": 83773
     },
     {
-        "channelName": "Eurosport 1",
+        "channelName": "יורוספורט 1",
         "tvgName": "eurosport.1.il",
         "tvgId": "EUROSPORT [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Eurosport1-DM.png",
@@ -360,7 +360,7 @@
         "channelId": 19377
     },
     {
-        "channelName": "Eurosport 2",
+        "channelName": "יורוספורט 2",
         "tvgName": "eurosport.2.il",
         "tvgId": "EUROSPORT 2 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Eurosport2-DM.png",
@@ -720,7 +720,7 @@
         "channelId": 41501
     },
     {
-        "channelName": "HOT HBO",
+        "channelName": "HBO הוט",
         "tvgName": "hot.hbo.il",
         "tvgId": "HOT HBO [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/HOT-HBO-DM.png",
@@ -728,7 +728,7 @@
         "channelId": 41504
     },
     {
-        "channelName": "HOT HBO",
+        "channelName": "HBO הוט",
         "tvgName": "hot.hbo.il",
         "tvgId": "HOT HBO [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/HOT-HBO-DM.png",
@@ -792,7 +792,7 @@
         "channelId": 6113
     },
     {
-        "channelName": "טין ניק",
+        "channelName": "ניק טין",
         "tvgName": "nick.teen.il",
         "tvgId": "Teennick [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/TeenNick-DM.png",
@@ -936,7 +936,7 @@
         "channelId": 7344
     },
     {
-        "channelName": "דיסקוברי",
+        "channelName": "דיסקברי",
         "tvgName": "discovery.il",
         "tvgId": "דיסקברי HD [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Discovery-DM.png",
@@ -944,7 +944,7 @@
         "channelId": 7342
     },
     {
-        "channelName": "דיסקוברי מדע",
+        "channelName": "דיסקברי מדע",
         "tvgName": "discovery.science.il",
         "tvgId": "Discovery Science [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Discovery-Science-DM.png",
@@ -1064,7 +1064,7 @@
         "channelId": 41252
     },
     {
-        "channelName": "E! בידור",
+        "channelName"     : "E! ערוץ",
         "tvgName": "e.entertainment.il",
         "tvgId": "E! [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/E-Entertainment-DM.png",
@@ -1144,7 +1144,7 @@
         "channelId": 930
     },
     {
-        "channelName": "i 24 FHD",
+        "channelName": "i24 צרפת",
         "tvgName": "i24.il",
         "tvgId": "FRANCE 24 [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/France-24-DM.png",
@@ -1232,7 +1232,7 @@
         "channelId": 45726
     },
     {
-        "channelName": "HD הוט בוליווד",
+        "channelName": "הוט בוליווד",
         "tvgName": "yes.bollywood.il",
         "tvgId": "Bollywood HD [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-Bollywood-DM.png",
@@ -1240,7 +1240,7 @@
         "channelId": 20368
     },
     {
-        "channelName": "HD הוט בוליווד",
+        "channelName": "הוט בוליווד",
         "tvgName": "yes.bollywood.il",
         "tvgId": "Bollywood HD [HOT]",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Yes-Bollywood-DM.png",

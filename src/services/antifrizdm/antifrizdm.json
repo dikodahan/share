@@ -46,7 +46,7 @@
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Kan-Chinuchit-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
-        "channelName": "כאן חינוכית 23",
+        "channelName": "כאן חינוכית",
         "channelId": "kan23-il"
     },
     {
@@ -146,7 +146,7 @@
         "tvgLogo": "https://dikodahan.github.io/picons/dark/ONE-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
-        "channelName": "One",
+        "channelName": "ONE",
         "channelId": "one-hd-il"
     },
     {
@@ -156,7 +156,7 @@
         "tvgLogo": "https://dikodahan.github.io/picons/dark/ONE2-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
-        "channelName": "One 2",
+        "channelName": "ONE 2",
         "channelId": "one2-hd-il"
     },
     {
@@ -496,7 +496,7 @@
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Home-Plus-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
-        "channelName": "ערוץ בית+",
+        "channelName": "בית+",
         "channelId": "home-plus-il"
     },
     {
@@ -626,7 +626,7 @@
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Discovery-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
-        "channelName": "דיסקוברי",
+        "channelName": "דיסקברי",
         "channelId": "discovery-hd-il"
     },
     {
@@ -636,7 +636,7 @@
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Discovery-Science-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
-        "channelName": "דיסקוברי מדע",
+        "channelName": "דיסקברי מדע",
         "channelId": "discovery-science-il"
     },
     {

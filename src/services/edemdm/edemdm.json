@@ -810,7 +810,7 @@
     "channelId"       : 12240
   },
   {
-    "channelName"     : "טין ניק",
+    "channelName"     : "ניק טין",
     "tvgName"         : "",
     "tvgId"           : "Teennick [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/TeenNick-DM.png",
@@ -927,7 +927,7 @@
     "channelId"       : 2368
   },
   {
-    "channelName"     : "ערוץ E! ",
+    "channelName"     : "E! ערוץ",
     "tvgName"         : "",
     "tvgId"           : "E! [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/E-Entertainment-DM.png",
@@ -1035,7 +1035,7 @@
     "channelId"       : 2331
   },
   {
-    "channelName"     : "France 24",
+    "channelName"     : "i24 צרפת",
     "tvgName"         : "",
     "tvgId"           : "FRANCE 24 [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/France-24-DM.png",
@@ -1062,7 +1062,7 @@
     "channelId"       : 12225
   },
   {
-    "channelName"     : "הלא טיוי",
+    "channelName"     : "ערוץ הלא טיוי",
     "tvgName"         : "",
     "tvgId"           : "Hala TV [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/Hala-TV-DM.png",
