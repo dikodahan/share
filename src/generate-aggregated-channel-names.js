@@ -19,4 +19,6 @@ names.forEach((name) => {
   channels[name] = Array.from(new Set(records.map(r => r.channelName)));
 });
 
-fs.writeFileSync(`../public/service-channel-names.json`, JSON.stringify(channels));
+const output = path.join(__dirname, "..", "public", "service-channel-names.json");
+console.log(`writing to ${output} ${Object.keys(channels)} services`);
+fs.writeFileSync(output, JSON.stringify(channels));
