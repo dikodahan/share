@@ -23,7 +23,7 @@
 
     const channelNames = Array.from(new Set(Object.values(json).flatMap(channels => channels)));
 
-    table.querySelector('tbody').innerHTML = channelNames.map(channelName => createRow(channelName, json));
+    table.querySelector('tbody').innerHTML = channelNames.map(channelName => createRow(channelName, json)).join("\n");
     
   } catch (e) {
     console.log(e);
