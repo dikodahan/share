@@ -1,11 +1,11 @@
 import fs from 'fs';
 
 const jsonFiles = [
-  '../services/livego/livego.json',
-  '../services/antifriz/antifriz.json',
-  '../services/crystal/crystal.json',
-  '../services/dino/dino.json',
-  '../services/eden/eden.json',
+  '../src/services/livego/livego.json',
+  '../src/services/antifriz/antifriz.json',
+  '../src/services/crystal/crystal.json',
+  '../src/services/dino/dino.json',
+  '../src/services/eden/eden.json',
 ];
 
 interface Channel {
