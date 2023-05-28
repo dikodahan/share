@@ -9,7 +9,7 @@
 
   try {
     const table = document.querySelector('table#channels');
-    const res = await fetch("/generate-aggregated-channel-names.js");
+    const res = await fetch("/service-channel-names.json");
     const json = await res.json();
 
     const headers = [
