@@ -1,0 +1,13 @@
+[
+    {
+        "service"       : "livego",
+        "stability"     : "",
+        "quality"       : "",
+        "support"       : "",
+        "VoD"           : "",
+        "xtream"        : true,
+        "m3u"           : true,
+        "archive"       : 0,
+        "channels"      : 0
+    }
+]
