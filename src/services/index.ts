@@ -15,9 +15,9 @@ import { liveGoTestGenerator } from "./livegotest/livegotest.generator";
 type M3uGenerator = (username: string, password: string) => Generator<string, void, unknown>;
 
 export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
+    "livegous": liveGoUsGenerator,
     "livego": liveGoGenerator,
     "livegodm": liveGoDmGenerator,
-    "livegous": liveGoUsGenerator,
     "crystal": crystalGenerator,
     "crystaldm": crystalDmGenerator,
     "dino": dinoGenerator,
