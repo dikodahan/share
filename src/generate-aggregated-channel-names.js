@@ -9,7 +9,7 @@ const names = [
   "edem"
 ];
 
-const comparisonFile = path.join(__dirname, "comparison.json");
+const comparisonFile = path.join(__dirname, `conparison.json`);
 
 const channels = {};
 
