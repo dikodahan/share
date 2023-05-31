@@ -29,38 +29,3 @@
     console.log(e);
   }
 })();
-
-
-// channelNames.forEach((channelName) => {
-//   const row = document.createElement('tr');
-//   const channelNameCell = document.createElement('td');
-//   channelNameCell.textContent = channelName;
-//   row.appendChild(channelNameCell);
-
-//   files.forEach((file) => {
-//     const cell = document.createElement('td');
-//     cell.classList.add(channelName.toLowerCase().replace(/\s/g, '-'));
-//     row.appendChild(cell);
-//   });
-
-//   tableBody.appendChild(row);
-// });
-
-// fetch('channel-names.json')
-//   .then((response) => response.json())
-//   .then((data) => {
-//     files.forEach((file, index) => {
-//       const services = data[file];
-
-//       channelNames.forEach((channelName) => {
-//         const cell = document.querySelector(`.${channelName.toLowerCase().replace(/\s/g, '-')}`);
-//         if (services.includes(channelName)) {
-//           cell.innerHTML = '&#10003;'; // checkmark
-//           cell.classList.add('check');
-//         } else {
-//           cell.innerHTML = '&#10007;'; // cross
-//           cell.classList.add('cross');
-//         }
-//       });
-//     });
-//   });
