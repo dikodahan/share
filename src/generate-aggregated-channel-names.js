@@ -19,6 +19,7 @@ names.forEach((name) => {
   const data = fs.readFileSync(file, 'utf8');
   const records = JSON.parse(data);
   channels[name] = Array.from(new Set(records.map(r => r.channelName)));
+  const uniqueChannels = Array.from(new Set(records.map((r) => r.channelName)));
 
   channels[name] = {
     channels: uniqueChannels,
