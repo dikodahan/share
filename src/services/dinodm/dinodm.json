@@ -1153,6 +1153,14 @@
   },
   {
     "channelName"     : "MTV לייב",
+    "tvgName"         : "IS - YES MTV MUSIC",
+    "tvgId"           : "MTV HD [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/dark/MTV-Live-DM.png",
+    "extGrp"          : "תרבות וסטייל",
+    "channelId"       : 812490
+  },
+  {
+    "channelName"     : "MTV לייב",
     "tvgName"         : "IS - MTV MUSIC",
     "tvgId"           : "MTV HD [YES]",
     "tvgLogo"         : "https://dikodahan.github.io/picons/dark/MTV-Live-DM.png",
@@ -1160,12 +1168,28 @@
     "channelId"       : 260804
   },
   {
-    "channelName"     : "MTV לייב",
-    "tvgName"         : "IS - YES MTV MUSIC",
-    "tvgId"           : "MTV HD [YES]",
-    "tvgLogo"         : "https://dikodahan.github.io/picons/dark/MTV-Live-DM.png",
+    "channelName"     : "MTV להיטים",
+    "tvgName"         : "IS - MTV HITS",
+    "tvgId"           : "MTV HITS [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/dark/MTV-Hits-DM.png",
     "extGrp"          : "תרבות וסטייל",
     "channelId"       : 812490
+  },
+  {
+    "channelName"     : "MTV 00s",
+    "tvgName"         : "IS - MTV 00S",
+    "tvgId"           : "MTV 00’s [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/dark/MTV-00s-DM.png",
+    "extGrp"          : "תרבות וסטייל",
+    "channelId"       : 872237
+  },
+  {
+    "channelName"     : "MTV 80s",
+    "tvgName"         : "IS - MTV 80S",
+    "tvgId"           : "MTV 80s [YES]",
+    "tvgLogo"         : "https://dikodahan.github.io/picons/dark/MTV-80s-DM.png",
+    "extGrp"          : "תרבות וסטייל",
+    "channelId"       : 872238
   },
   {
     "channelName"     : "ערוץ 9",
