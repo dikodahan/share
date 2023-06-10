@@ -1,9 +1,12 @@
-const nonDisplayParams: Set<keyof ComparisonService> = new Set([
+export {};
+const STAR_PARAMS: (keyof ComparisonService)[] = ["ציון"];
+const NON_AUTO_DISPLAY_PARAMS: Set<keyof ComparisonService> = new Set([
   "name",
   "service",
+  ...STAR_PARAMS,
 ]);
 
-Vue.component("comparison-table", {
+window.Vue.component("comparison-table", {
   template: `
         <div>
             <table>
@@ -14,6 +17,12 @@ Vue.component("comparison-table", {
                     </tr>
                 </thead>
                 <tbody>
+                    <tr v-for="param in starParams">
+                        <td v-for="item in comparison">
+                            {{ "⭐".repeat(item[param]) }}
+                        </td>
+                        <th>{{ param }}</th>
+                    </tr>
                     <tr v-for="param in parameters">
                         <td v-for="item in comparison">
                             <a v-if="String(item[param]).startsWith('http')" :href="item[param]" target="_blank">קישור</a>
@@ -40,12 +49,15 @@ Vue.component("comparison-table", {
     this.parameters = Array.from(
       new Set(comparison.flatMap((c) => Object.keys(c)))
     ).filter(
-      (k) => !nonDisplayParams.has(k as keyof ComparisonService)
+      (k) => !NON_AUTO_DISPLAY_PARAMS.has(k as keyof ComparisonService)
     ) as (keyof ComparisonService)[];
   },
   computed: {
     serviceNames() {
       return this.comparison.map((c) => c.name);
+    },
+    starParams() {
+      return STAR_PARAMS;
     },
   },
 });
