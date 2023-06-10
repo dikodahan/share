@@ -1,6 +1,7 @@
 import Express from "express";
 import { SERVICE_GENERATORS } from "./services";
 import { UserException } from "./user-exception";
+import * as path from "path";
 
 const app = Express();
 
@@ -8,10 +9,21 @@ app.get("/", (_, res) => {
   res.redirect("https://dikodahan.github.io");
 });
 
-app.use("/", Express.static('public', {
-  fallthrough: true,
-  extensions: ["html"]
-}));
+app.use(
+  "/",
+  Express.static(path.join(__dirname, "../../public"), {
+    fallthrough: true,
+    extensions: ["html"],
+  })
+);
+
+app.use(
+  "/scripts",
+  Express.static(path.join(__dirname, "../../lib/frontend"), {
+    fallthrough: true,
+    extensions: ["html"],
+  })
+);
 
 app.get("/:service", (req, res) => {
   const { u: username, p: password } = req.query;

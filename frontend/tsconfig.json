@@ -1,0 +1,17 @@
+{
+	"extends": "../tsconfig.common.json",
+	"compilerOptions": {
+		"module": "ESNext",
+		"lib": [
+			"es2015",
+			"dom"
+		],
+		"rootDir": "src",
+		"outDir": "../lib/frontend",
+
+	},
+	"include": [
+		"../shared/**/*",
+		"src/**/*"
+	]
+}
