@@ -8,10 +8,21 @@ app.get("/", (_, res) => {
   res.redirect("https://dikodahan.github.io");
 });
 
-app.use("/", Express.static('public', {
-  fallthrough: true,
-  extensions: ["html"]
-}));
+app.use(
+  "/",
+  Express.static("../../public", {
+    fallthrough: true,
+    extensions: ["html"],
+  })
+);
+
+app.use(
+  "/scripts",
+  Express.static("../../lib/frontend", {
+    fallthrough: true,
+    extensions: ["html"],
+  })
+);
 
 app.get("/:service", (req, res) => {
   const { u: username, p: password } = req.query;

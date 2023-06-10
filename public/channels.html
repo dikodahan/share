@@ -7,7 +7,8 @@
         border-collapse: collapse;
         width: 100%;
       }
-      th, td {
+      th,
+      td {
         border: 1px solid black;
         padding: 8px;
         text-align: center;
@@ -21,15 +22,21 @@
       .cross {
         color: red;
       }
+      .fixTableHead {
+        overflow-y: auto;
+        height: 98vh;
+      }
+      .fixTableHead thead th {
+        position: sticky;
+        top: 0;
+      }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
   </head>
   <body>
-    <table id="channels">
-      <thead class="title-case">
-      </thead>
-      <tbody>
-      </tbody>
-    </table>
-    <script type="module" src="channels.js"></script>
+    <div id="app">
+      <channel-table></channel-table>
+    </div>
+    <script type="module" src="scripts/stats.js"></script>
   </body>
 </html>

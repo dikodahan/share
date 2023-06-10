@@ -1,13 +1,7 @@
 {
 	"compilerOptions": {
 		"target": "ESNext",
-		"module": "commonjs",
 		"moduleResolution": "node",
-		"lib": [
-			"es2015"
-		],
-		"rootDir": "src",
-		"outDir": "lib",
 		"strict": true,
 		"alwaysStrict": true,
 		"strictFunctionTypes": true,
@@ -29,9 +23,5 @@
 		"resolveJsonModule": true,
 		"inlineSourceMap": true,
 		"inlineSources": true,
-	},
-	"include": [
-		"typings/**/*",
-		"src/**/*"
-	]
+	}
 }
