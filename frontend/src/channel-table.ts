@@ -4,16 +4,16 @@ Vue.component("channel-table", {
         <table>
             <thead class="title-case">
                 <tr>
-                    <th>Channel Name</th>
                     <th v-for="(service, name) in services">{{ getServiceName(name) }}</th>
+                    <th>שם ערוץ</th>
                 </tr>
             </thead>
             <tbody>
                 <tr v-for="name in channelNames">
-                    <td>{{ name }}</td>
                     <td v-for="(service, serviceName) in services">
-                        {{ service.includes(name) ? "✅" : "🛑" }}
+                    {{ service.includes(name) ? "✅" : "🛑" }}
                     </td>
+                    <td>{{ name }}</td>
                 </tr>
             </tbody>
         </table>
