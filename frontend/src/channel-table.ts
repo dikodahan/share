@@ -5,7 +5,7 @@ Vue.component("channel-table", {
             <thead class="title-case">
                 <tr>
                     <th>Channel Name</th>
-                    <th v-for="(service, name) in services">{{ name }}</th>
+                    <th v-for="(service, name) in services">{{ getServiceName(name) }}</th>
                 </tr>
             </thead>
             <tbody>
@@ -21,13 +21,28 @@ Vue.component("channel-table", {
     `,
   data() {
     return {
-      services: {},
+      services: {} as ChannelStats,
+      comparison: [] as ComparisonService[],
     };
   },
   async beforeMount() {
-    const res = await fetch("/service-channel-names.json");
-    const services = (await res.json()) as ChannelStats;
+    const [services, comparison] = await Promise.all([
+      fetch("/service-channel-names.json").then((res) =>
+        res.json()
+      ) as Promise<ChannelStats>,
+      fetch("/comparison-services.json").then((res) => res.json()) as Promise<
+        ComparisonService[]
+      >,
+    ]);
     this.services = services;
+    this.comparison = comparison;
+  },
+  methods: {
+    getServiceName(service: string) {
+      return (
+        this.comparison.find((s) => s.service === service)?.name ?? service
+      );
+    },
   },
   computed: {
     channelNames() {

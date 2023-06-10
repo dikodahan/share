@@ -4,10 +4,9 @@
   "description": "",
   "scripts": {
     "build:channels": "node ../lib/backend/build-channels.js",
-    "build": "tsc & npm run build:channels",
+    "build": "tsc && npm run build:channels",
     "watch": "tsc -w",
-    "start": "node ../lib/backend/index.js",
-    "prestart": "npm run build"
+    "start": "node ../lib/backend/index.js"
   },
   "author": "",
   "license": "ISC",
