@@ -15,5 +15,8 @@
   "license": "ISC",
   "files": [
     "./lib/*"
-  ]
+  ],
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
 }
