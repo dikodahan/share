@@ -4,7 +4,6 @@
   "description": "",
   "scripts": {
     "build": "tsc",
-    "prebuild": "npm ci",
     "watch": "tsc -w",
     "clean": "rm -rf ../lib/frontend node_modules"
   },
