@@ -6,7 +6,7 @@ const NON_AUTO_DISPLAY_PARAMS: Set<keyof ComparisonService> = new Set([
   ...STAR_PARAMS,
 ]);
 
-window.Vue.component("comparison-table", {
+Vue.component("comparison-table", {
   template: `
         <div>
             <table>

@@ -6,10 +6,17 @@
     "build:backend": "npm run build --prefix ./backend",
     "build:frontend": "npm run build --prefix ./frontend",
     "build": "npm run build:backend && npm run build:frontend",
-    "clean": "rm -rf ./lib",
+    "install:backend": "npm ci --prefix ./backend",
+    "install:frontend": "npm ci --prefix ./frontend",
+    "install:root": "npm ci",
+    "install:all": "npm run install:root && npm run install:backend && npm run install:frontend",
+    "clean:backend": "npm run clean --prefix ./backend",
+    "clean:frontend": "npm run clean --prefix ./frontend",
+    "clean:root": "rm -rf lib node_modules",
+    "clean": "npm run clean:backend && npm run clean:frontend && npm run clean:root",
     "watch": "tsc -w",
     "start": "npm run start --prefix ./backend",
-    "prestart": "npm run build"
+    "prestart": "npm run install:root && npm run build"
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +25,8 @@
   ],
   "devDependencies": {
     "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
   }
 }

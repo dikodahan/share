@@ -1,3 +1,4 @@
+export {};
 Vue.component("channel-table", {
   template: `
     <div class="fixTableHead">
