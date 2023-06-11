@@ -462,16 +462,6 @@
     {
         "extGrp": "ילדים",
         "groupTitle": "Israel: Kids",
-        "tvgId": "ערוץ WiZ [YES]",
-        "tvgLogo": "https://dikodahan.github.io/picons/light/Wiz.png",
-        "tvgRec": "7",
-        "catchupDays": "7",
-        "channelName": "וויז",
-        "channelId": "yes-wiz-il"
-    },
-    {
-        "extGrp": "ילדים",
-        "groupTitle": "Israel: Kids",
         "tvgId": "ג’וניור [YES]",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Junior.png",
         "tvgRec": "7",
