@@ -10,7 +10,7 @@
     "watch": "tsc -w",
     "build": "./build.sh",
     "prebuild": "./install.sh",
-    "start": "./start.sh"
+    "start": "node lib/backend/index.js"
   },
   "author": "",
   "license": "ISC",
