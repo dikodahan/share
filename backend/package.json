@@ -5,10 +5,8 @@
   "scripts": {
     "build:channels": "node ../lib/backend/build-channels.js",
     "build": "tsc && npm run build:channels",
-    "prebuild": "npm ci",
     "watch": "tsc -w",
     "start": "node ../lib/backend/index.js",
-    "prestart": "npm run build",
     "clean": "rm -rf ../lib/backend node_modules"
   },
   "author": "",
