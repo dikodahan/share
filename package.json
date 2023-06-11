@@ -10,8 +10,7 @@
     "watch": "tsc -w",
     "build": "./build.sh",
     "prebuild": "./install.sh",
-    "start": "./start.sh",
-    "prestart": "npm run build"
+    "start": "./start.sh"
   },
   "author": "",
   "license": "ISC",
