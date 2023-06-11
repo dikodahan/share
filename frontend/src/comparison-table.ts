@@ -1,5 +1,5 @@
 export {};
-const STAR_PARAMS: (keyof ComparisonService)[] = ["ציון"];
+const STAR_PARAMS: (keyof ComparisonService)[] = ["ציון משוקלל","יציבות","איכות","תמיכה"];
 const NON_AUTO_DISPLAY_PARAMS: Set<keyof ComparisonService> = new Set([
   "name",
   "service",

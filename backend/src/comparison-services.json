@@ -2,7 +2,7 @@
     {
         "name"              : "Datoo / Livego",
         "service"           : "livego",
-        "ציון"              : "5",
+        "ציון משוקלל"       : "5",
         "DikoPlus"          : true,
         "DikoPlusEN"        : true,
         "יציבות"            : "4",
@@ -27,7 +27,7 @@
     {
         "name"              : "Antifriz",
         "service"           : "antifriz",
-        "ציון"              : "5",
+        "ציון משוקלל"       : "5",
         "DikoPlus"          : true,
         "DikoPlusEN"        : false,
         "יציבות"            : "5",
@@ -52,7 +52,7 @@
     {
         "name"              : "Crystal",
         "service"           : "crystal",
-        "ציון"              : "4",
+        "ציון משוקלל"       : "4",
         "DikoPlus"          : true,
         "DikoPlusEN"        : false,
         "יציבות"            : "4",
@@ -77,7 +77,7 @@
     {
         "name"              : "Dino",
         "service"           : "dino",
-        "ציון"              : "4",
+        "ציון משוקלל"       : "4",
         "DikoPlus"          : true,
         "DikoPlusEN"        : false,
         "יציבות"            : "4",
@@ -102,7 +102,7 @@
     {
         "name"              : "Edem / ilook",
         "service"           : "edem",
-        "ציון"              : "3",
+        "ציון משוקלל"       : "3",
         "DikoPlus"          : true,
         "DikoPlusEN"        : false,
         "יציבות"            : "3",
