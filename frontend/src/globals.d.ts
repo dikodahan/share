@@ -1,7 +1,2 @@
-import type Vue from "vue";
-
-declare global {
-  interface Window {
-    Vue: Vue;
-  }
-}
+// @ts-ignore: Subsequent variable declarations must have the same type.  Variable 'Vue' must be of type 'typeof Vue', but here has type 'VueConstructor<Vue<Record<string, any>, Record<string, any>, never, never, (event: string, ...args: any[]) => Vue<Record<string, any>, Record<string, any>, never, never, ...>>>'.ts(2403)
+declare const Vue: import("vue").VueConstructor;

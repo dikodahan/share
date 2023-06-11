@@ -4,7 +4,9 @@
   "description": "",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc -w"
+    "prebuild": "npm ci",
+    "watch": "tsc -w",
+    "clean": "rm -rf ../lib/frontend node_modules"
   },
   "author": "",
   "license": "ISC",
@@ -12,9 +14,8 @@
     "./bin/*",
     "./lib/*"
   ],
-  "typings": "./lib/frontend/index.d.ts",
   "devDependencies": {
-    "@types/vue": "^2.0.0",
+    "vue": "^2.7.14",
     "typescript": "^4.9.4"
   }
 }

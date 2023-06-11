@@ -1,17 +1,23 @@
 {
 	"extends": "../tsconfig.common.json",
 	"compilerOptions": {
-		"module": "ESNext",
+		"module": "es2015",
+		"target": "ESNext",
 		"lib": [
-			"es2015",
+			"es2019",
 			"dom"
 		],
 		"rootDir": "src",
 		"outDir": "../lib/frontend",
-
+		"strict": true,
+		
 	},
 	"include": [
 		"../shared/**/*",
 		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"src/**/*.spec.ts"
 	]
 }

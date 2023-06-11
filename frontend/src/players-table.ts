@@ -4,7 +4,7 @@ const NON_AUTO_DISPLAY_PARAMS: Set<keyof PlayerInfo> = new Set([
   ...STAR_PARAMS,
 ]);
 
-window.Vue.component("players-table", {
+Vue.component("players-table", {
   template: `
   <div>
       <table>
