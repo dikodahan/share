@@ -2,7 +2,7 @@
     {
         "channelName": "כאן 11",
         "tvgName": "kan.11.il",
-        "tvgId": "כאן 11 [YES]",
+        "tvgId": "kan-11-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Kan-11.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -11,7 +11,7 @@
     {
         "channelName": "כאן 11",
         "tvgName": "kan.11.il",
-        "tvgId": "כאן 11 [YES]",
+        "tvgId": "kan-11-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Kan-11.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -20,7 +20,7 @@
     {
         "channelName": "קשת 12",
         "tvgName": "keshet.12.il",
-        "tvgId": "קשת [YES]",
+        "tvgId": "keshet-12-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Keshet-12.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -29,7 +29,7 @@
     {
         "channelName": "קשת 12",
         "tvgName": "keshet.12.il",
-        "tvgId": "קשת [YES]",
+        "tvgId": "keshet-12-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Keshet-12.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -38,7 +38,7 @@
     {
         "channelName": "קשת 12",
         "tvgName": "keshet.12.il",
-        "tvgId": "קשת [YES]",
+        "tvgId": "keshet-12-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Keshet-12.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -47,7 +47,7 @@
     {
         "channelName": "רשת 13",
         "tvgName": "reshet.13.il",
-        "tvgId": "רשת [YES]",
+        "tvgId": "reshet-13-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Reshet-13.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -56,7 +56,7 @@
     {
         "channelName": "רשת 13",
         "tvgName": "reshet.13.il",
-        "tvgId": "רשת [YES]",
+        "tvgId": "reshet-13-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Reshet-13.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -65,7 +65,7 @@
     {
         "channelName": "רשת 13",
         "tvgName": "reshet.13.il",
-        "tvgId": "רשת [YES]",
+        "tvgId": "reshet-13-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Reshet-13.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -74,7 +74,7 @@
     {
         "channelName": "ערוץ 14",
         "tvgName": "channel.14.il",
-        "tvgId": "ערוץ 14 [YES]",
+        "tvgId": "now-14-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Channel-14.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -83,7 +83,7 @@
     {
         "channelName": "ערוץ 14",
         "tvgName": "channel.14.il",
-        "tvgId": "ערוץ 14 [YES]",
+        "tvgId": "now-14-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Channel-14.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -92,7 +92,7 @@
     {
         "channelName": "ערוץ 14",
         "tvgName": "channel.14.il",
-        "tvgId": "ערוץ 14 [YES]",
+        "tvgId": "now-14-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Channel-14.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -101,7 +101,7 @@
     {
         "channelName": "כאן חינוכית",
         "tvgName": "kan.hinuchit.il",
-        "tvgId": "כאן חינוכית [YES]",
+        "tvgId": "kan-chinuchit-23-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Kan-Chinuchit.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -110,7 +110,7 @@
     {
         "channelName": "כאן חינוכית",
         "tvgName": "kan.hinuchit.il",
-        "tvgId": "כאן חינוכית [YES]",
+        "tvgId": "kan-chinuchit-23-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Kan-Chinuchit.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -119,7 +119,7 @@
     {
         "channelName": "ערוץ הכנסת",
         "tvgName": "knesset.il",
-        "tvgId": "ערוץ הכנסת [YES]",
+        "tvgId": "knesset-99-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Knesset.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -128,7 +128,7 @@
     {
         "channelName": "ערוץ הכנסת",
         "tvgName": "knesset.il",
-        "tvgId": "ערוץ הכנסת [YES]",
+        "tvgId": "knesset-99-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Knesset.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -137,7 +137,7 @@
     {
         "channelName": "קבלה לעם",
         "tvgName": "hidabrut.il",
-        "tvgId": "קבלה לעם [HOT]",
+        "tvgId": "kabbalah-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Kabalah.png",
         "extGrp": "ראשי",
         "tvgShift": 0,
@@ -146,7 +146,7 @@
     {
         "channelName": "ספורט 1",
         "tvgName": "yes.sport.1.il",
-        "tvgId": "ספורט 1 SD [YES]",
+        "tvgId": "sport-1-sd-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport1.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -155,7 +155,7 @@
     {
         "channelName": "ספורט 1",
         "tvgName": "yes.sport.1.hd.il",
-        "tvgId": "ספורט 1 HD [YES]",
+        "tvgId": "sport-1-hd-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport1.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -164,7 +164,7 @@
     {
         "channelName": "ספורט 2",
         "tvgName": "yes.sport.2.il",
-        "tvgId": "ספורט 2 HD [YES]",
+        "tvgId": "sport-2-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport2.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -173,7 +173,7 @@
     {
         "channelName": "ספורט 2",
         "tvgName": "yes.sport.2.il",
-        "tvgId": "ספורט 2 HD [YES]",
+        "tvgId": "sport-2-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport2.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -182,7 +182,7 @@
     {
         "channelName": "ספורט 3",
         "tvgName": "yes.sport.3.il",
-        "tvgId": "ספורט 3 HD [YES]",
+        "tvgId": "sport-3-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport3.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -191,7 +191,7 @@
     {
         "channelName": "ספורט 3",
         "tvgName": "yes.sport.3.il",
-        "tvgId": "ספורט 3 HD [YES]",
+        "tvgId": "sport-3-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport3.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -200,7 +200,7 @@
     {
         "channelName": "ספורט 4",
         "tvgName": "yes.sport.4.il",
-        "tvgId": "ספורט 4 HD [YES]",
+        "tvgId": "sport-4-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport4.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -209,7 +209,7 @@
     {
         "channelName": "ספורט 4",
         "tvgName": "yes.sport.4.il",
-        "tvgId": "ספורט 4 HD [YES]",
+        "tvgId": "sport-4-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport4.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -218,7 +218,7 @@
     {
         "channelName": "ספורט 5",
         "tvgName": "sport.5.il",
-        "tvgId": "5sport HD [YES]",
+        "tvgId": "sport-5-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Sport.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -227,7 +227,7 @@
     {
         "channelName": "ספורט 5",
         "tvgName": "sport.5.il",
-        "tvgId": "5sport HD [YES]",
+        "tvgId": "sport-5-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Sport.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -236,7 +236,7 @@
     {
         "channelName": "ספורט 5",
         "tvgName": "sport.5.il",
-        "tvgId": "5sport HD [YES]",
+        "tvgId": "sport-5-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Sport.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -245,7 +245,7 @@
     {
         "channelName": "ספורט 5",
         "tvgName": "sport.5.il",
-        "tvgId": "5sport HD [YES]",
+        "tvgId": "sport-5-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Sport.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -254,7 +254,7 @@
     {
         "channelName": "4K ספורט 5",
         "tvgName": "sport.5.4k.il",
-        "tvgId": "5SPORT 4K [YES]",
+        "tvgId": "sport-5-4k-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Sport-4K.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -263,7 +263,7 @@
     {
         "channelName": "ספורט 5 לייב",
         "tvgName": "sport.5.live.il",
-        "tvgId": "5LIVE HD [YES]",
+        "tvgId": "sport-5-live-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Live.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -272,7 +272,7 @@
     {
         "channelName": "ספורט 5 לייב",
         "tvgName": "sport.5.live.il",
-        "tvgId": "5LIVE HD [YES]",
+        "tvgId": "sport-5-live-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Live.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -281,7 +281,7 @@
     {
         "channelName": "ספורט 5 לייב",
         "tvgName": "sport.5.live.il",
-        "tvgId": "5LIVE HD [YES]",
+        "tvgId": "sport-5-live-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Live.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -290,7 +290,7 @@
     {
         "channelName": "ספורט 5 סטארס",
         "tvgName": "sport.5.starts.il",
-        "tvgId": "5STARS [YES]",
+        "tvgId": "sport-5-stars-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Stars.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -299,7 +299,7 @@
     {
         "channelName": "ספורט 5 סטארס",
         "tvgName": "sport.5.starts.il",
-        "tvgId": "5STARS [YES]",
+        "tvgId": "sport-5-stars-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Stars.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -308,7 +308,7 @@
     {
         "channelName": "ספורט 5 סטארס",
         "tvgName": "sport.5.starts.il",
-        "tvgId": "5STARS [YES]",
+        "tvgId": "sport-5-stars-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Stars.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -317,7 +317,7 @@
     {
         "channelName": "ספורט 5 פלוס",
         "tvgName": "sport.5.plus.il",
-        "tvgId": "5PLUS HD [YES]",
+        "tvgId": "sport-5-plus-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Plus.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -326,7 +326,7 @@
     {
         "channelName": "ספורט 5 פלוס",
         "tvgName": "sport.5.plus.il",
-        "tvgId": "5PLUS HD [YES]",
+        "tvgId": "sport-5-plus-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Plus.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -335,7 +335,7 @@
     {
         "channelName": "ספורט 5 גולד",
         "tvgName": "sport.5.gold.il",
-        "tvgId": "5GOLD [YES]",
+        "tvgId": "sport-5-gold-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/5-Gold.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -344,7 +344,7 @@
     {
         "channelName": "ONE",
         "tvgName": "one.1.il",
-        "tvgId": "ONE [YES]",
+        "tvgId": "one-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/ONE.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -353,7 +353,7 @@
     {
         "channelName": "ONE",
         "tvgName": "one.1.il",
-        "tvgId": "ONE [YES]",
+        "tvgId": "one-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/ONE.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -362,7 +362,7 @@
     {
         "channelName": "ONE",
         "tvgName": "one.1.il",
-        "tvgId": "ONE [YES]",
+        "tvgId": "one-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/ONE.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -371,7 +371,7 @@
     {
         "channelName": "ONE 2",
         "tvgName": "one.2.il",
-        "tvgId": "ONE2 [YES]",
+        "tvgId": "one-2-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/ONE2.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -380,7 +380,7 @@
     {
         "channelName": "ONE 2",
         "tvgName": "one.2.il",
-        "tvgId": "ONE2 [YES]",
+        "tvgId": "one-2-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/ONE2.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -389,7 +389,7 @@
     {
         "channelName": "ONE 2",
         "tvgName": "one.2.il",
-        "tvgId": "ONE2 [YES]",
+        "tvgId": "one-2-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/ONE2.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -398,7 +398,7 @@
     {
         "channelName": "יורוספורט 1",
         "tvgName": "eurosport.1.il",
-        "tvgId": "EUROSPORT [YES]",
+        "tvgId": "eurosport-1-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Eurosport1.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -407,7 +407,7 @@
     {
         "channelName": "יורוספורט 2",
         "tvgName": "eurosport.2.il",
-        "tvgId": "EUROSPORT 2 [YES]",
+        "tvgId": "eurosport-2-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Eurosport2.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -416,7 +416,7 @@
     {
         "channelName": "Trace ספורט סטארס",
         "tvgName": "trace.sport.stars.il",
-        "tvgId": "TRACE ספורט [YES]",
+        "tvgId": "sport-trace-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/TraceSS.png",
         "extGrp": "ספורט",
         "tvgShift": 0,
@@ -425,7 +425,7 @@
     {
         "channelName": "ערוץ ההומור",
         "tvgName": "humor.channel.il",
-        "tvgId": "ערוץ ההומור [YES]",
+        "tvgId": "humor-channel-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Humor-Channel.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -434,7 +434,7 @@
     {
         "channelName": "יס טלויזיה פעולה",
         "tvgName": "yes.tv.action.il",
-        "tvgId": "yes TV ACTION [YES]",
+        "tvgId": "tv-action-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Action.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -443,7 +443,7 @@
     {
         "channelName": "יס טלויזיה פעולה",
         "tvgName": "yes.tv.action.il",
-        "tvgId": "yes TV ACTION [YES]",
+        "tvgId": "tv-action-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Action.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -452,7 +452,7 @@
     {
         "channelName": "יס טלויזיה פעולה",
         "tvgName": "yes.tv.action.il",
-        "tvgId": "yes TV ACTION [YES]",
+        "tvgId": "tv-action-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Action.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -461,7 +461,7 @@
     {
         "channelName": "יס טלויזיה קומדיה",
         "tvgName": "yes.tv.comedy.il",
-        "tvgId": "yes TV COMEDY [YES]",
+        "tvgId": "tv-comedy-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Comedy.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -470,7 +470,7 @@
     {
         "channelName": "יס טלויזיה קומדיה",
         "tvgName": "yes.tv.comedy.il",
-        "tvgId": "yes TV COMEDY [YES]",
+        "tvgId": "tv-comedy-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Comedy.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -479,7 +479,7 @@
     {
         "channelName": "יס טלויזיה קומדיה",
         "tvgName": "yes.tv.comedy.il",
-        "tvgId": "yes TV COMEDY [YES]",
+        "tvgId": "tv-comedy-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Comedy.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -488,7 +488,7 @@
     {
         "channelName": "יס טלויזיה דרמה",
         "tvgName": "yes.tv.drama.il",
-        "tvgId": "yes TV DRAMA [YES]",
+        "tvgId": "tv-drama-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Drama.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -497,7 +497,7 @@
     {
         "channelName": "יס טלויזיה דרמה",
         "tvgName": "yes.tv.actiondrama.il",
-        "tvgId": "yes TV DRAMA [YES]",
+        "tvgId": "tv-drama-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-TV-Drama.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -506,7 +506,7 @@
     {
         "channelName": "יס סרטים פעולה",
         "tvgName": "yes.movies.action.il",
-        "tvgId": "yes MOVIES ACTION [YES]",
+        "tvgId": "movies-action-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Action.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -515,7 +515,7 @@
     {
         "channelName": "יס סרטים פעולה",
         "tvgName": "yes.movies.action.il",
-        "tvgId": "yes MOVIES ACTION [YES]",
+        "tvgId": "movies-action-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Action.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -524,7 +524,7 @@
     {
         "channelName": "יס סרטים פעולה",
         "tvgName": "yes.movies.action.il",
-        "tvgId": "yes MOVIES ACTION [YES]",
+        "tvgId": "movies-action-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Action.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -533,7 +533,7 @@
     {
         "channelName": "יס סרטים דרמה",
         "tvgName": "yes.movies.drama.il",
-        "tvgId": "yes MOVIES DRAMA [YES]",
+        "tvgId": "movies-drama-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Drama.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -542,7 +542,7 @@
     {
         "channelName": "יס סרטים דרמה",
         "tvgName": "yes.movies.drama.il",
-        "tvgId": "yes MOVIES DRAMA [YES]",
+        "tvgId": "movies-drama-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Drama.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -551,7 +551,7 @@
     {
         "channelName": "יס סרטים דרמה",
         "tvgName": "yes.movies.drama.il",
-        "tvgId": "yes MOVIES DRAMA [YES]",
+        "tvgId": "movies-drama-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Drama.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -560,7 +560,7 @@
     {
         "channelName": "יס סרטים קומדיה",
         "tvgName": "yes.movies.comedy.il",
-        "tvgId": "yes MOVIES COMEDY [YES]",
+        "tvgId": "movies-comedy-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Comedy.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -569,7 +569,7 @@
     {
         "channelName": "יס סרטים קומדיה",
         "tvgName": "yes.movies.comedy.il",
-        "tvgId": "yes MOVIES COMEDY [YES]",
+        "tvgId": "movies-comedy-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Comedy.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -578,7 +578,7 @@
     {
         "channelName": "יס סרטים קומדיה",
         "tvgName": "yes.movies.comedy.il",
-        "tvgId": "yes MOVIES COMEDY [YES]",
+        "tvgId": "movies-comedy-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Comedy.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -587,7 +587,7 @@
     {
         "channelName": "יס קולנוע ישראלי",
         "tvgName": "yes.israeli.movies.il",
-        "tvgId": "yes קולנוע ישראלי [YES]",
+        "tvgId": "israeli-cinema-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Israeli.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -596,7 +596,7 @@
     {
         "channelName": "יס קולנוע ישראלי",
         "tvgName": "yes.israeli.movies.il",
-        "tvgId": "yes קולנוע ישראלי [YES]",
+        "tvgId": "israeli-cinema-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Israeli.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -605,7 +605,7 @@
     {
         "channelName": "יס סרטים ילדים",
         "tvgName": "yes.movies.kids.il",
-        "tvgId": "yes MOVIES KIDS [YES]",
+        "tvgId": "movies-kids-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Kids.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -614,7 +614,7 @@
     {
         "channelName": "יס סרטים ילדים",
         "tvgName": "yes.movies.kids.il",
-        "tvgId": "yes MOVIES KIDS [YES]",
+        "tvgId": "movies-kids-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Movies-Kids.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -623,7 +623,7 @@
     {
         "channelName": "יס דוקו",
         "tvgName": "yes.docu.il",
-        "tvgId": "yes דוקו [YES]",
+        "tvgId": "docu-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Docu.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -632,7 +632,7 @@
     {
         "channelName": "יס דוקו",
         "tvgName": "yes.docu.il",
-        "tvgId": "yes דוקו [YES]",
+        "tvgId": "docu-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Docu.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -641,7 +641,7 @@
     {
         "channelName": "יס דוקו",
         "tvgName": "yes.docu.il",
-        "tvgId": "yes דוקו [YES]",
+        "tvgId": "docu-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Docu.png",
         "extGrp": "ערוצי יס",
         "tvgShift": 0,
@@ -650,7 +650,7 @@
     {
         "channelName": "הוט 3",
         "tvgName": "hot.3.il",
-        "tvgId": "HOT3 [HOT]",
+        "tvgId": "3-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-3.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -659,7 +659,7 @@
     {
         "channelName": "הוט 8",
         "tvgName": "hot.8.il",
-        "tvgId": "HOT8 [HOT]",
+        "tvgId": "8-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-8.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -668,7 +668,7 @@
     {
         "channelName": "הוט זון",
         "tvgName": "hot.zone.il",
-        "tvgId": "HOT Zone [HOT]",
+        "tvgId": "zone-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Zone.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -677,7 +677,7 @@
     {
         "channelName": "הוט קומדי סנטרל",
         "tvgName": "hot.comedy.central.il",
-        "tvgId": "HOT COMEDY [HOT]",
+        "tvgId": "comedy-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Comedy-Central.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -686,7 +686,7 @@
     {
         "channelName": "הוט בידור ישראלי",
         "tvgName": "hot.bidur.israeli.il",
-        "tvgId": "הוט בידור [HOT]",
+        "tvgId": "entertainment-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Bidur.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -695,7 +695,7 @@
     {
         "channelName": "הוט סינמה 1",
         "tvgName": "hot.cinema.1.il",
-        "tvgId": "HOT cinema 1 [HOT]",
+        "tvgId": "cinema-1-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C1.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -704,7 +704,7 @@
     {
         "channelName": "הוט סינמה 1",
         "tvgName": "hot.cinema.1.il",
-        "tvgId": "HOT cinema 1 [HOT]",
+        "tvgId": "cinema-1-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C1.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -713,7 +713,7 @@
     {
         "channelName": "הוט סינמה 2",
         "tvgName": "hot.cinema.2.il",
-        "tvgId": "HOT cinema 2 [HOT]",
+        "tvgId": "cinema-2-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C2.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -722,7 +722,7 @@
     {
         "channelName": "הוט סינמה 2",
         "tvgName": "hot.cinema.2.il",
-        "tvgId": "HOT cinema 2 [HOT]",
+        "tvgId": "cinema-2-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C2.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -731,7 +731,7 @@
     {
         "channelName": "הוט סינמה 2",
         "tvgName": "yes.movies.action.il",
-        "tvgId": "HOT cinema 2 [HOT]",
+        "tvgId": "cinema-2-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C2.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -740,7 +740,7 @@
     {
         "channelName": "הוט סינמה 3",
         "tvgName": "hot.cinema.3.il",
-        "tvgId": "HOT cinema 3 [HOT]",
+        "tvgId": "cinema-3-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C3.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -749,7 +749,7 @@
     {
         "channelName": "הוט סינמה 3",
         "tvgName": "hot.cinema.3.il",
-        "tvgId": "HOT cinema 3 [HOT]",
+        "tvgId": "cinema-3-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C3.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -758,7 +758,7 @@
     {
         "channelName": "הוט סינמה 3",
         "tvgName": "hot.cinema.3.il",
-        "tvgId": "HOT cinema 3 [HOT]",
+        "tvgId": "cinema-3-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C3.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -767,7 +767,7 @@
     {
         "channelName": "הוט סינמה 4",
         "tvgName": "yes.movies.drama.il",
-        "tvgId": "HOT cinema 4 [HOT]",
+        "tvgId": "cinema-4-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C4.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -776,7 +776,7 @@
     {
         "channelName": "הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "HOT cinema 4 [HOT]",
+        "tvgId": "cinema-4-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C4.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -785,7 +785,7 @@
     {
         "channelName": "הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "HOT cinema 4 [HOT]",
+        "tvgId": "cinema-4-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C4.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -794,7 +794,7 @@
     {
         "channelName": "הוט סינמה 4",
         "tvgName": "hot.cinema.4.il",
-        "tvgId": "HOT cinema 4 [HOT]",
+        "tvgId": "cinema-4-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-C4.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -803,7 +803,7 @@
     {
         "channelName": "הוט סינמה משפחה",
         "tvgName": "hot.cinema.family",
-        "tvgId": "Cinema Family [HOT]",
+        "tvgId": "cinema-family-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Cinema-Family.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -812,7 +812,7 @@
     {
         "channelName": "HBO הוט",
         "tvgName": "hot.hbo.il",
-        "tvgId": "HOT HBO [HOT]",
+        "tvgId": "hbo-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-HBO.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -821,7 +821,7 @@
     {
         "channelName": "HBO הוט",
         "tvgName": "hot.hbo.il",
-        "tvgId": "HOT HBO [HOT]",
+        "tvgId": "hbo-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-HBO.png",
         "extGrp": "ערוצי הוט",
         "tvgShift": 0,
@@ -830,7 +830,7 @@
     {
         "channelName": "זום",
         "tvgName": "zoom.il",
-        "tvgId": "Zoom [YES]",
+        "tvgId": "zoom-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Zoom.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -839,7 +839,7 @@
     {
         "channelName": "הופ!",
         "tvgName": "hop.il",
-        "tvgId": "הופ! [YES]",
+        "tvgId": "hop-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Hop.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -848,7 +848,7 @@
     {
         "channelName": "הופ! ילדות ישראלית",
         "tvgName": "hop.yaldut.israelit.il",
-        "tvgId": "ילדות ישראלית [YES]",
+        "tvgId": "hop-yaldut-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Hop-Yaldot.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -857,7 +857,7 @@
     {
         "channelName": "דיסני",
         "tvgName": "disney.il",
-        "tvgId": "דיסני HD [YES]",
+        "tvgId": "disney-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Disney.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -866,7 +866,7 @@
     {
         "channelName": "דיסני ג׳וניור",
         "tvgName": "disney.junior.il",
-        "tvgId": "דיסני ג’וניור [YES]",
+        "tvgId": "disney-junior-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Disney-Jr.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -875,7 +875,7 @@
     {
         "channelName": "ניקולודיאון",
         "tvgName": "nickolodeon.il",
-        "tvgId": "ניקלודיאון [YES]",
+        "tvgId": "nick-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Nick.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -884,7 +884,7 @@
     {
         "channelName": "ניק ג׳וניור",
         "tvgName": "nick.junior.il",
-        "tvgId": "ניק ג’וניור [YES]",
+        "tvgId": "nick-junior-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Nick-Jr.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -893,7 +893,7 @@
     {
         "channelName": "ניק טין",
         "tvgName": "nick.teen.il",
-        "tvgId": "Teennick [YES]",
+        "tvgId": "teen-nick-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/TeenNick.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -902,7 +902,7 @@
     {
         "channelName": "בייבי",
         "tvgName": "baby.il",
-        "tvgId": "בייבי [YES]",
+        "tvgId": "baby-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Baby.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -911,7 +911,7 @@
     {
         "channelName": "וויז",
         "tvgName": "ערוץ WiZ",
-        "tvgId": "ערוץ WiZ [YES]",
+        "tvgId": "wiz-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Wiz.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -920,7 +920,7 @@
     {
         "channelName": "הוט לולי",
         "tvgName": "luli.il",
-        "tvgId": "HOT לולי [HOT]",
+        "tvgId": "luli-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/HOT-Luli.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -929,7 +929,7 @@
     {
         "channelName": "ג׳וניור",
         "tvgName": "junior.il",
-        "tvgId": "ג’וניור [YES]",
+        "tvgId": "junior-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Junior.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -938,7 +938,7 @@
     {
         "channelName": "ג׳וניור",
         "tvgName": "junior.il",
-        "tvgId": "ג’וניור [YES]",
+        "tvgId": "junior-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Junior.png",
         "extGrp": "ילדים",
         "tvgShift": 0,
@@ -947,7 +947,7 @@
     {
         "channelName": "ערוץ 24",
         "tvgName": "channel.24.il",
-        "tvgId": "ערוץ 24 החדש [YES]",
+        "tvgId": "channel-24-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Channel-24.png",
         "extGrp": "מוזיקה",
         "tvgShift": 0,
@@ -956,7 +956,7 @@
     {
         "channelName": "IL מוזיקה",
         "tvgName": "channel.24.il",
-        "tvgId": "ערוץ מוזיקה IL [HOT]",
+        "tvgId": "muzika-il-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Music-il.png",
         "extGrp": "מוזיקה",
         "tvgShift": 0,
@@ -965,7 +965,7 @@
     {
         "channelName": "MTV ישראל",
         "tvgName": "mtv.israel.il",
-        "tvgId": "MTV [YES]",
+        "tvgId": "mtv-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/MTV.png",
         "extGrp": "מוזיקה",
         "tvgShift": 0,
@@ -974,7 +974,7 @@
     {
         "channelName": "MTV להיטים",
         "tvgName": "mtv.hits.il",
-        "tvgId": "MTV HITS [YES]",
+        "tvgId": "mtv-hits-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/MTV-Hits.png",
         "extGrp": "מוזיקה",
         "tvgShift": 0,
@@ -983,7 +983,7 @@
     {
         "channelName": "MTV 00s",
         "tvgName": "mtv.00s.il",
-        "tvgId": "MTV 00’s [YES]",
+        "tvgId": "mtv-00s-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/MTV-00s.png",
         "extGrp": "מוזיקה",
         "tvgShift": 0,
@@ -992,7 +992,7 @@
     {
         "channelName": "MTV 80s",
         "tvgName": "mtv.80s.il",
-        "tvgId": "MTV 80s [YES]",
+        "tvgId": "mtv-80s-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/MTV-80s.png",
         "extGrp": "מוזיקה",
         "tvgShift": 0,
@@ -1001,7 +1001,7 @@
     {
         "channelName": "מוזיקה קלאסית",
         "tvgName": "stingray.classic",
-        "tvgId": "CLASSICA [YES]",
+        "tvgId": "classica-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Stingray-Classica.png",
         "extGrp": "מוזיקה",
         "tvgShift": 0,
@@ -1010,7 +1010,7 @@
     {
         "channelName": "אנימל פלאנט",
         "tvgName": "animal.planet.il",
-        "tvgId": "Animal Planet [YES]",
+        "tvgId": "animal-planet-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Animal-Planet.png",
         "extGrp": "טבע והיסטוריה",
         "tvgShift": 0,
@@ -1019,7 +1019,7 @@
     {
         "channelName": "נשיונל ג׳יאוגרפיק",
         "tvgName": "national.geographic.il",
-        "tvgId": "National Geographic [YES]",
+        "tvgId": "national-geographic-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/National-Geographic.png",
         "extGrp": "טבע והיסטוריה",
         "tvgShift": 0,
@@ -1028,7 +1028,7 @@
     {
         "channelName": "נשיונל ג׳יאוגרפיק",
         "tvgName": "national.geographic.il",
-        "tvgId": "National Geographic [YES]",
+        "tvgId": "national-geographic-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/National-Geographic.png",
         "extGrp": "טבע והיסטוריה",
         "tvgShift": 0,
@@ -1037,7 +1037,7 @@
     {
         "channelName": "נשיונל ג׳יאוגרפיק פראי",
         "tvgName": "nat.geo.wild.il",
-        "tvgId": "NG WILD [YES]",
+        "tvgId": "natgeo-wild-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Nat-Geo-Wild.png",
         "extGrp": "טבע והיסטוריה",
         "tvgShift": 0,
@@ -1046,7 +1046,7 @@
     {
         "channelName": "נשיונל ג׳יאוגרפיק פראי",
         "tvgName": "nat.geo.wild.il",
-        "tvgId": "NG WILD [YES]",
+        "tvgId": "natgeo-wild-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Nat-Geo-Wild.png",
         "extGrp": "טבע והיסטוריה",
         "tvgShift": 0,
@@ -1055,7 +1055,7 @@
     {
         "channelName": "דיסקברי",
         "tvgName": "discovery.il",
-        "tvgId": "דיסקברי HD [YES]",
+        "tvgId": "discovery-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Discovery.png",
         "extGrp": "טבע והיסטוריה",
         "tvgShift": 0,
@@ -1064,7 +1064,7 @@
     {
         "channelName": "דיסקברי מדע",
         "tvgName": "discovery.science.il",
-        "tvgId": "Discovery Science [YES]",
+        "tvgId": "discovery-science-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Discovery-Science.png",
         "extGrp": "טבע והיסטוריה",
         "tvgShift": 0,
@@ -1073,7 +1073,7 @@
     {
         "channelName": "HD היסטוריה",
         "tvgName": "history.hd.il",
-        "tvgId": "היסטוריה HD [YES]",
+        "tvgId": "history-hd-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/History-HD.png",
         "extGrp": "טבע והיסטוריה",
         "tvgShift": 0,
@@ -1082,7 +1082,7 @@
     {
         "channelName": "היסטוריה",
         "tvgName": "history.il",
-        "tvgId": "ערוץ ההיסטוריה [YES]",
+        "tvgId": "history-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/History.png",
         "extGrp": "טבע והיסטוריה",
         "tvgShift": 0,
@@ -1091,7 +1091,7 @@
     {
         "channelName": "ערוץ האח הגדול",
         "tvgName": "big.brother.il",
-        "tvgId": "האח הגדול LIVE [YES]",
+        "tvgId": "big-brother-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Big-Brother.png",
         "extGrp": "ריאליטי ודוקומנטרי",
         "tvgShift": 0,
@@ -1100,7 +1100,7 @@
     {
         "channelName": "ערוץ האח הגדול",
         "tvgName": "big.brother.il",
-        "tvgId": "האח הגדול LIVE [YES]",
+        "tvgId": "big-brother-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Big-Brother.png",
         "extGrp": "ריאליטי ודוקומנטרי",
         "tvgShift": 0,
@@ -1109,7 +1109,7 @@
     {
         "channelName": "TLC",
         "tvgName": "tlc.il",
-        "tvgId": "TLC [YES]",
+        "tvgId": "tlc-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/TLC.png",
         "extGrp": "ריאליטי ודוקומנטרי",
         "tvgShift": 0,
@@ -1118,7 +1118,7 @@
     {
         "channelName": "CBS ריאליטי",
         "tvgName": "cbs.reality.il",
-        "tvgId": "CBS reality [YES]",
+        "tvgId": "cbs-reality-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/CBS-Reality.png",
         "extGrp": "ריאליטי ודוקומנטרי",
         "tvgShift": 0,
@@ -1127,7 +1127,7 @@
     {
         "channelName": "ערוץ החקירות",
         "tvgName": "investigation.discovery.il",
-        "tvgId": "Investigation Discovery [YES]",
+        "tvgId": "investigation-discovery-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/ID.png",
         "extGrp": "ריאליטי ודוקומנטרי",
         "tvgShift": 0,
@@ -1136,7 +1136,7 @@
     {
         "channelName": "ערוץ האוכל",
         "tvgName": "food.channel.il",
-        "tvgId": "ערוץ האוכל [YES]",
+        "tvgId": "food-channel-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Haochel.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1145,7 +1145,7 @@
     {
         "channelName": "רשת האוכל",
         "tvgName": "food.network.il",
-        "tvgId": "Food Network [HOT]",
+        "tvgId": "food-network-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Food-Network.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1154,7 +1154,7 @@
     {
         "channelName": "בית+",
         "tvgName": "home.plus.il",
-        "tvgId": "בית+ [YES]",
+        "tvgId": "home-plus-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Home-Plus.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1163,7 +1163,7 @@
     {
         "channelName": "ערוץ החיים הטובים",
         "tvgName": "good.life.il",
-        "tvgId": "החיים הטובים [YES]",
+        "tvgId": "good-life-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Hachaim.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1172,7 +1172,7 @@
     {
         "channelName": "ערוץ הבריאות",
         "tvgName": "health.channel.il",
-        "tvgId": "ערוץ בריאות [YES]",
+        "tvgId": "health-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Health.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1181,7 +1181,7 @@
     {
         "channelName": "ערוץ העיצוב",
         "tvgName": "design.channel.il",
-        "tvgId": "ערוץ העיצוב [YES]",
+        "tvgId": "design-channel-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Design-Channel.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1190,7 +1190,7 @@
     {
         "channelName": "ערוץ האופנה",
         "tvgName": "ftv.il",
-        "tvgId": "FTV [YES]",
+        "tvgId": "ftv-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/FTV.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1199,7 +1199,7 @@
     {
         "channelName"     : "E! ערוץ",
         "tvgName": "e.entertainment.il",
-        "tvgId": "E! [YES]",
+        "tvgId": "e-entertainment-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/E-Entertainment.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1208,7 +1208,7 @@
     {
         "channelName": "ערוץ אגו",
         "tvgName": "ego.channel.il",
-        "tvgId": "ערוץ אגו [YES]",
+        "tvgId": "ego-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Ego.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1217,7 +1217,7 @@
     {
         "channelName": "ערוץ הטיולים",
         "tvgName": "travel.channel.il",
-        "tvgId": "ערוץ הטיולים [YES]",
+        "tvgId": "travel-channel-il-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Hatiyulim.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1226,7 +1226,7 @@
     {
         "channelName": "ערוץ הטיולים",
         "tvgName": "travel.channel.sd.il",
-        "tvgId": "Travel Channel [HOT]",
+        "tvgId": "travel-channel-en-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Travel-Channel.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1235,7 +1235,7 @@
     {
         "channelName": "ערוץ הקניות",
         "tvgName": "shopping.channel.il",
-        "tvgId": "ערוץ הקניות [YES]",
+        "tvgId": "shopping-channel-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Shopping-Channel.png",
         "extGrp": "תרבות וסטייל",
         "tvgShift": 0,
@@ -1244,7 +1244,7 @@
     {
         "channelName": "חדשות סי אן אן",
         "tvgName": "CNN HD",
-        "tvgId": "CNN [YES]",
+        "tvgId": "cnn-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/CNN.png",
         "extGrp": "חדשות מהעולם",
         "tvgShift": 0,
@@ -1253,7 +1253,7 @@
     {
         "channelName": "חדשות פוקס",
         "tvgName": "Fox News",
-        "tvgId": "FOX NEWS [YES]",
+        "tvgId": "fox-news-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Fox-News.png",
         "extGrp": "חדשות מהעולם",
         "tvgShift": 0,
@@ -1262,7 +1262,7 @@
     {
         "channelName": "פוקס ביזנס",
         "tvgName": "fox.business.network.us",
-        "tvgId": "פוקס ביזנס [HOT]",
+        "tvgId": "fox-business-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Fox-Business.png",
         "extGrp": "חדשות מהעולם",
         "tvgShift": 0,
@@ -1271,7 +1271,7 @@
     {
         "channelName": "חדשות בלומברג",
         "tvgName": "BLOOMBERG TV",
-        "tvgId": "בלומברג [YES]",
+        "tvgId": "bloomberg-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Bloomberg.png",
         "extGrp": "חדשות מהעולם",
         "tvgShift": 0,
@@ -1280,7 +1280,7 @@
     {
         "channelName": "חדשות סקיי",
         "tvgName": "Sky News",
-        "tvgId": "SKY NEWS [YES]",
+        "tvgId": "sky-news-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sky-News.png",
         "extGrp": "חדשות מהעולם",
         "tvgShift": 0,
@@ -1289,7 +1289,7 @@
     {
         "channelName": "i24 צרפת",
         "tvgName": "i24.il",
-        "tvgId": "FRANCE 24 [YES]",
+        "tvgId": "i24-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/France-24.png",
         "extGrp": "חדשות מהעולם",
         "tvgShift": 0,
@@ -1298,7 +1298,7 @@
     {
         "channelName": "ערוץ 9",
         "tvgName": "channel.9.il",
-        "tvgId": "ישראל פלוס [YES]",
+        "tvgId": "israel-plus-9-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Channel-9.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
@@ -1307,7 +1307,7 @@
     {
         "channelName": "ערוץ 9",
         "tvgName": "channel.9.il",
-        "tvgId": "ישראל פלוס [YES]",
+        "tvgId": "israel-plus-9-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Channel-9.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
@@ -1316,7 +1316,7 @@
     {
         "channelName": "מכאן 33",
         "tvgName": "makan.33.il",
-        "tvgId": "מכאן [YES]",
+        "tvgId": "makan-33-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Makan-33.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
@@ -1325,7 +1325,7 @@
     {
         "channelName": "מכאן 33",
         "tvgName": "makan.33.il",
-        "tvgId": "מכאן [YES]",
+        "tvgId": "makan-33-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Makan-33.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
@@ -1334,7 +1334,7 @@
     {
         "channelName": "ערוץ הלא טיוי",
         "tvgName": "hala.il",
-        "tvgId": "Hala TV [YES]",
+        "tvgId": "hala-tv-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Hala-TV.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
@@ -1343,7 +1343,7 @@
     {
         "channelName": "ויוה",
         "tvgName": "viva.il",
-        "tvgId": "ויוה [YES]",
+        "tvgId": "viva-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Viva.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
@@ -1352,7 +1352,7 @@
     {
         "channelName": "ויוה+",
         "tvgName": "viva.plus.il",
-        "tvgId": "ויוה+ [YES]",
+        "tvgId": "viva-plus-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Viva-Plus.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
@@ -1361,7 +1361,7 @@
     {
         "channelName": "הערוץ הים תיכוני",
         "tvgName": "mediterranean.channel.il",
-        "tvgId": "ים תיכוני [YES]",
+        "tvgId": "mediteranean-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yam-Tihoni.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
@@ -1370,7 +1370,7 @@
     {
         "channelName": "ערוץ הדרמות הטורקיות+",
         "tvgName": "turkish.drama.channel.plus.il",
-        "tvgId": "ערוץ הדרמות הטורקיות+ [YES]",
+        "tvgId": "turkish-drama-plus-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Turkish-Drama-Plus.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
@@ -1379,7 +1379,7 @@
     {
         "channelName": "ערוץ הדרמות הטורקיות 2",
         "tvgName": "turkish.drama.channel.2.il",
-        "tvgId": "ערוץ הדרמות הטורקיות 2 [YES]",
+        "tvgId": "turkish-drama-2-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Turkish-Drama-2.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
@@ -1388,7 +1388,7 @@
     {
         "channelName": "הוט בוליווד",
         "tvgName": "yes.bollywood.il",
-        "tvgId": "Bollywood HD [HOT]",
+        "tvgId": "bollywood-hd-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Bollywood.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
@@ -1397,7 +1397,7 @@
     {
         "channelName": "הוט בוליווד",
         "tvgName": "yes.bollywood.il",
-        "tvgId": "Bollywood HD [HOT]",
+        "tvgId": "bollywood-hd-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Yes-Bollywood.png",
         "extGrp": "שפות זרות",
         "tvgShift": 0,
