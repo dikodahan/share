@@ -1215,7 +1215,7 @@
         "channelId": 12586
     },
     {
-        "channelName": "ערוץ הטיולים",
+        "channelName": "ערוץ הטיולים הישראלי",
         "tvgName": "travel.channel.il",
         "tvgId": "travel-channel-il-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Hatiyulim-DM.png",
@@ -1224,7 +1224,7 @@
         "channelId": 25824
     },
     {
-        "channelName": "ערוץ הטיולים",
+        "channelName": "ערוץ הטיולים האמריקאי",
         "tvgName": "travel.channel.sd.il",
         "tvgId": "travel-channel-en-HOT",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Travel-Channel-DM.png",

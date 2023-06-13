@@ -503,13 +503,13 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Ego-DM.png",
         "extGrp"        : "תרבות וסטייל"
     },
-    "ערוץ הטיולים": {
+    "ערוץ הטיולים הישראלי": {
         "tvgId"         : "travel-channel-il-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Hatiyulim.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Hatiyulim-DM.png",
         "extGrp"        : "תרבות וסטייל"
     },
-    "ערוץ הטיולים": {
+    "ערוץ הטיולים האמריקאי": {
         "tvgId"         : "travel-channel-en-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Travel-Channel.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Travel-Channel-DM.png",
