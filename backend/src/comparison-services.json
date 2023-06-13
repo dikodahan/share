@@ -2,7 +2,7 @@
     {
         "name"                  : "Datoo / Livego",
         "service"               : "livego",
-        "ציון משוקלל"           : "5",
+        "ציון משוקלל"           : "4",
         "DikoPlus"              : true,
         "DikoPlusEN"            : true,
         "יציבות"                : "4",
@@ -52,7 +52,7 @@
     {
         "name"                  : "Crystal",
         "service"               : "crystal",
-        "ציון משוקלל"           : "4",
+        "ציון משוקלל"           : "3",
         "DikoPlus"              : true,
         "DikoPlusEN"            : false,
         "יציבות"                : "4",
@@ -107,7 +107,7 @@
         "DikoPlusEN"            : false,
         "יציבות"                : "3",
         "איכות"                 : "4",
-        "תמיכה"                 : "2",
+        "תמיכה"                 : "1",
         "VoD"                   : false,
         "ערוצי עולם"            : "יש חלקי",
         "מכשירים בו-זמנית"      : "אחד",
