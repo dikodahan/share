@@ -1,6 +1,7 @@
 import LiveGoTest from "./livegotest.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
+import { channelLineup } from "../channel-lineup.json"
 
 export function* liveGoTestGenerator(
   username: string,
