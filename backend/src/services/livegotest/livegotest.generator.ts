@@ -15,7 +15,7 @@ export function* liveGoTestGenerator(
     yield line;
   }
 
-  // for (const { channelName, channelId } of LiveGoTest) {
+  // for (const { channelName, tvgName, channelId } of LiveGoTest) {
   //   const channelData = channelLineup[channelName];
     
   //   if (!channelData) {
@@ -23,7 +23,7 @@ export function* liveGoTestGenerator(
   //   }
     
   //   yield "";
-  //   yield `#EXTINF:-1 tvg-id="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}",${channelName}`;
+  //   yield `#EXTINF:-1 tvg-id="${channelData.tvgId}" tvg-name="${tvgName}" tvg-logo="${channelData.tvgLogo}",${channelName}`;
   //   yield `#EXTGRP:${channelData.extGrp}`;
   //   yield `http://livego.club:8080/${username}/${password}/${channelId}`;
   // }
