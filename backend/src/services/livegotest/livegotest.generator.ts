@@ -1,7 +1,7 @@
 import LiveGoTest from "./livegotest.json";
+import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
-import { channelLineup } from "../channel-lineup.json"
 
 export function* liveGoTestGenerator(
   username: string,
@@ -27,7 +27,7 @@ export function* liveGoTestGenerator(
     yield `#EXTGRP:${channelData.extGrp}`;
     yield `http://livego.club:8080/${username}/${password}/${channelId}`;
   }
-  
+
   // for (const { tvgId, tvgLogo, channelName, channelId, extGrp } of LiveGoTest) {
   //   yield "";
   //   yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
