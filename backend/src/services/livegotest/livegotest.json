@@ -144,7 +144,7 @@
         "channelId": 7343
     },
     {
-        "channelName": "ספורט 1",
+        "channelName": "SD ספורט 1",
         "tvgName": "yes.sport.1.il",
         "tvgId": "sport-1-sd-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport1.png",
@@ -153,7 +153,7 @@
         "channelId": 20415
     },
     {
-        "channelName": "ספורט 1",
+        "channelName": "HD ספורט 1",
         "tvgName": "yes.sport.1.hd.il",
         "tvgId": "sport-1-hd-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/light/Sport1.png",
