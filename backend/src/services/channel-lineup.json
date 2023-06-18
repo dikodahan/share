@@ -509,6 +509,12 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Ego-DM.png",
         "extGrp"        : "תרבות וסטייל"
     },
+    "ערוץ הנופש": {
+        "tvgId"         : "nofesh-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Hanofesh-Channel.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Hanofesh-Channel-DM.png",
+        "extGrp"        : "תרבות וסטייל"
+    },
     "ערוץ הטיולים הישראלי": {
         "tvgId"         : "travel-channel-il-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Hatiyulim.png",
@@ -519,6 +525,12 @@
         "tvgId"         : "travel-channel-en-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Travel-Channel.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Travel-Channel-DM.png",
+        "extGrp"        : "תרבות וסטייל"
+    },
+    "ערוץ השעשועונים": {
+        "tvgId"         : "game-show-channel-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Shashuonim-Channel.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Shashuonim-Channel-DM.png",
         "extGrp"        : "תרבות וסטייל"
     },
     "ערוץ האח הגדול": {
@@ -695,6 +707,12 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Viva-Premium-DM.png",
         "extGrp"        : "שפות זרות"
     },
+    "ויוה וינטג׳": {
+        "tvgId"         : "viva-vintage-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Viva-Vintage.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Viva-Vintage-DM.png",
+        "extGrp"        : "שפות זרות"
+    },
     "הערוץ הים תיכוני": {
         "tvgId"         : "mediteranean-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yam-Tihoni.png",
@@ -705,6 +723,12 @@
         "tvgId"         : "mediteranean-plus-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yam-Tihoni-Plus.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yam-Tihoni-Plus-DM.png",
+        "extGrp"        : "שפות זרות"
+    },
+    "הערוץ הים תיכוני 2": {
+        "tvgId"         : "mediteranean-2-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yam-Tihoni-2.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yam-Tihoni-2-DM.png",
         "extGrp"        : "שפות זרות"
     },
     "ערוץ הדרמות הטורקיות+": {
