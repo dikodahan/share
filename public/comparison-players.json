@@ -1,27 +1,111 @@
 {
     "Tivimate": {
-        "גרסה פרוצה עדכנית": false,
-        "VoD תמיכה בתוכן": true,
+        "logo": "https://image.winudf.com/v2/image1/YXIudHZwbGF5ZXIudHZfaWNvbl8xNTkwNDE3NjEzXzAxOQ/icon.png?w=320&fakeurl=1",
+        "אנדרויד טיוי": true,
+        "אנדרויד נייד": false,
+        "אפל טיוי": false,
+        "אפל נייד": false,
+        "ווימדוס": false,
+        "מאק": false,
+        "ציון": 1
+    },"STB Emu": {
+        "logo": "https://image.winudf.com/v2/image1/Y29tLm12YXMuc3RiLmVtdS5mcmVlX2ljb25fMTY1MTg2OTQ1MF8wMTI/icon.png?w=280&fakeurl=1",
+        "אנדרויד טיוי": true,
+        "אנדרויד נייד": false,
+        "אפל טיוי": false,
+        "אפל נייד": false,
+        "ווימדוס": false,
+        "מאק": false,
         "ציון": 1
     },
+    "OTT Navigator": {
+        "logo": "https://image.winudf.com/v2/image1/c3R1ZGlvLnNjaWxsYXJpdW0ub3R0bmF2aWdhdG9yX2ljb25fMTU1NDcyOTM2Ml8wMzA/icon.png?w=280&fakeurl=1",
+        "אנדרויד טיוי": true,
+        "אנדרויד נייד": false,
+        "אפל טיוי": false,
+        "אפל נייד": false,
+        "ווימדוס": false,
+        "מאק": false,
+        "ציון": 2
+    },
     "Televizo": {
-        "גרסה פרוצה עדכנית": true,
-        "VoD תמיכה בתוכן": true,
+        "logo": "https://image.winudf.com/v2/image1/Y29tLm90dHBsYXkub3R0cGxheV9pY29uXzE1NzkyMTMyNjdfMDYy/icon.png?w=280&fakeurl=1",
+        "אנדרויד טיוי": true,
+        "אנדרויד נייד": true,
+        "אפל טיוי": false,
+        "אפל נייד": false,
+        "ווימדוס": false,
+        "מאק": false,
         "ציון": 2
     },
     "IPTV Pro": {
-        "גרסה פרוצה עדכנית": true,
-        "VoD תמיכה בתוכן": true,
+        "logo": "https://image.winudf.com/v2/image1/cnUuaXB0dnJlbW90ZS5hbmRyb2lkLmlwdHYucHJvX2ljb25fMTU3NjA1NDIwNV8wOTE/icon.png?w=280&fakeurl=1",
+        "אנדרויד טיוי": true,
+        "אנדרויד נייד": true,
+        "אפל טיוי": false,
+        "אפל נייד": false,
+        "ווימדוס": false,
+        "מאק": false,
         "ציון": 3
     },
-    "IPTV Smarters": {
-        "גרסה פרוצה עדכנית": true,
-        "VoD תמיכה בתוכן": true,
-        "ציון": 4
+    "iMPlayer": {
+        "logo": "https://image.winudf.com/v2/image1/Y29tLm15aXB0dm9ubGluZS5pbXBsYXllcl9pY29uXzE2ODE3MTg1MzBfMDc4/icon.png?w=280&fakeurl=1",
+        "אנדרויד טיוי": true,
+        "אנדרויד נייד": true,
+        "אפל טיוי": false,
+        "אפל נייד": false,
+        "ווימדוס": false,
+        "מאק": false,
+        "ציון": 3
     },
     "iPlayTV": {
-        "גרסה פרוצה עדכנית": false,
-        "VoD תמיכה בתוכן": true,
+        "logo": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/00/57/bd/0057bd32-c604-918e-7400-93263a0e7125/AppIconDark-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
+        "אנדרויד טיוי": false,
+        "אנדרויד נייד": false,
+        "אפל טיוי": true,
+        "אפל נייד": true,
+        "ווימדוס": false,
+        "מאק": true,
+        "ציון": 5
+    },
+    "IPTVX": {
+        "logo": "https://images.ctfassets.net/whrcharioh3b/5kB5jCNW9uqiKMmu8DEgmL/db8743372fffbb32530d7d34a9d586c2/217x0w.png",
+        "אנדרויד טיוי": false,
+        "אנדרויד נייד": false,
+        "אפל טיוי": true,
+        "אפל נייד": true,
+        "ווימדוס": false,
+        "מאק": true,
+        "ציון": 5
+    },
+    "LillyPlayer": {
+        "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f8/38/96/f8389692-4c56-49cd-777f-4835132399b3/AppIcon-1x_U007emarketing-0-7-0-85-220.png/200x0w.webp",
+        "אנדרויד טיוי": false,
+        "אנדרויד נייד": false,
+        "אפל טיוי": true,
+        "אפל נייד": true,
+        "ווימדוס": false,
+        "מאק": true,
+        "ציון": 5
+    },
+    "IPTV Smarters": {
+        "logo": "https://image.winudf.com/v2/image1/Y29tLm5zdC5pcHR2c21hcnRlcnN0dmJveF9pY29uXzE2MjY0MzY5ODBfMDQz/icon.png?w=280&fakeurl=1",
+        "אנדרויד טיוי": true,
+        "אנדרויד נייד": true,
+        "אפל טיוי": true,
+        "אפל נייד": true,
+        "ווימדוס": true,
+        "מאק": true,
+        "ציון": 4
+    },
+    "KODI": {
+        "logo": "https://image.winudf.com/v2/image1/b3JnLnhibWMua29kaV9pY29uXzE1NjE3Mzc5MjhfMDEy/icon.png?w=280&fakeurl=1",
+        "אנדרויד טיוי": true,
+        "אנדרויד נייד": true,
+        "אפל טיוי": true,
+        "אפל נייד": true,
+        "ווימדוס": true,
+        "מאק": true,
         "ציון": 5
     }
 }
