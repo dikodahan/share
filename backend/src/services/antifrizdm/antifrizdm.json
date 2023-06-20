@@ -46,11 +46,11 @@
     },
     {
         "extGrp": "ספורט",
-        "tvgId": "sport-1-sd-YES",
+        "tvgId": "sport-1-hd-YES",
         "tvgLogo": "https://dikodahan.github.io/picons/dark/Sport1-DM.png",
         "tvgRec": "7",
         "catchupDays": "7",
-        "channelName": "SD ספורט 1",
+        "channelName": "HD ספורט 1",
         "channelId": "sport1-hd-il"
     },
     {
