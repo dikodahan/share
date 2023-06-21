@@ -45,7 +45,7 @@
         "תמיכה בנעילת הורים": true,
         "גיבוי ושיחזור הגדרות": true
     },"STB Emu": {
-        "ציון": 1,
+        "ציון": 2,
         "logo": "https://image.winudf.com/v2/image1/Y29tLm12YXMuc3RiLmVtdS5mcmVlX2ljb25fMTY1MTg2OTQ1MF8wMTI/icon.png?w=280&fakeurl=1",
         "אנדרויד טיוי": true,
         "אנדרויד נייד": true,
@@ -229,7 +229,7 @@
         "גיבוי ושיחזור הגדרות": true
     },
     "iMPlayer": {
-        "ציון": 3,
+        "ציון": 1,
         "logo": "https://image.winudf.com/v2/image1/Y29tLm15aXB0dm9ubGluZS5pbXBsYXllcl9pY29uXzE2ODE3MTg1MzBfMDc4/icon.png?w=280&fakeurl=1",
         "אנדרויד טיוי": true,
         "אנדרויד נייד": true,
@@ -275,7 +275,7 @@
         "גיבוי ושיחזור הגדרות": ""
     },
     "iPlayTV": {
-        "ציון": 5,
+        "ציון": 1,
         "logo": "https://is5-ssl.mzstatic.com/image/thumb/Purple112/v4/00/57/bd/0057bd32-c604-918e-7400-93263a0e7125/AppIconDark-1x_U007emarketing-0-7-0-85-220.png/512x512bb.jpg",
         "אנדרויד טיוי": false,
         "אנדרויד נייד": false,
@@ -367,7 +367,7 @@
         "גיבוי ושיחזור הגדרות": true
     },
     "LillyPlayer": {
-        "ציון": 5,
+        "ציון": 1,
         "logo": "https://is1-ssl.mzstatic.com/image/thumb/Purple112/v4/f8/38/96/f8389692-4c56-49cd-777f-4835132399b3/AppIcon-1x_U007emarketing-0-7-0-85-220.png/200x0w.webp",
         "אנדרויד טיוי": false,
         "אנדרויד נייד": false,
@@ -459,7 +459,7 @@
         "גיבוי ושיחזור הגדרות": true
     },
     "KODI": {
-        "ציון": 5,
+        "ציון": 4,
         "logo": "https://image.winudf.com/v2/image1/b3JnLnhibWMua29kaV9pY29uXzE1NjE3Mzc5MjhfMDEy/icon.png?w=280&fakeurl=1",
         "אנדרויד טיוי": true,
         "אנדרויד נייד": true,
