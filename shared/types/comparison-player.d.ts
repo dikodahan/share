@@ -1,13 +1,60 @@
 interface Players {
   Tivimate: PlayerInfo;
+  "STB Emu": PlayerInfo;
+  "OTT Navigator": PlayerInfo;
   Televizo: PlayerInfo;
   "IPTV Pro": PlayerInfo;
-  "IPTV Smarters": PlayerInfo;
+  iMPlayer: PlayerInfo;
   iPlayTV: PlayerInfo;
+  IPTVX: PlayerInfo;
+  LillyPlayer: PlayerInfo;
+  "IPTV Smarters": PlayerInfo;
+  KODI: PlayerInfo;
 }
 
 interface PlayerInfo {
+  "ציון משוקלל": number;
+  logo: string;
+  "אנדרויד טיוי": boolean;
+  "אנדרויד נייד": boolean;
+  "אפל טיוי": boolean;
+  "אפל נייד": boolean;
+  ווינדוס: boolean;
+  מאק: boolean;
+  "מחיר פרימיום": string;
+  "כמות מכשירים בפרימיום": string;
+  "ממשק בעברית": boolean | null;
   "גרסה פרוצה עדכנית": boolean;
-  "VoD תמיכה בתוכן": boolean;
-  ציון: number;
+  "אקסטרים קוד": boolean | null;
+  "M3U פלייליסט": boolean | null;
+  "תוכן רשת מקומית": boolean | null;
+  "תמיכה בפרוטוקולים נוספים": boolean | null;
+  "גישה לריבוי פלייליסטים": boolean | null;
+  "התאמה אישית לפלייליסט": boolean | null;
+  "התאמה אישית לשמות בתוכן": boolean | null;
+  "שינוי מיפוי לוח שידורים": boolean | null;
+  "תמיכה בריבוי לוחות שידורים": boolean | null;
+  "תצוגת לוח שידורים": boolean | null;
+  "IMDB-תמיכה ב": boolean | null;
+  "תמיכה במועדפים": boolean | null;
+  "תמיכה בנגן חיצוני": boolean | null;
+  "EPG תמיכה בשינוי זמני": boolean | null;
+  "Start-Over:תמיכה ב": boolean | null;
+  "תמיכה בארכיון": boolean | null;
+  "תמיכה בתזכורות שידורים": boolean | null;
+  "תמיכה בהחלפת שפות שידור": boolean | null;
+  "תמיכה בהחלפת כתוביות שידור": boolean | null;
+  "תמיכה בסרטים וסדרות": boolean | null;
+  "גישה לקדימון": boolean | null;
+  "משיכת כתוביות חיצוניות": boolean | null;
+  "תמיכה ברשימות צפייה": boolean | null;
+  "תמיכה בהקלטת טלויזיה": boolean | null;
+  "הגדרות הקלטה אוטומטית": boolean | null;
+  "צפיית הקלטות במכשיר אחר": boolean | null;
+  "חיפוש גלובאלי": boolean | null;
+  "תמיכה בתמונה בתוך תמונה": boolean | null;
+  "תמיכה במסך מפוצל": boolean | null;
+  "התאמה אישית של לחצנים בשלט": boolean | null;
+  "תמיכה בנעילת הורים": boolean | null;
+  "גיבוי ושיחזור הגדרות": boolean | null;
 }

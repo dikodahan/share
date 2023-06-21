@@ -1,125 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html dir="rtl">
   <head>
     <title>Channels</title>
-    <style>
-      body {
-         background-color: #282828;
-         color: white;
-      }
-
-      H1.hebh1 { text-align: center}
-      H2.hebh2 { text-align: right}
-      H3.hebh3 { text-align: right}
-      P.hebp { 
-        text-align: right;
-        font-size: 16px;
-        margin-right: 20px;
-
-      }
-      DIV.hebdiv { text-align: right}
-
-      table {
-        border-collapse: collapse;
-        width: 100%;
-      }
-      th,
-      td {
-        border: 1px solid darkgoldenrod;
-        padding: 8px;
-        text-align: center;
-      }
-      th {
-        background-color: lightgray;
-        color: black;
-      }
-      .fixTableHead {
-        overflow-y: auto;
-        height: 98vh;
-      }
-      .fixTableHead thead th {
-        position: sticky;
-        top: 0;
-      }
-
-      a:link {
-        color: gold;
-        background-color: transparent;
-        text-decoration: underline;
-      }
-      a:visited {
-        color: darkorange;
-        background-color: transparent;
-        text-decoration: underline;
-      }
-      a:hover {
-        color: darkcyan;
-        background-color: transparent;
-        text-decoration: underline;
-      }
-      a:active {
-        color: yellow;
-        background-color: transparent;
-        text-decoration: underline;
-      }
-
-      .dropdown {
-        font-size: 20px;
-        position: relative;
-        display: inline-block;
-        margin-right: 20px;
-        padding: 5px, 5px, 5px, 5px;
-      }
-    </style>
+    <link rel="stylesheet" href="channels.css" />
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
   </head>
-  <body background="#282828">
+  <body>
     <div id="app">
-      <h1 class="hebh1"><u>טבלת השוואת ספקים</u></h1>
       <comparison-table></comparison-table>
-      <br />
-      <br />
-      <h1 class="hebh1"><u>טבלת השוואת נגנים (בבנייה)</u></h1>
-      <div class="hebdiv">
-        <p class="hebp">:בחר פילטר לפי פלטפורמה נתמכת</p>
-        <select class="dropdown" id="filter-dropdown" onchange="filterTable()">
-          <option value="all">כל הנגנים</option>
-          <option value="AndroidTV">אנדרויד טיוי</option>
-          <option value="AndroidMobile">אנדרויד נייד</option>
-          <option value="AppleTV">אפל טיוי</option>
-          <option value="AppleMobile">אפל נייד</option>
-          <option value="Windows">ווידוס</option>
-          <option value="Mac">מאק</option>
-        </select>
-      </div>
-      <br />
+      
       <players-table></players-table>
-      <br />
-      <br />
-      <h1 class="hebh1"><u>טבלת השוואת ערוצי ישראל לכל ספק</u></h1>
+      
       <channel-table></channel-table>
     </div>
     <script type="module" src="scripts/stats.js"></script>
-    <script>
-      function filterTable() {
-          var dropdown = document.getElementById("filter-dropdown");
-          var selectedOption = dropdown.value;
-          
-          var table = document.getElementById("my-table");
-          var rows = table.getElementsByTagName("tr");
-          
-          for (var i = 1; i < rows.length; i++) {
-              var row = rows[i];
-              var companyCell = row.getElementsByTagName("td")[0];
-              var company = companyCell.textContent || companyCell.innerText;
-              
-              if (selectedOption === "all" || company.toLowerCase() === selectedOption.toLowerCase()) {
-                  row.style.display = "";
-              } else {
-                  row.style.display = "none";
-              }
-          }
-      }
-    </script>
   </body>
 </html>

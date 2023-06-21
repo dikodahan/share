@@ -9,27 +9,28 @@ const NON_AUTO_DISPLAY_PARAMS: Set<keyof ComparisonService> = new Set([
 Vue.component("comparison-table", {
   template: `
         <div>
+            <h1 class="hebh1"><u>טבלת השוואת ספקים</u></h1>
             <table>
                 <thead class="title-case">
                     <tr>
-                        <th v-for="service in serviceNames">{{ service }}</th>
                         <th>פרמטרים</th>
+                        <th v-for="service in serviceNames">{{ service }}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr v-for="param in starParams">
+                        <th>{{ param }}</th>
                         <td v-for="item in comparison">
                             {{ "⭐".repeat(item[param]) }}
                         </td>
-                        <th>{{ param }}</th>
                     </tr>
                     <tr v-for="param in parameters">
+                        <th>{{ param }}</th>
                         <td v-for="item in comparison">
                             <a v-if="String(item[param]).startsWith('http')" :href="item[param]" target="_blank">קישור</a>
                             <span v-else-if="typeof item[param] === 'boolean'">{{ item[param] ? '✅' : '🛑' }}</span>
                             <span v-else>{{ item[param] }}</span>
                         </td>
-                        <th>{{ param }}</th>
                     </tr>
                 </tbody>
             </table>
