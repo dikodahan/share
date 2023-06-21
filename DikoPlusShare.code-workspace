@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "./backend"
+		},
+		{
+			"path": "frontend"
+		},
+		{
+			"path": "./shared"
+		},
+		{
+			"path": "./public"
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"antifriz",
+			"Diko",
+			"edem",
+			"livego",
+			"ישראל",
+			"מספר",
+			"משוקלל",
+			"ערוץ",
+			"ערוצי",
+			"ציון"
+		]
+	}
+}

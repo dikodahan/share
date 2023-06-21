@@ -1,0 +1,81 @@
+body {
+  background-color: #282828;
+  color: white;
+  background="#282828";
+}
+
+H1.hebh1 {
+  text-align: center;
+}
+H2.hebh2 {
+  text-align: right;
+}
+H3.hebh3 {
+  text-align: right;
+}
+P.hebp {
+  text-align: right;
+  font-size: 16px;
+  margin-right: 20px;
+}
+DIV.hebdiv {
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th,
+td {
+  border: 1px solid darkgoldenrod;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: lightgray;
+  color: black;
+}
+.fixTableHead {
+  overflow-y: auto;
+  height: 98vh;
+}
+.fixTableHead thead th {
+  position: sticky;
+  top: 0;
+}
+
+a:link {
+  color: gold;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:visited {
+  color: darkorange;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: darkcyan;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.dropdown {
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+  padding: 5px, 5px, 5px, 5px;
+}
+
+.flex-down {
+  display: flex;
+  flex-direction: column-reverse;;
+  align-items: center;
+}
