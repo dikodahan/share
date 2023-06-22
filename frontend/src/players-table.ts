@@ -43,6 +43,7 @@ Vue.component("players-table", {
                 <td v-for="(player, name) in players">
                     <a v-if="String(player[param]).startsWith('http')" :href="player[param]" target="_blank">קישור</a>
                         <span v-else-if="typeof player[param] === 'boolean'">{{ player[param] ? '✅' : '🛑' }}</span>
+                        <span v-else-if="player[param] === 'infinite'">∞</span>
                         <span v-else>{{ player[param] }}</span>
                 </td>
             </tr>
