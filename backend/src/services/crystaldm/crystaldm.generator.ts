@@ -1,4 +1,5 @@
 import CrystalDm from "./crystaldm.json";
+import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 
@@ -14,9 +15,11 @@ export function* crystalDmGenerator(
     yield line;
   }
 
-  for (const { tvgId, tvgLogo, extGrp, channelName, channelId } of CrystalDm) {
+  for (const { channelName, channelId } of CrystalDm) {
+    const { extGrp, tvgId, tvgLogoDm } =
+      channelLineup[channelName as keyof typeof channelLineup];
     yield "";
-    yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+    yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
     yield `#EXTGRP:${extGrp}`;
     yield `http://crystal.ottc.pro:80/${username}/${password}/${channelId}`;
   }

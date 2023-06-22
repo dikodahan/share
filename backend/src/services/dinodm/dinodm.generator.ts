@@ -1,4 +1,5 @@
 import DinoDm from "./dinodm.json";
+import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 
@@ -14,7 +15,9 @@ export function* dinoDmGenerator(
     yield line;
   }
 
-  for (const { tvgId, tvgLogo, extGrp, channelName, channelId } of DinoDm) {
+  for (const { channelName, channelId } of DinoDm) {
+    const { extGrp, tvgId, tvgLogoDm } =
+      channelLineup[channelName as keyof typeof channelLineup];
     yield "";
     yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
     yield `#EXTGRP:${extGrp}`;

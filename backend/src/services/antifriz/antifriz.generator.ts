@@ -1,4 +1,5 @@
 import AntiFriz from "./antifriz.json";
+import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 
@@ -17,15 +18,9 @@ export function* antiFrizGenerator(
     yield line;
   }
 
-  for (const {
-    tvgId,
-    tvgLogo,
-    extGrp,
-    channelName,
-    channelId,
-    tvgRec,
-    catchupDays,
-  } of AntiFriz) {
+  for (const { channelName, channelId, tvgRec, catchupDays } of AntiFriz) {
+    const { extGrp, tvgId, tvgLogo } =
+      channelLineup[channelName as keyof typeof channelLineup];
     yield "";
     yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
     yield `#EXTGRP:${extGrp}`;

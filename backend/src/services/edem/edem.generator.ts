@@ -1,4 +1,5 @@
 import Edem from "./edem.json";
+import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 
@@ -16,14 +17,9 @@ export function* edemGenerator(
     yield line;
   }
 
-  for (const {
-    tvgId,
-    tvgLogo,
-    extGrp,
-    tvgRec,
-    channelName,
-    channelId,
-  } of Edem) {
+  for (const { tvgRec, channelName, channelId } of Edem) {
+    const { extGrp, tvgId, tvgLogo } =
+      channelLineup[channelName as keyof typeof channelLineup];
     yield "";
     yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="${tvgRec}",${channelName}`;
     yield `#EXTGRP:${extGrp}`;

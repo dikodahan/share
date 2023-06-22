@@ -1,4 +1,5 @@
 import EdemDm from "./edemdm.json";
+import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 
@@ -16,16 +17,11 @@ export function* edemDmGenerator(
     yield line;
   }
 
-  for (const {
-    tvgId,
-    tvgLogo,
-    extGrp,
-    tvgRec,
-    channelName,
-    channelId,
-  } of EdemDm) {
+  for (const { tvgRec, channelName, channelId } of EdemDm) {
+    const { extGrp, tvgId, tvgLogoDm } =
+      channelLineup[channelName as keyof typeof channelLineup];
     yield "";
-    yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="${tvgRec}",${channelName}`;
+    yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}" tvg-rec="${tvgRec}",${channelName}`;
     yield `#EXTGRP:${extGrp}`;
     yield `${BASE_URL}/${token}/${channelId}/index.m3u`;
   }
