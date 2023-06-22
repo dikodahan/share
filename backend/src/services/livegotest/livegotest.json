@@ -630,48 +630,6 @@
         "channelId": 34679
     },
     {
-        "channelName": "ערוץ 24",
-        "tvgName": "channel.24.il",
-        "tvgShift": 0,
-        "channelId": 41254
-    },
-    {
-        "channelName": "IL מוזיקה",
-        "tvgName": "channel.24.il",
-        "tvgShift": 0,
-        "channelId": 3303
-    },
-    {
-        "channelName": "MTV ישראל",
-        "tvgName": "mtv.israel.il",
-        "tvgShift": 0,
-        "channelId": 9573
-    },
-    {
-        "channelName": "MTV להיטים",
-        "tvgName": "mtv.hits.il",
-        "tvgShift": 0,
-        "channelId": 42010
-    },
-    {
-        "channelName": "MTV 00s",
-        "tvgName": "mtv.00s.il",
-        "tvgShift": 0,
-        "channelId": 42007
-    },
-    {
-        "channelName": "MTV 80s",
-        "tvgName": "mtv.80s.il",
-        "tvgShift": 0,
-        "channelId": 42008
-    },
-    {
-        "channelName": "מוזיקה קלאסית",
-        "tvgName": "stingray.classic",
-        "tvgShift": 0,
-        "channelId": 58502
-    },
-    {
         "channelName": "אנימל פלאנט",
         "tvgName": "animal.planet.il",
         "tvgShift": 0,
@@ -724,36 +682,6 @@
         "tvgName": "history.il",
         "tvgShift": 0,
         "channelId": 22644
-    },
-    {
-        "channelName": "ערוץ האח הגדול",
-        "tvgName": "big.brother.il",
-        "tvgShift": 0,
-        "channelId": 41078
-    },
-    {
-        "channelName": "ערוץ האח הגדול",
-        "tvgName": "big.brother.il",
-        "tvgShift": 0,
-        "channelId": 17205
-    },
-    {
-        "channelName": "TLC",
-        "tvgName": "tlc.il",
-        "tvgShift": 0,
-        "channelId": 35322
-    },
-    {
-        "channelName": "CBS ריאליטי",
-        "tvgName": "cbs.reality.il",
-        "tvgShift": 0,
-        "channelId": 14723
-    },
-    {
-        "channelName": "ערוץ החקירות",
-        "tvgName": "investigation.discovery.il",
-        "tvgShift": 0,
-        "channelId": 63092
     },
     {
         "channelName": "ערוץ האוכל",
@@ -820,6 +748,78 @@
         "tvgName": "travel.channel.sd.il",
         "tvgShift": 0,
         "channelId": 7340
+    },
+    {
+        "channelName": "ערוץ האח הגדול",
+        "tvgName": "big.brother.il",
+        "tvgShift": 0,
+        "channelId": 41078
+    },
+    {
+        "channelName": "ערוץ האח הגדול",
+        "tvgName": "big.brother.il",
+        "tvgShift": 0,
+        "channelId": 17205
+    },
+    {
+        "channelName": "TLC",
+        "tvgName": "tlc.il",
+        "tvgShift": 0,
+        "channelId": 35322
+    },
+    {
+        "channelName": "CBS ריאליטי",
+        "tvgName": "cbs.reality.il",
+        "tvgShift": 0,
+        "channelId": 14723
+    },
+    {
+        "channelName": "ערוץ החקירות",
+        "tvgName": "investigation.discovery.il",
+        "tvgShift": 0,
+        "channelId": 63092
+    },
+    {
+        "channelName": "ערוץ 24",
+        "tvgName": "channel.24.il",
+        "tvgShift": 0,
+        "channelId": 41254
+    },
+    {
+        "channelName": "IL מוזיקה",
+        "tvgName": "channel.24.il",
+        "tvgShift": 0,
+        "channelId": 3303
+    },
+    {
+        "channelName": "MTV ישראל",
+        "tvgName": "mtv.israel.il",
+        "tvgShift": 0,
+        "channelId": 9573
+    },
+    {
+        "channelName": "MTV להיטים",
+        "tvgName": "mtv.hits.il",
+        "tvgShift": 0,
+        "channelId": 42010
+    },
+    {
+        "channelName": "MTV 00s",
+        "tvgName": "mtv.00s.il",
+        "tvgShift": 0,
+        "channelId": 42007
+    },
+    {
+        "channelName": "MTV 80s",
+        "tvgName": "mtv.80s.il",
+        "tvgShift": 0,
+        "channelId": 42008
+    },
+    {
+        "channelName": "מוזיקה קלאסית",
+        "tvgName": "stingray.classic",
+        "tvgShift": 0,
+        "channelId": 58502
     },
     {
         "channelName": "ערוץ הקניות",
