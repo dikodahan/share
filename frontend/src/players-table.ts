@@ -8,7 +8,7 @@ const NON_AUTO_DISPLAY_PARAMS: Set<keyof PlayerInfo> = new Set([
 Vue.component("players-table", {
   template: `
   <div>
-      <h1 class="hebh1"><u>טבלת השוואת נגנים (בבנייה)</u></h1>
+      <h1 class="hebh1"><u>טבלת השוואת נגנים</u></h1>
         
       <br />
       <table>
