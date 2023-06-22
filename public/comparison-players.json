@@ -229,7 +229,7 @@
         "גיבוי ושיחזור הגדרות": true
     },
     "iMPlayer": {
-        "ציון משוקלל": 1,
+        "ציון משוקלל": 4,
         "logo": "https://image.winudf.com/v2/image1/Y29tLm15aXB0dm9ubGluZS5pbXBsYXllcl9pY29uXzE2ODE3MTg1MzBfMDc4/icon.png?w=280&fakeurl=1",
         "אנדרויד טיוי": true,
         "אנדרויד נייד": true,
@@ -243,7 +243,7 @@
         "גרסה פרוצה עדכנית": false,
         "אקסטרים קוד": true,
         "M3U פלייליסט": true,
-        "תוכן רשת מקומית": null,
+        "תוכן רשת מקומית": false,
         "תמיכה בפרוטוקולים נוספים": true,
         "גישה לריבוי פלייליסטים": true,
         "התאמה אישית לפלייליסט": true,
