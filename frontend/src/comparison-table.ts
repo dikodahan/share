@@ -29,7 +29,6 @@ Vue.component("comparison-table", {
                         <td v-for="item in comparison">
                             <a v-if="String(item[param]).startsWith('http')" :href="item[param]" target="_blank">קישור</a>
                             <span v-else-if="typeof item[param] === 'boolean'">{{ item[param] ? '✅' : '🛑' }}</span>
-                            <span v-else-if="player[param] === '3'">3️⃣</span>
                             <span v-else>{{ item[param] }}</span>
                         </td>
                     </tr>
