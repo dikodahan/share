@@ -11,7 +11,7 @@ interface ComparisonService {
   "ערוצי עולם": string;
   "מכשירים בו-זמנית": string;
   "תמיכה באקסטרים קוד": boolean;
-  "m3u תמיכה בקובץ": boolean;
+  "תמיכה בקובץ M3U": boolean;
   ארכיון: string;
   "מספר ערוצי ישראל": number;
   "מחיר השירות": string;

@@ -26,7 +26,7 @@ interface PlayerInfo {
   "ממשק בעברית": boolean | null;
   "גרסה פרוצה עדכנית": boolean;
   "אקסטרים קוד": boolean | null;
-  "M3U פלייליסט": boolean | null;
+  "פלייליסט M3U": boolean | null;
   "תוכן רשת מקומית": boolean | null;
   "תמיכה בפרוטוקולים נוספים": boolean | null;
   "גישה לריבוי פלייליסטים": boolean | null;
@@ -35,11 +35,11 @@ interface PlayerInfo {
   "שינוי מיפוי לוח שידורים": boolean | null;
   "תמיכה בריבוי לוחות שידורים": boolean | null;
   "תצוגת לוח שידורים": boolean | null;
-  "IMDB-תמיכה ב": boolean | null;
+  "תמיכה ב-IMDB": boolean | null;
   "תמיכה במועדפים": boolean | null;
   "תמיכה בנגן חיצוני": boolean | null;
-  "EPG תמיכה בשינוי זמני": boolean | null;
-  "Start-Over:תמיכה ב": boolean | null;
+  "תמיכה בשינוי זמני EPG": boolean | null;
+  "תמיכה ב-Start Over": boolean | null;
   "תמיכה בארכיון": boolean | null;
   "תמיכה בתזכורות שידורים": boolean | null;
   "תמיכה בהחלפת שפות שידור": boolean | null;
