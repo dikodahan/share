@@ -137,6 +137,12 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/ONE2-DM.png",
         "extGrp"        : "ספורט"
     },
+    "ONE doco": {
+        "tvgId"         : "one-doco-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/One-Doco.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/One-Doco-DM.png",
+        "extGrp"        : "ספורט"
+    },
     "יורוספורט 1": {
         "tvgId"         : "eurosport-1-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Eurosport1.png",
@@ -148,6 +154,12 @@
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Eurosport2.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Eurosport2-DM.png",
         "extGrp"        : "ספורט"
+    },
+    "ספורט אדג׳": {
+        "tvgId"           : "sport-edge-YES",
+        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Sport-Edge.png",
+        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Sport-Edge-DM.png",
+        "extGrp"          : "ספורט"
     },
     "ספורט אקסטרים": {
         "tvgId"           : "extreme-sports-HOT",
@@ -567,6 +579,12 @@
         "tvgId"         : "investigation-discovery-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/ID.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/ID-DM.png",
+        "extGrp"        : "תרבות וסטייל"
+    },
+    "ערוץ וואלה פלוס": {
+        "tvgId"         : "walla-plus-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Walla-Plus.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Walla-Plus-DM.png",
         "extGrp"        : "תרבות וסטייל"
     },
     "ערוץ 24": {
