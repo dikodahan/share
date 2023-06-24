@@ -21,10 +21,10 @@ export function* dinoDmGenerator(
   }
 
   for (const { channelName, channelId } of DinoDm) {
-    const { extGrp, tvgId, tvgLogo } =
+    const { extGrp, tvgId, tvgLogoDm } =
       channelLineup[channelName as keyof typeof channelLineup];
     yield "";
-    yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+    yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
     yield `#EXTGRP:${extGrp}`;
     yield `http://smart.cwdn.cx:80/${username}/${password}/${channelId}`;
   }
