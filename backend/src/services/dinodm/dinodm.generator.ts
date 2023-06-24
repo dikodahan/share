@@ -7,7 +7,12 @@ export function* dinoDmGenerator(
   username: string,
   password: string
 ): Generator<string, void, unknown> {
-  if (!username || !password || username == "USERNAME" || password == "PASSWORD") {
+  if (
+    !username ||
+    !password ||
+    username == "USERNAME" ||
+    password == "PASSWORD"
+  ) {
     throw new UserException("Invalid username or password", 400);
   }
 
@@ -16,7 +21,7 @@ export function* dinoDmGenerator(
   }
 
   for (const { channelName, channelId } of DinoDm) {
-    const { extGrp, tvgId, tvgLogoDm } =
+    const { extGrp, tvgId, tvgLogo } =
       channelLineup[channelName as keyof typeof channelLineup];
     yield "";
     yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
