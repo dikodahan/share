@@ -2,7 +2,7 @@ export {};
 Vue.component("channel-table", {
   template: `
     <div class="fixTableHead">
-        <h1 class="hebh1"><u>טבלת השוואת ערוצי ישראל לכל ספק (בבניה מחדש)</u></h1>
+        <h1 class="hebh1"><u>טבלת השוואת ערוצי ישראל לכל ספק</u></h1>
         <table>
             <thead class="title-case">
                 <tr>
