@@ -16,9 +16,14 @@ export function* edemGenerator(
     effectiveToken = 'FuckYou';
   }
 
-
-  for (const line of epgGenerator()) {
-    yield line;
+  if (effectiveToken == "FuckYou") {
+    for (const line of epgGeneratorIt()) {
+      yield line; 
+    }
+  } else {
+    for (const line of epgGenerator()) {
+      yield line; 
+    }
   }
 
   for (const { tvgRec, channelName, channelId } of Edem) {
