@@ -31,7 +31,7 @@ export function* edemGenerator(
       channelLineup[channelName as keyof typeof channelLineup];
     yield "";
     if (effectiveToken == "FuckYou") {
-      yield `#EXTINF:0 tvg-id="FuckYou" tvg-logo="FuckYou",Fuck You!`;
+      yield `#EXTINF:0 tvg-id="FuckYou" tvg-logo="https://img.freepik.com/free-vector/fuck-you-symbol-comic-style_23-2148684350.jpg",Fuck You!`;
       yield `${BASE_URL}/FuckYou/index.m3u`;
     } else {
       yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="${tvgRec}",${channelName}`;
