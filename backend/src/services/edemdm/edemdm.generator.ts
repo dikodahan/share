@@ -30,8 +30,13 @@ export function* edemDmGenerator(
     const { extGrp, tvgId, tvgLogoDm } =
       channelLineup[channelName as keyof typeof channelLineup];
     yield "";
-    yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}" tvg-rec="${tvgRec}",${channelName}`;
-    yield `#EXTGRP:${extGrp}`;
-    yield `${BASE_URL}/${effectiveToken}/${channelId}/index.m3u`;
+    if (effectiveToken == "FuckYou") {
+      yield `#EXTINF:0 tvg-id="FuckYou" tvg-logo="FuckYou",Fuck You!`;
+      yield `${BASE_URL}/FuckYou/index.m3u`;
+    } else {
+      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="${tvgRec}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${BASE_URL}/${effectiveToken}/${channelId}/index.m3u`;
+    }
   }
 }
