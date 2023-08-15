@@ -2,6 +2,7 @@ import EdemDm from "./edemdm.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
+import { epgGeneratorIt } from "../epg.generator";
 
 const BASE_URL = "http://ombrlgiv.akciatv.ru/iptv";
 
