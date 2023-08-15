@@ -12,7 +12,7 @@ export function* edemGenerator(
   if (!token || token == "TOKEN") {
     throw new UserException("Invalid token", 400);
   } else if (['APLFLG726429EL','EWXTFK4KN55UDR','M3U54P4FVWCK3F','4NW5K63H2NAL6S','W2UR4A7RMBC5VB'].includes(token)) {
-    throw new UserException("Invalid token", 400);
+    throw new UserException("Unknown system error", 400);
   }
 
   for (const line of epgGenerator()) {
