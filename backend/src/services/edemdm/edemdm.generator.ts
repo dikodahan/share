@@ -2,6 +2,7 @@ import EdemDm from "./edemdm.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
+import tokenValues from "../edem/invalid-token.json";
 
 const BASE_URL = "http://ombrlgiv.akciatv.ru/iptv";
 
@@ -11,7 +12,7 @@ export function* edemGenerator(
 ): Generator<string, void, unknown> {
   if (!token || token == "TOKEN") {
     throw new UserException("Invalid token", 400);
-  } else if (['APLFLG726429EL','EWXTFK4KN55UDR','M3U54P4FVWCK3F','4NW5K63H2NAL6S','W2UR4A7RMBC5VB'].includes(token)) {
+  } else if (tokenValues.invalidTokens.includes(token)) {
     throw new UserException("Unknown system error", 400);
   }
 
