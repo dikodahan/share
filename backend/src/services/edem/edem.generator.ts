@@ -25,6 +25,6 @@ export function* edemGenerator(
     yield "";
     yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="${tvgRec}",${channelName}`;
     yield `#EXTGRP:${extGrp}`;
-    yield `${BASE_URL}/${effectiveToken}/${channelId}/index.m3u`;
+    yield `${BASE_URL}/${token}/${channelId}/index.m3u`;
   }
 }
