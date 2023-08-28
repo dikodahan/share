@@ -6,7 +6,7 @@ import tokenValues from "../edem/invalid-tokens.json";
 
 const BASE_URL = "http://ombrlgiv.akciatv.ru/iptv";
 
-export function* edemGenerator(
+export function* edemDmGenerator(
   _: string,
   token: string
 ): Generator<string, void, unknown> {
