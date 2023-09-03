@@ -296,6 +296,12 @@
     {
         "tvgRec": "7",
         "catchupDays": "7",
+        "channelName": "ערוץ העיצוב",
+        "channelId": "the-design-channel-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
         "channelName": "רשת האוכל",
         "channelId": "food-network-il"
     },
