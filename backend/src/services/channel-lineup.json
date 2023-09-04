@@ -323,6 +323,30 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-HBO-DM.png",
         "extGrp"        : "ערוצי הוט"
     },
+    "סלקום ישראל": {
+        "tvgId"         : "hbo-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-TV.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-TV-DM.png",
+        "extGrp"        : "ערוצי סלקום"
+    },
+    "סלקום רוסיה": {
+        "tvgId"         : "hbo-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-TV.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-TV-DM.png",
+        "extGrp"        : "ערוצי סלקום"
+    },
+    "סלקום סרטים": {
+        "tvgId"         : "hbo-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-TV.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-TV-DM.png",
+        "extGrp"        : "ערוצי סלקום"
+    },
+    "סלקום ילדים": {
+        "tvgId"         : "hbo-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-TV.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-TV-DM.png",
+        "extGrp"        : "ערוצי סלקום"
+    },
     "זום": {
         "tvgId"         : "zoom-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Zoom.png",
