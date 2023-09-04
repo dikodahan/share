@@ -311,6 +311,12 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C4-DM.png",
         "extGrp"        : "ערוצי הוט"
     },
+    "הוט קולנוע ישראלי": {
+        "tvgId"         : "israeli-cinema-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Israeli-Cinema.png.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Israeli-Cinema.png-DM.png",
+        "extGrp"        : "ערוצי הוט"
+    },
     "הוט סינמה משפחה": {
         "tvgId"         : "cinema-family-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Cinema-Family.png",
@@ -324,28 +330,34 @@
         "extGrp"        : "ערוצי הוט"
     },
     "סלקום ישראל": {
-        "tvgId"         : "hbo-HOT",
+        "tvgId"         : "israel-CELLCOM",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-TV.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-TV-DM.png",
         "extGrp"        : "ערוצי סלקום"
     },
     "סלקום רוסיה": {
-        "tvgId"         : "hbo-HOT",
+        "tvgId"         : "rus-CELLCOM",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-TV.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-TV-DM.png",
         "extGrp"        : "ערוצי סלקום"
     },
     "סלקום סרטים": {
-        "tvgId"         : "hbo-HOT",
+        "tvgId"         : "sratim-CELLCOM",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-TV.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-TV-DM.png",
         "extGrp"        : "ערוצי סלקום"
     },
     "סלקום ילדים": {
-        "tvgId"         : "hbo-HOT",
+        "tvgId"         : "yeladim-CELLCOM",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-TV.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-TV-DM.png",
         "extGrp"        : "ערוצי סלקום"
+    },
+    "פרי טיוי סרטים קומדיה": {
+        "tvgId"         : "",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Free-TV.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Free-TV-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
     },
     "זום": {
         "tvgId"         : "zoom-YES",
