@@ -354,7 +354,7 @@
         "extGrp"        : "ערוצי סלקום"
     },
     "פרי טיוי סרטים קומדיה": {
-        "tvgId"         : "",
+        "tvgId"         : "movies-comedy-FREETV",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Free-TV.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Free-TV-DM.png",
         "extGrp"        : "ערוצי פרי טיוי"
