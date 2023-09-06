@@ -5,7 +5,7 @@ import { epgGenerator } from "../epg.generator";
 
 const BASE_URL = "http://3.troya.today";
 
-export function* antiFrizGenerator(
+export function* tvTeamGenerator(
   _: string,
   token: string
 ): Generator<string, void, unknown> {
