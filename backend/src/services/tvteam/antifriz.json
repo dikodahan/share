@@ -1,0 +1,470 @@
+[
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "כאן 11",
+        "channelId": "11-kanal-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "קשת 12",
+        "channelId": "12-kanal-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "רשת 13",
+        "channelId": "13-kanal-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ 14",
+        "channelId": "14-kanal-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "כאן חינוכית",
+        "channelId": "kan23-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "HD ספורט 1",
+        "channelId": "sport1-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ספורט 2",
+        "channelId": "sport2-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ספורט 3",
+        "channelId": "sport3-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ספורט 4",
+        "channelId": "sport4-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ספורט 5",
+        "channelId": "sport5-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "4K ספורט 5",
+        "channelId": "sport5-il-4k"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ספורט 5 פלוס",
+        "channelId": "yes-sport5-plus-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ספורט 5 לייב",
+        "channelId": "sport5-plus-live-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ספורט 5 סטארס",
+        "channelId": "sport5-stars-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ONE",
+        "channelId": "one-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ONE 2",
+        "channelId": "one2-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ ההומור",
+        "channelId": "humor-channel-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "יס טלויזיה פעולה",
+        "channelId": "yes-action-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "יס טלויזיה קומדיה",
+        "channelId": "yes-comedy-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "יס טלויזיה דרמה",
+        "channelId": "yes-drama-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "יס סרטים פעולה",
+        "channelId": "yes-movies-action-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "יס סרטים קומדיה",
+        "channelId": "yes-movies-comedy-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "יס סרטים דרמה",
+        "channelId": "yes-movies-drama-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "יס סרטים ילדים",
+        "channelId": "yes-movies-kids-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "יס קולנוע ישראלי",
+        "channelId": "yes-israel-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "יס דוקו",
+        "channelId": "yes-docu-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט 3",
+        "channelId": "hot3-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט 8",
+        "channelId": "hot-8-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט זון",
+        "channelId": "hot-zone-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט קומדי סנטרל",
+        "channelId": "hot-comedy-central-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט בידור ישראלי",
+        "channelId": "entertainment-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט סינמה 1",
+        "channelId": "hot-cinema1-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט סינמה 2",
+        "channelId": "hot-cinema2-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט סינמה 3",
+        "channelId": "hot-cinema3-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט סינמה 4",
+        "channelId": "hot-cinema4-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט סינמה משפחה",
+        "channelId": "cinema-family-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "HBO הוט",
+        "channelId": "hot-hbo-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "דיסני",
+        "channelId": "yes-disney-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "דיסני ג׳וניור",
+        "channelId": "disney-jr-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ניקולודיאון",
+        "channelId": "yes-nickelodeon-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ניק ג׳וניור",
+        "channelId": "nick-jr-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ניק טין",
+        "channelId": "teennick-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הופ!",
+        "channelId": "hop-childhood-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט לולי",
+        "channelId": "luli-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "בייבי",
+        "channelId": "baby-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "זום",
+        "channelId": "zoom-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ג׳וניור",
+        "channelId": "junior-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ הטיולים האמריקאי",
+        "channelId": "travel-channel-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "בית+",
+        "channelId": "home-plus-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ העיצוב",
+        "channelId": "the-design-channel-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "רשת האוכל",
+        "channelId": "food-network-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "פודי",
+        "channelId": "foody-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ הבריאות",
+        "channelId": "health-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ החיים הטובים",
+        "channelId": "good-life-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט ריל",
+        "channelId": "hot-real-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "CBS ריאליטי",
+        "channelId": "cbs-reality-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ אגו",
+        "channelId": "ego-total-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "E! ערוץ",
+        "channelId": "e-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ 24",
+        "channelId": "channel24-il-hd"
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "IL מוזיקה",
+        "channelId": "music-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "נשיונל ג׳יאוגרפיק",
+        "channelId": "yes-natgeo-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "נשיונל ג׳יאוגרפיק פראי",
+        "channelId": "yes-natgeo-wild-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "דיסקברי",
+        "channelId": "discovery-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "דיסקברי מדע",
+        "channelId": "discovery-science-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "היסטוריה",
+        "channelId": "history-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "i24 צרפת",
+        "channelId": "i24-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ 9",
+        "channelId": "9-kanal-hd-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "מכאן 33",
+        "channelId": "makan33-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ויוה",
+        "channelId": "viva-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ויוה+",
+        "channelId": "viva-plus-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ויוה פרימיום",
+        "channelId": "viva-premium-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הערוץ הים תיכוני",
+        "channelId": "yamtihoni-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הערוץ הים תיכוני+",
+        "channelId": "yam-tichoni-plus-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ הדרמות הטורקיות+",
+        "channelId": "turkish-dramas-plus-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ הדרמות הטורקיות 2",
+        "channelId": "turkish-dramas2-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "ערוץ הדרמות הטורקיות 3",
+        "channelId": "turkish-dramas3-il-hd"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "הוט בוליווד",
+        "channelId": "hot-bollywood-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "בולישואו",
+        "channelId": "hot-bolyshow-il-hd"
+    }
+]
