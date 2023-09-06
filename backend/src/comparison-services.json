@@ -53,7 +53,7 @@
     },
     {
         "name"                  : "TV Team",
-        "service"               : "comparetvteam",
+        "service"               : "tvteam",
         "ציון משוקלל"           : "4",
         "DikoPlus"              : false,
         "DikoPlusEN"            : false,
