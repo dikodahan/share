@@ -1,10 +1,9 @@
-import AntiFriz from "./antifriz.json";
+import TvTeam from "./tvteam.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 
-const BASE_URL = "http://bethoven.af-stream.com";
-const CATCHUP_ENDPOINT = "video-${start}-${duration}.m3u8";
+const BASE_URL = "http://3.troya.today";
 
 export function* antiFrizGenerator(
   _: string,
@@ -18,12 +17,12 @@ export function* antiFrizGenerator(
     yield line;
   }
 
-  for (const { channelName, channelId, tvgRec, catchupDays } of AntiFriz) {
+  for (const { channelName, channelId, timeShift } of TvTeam) {
     const { extGrp, tvgId, tvgLogo } =
       channelLineup[channelName as keyof typeof channelLineup];
     yield "";
-    yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
+    yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" timeshift="${timeShift}",${channelName}`;
     yield `#EXTGRP:${extGrp}`;
-    yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
+    yield `${BASE_URL}:34000/${channelId}/mono.m3u8?token=${token}`;
   }
 }

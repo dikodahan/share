@@ -1,0 +1,482 @@
+[
+    {
+        "channelName": "כאן 11",
+        "channelId": "ch428",
+        "timeShift": "3",
+        "tvTeamId": "IL: Channel 11"
+    },
+    {
+        "channelName": "קשת 12",
+        "channelId": "ch429",
+        "timeShift": "3",
+        "tvTeamId": "IL: Channel 12"
+    },
+    {
+        "channelName": "רשת 13",
+        "channelId": "ch430",
+        "timeShift": "3",
+        "tvTeamId": "IL: Channel 13"
+    },
+    {
+        "channelName": "ערוץ 14",
+        "channelId": "ch1119",
+        "timeShift": "3",
+        "tvTeamId": "IL: Channel 14"
+    },
+    {
+        "channelName": "ערוץ ההידברות",
+        "channelId": "ch1167",
+        "timeShift": "3",
+        "tvTeamId": "IL: Hidabroot"
+    },
+    {
+        "channelName": "HD ספורט 1",
+        "channelId": "ch1128",
+        "timeShift": "3",
+        "tvTeamId": "IL: Sport 1 FHD"
+    },
+    {
+        "channelName": "ספורט 2",
+        "channelId": "ch1129",
+        "timeShift": "3",
+        "tvTeamId": "IL: Sport 2 FHD"
+    },
+    {
+        "channelName": "ספורט 3",
+        "channelId": "ch1130",
+        "timeShift": "3",
+        "tvTeamId": "IL: Sport 3 FHD"
+    },
+    {
+        "channelName": "ספורט 4",
+        "channelId": "ch1131",
+        "timeShift": "3",
+        "tvTeamId": "IL: Sport 4 FHD"
+    },
+    {
+        "channelName": "ספורט 5",
+        "channelId": "ch1132",
+        "timeShift": "3",
+        "tvTeamId": "IL: Sport 5"
+    },
+    {
+        "channelName": "ספורט 5",
+        "channelId": "ch2211",
+        "timeShift": "0",
+        "tvTeamId": "IL: Sport 5"
+    },
+    {
+        "channelName": "ספורט 5",
+        "channelId": "ch1155",
+        "timeShift": "3",
+        "tvTeamId": "IL: Sport 5"
+    },
+    {
+        "channelName": "ספורט 5",
+        "channelId": "ch1134",
+        "timeShift": "3",
+        "tvTeamId": "IL: Sport 5"
+    },
+    {
+        "channelName": "ספורט 5",
+        "channelId": "ch1135",
+        "timeShift": "3",
+        "tvTeamId": "IL: Sport 5"
+    },
+    {
+        "channelName": "ספורט 5",
+        "channelId": "ch1156",
+        "timeShift": "3",
+        "tvTeamId": "IL: Sport 5"
+    },
+    {
+        "channelName": "ONE",
+        "channelId": "ch1186",
+        "timeShift": "3",
+        "tvTeamId": "IL: ONE 1 HD"
+    },
+    {
+        "channelName": "ONE 2",
+        "channelId": "ch1145",
+        "timeShift": "3",
+        "tvTeamId": "IL: ONE 2 HD"
+    },
+    {
+        "channelName": "ONE doco",
+        "channelId": "ch1195",
+        "timeShift": "3",
+        "tvTeamId": "IL: ONE Doco"
+    },
+    {
+        "channelName": "יורוספורט 1",
+        "channelId": "ch2496",
+        "timeShift": "0",
+        "tvTeamId": "IL: Eurosport 1 HD"
+    },
+    {
+        "channelName": "יורוספורט 2",
+        "channelId": "ch2497",
+        "timeShift": "0",
+        "tvTeamId": "IL: Eurosport 2 HD"
+    },
+    {
+        "channelName": "ערוץ ההומור",
+        "channelId": "ch1178",
+        "timeShift": "3",
+        "tvTeamId": "IL: Humor Chanenel"
+    },
+    {
+        "channelName": "יס טלויזיה פעולה",
+        "channelId": "ch1158",
+        "timeShift": "3",
+        "tvTeamId": "IL: YES TV Action HD"
+    },
+    {
+        "channelName": "יס טלויזיה קומדיה",
+        "channelId": "ch1159",
+        "timeShift": "3",
+        "tvTeamId": "IL: YES TV Comedy HD"
+    },
+    {
+        "channelName": "יס טלויזיה דרמה",
+        "channelId": "ch1160",
+        "timeShift": "3",
+        "tvTeamId": "IL: YES TV Drama HD"
+    },
+    {
+        "channelName": "יס סרטים פעולה",
+        "channelId": "ch1148",
+        "timeShift": "3",
+        "tvTeamId": "IL: YES Movies Action HD"
+    },
+    {
+        "channelName": "יס סרטים דרמה",
+        "channelId": "ch1150",
+        "timeShift": "3",
+        "tvTeamId": "IL: YES Movies Drama HD"
+    },
+    {
+        "channelName": "יס סרטים קומדיה",
+        "channelId": "ch1149",
+        "timeShift": "3",
+        "tvTeamId": "IL: YES Movies Comedy HD"
+    },
+    {
+        "channelName": "יס קולנוע ישראלי",
+        "channelId": "ch2030",
+        "timeShift": "3",
+        "tvTeamId": "IL: YES Israeli Cinema HD"
+    },
+    {
+        "channelName": "יס סרטים ילדים",
+        "channelId": "ch1151",
+        "timeShift": "3",
+        "tvTeamId": "IL: YES Movies Kids HD"
+    },
+    {
+        "channelName": "יס דוקו",
+        "channelId": "ch1137",
+        "timeShift": "3",
+        "tvTeamId": "IL: YES Docu HD"
+    },
+    {
+        "channelName": "הוט 3",
+        "channelId": "ch1147",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT 3 HD"
+    },
+    {
+        "channelName": "הוט 8",
+        "channelId": "ch1144",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT 8 HD"
+    },
+    {
+        "channelName": "הוט זון",
+        "channelId": "ch1139",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Zone HD"
+    },
+    {
+        "channelName": "הוט קומדי סנטרל",
+        "channelId": "ch1174",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Comedy Central HD"
+    },
+    {
+        "channelName": "הוט בידור ישראלי",
+        "channelId": "ch1163",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Bidur HD"
+    },
+    {
+        "channelName": "הוט סינמה 1",
+        "channelId": "ch1161",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Cinema 1 HD"
+    },
+    {
+        "channelName": "הוט סינמה 2",
+        "channelId": "ch1172",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Cinema 2 HD"
+    },
+    {
+        "channelName": "הוט סינמה 3",
+        "channelId": "ch1140",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Cinema 3 HD"
+    },
+    {
+        "channelName": "הוט סינמה 4",
+        "channelId": "ch1192",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Cinema 4 HD"
+    },
+    {
+        "channelName": "הוט קולנוע ישראלי",
+        "channelId": "ch1133",
+        "timeShift": "1",
+        "tvTeamId": "IL: HOT Cinema Israeli HD"
+    },
+    {
+        "channelName": "הוט סינמה משפחה",
+        "channelId": "ch1153",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Cinema Family HD"
+    },
+    {
+        "channelName": "HBO הוט",
+        "channelId": "ch1175",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT HBO HD"
+    },
+    {
+        "channelName": "סלקום ישראל",
+        "channelId": "ch2499",
+        "timeShift": "0",
+        "tvTeamId": "IL: Cellcom Israel"
+    },
+    {
+        "channelName": "סלקום רוסיה",
+        "channelId": "ch2494",
+        "timeShift": "1",
+        "tvTeamId": "IL: Cellcom Rus"
+    },
+    {
+        "channelName": "סלקום סרטים",
+        "channelId": "ch2495",
+        "timeShift": "1",
+        "tvTeamId": "IL: Cellcom Sratim"
+    },
+    {
+        "channelName": "סלקום ילדים",
+        "channelId": "ch1194",
+        "timeShift": "1",
+        "tvTeamId": "IL: Cellcom Yeladim"
+    },
+    {
+        "channelName": "פרי טיוי סרטים קומדיה",
+        "channelId": "ch1193",
+        "timeShift": "3",
+        "tvTeamId": "IL: Free Comedy"
+    },
+    {
+        "channelName": "הופ!",
+        "channelId": "ch1154",
+        "timeShift": "3",
+        "tvTeamId": "IL: Hop"
+    },
+    {
+        "channelName": "דיסני",
+        "channelId": "ch1121",
+        "timeShift": "3",
+        "tvTeamId": "IL: Disney Channel HD"
+    },
+    {
+        "channelName": "דיסני ג׳וניור",
+        "channelId": "ch1162",
+        "timeShift": "3",
+        "tvTeamId": "IL: Disney Jr."
+    },
+    {
+        "channelName": "ניקולודיאון",
+        "channelId": "ch1185",
+        "timeShift": "3",
+        "tvTeamId": "IL: Nick HD"
+    },
+    {
+        "channelName": "ניק טין",
+        "channelId": "ch2500",
+        "timeShift": "0",
+        "tvTeamId": "IL: TeenNick"
+    },
+    {
+        "channelName": "בייבי",
+        "channelId": "ch1118",
+        "timeShift": "3",
+        "tvTeamId": "IL: Baby TV"
+    },
+    {
+        "channelName": "וויז",
+        "channelId": "ch2031",
+        "timeShift": "0",
+        "tvTeamId": "IL: Wiz"
+    },
+    {
+        "channelName": "הוט לולי",
+        "channelId": "ch1170",
+        "timeShift": "3",
+        "tvTeamId": "IL: Luli"
+    },
+    {
+        "channelName": "נשיונל ג׳יאוגרפיק",
+        "channelId": "ch1126",
+        "timeShift": "3",
+        "tvTeamId": "IL: Nat Geo HD"
+    },
+    {
+        "channelName": "נשיונל ג׳יאוגרפיק פראי",
+        "channelId": "ch1138",
+        "timeShift": "3",
+        "tvTeamId": "IL: Nat Geo Wild"
+    },
+    {
+        "channelName": "דיסקברי",
+        "channelId": "ch1120",
+        "timeShift": "3",
+        "tvTeamId": "IL: Discovery Channel HD"
+    },
+    {
+        "channelName": "היסטוריה",
+        "channelId": "ch1143",
+        "timeShift": "3",
+        "tvTeamId": "IL: History HD"
+    },
+    {
+        "channelName": "רשת האוכל",
+        "channelId": "ch1124",
+        "timeShift": "3",
+        "tvTeamId": "IL: Food Channel HD"
+    },
+    {
+        "channelName": "ערוץ החיים הטובים",
+        "channelId": "ch1141",
+        "timeShift": "3",
+        "tvTeamId": "IL: Good Life TV HD"
+    },
+    {
+        "channelName": "ערוץ הבריאות",
+        "channelId": "ch1176",
+        "timeShift": "3",
+        "tvTeamId": "IL: Health Channel HD"
+    },
+    {
+        "channelName": "E! ערוץ",
+        "channelId": "ch1122",
+        "timeShift": "3",
+        "tvTeamId": "IL: E!"
+    },
+    {
+        "channelName": "ערוץ אגו",
+        "channelId": "ch2498",
+        "timeShift": "3",
+        "tvTeamId": "IL: Ego Total"
+    },
+    {
+        "channelName": "ערוץ הטיולים האמריקאי",
+        "channelId": "ch1136",
+        "timeShift": "3",
+        "tvTeamId": "IL: Travel Channel HD"
+    },
+    {
+        "channelName": "ערוץ האח הגדול",
+        "channelId": "ch2032",
+        "timeShift": "1",
+        "tvTeamId": "IL: Big"
+    },
+    {
+        "channelName": "ערוץ הריאליטי",
+        "channelId": "ch1182",
+        "timeShift": "3",
+        "tvTeamId": "IL: Reality HD"
+    },
+    {
+        "channelName": "הוט ריל",
+        "channelId": "ch1173",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Real HD"
+    },
+    {
+        "channelName": "ערוץ 24",
+        "channelId": "ch1142",
+        "timeShift": "3",
+        "tvTeamId": "IL: 24"
+    },
+    {
+        "channelName": "ערוץ 9",
+        "channelId": "ch427",
+        "timeShift": "3",
+        "tvTeamId": "IL: Channel 9"
+    },
+    {
+        "channelName": "מכאן 33",
+        "channelId": "ch1181",
+        "timeShift": "3",
+        "tvTeamId": "IL: Makan HD"
+    },
+    {
+        "channelName": "ויוה",
+        "channelId": "ch1189",
+        "timeShift": "3",
+        "tvTeamId": "IL: Viva"
+    },
+    {
+        "channelName": "ויוה",
+        "channelId": "ch1190",
+        "timeShift": "3",
+        "tvTeamId": "IL: Viva"
+    },
+    {
+        "channelName": "ויוה",
+        "channelId": "ch1146",
+        "timeShift": "3",
+        "tvTeamId": "IL: Viva"
+    },
+    {
+        "channelName": "ויוה",
+        "channelId": "ch1188",
+        "timeShift": "3",
+        "tvTeamId": "IL: Viva"
+    },
+    {
+        "channelName": "הערוץ הים תיכוני+",
+        "channelId": "ch1184",
+        "timeShift": "3",
+        "tvTeamId": "IL: Yam Tihoni Plus HD"
+    },
+    {
+        "channelName": "הערוץ הים תיכוני 2",
+        "channelId": "ch1164",
+        "timeShift": "3",
+        "tvTeamId": "IL: Yam Tihoni 2"
+    },
+    {
+        "channelName": "ערוץ הדרמות הטורקיות+",
+        "channelId": "ch2028",
+        "timeShift": "3",
+        "tvTeamId": "IL: Turkish Drama"
+    },
+    {
+        "channelName": "ערוץ הדרמות הטורקיות+",
+        "channelId": "ch2029",
+        "timeShift": "3",
+        "tvTeamId": "IL: Turkish Drama"
+    },
+    {
+        "channelName": "ערוץ הדרמות הטורקיות+",
+        "channelId": "ch1152",
+        "timeShift": "3",
+        "tvTeamId": "IL: Turkish Drama"
+    }
+]
