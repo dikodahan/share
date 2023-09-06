@@ -10,6 +10,7 @@ import { crystalDmGenerator } from "./crystaldm/crystaldm.generator";
 import { dinoGenerator } from "./dino/dino.generator";
 import { dinoDmGenerator } from "./dinodm/dinodm.generator";
 import { liveGoTestGenerator } from "./livegotest/livegotest.generator";
+import { tvTeam } from "./tvteam/tvteam.generator";
 
 
 type M3uGenerator = (username: string, password: string) => Generator<string, void, unknown>;
@@ -26,5 +27,6 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
     "antifrizdm": antiFrizDmGenerator,
     "edem": edemGenerator,
     "edemdm": edemDmGenerator,
+    "tvteam": tvTeamGenerator,
     "livegotest": liveGoTestGenerator
 }
