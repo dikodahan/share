@@ -1,4 +1,11 @@
 export {};
+
+// Define the ChannelLineup type
+type ChannelLineup = {
+  name: string;
+  logo: string;
+};
+
 Vue.component("channel-table", {
   template: `
     <div class="fixTableHead">
