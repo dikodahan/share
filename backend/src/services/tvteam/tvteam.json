@@ -24,6 +24,12 @@
         "tvTeamId": "IL: Channel 14"
     },
     {
+        "channelName": "כאן חינוכית",
+        "channelId": "ch1171",
+        "timeShift": "0",
+        "tvTeamId": "IL: Kan Chinuchit 23"
+    },
+    {
         "channelName": "ערוץ ההידברות",
         "channelId": "ch1167",
         "timeShift": "3",
@@ -36,10 +42,22 @@
         "tvTeamId": "IL: Sport 1 FHD"
     },
     {
+        "channelName": "SD ספורט 1",
+        "channelId": "ch1183",
+        "timeShift": "0",
+        "tvTeamId": "IL: Sport 1 HD"
+    },
+    {
         "channelName": "ספורט 2",
         "channelId": "ch1129",
         "timeShift": "3",
         "tvTeamId": "IL: Sport 2 FHD"
+    },
+    {
+        "channelName": "ספורט 2",
+        "channelId": "ch2086",
+        "timeShift": "0",
+        "tvTeamId": "IL: Sport 2 HD"
     },
     {
         "channelName": "ספורט 3",
@@ -48,10 +66,22 @@
         "tvTeamId": "IL: Sport 3 FHD"
     },
     {
+        "channelName": "ספורט 3",
+        "channelId": "ch2087",
+        "timeShift": "0",
+        "tvTeamId": "IL: Sport 3 HD"
+    },
+    {
         "channelName": "ספורט 4",
         "channelId": "ch1131",
         "timeShift": "3",
         "tvTeamId": "IL: Sport 4 FHD"
+    },
+    {
+        "channelName": "ספורט 4",
+        "channelId": "ch2088",
+        "timeShift": "0",
+        "tvTeamId": "IL: Sport 4 HD"
     },
     {
         "channelName": "ספורט 5",
@@ -60,34 +90,34 @@
         "tvTeamId": "IL: Sport 5"
     },
     {
-        "channelName": "ספורט 5",
+        "channelName": "4K ספורט 5",
         "channelId": "ch2211",
         "timeShift": "0",
-        "tvTeamId": "IL: Sport 5"
+        "tvTeamId": "IL: Sport 5 4K"
     },
     {
-        "channelName": "ספורט 5",
+        "channelName": "ספורט 5 לייב",
         "channelId": "ch1155",
         "timeShift": "3",
-        "tvTeamId": "IL: Sport 5"
+        "tvTeamId": "IL: Sport 5 Livе"
     },
     {
-        "channelName": "ספורט 5",
+        "channelName": "ספורט 5 פלוס",
         "channelId": "ch1134",
         "timeShift": "3",
-        "tvTeamId": "IL: Sport 5"
+        "tvTeamId": "IL: Sport 5 Plus"
     },
     {
-        "channelName": "ספורט 5",
-        "channelId": "ch1135",
-        "timeShift": "3",
-        "tvTeamId": "IL: Sport 5"
-    },
-    {
-        "channelName": "ספורט 5",
+        "channelName": "ספורט 5 סטארס",
         "channelId": "ch1156",
         "timeShift": "3",
-        "tvTeamId": "IL: Sport 5"
+        "tvTeamId": "IL: Sport 5 Stars"
+    },
+    {
+        "channelName": "ספורט 5 גולד",
+        "channelId": "ch1135",
+        "timeShift": "3",
+        "tvTeamId": "IL: Sport 5 Gold"
     },
     {
         "channelName": "ONE",
