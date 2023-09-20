@@ -9,7 +9,7 @@ import { crystalGenerator } from "./crystal/crystal.generator";
 import { crystalDmGenerator } from "./crystaldm/crystaldm.generator";
 import { dinoGenerator } from "./dino/dino.generator";
 import { dinoDmGenerator } from "./dinodm/dinodm.generator";
-import { tvTeam } from "./tvteam/tvteam.generator";
+import { tvTeamGenerator } from "./tvteam/tvteam.generator";
 import { liveGoTestGenerator } from "./livegotest/livegotest.generator";
 
 
