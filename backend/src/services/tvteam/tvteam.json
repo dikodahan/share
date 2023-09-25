@@ -306,10 +306,88 @@
         "tvTeamId": "IL: Cellcom Yeladim"
     },
     {
+        "channelName": "פרי טיוי טלויזיה קומדיה",
+        "channelId": "ch2540",
+        "timeShift": "0",
+        "tvTeamId": "IL: Free Tv Comedy HD"
+    },
+    {
+        "channelName": "פרי טיוי טלויזיה דרמה",
+        "channelId": "ch2539",
+        "timeShift": "0",
+        "tvTeamId": "IL: Free Tv Drama HD"
+    },
+    {
+        "channelName": "פרי טיוי טלויזיה סדרות",
+        "channelId": "ch2533",
+        "timeShift": "0",
+        "tvTeamId": "IL: Free Series Global HD"
+    },
+    {
+        "channelName": "פרי טיוי סרטים פעולה",
+        "channelId": "ch2537",
+        "timeShift": "0",
+        "tvTeamId": "IL: Free Movies Action HD"
+    },
+    {
         "channelName": "פרי טיוי סרטים קומדיה",
         "channelId": "ch1193",
         "timeShift": "3",
-        "tvTeamId": "IL: Free Comedy"
+        "tvTeamId": "IL: Free Movies Comedy HD"
+    },
+    {
+        "channelName": "פרי טיוי סרטים דרמה",
+        "channelId": "ch2534",
+        "timeShift": "0",
+        "tvTeamId": "IL: Free Movies Drama HD"
+    },
+    {
+        "channelName": "פרי טיוי סרטים אימה",
+        "channelId": "ch2535",
+        "timeShift": "0",
+        "tvTeamId": "IL: Free Movies Horror HD"
+    },
+    {
+        "channelName": "פרי טיוי סרטים רומנטיקה",
+        "channelId": "ch2536",
+        "timeShift": "0",
+        "tvTeamId": "IL: Free Movies Romantic HD"
+    },
+    {
+        "channelName": "פרי טיוי סרטים ישראלי",
+        "channelId": "ch2538",
+        "timeShift": "0",
+        "tvTeamId": "IL: Free Israeli Movies HD"
+    },
+    {
+        "channelName": "פרי טיוי דוקומנטרי",
+        "channelId": "ch2543",
+        "timeShift": "0",
+        "tvTeamId": "IL: Free Tv Doco HD"
+    },
+    {
+        "channelName": "פרי טיוי אוכל",
+        "channelId": "ch2542",
+        "timeShift": "0",
+        "tvTeamId": "IL: Free Tv Cooking HD"
+    },
+    {
+        "channelName": "פרי טיוי לייפסטייל",
+        "channelId": "ch2541",
+        "timeShift": "0",
+        "tvTeamId": "IL: Free Tv Lifestyle HD"
+    },
+    {
+        "channelName": "פרי טיוי ארץ נהדרת",
+        "channelId": "ch2544",
+        "timeShift": "0",
+        "tvTeamId": "IL: Erez Nehederet HD"
+    },
+    {
+        "channelName": "פרי טיוי סברי מרנן",
+        "channelId": "ch2545",
+        "timeShift": "0",
+        "tvTeamId": "IL: Savri HD"
     },
     {
         "channelName": "הופ!",
