@@ -353,10 +353,88 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-TV-DM.png",
         "extGrp"        : "ערוצי סלקום"
     },
+    "פרי טיוי טלויזיה קומדיה": {
+        "tvgId"         : "tv-comedy-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Comedy.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Comedy-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי טלויזיה דרמה": {
+        "tvgId"         : "tv-drama-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Drama.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Drama-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי טלויזיה סדרות": {
+        "tvgId"         : "tv-series-global-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Series-Global.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Series-Global-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי סרטים פעולה": {
+        "tvgId"         : "movies-action-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Action.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Action-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
     "פרי טיוי סרטים קומדיה": {
         "tvgId"         : "movies-comedy-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Free-TV.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Free-TV-DM.png",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Comedy.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Comedy-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי סרטים דרמה": {
+        "tvgId"         : "movies-drama-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Drama.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Drama-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי סרטים אימה": {
+        "tvgId"         : "movies-horror-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Horror.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Horror-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי סרטים רומנטיקה": {
+        "tvgId"         : "movies-romantic-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Romantic.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Romantic-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי סרטים ישראלי": {
+        "tvgId"         : "movies-israeli-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Israeli.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Israeli-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי דוקומנטרי": {
+        "tvgId"         : "docu-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Docu.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Docu-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי אוכל": {
+        "tvgId"         : "food-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-food.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-food-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי לייפסטייל": {
+        "tvgId"         : "lifestyle-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Lifestyle.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Lifestyle-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי ארץ נהדרת": {
+        "tvgId"         : "eretz-nehederet-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Eretz-Nehederet.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Eretz-Nehederet-DM.png",
+        "extGrp"        : "ערוצי פרי טיוי"
+    },
+    "פרי טיוי סברי מרנן": {
+        "tvgId"         : "savri-maranan-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Savri-Maranan.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Savri-Maranan-DM.png",
         "extGrp"        : "ערוצי פרי טיוי"
     },
     "זום": {
