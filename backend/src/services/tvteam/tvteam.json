@@ -432,6 +432,12 @@
         "tvTeamId": "IL: Wiz"
     },
     {
+        "channelName": "ג׳וניור",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Junior"
+    },
+    {
         "channelName": "הוט לולי",
         "channelId": "ch1170",
         "timeShift": "3",
@@ -540,22 +546,22 @@
         "tvTeamId": "IL: Viva"
     },
     {
-        "channelName": "ויוה",
+        "channelName": "ויוה+",
         "channelId": "ch1190",
         "timeShift": "3",
-        "tvTeamId": "IL: Viva"
+        "tvTeamId": "IL: Viva Plus"
     },
     {
-        "channelName": "ויוה",
+        "channelName": "ויוה וינטג׳",
         "channelId": "ch1146",
         "timeShift": "3",
-        "tvTeamId": "IL: Viva"
+        "tvTeamId": "IL: Viva Vintage"
     },
     {
-        "channelName": "ויוה",
+        "channelName": "ויוה פרימיום",
         "channelId": "ch1188",
         "timeShift": "3",
-        "tvTeamId": "IL: Viva"
+        "tvTeamId": "IL: Viva Premium"
     },
     {
         "channelName": "הערוץ הים תיכוני+",
@@ -576,15 +582,15 @@
         "tvTeamId": "IL: Turkish Drama"
     },
     {
-        "channelName": "ערוץ הדרמות הטורקיות+",
+        "channelName": "ערוץ הדרמות הטורקיות 2",
         "channelId": "ch2029",
         "timeShift": "3",
-        "tvTeamId": "IL: Turkish Drama"
+        "tvTeamId": "IL: Turkish Drama 2"
     },
     {
-        "channelName": "ערוץ הדרמות הטורקיות+",
+        "channelName": "ערוץ הדרמות הטורקיות 3",
         "channelId": "ch1152",
         "timeShift": "3",
-        "tvTeamId": "IL: Turkish Drama"
+        "tvTeamId": "IL: Turkish Drama 3"
     }
 ]
