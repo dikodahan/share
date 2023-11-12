@@ -428,6 +428,12 @@
     {
         "tvgRec": "7",
         "catchupDays": "7",
+        "channelName":"ויוה וינטג׳",
+        "channelId": "viva-vintage-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
         "channelName": "הערוץ הים תיכוני",
         "channelId": "yamtihoni-il"
     },
