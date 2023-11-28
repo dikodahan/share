@@ -491,8 +491,14 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Nick-Jr-DM.png",
         "extGrp"        : "ילדים"
     },
-    "ניק טין": {
+    "יס ניק טין": {
         "tvgId"         : "teen-nick-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/TeenNick.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/TeenNick-DM.png",
+        "extGrp"        : "ילדים"
+    },
+    "הוט ניק טין": {
+        "tvgId"         : "teen-nick-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/TeenNick.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/TeenNick-DM.png",
         "extGrp"        : "ילדים"
