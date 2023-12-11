@@ -6,7 +6,7 @@ export interface ChannelInfo {
   channelName: string;
 }
 
-const names = ["livego", "antifriz", "tvteam", "dino", "edem"];
+const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem"];
 const channels: ChannelStats = {};
 
 names.forEach((name) => {
