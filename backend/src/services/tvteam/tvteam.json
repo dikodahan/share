@@ -558,10 +558,22 @@
         "tvTeamId": "IL: Food Channel HD"
     },
     {
+        "channelName": "פודי",
+        "channelId": "ch1204",
+        "timeShift": "3",
+        "tvTeamId": "IL: Foody HD"
+    },
+    {
         "channelName": "ערוץ החיים הטובים",
         "channelId": "ch1141",
         "timeShift": "3",
         "tvTeamId": "IL: Good Life TV HD"
+    },
+    {
+        "channelName": "בית+",
+        "channelId": "TBD",
+        "timeShift": "3",
+        "tvTeamId": "IL: Home Plus HD"
     },
     {
         "channelName": "ערוץ הבריאות",
@@ -604,6 +616,18 @@
         "channelId": "ch1173",
         "timeShift": "3",
         "tvTeamId": "IL: HOT Real HD"
+    },
+    {
+        "channelName": "CBS ריאליטי",
+        "channelId": "ch1173",
+        "timeShift": "3",
+        "tvTeamId": "IL: CBS Reality HD"
+    },
+    {
+        "channelName": "TLC",
+        "channelId": "ch1173",
+        "timeShift": "3",
+        "tvTeamId": "IL: TLC HD"
     },
     {
         "channelName": "ערוץ 24",
