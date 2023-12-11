@@ -120,10 +120,34 @@
         "tvTeamId": "IL: Sport 5 Gold"
     },
     {
+        "channelName": "ספורט אדג׳",
+        "channelId": "ch1200",
+        "timeShift": "3",
+        "tvTeamId": "IL: Edge Sport HD"
+    },
+    {
+        "channelName": "ספורט אקסטרים",
+        "channelId": "ch1201",
+        "timeShift": "3",
+        "tvTeamId": "IL: Extreme Sports"
+    },
+    {
         "channelName": "ONE",
         "channelId": "ch1186",
         "timeShift": "3",
         "tvTeamId": "IL: ONE 1 HD"
+    },
+    {
+        "channelName": "ONE 2",
+        "channelId": "ch1145",
+        "timeShift": "3",
+        "tvTeamId": "IL: ONE 2 HD"
+    },
+    {
+        "channelName": "ONE 2",
+        "channelId": "ch1145",
+        "timeShift": "3",
+        "tvTeamId": "IL: ONE 2 HD"
     },
     {
         "channelName": "ONE 2",
@@ -240,6 +264,12 @@
         "tvTeamId": "IL: HOT Bidur HD"
     },
     {
+        "channelName": "הוט סניור",
+        "channelId": "ch1202",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Senior HD"
+    },
+    {
         "channelName": "הוט סינמה 1",
         "channelId": "ch1161",
         "timeShift": "3",
@@ -282,7 +312,7 @@
         "tvTeamId": "IL: HOT HBO HD"
     },
     {
-        "channelName": "סלקום ישראל",
+        "channelName": "סלקום ישראלי",
         "channelId": "ch2499",
         "timeShift": "0",
         "tvTeamId": "IL: Cellcom Israel"
@@ -414,6 +444,12 @@
         "tvTeamId": "IL: Nick HD"
     },
     {
+        "channelName": "ניק ג׳וניור",
+        "channelId": "ch1203",
+        "timeShift": "3",
+        "tvTeamId": "IL: Nick Jr HD"
+    },
+    {
         "channelName": "יס ניק טין",
         "channelId": "ch2500",
         "timeShift": "0",
@@ -436,6 +472,54 @@
         "tvgName": "TBD",
         "tvgShift": 0,
         "tvTeamId": "IL: Junior"
+    },
+    {
+        "channelName": "ג׳ים ג׳אם",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Jim Jam"
+    },
+    {
+        "channelName": "הוט באזז",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Hot Buzz"
+    },
+    {
+        "channelName": "זום",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Zoom"
+    },
+    {
+        "channelName": "זום טון",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Zoom"
+    },
+    {
+        "channelName": "פומו",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Fomo"
+    },
+    {
+        "channelName": "יויו",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Yoyo"
+    },
+    {
+        "channelName": "לוגי",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Logi"
+    },
+    {
+        "channelName": "ילדותי",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Yalduti"
     },
     {
         "channelName": "הוט לולי",
@@ -462,13 +546,13 @@
         "tvTeamId": "IL: Discovery Channel HD"
     },
     {
-        "channelName": "היסטוריה",
+        "channelName": "HD היסטוריה",
         "channelId": "ch1143",
         "timeShift": "3",
         "tvTeamId": "IL: History HD"
     },
     {
-        "channelName": "רשת האוכל",
+        "channelName": "ערוץ האוכל",
         "channelId": "ch1124",
         "timeShift": "3",
         "tvTeamId": "IL: Food Channel HD"
