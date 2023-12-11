@@ -528,6 +528,12 @@
         "tvTeamId": "IL: Luli"
     },
     {
+        "channelName": "אנימל פלאנט",
+        "channelId": "TBD",
+        "timeShift": "3",
+        "tvTeamId": "IL: Animal Planet HD"
+    },
+    {
         "channelName": "נשיונל ג׳יאוגרפיק",
         "channelId": "ch1126",
         "timeShift": "3",
@@ -544,6 +550,12 @@
         "channelId": "ch1120",
         "timeShift": "3",
         "tvTeamId": "IL: Discovery Channel HD"
+    },
+    {
+        "channelName": "דיסקברי מדע",
+        "channelId": "TBD",
+        "timeShift": "3",
+        "tvTeamId": "IL: Discovery Science HD"
     },
     {
         "channelName": "HD היסטוריה",
@@ -670,6 +682,12 @@
         "channelId": "ch1188",
         "timeShift": "3",
         "tvTeamId": "IL: Viva Premium"
+    },
+    {
+        "channelName": "הערוץ הים תיכוני",
+        "channelId": "TBD",
+        "timeShift": "3",
+        "tvTeamId": "IL: Yam Tihoni HD"
     },
     {
         "channelName": "הערוץ הים תיכוני+",
