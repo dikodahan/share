@@ -204,15 +204,15 @@
         "extGrp"        : "ספורט"
     },
     "ליברפול": {
-        "tvgId"         : "sport-trace-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/TraceSS.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/TraceSS-DM.png",
-        "extGrp"        : "ספורט"
-    },
-    "ערוץ ההומור": {
         "tvgId"         : "liverpool-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Liverpool.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Liverpool-DM.png",
+        "extGrp"        : "ספורט"
+    },
+    "ערוץ ההומור": {
+        "tvgId"         : "humor-channel-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/LHumor-Channel.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Humor-Channel-DM.png",
         "extGrp"        : "ערוצי יס"
     },
     "יס טלויזיה פעולה": {
