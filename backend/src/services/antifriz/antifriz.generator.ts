@@ -3,7 +3,7 @@ import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 
-const BASE_URL = "http://chopin.af-stream.com";
+const BASE_URL = "http://bethoven.af-stream.com";
 const CATCHUP_ENDPOINT = "video-${start}-${duration}.m3u8";
 
 export function* antiFrizGenerator(
