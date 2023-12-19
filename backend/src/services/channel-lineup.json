@@ -41,6 +41,12 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Knesset-DM.png",
         "extGrp"        : "ראשי"
     },
+    "ערוץ הנופלים והנופלות": {
+        "tvgId"         : "noflim-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Noflim.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Noflim-DM.png",
+        "extGrp"        : "ראשי"
+    },
     "ערוץ רלוונט": {
         "tvgId"         : "relevant-RELEVANT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Relevant.png",
