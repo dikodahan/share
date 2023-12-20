@@ -16,11 +16,18 @@ export function* crystalGenerator(
     }
   
     for (const { channelName, channelId } of Crystal) {
-      const { extGrp, tvgId, tvgLogo } =
+      const { extGrp, tvgId, tvgLogo, source } =
         channelLineup[channelName as keyof typeof channelLineup];
-      yield "";
-      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-      yield `#EXTGRP:${extGrp}`;
-      yield `http://crystal.ottc.pro:80/${username}/${password}/${channelId}`;
+      if (source != "origin") {
+        yield "";
+        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+        yield `#EXTGRP:${extGrp}`;
+        yield `${source}`;
+      } else {
+        yield "";
+        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+        yield `#EXTGRP:${extGrp}`;
+        yield `http://crystal.ottc.pro:80/${username}/${password}/${channelId}`;
+      }
     }
   }

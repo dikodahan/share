@@ -45,6 +45,11 @@
       "channelId"       : 105867
     },
     {
+      "channelName"     : "ערוץ רלוונט",
+      "tvgName"         : "none",
+      "channelId"       : 1010
+    },
+    {
       "channelName"     : "כאן חינוכית",
       "tvgName"         : "|IL| KABALA",
       "channelId"       : 9893
@@ -53,6 +58,11 @@
       "channelName"     : "טלויזיה שלנו",
       "tvgName"         : "|IL-4K| CLASSICA HD",
       "channelId"       : 105837
+    },
+    {
+      "channelName"     : "ערוץ הנופלים והנופלות",
+      "tvgName"         : "none",
+      "channelId"       : 1010
     },
     {
       "channelName"     : "SD ספורט 1",

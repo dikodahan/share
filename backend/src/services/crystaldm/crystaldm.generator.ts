@@ -18,9 +18,16 @@ export function* crystalDmGenerator(
   for (const { channelName, channelId } of Crystal) {
     const { extGrp, tvgId, tvgLogoDm } =
       channelLineup[channelName as keyof typeof channelLineup];
-    yield "";
-    yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
-    yield `#EXTGRP:${extGrp}`;
-    yield `http://crystal.ottc.pro:80/${username}/${password}/${channelId}`;
+    if (source != "origin") {
+      yield "";
+      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${source}`;
+    } else {
+      yield "";
+      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `http://crystal.ottc.pro:80/${username}/${password}/${channelId}`;
+    }
   }
 }
