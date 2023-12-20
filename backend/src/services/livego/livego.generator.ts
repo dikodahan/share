@@ -16,11 +16,18 @@ export function* liveGoGenerator(
   }
 
   for (const { tvgShift, tvgName, channelName, channelId } of LiveGo) {
-    const { extGrp, tvgId, tvgLogo } =
+    const { extGrp, tvgId, tvgLogo, source } =
       channelLineup[channelName as keyof typeof channelLineup];
-    yield "";
-    yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-shift="${tvgShift}" tvg-logo="${tvgLogo}",${channelName}`;
-    yield `#EXTGRP:${extGrp}`;
-    yield `http://livego.club:8080/${username}/${password}/${channelId}`;
+    if (source != "origin") {
+      yield "";
+      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${source}`;
+    } else {
+      yield "";
+      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-shift="${tvgShift}" tvg-logo="${tvgLogo}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `http://livego.club:8080/${username}/${password}/${channelId}`;
+    }
   }
 }

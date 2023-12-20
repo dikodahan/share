@@ -48,13 +48,6 @@
         "source"        : "origin",
         "extGrp"        : "ראשי"
     },
-    "ערוץ הנופלים והנופלות": {
-        "tvgId"         : "noflim-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Noflim.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Noflim-DM.png",
-        "source"        : "https://reshetbetvideo.media.kan.org.il/hls/live/2044082/2044082/source1_2.5k/chunklist.m3u8",
-        "extGrp"        : "ראשי"
-    },
     "ערוץ רלוונט": {
         "tvgId"         : "relevant-RELEVANT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Relevant.png",
@@ -82,6 +75,13 @@
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Selanu-TV-DM.png",
         "source"        : "origin",
         "extGrp"          : "ראשי"
+    },
+    "ערוץ הנופלים והנופלות": {
+        "tvgId"         : "noflim-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Noflim.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Noflim-DM.png",
+        "source"        : "https://reshetbetvideo.media.kan.org.il/hls/live/2044082/2044082/source1_2.5k/chunklist.m3u8",
+        "extGrp"        : "ראשי"
     },
     "SD ספורט 1": {
         "tvgId"         : "sport-1-sd-YES",

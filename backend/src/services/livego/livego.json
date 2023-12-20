@@ -66,6 +66,12 @@
         "channelId": 3301
     },
     {
+        "channelName": "ערוץ רלוונט",
+        "tvgName": "none",
+        "tvgShift": 0,
+        "channelId": 1010
+    },
+    {
         "channelName": "כאן חינוכית",
         "tvgName": "kan.hinuchit.il",
         "tvgShift": 0,
@@ -94,6 +100,12 @@
         "tvgName": "hidabrut.il",
         "tvgShift": 0,
         "channelId": 7343
+    },
+    {
+        "channelName": "ערוץ הנופלים והנופלות",
+        "tvgName": "none",
+        "tvgShift": 0,
+        "channelId": 1010
     },
     {
         "channelName": "SD ספורט 1",
