@@ -19,13 +19,13 @@ export function* antiFrizGenerator(
   }
 
   for (const { channelName, channelId, tvgRec, catchupDays } of AntiFriz) {
-    const { extGrp, tvgId, tvgLogo } =
+    const { extGrp, tvgId, tvgLogo, source } =
       channelLineup[channelName as keyof typeof channelLineup];
-    if (channelName == "ערוץ הנופלים והנופלות") {
+    if (source != "origin") {
       yield "";
       yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;
-      yield `https://reshetbetvideo.media.kan.org.il/hls/live/2044082/2044082/source1_2.5k/chunklist.m3u8`;
+      yield `${source}`;
     } else {
       yield "";
       yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
