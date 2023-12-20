@@ -2,25 +2,25 @@
     {
         "channelName": "כאן 11",
         "channelId": "ch428",
-        "timeShift": "3",
+        "timeShift": "6",
         "tvTeamId": "IL: Channel 11"
     },
     {
         "channelName": "קשת 12",
         "channelId": "ch429",
-        "timeShift": "3",
+        "timeShift": "6",
         "tvTeamId": "IL: Channel 12"
     },
     {
         "channelName": "רשת 13",
         "channelId": "ch430",
-        "timeShift": "3",
+        "timeShift": "6",
         "tvTeamId": "IL: Channel 13"
     },
     {
         "channelName": "ערוץ 14",
         "channelId": "ch1119",
-        "timeShift": "3",
+        "timeShift": "6",
         "tvTeamId": "IL: Channel 14"
     },
     {
@@ -87,7 +87,7 @@
         "channelName": "ספורט 5",
         "channelId": "ch1132",
         "timeShift": "3",
-        "tvTeamId": "IL: Sport 5"
+        "tvTeamId": "IL: Sport 5 HD"
     },
     {
         "channelName": "4K ספורט 5",
@@ -144,18 +144,6 @@
         "tvTeamId": "IL: ONE 2 HD"
     },
     {
-        "channelName": "ONE 2",
-        "channelId": "ch1145",
-        "timeShift": "3",
-        "tvTeamId": "IL: ONE 2 HD"
-    },
-    {
-        "channelName": "ONE 2",
-        "channelId": "ch1145",
-        "timeShift": "3",
-        "tvTeamId": "IL: ONE 2 HD"
-    },
-    {
         "channelName": "ONE doco",
         "channelId": "ch1195",
         "timeShift": "3",
@@ -172,6 +160,36 @@
         "channelId": "ch2497",
         "timeShift": "0",
         "tvTeamId": "IL: Eurosport 2 HD"
+    },
+    {
+        "channelName": "ספורט טוגו 1",
+        "channelId": "ch2497",
+        "timeShift": "0",
+        "tvTeamId": "IL: Sport TO GO 1"
+    },
+    {
+        "channelName": "ספורט טוגו 2",
+        "channelId": "ch2497",
+        "timeShift": "0",
+        "tvTeamId": "IL: Sport TO GO 2"
+    },
+    {
+        "channelName": "ליברפול",
+        "channelId": "ch2496",
+        "timeShift": "0",
+        "tvTeamId": "IL: LFC TV HD"
+    },
+    {
+        "channelName": "ריאל מדריד",
+        "channelId": "ch2496",
+        "timeShift": "0",
+        "tvTeamId": "Il: Real Madrid TV"
+    },
+    {
+        "channelName": "מנצ׳סטר יונייטד",
+        "channelId": "ch2496",
+        "timeShift": "0",
+        "tvTeamId": "IL: MU TV"
     },
     {
         "channelName": "ערוץ ההומור",
@@ -314,26 +332,56 @@
     {
         "channelName": "סלקום ישראלי",
         "channelId": "ch2499",
-        "timeShift": "0",
+        "timeShift": "6",
         "tvTeamId": "IL: Cellcom Israel"
     },
     {
         "channelName": "סלקום רוסיה",
         "channelId": "ch2494",
-        "timeShift": "1",
+        "timeShift": "3",
         "tvTeamId": "IL: Cellcom Rus"
     },
     {
         "channelName": "סלקום סרטים",
         "channelId": "ch2495",
-        "timeShift": "1",
+        "timeShift": "3",
         "tvTeamId": "IL: Cellcom Sratim"
+    },
+    {
+        "channelName": "HBO סלקום",
+        "channelId": "ch2495",
+        "timeShift": "3",
+        "tvTeamId": "IL: HBO HD"
+    },
+    {
+        "channelName": "סלקום דוקו",
+        "channelId": "ch2495",
+        "timeShift": "3",
+        "tvTeamId": "IL: Doco HD"
     },
     {
         "channelName": "סלקום קלטות ילדים",
         "channelId": "ch1194",
-        "timeShift": "1",
+        "timeShift": "6",
         "tvTeamId": "IL: Cellcom Yeladim"
+    },
+    {
+        "channelName": "פרטנר סרטים",
+        "channelId": "ch2495",
+        "timeShift": "3",
+        "tvTeamId": "IL: Partner Sratim"
+    },
+    {
+        "channelName": "פרטנר סדרות",
+        "channelId": "ch2495",
+        "timeShift": "3",
+        "tvTeamId": "IL: Partner Sdarot"
+    },
+    {
+        "channelName": "פרטנר ילדים",
+        "channelId": "ch2495",
+        "timeShift": "3",
+        "tvTeamId": "IL: Partner Yladim"
     },
     {
         "channelName": "פרי טיוי טלויזיה קומדיה",
@@ -458,7 +506,7 @@
     {
         "channelName": "בייבי",
         "channelId": "ch1118",
-        "timeShift": "3",
+        "timeShift": "6",
         "tvTeamId": "IL: Baby TV"
     },
     {
@@ -483,7 +531,7 @@
         "channelName": "הוט באזז",
         "tvgName": "TBD",
         "tvgShift": 0,
-        "tvTeamId": "IL: Hot Buzz"
+        "tvTeamId": "IL: HOT Buzz HD"
     },
     {
         "channelName": "זום",
@@ -495,7 +543,7 @@
         "channelName": "זום טון",
         "tvgName": "TBD",
         "tvgShift": 0,
-        "tvTeamId": "IL: Zoom"
+        "tvTeamId": "IL: Zoom Toon HD"
     },
     {
         "channelName": "פומו",
@@ -529,8 +577,8 @@
     },
     {
         "channelName": "אנימל פלאנט",
-        "channelId": "TBD",
-        "timeShift": "3",
+        "channelId": "ch2624",
+        "timeShift": "6",
         "tvTeamId": "IL: Animal Planet HD"
     },
     {
@@ -585,7 +633,7 @@
         "channelName": "בית+",
         "channelId": "TBD",
         "timeShift": "3",
-        "tvTeamId": "IL: Home Plus HD"
+        "tvTeamId": "IL: Home Plus"
     },
     {
         "channelName": "ערוץ הבריאות",
@@ -614,7 +662,7 @@
     {
         "channelName": "ערוץ האח הגדול",
         "channelId": "ch2032",
-        "timeShift": "1",
+        "timeShift": "0",
         "tvTeamId": "IL: Big"
     },
     {
@@ -631,9 +679,9 @@
     },
     {
         "channelName": "CBS ריאליטי",
-        "channelId": "ch1173",
+        "channelId": "ch2628",
         "timeShift": "3",
-        "tvTeamId": "IL: CBS Reality HD"
+        "tvTeamId": "IL: CBS Reality"
     },
     {
         "channelName": "TLC",
@@ -644,14 +692,44 @@
     {
         "channelName": "ערוץ 24",
         "channelId": "ch1142",
-        "timeShift": "3",
+        "timeShift": "6",
         "tvTeamId": "IL: 24"
     },
     {
         "channelName": "ערוץ 9",
         "channelId": "ch427",
-        "timeShift": "3",
+        "timeShift": "6",
         "tvTeamId": "IL: Channel 9"
+    },
+    {
+        "channelName": "הוט סינמה 1",
+        "channelId": "ch1161",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Cinema 1 HD (ru)"
+    },
+    {
+        "channelName": "הוט סינמה 2",
+        "channelId": "ch1172",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Cinema 2 HD (ru)"
+    },
+    {
+        "channelName": "הוט סינמה 3",
+        "channelId": "ch1140",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Cinema 3 HD (ru)"
+    },
+    {
+        "channelName": "הוט סינמה 4",
+        "channelId": "ch1192",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Cinema 4 HD (ru)"
+    },
+    {
+        "channelName": "הוט זון",
+        "channelId": "ch1139",
+        "timeShift": "3",
+        "tvTeamId": "IL: HOT Zone HD (ru)"
     },
     {
         "channelName": "מכאן 33",
@@ -669,7 +747,7 @@
         "channelName": "ויוה+",
         "channelId": "ch1190",
         "timeShift": "3",
-        "tvTeamId": "IL: Viva Plus"
+        "tvTeamId": "IL: Viva+"
     },
     {
         "channelName": "ויוה וינטג׳",
@@ -681,7 +759,13 @@
         "channelName": "ויוה פרימיום",
         "channelId": "ch1188",
         "timeShift": "3",
-        "tvTeamId": "IL: Viva Premium"
+        "tvTeamId": "IL: Viva Premium HD"
+    },
+    {
+        "channelName": "ואמוס",
+        "channelId": "ch1188",
+        "timeShift": "3",
+        "tvTeamId": "IL: Vamos HD"
     },
     {
         "channelName": "הערוץ הים תיכוני",
@@ -693,7 +777,7 @@
         "channelName": "הערוץ הים תיכוני+",
         "channelId": "ch1184",
         "timeShift": "3",
-        "tvTeamId": "IL: Yam Tihoni Plus HD"
+        "tvTeamId": "IL: Yam Tihoni Plus"
     },
     {
         "channelName": "הערוץ הים תיכוני 2",
@@ -705,7 +789,7 @@
         "channelName": "ערוץ הדרמות הטורקיות+",
         "channelId": "ch2028",
         "timeShift": "3",
-        "tvTeamId": "IL: Turkish Drama"
+        "tvTeamId": "IL: Turkish Dramas"
     },
     {
         "channelName": "ערוץ הדרמות הטורקיות 2",
@@ -718,5 +802,11 @@
         "channelId": "ch1152",
         "timeShift": "3",
         "tvTeamId": "IL: Turkish Drama 3"
+    },
+    {
+        "channelName": "ספיישל דרמות רומנטיות",
+        "channelId": "ch1152",
+        "timeShift": "3",
+        "tvTeamId": "IL: Special Romantic Shows"
     }
 ]
