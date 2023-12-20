@@ -30,6 +30,12 @@
         "channelId": "kan23-il"
     },
     {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "ערוץ הנופלים והנופלות",
+        "channelId": "none"
+    },
+    {
         "tvgRec": "7",
         "catchupDays": "7",
         "channelName": "HD ספורט 1",
