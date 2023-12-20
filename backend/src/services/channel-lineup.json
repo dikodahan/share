@@ -1230,5 +1230,166 @@
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/HOT-Bombay-DM.png",
         "source"        : "origin",
         "extGrp"          : "שפות זרות"
+    },
+    "גלצ": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://upload.wikimedia.org/wikipedia/he/thumb/3/30/GaltzLogo.svg/1200px-GaltzLogo.svg.png",
+        "tvgLogoDm"       : "https://upload.wikimedia.org/wikipedia/he/thumb/3/30/GaltzLogo.svg/1200px-GaltzLogo.svg.png",
+        "source"            : "http://glzwizzlv.bynetcdn.com/glz_mp3",
+        "extGrp"          : "רדיו"
+    },
+    "גלגלצ": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://upload.wikimedia.org/wikipedia/he/thumb/4/40/Galgalz.svg/845px-Galgalz.svg.png",
+        "tvgLogoDm"       : "https://upload.wikimedia.org/wikipedia/he/thumb/4/40/Galgalz.svg/845px-Galgalz.svg.png",
+        "source"            : "https://glzwizzlv.bynetcdn.com/glglz_mp3",
+        "extGrp"          : "רדיו"
+    },
+    "כאן תרבות": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://www.zavit.org.il/wp-content/uploads/2020/11/%D7%9B%D7%90%D7%9F-%D7%AA%D7%A8%D7%91%D7%95%D7%AA-%D7%9C%D7%95%D7%92%D7%95-300x300.jpg",
+        "tvgLogoDm"       : "https://www.zavit.org.il/wp-content/uploads/2020/11/%D7%9B%D7%90%D7%9F-%D7%AA%D7%A8%D7%91%D7%95%D7%AA-%D7%9C%D7%95%D7%92%D7%95-300x300.jpg",
+        "source"            : "https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_TARBUT.mp3",
+        "extGrp"          : "רדיו"
+    },
+    "כאן מורשת": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://static.rlive.co.il/storage/uploads/stations/E3WqpMPnuIumjkgAdpMuJ8cYzabsVJpL0A1wDpG9.png",
+        "tvgLogoDm"       : "https://static.rlive.co.il/storage/uploads/stations/E3WqpMPnuIumjkgAdpMuJ8cYzabsVJpL0A1wDpG9.png",
+        "source"            : "https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_MORESHET.mp3",
+        "extGrp"          : "רדיו"
+    },
+    "כאן ב": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://radio.media.2net.co.il/storage/item_slider_icons/30.png",
+        "tvgLogoDm"       : "https://radio.media.2net.co.il/storage/item_slider_icons/30.png",
+        "source"            : "https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_BET.mp3",
+        "extGrp"          : "רדיו"
+    },
+    "כאן ג": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://radio-online.co.il/wp-content/uploads/2020/04/%D7%9B%D7%90%D7%9F-%D7%92%D7%99%D7%9E%D7%9C.jpg",
+        "tvgLogoDm"       : "https://radio-online.co.il/wp-content/uploads/2020/04/%D7%9B%D7%90%D7%9F-%D7%92%D7%99%D7%9E%D7%9C.jpg",
+        "source"            : "https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_GIMMEL.mp3",
+        "extGrp"          : "רדיו"
+    },
+    "88 כאן": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://www.radio-head.co.il/images/stations/88fm.jpg",
+        "tvgLogoDm"       : "https://www.radio-head.co.il/images/stations/88fm.jpg",
+        "source"            : "https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_88.mp3",
+        "extGrp"          : "רדיו"
+    },
+    "90 fm אמצע הדרך": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://static.rlive.co.il/storage/uploads/stations/r201UTDFPH1B6pMqAuZPIjHMbeUHck40QRcyMbN3.png",
+        "tvgLogoDm"       : "https://static.rlive.co.il/storage/uploads/stations/r201UTDFPH1B6pMqAuZPIjHMbeUHck40QRcyMbN3.png",
+        "source"            : "https://cdn.cybercdn.live/Emtza_Haderech/Live_Audio/icecast.audio",
+        "extGrp"          : "רדיו"
+    },
+    "91 fm רדיו לב המדינה": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://static.rlive.co.il/storage/uploads/stations/6nZEFj9VAh89qdIpN2v0iqH8YKsEK8VGQvTXiEpt.png",
+        "tvgLogoDm"       : "https://static.rlive.co.il/storage/uploads/stations/6nZEFj9VAh89qdIpN2v0iqH8YKsEK8VGQvTXiEpt.png",
+        "source"            : "https://cdn.cybercdn.live/Lev_Hamedina/Audio/icecast.audio",
+        "extGrp"          : "רדיו"
+    },
+    "92.1 fm רדיו קול ברמה": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://images.globes.co.il/Images/NewGlobes/bomba200x150/2017/kol-ba-rama-200.jpg",
+        "tvgLogoDm"       : "https://images.globes.co.il/Images/NewGlobes/bomba200x150/2017/kol-ba-rama-200.jpg",
+        "source"            : "https://cdn.cybercdn.live/Kol_Barama/Live_Audio/icecast.audio",
+        "extGrp"          : "רדיו"
+    },
+    "93 fm רדיו קול חי": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://static.rlive.co.il/storage/uploads/stations/kdc1v4bKkOzy3J1JLvJ5r8d0YchCmCqHnKvrkzI9.png",
+        "tvgLogoDm"       : "https://static.rlive.co.il/storage/uploads/stations/kdc1v4bKkOzy3J1JLvJ5r8d0YchCmCqHnKvrkzI9.png",
+        "source"            : "http://media.93fm.co.il/live",
+        "extGrp"          : "רדיו"
+    },
+    "94 fm גלי ישראל": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://static.rlive.co.il/storage/uploads/stations/o8SlT4yQKWKNmcuhXaHE0nOT7WJ6lLJsRpuGiNJS.png",
+        "tvgLogoDm"       : "https://static.rlive.co.il/storage/uploads/stations/o8SlT4yQKWKNmcuhXaHE0nOT7WJ6lLJsRpuGiNJS.png",
+        "source"            : "https://cdn.cybercdn.live/Galei_Israel/Live/icecast.audio",
+        "extGrp"          : "רדיו"
+    },
+    "96 fm רדיו קול רגע": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://static.rlive.co.il/storage/uploads/stations/YVrOfYImYhevztAYrVI5hPS9SgXPaPmnPEfZYL1b.png",
+        "tvgLogoDm"       : "https://static.rlive.co.il/storage/uploads/stations/YVrOfYImYhevztAYrVI5hPS9SgXPaPmnPEfZYL1b.png",
+        "source"            : "https://cdn.cybercdn.live/Kol_Rega/Live_Audio/icecast.audio",
+        "extGrp"          : "רדיו"
+    },
+    "97 fm רדיו דרום": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://www.radiodarom.co.il/Upload/Media/RadioStationLogo/radioStation_3_Logo_22012023131859.png",
+        "tvgLogoDm"       : "https://www.radiodarom.co.il/Upload/Media/RadioStationLogo/radioStation_3_Logo_22012023131859.png",
+        "source"            : "https://cdn.cybercdn.live/Darom_97FM/Live/icecast.audio",
+        "extGrp"          : "רדיו"
+    },
+    "99 fm אקו": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://static.rlive.co.il/storage/uploads/stations/FkcRkR5psaAUes9PpsrVYEXKogpvmksmBQ3m36zT.png",
+        "tvgLogoDm"       : "https://static.rlive.co.il/storage/uploads/stations/FkcRkR5psaAUes9PpsrVYEXKogpvmksmBQ3m36zT.png",
+        "source"            : "https://99.mediacast.co.il/99fm_aac",
+        "extGrp"          : "רדיו"
+    },
+    "99.5 fm רדיו חם אש": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://static.mytuner.mobi/media/tvos_radios/ub8htw9dhjtw.jpg",
+        "tvgLogoDm"       : "https://static.mytuner.mobi/media/tvos_radios/ub8htw9dhjtw.jpg",
+        "source"            : "http://995.livecdn.biz:8000/995fm",
+        "extGrp"          : "רדיו"
+    },
+    "100 fm רדיוס": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://d20x387xvo6jlt.cloudfront.net/wp-content/uploads/2020/12/SmallLogo.png",
+        "tvgLogoDm"       : "https://d20x387xvo6jlt.cloudfront.net/wp-content/uploads/2020/12/SmallLogo.png",
+        "source"            : "https://cdn.cybercdn.live/Radios_100FM/Audio/icecast.audio",
+        "extGrp"          : "רדיו"
+    },
+    "101 fm רדיו ירושלים": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://radio-online.co.il/wp-content/uploads/2020/04/רדיו-ירושלים-101fm-לוגו.jpg",
+        "tvgLogoDm"       : "https://radio-online.co.il/wp-content/uploads/2020/04/רדיו-ירושלים-101fm-לוגו.jpg",
+        "source"            : "https://radio.streamgates.net/stream/101fm",
+        "extGrp"          : "רדיו"
+    },
+    "101.5 fm רדיו דרום": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://radio-online.co.il/wp-content/uploads/2020/04/רדיו-דרום-לוגו.jpg",
+        "tvgLogoDm"       : "https://radio-online.co.il/wp-content/uploads/2020/04/רדיו-דרום-לוגו.jpg",
+        "source"            : "https://cdn.cybercdn.live/Darom_1015FM/Live/icecast.audio",
+        "extGrp"          : "רדיו"
+    },
+    "102 fm קול הים האדום אילת": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://static.rlive.co.il/storage/uploads/stations/XOgOY9euedYEN8qqTNbLx1sAk7EZGlsA3aMVEJvs.png",
+        "tvgLogoDm"       : "https://static.rlive.co.il/storage/uploads/stations/XOgOY9euedYEN8qqTNbLx1sAk7EZGlsA3aMVEJvs.png",
+        "source"            : "https://cdn.cybercdn.live/Eilat_Radio/Live/icecast.audio",
+        "extGrp"          : "רדיו"
+    },
+    "102 fm רדיו תל אביב": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://102fm.co.il/img/images/logo-top-menu.jpg",
+        "tvgLogoDm"       : "https://102fm.co.il/img/images/logo-top-menu.jpg",
+        "source"            : "https://102.livecdn.biz/102fm_aac",
+        "extGrp"          : "רדיו"
+    },
+    "103 fm רדיו ללא הפסקה": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://static.rlive.co.il/storage/uploads/stations/cgBQU1CewBszmfn42qrGbn5w1syct2XYSRV3xhao.png",
+        "tvgLogoDm"       : "https://static.rlive.co.il/storage/uploads/stations/cgBQU1CewBszmfn42qrGbn5w1syct2XYSRV3xhao.png",
+        "source"            : "https://cdn.cybercdn.live/103FM/Live/icecast.audio",
+        "extGrp"          : "רדיו"
+    },
+    "107.5 fm רדיו חיפה": {
+        "tvgId"           : "",
+        "tvgLogo"         : "https://static.rlive.co.il/storage/uploads/stations/PjF12mnENrlL0lCVMyaMkpOxfup163AcLcsaRCY5.png",
+        "tvgLogoDm"       : "https://static.rlive.co.il/storage/uploads/stations/PjF12mnENrlL0lCVMyaMkpOxfup163AcLcsaRCY5.png",
+        "source"            : "https://1075.livecdn.biz/radiohaifa",
+        "extGrp"          : "רדיו"
     }
 }

@@ -484,5 +484,143 @@
         "catchupDays": "7",
         "channelName": "בולישואו",
         "channelId": "hot-bolyshow-il-hd"
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "גלצ",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "גלגלצ",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "כאן תרבות",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "כאן מורשת",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "כאן ב",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "כאן ג",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "88 כאן",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "90 fm אמצע הדרך",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "91 fm רדיו לב המדינה",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "92.1 fm רדיו קול ברמה",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "93 fm רדיו קול חי",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "94 fm גלי ישראל",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "96 fm רדיו קול רגע",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "97 fm רדיו דרום",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "99 fm אקו",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "99.5 fm רדיו חם אש",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "100 fm רדיוס",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "101 fm רדיו ירושלים",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "101.5 fm רדיו דרום",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "102 fm קול הים האדום אילת",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "102 fm רדיו תל אביב",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "103 fm רדיו ללא הפסקה",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "107.5 fm רדיו חיפה",
+        "channelId": "none"        
     }
 ]
