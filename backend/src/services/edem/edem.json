@@ -48,6 +48,12 @@
     "channelId"       : 12261
   },
   {
+    "channelName"     : "ערוץ רלוונט",
+    "tvgName"         : "",
+    "tvgRec"          : 0,
+    "channelId"       : 1010
+  },
+  {
     "channelName"     : "ערוץ 98",
     "tvgName"         : "",
     "tvgRec"          : 0,
@@ -70,6 +76,12 @@
     "tvgName"         : "",
     "tvgRec"          : 0,
     "channelId"       : 12269
+  },
+  {
+    "channelName"     : "ערוץ הנופלים והנופלות",
+    "tvgName"         : "",
+    "tvgRec"          : 0,
+    "channelId"       : 1010
   },
   {
     "channelName"     : "SD ספורט 1",

@@ -21,11 +21,18 @@ export function* edemGenerator(
   }
 
   for (const { tvgRec, channelName, channelId } of Edem) {
-    const { extGrp, tvgId, tvgLogo } =
+    const { extGrp, tvgId, tvgLogo, source } =
       channelLineup[channelName as keyof typeof channelLineup];
-    yield "";
-    yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="${tvgRec}",${channelName}`;
-    yield `#EXTGRP:${extGrp}`;
-    yield `${BASE_URL}/${token}/${channelId}/index.m3u`;
+    if (source != "origin") {
+      yield "";
+      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${source}`;
+    } else {
+      yield "";
+      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="${tvgRec}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${BASE_URL}/${token}/${channelId}/index.m3u`;
+    }
   }
 }

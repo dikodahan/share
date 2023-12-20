@@ -55,6 +55,11 @@
       "channelId"       : 670181
     },
     {
+      "channelName"     : "ערוץ רלוונט",
+      "tvgName"         : "None",
+      "channelId"       : 1010
+    },
+    {
       "channelName"     : "כאן חינוכית",
       "tvgName"         : "IS - KAN EDU",
       "channelId"       : 260721
@@ -88,6 +93,11 @@
       "channelName"     : "קבלה לעם",
       "tvgName"         : "IS - KABALAH",
       "channelId"       : 872219
+    },
+    {
+      "channelName"     : "ערוץ הנופלים והנופלות",
+      "tvgName"         : "None",
+      "channelId"       : 1010
     },
     {
       "channelName"     : "HD ספורט 1",

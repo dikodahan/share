@@ -1,4 +1,4 @@
-import DinoDm from "./dinodm.json";
+import DinoDm from "../dino/dino.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
@@ -21,11 +21,18 @@ export function* dinoDmGenerator(
   }
 
   for (const { channelName, channelId } of DinoDm) {
-    const { extGrp, tvgId, tvgLogoDm } =
+    const { extGrp, tvgId, tvgLogoDm, source } =
       channelLineup[channelName as keyof typeof channelLineup];
-    yield "";
-    yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
-    yield `#EXTGRP:${extGrp}`;
-    yield `http://smart.cwdn.cx:80/${username}/${password}/${channelId}`;
+    if (source != "origin") {
+      yield "";
+      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${source}`;
+    } else {
+      yield "";
+      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `http://smart.cwdn.cx:80/${username}/${password}/${channelId}`;
+    }
   }
 }
