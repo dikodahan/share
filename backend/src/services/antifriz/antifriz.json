@@ -24,6 +24,12 @@
         "channelId": "14-kanal-il"
     },
     {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "ערוץ רלוונט",
+        "channelId": "none"
+    },
+    {
         "tvgRec": "7",
         "catchupDays": "7",
         "channelName": "כאן חינוכית",
