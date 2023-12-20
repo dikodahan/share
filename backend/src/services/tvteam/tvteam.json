@@ -468,10 +468,70 @@
         "tvTeamId": "IL: Savri HD"
     },
     {
+        "channelName": "בייבי",
+        "channelId": "ch1118",
+        "timeShift": "6",
+        "tvTeamId": "IL: Baby TV"
+    },
+    {
         "channelName": "הופ!",
         "channelId": "ch1154",
         "timeShift": "3",
         "tvTeamId": "IL: Hop"
+    },
+    {
+        "channelName": "הוט לולי",
+        "channelId": "ch1170",
+        "timeShift": "3",
+        "tvTeamId": "IL: Luli"
+    },
+    {
+        "channelName": "יויו",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Yoyo"
+    },
+    {
+        "channelName": "וויז",
+        "channelId": "ch2031",
+        "timeShift": "0",
+        "tvTeamId": "IL: Wiz"
+    },
+    {
+        "channelName": "לוגי",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Logi"
+    },
+    {
+        "channelName": "ילדותי",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Yalduti"
+    },
+    {
+        "channelName": "הוט באזז",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: HOT Buzz HD"
+    },
+    {
+        "channelName": "ג׳ים ג׳ם",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Jim Jam"
+    },
+    {
+        "channelName": "ג׳וניור",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Junior"
+    },
+    {
+        "channelName": "זום טון",
+        "tvgName": "TBD",
+        "tvgShift": 0,
+        "tvTeamId": "IL: Zoom Toon HD"
     },
     {
         "channelName": "דיסני",
@@ -504,76 +564,16 @@
         "tvTeamId": "IL: TeenNick"
     },
     {
-        "channelName": "בייבי",
-        "channelId": "ch1118",
-        "timeShift": "6",
-        "tvTeamId": "IL: Baby TV"
-    },
-    {
-        "channelName": "וויז",
-        "channelId": "ch2031",
-        "timeShift": "0",
-        "tvTeamId": "IL: Wiz"
-    },
-    {
-        "channelName": "ג׳וניור",
-        "tvgName": "TBD",
-        "tvgShift": 0,
-        "tvTeamId": "IL: Junior"
-    },
-    {
-        "channelName": "ג׳ים ג׳ם",
-        "tvgName": "TBD",
-        "tvgShift": 0,
-        "tvTeamId": "IL: Jim Jam"
-    },
-    {
-        "channelName": "הוט באזז",
-        "tvgName": "TBD",
-        "tvgShift": 0,
-        "tvTeamId": "IL: HOT Buzz HD"
-    },
-    {
         "channelName": "זום",
         "tvgName": "TBD",
         "tvgShift": 0,
         "tvTeamId": "IL: Zoom"
     },
     {
-        "channelName": "זום טון",
-        "tvgName": "TBD",
-        "tvgShift": 0,
-        "tvTeamId": "IL: Zoom Toon HD"
-    },
-    {
         "channelName": "פומו",
         "tvgName": "TBD",
         "tvgShift": 0,
         "tvTeamId": "IL: Fomo"
-    },
-    {
-        "channelName": "יויו",
-        "tvgName": "TBD",
-        "tvgShift": 0,
-        "tvTeamId": "IL: Yoyo"
-    },
-    {
-        "channelName": "לוגי",
-        "tvgName": "TBD",
-        "tvgShift": 0,
-        "tvTeamId": "IL: Logi"
-    },
-    {
-        "channelName": "ילדותי",
-        "tvgName": "TBD",
-        "tvgShift": 0,
-        "tvTeamId": "IL: Yalduti"
-    },
-    {
-        "channelName": "הוט לולי",
-        "channelId": "ch1170",
-        "timeShift": "3",
-        "tvTeamId": "IL: Luli"
     },
     {
         "channelName": "אנימל פלאנט",
@@ -624,10 +624,10 @@
         "tvTeamId": "IL: Foody HD"
     },
     {
-        "channelName": "ערוץ החיים הטובים",
-        "channelId": "ch1141",
+        "channelName": "ערוץ הטיולים האמריקאי",
+        "channelId": "ch1136",
         "timeShift": "3",
-        "tvTeamId": "IL: Good Life TV HD"
+        "tvTeamId": "IL: Travel Channel HD"
     },
     {
         "channelName": "בית+",
@@ -636,16 +636,16 @@
         "tvTeamId": "IL: Home Plus"
     },
     {
+        "channelName": "ערוץ החיים הטובים",
+        "channelId": "ch1141",
+        "timeShift": "3",
+        "tvTeamId": "IL: Good Life TV HD"
+    },
+    {
         "channelName": "ערוץ הבריאות",
         "channelId": "ch1176",
         "timeShift": "3",
         "tvTeamId": "IL: Health Channel HD"
-    },
-    {
-        "channelName": "E! ערוץ",
-        "channelId": "ch1122",
-        "timeShift": "3",
-        "tvTeamId": "IL: E!"
     },
     {
         "channelName": "ערוץ אגו",
@@ -654,16 +654,10 @@
         "tvTeamId": "IL: Ego Total"
     },
     {
-        "channelName": "ערוץ הטיולים האמריקאי",
-        "channelId": "ch1136",
+        "channelName": "E! ערוץ",
+        "channelId": "ch1122",
         "timeShift": "3",
-        "tvTeamId": "IL: Travel Channel HD"
-    },
-    {
-        "channelName": "ערוץ האח הגדול",
-        "channelId": "ch2032",
-        "timeShift": "0",
-        "tvTeamId": "IL: Big"
+        "tvTeamId": "IL: E!"
     },
     {
         "channelName": "ערוץ הריאליטי",
@@ -696,37 +690,43 @@
         "tvTeamId": "IL: 24"
     },
     {
+        "channelName": "ערוץ האח הגדול",
+        "channelId": "ch2032",
+        "timeShift": "0",
+        "tvTeamId": "IL: Big"
+    },
+    {
         "channelName": "ערוץ 9",
         "channelId": "ch427",
         "timeShift": "6",
         "tvTeamId": "IL: Channel 9"
     },
     {
-        "channelName": "הוט סינמה 1",
+        "channelName": "הוט סינמה 1 רוסית",
         "channelId": "ch1161",
         "timeShift": "3",
         "tvTeamId": "IL: HOT Cinema 1 HD (ru)"
     },
     {
-        "channelName": "הוט סינמה 2",
+        "channelName": "הוט סינמה 2 רוסית",
         "channelId": "ch1172",
         "timeShift": "3",
         "tvTeamId": "IL: HOT Cinema 2 HD (ru)"
     },
     {
-        "channelName": "הוט סינמה 3",
+        "channelName": "הוט סינמה 3 רוסית",
         "channelId": "ch1140",
         "timeShift": "3",
         "tvTeamId": "IL: HOT Cinema 3 HD (ru)"
     },
     {
-        "channelName": "הוט סינמה 4",
+        "channelName": "הוט סינמה 4 רוסית",
         "channelId": "ch1192",
         "timeShift": "3",
         "tvTeamId": "IL: HOT Cinema 4 HD (ru)"
     },
     {
-        "channelName": "הוט זון",
+        "channelName": "הוט זון רוסית",
         "channelId": "ch1139",
         "timeShift": "3",
         "tvTeamId": "IL: HOT Zone HD (ru)"
