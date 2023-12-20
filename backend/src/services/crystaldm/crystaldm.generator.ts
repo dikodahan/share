@@ -16,7 +16,7 @@ export function* crystalDmGenerator(
   }
 
   for (const { channelName, channelId } of Crystal) {
-    const { extGrp, tvgId, tvgLogoDm } =
+    const { extGrp, tvgId, tvgLogoDm, source } =
       channelLineup[channelName as keyof typeof channelLineup];
     if (source != "origin") {
       yield "";
