@@ -46,12 +46,12 @@
     },
     {
       "channelName"     : "ערוץ וואלה+",
-      "tvgName"         : "none",
+      "tvgName"         : 1010,
       "channelId"       : 1010
     },
     {
       "channelName"     : "ערוץ רלוונט",
-      "tvgName"         : "none",
+      "tvgName"         : 1010,
       "channelId"       : 1010
     },
     {
@@ -65,8 +65,23 @@
       "channelId"       : 105837
     },
     {
+      "channelName"     : "ערוץ ההידברות",
+      "tvgName"         : 1010,
+      "channelId"       : 1010
+    },
+    {
+      "channelName"     : "קבלה לעם",
+      "tvgName"         : 1010,
+      "channelId"       : 1010
+    },
+    {
+      "channelName"     : "ערוץ הכנסת",
+      "tvgName"         : 1010,
+      "channelId"       : 1010
+    },
+    {
       "channelName"     : "ערוץ הנופלים והנופלות",
-      "tvgName"         : "none",
+      "tvgName"         : 1010,
       "channelId"       : 1010
     },
     {
@@ -798,5 +813,120 @@
       "channelName"     : "הוט בומביי",
       "tvgName"         : "|IL| HOT BOMBAY",
       "channelId"       : 233302
+    },
+    {
+        "channelName": "גלצ",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "גלגלצ",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "כאן תרבות",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "כאן מורשת",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "כאן ב",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "כאן ג",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "88 כאן",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "90 fm אמצע הדרך",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "91 fm רדיו לב המדינה",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "92.1 fm רדיו קול ברמה",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "93 fm רדיו קול חי",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "94 fm גלי ישראל",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "96 fm רדיו קול רגע",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "97 fm רדיו דרום",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "99 fm אקו",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "99.5 fm רדיו חם אש",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "100 fm רדיוס",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "101 fm רדיו ירושלים",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "101.5 fm רדיו דרום",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "102 fm קול הים האדום אילת",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "102 fm רדיו תל אביב",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "103 fm רדיו ללא הפסקה",
+        "tvgName": "",
+        "channelId": 1010    
+    },
+    {
+        "channelName": "107.5 fm רדיו חיפה",
+        "tvgName": "",
+        "channelId": 1010        
     }
   ]

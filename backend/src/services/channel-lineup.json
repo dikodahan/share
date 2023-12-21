@@ -45,7 +45,7 @@
         "tvgId"         : "knesset-99-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Knesset.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Knesset-DM.png",
-        "link"          : "",
+        "link"          : "https://contact.gostreaming.tv/Knesset/myStream/chunklist_w882959991.m3u8",
         "extGrp"        : "ראשי"
     },
     "ערוץ וואלה+": {
@@ -66,14 +66,14 @@
         "tvgId"           : "hidabrut-YES",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Hidabrut.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Hidabrut-DM.png",
-        "link"          : "",
+        "link"          : "https://edge-fs-10.cybercdn.live/HidabrootIL/Live97/HidabrootIL/Live97_high/chunks.m3u8",
         "extGrp"          : "ראשי"
     },
     "קבלה לעם": {
         "tvgId"         : "kabbalah-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Kabalah.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Kabalah-DM.png",
-        "link"          : "",
+        "link"          : "https://edge2.il.kab.tv/live/tv66-heb-high/playlist.m3u8",
         "extGrp"        : "ראשי"
     },
     "טלויזיה שלנו": {
@@ -1116,7 +1116,7 @@
         "tvgId"         : "hala-tv-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Hala-TV.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Hala-TV-DM.png",
-        "link"          : "",
+        "link"          : "https://gstream4.panet.co.il/edge/halaTV/playlist.m3u8",
         "extGrp"        : "שפות זרות"
     },
     "ערוץ המזרח התיכון": {

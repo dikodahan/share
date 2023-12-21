@@ -44,6 +44,24 @@
     {
         "tvgRec": "0",
         "catchupDays": "0",
+        "channelName": "ערוץ הכנסת",
+        "channelId": "none"
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "ערוץ ההידברות",
+        "channelId": "none"
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "קבלה לעם",
+        "channelId": "none"
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
         "channelName": "ערוץ הנופלים והנופלות",
         "channelId": "none"
     },
@@ -430,6 +448,12 @@
         "catchupDays": "7",
         "channelName": "מכאן 33",
         "channelId": "makan33-il"
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "ערוץ הלא טיוי",
+        "channelId": "none"
     },
     {
         "tvgRec": "7",
