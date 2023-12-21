@@ -16,13 +16,13 @@ export function* liveGoDmGenerator(
   }
 
   for (const { tvgShift, tvgName, channelName, channelId } of LiveGoDm) {
-    const { extGrp, tvgId, tvgLogoDm, source } =
+    const { extGrp, tvgId, tvgLogoDm, link } =
       channelLineup[channelName as keyof typeof channelLineup];
-    if (source != "origin") {
+    if (channelId == 1010) {
       yield "";
       yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;
-      yield `${source}`;
+      yield `${link}`;
     } else {  
       yield "";
       yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-shift="${tvgShift}" tvg-logo="${tvgLogoDm}",${channelName}`;

@@ -21,13 +21,13 @@ export function* edemDmGenerator(
   }
 
   for (const { tvgRec, channelName, channelId } of EdemDm) {
-    const { extGrp, tvgId, tvgLogoDm, source } =
+    const { extGrp, tvgId, tvgLogoDm, link } =
       channelLineup[channelName as keyof typeof channelLineup];
-    if (source != "origin") {
+    if (channelId == 1010) {
       yield "";
       yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;
-      yield `${source}`;
+      yield `${link}`;
     } else {
       yield "";
       yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}" tvg-rec="${tvgRec}",${channelName}`;

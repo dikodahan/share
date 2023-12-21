@@ -45,6 +45,11 @@
       "channelId"       : 105867
     },
     {
+      "channelName"     : "ערוץ וואלה+",
+      "tvgName"         : "none",
+      "channelId"       : 1010
+    },
+    {
       "channelName"     : "ערוץ רלוונט",
       "tvgName"         : "none",
       "channelId"       : 1010
@@ -698,6 +703,11 @@
       "channelName"     : "MTV 00s",
       "tvgName"         : "|IL| YES MUSIC IL HD",
       "channelId"       : 105871
+    },
+    {
+      "channelName"     : "ערוץ הקניות",
+      "tvgName"         : "",
+      "channelId"       : 1010
     },
     {
       "channelName"     : "ערוץ 9",

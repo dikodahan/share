@@ -26,6 +26,12 @@
     {
         "tvgRec": "0",
         "catchupDays": "0",
+        "channelName": "ערוץ וואלה+",
+        "channelId": "none"
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
         "channelName": "ערוץ רלוונט",
         "channelId": "none"
     },
@@ -370,6 +376,12 @@
         "catchupDays": "0",
         "channelName": "IL מוזיקה",
         "channelId": "music-il-hd"
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "ערוץ הקניות",
+        "channelId": "none"
     },
     {
         "tvgRec": "7",

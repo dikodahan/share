@@ -48,6 +48,12 @@
     "channelId"       : 12261
   },
   {
+    "channelName"     : "ערוץ וואלה+",
+    "tvgName"         : "",
+    "tvgRec"          : 0,
+    "channelId"       : 1010
+  },
+  {
     "channelName"     : "ערוץ רלוונט",
     "tvgName"         : "",
     "tvgRec"          : 0,
@@ -688,6 +694,12 @@
     "tvgName"         : "",
     "tvgRec"          : 0,
     "channelId"       : 12274
+  },
+  {
+    "channelName"     : "ערוץ הקניות",
+    "tvgName"         : "",
+    "tvgRec"          : 0,
+    "channelId"       : 1010
   },
   {
     "channelName"     : "i24 צרפת",

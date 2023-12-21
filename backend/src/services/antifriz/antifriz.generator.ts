@@ -19,13 +19,13 @@ export function* antiFrizGenerator(
   }
 
   for (const { channelName, channelId, tvgRec, catchupDays } of AntiFriz) {
-    const { extGrp, tvgId, tvgLogo, source } =
+    const { extGrp, tvgId, tvgLogo, link } =
       channelLineup[channelName as keyof typeof channelLineup];
-    if (source != "origin") {
+    if (channelId == "none") {
       yield "";
       yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;
-      yield `${source}`;
+      yield `${link}`;
     } else {
       yield "";
       yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
