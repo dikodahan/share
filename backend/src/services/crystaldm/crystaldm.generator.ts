@@ -18,7 +18,7 @@ export function* crystalDmGenerator(
   for (const { channelName, channelId } of Crystal) {
     const { extGrp, tvgId, tvgLogoDm, link } =
       channelLineup[channelName as keyof typeof channelLineup];
-    if (source == 1010) {
+    if (channelId == 1010) {
       yield "";
       yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;

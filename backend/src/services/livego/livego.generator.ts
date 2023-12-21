@@ -16,13 +16,13 @@ export function* liveGoGenerator(
   }
 
   for (const { tvgShift, tvgName, channelName, channelId } of LiveGo) {
-    const { extGrp, tvgId, tvgLogo, source } =
+    const { extGrp, tvgId, tvgLogo, link } =
       channelLineup[channelName as keyof typeof channelLineup];
-    if (source != "origin") {
+    if (channelId == 1010) {
       yield "";
       yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;
-      yield `${source}`;
+      yield `${link}`;
     } else {
       yield "";
       yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-shift="${tvgShift}" tvg-logo="${tvgLogo}",${channelName}`;
