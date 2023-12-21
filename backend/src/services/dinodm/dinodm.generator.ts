@@ -23,7 +23,7 @@ export function* dinoDmGenerator(
   for (const { channelName, channelId } of DinoDm) {
     const { extGrp, tvgId, tvgLogoDm, link } =
       channelLineup[channelName as keyof typeof channelLineup];
-    if (channelId = 1010) {
+    if (channelId == 1010) {
       yield "";
       yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;
