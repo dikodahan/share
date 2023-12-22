@@ -1018,35 +1018,35 @@
         "tvgId"         : "cnn-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/CNN.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/CNN-DM.png",
-        "link"          : "",
+        "link"          : "https://cnn-cnninternational-1-eu.rakuten.wurl.tv/playlist.m3u8",
         "extGrp"        : "חדשות מהעולם"
     },
     "חדשות פוקס": {
         "tvgId"         : "fox-news-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Fox-News.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Fox-News-DM.png",
-        "link"          : "",
+        "link"          : "https://fox-foxnewsnow-samsungus.amagi.tv/playlist.m3u8",
         "extGrp"        : "חדשות מהעולם"
     },
     "פוקס ביזנס": {
         "tvgId"         : "fox-business-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Fox-Business.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Fox-Business-DM.png",
-        "link"          : "",
+        "link"          : "https://video-weaver.jfk04.hls.ttvnw.net/v1/playlist/CqkF4i7GNhnBADIBl-4jhyo5Lgf2rRJJh5jyIe6QuQydeOX1fTD4Bw9Mq1V56E-x8Jtg2PV1hanDvOja_tYyoN3Jrlcn-8FzMBXA-G5nny0QWUcmQ8WRf8iWe9YU0iM3GZhjO48abNeg1PQ5L0uD3vLwBhWoL0EeAbiklUfNuplgm_tjddBivS7qWbzRK44kNJ6mRf92BYhj4Uq4MoyO7p5otsAM4gB0c1gPnue811fg6AKEASAsoD8WtztAsXVGftNM9w4Hkc-F02lqimXWwk00emkNqQkiaiA-Jx0Spgfci8J8Vvz7WTJF-y84SMf3gcRqmwRPgtCPQzaOnDNp0Wgv0ntZIrek-ipkOQ4v8zoBkUlvp0N9a_FH7MhVmod6A7v9e7lBbHVA4IC0qgr5LyPbTdCfqN34s7Ji1IU5NXqqO3yyOW4hKkV0Xqy_OIjeYSVLjJs29seMN2wdw8Xnk8wGVtKvO3-TZ26ZJ9u6g1_Irhzq8Ca4BQhwRL5-NHsSWHKSfrTASCEAvjpeywEhgqQs5R8RigtisxWaA9HUI9Mgk47xZJAmapIVIdquIXZ72xO-EcCmIuPI8-xX9LpBEL91gJYjfkpJhUebTj1i5oWG9WhW9ncJvCOKx8aQqg9D3xlMQVAKr4bVZTM48LU5IauNoRTpq5vZE0gKmlEQjR0aSSoFs60waPZkn9a0YnqMUJyQ1848utUsUgceOfrnnAJ4ikaxTEtjVLHr1onyDM1TwxqLHoumNuM43dYbt4MN1qPAf1o2QddsVsj6cbkpEJPagoeWoXdD2vH1zs9Flb4xCmTbxa_iTaz7DQkoKVwF38XjdsVa54q6_lDpRvq4syQ6pCqvVf7ORC26lmokUwmMD3Ml2sy4jqyTzEUqA7QykU6yyeTw5bs9_bJAGgxsaEil1zcbtIHTb-ogASoJZXUtd2VzdC0xMJwE.m3u8",
         "extGrp"        : "חדשות מהעולם"
     },
     "חדשות בלומברג": {
         "tvgId"         : "bloomberg-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Bloomberg.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Bloomberg-DM.png",
-        "link"          : "",
+        "link"          : "https://liveprodusphoenixeast.global.ssl.fastly.net/USPhx-HD/Channel-TX-USPhx-AWS-virginia-1/Source-USPhx-16k-1-s6lk2-BP-07-03-0Yn1cQZHOtP_live.m3u8",
         "extGrp"        : "חדשות מהעולם"
     },
     "חדשות סקיי": {
         "tvgId"         : "sky-news-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Sky-News.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Sky-News-DM.png",
-        "link"          : "",
+        "link"          : "https://linear021-gb-hls1-prd-ak.cdn.skycdp.com/Content/HLS_001_sd/Live/channel(skynews)/index_hd30.m3u8",
         "extGrp"        : "חדשות מהעולם"
     },
     "i24 צרפת": {
@@ -1054,6 +1054,20 @@
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/France-24.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/France-24-DM.png",
         "link"          : "",
+        "extGrp"        : "חדשות מהעולם"
+    },
+    "אל ג׳זירה באנגלית": {
+        "tvgId"         : "aljazeera-en-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Aljazeera.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Aljazeera-DM.png",
+        "link"          : "https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
+        "extGrp"        : "חדשות מהעולם"
+    },
+    "אל ג׳זירה בערבית": {
+        "tvgId"         : "aljazeera-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Aljazeera-AR.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Aljazeera-AR-DM.png",
+        "link"          : "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1703298222/ei/TvCFZYaWDIPn1wLR4ZS4DA/ip/85.120.16.2/id/bNyUyrR0PHo.2/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f1PHTpIBWnoqSb7pi8icZqFrTLFW6VQ6Fy6L0w/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAIFPNp13EsfkhelS4R-CcZJBSuLkXCVq3GlZDvfPg6TwAiEAlmwKUHty1JgYSJ1vt1AShr93_xfn-iK38Z60WehnyuM%3D/file/index.m3u8",
         "extGrp"        : "חדשות מהעולם"
     },
     "ערוץ 9": {
