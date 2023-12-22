@@ -542,6 +542,12 @@
     {
         "tvgRec": "0",
         "catchupDays": "0",
+        "channelName": "כאן קול המוזיקה",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
         "channelName": "כאן מורשת",
         "channelId": "none"    
     },
