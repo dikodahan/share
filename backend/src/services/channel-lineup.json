@@ -3,35 +3,35 @@
         "tvgId"         : "kan-11-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Kan-11.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Kan-11-DM.png",
-        "link"          : "",
+        "link"          : "https://kan11w.media.kan.org.il/hls/live/2105694/2105694/master.m3u8",
         "extGrp"        : "ראשי"
     },
     "קשת 12": {
         "tvgId"         : "keshet-12-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Keshet-12.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Keshet-12-DM.png",
-        "link"          : "",
+        "link"          : "https://mako-streaming.akamaized.net/direct/hls/live/2033791/k12/index.m3u8?b-in-range=0-1100&hdnea=st%3D1703261770%7Eexp%3D1703262670%7Eacl%3D%2F*%7Ehmac%3Dd34d3cdf81dcf8f906627c84b4f669e81c55edda0d72f04b944bee69f918ae9a",
         "extGrp"        : "ראשי"
     },
     "רשת 13": {
         "tvgId"         : "reshet-13-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Reshet-13.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Reshet-13-DM.png",
-        "link"          : "",
+        "link"          : "https://d18b0e6mopany4.cloudfront.net/out/v1/08bc71cf0a0f4712b6b03c732b0e6d25/index.m3u8",
         "extGrp"        : "ראשי"
     },
     "ערוץ 14": {
         "tvgId"         : "now-14-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Channel-14.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Channel-14-DM.png",
-        "link"          : "",
+        "link"          : "https://now14.g-mana.live/media/91517161-44ab-4e46-af70-e9fe26117d2e/mainManifest.m3u8",
         "extGrp"        : "ראשי"
     },
     "כאן חינוכית": {
         "tvgId"         : "kan-chinuchit-23-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Kan-Chinuchit.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Kan-Chinuchit-DM.png",
-        "link"          : "",
+        "link"          : "https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8",
         "extGrp"        : "ראשי"
     },
     "ערוץ 98": {
@@ -1060,7 +1060,7 @@
         "tvgId"         : "israel-plus-9-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Channel-9.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Channel-9-DM.png",
-        "link"          : "",
+        "link"          : "https://contactgbs.mmdlive.lldns.net/contactgbs/dd4f5f04932345f1b47c4bfb45fbd682/chunklist_b1128000.m3u8",
         "extGrp"        : "שפות זרות"
     },
     "ערוץ רוסיה 1": {
@@ -1109,7 +1109,7 @@
         "tvgId"         : "makan-33-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Makan-33.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Makan-33-DM.png",
-        "link"          : "",
+        "link"          : "https://makan.media.kan.org.il/hls/live/2024680/2024680/master.m3u8",
         "extGrp"        : "שפות זרות"
     },
     "ערוץ הלא טיוי": {
