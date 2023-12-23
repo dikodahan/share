@@ -572,6 +572,12 @@
     {
         "tvgRec": "0",
         "catchupDays": "0",
+        "channelName": "כאן רקע",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
         "channelName": "90 fm אמצע הדרך",
         "channelId": "none"    
     },

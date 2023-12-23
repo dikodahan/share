@@ -1260,168 +1260,175 @@
         "extGrp"          : "שפות זרות"
     },
     "גלצ": {
-        "tvgId"           : "",
+        "tvgId"           : "glz-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Galatz.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Galatz-DM.png",
         "link"            : "http://glzwizzlv.bynetcdn.com/glz_mp3",
         "extGrp"          : "רדיו"
     },
     "גלגלצ": {
-        "tvgId"           : "",
+        "tvgId"           : "glglz-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Galgalatz.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Galgalatz-DM.png",
         "link"            : "https://glzwizzlv.bynetcdn.com/glglz_mp3",
         "extGrp"          : "רדיו"
     },
     "כאן תרבות": {
-        "tvgId"           : "",
+        "tvgId"           : "tarbut-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Kan-Tarbut.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Kan-Tarbut-DM.png",
         "link"            : "https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_TARBUT.mp3",
         "extGrp"          : "רדיו"
     },
     "כאן קול המוזיקה": {
-        "tvgId"           : "",
+        "tvgId"           : "kol-hamuzika-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Kol-Hamuzika.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Kol-Hamuzika-DM.png",
         "link"            : "https://cdnapisec.kaltura.com/p/2717431/sp/2717431/playManifest/entryId/1_f383er43/deliveryProfileId/672/protocol/https/format/applehttp/a.m3u8",
         "extGrp"          : "רדיו"
     },
     "כאן מורשת": {
-        "tvgId"           : "",
+        "tvgId"           : "mereshet-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Kan-Moreshet.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Kan-Moreshet-DM.png",
         "link"            : "https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_MORESHET.mp3",
         "extGrp"          : "רדיו"
     },
     "כאן ב": {
-        "tvgId"           : "",
+        "tvgId"           : "bet-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Kan-Bet.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Kan-Bet-DM.png",
         "link"            : "https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_BET.mp3",
         "extGrp"          : "רדיו"
     },
     "כאן ג": {
-        "tvgId"           : "",
+        "tvgId"           : "gimmel-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Gimmel.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Gimmel-DM.png",
         "link"            : "https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_GIMMEL.mp3",
         "extGrp"          : "רדיו"
     },
     "88 כאן": {
-        "tvgId"           : "",
+        "tvgId"           : "88-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Kan-88.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Kan-88-DM.png",
         "link"            : "https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_88.mp3",
         "extGrp"          : "רדיו"
     },
+    "כאן רקע": {
+        "tvgId"           : "reka-RADIO",
+        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Kan-Reka.png",
+        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Kan-Reka-DM.png",
+        "link"            : "https://cfvod.kaltura.com/hls/p/2717431/sp/271743100/serveFlavor/entryId/1_xlhfcu25/v/1/ev/3/flavorId/1_skbk7757/name/a.mp4/index.m3u8",
+        "extGrp"          : "רדיו"
+    },
     "90 fm אמצע הדרך": {
-        "tvgId"           : "",
+        "tvgId"           : "emtza-haderech-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Radio-Emtza-Haderech.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Radio-Emtza-Haderech-DM.png",
         "link"          : "https://cdn.cybercdn.live/Emtza_Haderech/Live_Audio/icecast.audio",
         "extGrp"          : "רדיו"
     },
     "91 fm רדיו לב המדינה": {
-        "tvgId"           : "",
+        "tvgId"           : "lev-hamedina-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Lev-Hamedina.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Lev-Hamedina-DM.png",
         "link"            : "https://cdn.cybercdn.live/Lev_Hamedina/Audio/icecast.audio",
         "extGrp"          : "רדיו"
     },
     "92.1 fm רדיו קול ברמה": {
-        "tvgId"           : "",
+        "tvgId"           : "kol-barama-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Kol-Barama.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Kol-Barama-DM.png",
         "link"            : "https://cdn.cybercdn.live/Kol_Barama/Live_Audio/icecast.audio",
         "extGrp"          : "רדיו"
     },
     "93 fm רדיו קול חי": {
-        "tvgId"           : "",
+        "tvgId"           : "kol-chai-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Kol-Chai.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Kol-Chai-DM.png",
         "link"            : "http://media.93fm.co.il/live",
         "extGrp"          : "רדיו"
     },
     "94 fm גלי ישראל": {
-        "tvgId"           : "",
+        "tvgId"           : "galey-israel-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Galey-Israel.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Galey-Israel-DM.png",
         "link"            : "https://cdn.cybercdn.live/Galei_Israel/Live/icecast.audio",
         "extGrp"          : "רדיו"
     },
     "96 fm רדיו קול רגע": {
-        "tvgId"           : "",
+        "tvgId"           : "kol-rega-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Kol-Rega.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Kol-Rega-DM.png",
         "link"            : "https://cdn.cybercdn.live/Kol_Rega/Live_Audio/icecast.audio",
         "extGrp"          : "רדיו"
     },
     "97 fm רדיו דרום": {
-        "tvgId"           : "",
+        "tvgId"           : "darom-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Radio-Darom.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Radio-Darom-DM.png",
         "link"            : "https://cdn.cybercdn.live/Darom_97FM/Live/icecast.audio",
         "extGrp"          : "רדיו"
     },
     "99 fm אקו": {
-        "tvgId"           : "",
+        "tvgId"           : "eco-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Eco99.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Eco99-DM.png",
         "link"            : "https://99.mediacast.co.il/99fm_aac",
         "extGrp"          : "רדיו"
     },
     "99.5 fm רדיו חם אש": {
-        "tvgId"           : "",
+        "tvgId"           : "cham-esh-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Cham-Esh.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Cham-Esh-DM.png",
         "link"            : "http://995.livecdn.biz:8000/995fm",
         "extGrp"          : "רדיו"
     },
     "100 fm רדיוס": {
-        "tvgId"           : "",
+        "tvgId"           : "radius-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Radius.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Radius-DM.png",
         "link"            : "https://cdn.cybercdn.live/Radios_100FM/Audio/icecast.audio",
         "extGrp"          : "רדיו"
     },
     "101 fm רדיו ירושלים": {
-        "tvgId"           : "",
+        "tvgId"           : "jerusalem-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Radio-Jerusalem.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Radio-Jerusalem-DM.png",
         "link"            : "https://radio.streamgates.net/stream/101fm",
         "extGrp"          : "רדיו"
     },
     "101.5 fm רדיו באר-שבע": {
-        "tvgId"           : "",
+        "tvgId"           : "beer-sheva-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Radio-Beer-Sheva.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Radio-Beer-Sheva-DM.png",
         "link"            : "https://cdn.cybercdn.live/Darom_1015FM/Live/icecast.audio",
         "extGrp"          : "רדיו"
     },
     "102 fm קול הים האדום אילת": {
-        "tvgId"           : "",
+        "tvgId"           : "kol-hayam-haadom-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Kol-Hayam-Haadom.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Kol-Hayam-Haadom-DM.png",
         "link"            : "https://cdn.cybercdn.live/Eilat_Radio/Live/icecast.audio",
         "extGrp"          : "רדיו"
     },
     "102 fm רדיו תל אביב": {
-        "tvgId"           : "",
+        "tvgId"           : "tel-aviv-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Radio-Tel-Aviv.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Radio-Tel-Aviv-DM.png",
         "link"            : "https://102.livecdn.biz/102fm_aac",
         "extGrp"          : "רדיו"
     },
     "103 fm רדיו ללא הפסקה": {
-        "tvgId"           : "",
+        "tvgId"           : "lelo-hafsaka-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Radio-Lelo-Hafsaka.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Radio-Lelo-Hafsaka-DM.png",
         "link"            : "https://cdn.cybercdn.live/103FM/Live/icecast.audio",
         "extGrp"          : "רדיו"
     },
     "107.5 fm רדיו חיפה": {
-        "tvgId"           : "",
+        "tvgId"           : "haifa-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Radio-Haifa.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Radio-Haifa-DM.png",
         "link"            : "https://1075.livecdn.biz/radiohaifa",
