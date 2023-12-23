@@ -1392,10 +1392,10 @@
         "link"            : "https://radio.streamgates.net/stream/101fm",
         "extGrp"          : "רדיו"
     },
-    "101.5 fm רדיו דרום": {
+    "101.5 fm רדיו באר-שבע": {
         "tvgId"           : "",
-        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Radio-Darom.png",
-        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Radio-Darom-DM.png",
+        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Radio-Beer-Sheva.png",
+        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Radio-Beer-Sheva-DM.png",
         "link"            : "https://cdn.cybercdn.live/Darom_1015FM/Live/icecast.audio",
         "extGrp"          : "רדיו"
     },
