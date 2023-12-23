@@ -432,10 +432,64 @@
         "channelId": "history-il"
     },
     {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "חדשות סי אן אן",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "חדשות פוקס",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "פוקס ביזנס",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "חדשות בלומברג",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "חדשות סקיי",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "באנגלית i24 חדשות",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "בצרפתית i24 חדשות",
+        "channelId": "none"    
+    },
+    {
         "tvgRec": "7",
         "catchupDays": "7",
         "channelName": "בערבית i24 חדשות",
         "channelId": "i24-il"
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "אל ג׳זירה באנגלית",
+        "channelId": "none"    
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
+        "channelName": "אל ג׳זירה בערבית",
+        "channelId": "none"    
     },
     {
         "tvgRec": "7",
