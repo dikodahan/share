@@ -853,39 +853,62 @@
     },
     {
         "channelName": "חדשות סי אן אן",
-        "tvgName": "CNN HD",
+        "tvgName": "",
         "tvgShift": 0,
-        "channelId": 33597
+        "channelId": 1010    
     },
     {
         "channelName": "חדשות פוקס",
-        "tvgName": "Fox News",
+        "tvgName": "",
         "tvgShift": 0,
-        "channelId": 22000
+        "channelId": 1010    
     },
     {
         "channelName": "פוקס ביזנס",
-        "tvgName": "fox.business.network.us",
+        "tvgName": "",
         "tvgShift": 0,
-        "channelId": 42009
+        "channelId": 1010    
     },
     {
         "channelName": "חדשות בלומברג",
-        "tvgName": "BLOOMBERG TV",
+        "tvgName": "",
         "tvgShift": 0,
-        "channelId": 10747
+        "channelId": 1010    
     },
     {
         "channelName": "חדשות סקיי",
-        "tvgName": "Sky News",
+        "tvgName": "",
         "tvgShift": 0,
-        "channelId": 930
+        "channelId": 1010    
+    },
+    {
+        "channelName": "באנגלית i24 חדשות",
+        "tvgName": "",
+        "tvgShift": 0,
+        "channelId": 1010    
     },
     {
         "channelName": "בצרפתית i24 חדשות",
         "tvgName": "i24.il",
         "tvgShift": 0,
         "channelId": 12299
+    },
+    {
+        "channelName": "בערבית i24 חדשות",
+        "tvgName": "",
+        "tvgShift": 0,
+        "channelId": 1010    
+    },
+    {
+        "channelName": "אל ג׳אזירה באנגלית",
+        "tvgName": "",
+        "tvgShift": 0,
+        "channelId": 1010    
+    },
+    {
+        "channelName": "אל ג׳אזירה בערבית",
+        "tvgName": "",
+        "channelId": 1010    
     },
     {
         "channelName": "ערוץ 9",

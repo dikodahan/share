@@ -11,16 +11,38 @@ export function* freeGenerator(
         yield line;
     }
 
-    for (const { channelName } of Free) {
-        const { extGrp, tvgId, tvgLogo, link } =
-        channelLineup[channelName as keyof typeof channelLineup];
+    const freeChannels = new Map(Free.map(item => [item.channelName, item]));
+
+    for (const channelName of Object.keys(channelLineup)) {
+      const freeChannel = freeChannels.get(channelName);
+  
+      if (freeChannel) {
+        const channelData = channelLineup[channelName as keyof typeof channelLineup];
+  
+        const { tvgId, tvgLogo, link, extGrp } = channelData;
+  
         yield "";
-        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
         if (extGrp == "רדיו") {
             yield `#EXTGRP:${extGrp}`;
         } else {
             yield `#EXTGRP:${BASE_GRP}`;
         }
         yield `${link}`;
+      }
     }
   }
+    
+//     for (const { channelName } of Free) {
+//         const { extGrp, tvgId, tvgLogo, link } =
+//         channelLineup[channelName as keyof typeof channelLineup];
+//         yield "";
+//         yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+//         if (extGrp == "רדיו") {
+//             yield `#EXTGRP:${extGrp}`;
+//         } else {
+//             yield `#EXTGRP:${BASE_GRP}`;
+//         }
+//         yield `${link}`;
+//     }
+//   }
