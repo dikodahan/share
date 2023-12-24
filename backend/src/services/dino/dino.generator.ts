@@ -15,19 +15,28 @@ export function* dinoGenerator(
     yield line;
   }
 
-  for (const { channelName, channelId } of Dino) {
-    const { extGrp, tvgId, tvgLogo, link } =
-      channelLineup[channelName as keyof typeof channelLineup];
-    if (channelId == 1010) {
-      yield "";
-      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-      yield `#EXTGRP:${extGrp}`;
-      yield `${link}`;
-    } else {
-      yield "";
-      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-      yield `#EXTGRP:${extGrp}`;
-      yield `http://smart.cwdn.cx:80/${username}/${password}/${channelId}`;
+  const dinoChannels = new Map(Dino.map(item => [item.channelName, item]));
+
+    for (const channelName of Object.keys(channelLineup)) {
+      const dinoChannel = dinoChannels.get(channelName);
+  
+      if (crystalChannel) {
+        const { channelId } = dinoChannel;
+        const channelData = channelLineup[channelName as keyof typeof channelLineup];
+  
+        const { tvgId, tvgLogo, link, extGrp } = channelData;
+  
+        if (channelId == 1010) {
+          yield "";
+          yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+          yield `#EXTGRP:${extGrp}`;
+          yield `${link}`;
+        } else {
+          yield "";
+          yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+          yield `#EXTGRP:${extGrp}`;
+          yield `http://smart.cwdn.cx:80/${username}/${password}/${channelId}`;
+        }
+      }
     }
   }
-}
