@@ -22,12 +22,14 @@ export function* testGenerator(
   const testChannels = new Map(Test.map(item => [item.channelName, item]));
 
   for (const channelName of Object.keys(channelLineup)) {
-    if (testChannels.has(channelName)) {
-      const testChannel = testChannels.get(channelName);
+    const testChannel = testChannels.get(channelName);
+
+    // Type guard to ensure testChannel is not undefined
+    if (testChannel) {
+      const { channelId, tvgRec, catchupDays } = testChannel;
       const channelData = channelLineup[channelName as keyof typeof channelLineup];
 
       const { tvgId, tvgLogo, link, extGrp } = channelData;
-      const { channelId, tvgRec, catchupDays } = testChannel;
 
       if (channelId == "none") {
         yield "";
