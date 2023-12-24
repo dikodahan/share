@@ -21,7 +21,7 @@ export function* crystalGenerator(
       const crystalChannel = crystalChannels.get(channelName);
   
       if (crystalChannel) {
-        const { channelId, tvgRec, catchupDays } = crystalChannel;
+        const { channelId } = crystalChannel;
         const channelData = channelLineup[channelName as keyof typeof channelLineup];
   
         const { tvgId, tvgLogo, link, extGrp } = channelData;

@@ -18,7 +18,7 @@ export function* antiFrizDmGenerator(
     yield line;
   }
 
-  const antifrizChannels = new Map(AntiFriz.map(item => [item.channelName, item]));
+  const antifrizChannels = new Map(AntiFrizDm.map(item => [item.channelName, item]));
 
   for (const channelName of Object.keys(channelLineup)) {
     const antifrizChannel = antifrizChannels.get(channelName);
