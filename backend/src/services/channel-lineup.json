@@ -27,11 +27,18 @@
         "link"          : "https://now14.g-mana.live/media/91517161-44ab-4e46-af70-e9fe26117d2e/mainManifest.m3u8",
         "extGrp"        : "ראשי"
     },
-    "כאן חינוכית": {
-        "tvgId"         : "kan-chinuchit-23-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Kan-Chinuchit.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Kan-Chinuchit-DM.png",
-        "link"          : "https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8",
+    "ערוץ וואלה+": {
+        "tvgId"         : "walla-plus-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Walla-Plus.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Walla-Plus-DM.png",
+        "link"          : "https://amg01742-walla-wallanews-ono-btlna.amagi.tv/playlist/amg01742-walla-wallanews-ono/cb553d1a7d6c648f9fd43e62d6ef42a4da2427fc087a8d6933fb4b926bc10f41f8eda29ab30fb02b04940fa73f4e380d4d1a9a4ace0362d7b66aa9515b7d121b9d81a20a99d94e5cd58d5d5173f7651b52f91016d6354b59f1dd3724c97db9700e16a82e6b553982f449de2e109add5f947e2b8bb3dd7f39635a4ffc0c0bb4e207bcfae25a5bdb6ab3a5491d912843e68714d4851cbad2c95a9f16d36bf840c9c1edde8611d7829637a152e066086ad31cf3f8111262c0d4a0f85c0ade1c1d481741e3a7d3cd5a3d9242502e8095a991448fde4a1447fb0d19b4128c47c411876eb800a4e034cdc558548f234bc2ea5e7633afebe2f2939bb1200489c0c4fc0911b4f7076b46ca65cd312e2c84ee8173eea645c4e276dde6207559b1ab41c0229dceca90f48e8c78a0705fa99d02d4004e72a750a78864d8289256add92c18535f4f974b34ae93f4512a6b438a8111815d4bf993a682dc0735de6f0852b320f0551169c074417de66dd6a97c54c9775aba6468c40f7cc063eca820f090dee72d32a1919211a821bce34a9add2a9d40101542bffb275a056b78d3e56944705acb57ebdecfae265b50a2a783ae8e0378343811531e82adb223ccc0937f6f79ab370953342865f15586568e557657548e74b58b067b820a245f83862f4d5669eca5928995d9c741f53293e0ce7917793e47b8200e3261c3bcee08a96b531fb8041911372bfb410cef256953b6bb14/143/1920x1080_4760800/index.m3u8",
+        "extGrp"        : "ראשי"
+    },
+    "ערוץ רלוונט": {
+        "tvgId"         : "relevant-RELEVANT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Relevant.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Relevant-DM.png",
+        "link"          : "https://6180c994cb835402.mediapackage.eu-west-1.amazonaws.com/out/v1/06e44cd7f7e0445fbd669f279c997fd4/index.mpd",
         "extGrp"        : "ראשי"
     },
     "ערוץ 98": {
@@ -46,20 +53,6 @@
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Knesset.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Knesset-DM.png",
         "link"          : "https://contact.gostreaming.tv/Knesset/myStream/chunklist_w882959991.m3u8",
-        "extGrp"        : "ראשי"
-    },
-    "ערוץ וואלה+": {
-        "tvgId"         : "walla-plus-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Walla-Plus.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Walla-Plus-DM.png",
-        "link"          : "https://amg01742-walla-wallanews-ono-btlna.amagi.tv/playlist/amg01742-walla-wallanews-ono/cb553d1a7d6c648f9fd43e62d6ef42a4da2427fc087a8d6933fb4b926bc10f41f8eda29ab30fb02b04940fa73f4e380d4d1a9a4ace0362d7b66aa9515b7d121b9d81a20a99d94e5cd58d5d5173f7651b52f91016d6354b59f1dd3724c97db9700e16a82e6b553982f449de2e109add5f947e2b8bb3dd7f39635a4ffc0c0bb4e207bcfae25a5bdb6ab3a5491d912843e68714d4851cbad2c95a9f16d36bf840c9c1edde8611d7829637a152e066086ad31cf3f8111262c0d4a0f85c0ade1c1d481741e3a7d3cd5a3d9242502e8095a991448fde4a1447fb0d19b4128c47c411876eb800a4e034cdc558548f234bc2ea5e7633afebe2f2939bb1200489c0c4fc0911b4f7076b46ca65cd312e2c84ee8173eea645c4e276dde6207559b1ab41c0229dceca90f48e8c78a0705fa99d02d4004e72a750a78864d8289256add92c18535f4f974b34ae93f4512a6b438a8111815d4bf993a682dc0735de6f0852b320f0551169c074417de66dd6a97c54c9775aba6468c40f7cc063eca820f090dee72d32a1919211a821bce34a9add2a9d40101542bffb275a056b78d3e56944705acb57ebdecfae265b50a2a783ae8e0378343811531e82adb223ccc0937f6f79ab370953342865f15586568e557657548e74b58b067b820a245f83862f4d5669eca5928995d9c741f53293e0ce7917793e47b8200e3261c3bcee08a96b531fb8041911372bfb410cef256953b6bb14/143/1920x1080_4760800/index.m3u8",
-        "extGrp"        : "ראשי"
-    },
-    "ערוץ רלוונט": {
-        "tvgId"         : "relevant-RELEVANT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Relevant.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Relevant-DM.png",
-        "link"          : "https://6180c994cb835402.mediapackage.eu-west-1.amazonaws.com/out/v1/06e44cd7f7e0445fbd669f279c997fd4/index.mpd",
         "extGrp"        : "ראשי"
     },
     "ערוץ ההידברות": {
@@ -89,6 +82,321 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Noflim-DM.png",
         "link"        : "https://reshetbetvideo.media.kan.org.il/hls/live/2044082/2044082/source1_2.5k/chunklist.m3u8",
         "extGrp"        : "ראשי"
+    },
+    "יס סרטים קומדיה": {
+        "tvgId"         : "movies-comedy-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Movies-Comedy.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Movies-Comedy-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "הוט סינמה 3": {
+        "tvgId"         : "cinema-3-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C3.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C3-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "פרי טיוי סרטים קומדיה": {
+        "tvgId"         : "movies-comedy-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Comedy.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Comedy-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "יס סרטים פעולה": {
+        "tvgId"         : "movies-action-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Movies-Action.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Movies-Action-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "הוט סינמה 1": {
+        "tvgId"         : "cinema-1-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C1.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C1-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "הוט סינמה 2": {
+        "tvgId"         : "cinema-2-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C2.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C2-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "פרי טיוי סרטים פעולה": {
+        "tvgId"         : "movies-action-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Action.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Action-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "פרטנר סרטים": {
+        "tvgId"         : "movies-PARTNER",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Partner-Sratim.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Partner-Sratim-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "יס פופאפ": {
+        "tvgId"           : "pop-up-YES",
+        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Yes-Pop-Up.png",
+        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Yes-Pop-Up-DM.png",
+        "link"          : "",
+        "extGrp"          : "סרטים"
+    },
+    "יס סרטים דרמה": {
+        "tvgId"         : "movies-drama-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Movies-Drama.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Movies-Drama-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "הוט סינמה 4": {
+        "tvgId"         : "cinema-4-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C4.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C4-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "פרי טיוי סרטים דרמה": {
+        "tvgId"         : "movies-drama-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Drama.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Drama-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "פרי טיוי סרטים אימה": {
+        "tvgId"         : "movies-horror-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Horror.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Horror-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "פרי טיוי סרטים רומנטיקה": {
+        "tvgId"         : "movies-romantic-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Romantic.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Romantic-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "סלקום סרטים": {
+        "tvgId"         : "sratim-CELLCOM",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Sratim.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Sratim-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "יס קולנוע ישראלי": {
+        "tvgId"         : "israeli-cinema-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Israeli.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Israeli-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "הוט קולנוע ישראלי": {
+        "tvgId"         : "israeli-cinema-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Israeli-Cinema.png.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Israeli-Cinema.png-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "פרי טיוי סרטים ישראלי": {
+        "tvgId"         : "movies-israeli-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Israeli.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Israeli-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "יס פופאפ ישראלי": {
+        "tvgId"           : "pop-up-YES",
+        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Yes-Pop-Up.png",
+        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Yes-Pop-Up-DM.png",
+        "link"          : "",
+        "extGrp"          : "סרטים"
+    },
+    "יס סרטים ילדים": {
+        "tvgId"         : "movies-kids-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Movies-Kids.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Movies-Kids-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "הוט סינמה משפחה": {
+        "tvgId"         : "cinema-family-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Cinema-Family.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Cinema-Family-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "פרטנר ילדים": {
+        "tvgId"         : "kids-PARTNER",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Partner-Kids.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Partner-Kids-DM.png",
+        "link"          : "",
+        "extGrp"        : "סרטים"
+    },
+    "יס פופאפ אנימציה": {
+        "tvgId"           : "pop-up-YES",
+        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Yes-Pop-Up.png",
+        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Yes-Pop-Up-DM.png",
+        "link"          : "",
+        "extGrp"          : "סרטים"
+    },
+    "ערוץ ההומור": {
+        "tvgId"         : "humor-channel-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Humor-Channel.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Humor-Channel-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "פרי טיוי ארץ נהדרת": {
+        "tvgId"         : "eretz-nehederet-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Eretz-Nehederet.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Eretz-Nehederet-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "פרי טיוי סברי מרנן": {
+        "tvgId"         : "savri-maranan-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Savri-Maranan.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Savri-Maranan-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "יס טלויזיה קומדיה": {
+        "tvgId"         : "tv-comedy-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-TV-Comedy.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-TV-Comedy-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "הוט קומדי סנטרל": {
+        "tvgId"         : "comedy-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Comedy-Central.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Comedy-Central-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "פרי טיוי טלויזיה קומדיה": {
+        "tvgId"         : "tv-comedy-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Comedy.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Comedy-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "יס טלויזיה פעולה": {
+        "tvgId"         : "tv-action-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-TV-Action.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-TV-Action-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "הוט זון": {
+        "tvgId"         : "zone-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Zone.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Zone-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "פרטנר סדרות": {
+        "tvgId"         : "tv-shows-PARTNER",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Partner-Sdarot.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Partner-Sdarot-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "HBO סלקום": {
+        "tvgId"         : "hbo-CELLCOM",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HBO.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HBO-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "יס טלויזיה דרמה": {
+        "tvgId"         : "tv-drama-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-TV-Drama.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-TV-Drama-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "הוט 3": {
+        "tvgId"         : "3-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-3.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-3-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "פרי טיוי טלויזיה דרמה": {
+        "tvgId"         : "tv-drama-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Drama.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Drama-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "HBO הוט": {
+        "tvgId"         : "hbo-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-HBO.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-HBO-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "פרי טיוי טלויזיה סדרות": {
+        "tvgId"         : "tv-series-global-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Series-Global.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Series-Global-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "הוט בידור ישראלי": {
+        "tvgId"         : "entertainment-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Bidur.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Bidur-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "סלקום ישראלי": {
+        "tvgId"         : "israel-CELLCOM",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Israeli.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Israeli-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "הוט סניור": {
+        "tvgId"           : "senior-HOT",
+        "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Senior.png",
+        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/HOT-Senior-DM.png",
+        "link"          : "",
+        "extGrp"          : "סדרות"
+    },
+    "יס דוקו": {
+        "tvgId"         : "docu-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Docu.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Docu-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "הוט 8": {
+        "tvgId"         : "8-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-8.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-8-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "פרי טיוי דוקומנטרי": {
+        "tvgId"         : "docu-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Docu.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Docu-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
+    },
+    "סלקום דוקו": {
+        "tvgId"         : "doco-CELLCOM",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Doco.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Doco-DM.png",
+        "link"          : "",
+        "extGrp"        : "סדרות"
     },
     "SD ספורט 1": {
         "tvgId"         : "sport-1-sd-YES",
@@ -216,6 +524,13 @@
         "link"          : "",
         "extGrp"          : "ספורט"
     },
+    "Trace ספורט סטארס": {
+        "tvgId"         : "sport-trace-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/TraceSS.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/TraceSS-DM.png",
+        "link"          : "",
+        "extGrp"        : "ספורט"
+    },
     "ספורט טוגו 1": {
         "tvgId"           : "sport-to-go-1-YES",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Sport-To-Go-1.png",
@@ -229,13 +544,6 @@
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/light/Sport-To-Go-2-DM.png",
         "link"          : "",
         "extGrp"          : "ספורט"
-    },
-    "Trace ספורט סטארס": {
-        "tvgId"         : "sport-trace-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/TraceSS.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/TraceSS-DM.png",
-        "link"          : "",
-        "extGrp"        : "ספורט"
     },
     "מנצ׳סטר יונייטד": {
         "tvgId"         : "manchester-united-HOT",
@@ -258,353 +566,17 @@
         "link"          : "",
         "extGrp"        : "ספורט"
     },
-    "ערוץ ההומור": {
-        "tvgId"         : "humor-channel-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Humor-Channel.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Humor-Channel-DM.png",
+    "בייבי": {
+        "tvgId"         : "baby-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Baby.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Baby-DM.png",
         "link"          : "",
-        "extGrp"        : "ערוצי יס"
+        "extGrp"        : "ילדים"
     },
-    "יס טלויזיה פעולה": {
-        "tvgId"         : "tv-action-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-TV-Action.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-TV-Action-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי יס"
-    },
-    "יס טלויזיה קומדיה": {
-        "tvgId"         : "tv-comedy-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-TV-Comedy.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-TV-Comedy-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי יס"
-    },
-    "יס טלויזיה דרמה": {
-        "tvgId"         : "tv-drama-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-TV-Drama.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-TV-Drama-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי יס"
-    },
-    "יס סרטים פעולה": {
-        "tvgId"         : "movies-action-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Movies-Action.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Movies-Action-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי יס"
-    },
-    "יס סרטים דרמה": {
-        "tvgId"         : "movies-drama-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Movies-Drama.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Movies-Drama-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי יס"
-    },
-    "יס סרטים קומדיה": {
-        "tvgId"         : "movies-comedy-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Movies-Comedy.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Movies-Comedy-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי יס"
-    },
-    "יס קולנוע ישראלי": {
-        "tvgId"         : "israeli-cinema-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Israeli.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Israeli-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי יס"
-    },
-    "יס סרטים ילדים": {
-        "tvgId"         : "movies-kids-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Movies-Kids.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Movies-Kids-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי יס"
-    },
-    "יס דוקו": {
-        "tvgId"         : "docu-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-Docu.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Yes-Docu-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי יס"
-    },
-    "יס פופאפ": {
-        "tvgId"           : "pop-up-YES",
-        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Yes-Pop-Up.png",
-        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Yes-Pop-Up-DM.png",
-        "link"          : "",
-        "extGrp"          : "ערוצי יס"
-    },
-    "יס פופאפ ישראלי": {
-        "tvgId"           : "pop-up-YES",
-        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Yes-Pop-Up.png",
-        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Yes-Pop-Up-DM.png",
-        "link"          : "",
-        "extGrp"          : "ערוצי יס"
-    },
-    "יס פופאפ אנימציה": {
-        "tvgId"           : "pop-up-YES",
-        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Yes-Pop-Up.png",
-        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Yes-Pop-Up-DM.png",
-        "link"          : "",
-        "extGrp"          : "ערוצי יס"
-    },
-    "הוט 3": {
-        "tvgId"         : "3-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-3.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-3-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "הוט 8": {
-        "tvgId"         : "8-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-8.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-8-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "הוט זון": {
-        "tvgId"         : "zone-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Zone.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Zone-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "הוט קומדי סנטרל": {
-        "tvgId"         : "comedy-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Comedy-Central.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Comedy-Central-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "הוט בידור ישראלי": {
-        "tvgId"         : "entertainment-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Bidur.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Bidur-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "הוט סניור": {
-        "tvgId"           : "senior-HOT",
-        "tvgLogo"         : "https://dikodahan.github.io/picons/light/HOT-Senior.png",
-        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/HOT-Senior-DM.png",
-        "link"          : "",
-        "extGrp"          : "ערוצי הוט"
-    },
-    "הוט סינמה 1": {
-        "tvgId"         : "cinema-1-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C1.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C1-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "הוט סינמה 2": {
-        "tvgId"         : "cinema-2-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C2.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C2-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "הוט סינמה 3": {
-        "tvgId"         : "cinema-3-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C3.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C3-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "הוט סינמה 4": {
-        "tvgId"         : "cinema-4-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C4.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C4-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "הוט קולנוע ישראלי": {
-        "tvgId"         : "israeli-cinema-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Israeli-Cinema.png.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Israeli-Cinema.png-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "הוט סינמה משפחה": {
-        "tvgId"         : "cinema-family-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Cinema-Family.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Cinema-Family-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "HBO הוט": {
-        "tvgId"         : "hbo-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-HBO.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-HBO-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי הוט"
-    },
-    "פרטנר סדרות": {
-        "tvgId"         : "tv-shows-PARTNER",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Partner-Sdarot.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Partner-Sdarot-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרטנר"
-    },
-    "פרטנר סרטים": {
-        "tvgId"         : "movies-PARTNER",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Partner-Sratim.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Partner-Sratim-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרטנר"
-    },
-    "פרטנר ילדים": {
-        "tvgId"         : "kids-PARTNER",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Partner-Kids.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Partner-Kids-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרטנר"
-    },
-    "HBO סלקום": {
-        "tvgId"         : "hbo-CELLCOM",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HBO.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HBO-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי סלקום"
-    },
-    "סלקום דוקו": {
-        "tvgId"         : "doco-CELLCOM",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Doco.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Doco-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי סלקום"
-    },
-    "סלקום ישראלי": {
-        "tvgId"         : "israel-CELLCOM",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Israeli.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Israeli-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי סלקום"
-    },
-    "סלקום רוסיה": {
-        "tvgId"         : "rus-CELLCOM",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Russia.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Russia-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי סלקום"
-    },
-    "סלקום סרטים": {
-        "tvgId"         : "sratim-CELLCOM",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Sratim.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Sratim-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי סלקום"
-    },
-    "סלקום קלטות ילדים": {
-        "tvgId"         : "yeladim-CELLCOM",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Kids-Tapes.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Kids-Tapes-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי סלקום"
-    },
-    "פרי טיוי טלויזיה קומדיה": {
-        "tvgId"         : "tv-comedy-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Comedy.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Comedy-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי טלויזיה דרמה": {
-        "tvgId"         : "tv-drama-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Drama.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Drama-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי טלויזיה סדרות": {
-        "tvgId"         : "tv-series-global-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Series-Global.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Series-Global-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי סרטים פעולה": {
-        "tvgId"         : "movies-action-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Action.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Action-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי סרטים קומדיה": {
-        "tvgId"         : "movies-comedy-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Comedy.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Comedy-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי סרטים דרמה": {
-        "tvgId"         : "movies-drama-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Drama.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Drama-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי סרטים אימה": {
-        "tvgId"         : "movies-horror-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Horror.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Horror-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי סרטים רומנטיקה": {
-        "tvgId"         : "movies-romantic-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Romantic.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Romantic-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי סרטים ישראלי": {
-        "tvgId"         : "movies-israeli-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Movies-Israeli.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Israeli-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי דוקומנטרי": {
-        "tvgId"         : "docu-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Docu.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Docu-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי אוכל": {
-        "tvgId"         : "food-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Food.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Food-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי לייפסטייל": {
-        "tvgId"         : "lifestyle-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Lifestyle.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Lifestyle-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי ארץ נהדרת": {
-        "tvgId"         : "eretz-nehederet-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Eretz-Nehederet.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Eretz-Nehederet-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "פרי טיוי סברי מרנן": {
-        "tvgId"         : "savri-maranan-FREETV",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Savri-Maranan.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Savri-Maranan-DM.png",
-        "link"          : "",
-        "extGrp"        : "ערוצי פרי טיוי"
-    },
-    "זום": {
-        "tvgId"         : "zoom-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Zoom.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Zoom-DM.png",
+    "הוט לולי": {
+        "tvgId"         : "luli-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Luli.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Luli-DM.png",
         "link"          : "",
         "extGrp"        : "ילדים"
     },
@@ -622,6 +594,34 @@
         "link"          : "",
         "extGrp"        : "ילדים"
     },
+    "יויו": {
+        "tvgId"         : "yoyo-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yoyo.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Yoyo-DM.png",
+        "link"          : "",
+        "extGrp"        : "ילדים"
+    },
+    "לוגי": {
+        "tvgId"         : "logi-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Logi.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Logi-DM.png",
+        "link"          : "",
+        "extGrp"        : "ילדים"
+    },
+    "ג׳ים ג׳ם": {
+        "tvgId"           : "jim-jam-YES",
+        "tvgLogo"         : "https://dikodahan.github.io/picons/light/JimJam.png",
+        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/JimJam-DM.png",
+        "link"          : "",
+        "extGrp"          : "ילדים"
+    },
+    "וויז": {
+        "tvgId"         : "wiz-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Wiz.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Wiz-DM.png",
+        "link"          : "",
+        "extGrp"        : "ילדים"
+    },
     "A+": {
         "tvgId"           : "a-plus-PARTNER",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/A-Plus.png",
@@ -629,10 +629,38 @@
         "link"          : "",
         "extGrp"          : "ילדים"
     },
-    "ערוץ הכוכבים": {
-        "tvgId"           : "stars-channel-YES",
-        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Stars-Channel.png",
-        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Stars-Channel-DM.png",
+    "סלקום קלטות ילדים": {
+        "tvgId"         : "yeladim-CELLCOM",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Kids-Tapes.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Kids-Tapes-DM.png",
+        "link"          : "",
+        "extGrp"        : "ילדים"
+    },
+    "ילדותי": {
+        "tvgId"         : "yalduti-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yalduti.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Yalduti-DM.png",
+        "link"          : "",
+        "extGrp"        : "ילדים"
+    },
+    "הוט באזז": {
+        "tvgId"         : "buzz-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Buzz.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/HOT-Buzz-DM.png",
+        "link"          : "",
+        "extGrp"        : "ילדים"
+    },
+    "ג׳וניור": {
+        "tvgId"         : "junior-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Junior.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Junior-DM.png",
+        "link"          : "",
+        "extGrp"        : "ילדים"
+    },
+    "זום טון": {
+        "tvgId"           : "zoom-toon-YES",
+        "tvgLogo"         : "https://dikodahan.github.io/picons/light/ZoomToon.png",
+        "tvgLogoDm"       : "https://dikodahan.github.io/picons/light/ZoomToon-DM.png",
         "link"          : "",
         "extGrp"          : "ילדים"
     },
@@ -664,6 +692,13 @@
         "link"          : "",
         "extGrp"        : "ילדים"
     },
+    "ערוץ הכוכבים": {
+        "tvgId"           : "stars-channel-YES",
+        "tvgLogo"         : "https://dikodahan.github.io/picons/light/Stars-Channel.png",
+        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Stars-Channel-DM.png",
+        "link"          : "",
+        "extGrp"          : "ילדים"
+    },
     "יס ניק טין": {
         "tvgId"         : "teen-nick-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/TeenNick.png",
@@ -678,74 +713,18 @@
         "link"          : "",
         "extGrp"        : "ילדים"
     },
-    "בייבי": {
-        "tvgId"         : "baby-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Baby.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Baby-DM.png",
+    "זום": {
+        "tvgId"         : "zoom-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Zoom.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Zoom-DM.png",
         "link"          : "",
         "extGrp"        : "ילדים"
     },
-    "וויז": {
-        "tvgId"         : "wiz-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Wiz.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Wiz-DM.png",
-        "link"          : "",
-        "extGrp"        : "ילדים"
-    },
-    "הוט באזז": {
-        "tvgId"         : "buzz-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Buzz.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/HOT-Buzz-DM.png",
-        "link"          : "",
-        "extGrp"        : "ילדים"
-    },
-    "לוגי": {
-        "tvgId"         : "logi-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Logi.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Logi-DM.png",
-        "link"          : "",
-        "extGrp"        : "ילדים"
-    },
-    "יויו": {
-        "tvgId"         : "yoyo-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yoyo.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Yoyo-DM.png",
-        "link"          : "",
-        "extGrp"        : "ילדים"
-    },
-    "ילדותי": {
-        "tvgId"         : "yalduti-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yalduti.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Yalduti-DM.png",
-        "link"          : "",
-        "extGrp"        : "ילדים"
-    },
-    "הוט לולי": {
-        "tvgId"         : "luli-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Luli.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Luli-DM.png",
-        "link"          : "",
-        "extGrp"        : "ילדים"
-    },
-    "ג׳ים ג׳ם": {
-        "tvgId"           : "jim-jam-YES",
-        "tvgLogo"         : "https://dikodahan.github.io/picons/light/JimJam.png",
-        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/JimJam-DM.png",
-        "link"          : "",
-        "extGrp"          : "ילדים"
-    },
-    "זום טון": {
-        "tvgId"           : "zoom-toon-YES",
-        "tvgLogo"         : "https://dikodahan.github.io/picons/light/ZoomToon.png",
-        "tvgLogoDm"       : "https://dikodahan.github.io/picons/light/ZoomToon-DM.png",
-        "link"          : "",
-        "extGrp"          : "ילדים"
-    },
-    "ג׳וניור": {
-        "tvgId"         : "junior-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Junior.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Junior-DM.png",
-        "link"          : "",
+    "כאן חינוכית": {
+        "tvgId"         : "kan-chinuchit-23-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Kan-Chinuchit.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Kan-Chinuchit-DM.png",
+        "link"          : "https://kan23.media.kan.org.il/hls/live/2024691/2024691/master.m3u8",
         "extGrp"        : "ילדים"
     },
     "פומו": {
@@ -811,10 +790,10 @@
         "link"          : "",
         "extGrp"        : "תרבות וסטייל"
     },
-    "רשת האוכל": {
-        "tvgId"         : "food-network-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Food-Network.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Food-Network-DM.png",
+    "פרי טיוי אוכל": {
+        "tvgId"         : "food-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Food.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Food-DM.png",
         "link"          : "",
         "extGrp"        : "תרבות וסטייל"
     },
@@ -825,66 +804,10 @@
         "link"          : "",
         "extGrp"        : "תרבות וסטייל"
     },
-    "בית+": {
-        "tvgId"         : "home-plus-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Home-Plus.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Home-Plus-DM.png",
-        "link"          : "",
-        "extGrp"        : "תרבות וסטייל"
-    },
-    "ערוץ החיים הטובים": {
-        "tvgId"         : "good-life-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Hachaim.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Hachaim-DM.png",
-        "link"          : "",
-        "extGrp"        : "תרבות וסטייל"
-    },
-    "ערוץ הבריאות": {
-        "tvgId"         : "health-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Health.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Health-DM.png",
-        "link"          : "",
-        "extGrp"        : "תרבות וסטייל"
-    },
-    "ערוץ העיצוב": {
-        "tvgId"         : "design-channel-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Design-Channel.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Design-Channel-DM.png",
-        "link"          : "",
-        "extGrp"        : "תרבות וסטייל"
-    },
-    "ערוץ האופנה הישראלי": {
-        "tvgId"           : "ftv-il-YES",
-        "tvgLogo"         : "https://dikodahan.github.io/picons/light/FTV-Israel.png",
-        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/FTV-Israel-DM.png",
-        "link"          : "",
-        "extGrp"          : "IL: Culture & Style"
-    },
-    "ערוץ האופנה": {
-        "tvgId"         : "ftv-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FTV.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FTV-DM.png",
-        "link"          : "",
-        "extGrp"        : "תרבות וסטייל"
-    },
-    "E! ערוץ": {
-        "tvgId"         : "e-entertainment-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/E-Entertainment.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/E-Entertainment-DM.png",
-        "link"          : "",
-        "extGrp"        : "תרבות וסטייל"
-    },
-    "ערוץ אגו": {
-        "tvgId"         : "ego-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Ego.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Ego-DM.png",
-        "link"          : "",
-        "extGrp"        : "תרבות וסטייל"
-    },
-    "ערוץ הנופש": {
-        "tvgId"         : "nofesh-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Hanofesh-Channel.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Hanofesh-Channel-DM.png",
+    "רשת האוכל": {
+        "tvgId"         : "food-network-HOT",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Food-Network.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Food-Network-DM.png",
         "link"          : "",
         "extGrp"        : "תרבות וסטייל"
     },
@@ -902,6 +825,41 @@
         "link"          : "",
         "extGrp"        : "תרבות וסטייל"
     },
+    "פרי טיוי לייפסטייל": {
+        "tvgId"         : "lifestyle-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FreeTV-Lifestyle.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Lifestyle-DM.png",
+        "link"          : "",
+        "extGrp"        : "תרבות וסטייל"
+    },
+    "בית+": {
+        "tvgId"         : "home-plus-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Home-Plus.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Home-Plus-DM.png",
+        "link"          : "",
+        "extGrp"        : "תרבות וסטייל"
+    },
+    "ערוץ החיים הטובים": {
+        "tvgId"         : "good-life-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Hachaim.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Hachaim-DM.png",
+        "link"          : "",
+        "extGrp"        : "תרבות וסטייל"
+    },
+    "ערוץ העיצוב": {
+        "tvgId"         : "design-channel-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Design-Channel.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Design-Channel-DM.png",
+        "link"          : "",
+        "extGrp"        : "תרבות וסטייל"
+    },
+    "ערוץ הנופש": {
+        "tvgId"         : "nofesh-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Hanofesh-Channel.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Hanofesh-Channel-DM.png",
+        "link"          : "",
+        "extGrp"        : "תרבות וסטייל"
+    },
     "ערוץ השעשועונים": {
         "tvgId"         : "game-show-channel-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Shashuonim-Channel.png",
@@ -909,10 +867,38 @@
         "link"          : "",
         "extGrp"        : "תרבות וסטייל"
     },
-    "ערוץ האח הגדול": {
-        "tvgId"         : "big-brother-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Big-Brother.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Big-Brother-DM.png",
+    "ערוץ הבריאות": {
+        "tvgId"         : "health-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Health.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Health-DM.png",
+        "link"          : "",
+        "extGrp"        : "תרבות וסטייל"
+    },
+    "ערוץ אגו": {
+        "tvgId"         : "ego-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Ego.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Ego-DM.png",
+        "link"          : "",
+        "extGrp"        : "תרבות וסטייל"
+    },
+    "E! ערוץ": {
+        "tvgId"         : "e-entertainment-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/E-Entertainment.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/E-Entertainment-DM.png",
+        "link"          : "",
+        "extGrp"        : "תרבות וסטייל"
+    },
+    "ערוץ האופנה הישראלי": {
+        "tvgId"           : "ftv-il-YES",
+        "tvgLogo"         : "https://dikodahan.github.io/picons/light/FTV-Israel.png",
+        "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/FTV-Israel-DM.png",
+        "link"          : "",
+        "extGrp"          : "IL: Culture & Style"
+    },
+    "ערוץ האופנה": {
+        "tvgId"         : "ftv-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/FTV.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FTV-DM.png",
         "link"          : "",
         "extGrp"        : "תרבות וסטייל"
     },
@@ -930,17 +916,17 @@
         "link"          : "",
         "extGrp"        : "תרבות וסטייל"
     },
-    "TLC": {
-        "tvgId"         : "tlc-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/TLC.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/TLC-DM.png",
-        "link"          : "",
-        "extGrp"        : "תרבות וסטייל"
-    },
     "CBS ריאליטי": {
         "tvgId"         : "cbs-reality-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/CBS-Reality.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/CBS-Reality-DM.png",
+        "link"          : "",
+        "extGrp"        : "תרבות וסטייל"
+    },
+    "TLC": {
+        "tvgId"         : "tlc-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/TLC.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/TLC-DM.png",
         "link"          : "",
         "extGrp"        : "תרבות וסטייל"
     },
@@ -1007,6 +993,13 @@
         "link"          : "",
         "extGrp"        : "תרבות וסטייל"
     },
+    "ערוץ האח הגדול": {
+        "tvgId"         : "big-brother-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Big-Brother.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Big-Brother-DM.png",
+        "link"          : "",
+        "extGrp"        : "תרבות וסטייל"
+    },
     "ערוץ הקניות": {
         "tvgId"         : "shopping-channel-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Shopping-Channel.png",
@@ -1032,7 +1025,7 @@
         "tvgId"         : "fox-business-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Fox-Business.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Fox-Business-DM.png",
-        "link"          : "https://video-weaver.jfk04.hls.ttvnw.net/v1/playlist/CqkF4i7GNhnBADIBl-4jhyo5Lgf2rRJJh5jyIe6QuQydeOX1fTD4Bw9Mq1V56E-x8Jtg2PV1hanDvOja_tYyoN3Jrlcn-8FzMBXA-G5nny0QWUcmQ8WRf8iWe9YU0iM3GZhjO48abNeg1PQ5L0uD3vLwBhWoL0EeAbiklUfNuplgm_tjddBivS7qWbzRK44kNJ6mRf92BYhj4Uq4MoyO7p5otsAM4gB0c1gPnue811fg6AKEASAsoD8WtztAsXVGftNM9w4Hkc-F02lqimXWwk00emkNqQkiaiA-Jx0Spgfci8J8Vvz7WTJF-y84SMf3gcRqmwRPgtCPQzaOnDNp0Wgv0ntZIrek-ipkOQ4v8zoBkUlvp0N9a_FH7MhVmod6A7v9e7lBbHVA4IC0qgr5LyPbTdCfqN34s7Ji1IU5NXqqO3yyOW4hKkV0Xqy_OIjeYSVLjJs29seMN2wdw8Xnk8wGVtKvO3-TZ26ZJ9u6g1_Irhzq8Ca4BQhwRL5-NHsSWHKSfrTASCEAvjpeywEhgqQs5R8RigtisxWaA9HUI9Mgk47xZJAmapIVIdquIXZ72xO-EcCmIuPI8-xX9LpBEL91gJYjfkpJhUebTj1i5oWG9WhW9ncJvCOKx8aQqg9D3xlMQVAKr4bVZTM48LU5IauNoRTpq5vZE0gKmlEQjR0aSSoFs60waPZkn9a0YnqMUJyQ1848utUsUgceOfrnnAJ4ikaxTEtjVLHr1onyDM1TwxqLHoumNuM43dYbt4MN1qPAf1o2QddsVsj6cbkpEJPagoeWoXdD2vH1zs9Flb4xCmTbxa_iTaz7DQkoKVwF38XjdsVa54q6_lDpRvq4syQ6pCqvVf7ORC26lmokUwmMD3Ml2sy4jqyTzEUqA7QykU6yyeTw5bs9_bJAGgxsaEil1zcbtIHTb-ogASoJZXUtd2VzdC0xMJwE.m3u8",
+        "link"          : "https://1329918864.rsc.cdn77.org/UGq_auJ7NDzAp4bOhkVZ7g==,1703457982/ls-54548-1/index.m3u8",
         "extGrp"        : "חדשות מהעולם"
     },
     "חדשות בלומברג": {
@@ -1081,7 +1074,7 @@
         "tvgId"         : "aljazeera-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Aljazeera-AR.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Aljazeera-AR-DM.png",
-        "link"          : "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1703298222/ei/TvCFZYaWDIPn1wLR4ZS4DA/ip/85.120.16.2/id/bNyUyrR0PHo.2/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f1PHTpIBWnoqSb7pi8icZqFrTLFW6VQ6Fy6L0w/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAIFPNp13EsfkhelS4R-CcZJBSuLkXCVq3GlZDvfPg6TwAiEAlmwKUHty1JgYSJ1vt1AShr93_xfn-iK38Z60WehnyuM%3D/file/index.m3u8",
+        "link"          : "https://live-hls-web-aja-fa.getaj.net/AJA/index.m3u8",
         "extGrp"        : "חדשות מהעולם"
     },
     "ערוץ 9": {
@@ -1103,35 +1096,42 @@
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Zone.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Zone-DM.png",
         "link"          : "",
-        "extGrp"        : "ערוצי הוט"
+        "extGrp"        : "שפות זרות"
     },
     "הוט סינמה 1 (רוסית)": {
         "tvgId"         : "cinema-1-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C1.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C1-DM.png",
         "link"          : "",
-        "extGrp"        : "ערוצי הוט"
+        "extGrp"        : "שפות זרות"
     },
     "הוט סינמה 2 (רוסית)": {
         "tvgId"         : "cinema-2-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C2.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C2-DM.png",
         "link"          : "",
-        "extGrp"        : "ערוצי הוט"
+        "extGrp"        : "שפות זרות"
     },
     "הוט סינמה 3 (רוסית)": {
         "tvgId"         : "cinema-3-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C3.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C3-DM.png",
         "link"          : "",
-        "extGrp"        : "ערוצי הוט"
+        "extGrp"        : "שפות זרות"
     },
     "הוט סינמה 4 (רוסית)": {
         "tvgId"         : "cinema-4-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-C4.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-C4-DM.png",
         "link"          : "",
-        "extGrp"        : "ערוצי הוט"
+        "extGrp"        : "שפות זרות"
+    },
+    "סלקום רוסיה": {
+        "tvgId"         : "rus-CELLCOM",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Russia.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Russia-DM.png",
+        "link"          : "",
+        "extGrp"        : "שפות זרות"
     },
     "מכאן 33": {
         "tvgId"         : "makan-33-YES",
