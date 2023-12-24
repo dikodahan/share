@@ -18,19 +18,28 @@ export function* antiFrizDmGenerator(
     yield line;
   }
 
-  for (const { channelName, channelId, tvgRec, catchupDays } of AntiFrizDm) {
-    const { extGrp, tvgId, tvgLogoDm, link } =
-      channelLineup[channelName as keyof typeof channelLineup];
-    if (channelId == "none") {
-      yield "";
-      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
-      yield `#EXTGRP:${extGrp}`;
-      yield `${link}`;
-    } else {
-      yield "";
-      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
-      yield `#EXTGRP:${extGrp}`;
-      yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
+  const antifrizChannels = new Map(AntiFriz.map(item => [item.channelName, item]));
+
+  for (const channelName of Object.keys(channelLineup)) {
+    const antifrizChannel = antifrizChannels.get(channelName);
+
+    if (antifrizChannel) {
+      const { channelId, tvgRec, catchupDays } = antifrizChannel;
+      const channelData = channelLineup[channelName as keyof typeof channelLineup];
+
+      const { tvgId, tvgLogoDm, link, extGrp } = channelData;
+
+      if (channelId == "none") {
+        yield "";
+        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
+        yield `#EXTGRP:${extGrp}`;
+        yield `${link}`;
+      } else {
+        yield "";
+        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
+        yield `#EXTGRP:${extGrp}`;
+        yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
+      }
     }
   }
 }

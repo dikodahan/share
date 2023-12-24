@@ -1063,14 +1063,14 @@
         "link"          : "https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8",
         "extGrp"        : "חדשות מהעולם"
     },
-    "אל ג׳זירה באנגלית": {
+    "אל ג׳אזירה באנגלית": {
         "tvgId"         : "aljazeera-en-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Aljazeera.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Aljazeera-DM.png",
         "link"          : "https://live-hls-web-aje.getaj.net/AJE/index.m3u8",
         "extGrp"        : "חדשות מהעולם"
     },
-    "אל ג׳זירה בערבית": {
+    "אל ג׳אזירה בערבית": {
         "tvgId"         : "aljazeera-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Aljazeera-AR.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Aljazeera-AR-DM.png",

@@ -14,20 +14,29 @@ export function* crystalGenerator(
     for (const line of epgGenerator()) {
       yield line;
     }
+    
+    const crystalChannels = new Map(Crystal.map(item => [item.channelName, item]));
+
+    for (const channelName of Object.keys(channelLineup)) {
+      const crystalChannel = crystalChannels.get(channelName);
   
-    for (const { channelName, channelId } of Crystal) {
-      const { extGrp, tvgId, tvgLogo, link } =
-        channelLineup[channelName as keyof typeof channelLineup];
-      if (channelId == 1010) {
-        yield "";
-        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-        yield `#EXTGRP:${extGrp}`;
-        yield `${link}`;
-      } else {
-        yield "";
-        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-        yield `#EXTGRP:${extGrp}`;
-        yield `http://crystal.ottc.pro:80/${username}/${password}/${channelId}`;
+      if (crystalChannel) {
+        const { channelId, tvgRec, catchupDays } = crystalChannel;
+        const channelData = channelLineup[channelName as keyof typeof channelLineup];
+  
+        const { tvgId, tvgLogo, link, extGrp } = channelData;
+  
+        if (channelId == 1010) {
+          yield "";
+          yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+          yield `#EXTGRP:${extGrp}`;
+          yield `${link}`;
+        } else {
+          yield "";
+          yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+          yield `#EXTGRP:${extGrp}`;
+          yield `http://crystal.ottc.pro:80/${username}/${password}/${channelId}`;
+        }
       }
     }
   }
