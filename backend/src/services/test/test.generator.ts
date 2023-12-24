@@ -18,26 +18,27 @@ export function* testGenerator(
     yield line;
   }
 
-  // Create a set of available channel names from test.json for quick lookup
-  const availableChannels = new Set(Test.map(channel => channel.channelName));
+  // Create a map for quick lookup of channels from test.json
+  const testChannels = new Map(Test.map(item => [item.channelName, item]));
 
-  // Iterate based on the order in channelLineup.json
   for (const channelName of Object.keys(channelLineup)) {
-    // Check if the channel is in the test.json file
-    if (availableChannels.has(channelName)) {
-      const { tvgId, tvgLogo, link, extGrp } = channelLineup[channelName as keyof typeof channelLineup];
-      const testChannel = Test.find(c => c.channelName === channelName);
+    if (testChannels.has(channelName)) {
+      const testChannel = testChannels.get(channelName);
+      const channelData = channelLineup[channelName as keyof typeof channelLineup];
 
-      if (testChannel && testChannel.channelId !== "none") {
+      const { tvgId, tvgLogo, link, extGrp } = channelData;
+      const { channelId, tvgRec, catchupDays } = testChannel;
+
+      if (channelId == "none") {
         yield "";
         yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
         yield `#EXTGRP:${extGrp}`;
         yield `${link}`;
       } else {
         yield "";
-        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${testChannel.channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${testChannel.tvgRec}" catchup-days="${testChannel.catchupDays}",${channelName}`;
+        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
         yield `#EXTGRP:${extGrp}`;
-        yield `${BASE_URL}:1600/s/${token}/${testChannel.channelId}/video.m3u8`;
+        yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
       }
     }
   }
