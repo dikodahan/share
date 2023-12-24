@@ -20,19 +20,28 @@ export function* edemGenerator(
     yield line; 
   }
 
-  for (const { tvgRec, channelName, channelId } of Edem) {
-    const { extGrp, tvgId, tvgLogo, link } =
-      channelLineup[channelName as keyof typeof channelLineup];
-    if (channelId == 1010) {
-      yield "";
-      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-      yield `#EXTGRP:${extGrp}`;
-      yield `${link}`;
-    } else {
-      yield "";
-      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="${tvgRec}",${channelName}`;
-      yield `#EXTGRP:${extGrp}`;
-      yield `${BASE_URL}/${token}/${channelId}/index.m3u`;
+  const edemChannels = new Map(Edem.map(item => [item.channelName, item]));
+
+    for (const channelName of Object.keys(channelLineup)) {
+      const edemChannel = edemChannels.get(channelName);
+  
+      if (edemChannel) {
+        const { tvgRec, channelId } = edemChannel;
+        const channelData = channelLineup[channelName as keyof typeof channelLineup];
+  
+        const { tvgId, tvgLogo, link, extGrp } = channelData;
+  
+        if (channelId == 1010) {
+          yield "";
+          yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+          yield `#EXTGRP:${extGrp}`;
+          yield `${link}`;
+        } else {
+          yield "";
+          yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="${tvgRec}",${channelName}`;
+          yield `#EXTGRP:${extGrp}`;
+          yield `${BASE_URL}/${token}/${channelId}/index.m3u`;
+        }
+      }
     }
   }
-}

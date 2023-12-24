@@ -708,10 +708,63 @@
     "channelId"       : 1010
   },
   {
+      "channelName": "חדשות סי אן אן",
+      "tvgName": "",
+      "tvgRec": 0,
+      "channelId": 1010    
+  },
+  {
+      "channelName": "חדשות פוקס",
+      "tvgName": "",
+      "tvgRec": 0,
+      "channelId": 1010    
+  },
+  {
+      "channelName": "פוקס ביזנס",
+      "tvgName": "",
+      "tvgRec": 0,
+      "channelId": 1010    
+  },
+  {
+      "channelName": "חדשות בלומברג",
+      "tvgName": "",
+      "tvgRec": 0,
+      "channelId": 1010    
+  },
+  {
+      "channelName": "חדשות סקיי",
+      "tvgName": "",
+      "tvgRec": 0,
+      "channelId": 1010    
+  },
+  {
+      "channelName": "באנגלית i24 חדשות",
+      "tvgName": "",
+      "tvgRec": 0,
+      "channelId": 1010    
+  },
+  {
     "channelName"     : "בצרפתית i24 חדשות",
     "tvgName"         : "",
     "tvgRec"          : 3,
     "channelId"       : 2386
+  },
+  {
+      "channelName": "בערבית i24 חדשות",
+      "tvgName": "",
+      "tvgRec": 0,
+      "channelId": 1010    
+  },
+  {
+      "channelName": "אל ג׳אזירה באנגלית",
+      "tvgName": "",
+      "tvgRec": 0,
+      "channelId": 1010    
+  },
+  {
+      "channelName": "אל ג׳אזירה בערבית",
+      "tvgName": "",
+      "channelId": 1010    
   },
   {
     "channelName"     : "ערוץ 9",
