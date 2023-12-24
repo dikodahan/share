@@ -25,7 +25,7 @@ export function* dinoDmGenerator(
     for (const channelName of Object.keys(channelLineup)) {
       const dinoChannel = dinoChannels.get(channelName);
   
-      if (crystalChannel) {
+      if (dinoChannel) {
         const { channelId } = dinoChannel;
         const channelData = channelLineup[channelName as keyof typeof channelLineup];
   
