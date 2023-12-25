@@ -36,27 +36,6 @@ Vue.component("channel-table", {
       </table>
   </div>
   `,
-  // template: `
-  //   <div class="fixTableHead">
-  //       <h1 class="hebh1"><u>טבלת השוואת ערוצי ישראל לכל ספק</u></h1>
-  //       <table>
-  //           <thead class="title-case">
-  //               <tr>
-  //                   <th>שם ערוץ</th>
-  //                   <th v-for="(service, name) in services">{{ getServiceName(name) }}</th>
-  //               </tr>
-  //           </thead>
-  //           <tbody>
-  //               <tr v-for="name in channelNames">
-  //                   <td>{{ name }}</td>
-  //                   <td v-for="(service, serviceName) in services">
-  //                   {{ hasChannel(service, name) ? "✅" : "🛑" }}
-  //                   </td>
-  //               </tr>
-  //           </tbody>  
-  //       </table>
-  //   </div>
-  //   `,
   data() {
     return {
       services: {} as ChannelStats,

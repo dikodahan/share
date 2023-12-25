@@ -1,7 +1,6 @@
 body {
   background-color: #282828;
   color: white;
-  background="#282828";
 }
 
 H1.hebh1 {
@@ -43,6 +42,12 @@ th {
 .fixTableHead thead th {
   position: sticky;
   top: 0;
+}
+table td img {
+  max-height: 50px; /* Adjust this value as needed */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a:link {
