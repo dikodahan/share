@@ -83,6 +83,9 @@ Vue.component("channel-table", {
     hasChannel(serviceChannels: ChannelInfo[], channelName: string) {
       return serviceChannels.some((ci: ChannelInfo) => ci.channelName === channelName);
     },
+    getChannelLogo(channelName: string) {
+      return this.channelLineup[channelName]?.tvgLogo || 'https://raw.githubusercontent.com/dikodahan/dikodahan.github.io/master/creative/img/Categories/DikoPlus-icon.png';
+    },
   },
   computed: {
     channelNames() {
