@@ -44,7 +44,8 @@ th {
   top: 0;
 }
 table td img {
-  max-height: 50px; /* Adjust this value as needed */
+  height: 30px;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
