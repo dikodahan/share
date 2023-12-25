@@ -4,6 +4,7 @@ import ComparisonServices from "./comparison-services.json";
 
 export interface ChannelInfo {
   channelName: string;
+  channelId: string | number; //added
 }
 
 const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem"];
@@ -34,10 +35,26 @@ const output = path.join(
 console.log(`writing to ${output} ${Object.keys(channels)} services`);
 fs.writeFileSync(output, JSON.stringify(channels, null, 2));
 
-Object.entries(channels).forEach(([service, channels]) => {
+// Object.entries(channels).forEach(([service, channels]) => {
+//   const info = ComparisonServices.find((s) => s.service === service);
+//   if (info) {
+//     info["מספר ערוצי ישראל"] = channels.length;
+//   }
+// });
+
+Object.entries(channels).forEach(([service, channelInfos]) => {
   const info = ComparisonServices.find((s) => s.service === service);
   if (info) {
-    info["מספר ערוצי ישראל"] = channels.length;
+    // Counting channels based on channelId
+    const extraChannelsCount = channelInfos.filter(
+      (ci) => ci.channelId === 'none' || ci.channelId === 1010
+    ).length;
+    const regularChannelsCount = channelInfos.length - extraChannelsCount;
+
+    // Updating the ComparisonServices JSON
+    info["ערוצי ישראל - אקסטרה"] = extraChannelsCount;
+    info["ערוצי ישראל - ספק"] = regularChannelsCount;
+    info["ערוצי ישראל - סך הכל"] = extraChannelsCount + regularChannelsCount;
   }
 });
 

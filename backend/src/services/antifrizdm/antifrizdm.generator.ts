@@ -1,4 +1,4 @@
-import AntiFrizDm from "../antifriz/antifriz.json";
+import AntiFriz from "../antifriz/antifriz.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
@@ -18,7 +18,7 @@ export function* antiFrizDmGenerator(
     yield line;
   }
 
-  const antifrizChannels = new Map(AntiFrizDm.map(item => [item.channelName, item]));
+  const antifrizChannels = new Map(AntiFriz.map(item => [item.channelName, item]));
 
   for (const channelName of Object.keys(channelLineup)) {
     const antifrizChannel = antifrizChannels.get(channelName);

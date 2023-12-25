@@ -13,7 +13,9 @@ interface ComparisonService {
   "תמיכה באקסטרים קוד": boolean;
   "תמיכה בקובץ M3U": boolean;
   ארכיון: string;
-  "מספר ערוצי ישראל": number;
+  "ערוצי ישראל - ספק": number;
+  "ערוצי ישראל - אקסטרה": number;
+  "ערוצי ישראל - סל הכל": number;
   "מחיר השירות": string;
   "שם ספק ראשון": string;
   "קישור לספק ראשון": string;
