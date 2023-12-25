@@ -16,62 +16,64 @@ interface ChannelStats {
 
 Vue.component("channel-table", {
   template: `
-    <div class="fixTableHead">
-        <h1 class="hebh1"><u>טבלת השוואת ערוצי ישראל לכל ספק</u></h1>
-        <table>
-            <thead class="title-case">
-                <tr>
-                    <th>שם ערוץ</th>
-                    <th v-for="(service, name) in services">{{ getServiceName(name) }}</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr v-for="name in channelNames">
-                    <td>{{ name }}</td>
-                    <td v-for="(service, serviceName) in services">
-                    {{ hasChannel(service, name) ? "✅" : "🛑" }}
-                    </td>
-                </tr>
-            </tbody>  
-        </table>
-    </div>
-    `,
+  <div class="fixTableHead">
+      <h1 class="hebh1"><u>טבלת השוואת ערוצי ישראל לכל ספק</u></h1>
+      <table>
+          <thead class="title-case">
+              <tr>
+                  <th>לוגו ערוץ</th> <!-- Changed from שם ערוץ to לוגו ערוץ -->
+                  <th v-for="(service, name) in services">{{ getServiceName(name) }}</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr v-for="channelName in channelNames">
+                  <td><img :src="getChannelLogo(channelName)" alt="Logo"></td> <!-- Use channel logos here -->
+                  <td v-for="(service, serviceName) in services">
+                  {{ hasChannel(service, channelName) ? "✅" : "🛑" }}
+                  </td>
+              </tr>
+          </tbody>  
+      </table>
+  </div>
+  `,
+  // template: `
+  //   <div class="fixTableHead">
+  //       <h1 class="hebh1"><u>טבלת השוואת ערוצי ישראל לכל ספק</u></h1>
+  //       <table>
+  //           <thead class="title-case">
+  //               <tr>
+  //                   <th>שם ערוץ</th>
+  //                   <th v-for="(service, name) in services">{{ getServiceName(name) }}</th>
+  //               </tr>
+  //           </thead>
+  //           <tbody>
+  //               <tr v-for="name in channelNames">
+  //                   <td>{{ name }}</td>
+  //                   <td v-for="(service, serviceName) in services">
+  //                   {{ hasChannel(service, name) ? "✅" : "🛑" }}
+  //                   </td>
+  //               </tr>
+  //           </tbody>  
+  //       </table>
+  //   </div>
+  //   `,
   data() {
     return {
       services: {} as ChannelStats,
       comparison: [] as ComparisonService[],
-      channelLineup: {} as Record<string, any>, //added: store the channel lineup
+      channelLineup: {} as Record<string, any>,
     };
   },
   async beforeMount() {
-    // Fetching data from multiple sources simultaneously
     const [servicesData, comparisonData, channelLineupData] = await Promise.all([
       fetch("/service-channel-names.json").then((res) => res.json()),
       fetch("/comparison-services.json").then((res) => res.json()),
       fetch("/channel-lineup.json").then((res) => res.json())
     ]);
-  
-    // Assigning the fetched data to the corresponding component data properties
     this.services = servicesData as ChannelStats;
     this.comparison = comparisonData as ComparisonService[];
     this.channelLineup = channelLineupData as Record<string, any>;
   },
-  // async beforeMount() {
-  //   const [services, comparison] = await Promise.all([
-  //     fetch("/service-channel-names.json").then((res) =>
-  //       res.json()
-  //     ) as Promise<ChannelStats>,
-  //     fetch("/comparison-services.json").then((res) => res.json()) as Promise<
-  //       ComparisonService[]
-  //     >,
-  //     fetch("/channel-lineup.json").then((res) => res.json()) as Promise<
-  //       Record<string, any>
-  //     >, //added: Fetch channel-lineup.json
-  //   ]);
-  //   this.services = services;
-  //   this.comparison = comparison;
-  //   this.channelLineup = channelLineup; //added: Store the fetched channel lineup
-  // },
   methods: {
     getServiceName(service: string) {
       return (
@@ -84,13 +86,7 @@ Vue.component("channel-table", {
   },
   computed: {
     channelNames() {
-      return Object.keys(this.channelLineup); //added: Use the keys from the channelLineup object to maintain the order
-      // return Array.from(
-      //   new Set(
-      //     Object.values(this.services)
-      //       .flatMap((channels: ChannelInfo[]) => channels.map((ci: ChannelInfo) => ci.channelName))
-      //   )
-      // );
+      return Object.keys(this.channelLineup);
     },
   },
 });
