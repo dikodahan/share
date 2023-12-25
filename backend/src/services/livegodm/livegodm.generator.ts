@@ -15,17 +15,25 @@ export function* liveGoDmGenerator(
     yield line;
   }
 
-  const livegoChannels = new Map(LiveGo.map(item => [item.channelName, item]));
+  const livegoChannels = new Map<string, Array<typeof LiveGo[number]>>();
+  LiveGo.forEach(channel => {
+    if (livegoChannels.has(channel.channelName)) {
+      livegoChannels.get(channel.channelName)?.push(channel);
+    } else {
+      livegoChannels.set(channel.channelName, [channel]);
+    }
+  });
 
-    for (const channelName of Object.keys(channelLineup)) {
-      const livegoChannel = livegoChannels.get(channelName);
-  
-      if (livegoChannel) {
+  for (const channelName of Object.keys(channelLineup)) {
+    const livegoChannelArray = livegoChannels.get(channelName);
+
+    if (livegoChannelArray) {
+      for (const livegoChannel of livegoChannelArray) {
         const { tvgShift, tvgName, channelId } = livegoChannel;
         const channelData = channelLineup[channelName as keyof typeof channelLineup];
-  
+
         const { tvgId, tvgLogoDm, link, extGrp } = channelData;
-  
+
         if (channelId == 1010) {
           yield "";
           yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
@@ -40,3 +48,4 @@ export function* liveGoDmGenerator(
       }
     }
   }
+}
