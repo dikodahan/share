@@ -20,17 +20,25 @@ export function* edemDmGenerator(
     yield line; 
   }
 
-  const edemChannels = new Map(Edem.map(item => [item.channelName, item]));
+  const edemChannels = new Map<string, Array<typeof Edem[number]>>();
+  Edem.forEach(channel => {
+    if (edemChannels.has(channel.channelName)) {
+      edemChannels.get(channel.channelName)?.push(channel);
+    } else {
+      edemChannels.set(channel.channelName, [channel]);
+    }
+  });
 
-    for (const channelName of Object.keys(channelLineup)) {
-      const edemChannel = edemChannels.get(channelName);
-  
-      if (edemChannel) {
+  for (const channelName of Object.keys(channelLineup)) {
+    const edemChannelArray = edemChannels.get(channelName);
+
+    if (edemChannelArray) {
+      for (const edemChannel of edemChannelArray) {
         const { tvgRec, channelId } = edemChannel;
         const channelData = channelLineup[channelName as keyof typeof channelLineup];
-  
+
         const { tvgId, tvgLogoDm, link, extGrp } = channelData;
-  
+
         if (channelId == 1010) {
           yield "";
           yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
@@ -45,3 +53,4 @@ export function* edemDmGenerator(
       }
     }
   }
+}
