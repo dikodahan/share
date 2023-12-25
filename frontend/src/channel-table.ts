@@ -49,8 +49,18 @@ Vue.component("channel-table", {
   computed: {
     channelNames() {
       return Array.from(
-        new Set(Object.values(this.services).flatMap((channels) => channels))
+        new Set(
+          Object.values(this.services)
+            .flatMap(channels => channels.map(ci => ci.channelName))
+        )
       );
     },
   },
+  // computed: {
+  //   channelNames() {
+  //     return Array.from(
+  //       new Set(Object.values(this.services).flatMap((channels) => channels))
+  //     );
+  //   },
+  // },
 });
