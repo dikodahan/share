@@ -15,17 +15,25 @@ export function* crystalDmGenerator(
     yield line;
   }
 
-  const crystalChannels = new Map(Crystal.map(item => [item.channelName, item]));
+  const crystalChannels = new Map<string, Array<typeof Crystal[number]>>();
+  Crystal.forEach(channel => {
+    if (crystalChannels.has(channel.channelName)) {
+      crystalChannels.get(channel.channelName)?.push(channel);
+    } else {
+      crystalChannels.set(channel.channelName, [channel]);
+    }
+  });
 
-    for (const channelName of Object.keys(channelLineup)) {
-      const crystalChannel = crystalChannels.get(channelName);
-  
-      if (crystalChannel) {
+  for (const channelName of Object.keys(channelLineup)) {
+    const crystalChannelArray = crystalChannels.get(channelName);
+
+    if (crystalChannelArray) {
+      for (const crystalChannel of crystalChannelArray) {
         const { channelId } = crystalChannel;
         const channelData = channelLineup[channelName as keyof typeof channelLineup];
-  
+
         const { tvgId, tvgLogoDm, link, extGrp } = channelData;
-  
+
         if (channelId == 1010) {
           yield "";
           yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
@@ -40,3 +48,4 @@ export function* crystalDmGenerator(
       }
     }
   }
+}
