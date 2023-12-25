@@ -48,11 +48,23 @@ fs.writeFileSync(output, JSON.stringify(channels, null, 2));
 Object.entries(channels).forEach(([service, channelInfos]) => {
   const info = ComparisonServices.find((s) => s.service === service);
   if (info) {
-    const extraChannelsCount = channelInfos.filter(
-      (ci) => ci.channelId === 'none' || ci.channelId === 1010
-    ).length;
-    const regularChannelsCount = channelInfos.length - extraChannelsCount;
+    // Filtering channels based on channelId and extracting unique channel names
+    const extraChannels = new Set(
+      channelInfos
+        .filter((ci) => ci.channelId === 'none' || ci.channelId === 1010)
+        .map((ci) => ci.channelName)
+    );
+    const regularChannels = new Set(
+      channelInfos
+        .filter((ci) => ci.channelId !== 'none' && ci.channelId !== 1010)
+        .map((ci) => ci.channelName)
+    );
 
+    // Counting unique channel names
+    const extraChannelsCount = extraChannels.size;
+    const regularChannelsCount = regularChannels.size;
+
+    // Updating the ComparisonServices JSON
     info["ערוצי ישראל - אקסטרה"] = extraChannelsCount;
     info["ערוצי ישראל - ספק"] = regularChannelsCount;
     info["ערוצי ישראל - סך הכל"] = extraChannelsCount + regularChannelsCount;
