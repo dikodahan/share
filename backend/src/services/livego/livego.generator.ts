@@ -16,7 +16,7 @@ export function* liveGoGenerator(
   }
 
   const livegoChannels = new Map<string, Array<typeof LiveGo[number]>>();
-  Dino.forEach(channel => {
+  LiveGo.forEach(channel => {
     if (livegoChannels.has(channel.channelName)) {
       livegoChannels.get(channel.channelName)?.push(channel);
     } else {
