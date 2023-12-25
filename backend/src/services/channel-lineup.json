@@ -197,8 +197,8 @@
     },
     "הוט קולנוע ישראלי": {
         "tvgId"         : "israeli-cinema-HOT",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Israeli-Cinema.png.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Israeli-Cinema.png-DM.png",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HOT-Israeli-Cinema.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-Israeli-Cinema-DM.png",
         "link"          : "",
         "extGrp"        : "סרטים"
     },
