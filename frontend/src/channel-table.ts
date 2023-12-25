@@ -44,21 +44,34 @@ Vue.component("channel-table", {
     };
   },
   async beforeMount() {
-    const [services, comparison] = await Promise.all([
-      fetch("/service-channel-names.json").then((res) =>
-        res.json()
-      ) as Promise<ChannelStats>,
-      fetch("/comparison-services.json").then((res) => res.json()) as Promise<
-        ComparisonService[]
-      >,
-      fetch("/channel-lineup.json").then((res) => res.json()) as Promise<
-        Record<string, any>
-      >, //added: Fetch channel-lineup.json
+    // Fetching data from multiple sources simultaneously
+    const [servicesData, comparisonData, channelLineupData] = await Promise.all([
+      fetch("/service-channel-names.json").then((res) => res.json()),
+      fetch("/comparison-services.json").then((res) => res.json()),
+      fetch("/channel-lineup.json").then((res) => res.json())
     ]);
-    this.services = services;
-    this.comparison = comparison;
-    this.channelLineup = channelLineup; //added: Store the fetched channel lineup
+  
+    // Assigning the fetched data to the corresponding component data properties
+    this.services = servicesData as ChannelStats;
+    this.comparison = comparisonData as ComparisonService[];
+    this.channelLineup = channelLineupData as Record<string, any>;
   },
+  // async beforeMount() {
+  //   const [services, comparison] = await Promise.all([
+  //     fetch("/service-channel-names.json").then((res) =>
+  //       res.json()
+  //     ) as Promise<ChannelStats>,
+  //     fetch("/comparison-services.json").then((res) => res.json()) as Promise<
+  //       ComparisonService[]
+  //     >,
+  //     fetch("/channel-lineup.json").then((res) => res.json()) as Promise<
+  //       Record<string, any>
+  //     >, //added: Fetch channel-lineup.json
+  //   ]);
+  //   this.services = services;
+  //   this.comparison = comparison;
+  //   this.channelLineup = channelLineup; //added: Store the fetched channel lineup
+  // },
   methods: {
     getServiceName(service: string) {
       return (
