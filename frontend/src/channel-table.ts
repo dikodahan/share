@@ -14,10 +14,10 @@ Vue.component("channel-table", {
                 <tr v-for="name in channelNames">
                     <td>{{ name }}</td>
                     <td v-for="(service, serviceName) in services">
-                    {{ service.includes(name) ? "✅" : "🛑" }}
+                    {{ hasChannel(service, name) ? "✅" : "🛑" }}
                     </td>
                 </tr>
-            </tbody>
+            </tbody>  
         </table>
     </div>
     `,
@@ -45,7 +45,17 @@ Vue.component("channel-table", {
         this.comparison.find((s) => s.service === service)?.name ?? service
       );
     },
+    hasChannel(serviceChannels, channelName) {
+      return serviceChannels.some(ci => ci.channelName === channelName);
+    },
   },
+  // methods: {
+  //   getServiceName(service: string) {
+  //     return (
+  //       this.comparison.find((s) => s.service === service)?.name ?? service
+  //     );
+  //   },
+  // },
   computed: {
     channelNames() {
       return Array.from(
