@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import ComparisonServices from "./comparison-services.json";
+import ChannelLineup from "./services/channel-lineup.json";
 
 export interface ChannelInfo {
   channelName: string;
@@ -70,4 +71,16 @@ const comparisonServicesPath = path.join(
 fs.writeFileSync(
   comparisonServicesPath,
   JSON.stringify(ComparisonServices, null, 2)
+);
+
+const channelLineupPath = path.join(
+  __dirname,
+  "..",
+  "..",
+  "public",
+  "channel-lineup.json"
+);
+fs.writeFileSync(
+  channelLineupPath,
+  JSON.stringify(ChannelLineup, null, 2)
 );
