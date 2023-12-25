@@ -15,17 +15,25 @@ export function* dinoGenerator(
     yield line;
   }
 
-  const dinoChannels = new Map(Dino.map(item => [item.channelName, item]));
+  const dinoChannels = new Map<string, Array<typeof Dino[number]>>();
+  Dino.forEach(channel => {
+    if (dinoChannels.has(channel.channelName)) {
+      dinoChannels.get(channel.channelName)?.push(channel);
+    } else {
+      dinoChannels.set(channel.channelName, [channel]);
+    }
+  });
 
-    for (const channelName of Object.keys(channelLineup)) {
-      const dinoChannel = dinoChannels.get(channelName);
-  
-      if (dinoChannel) {
+  for (const channelName of Object.keys(channelLineup)) {
+    const dinoChannelArray = dinoChannels.get(channelName);
+
+    if (dinoChannelArray) {
+      for (const dinoChannel of dinoChannelArray) {
         const { channelId } = dinoChannel;
         const channelData = channelLineup[channelName as keyof typeof channelLineup];
-  
+
         const { tvgId, tvgLogo, link, extGrp } = channelData;
-  
+
         if (channelId == 1010) {
           yield "";
           yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
@@ -40,3 +48,4 @@ export function* dinoGenerator(
       }
     }
   }
+}

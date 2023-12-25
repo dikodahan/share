@@ -18,7 +18,6 @@ export function* testGenerator(
     yield line;
   }
 
-  // Create a map of arrays for quick lookup of channels from test.json
   const testChannels = new Map<string, Array<typeof Test[number]>>();
   Test.forEach(channel => {
     if (testChannels.has(channel.channelName)) {
