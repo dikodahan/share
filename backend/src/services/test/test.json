@@ -14,6 +14,18 @@
     {
         "tvgRec": "7",
         "catchupDays": "7",
+        "channelName": "רשת 13",
+        "channelId": "13-2-kanal-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "רשת 13",
+        "channelId": "13-3-kanal-il"
+    },
+    {
+        "tvgRec": "7",
+        "catchupDays": "7",
         "channelName": "ערוץ 14",
         "channelId": "14-kanal-il"
     },

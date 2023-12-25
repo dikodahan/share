@@ -18,27 +18,37 @@ export function* testGenerator(
     yield line;
   }
 
-  const testChannels = new Map(Test.map(item => [item.channelName, item]));
+  // Create a map of arrays for quick lookup of channels from test.json
+  const testChannels = new Map<string, Array<typeof Test[number]>>();
+  Test.forEach(channel => {
+    if (testChannels.has(channel.channelName)) {
+      testChannels.get(channel.channelName)?.push(channel);
+    } else {
+      testChannels.set(channel.channelName, [channel]);
+    }
+  });
 
   for (const channelName of Object.keys(channelLineup)) {
-    const testChannel = testChannels.get(channelName);
+    const testChannelArray = testChannels.get(channelName);
 
-    if (testChannel) {
-      const { channelId, tvgRec, catchupDays } = testChannel;
-      const channelData = channelLineup[channelName as keyof typeof channelLineup];
+    if (testChannelArray) {
+      for (const testChannel of testChannelArray) {
+        const { channelId, tvgRec, catchupDays } = testChannel;
+        const channelData = channelLineup[channelName as keyof typeof channelLineup];
 
-      const { tvgId, tvgLogo, link, extGrp } = channelData;
+        const { tvgId, tvgLogo, link, extGrp } = channelData;
 
-      if (channelId == "none") {
-        yield "";
-        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-        yield `#EXTGRP:${extGrp}`;
-        yield `${link}`;
-      } else {
-        yield "";
-        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
-        yield `#EXTGRP:${extGrp}`;
-        yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
+        if (channelId == "none") {
+          yield "";
+          yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+          yield `#EXTGRP:${extGrp}`;
+          yield `${link}`;
+        } else {
+          yield "";
+          yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
+          yield `#EXTGRP:${extGrp}`;
+          yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
+        }
       }
     }
   }
