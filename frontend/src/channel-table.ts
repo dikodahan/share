@@ -40,6 +40,7 @@ Vue.component("channel-table", {
     return {
       services: {} as ChannelStats,
       comparison: [] as ComparisonService[],
+      channelLineup: {} as Record<string, any>, //added: store the channel lineup
     };
   },
   async beforeMount() {
@@ -50,9 +51,13 @@ Vue.component("channel-table", {
       fetch("/comparison-services.json").then((res) => res.json()) as Promise<
         ComparisonService[]
       >,
+      fetch("/channel-lineup.json").then((res) => res.json()) as Promise<
+        Record<string, any>
+      >, //added: Fetch channel-lineup.json
     ]);
     this.services = services;
     this.comparison = comparison;
+    this.channelLineup = channelLineup; //added: Store the fetched channel lineup
   },
   methods: {
     getServiceName(service: string) {
@@ -66,12 +71,13 @@ Vue.component("channel-table", {
   },
   computed: {
     channelNames() {
-      return Array.from(
-        new Set(
-          Object.values(this.services)
-            .flatMap((channels: ChannelInfo[]) => channels.map((ci: ChannelInfo) => ci.channelName))
-        )
-      );
+      return Object.keys(this.channelLineup); //added: Use the keys from the channelLineup object to maintain the order
+      // return Array.from(
+      //   new Set(
+      //     Object.values(this.services)
+      //       .flatMap((channels: ChannelInfo[]) => channels.map((ci: ChannelInfo) => ci.channelName))
+      //   )
+      // );
     },
   },
 });
