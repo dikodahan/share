@@ -1,4 +1,19 @@
 export {};
+
+interface ChannelInfo {
+  channelName: string;
+  channelId: string | number;
+}
+
+interface ComparisonService {
+  service: string;
+  name?: string;
+}
+
+interface ChannelStats {
+  [key: string]: ChannelInfo[];
+}
+
 Vue.component("channel-table", {
   template: `
     <div class="fixTableHead">
@@ -45,32 +60,18 @@ Vue.component("channel-table", {
         this.comparison.find((s) => s.service === service)?.name ?? service
       );
     },
-    hasChannel(serviceChannels, channelName) {
-      return serviceChannels.some(ci => ci.channelName === channelName);
+    hasChannel(serviceChannels: ChannelInfo[], channelName: string) {
+      return serviceChannels.some((ci: ChannelInfo) => ci.channelName === channelName);
     },
   },
-  // methods: {
-  //   getServiceName(service: string) {
-  //     return (
-  //       this.comparison.find((s) => s.service === service)?.name ?? service
-  //     );
-  //   },
-  // },
   computed: {
     channelNames() {
       return Array.from(
         new Set(
           Object.values(this.services)
-            .flatMap(channels => channels.map(ci => ci.channelName))
+            .flatMap((channels: ChannelInfo[]) => channels.map((ci: ChannelInfo) => ci.channelName))
         )
       );
     },
   },
-  // computed: {
-  //   channelNames() {
-  //     return Array.from(
-  //       new Set(Object.values(this.services).flatMap((channels) => channels))
-  //     );
-  //   },
-  // },
 });
