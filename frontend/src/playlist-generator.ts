@@ -3,24 +3,50 @@ export {};
 Vue.component("playlist-generator", {
     template: `
   <div>
-    <input type="file" @change="handleFileUpload" accept=".m3u"/>
+    <input type="file" @change="handleFileUpload" accept=".m3u,.m3u8"/>
     <button v-if="modifiedFile" @click="downloadFile">Download Modified File</button>
+    <p v-if="errorMessage">{{ errorMessage }}</p>
   </div>
   `,
+
+  data() {
+    return {
+      modifiedFile: null,
+      errorMessage: ''
+    };
+  },
 
   methods: {
     handleFileUpload(event: Event) {
       const files = (event.target as HTMLInputElement).files;
-      if (!files) return;
+      if (!files) {
+        this.errorMessage = 'No file selected.';
+        return;
+      }
+
+      const file = files[0];
+      if (!file.name.endsWith('.m3u') && !file.name.endsWith('.m3u8')) {
+        this.errorMessage = 'Invalid file type. Please select a .m3u or .m3u8 file.';
+        return;
+      }
 
       const reader = new FileReader();
       reader.onload = (e: ProgressEvent<FileReader>) => {
         const content = e.target?.result;
         if (typeof content === 'string') {
-          this.modifiedFile = this.processM3UFile(content);
+          try {
+            this.modifiedFile = this.processM3UFile(content);
+            this.errorMessage = '';
+          } catch (error) {
+            this.errorMessage = 'Error processing file.';
+            console.error(error);
+          }
         }
       };
-      reader.readAsText(files[0]);
+      reader.onerror = () => {
+        this.errorMessage = 'Error reading file.';
+      };
+      reader.readAsText(file);
     },
 
     processM3UFile(content: string): string {
@@ -46,7 +72,10 @@ Vue.component("playlist-generator", {
     },
 
     downloadFile() {
-      if (!this.modifiedFile) return;
+      if (!this.modifiedFile) {
+        this.errorMessage = 'No modified file to download.';
+        return;
+      }
 
       const blob = new Blob([this.modifiedFile], { type: 'text/plain' });
       const link = document.createElement('a');
