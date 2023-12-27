@@ -15,25 +15,37 @@ const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem"];
 const channels: ChannelStats = {};
 
 
-// Read the manual-services.json file
-const manualServicesPath = path.join(__dirname, "./services/manual-services.json");
-const manualServicesRaw = fs.readFileSync(manualServicesPath, "utf8");
-const manualServices = JSON.parse(manualServicesRaw);
-// Function to get the last modified date of a file
+
+// Add this function to get the last modified date of a file
 function getLastModifiedDate(filePath: string): string {
   const stats = fs.statSync(filePath);
-  return stats.mtime.toISOString(); // convert date to ISO string format
+  return stats.mtime.toISOString(); // Convert the date to ISO string format
 }
-// Update the date for each channel
-Object.keys(manualServices).forEach(channelName => {
-  const channelFilePath = path.join(__dirname, `./services/${channelName}/${channelName}.json`);
+
+// Read the manual-services.json file
+const manualServicesPath = path.join(__dirname, "services", "manual-services.json");
+const manualServicesData = fs.readFileSync(manualServicesPath, "utf8");
+const manualServices = JSON.parse(manualServicesData);
+
+// Iterate through each channel in manual-services.json
+for (const channel in manualServices) {
+  const channelFilePath = path.join(__dirname, "services", channel, `${channel}.json`);
+
+  // Check if the file exists
   if (fs.existsSync(channelFilePath)) {
+    // Get the last modified date of the file
     const lastModifiedDate = getLastModifiedDate(channelFilePath);
-    manualServices[channelName].date = lastModifiedDate;
+
+    // Update the 'date' field for the channel
+    manualServices[channel].date = lastModifiedDate;
+  } else {
+    console.warn(`File not found for channel: ${channel}`);
   }
-});
-// Write the updated object back to the manual-services.json file
+}
+
+// Write the updated manual-services.json back to file
 fs.writeFileSync(manualServicesPath, JSON.stringify(manualServices, null, 2));
+
 
 
 names.forEach((name) => {
