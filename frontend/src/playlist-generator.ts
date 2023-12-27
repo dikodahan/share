@@ -11,7 +11,7 @@ Vue.component("playlist-generator", {
 
   data() {
     return {
-      modifiedFile: null,
+      modifiedFile: null as string | null,
       errorMessage: ''
     };
   },
