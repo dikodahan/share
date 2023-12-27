@@ -85,31 +85,3 @@ fs.writeFileSync(
   channelLineupPath,
   JSON.stringify(ChannelLineup, null, 2)
 );
-
-
-// Read and parse the manual-services.json
-const manualServicesPath = path.join(__dirname, "services", "manual-services.json");
-const manualServicesData = fs.readFileSync(manualServicesPath, "utf8");
-const manualServices = JSON.parse(manualServicesData);
-
-// Iterate over each channel in the manual-services.json
-Object.keys(manualServices).forEach(channelName => {
-  // Construct the path to the channel's JSON file
-  const channelFilePath = path.join(__dirname, "services", channelName, `${channelName}.json`);
-
-  // Check if the file exists
-  if (fs.existsSync(channelFilePath)) {
-    // Get the last update date of the file
-    const stats = fs.statSync(channelFilePath);
-    const lastModifiedDate = stats.mtime.toISOString();
-
-    // Update the date in the manualServices object
-    manualServices[channelName].date = lastModifiedDate;
-  } else {
-    console.log(`File not found for channel: ${channelName}`);
-  }
-});
-
-// Write the updated manual-services.json to the public folder
-const publicManualServicesPath = path.join(__dirname, "..", "..", "public", "manual-services.json");
-fs.writeFileSync(publicManualServicesPath, JSON.stringify(manualServices, null, 2));
