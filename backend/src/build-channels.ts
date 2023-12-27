@@ -47,8 +47,11 @@ names.forEach((name) => {
     const serviceJson = JSON.parse(serviceData) as { external: boolean };
     servicesExternalInfo[name] = { external: serviceJson.external };
   } catch (error) {
-    console.error(`Error reading service.json for ${name}:`, error.message);
-    // Handle the error, e.g., by skipping this service or setting a default value
+    if (error instanceof Error) {
+      console.error(`Error reading service.json for ${name}: ${error.message}`);
+    } else {
+      console.error(`An unknown error occurred while reading service.json for ${name}`);
+    }
   }
 });
 
