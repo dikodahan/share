@@ -28,7 +28,7 @@ Vue.component("playlist-generator", {
     };
   },
   async beforeMount() {
-    const [services, comparison, channelLineup] = await Promise.all([
+    const [services, channelLineup] = await Promise.all([
       fetch("/service-channel-names.json").then((res) => res.json()) as Promise<ChannelStats>,
       fetch("/channel-lineup.json").then((res) => res.json()) as Promise<Record<string, any>>,
     ]);
