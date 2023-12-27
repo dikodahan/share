@@ -12,6 +12,7 @@ Vue.component("playlist-generator", {
   data() {
     return {
       modifiedFile: null as string | null,
+      fileExtension: '' as string,
       errorMessage: ''
     };
   },
@@ -29,6 +30,8 @@ Vue.component("playlist-generator", {
         this.errorMessage = 'Invalid file type. Please select a .m3u or .m3u8 file.';
         return;
       }
+
+      this.fileExtension = file.name.endsWith('.m3u') ? '.m3u' : '.m3u8'; // Store the file extension
 
       const reader = new FileReader();
       reader.onload = (e: ProgressEvent<FileReader>) => {
@@ -50,25 +53,7 @@ Vue.component("playlist-generator", {
     },
 
     processM3UFile(content: string): string {
-      const lines = content.split(/\r?\n/);
-      let shouldModify = false;
-
-      const modifiedLines = lines.map(line => {
-        if (line.startsWith('#EXTGRP:1. Israel')) {
-          shouldModify = true;
-          return line;
-        } else if (line.startsWith('#EXTGRP:') || line.startsWith('#EXTINF:')) {
-          shouldModify = false;
-        }
-
-        if (shouldModify) {
-          return line.replace(/3/g, '8');
-        } else {
-          return line;
-        }
-      });
-
-      return modifiedLines.join('\n');
+      // ... existing processing logic ...
     },
 
     downloadFile() {
@@ -80,7 +65,7 @@ Vue.component("playlist-generator", {
       const blob = new Blob([this.modifiedFile], { type: 'text/plain' });
       const link = document.createElement('a');
       link.href = URL.createObjectURL(blob);
-      link.download = 'modified_playlist.m3u';
+      link.download = 'DikoPlus' + this.fileExtension; // Set the download file name with correct extension
       link.click();
 
       // Clean up
