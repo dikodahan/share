@@ -22,8 +22,8 @@ Vue.component("playlist-generator", {
     <p class="hebp">בעזרת התהליך הזה תוכלו להעלות את קובץ הפלייליסט שלכם עבור שירותי שלא תומכים בשירות DikoPlus כדי לייצר קובץ פלייליסט מעודכן שיאפשר תמיכה מלאה בכל שירותי השירות, למעט עדכון אוטומטי של הרשימה.</p>
     <p class="hebp">שימו לב לתאריך העדכון האחרון של הספק הנבחר כדי לבדוק אם אתם צריכים לייצר קובץ מעודכן עבור השירות שלכם. אין אפשרות לעדכון אוטומטי בשירותים שמוגדרים כאן, ולכן עדכון ידני יצטרך להתבצע על ידיכם.</p>
     <br><br>
-    <p class="hebp">בחרו את הספק עבורו אם רוצים לייצר קובץ מעודכן:
-      <select v-model="selectedService" class="service-dropdown" style="padding-right: 20px;">
+    <p class="hebp">שלב א׳: בחרו את הספק עבורו אם רוצים לייצר קובץ מעודכן:
+      <select v-model="selectedService" class="service-dropdown" style="padding-left: 20px;">
         <option disabled value="">בחר שירות...</option>
         <option v-for="service in nonDikoPlusServices" :value="service.service">
           {{ service.name }}
@@ -31,9 +31,14 @@ Vue.component("playlist-generator", {
       </select>
     </p>
     <br>
-    <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" :disabled="!selectedService" style="display: none;"/>
-    <label for="fileInput" class="custom-file-upload" :class="{'disabled-label': !selectedService}">בחר את קובץ הפלייליסט שלך</label><br><br>
-    <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורד את קובץ הפלייליסט המתוקן</button><br>
+    <p class="hebp">שלב ב׳: בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
+      <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" :disabled="!selectedService" style="display: none;"/>
+      <label for="fileInput" class="custom-file-upload" :class="{'disabled-label': !selectedService}">בחירת קובץ...</label>
+    </p>
+    <br>
+    <p class="hebp">הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
+      <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
+    </p>
     <p v-if="errorMessage">{{ errorMessage }}</p>
   </div>
   `,
