@@ -22,29 +22,35 @@ function getLastModifiedDate(filePath: string): string {
   return stats.mtime.toISOString(); // Convert the date to ISO string format
 }
 
-// Read the manual-services.json file
-const manualServicesPath = path.join(__dirname, "services", "manual-services.json");
-const manualServicesData = fs.readFileSync(manualServicesPath, "utf8");
-const manualServices = JSON.parse(manualServicesData);
+// Corrected file path for manual-services.json
+const manualServicesPath = path.join(__dirname, "service", "manual-services.json");
 
-// Iterate through each channel in manual-services.json
-for (const channel in manualServices) {
-  const channelFilePath = path.join(__dirname, "services", channel, `${channel}.json`);
+// Ensure the file exists before attempting to read it
+if (fs.existsSync(manualServicesPath)) {
+  const manualServicesData = fs.readFileSync(manualServicesPath, "utf8");
+  const manualServices = JSON.parse(manualServicesData);
 
-  // Check if the file exists
-  if (fs.existsSync(channelFilePath)) {
-    // Get the last modified date of the file
-    const lastModifiedDate = getLastModifiedDate(channelFilePath);
+  // Iterate through each channel in manual-services.json
+  for (const channel in manualServices) {
+    const channelFilePath = path.join(__dirname, "services", channel, `${channel}.json`);
 
-    // Update the 'date' field for the channel
-    manualServices[channel].date = lastModifiedDate;
-  } else {
-    console.warn(`File not found for channel: ${channel}`);
+    // Check if the file exists
+    if (fs.existsSync(channelFilePath)) {
+      // Get the last modified date of the file
+      const lastModifiedDate = getLastModifiedDate(channelFilePath);
+
+      // Update the 'date' field for the channel
+      manualServices[channel].date = lastModifiedDate;
+    } else {
+      console.warn(`File not found for channel: ${channel}`);
+    }
   }
-}
 
-// Write the updated manual-services.json back to file
-fs.writeFileSync(manualServicesPath, JSON.stringify(manualServices, null, 2));
+  // Write the updated manual-services.json back to file
+  fs.writeFileSync(manualServicesPath, JSON.stringify(manualServices, null, 2));
+} else {
+  console.error(`File not found: ${manualServicesPath}`);
+}
 
 
 
