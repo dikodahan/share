@@ -7,6 +7,7 @@ import { edemGenerator } from "./edem/edem.generator";
 import { edemDmGenerator } from "./edemdm/edemdm.generator";
 import { dinoGenerator } from "./dino/dino.generator";
 import { dinoDmGenerator } from "./dinodm/dinodm.generator";
+import { tvTeamGenerator } from "./tvteam/tvteam.generator";
 import { testGenerator } from "./test/test.generator";
 import { crystalGenerator } from "./crystal/crystal.generator";
 import { crystalDmGenerator } from "./crystaldm/crystaldm.generator";
@@ -25,6 +26,7 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
     "antifrizdm": antiFrizDmGenerator,
     "edem": edemGenerator,
     "edemdm": edemDmGenerator,
+    "tvteam": tvTeamGenerator,
     "test": testGenerator,
     "crystal": crystalGenerator,
     "crystaldm": crystalDmGenerator,
