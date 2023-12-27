@@ -15,7 +15,7 @@ Vue.component("playlist-generator", {
     <h1 class="hebh1"><u>עריכת קובץ פלייליסט ידני לשירות DikoPlus</u></h1>
     <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" style="display: none;"/>
     <label for="fileInput" class="custom-file-upload">בחר את קובץ הפלייליסט שלך</label><br><br>
-      <button v-if="modifiedFile" @click="downloadFile">הורד את קובץ הפלייליסט המתוקן</button><br>
+      <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורד את קובץ הפלייליסט המתוקן</button><br>
       <p v-if="errorMessage">{{ errorMessage }}</p>
     </div>
   `,

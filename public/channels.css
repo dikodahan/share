@@ -96,3 +96,14 @@ a:active {
   border-radius: 4px;
   /* Add more styling as needed */
 }
+
+.custom-download-button {
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #282828;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  /* Add more styling as needed */
+}
