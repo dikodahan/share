@@ -24,17 +24,18 @@ Vue.component("playlist-generator", {
     <br><br>
     <p class="hebp">בחרו את הספק עבורו אם רוצים לייצר קובץ מעודכן:
       <select v-model="selectedService" class="service-dropdown" style="padding-right: 20px;">
+        <option disabled value="">בחר שירות...</option>
         <option v-for="service in nonDikoPlusServices" :value="service.service">
           {{ service.name }}
         </option>
       </select>
     </p>
     <br>
-    <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" style="display: none;"/>
-    <label for="fileInput" class="custom-file-upload">בחר את קובץ הפלייליסט שלך</label><br><br>
-      <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורד את קובץ הפלייליסט המתוקן</button><br>
-      <p v-if="errorMessage">{{ errorMessage }}</p>
-    </div>
+    <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" :disabled="!selectedService" style="display: none;"/>
+    <label for="fileInput" class="custom-file-upload" :class="{'disabled-label': !selectedService}">בחר את קובץ הפלייליסט שלך</label><br><br>
+    <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורד את קובץ הפלייליסט המתוקן</button><br>
+    <p v-if="errorMessage">{{ errorMessage }}</p>
+  </div>
   `,
 
   data() {
