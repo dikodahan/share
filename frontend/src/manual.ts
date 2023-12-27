@@ -1,4 +1,4 @@
-import "./channel-table.js";
+import "./playlist-generator.js";
 
 new Vue({
   el: "#playlist",
