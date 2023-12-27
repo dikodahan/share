@@ -4,10 +4,11 @@ interface ChannelInfo {
   channelName: string;
   channelId: string | number;
 }
+
 interface ComparisonService {
   service: string;
   name?: string;
-  DikoPlus: boolean;
+  DikoPlus: boolean; // Added field
 }
 
 interface ChannelStats {
@@ -21,6 +22,12 @@ Vue.component("playlist-generator", {
     <p class="hebp">בעזרת התהליך הזה תוכלו להעלות את קובץ הפלייליסט שלכם עבור שירותי שלא תומכים בשירות DikoPlus כדי לייצר קובץ פלייליסט מעודכן שיאפשר תמיכה מלאה בכל שירותי השירות, למעט עדכון אוטומטי של הרשימה.</p>
     <p class="hebp">שימו לב לתאריך העדכון האחרון של הספק הנבחר כדי לבדוק אם אתם צריכים לייצר קובץ מעודכן עבור השירות שלכם. אין אפשרות לעדכון אוטומטי בשירותים שמוגדרים כאן, ולכן עדכון ידני יצטרך להתבצע על ידיכם.</p>
     <br><br>
+    select v-model="selectedService">
+      <option v-for="service in nonDikoPlusServices" :value="service.service">
+        {{ service.name }}
+      </option>
+    </select>
+    <br>
     <select v-model="selectedService">
       <option v-for="service in filteredServices" :key="service.service" :value="service.service">
         {{ service.name || service.service }}
@@ -43,18 +50,25 @@ Vue.component("playlist-generator", {
       channelLineup: {} as Record<string, any>,
       comparisonServices: [] as ComparisonService[],
       selectedService: null as string | null,
+      comparisonServices: [] as ComparisonService[],
+      selectedService: '' as string,
     };
   },
+
+  computed: {
+    nonDikoPlusServices() {
+      return this.comparisonServices.filter(service => !service.DikoPlus);
+    },
+  },
+
   async beforeMount() {
-    const [services, channelLineup] = await Promise.all([
+    const [services, comparisonServices, channelLineup] = await Promise.all([
       fetch("/service-channel-names.json").then((res) => res.json()) as Promise<ChannelStats>,
       fetch("/comparison-services.json").then((res) => res.json()) as Promise<ComparisonService[]>,
       fetch("/channel-lineup.json").then((res) => res.json()) as Promise<Record<string, any>>,
     ]);
-    const comparisonServices = await fetch("/comparison-services.json").then((res) => res.json()) as Promise<ComparisonService[]>;
-    this.comparisonServices = comparisonServices;
     this.services = services;
-    this.comparison = comparison;
+    this.comparisonServices = comparisonServices;
     this.channelLineup = channelLineup;
   },
 
@@ -131,10 +145,4 @@ Vue.component("playlist-generator", {
       this.modifiedFile = null;
     },
   },
-
-  computed: {
-    filteredServices() {
-      return this.comparisonServices.filter(service => !service.DikoPlus);
-    }
-  },  
 });
