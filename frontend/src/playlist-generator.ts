@@ -22,11 +22,13 @@ Vue.component("playlist-generator", {
     <p class="hebp">בעזרת התהליך הזה תוכלו להעלות את קובץ הפלייליסט שלכם עבור שירותי שלא תומכים בשירות DikoPlus כדי לייצר קובץ פלייליסט מעודכן שיאפשר תמיכה מלאה בכל שירותי השירות, למעט עדכון אוטומטי של הרשימה.</p>
     <p class="hebp">שימו לב לתאריך העדכון האחרון של הספק הנבחר כדי לבדוק אם אתם צריכים לייצר קובץ מעודכן עבור השירות שלכם. אין אפשרות לעדכון אוטומטי בשירותים שמוגדרים כאן, ולכן עדכון ידני יצטרך להתבצע על ידיכם.</p>
     <br><br>
-    <select v-model="selectedService" class="service-dropdown">
-      <option v-for="service in nonDikoPlusServices" :value="service.service">
-        {{ service.name }}
-      </option>
-    </select>
+    <p class="hebp">בחרו את הספק עבורו אם רוצים לייצר קובץ מעודכן:
+      <select v-model="selectedService" class="service-dropdown" style="padding-right: 20px;">
+        <option v-for="service in nonDikoPlusServices" :value="service.service">
+          {{ service.name }}
+        </option>
+      </select>
+    </p>
     <br>
     <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" style="display: none;"/>
     <label for="fileInput" class="custom-file-upload">בחר את קובץ הפלייליסט שלך</label><br><br>
