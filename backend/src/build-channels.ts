@@ -32,19 +32,24 @@ names.forEach((name) => {
   const records = JSON.parse(data) as ChannelInfo[];
   channels[name] = records;
 
-  // Reading external value from service.json
-  const serviceFilePath = path.join(
-    __dirname,
-    "..",
-    "backend",
-    "services",
-    name,
-    "service.json"
-  );
-  console.log(`reading '${serviceFilePath}'`);
-  const serviceData = fs.readFileSync(serviceFilePath, "utf8");
-  const serviceJson = JSON.parse(serviceData) as { external: boolean };
-  servicesExternalInfo[name] = { external: serviceJson.external };
+  /// Attempt to read the external value from service.json
+  try {
+    const serviceFilePath = path.join(
+      __dirname,
+      "..",
+      "backend",
+      "services",
+      name,
+      "service.json"
+    );
+    console.log(`attempting to read '${serviceFilePath}'`);
+    const serviceData = fs.readFileSync(serviceFilePath, "utf8");
+    const serviceJson = JSON.parse(serviceData) as { external: boolean };
+    servicesExternalInfo[name] = { external: serviceJson.external };
+  } catch (error) {
+    console.error(`Error reading service.json for ${name}:`, error.message);
+    // Handle the error, e.g., by skipping this service or setting a default value
+  }
 });
 
 // Writing channel info to JSON file
