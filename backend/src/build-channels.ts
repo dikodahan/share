@@ -93,7 +93,7 @@ const manualServicesRaw = fs.readFileSync(manualServicesPath, "utf8");
 const manualServices = JSON.parse(manualServicesRaw);
 
 // Iterate over each channel in manual-services.json
-Object.entries(manualServices).forEach(([channelName, channelData]) => {
+Object.entries(manualServices).forEach(([channelName]) => {
   const channelFilePath = path.join(
     __dirname,
     "services",
