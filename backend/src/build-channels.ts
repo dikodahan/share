@@ -55,7 +55,7 @@ Object.entries(channels).forEach(([service, channelInfos]) => {
     const extraChannelsCount = extraChannels.size;
     const regularChannelsCount = regularChannels.size;
 
-    info["ערוצי ישראל - אקסטרה ❎"] = extraChannelsCount;
+    info["ערוצי ישראל - אקסטרה 🆓"] = extraChannelsCount;
     info["ערוצי ישראל - ספק ✅"] = regularChannelsCount;
     info["ערוצי ישראל - סך הכל"] = extraChannelsCount + regularChannelsCount;
   }

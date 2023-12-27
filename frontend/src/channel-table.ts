@@ -63,7 +63,7 @@ Vue.component("channel-table", {
     hasChannel(serviceChannels: ChannelInfo[], channelName: string) {
       const channelInfo = serviceChannels.find((ci: ChannelInfo) => ci.channelName === channelName);
       if (channelInfo) {
-        return channelInfo.channelId === 'none' || channelInfo.channelId === 1010 ? "❎" : "✅";
+        return channelInfo.channelId === 'none' || channelInfo.channelId === 1010 ? "🆓" : "✅";
       }
       return "🛑";
     },
