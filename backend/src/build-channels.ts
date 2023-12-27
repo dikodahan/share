@@ -14,48 +14,6 @@ type ChannelStats = { [key: string]: ChannelInfo[] };
 const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem"];
 const channels: ChannelStats = {};
 
-
-
-// Read the manual-services.json file
-const manualServicesPath = path.join(__dirname, "service", "manual-services.json");
-const manualServicesRaw = fs.readFileSync(manualServicesPath, "utf8");
-const manualServices = JSON.parse(manualServicesRaw);
-
-// Iterate over each channel in manual-services.json
-Object.entries(manualServices).forEach(([channelName, channelData]) => {
-  const channelFilePath = path.join(
-    __dirname,
-    "services",
-    channelName,
-    `${channelName}.json`
-  );
-
-  // Check if the file exists
-  if (fs.existsSync(channelFilePath)) {
-    // Get the last modified date of the file
-    const stats = fs.statSync(channelFilePath);
-    const lastModifiedDate = stats.mtime.toISOString();
-
-    // Update the date in the manualServices object
-    manualServices[channelName].date = lastModifiedDate;
-  } else {
-    console.error(`File not found for channel: ${channelName}`);
-  }
-});
-
-// Write the updated manual-services.json to the public folder
-const updatedManualServicesPath = path.join(
-  __dirname,
-  "..",
-  "..",
-  "public",
-  "manual-services.json"
-);
-fs.writeFileSync(updatedManualServicesPath, JSON.stringify(manualServices, null, 2));
-
-
-
-
 names.forEach((name) => {
   const file = path.join(
     __dirname,
@@ -127,3 +85,41 @@ fs.writeFileSync(
   channelLineupPath,
   JSON.stringify(ChannelLineup, null, 2)
 );
+
+
+// Read the manual-services.json file
+const manualServicesPath = path.join(__dirname, "service", "manual-services.json");
+const manualServicesRaw = fs.readFileSync(manualServicesPath, "utf8");
+const manualServices = JSON.parse(manualServicesRaw);
+
+// Iterate over each channel in manual-services.json
+Object.entries(manualServices).forEach(([channelName, channelData]) => {
+  const channelFilePath = path.join(
+    __dirname,
+    "services",
+    channelName,
+    `${channelName}.json`
+  );
+
+  // Check if the file exists
+  if (fs.existsSync(channelFilePath)) {
+    // Get the last modified date of the file
+    const stats = fs.statSync(channelFilePath);
+    const lastModifiedDate = stats.mtime.toISOString();
+
+    // Update the date in the manualServices object
+    manualServices[channelName].date = lastModifiedDate;
+  } else {
+    console.error(`File not found for channel: ${channelName}`);
+  }
+});
+
+// Write the updated manual-services.json to the public folder
+const updatedManualServicesPath = path.join(
+  __dirname,
+  "..",
+  "..",
+  "public",
+  "manual-services.json"
+);
+fs.writeFileSync(updatedManualServicesPath, JSON.stringify(manualServices, null, 2));
