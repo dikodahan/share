@@ -2,6 +2,8 @@ import * as fs from "fs";
 import * as path from "path";
 import ComparisonServices from "./comparison-services.json";
 import ChannelLineup from "./services/channel-lineup.json";
+import External from "./services/manual-services.json";
+
 
 export interface ChannelInfo {
   channelName: string;
@@ -12,6 +14,28 @@ type ChannelStats = { [key: string]: ChannelInfo[] };
 
 const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem"];
 const channels: ChannelStats = {};
+
+
+// Read the manual-services.json file
+const manualServicesPath = path.join(__dirname, "./services/manual-services.json");
+const manualServicesRaw = fs.readFileSync(manualServicesPath, "utf8");
+const manualServices = JSON.parse(manualServicesRaw);
+// Function to get the last modified date of a file
+function getLastModifiedDate(filePath: string): string {
+  const stats = fs.statSync(filePath);
+  return stats.mtime.toISOString(); // convert date to ISO string format
+}
+// Update the date for each channel
+Object.keys(manualServices).forEach(channelName => {
+  const channelFilePath = path.join(__dirname, `./services/${channelName}/${channelName}.json`);
+  if (fs.existsSync(channelFilePath)) {
+    const lastModifiedDate = getLastModifiedDate(channelFilePath);
+    manualServices[channelName].date = lastModifiedDate;
+  }
+});
+// Write the updated object back to the manual-services.json file
+fs.writeFileSync(manualServicesPath, JSON.stringify(manualServices, null, 2));
+
 
 names.forEach((name) => {
   const file = path.join(
