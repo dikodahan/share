@@ -1,5 +1,14 @@
 export {};
 
+interface ChannelInfo {
+  channelName: string;
+  channelId: string | number;
+}
+
+interface ChannelStats {
+  [key: string]: ChannelInfo[];
+}
+
 Vue.component("playlist-generator", {
   template: `
     <div>
@@ -13,8 +22,18 @@ Vue.component("playlist-generator", {
     return {
       modifiedFile: null as string | null,
       fileExtension: '' as string,
-      errorMessage: ''
+      errorMessage: '',
+      services: {} as ChannelStats,
+      channelLineup: {} as Record<string, any>,
     };
+  },
+  async beforeMount() {
+    const [services, comparison, channelLineup] = await Promise.all([
+      fetch("/service-channel-names.json").then((res) => res.json()) as Promise<ChannelStats>,
+      fetch("/channel-lineup.json").then((res) => res.json()) as Promise<Record<string, any>>,
+    ]);
+    this.services = services;
+    this.channelLineup = channelLineup;
   },
 
   methods: {
