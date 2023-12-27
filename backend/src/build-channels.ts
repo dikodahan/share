@@ -16,38 +16,35 @@ const channels: ChannelStats = {};
 
 
 
-// Add this function to get the last modified date of a file
+// Function to get the last modified date of a file
 function getLastModifiedDate(filePath: string): string {
   const stats = fs.statSync(filePath);
-  return stats.mtime.toISOString(); // Convert the date to ISO string format
+  return stats.mtime.toISOString();
 }
 
 // Corrected file path for manual-services.json
 const manualServicesPath = path.join(__dirname, "service", "manual-services.json");
 
-// Ensure the file exists before attempting to read it
 if (fs.existsSync(manualServicesPath)) {
   const manualServicesData = fs.readFileSync(manualServicesPath, "utf8");
   const manualServices = JSON.parse(manualServicesData);
+  console.log("Initial manual services:", manualServices);
 
-  // Iterate through each channel in manual-services.json
   for (const channel in manualServices) {
     const channelFilePath = path.join(__dirname, "services", channel, `${channel}.json`);
+    console.log(`Checking file: ${channelFilePath}`);
 
-    // Check if the file exists
     if (fs.existsSync(channelFilePath)) {
-      // Get the last modified date of the file
       const lastModifiedDate = getLastModifiedDate(channelFilePath);
-
-      // Update the 'date' field for the channel
       manualServices[channel].date = lastModifiedDate;
+      console.log(`Updated date for ${channel}: ${lastModifiedDate}`);
     } else {
       console.warn(`File not found for channel: ${channel}`);
     }
   }
 
-  // Write the updated manual-services.json back to file
   fs.writeFileSync(manualServicesPath, JSON.stringify(manualServices, null, 2));
+  console.log("Updated manual services:", manualServices);
 } else {
   console.error(`File not found: ${manualServicesPath}`);
 }
