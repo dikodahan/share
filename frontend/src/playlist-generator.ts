@@ -11,8 +11,11 @@ interface ChannelStats {
 
 Vue.component("playlist-generator", {
   template: `
-    <div class="fixTableHead">
+    <div class="fixTableHead" style="padding-left: 20px; padding-right: 20px;">
     <h1 class="hebh1"><u>עריכת קובץ פלייליסט ידני לשירות DikoPlus</u></h1>
+    <p class="hebp">בעזרת התהליך הזה תוכלו להעלות את קובץ הפלייליסט שלכם עבור שירותי שלא תומכים בשירות DikoPlus כדי לייצר קובץ פלייליסט מעודכן שיאפשר תמיכה מלאה בכל שירותי השירות, למעט עדכון אוטומטי של הרשימה.</p>
+    <p class="hebp">שימו לב לתאריך העדכון האחרון של הספק הנבחר כדי לבדוק אם אתם צריכים לייצר קובץ מעודכן עבור השירות שלכם. אין אפשרות לעדכון אוטומטי בשירותים שמוגדרים כאן, ולכן עדכון ידני יצטרך להתבצע על ידיכם.</p>
+    <br><br>
     <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" style="display: none;"/>
     <label for="fileInput" class="custom-file-upload">בחר את קובץ הפלייליסט שלך</label><br><br>
       <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורד את קובץ הפלייליסט המתוקן</button><br>
@@ -101,14 +104,12 @@ Vue.component("playlist-generator", {
         return;
       }
 
-      // Create a Blob from the modified file's content
       const blob = new Blob([this.modifiedFile], { type: 'text/plain' });
       const link = document.createElement('a');
       link.href = URL.createObjectURL(blob);
       link.download = 'DikoPlus' + this.fileExtension;
       link.click();
 
-      // Clean up
       URL.revokeObjectURL(link.href);
       this.modifiedFile = null;
     },
