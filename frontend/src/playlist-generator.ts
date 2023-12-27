@@ -11,9 +11,10 @@ interface ChannelStats {
 
 Vue.component("playlist-generator", {
   template: `
-    <div>
-      <input type="file" @change="handleFileUpload" accept=".m3u,.m3u8"/>
-      <button v-if="modifiedFile" @click="downloadFile">Download Modified File</button>
+    <div class="fixTableHead">
+    <h1 class="hebh1"><u>עריכת קובץ פלייליסט ידני לשירות DikoPlus</u></h1>
+    <input type="file" @change="handleFileUpload" accept=".m3u,.m3u8"/><br><br>
+      <button v-if="modifiedFile" @click="downloadFile">הורד את קובץ הפלייליסט המתוקן</button><br>
       <p v-if="errorMessage">{{ errorMessage }}</p>
     </div>
   `,
@@ -40,17 +41,16 @@ Vue.component("playlist-generator", {
     handleFileUpload(event: Event) {
       const files = (event.target as HTMLInputElement).files;
       if (!files) {
-        this.errorMessage = 'No file selected.';
+        this.errorMessage = 'לא נבחר קובץ.';
         return;
       }
 
       const file = files[0];
       if (!file.name.endsWith('.m3u') && !file.name.endsWith('.m3u8')) {
-        this.errorMessage = 'Invalid file type. Please select a .m3u or .m3u8 file.';
+        this.errorMessage = 'קובץ לא תקין. רק קבצי m3u ו-m3u8 נתמכים';
         return;
       }
 
-      // Store the file extension
       this.fileExtension = file.name.endsWith('.m3u') ? '.m3u' : '.m3u8';
 
       const reader = new FileReader();
@@ -58,17 +58,16 @@ Vue.component("playlist-generator", {
         const content = e.target?.result;
         if (typeof content === 'string') {
           try {
-            // Process the file and set the modifiedFile
             this.modifiedFile = this.processM3UFile(content);
             this.errorMessage = '';
           } catch (error) {
-            this.errorMessage = 'Error processing file.';
+            this.errorMessage = 'שגיאה בעריכת הקובץ.';
             console.error(error);
           }
         }
       };
       reader.onerror = () => {
-        this.errorMessage = 'Error reading file.';
+        this.errorMessage = 'שגיאה בקריאת הקובץ.';
       };
       reader.readAsText(file);
     },
@@ -97,7 +96,7 @@ Vue.component("playlist-generator", {
 
     downloadFile() {
       if (!this.modifiedFile) {
-        this.errorMessage = 'No modified file to download.';
+        this.errorMessage = 'אין קובץ מתוקן להורדה.';
         return;
       }
 
@@ -105,7 +104,7 @@ Vue.component("playlist-generator", {
       const blob = new Blob([this.modifiedFile], { type: 'text/plain' });
       const link = document.createElement('a');
       link.href = URL.createObjectURL(blob);
-      link.download = 'DikoPlus' + this.fileExtension; // Set the download file name with the correct extension
+      link.download = 'DikoPlus' + this.fileExtension;
       link.click();
 
       // Clean up
