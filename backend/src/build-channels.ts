@@ -2,7 +2,6 @@ import * as fs from "fs";
 import * as path from "path";
 import ComparisonServices from "./comparison-services.json";
 import ChannelLineup from "./services/channel-lineup.json";
-import External from "./services/manual-services.json";
 
 
 export interface ChannelInfo {
