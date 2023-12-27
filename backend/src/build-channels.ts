@@ -3,6 +3,7 @@ import * as path from "path";
 import ComparisonServices from "./comparison-services.json";
 import ChannelLineup from "./services/channel-lineup.json";
 
+
 export interface ChannelInfo {
   channelName: string;
   channelId: string | number;
@@ -10,15 +11,10 @@ export interface ChannelInfo {
 
 type ChannelStats = { [key: string]: ChannelInfo[] };
 
-// New type for storing the external value
-type ServiceExternalInfo = { [serviceName: string]: { external: boolean } };
-
 const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem"];
 const channels: ChannelStats = {};
-const servicesExternalInfo: ServiceExternalInfo = {};
 
 names.forEach((name) => {
-  // Reading channel info
   const file = path.join(
     __dirname,
     "..",
@@ -31,31 +27,8 @@ names.forEach((name) => {
   const data = fs.readFileSync(file, "utf8");
   const records = JSON.parse(data) as ChannelInfo[];
   channels[name] = records;
-
-  /// Attempt to read the external value from service.json
-  try {
-    const serviceFilePath = path.join(
-      __dirname,
-      "..",
-      "backend",
-      "services",
-      name,
-      "service.json"
-    );
-    console.log(`attempting to read '${serviceFilePath}'`);
-    const serviceData = fs.readFileSync(serviceFilePath, "utf8");
-    const serviceJson = JSON.parse(serviceData) as { external: boolean };
-    servicesExternalInfo[name] = { external: serviceJson.external };
-  } catch (error) {
-    if (error instanceof Error) {
-      console.error(`Error reading service.json for ${name}: ${error.message}`);
-    } else {
-      console.error(`An unknown error occurred while reading service.json for ${name}`);
-    }
-  }
 });
 
-// Writing channel info to JSON file
 const output = path.join(
   __dirname,
   "..",
@@ -66,7 +39,6 @@ const output = path.join(
 console.log(`writing to ${output} ${Object.keys(channels)} services`);
 fs.writeFileSync(output, JSON.stringify(channels, null, 2));
 
-// Processing and updating comparison services
 Object.entries(channels).forEach(([service, channelInfos]) => {
   const info = ComparisonServices.find((s) => s.service === service);
   if (info) {
@@ -90,7 +62,6 @@ Object.entries(channels).forEach(([service, channelInfos]) => {
   }
 });
 
-// Writing updated comparison services to JSON file
 const comparisonServicesPath = path.join(
   __dirname,
   "..",
@@ -103,7 +74,6 @@ fs.writeFileSync(
   JSON.stringify(ComparisonServices, null, 2)
 );
 
-// Writing channel lineup to JSON file
 const channelLineupPath = path.join(
   __dirname,
   "..",
@@ -114,17 +84,4 @@ const channelLineupPath = path.join(
 fs.writeFileSync(
   channelLineupPath,
   JSON.stringify(ChannelLineup, null, 2)
-);
-
-// Writing services external info to JSON file
-const servicesExternalInfoPath = path.join(
-  __dirname,
-  "..",
-  "..",
-  "public",
-  "services-external-info.json"
-);
-fs.writeFileSync(
-  servicesExternalInfoPath,
-  JSON.stringify(servicesExternalInfo, null, 2)
 );
