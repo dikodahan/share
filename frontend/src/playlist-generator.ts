@@ -131,7 +131,7 @@ Vue.component("playlist-generator", {
       reader.readAsText(file);
     },
 
-    async processM3UFile(content: string): Promise<string> {
+    async processM3UFile(content: string): Promise<string> {  // Marked as async
       const lines = content.split(/\r?\n/);
     
       const serviceChannels: ServiceChannel[] = await fetch(`/${this.selectedService}.json`).then(res => res.json());
@@ -142,31 +142,18 @@ Vue.component("playlist-generator", {
       let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
     
       for (const line of lines) {
-        let usedTvgNameForMatching = false;  // Reset the flag for each line
-      
         if (line.startsWith('#EXTINF:')) {
           let modifiedLine = line.replace(/tvg-group="[^"]+"/, '');
           const tvgIdMatch = modifiedLine.match(/tvg-id="([^"]+)"/);
           const tvgNameMatch = modifiedLine.match(/tvg-name="([^"]+)"/);
-      
-          let channelId = '';
-          if (tvgIdMatch) {
-            channelId = tvgIdMatch[1];
-          } else if (tvgNameMatch) {
-            channelId = tvgNameMatch[1];
-            usedTvgNameForMatching = true;  // Set the flag if matched with tvg-name
-          }
-      
+    
+          let channelId = tvgIdMatch ? tvgIdMatch[1] : (tvgNameMatch ? tvgNameMatch[1] : '');
+    
           if (channelId) {
             const serviceChannel = serviceChannels.find(c => c.channelId === channelId);
             if (serviceChannel && channelLineup[serviceChannel.channelName]) {
               const lineupChannel = channelLineup[serviceChannel.channelName];
               const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
-      
-              // Set the metadata here using the flag
-              currentChannel.metadata = usedTvgNameForMatching 
-                ? `#EXTINF:0 tvg-name="${lineupChannel.tvgId}" tvg-logo="${logoUrl}",${serviceChannel.channelName}`
-                : `#EXTINF:0 tvg-id="${lineupChannel.tvgId}" tvg-logo="${logoUrl}",${serviceChannel.channelName}`;      
     
               currentChannel = {
                 name: serviceChannel.channelName,
