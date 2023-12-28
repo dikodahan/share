@@ -138,8 +138,7 @@ Vue.component("playlist-generator", {
       const channelLineup: ChannelStats = await fetch('/channel-lineup.json').then(res => res.json());
     
       let channels: Channel[] = [];
-      let addedChannels = new Set(); // To track channels already added
-      let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' }; // Declare currentChannel here
+      let processedChannelNames = new Set<string>();
     
       // Process channels from the M3U file
       for (const line of lines) {
@@ -172,7 +171,8 @@ Vue.component("playlist-generator", {
     
       // Include special channels from <service>.json
       serviceChannels.forEach(serviceChannel => {
-        if (!addedChannels.has(serviceChannel.channelName)) {
+        if ((serviceChannel.channelId === 'none' || serviceChannel.channelId.toString() === '1010') &&
+            !processedChannelNames.has(serviceChannel.channelName)) {
           const lineupChannel = channelLineup[serviceChannel.channelName];
           if (lineupChannel) {
             const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
@@ -182,7 +182,7 @@ Vue.component("playlist-generator", {
               url: lineupChannel.link,
               extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
             });
-            addedChannels.add(serviceChannel.channelName);
+            processedChannelNames.add(serviceChannel.channelName);
           }
         }
       });
