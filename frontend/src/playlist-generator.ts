@@ -139,6 +139,7 @@ Vue.component("playlist-generator", {
     
       let channels: Channel[] = [];
       let processedChannelNames = new Set<string>();
+      let currentChannel: Channel;
     
       // Process channels from the M3U file
       for (const line of lines) {
@@ -151,21 +152,24 @@ Vue.component("playlist-generator", {
             const serviceChannel = serviceChannels.find(c => c.channelId === originalTvgId);
             if (serviceChannel && channelLineup[serviceChannel.channelName]) {
               const lineupChannel = channelLineup[serviceChannel.channelName];
-              modifiedLine = modifiedLine.replace(`tvg-id="${originalTvgId}"`, `tvg-id="${lineupChannel.tvgId}"`)
-                                        .replace(/tvg-logo="[^"]+"/, `tvg-logo="${lineupChannel.tvgLogo}"`)
-                                        .replace(/,.*$/, `,${serviceChannel.channelName}`);
+              const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
+    
               currentChannel = {
                 name: serviceChannel.channelName,
-                metadata: modifiedLine,
+                metadata: modifiedLine.replace(`tvg-id="${originalTvgId}"`, `tvg-id="${lineupChannel.tvgId}"`)
+                                      .replace(/tvg-logo="[^"]+"/, `tvg-logo="${logoUrl}"`)
+                                      .replace(/,.*$/, `,${serviceChannel.channelName}`),
                 url: '',
                 extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
               };
             }
           }
-        } else if (line.startsWith('http') && currentChannel.name) {
+        } else if (line.startsWith('http') && currentChannel?.name) {
           currentChannel.url = line;
           channels.push(currentChannel);
-          currentChannel = { name: '', metadata: '', url: '', extgrp: '' };
+    
+          // Add the channel name to processedChannelNames after processing the channel
+          processedChannelNames.add(currentChannel.name);
         }
       }
     
@@ -182,7 +186,6 @@ Vue.component("playlist-generator", {
               url: lineupChannel.link,
               extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
             });
-            processedChannelNames.add(serviceChannel.channelName);
           }
         }
       });
