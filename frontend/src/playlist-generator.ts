@@ -124,6 +124,7 @@ Vue.component("playlist-generator", {
     
       let outputLines: string[] = [];
       let isChannelAllowed = false;
+      let currentChannelName = '';
     
       for (const line of lines) {
         if (line.startsWith('#EXTM3U')) {
@@ -132,17 +133,21 @@ Vue.component("playlist-generator", {
         }
     
         if (line.startsWith('#EXTINF:')) {
-          const tvgIdMatch = line.match(/tvg-id="([^"]+)"/);
+          // Remove tvg-group attribute
+          let modifiedLine = line.replace(/tvg-group="[^"]+"/, '');
+    
+          const tvgIdMatch = modifiedLine.match(/tvg-id="([^"]+)"/);
           if (tvgIdMatch) {
             const originalTvgId = tvgIdMatch[1];
             const serviceChannel = serviceChannels.find(c => c.channelId === originalTvgId);
             if (serviceChannel) {
               const lineupChannel = channelLineup[serviceChannel.channelName];
               if (lineupChannel) {
-                let modifiedLine = line.replace(`tvg-id="${originalTvgId}"`, `tvg-id="${lineupChannel.tvgId}"`)
-                                      .replace(/tvg-logo="[^"]+"/, `tvg-logo="${lineupChannel.tvgLogo}"`)
-                                      .replace(/,.*$/, `,${serviceChannel.channelName}`);
+                modifiedLine = modifiedLine.replace(`tvg-id="${originalTvgId}"`, `tvg-id="${lineupChannel.tvgId}"`)
+                                          .replace(/tvg-logo="[^"]+"/, `tvg-logo="${lineupChannel.tvgLogo}"`)
+                                          .replace(/,.*$/, `,${serviceChannel.channelName}`);
                 outputLines.push(modifiedLine);
+                currentChannelName = serviceChannel.channelName;
                 isChannelAllowed = true;
               } else {
                 isChannelAllowed = false;
@@ -153,17 +158,21 @@ Vue.component("playlist-generator", {
           } else {
             isChannelAllowed = false;
           }
+        } else if (line.startsWith('#EXTGRP:') && isChannelAllowed) {
+          const lineupChannel = channelLineup[currentChannelName];
+          if (lineupChannel && lineupChannel.extGrp) {
+            outputLines.push(`#EXTGRP:${lineupChannel.extGrp}`);
+          }
         } else if (line.startsWith('http') && isChannelAllowed) {
           outputLines.push(line, '');
         }
     
-        // Omitting the tvg-group lines
         // Omitting non-matching or non-http lines
       }
     
       return outputLines.join('\n');
-    },    
-
+    },
+    
     downloadFile() {
       if (!this.modifiedFile) {
         this.errorMessage = 'אין קובץ מתוקן להורדה.';
