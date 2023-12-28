@@ -131,7 +131,7 @@ Vue.component("playlist-generator", {
       reader.readAsText(file);
     },
 
-    async processM3UFile(content: string): Promise<string> {  // Marked as async
+    async processM3UFile(content: string): Promise<string> {
       const lines = content.split(/\r?\n/);
     
       const serviceChannels: ServiceChannel[] = await fetch(`/${this.selectedService}.json`).then(res => res.json());
@@ -140,6 +140,7 @@ Vue.component("playlist-generator", {
       let channels: Channel[] = [];
       let processedChannelNames = new Set<string>();
       let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
+      let usedTvgNameForMatching = false;  // Flag to track the attribute used for matching
     
       for (const line of lines) {
         if (line.startsWith('#EXTINF:')) {
@@ -147,7 +148,13 @@ Vue.component("playlist-generator", {
           const tvgIdMatch = modifiedLine.match(/tvg-id="([^"]+)"/);
           const tvgNameMatch = modifiedLine.match(/tvg-name="([^"]+)"/);
     
-          let channelId = tvgIdMatch ? tvgIdMatch[1] : (tvgNameMatch ? tvgNameMatch[1] : '');
+          let channelId = '';
+          if (tvgIdMatch) {
+            channelId = tvgIdMatch[1];
+          } else if (tvgNameMatch) {
+            channelId = tvgNameMatch[1];
+            usedTvgNameForMatching = true;
+          }
     
           if (channelId) {
             const serviceChannel = serviceChannels.find(c => c.channelId === channelId);
