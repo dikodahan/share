@@ -1,10 +1,5 @@
 export {};
 
-interface ChannelInfo {
-  channelName: string;
-  channelId: string | number;
-}
-
 interface ComparisonService {
   service: string;
   name?: string;
