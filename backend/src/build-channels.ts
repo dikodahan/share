@@ -25,18 +25,17 @@ names.forEach((name) => {
   );
   console.log(`reading '${file}'`);
 
-  // Check if the file exists
-  if (fs.existsSync(file)) {
-    const stats = fs.statSync(file);
-    const lastModifiedDate = stats.mtime.toISOString().split('T')[0]; // format as 'YYYY-MM-DD'
+  console.log(`checking last commit for '${file}'`);
+  try {
+    const lastCommitDate = child_process.execSync(`git log -1 --format=%cd -- ${file}`).toString().trim();
+    console.log(`Last commit date for ${name}: ${lastCommitDate}`);
 
-    // Find the service in ComparisonServices and update its 'updated' field
     const service = ComparisonServices.find(s => s.service === name);
     if (service) {
-      service.updated = lastModifiedDate;
+      service.updated = lastCommitDate;
     }
-  } else {
-    console.warn(`File not found: ${file}`);
+  } catch (error) {
+    console.error(`Error getting last commit date for ${name}:`, error);
   }
 
   const data = fs.readFileSync(file, "utf8");
@@ -91,10 +90,8 @@ names.forEach((name) => {
   const records = JSON.parse(data) as ChannelInfo[];
   channels[name] = records;
 
-  // Check for DikoPlus value in ComparisonServices
   const serviceInfo = ComparisonServices.find((s) => s.service === name);
   if (serviceInfo && !serviceInfo.DikoPlus) {
-    // If DikoPlus is true, copy the file to the public folder
     const publicFolder = path.join(
       __dirname,
       "..",
