@@ -3,6 +3,7 @@ const STAR_PARAMS: (keyof ComparisonService)[] = ["ציון משוקלל","יצ�
 const NON_AUTO_DISPLAY_PARAMS: Set<keyof ComparisonService> = new Set([
   "name",
   "service",
+  "updated",
   ...STAR_PARAMS,
 ]);
 

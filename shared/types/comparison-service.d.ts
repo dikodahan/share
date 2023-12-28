@@ -1,5 +1,6 @@
 interface ComparisonService {
   service: string;
+  updated: string;
   "ציון משוקלל": string;
   DikoPlus: string;
   DikoPlusEN: string;
