@@ -47,6 +47,13 @@ Vue.component("playlist-generator", {
       </select>
     </p>
     <br>
+    <p class="hebp">שלב ב׳: בחרו אם ברצונכם איקונים ללא רקע, או על גבי רקע מושחר״
+      <select v-model="mode" class="service-dropdown" style="padding-left: 20px;">
+        <option value="light">ללא רקע</option>
+        <option value="dark">על רקע מושחר</option>
+      </select>
+    </p>
+    <br>
     <p class="hebp">שלב ב׳: בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
       <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" :disabled="!selectedService" style="display: none;"/>
       <label for="fileInput" class="custom-file-upload" :class="{'disabled-label': !selectedService}">בחירת קובץ...</label>
@@ -68,6 +75,7 @@ Vue.component("playlist-generator", {
       channelLineup: {} as Record<string, any>,
       comparisonServices: [] as ComparisonService[],
       selectedService: '' as string,
+      mode: 'light',
     };
   },
 
@@ -163,16 +171,17 @@ Vue.component("playlist-generator", {
     
       // Include special channels from <service>.json
       serviceChannels.forEach(serviceChannel => {
-        if (serviceChannel.channelId === 'none' || serviceChannel.channelId.toString() === '1010') {
-          const lineupChannel = channelLineup[serviceChannel.channelName];
-          if (lineupChannel) {
-            channels.push({
-              name: serviceChannel.channelName,
-              metadata: `#EXTINF:0 tvg-id="${lineupChannel.tvgId}"  tvg-logo="${lineupChannel.tvgLogo}",${serviceChannel.channelName}`,
-              url: lineupChannel.link,
-              extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
-            });
-          }
+        const lineupChannel = channelLineup[serviceChannel.channelName];
+        if (lineupChannel) {
+          // Choose the logo based on the selected mode
+          const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
+    
+          channels.push({
+            name: serviceChannel.channelName,
+            metadata: `#EXTINF:0 tvg-id="${lineupChannel.tvgId}"  tvg-logo="${logoUrl}",${serviceChannel.channelName}`,
+            url: lineupChannel.link,
+            extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
+          });
         }
       });
     
