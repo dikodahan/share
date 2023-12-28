@@ -131,7 +131,7 @@ Vue.component("playlist-generator", {
       reader.readAsText(file);
     },
 
-    async processM3UFile(content: string): Promise<string> {  // Marked as async
+    async processM3UFile(content: string): Promise<string> {
       const lines = content.split(/\r?\n/);
     
       const serviceChannels: ServiceChannel[] = await fetch(`/${this.selectedService}.json`).then(res => res.json());
@@ -154,11 +154,18 @@ Vue.component("playlist-generator", {
             if (serviceChannel && channelLineup[serviceChannel.channelName]) {
               const lineupChannel = channelLineup[serviceChannel.channelName];
               const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
+              
+              // Replace tvg-name or tvg-id with tvgId from lineupChannel
+              const tvgIdReplacement = `tvg-id="${lineupChannel.tvgId}"`;
+              if (tvgIdMatch) {
+                modifiedLine = modifiedLine.replace(`tvg-id="${channelId}"`, tvgIdReplacement);
+              } else if (tvgNameMatch) {
+                modifiedLine = modifiedLine.replace(`tvg-name="${channelId}"`, tvgIdReplacement);
+              }
     
               currentChannel = {
                 name: serviceChannel.channelName,
-                metadata: modifiedLine.replace(`tvg-id="${channelId}"`, `tvg-id="${lineupChannel.tvgId}"`)
-                                      .replace(/tvg-logo="[^"]+"/, `tvg-logo="${logoUrl}"`)
+                metadata: modifiedLine.replace(/tvg-logo="[^"]+"/, `tvg-logo="${logoUrl}"`)
                                       .replace(/,.*$/, `,${serviceChannel.channelName}`),
                 url: '',
                 extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
@@ -173,7 +180,6 @@ Vue.component("playlist-generator", {
         }
       }
     
-      // Include special channels from <service>.json
       serviceChannels.forEach(serviceChannel => {
         if ((serviceChannel.channelId === 'none' || serviceChannel.channelId.toString() === '1010') &&
             !processedChannelNames.has(serviceChannel.channelName)) {
@@ -190,7 +196,6 @@ Vue.component("playlist-generator", {
         }
       });
     
-      // Sort and build the playlist
       const channelOrder = Object.keys(channelLineup);
       channels.sort((a, b) => channelOrder.indexOf(a.name) - channelOrder.indexOf(b.name));
     
