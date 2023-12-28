@@ -12,8 +12,22 @@ interface ComparisonService {
 }
 
 interface ChannelStats {
-  [key: string]: ChannelInfo[];
+  [key: string]: LineupChannel;
 }
+
+interface ServiceChannel {
+  channelId: string;
+  channelName: string;
+}
+
+interface LineupChannel {
+  tvgId: string;
+  tvgLogo: string;
+  tvgLogoDm: string;
+  extGrp: string;
+  link: string;
+}
+
 
 Vue.component("playlist-generator", {
   template: `
@@ -73,27 +87,27 @@ Vue.component("playlist-generator", {
   },
 
   methods: {
-    handleFileUpload(event: Event) {
+    async handleFileUpload(event: Event) {
       const files = (event.target as HTMLInputElement).files;
       if (!files) {
         this.errorMessage = 'לא נבחר קובץ.';
         return;
       }
-
+  
       const file = files[0];
       if (!file.name.endsWith('.m3u') && !file.name.endsWith('.m3u8')) {
         this.errorMessage = 'קובץ לא תקין. רק קבצי m3u ו-m3u8 נתמכים';
         return;
       }
-
+  
       this.fileExtension = file.name.endsWith('.m3u') ? '.m3u' : '.m3u8';
-
+  
       const reader = new FileReader();
-      reader.onload = (e: ProgressEvent<FileReader>) => {
+      reader.onload = async (e: ProgressEvent<FileReader>) => {  // Marked as async
         const content = e.target?.result;
         if (typeof content === 'string') {
           try {
-            this.modifiedFile = this.processM3UFile(content);
+            this.modifiedFile = await this.processM3UFile(content);  // Await the promise
             this.errorMessage = '';
           } catch (error) {
             this.errorMessage = 'שגיאה בעריכת הקובץ.';
@@ -109,8 +123,9 @@ Vue.component("playlist-generator", {
 
     async processM3UFile(content: string): Promise<string> {
       const lines = content.split(/\r?\n/);
-      const serviceChannels = await fetch(`/${this.selectedService}.json`).then(res => res.json());
-      const channelLineup = await fetch('/channel-lineup.json').then(res => res.json());
+    
+      const serviceChannels: ServiceChannel[] = await fetch(`/${this.selectedService}.json`).then(res => res.json());
+      const channelLineup: ChannelStats = await fetch('/channel-lineup.json').then(res => res.json());
     
       return lines.map(line => {
         // 1. Replace the line that starts with "#EXTM3U"
