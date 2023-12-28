@@ -139,7 +139,8 @@ Vue.component("playlist-generator", {
     
       let channels: Channel[] = [];
       let processedChannelNames = new Set<string>();
-      let currentChannel: Channel;
+      // Initialize currentChannel with an empty object
+      let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
     
       // Process channels from the M3U file
       for (const line of lines) {
@@ -164,12 +165,15 @@ Vue.component("playlist-generator", {
               };
             }
           }
-        } else if (line.startsWith('http') && currentChannel?.name) {
+        } else if (line.startsWith('http') && currentChannel.name) {
           currentChannel.url = line;
           channels.push(currentChannel);
     
           // Add the channel name to processedChannelNames after processing the channel
           processedChannelNames.add(currentChannel.name);
+
+          // Reset currentChannel for the next channel
+          currentChannel = { name: '', metadata: '', url: '', extgrp: '' };
         }
       }
     
