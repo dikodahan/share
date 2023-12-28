@@ -14,7 +14,7 @@ async function getLastModifiedFromGitHub(serviceName: string): Promise<string> {
   return new Promise((resolve, reject) => {
     const options = {
       hostname: 'api.github.com',
-      path: `/repos/[Your_GitHub_Username]/[Your_Repository_Name]/contents/backend/src/services/${serviceName}/${serviceName}.json`,
+      path: `/repos/dikodahan/share/contents/backend/src/services/${serviceName}/${serviceName}.json`,
       method: 'GET',
       headers: { 'User-Agent': 'Node.js' } // GitHub API requires a user-agent header
     };
