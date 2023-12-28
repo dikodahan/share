@@ -76,10 +76,8 @@ names.forEach((name) => {
   const records = JSON.parse(data) as ChannelInfo[];
   channels[name] = records;
 
-  // Check for DikoPlus value in ComparisonServices
   const serviceInfo = ComparisonServices.find((s) => s.service === name);
-  if (serviceInfo && !serviceInfo.DikoPlus) {
-    // If DikoPlus is true, copy the file to the public folder
+  if (serviceInfo && serviceInfo.DikoPlus == "📄") {
     const publicFolder = path.join(
       __dirname,
       "..",
