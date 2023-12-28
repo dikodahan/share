@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
+import { execSync } from 'child_process';
 import ComparisonServices from "./comparison-services.json";
 import ChannelLineup from "./services/channel-lineup.json";
 
@@ -27,7 +28,7 @@ names.forEach((name) => {
 
   console.log(`checking last commit for '${file}'`);
   try {
-    const lastCommitDate = child_process.execSync(`git log -1 --format=%cd -- ${file}`).toString().trim();
+    const lastCommitDate = execSync(`git log -1 --format=%cd -- ${file}`).toString().trim();
     console.log(`Last commit date for ${name}: ${lastCommitDate}`);
 
     const service = ComparisonServices.find(s => s.service === name);
