@@ -23,6 +23,13 @@ interface LineupChannel {
   link: string;
 }
 
+interface Channel {
+  name: string;
+  metadata: string;
+  url: string;
+  extgrp: string;
+}
+
 
 Vue.component("playlist-generator", {
   template: `
@@ -122,9 +129,9 @@ Vue.component("playlist-generator", {
       const serviceChannels: ServiceChannel[] = await fetch(`/${this.selectedService}.json`).then(res => res.json());
       const channelLineup: ChannelStats = await fetch('/channel-lineup.json').then(res => res.json());
     
-      let channels = [];
-      let currentChannel = {};
-    
+      let channels: Channel[] = [];
+      let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
+
       for (const line of lines) {
         if (line.startsWith('#EXTINF:')) {
           let modifiedLine = line.replace(/tvg-group="[^"]+"/, '');
