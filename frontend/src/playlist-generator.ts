@@ -131,7 +131,7 @@ Vue.component("playlist-generator", {
     
       let channels: Channel[] = [];
       let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
-
+    
       for (const line of lines) {
         if (line.startsWith('#EXTINF:')) {
           let modifiedLine = line.replace(/tvg-group="[^"]+"/, '');
@@ -141,18 +141,17 @@ Vue.component("playlist-generator", {
             const originalTvgId = tvgIdMatch[1];
             const serviceChannel = serviceChannels.find(c => c.channelId === originalTvgId);
             if (serviceChannel && channelLineup[serviceChannel.channelName]) {
+              const lineupChannel = channelLineup[serviceChannel.channelName];
+              modifiedLine = modifiedLine.replace(`tvg-id="${originalTvgId}"`, `tvg-id="${lineupChannel.tvgId}"`)
+                                        .replace(/tvg-logo="[^"]+"/, `tvg-logo="${lineupChannel.tvgLogo}"`)
+                                        .replace(/,.*$/, `,${serviceChannel.channelName}`);
               currentChannel = {
                 name: serviceChannel.channelName,
                 metadata: modifiedLine,
                 url: '',
-                extgrp: ''
+                extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
               };
             }
-          }
-        } else if (line.startsWith('#EXTGRP:') && currentChannel.name) {
-          const lineupChannel = channelLineup[currentChannel.name];
-          if (lineupChannel && lineupChannel.extGrp) {
-            currentChannel.extgrp = `#EXTGRP:${lineupChannel.extGrp}`;
           }
         } else if (line.startsWith('http') && currentChannel.name) {
           currentChannel.url = line;
@@ -160,9 +159,12 @@ Vue.component("playlist-generator", {
           currentChannel = { name: '', metadata: '', url: '', extgrp: '' };
         }
       }
-      
+    
+      // Sort the channels based on their order in channel-lineup.json
       const channelOrder = Object.keys(channelLineup);
       channels.sort((a, b) => channelOrder.indexOf(a.name) - channelOrder.indexOf(b.name));
+    
+      // Build the sorted playlist
       let outputLines = ['#EXTM3U url-tvg="https://github.com/dikodahan/share02/raw/main/src/DikoPlusEPG.xml.gz"', ''];
       channels.forEach(channel => {
         outputLines.push(channel.metadata, channel.extgrp, channel.url, '');
