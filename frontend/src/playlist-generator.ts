@@ -47,14 +47,14 @@ Vue.component("playlist-generator", {
       </select>
     </p>
     <br>
-    <p class="hebp">שלב ב׳: בחרו אם ברצונכם לוגואים ללא רקע, או על גבי רקע מושחר:
+    <p class="hebp" v-if="selectedService">שלב ב׳: בחרו אם ברצונכם לוגואים ללא רקע, או על גבי רקע מושחר:
       <select v-model="mode" class="service-dropdown" style="padding-left: 20px;">
         <option value="light">ללא רקע</option>
         <option value="dark">על רקע מושחר</option>
       </select>
     </p>
     <br>
-    <p class="hebp">שלב ג׳: בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
+    <p class="hebp" v-if="selectedService" v-if="isFileUploaded">שלב ג׳: בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
       <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" :disabled="!selectedService" style="display: none;"/>
       <label for="fileInput" class="custom-file-upload" :class="{'disabled-label': !selectedService}">בחירת קובץ...</label>
     </p>
