@@ -131,7 +131,7 @@ Vue.component("playlist-generator", {
       reader.readAsText(file);
     },
 
-    async processM3UFile(content: string): Promise<string> {
+    processM3UFile(content: string): Promise<string> {
       const lines = content.split(/\r?\n/);
     
       const serviceChannels: ServiceChannel[] = await fetch(`/${this.selectedService}.json`).then(res => res.json());
@@ -139,25 +139,25 @@ Vue.component("playlist-generator", {
     
       let channels: Channel[] = [];
       let processedChannelNames = new Set<string>();
-      // Initialize currentChannel with an empty object
       let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
     
-      // Process channels from the M3U file
       for (const line of lines) {
         if (line.startsWith('#EXTINF:')) {
           let modifiedLine = line.replace(/tvg-group="[^"]+"/, '');
           const tvgIdMatch = modifiedLine.match(/tvg-id="([^"]+)"/);
+          const tvgNameMatch = modifiedLine.match(/tvg-name="([^"]+)"/);
     
-          if (tvgIdMatch) {
-            const originalTvgId = tvgIdMatch[1];
-            const serviceChannel = serviceChannels.find(c => c.channelId === originalTvgId);
+          let channelId = tvgIdMatch ? tvgIdMatch[1] : (tvgNameMatch ? tvgNameMatch[1] : '');
+    
+          if (channelId) {
+            const serviceChannel = serviceChannels.find(c => c.channelId === channelId);
             if (serviceChannel && channelLineup[serviceChannel.channelName]) {
               const lineupChannel = channelLineup[serviceChannel.channelName];
               const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
     
               currentChannel = {
                 name: serviceChannel.channelName,
-                metadata: modifiedLine.replace(`tvg-id="${originalTvgId}"`, `tvg-id="${lineupChannel.tvgId}"`)
+                metadata: modifiedLine.replace(`tvg-id="${channelId}"`, `tvg-id="${lineupChannel.tvgId}"`)
                                       .replace(/tvg-logo="[^"]+"/, `tvg-logo="${logoUrl}"`)
                                       .replace(/,.*$/, `,${serviceChannel.channelName}`),
                 url: '',
@@ -168,11 +168,7 @@ Vue.component("playlist-generator", {
         } else if (line.startsWith('http') && currentChannel.name) {
           currentChannel.url = line;
           channels.push(currentChannel);
-    
-          // Add the channel name to processedChannelNames after processing the channel
           processedChannelNames.add(currentChannel.name);
-
-          // Reset currentChannel for the next channel
           currentChannel = { name: '', metadata: '', url: '', extgrp: '' };
         }
       }
