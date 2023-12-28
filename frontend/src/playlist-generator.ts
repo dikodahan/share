@@ -122,53 +122,47 @@ Vue.component("playlist-generator", {
       const serviceChannels: ServiceChannel[] = await fetch(`/${this.selectedService}.json`).then(res => res.json());
       const channelLineup: ChannelStats = await fetch('/channel-lineup.json').then(res => res.json());
     
-      let outputLines: string[] = [];
-      let isChannelAllowed = false;
-      let currentChannelName = '';
+      let channels = [];
+      let currentChannel = {};
     
       for (const line of lines) {
-        if (line.startsWith('#EXTM3U')) {
-          outputLines.push('#EXTM3U url-tvg="https://github.com/dikodahan/share02/raw/main/src/DikoPlusEPG.xml.gz"', '');
-          continue;
-        }
-    
         if (line.startsWith('#EXTINF:')) {
-          // Remove tvg-group attribute
           let modifiedLine = line.replace(/tvg-group="[^"]+"/, '');
-    
           const tvgIdMatch = modifiedLine.match(/tvg-id="([^"]+)"/);
+    
           if (tvgIdMatch) {
             const originalTvgId = tvgIdMatch[1];
             const serviceChannel = serviceChannels.find(c => c.channelId === originalTvgId);
-            if (serviceChannel) {
-              const lineupChannel = channelLineup[serviceChannel.channelName];
-              if (lineupChannel) {
-                modifiedLine = modifiedLine.replace(`tvg-id="${originalTvgId}"`, `tvg-id="${lineupChannel.tvgId}"`)
-                                          .replace(/tvg-logo="[^"]+"/, `tvg-logo="${lineupChannel.tvgLogo}"`)
-                                          .replace(/,.*$/, `,${serviceChannel.channelName}`);
-                outputLines.push(modifiedLine);
-                currentChannelName = serviceChannel.channelName;
-                isChannelAllowed = true;
-              } else {
-                isChannelAllowed = false;
-              }
-            } else {
-              isChannelAllowed = false;
+            if (serviceChannel && channelLineup[serviceChannel.channelName]) {
+              currentChannel = {
+                name: serviceChannel.channelName,
+                metadata: modifiedLine,
+                url: '',
+                extgrp: ''
+              };
             }
-          } else {
-            isChannelAllowed = false;
           }
-        } else if (line.startsWith('#EXTGRP:') && isChannelAllowed) {
-          const lineupChannel = channelLineup[currentChannelName];
+        } else if (line.startsWith('#EXTGRP:') && currentChannel.name) {
+          const lineupChannel = channelLineup[currentChannel.name];
           if (lineupChannel && lineupChannel.extGrp) {
-            outputLines.push(`#EXTGRP:${lineupChannel.extGrp}`);
+            currentChannel.extgrp = `#EXTGRP:${lineupChannel.extGrp}`;
           }
-        } else if (line.startsWith('http') && isChannelAllowed) {
-          outputLines.push(line, '');
+        } else if (line.startsWith('http') && currentChannel.name) {
+          currentChannel.url = line;
+          channels.push(currentChannel);
+          currentChannel = {};
         }
-    
-        // Omitting non-matching or non-http lines
       }
+    
+      // Sort the channels based on their order in channel-lineup.json
+      const channelOrder = Object.keys(channelLineup);
+      channels.sort((a, b) => channelOrder.indexOf(a.name) - channelOrder.indexOf(b.name));
+    
+      // Build the sorted playlist
+      let outputLines = ['#EXTM3U url-tvg="https://github.com/dikodahan/share02/raw/main/src/DikoPlusEPG.xml.gz"', ''];
+      channels.forEach(channel => {
+        outputLines.push(channel.metadata, channel.extgrp, channel.url, '');
+      });
     
       return outputLines.join('\n');
     },
