@@ -140,27 +140,33 @@ Vue.component("playlist-generator", {
       let channels: Channel[] = [];
       let processedChannelNames = new Set<string>();
       let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
-      let usedTvgNameForMatching = false;  // Flag to track the attribute used for matching
     
       for (const line of lines) {
+        let usedTvgNameForMatching = false;  // Reset the flag for each line
+      
         if (line.startsWith('#EXTINF:')) {
           let modifiedLine = line.replace(/tvg-group="[^"]+"/, '');
           const tvgIdMatch = modifiedLine.match(/tvg-id="([^"]+)"/);
           const tvgNameMatch = modifiedLine.match(/tvg-name="([^"]+)"/);
-    
+      
           let channelId = '';
           if (tvgIdMatch) {
             channelId = tvgIdMatch[1];
           } else if (tvgNameMatch) {
             channelId = tvgNameMatch[1];
-            usedTvgNameForMatching = true;
+            usedTvgNameForMatching = true;  // Set the flag if matched with tvg-name
           }
-    
+      
           if (channelId) {
             const serviceChannel = serviceChannels.find(c => c.channelId === channelId);
             if (serviceChannel && channelLineup[serviceChannel.channelName]) {
               const lineupChannel = channelLineup[serviceChannel.channelName];
               const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
+      
+              // Set the metadata here using the flag
+              currentChannel.metadata = usedTvgNameForMatching 
+                ? `#EXTINF:0 tvg-name="${lineupChannel.tvgId}" tvg-logo="${logoUrl}",${serviceChannel.channelName}`
+                : `#EXTINF:0 tvg-id="${lineupChannel.tvgId}" tvg-logo="${logoUrl}",${serviceChannel.channelName}`;      
     
               currentChannel = {
                 name: serviceChannel.channelName,
