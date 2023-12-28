@@ -47,7 +47,7 @@ Vue.component("playlist-generator", {
       </select>
     </p>
     <br>
-    <p class="hebp">שלב ב׳: בחרו אם ברצונכם איקונים ללא רקע, או על גבי רקע מושחר:
+    <p class="hebp">שלב ב׳: בחרו אם ברצונכם לוגואים ללא רקע, או על גבי רקע מושחר:
       <select v-model="mode" class="service-dropdown" style="padding-left: 20px;">
         <option value="light">ללא רקע</option>
         <option value="dark">על רקע מושחר</option>

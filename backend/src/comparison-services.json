@@ -59,7 +59,7 @@
         "name"                  : "TV Team",
         "service"               : "tvteam",
         "ציון משוקלל"           : "5",
-        "DikoPlus"              : false,
+        "DikoPlus"              : "📄",
         "DikoPlusEN"            : false,
         "DikoPlusEPG"           : true,
         "יציבות"                : "5",
