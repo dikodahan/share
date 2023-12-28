@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import axios from 'axios';
+import * as https from 'https';
 import ComparisonServices from "./comparison-services.json";
 import ChannelLineup from "./services/channel-lineup.json";
 
@@ -10,17 +10,30 @@ export interface ChannelInfo {
   channelId: string | number;
 }
 
-// Function to fetch last modified date from GitHub
-async function fetchLastModifiedDate(serviceName: string): Promise<string> {
-  const url = `https://api.github.com/repos/[username]/[repository]/contents/backend/src/services/${serviceName}/${serviceName}.json`;
-  
-  try {
-    const response = await axios.get(url);
-    return response.data.commit.author.date; // Assuming this is where the date is located
-  } catch (error) {
-    console.error(`Error fetching last modified date for ${serviceName}:`, error);
-    return '';
-  }
+async function getLastModifiedFromGitHub(serviceName: string): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const options = {
+      hostname: 'api.github.com',
+      path: `/repos/[Your_GitHub_Username]/[Your_Repository_Name]/contents/backend/src/services/${serviceName}/${serviceName}.json`,
+      method: 'GET',
+      headers: { 'User-Agent': 'Node.js' } // GitHub API requires a user-agent header
+    };
+
+    https.get(options, (res) => {
+      let data = '';
+
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+
+      res.on('end', () => {
+        const fileInfo = JSON.parse(data);
+        resolve(fileInfo.sha); // or use another property that indicates the last modified date
+      });
+    }).on('error', (err) => {
+      reject(err);
+    });
+  });
 }
 
 type ChannelStats = { [key: string]: ChannelInfo[] };
@@ -28,7 +41,7 @@ type ChannelStats = { [key: string]: ChannelInfo[] };
 const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem"];
 const channels: ChannelStats = {};
 
-names.forEach((name) => {
+names.forEach(async (name) => {
   const file = path.join(
     __dirname,
     "..",
@@ -38,6 +51,13 @@ names.forEach((name) => {
     `${name}.json`
   );
   console.log(`reading '${file}'`);
+
+  const lastModified = await getLastModifiedFromGitHub(name);
+  const serviceInfo = ComparisonServices.find((s) => s.service === name);
+  if (serviceInfo) {
+    serviceInfo.updated = lastModified; // Update the 'updated' field
+  }
+
   const data = fs.readFileSync(file, "utf8");
   const records = JSON.parse(data) as ChannelInfo[];
   channels[name] = records;
@@ -105,20 +125,6 @@ names.forEach((name) => {
     console.log(`Copied '${name}.json' to public folder`);
   }
 });
-
-// Update the 'updated' field in ComparisonServices
-async function updateServiceDates() {
-  for (const name of names) {
-    const lastModifiedDate = await fetchLastModifiedDate(name);
-    const serviceInfo = ComparisonServices.find((s) => s.service === name);
-    if (serviceInfo && lastModifiedDate) {
-      serviceInfo.updated = lastModifiedDate;
-    }
-  }
-}
-
-// Call this function at the appropriate place in your existing code flow
-await updateServiceDates();
 
 const comparisonServicesPath = path.join(
   __dirname,
