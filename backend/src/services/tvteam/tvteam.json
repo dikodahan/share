@@ -233,11 +233,11 @@
     },
     {
         "channelName": "HBO סלקום",
-        "channelId": "IL: HBO HD"
+        "channelId": "IL: Doco HD"
     },
     {
         "channelName": "סלקום דוקו",
-        "channelId": "IL: Doco HD"
+        "channelId": "IL: HBO HD"
     },
     {
         "channelName": "סלקום קלטות ילדים",
@@ -325,8 +325,6 @@
     },
     {
         "channelName": "יויו",
-        "tvgName": "TBD",
-        "tvgShift": 0,
         "channelId": "IL: Yoyo"
     },
     {
@@ -335,38 +333,26 @@
     },
     {
         "channelName": "לוגי",
-        "tvgName": "TBD",
-        "tvgShift": 0,
         "channelId": "IL: Logi"
     },
     {
         "channelName": "ילדותי",
-        "tvgName": "TBD",
-        "tvgShift": 0,
         "channelId": "IL: Yalduti"
     },
     {
         "channelName": "הוט באזז",
-        "tvgName": "TBD",
-        "tvgShift": 0,
         "channelId": "IL: HOT Buzz HD"
     },
     {
         "channelName": "ג׳ים ג׳ם",
-        "tvgName": "TBD",
-        "tvgShift": 0,
         "channelId": "IL: Jim Jam"
     },
     {
         "channelName": "ג׳וניור",
-        "tvgName": "TBD",
-        "tvgShift": 0,
         "channelId": "IL: Junior"
     },
     {
         "channelName": "זום טון",
-        "tvgName": "TBD",
-        "tvgShift": 0,
         "channelId": "IL: Zoom Toon HD"
     },
     {
@@ -391,14 +377,10 @@
     },
     {
         "channelName": "זום",
-        "tvgName": "TBD",
-        "tvgShift": 0,
         "channelId": "IL: Zoom"
     },
     {
         "channelName": "פומו",
-        "tvgName": "TBD",
-        "tvgShift": 0,
         "channelId": "IL: Fomo"
     },
     {

@@ -122,13 +122,15 @@ Vue.component("playlist-generator", {
       const serviceChannels: ServiceChannel[] = await fetch(`/${this.selectedService}.json`).then(res => res.json());
       const channelLineup: ChannelStats = await fetch('/channel-lineup.json').then(res => res.json());
     
-      return lines.map(line => {
-        // 1. Replace the line that starts with "#EXTM3U"
+      let outputLines: string[] = [];
+      let isChannelAllowed = false;
+    
+      for (const line of lines) {
         if (line.startsWith('#EXTM3U')) {
-          return '#EXTM3U url-tvg="https://github.com/dikodahan/share02/raw/main/src/DikoPlusEPG.xml.gz"';
+          outputLines.push('#EXTM3U url-tvg="https://github.com/dikodahan/share02/raw/main/src/DikoPlusEPG.xml.gz"', '');
+          continue;
         }
     
-        // 2, 3, 4, 5. Match channels and replace tvg-id and tvg-logo
         if (line.startsWith('#EXTINF:')) {
           const tvgIdMatch = line.match(/tvg-id="([^"]+)"/);
           if (tvgIdMatch) {
@@ -137,35 +139,30 @@ Vue.component("playlist-generator", {
             if (serviceChannel) {
               const lineupChannel = channelLineup[serviceChannel.channelName];
               if (lineupChannel) {
-                line = line.replace(`tvg-id="${originalTvgId}"`, `tvg-id="${lineupChannel.tvgId}"`)
-                           .replace(/tvg-logo="[^"]+"/, `tvg-logo="${lineupChannel.tvgLogo}"`)
-                           // Replace the channel name at the end of the line
-                           .replace(/,.*$/, `,${serviceChannel.channelName}`);
+                let modifiedLine = line.replace(`tvg-id="${originalTvgId}"`, `tvg-id="${lineupChannel.tvgId}"`)
+                                      .replace(/tvg-logo="[^"]+"/, `tvg-logo="${lineupChannel.tvgLogo}"`)
+                                      .replace(/,.*$/, `,${serviceChannel.channelName}`);
+                outputLines.push(modifiedLine);
+                isChannelAllowed = true;
+              } else {
+                isChannelAllowed = false;
               }
+            } else {
+              isChannelAllowed = false;
             }
+          } else {
+            isChannelAllowed = false;
           }
+        } else if (line.startsWith('http') && isChannelAllowed) {
+          outputLines.push(line, '');
         }
     
-        // 6. Remove tvg-group
-        line = line.replace(/tvg-group="[^"]+"/, '');
+        // Omitting the tvg-group lines
+        // Omitting non-matching or non-http lines
+      }
     
-        // 7, 8. Replace EXTGRP
-        if (line.startsWith('#EXTGRP:')) {
-          const channelNameMatch = line.match(/#EXTGRP:.*$/);
-          if (channelNameMatch) {
-            const originalGroupName = channelNameMatch[0].split(':')[1];
-            const lineupChannel = Object.values(channelLineup).find(c => c.extGrp === originalGroupName);
-            if (lineupChannel) {
-              line = `#EXTGRP:${lineupChannel.extGrp}`;
-            }
-          }
-        }
-    
-        // 9. Leave the actual URL intact
-        // 10. Do not remove any other metadata
-        return line;
-      }).join('\n');
-    },
+      return outputLines.join('\n');
+    },    
 
     downloadFile() {
       if (!this.modifiedFile) {
