@@ -138,7 +138,9 @@ Vue.component("playlist-generator", {
               const lineupChannel = channelLineup[serviceChannel.channelName];
               if (lineupChannel) {
                 line = line.replace(`tvg-id="${originalTvgId}"`, `tvg-id="${lineupChannel.tvgId}"`)
-                           .replace(/tvg-logo="[^"]+"/, `tvg-logo="${lineupChannel.tvgLogo}"`);
+                           .replace(/tvg-logo="[^"]+"/, `tvg-logo="${lineupChannel.tvgLogo}"`)
+                           // Replace the channel name at the end of the line
+                           .replace(/,.*$/, `,${serviceChannel.channelName}`);
               }
             }
           }
@@ -147,11 +149,11 @@ Vue.component("playlist-generator", {
         // 6. Remove tvg-group
         line = line.replace(/tvg-group="[^"]+"/, '');
     
-        // 7, 8. Replace channel name and EXTGRP
+        // 7, 8. Replace EXTGRP
         if (line.startsWith('#EXTGRP:')) {
-          const channelNameMatch = line.match(/#EXTGRP:(.+)/);
+          const channelNameMatch = line.match(/#EXTGRP:.*$/);
           if (channelNameMatch) {
-            const originalGroupName = channelNameMatch[1];
+            const originalGroupName = channelNameMatch[0].split(':')[1];
             const lineupChannel = Object.values(channelLineup).find(c => c.extGrp === originalGroupName);
             if (lineupChannel) {
               line = `#EXTGRP:${lineupChannel.extGrp}`;
@@ -164,7 +166,6 @@ Vue.component("playlist-generator", {
         return line;
       }).join('\n');
     },
-    
 
     downloadFile() {
       if (!this.modifiedFile) {
