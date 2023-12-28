@@ -163,7 +163,7 @@ Vue.component("playlist-generator", {
     
       // Include special channels from <service>.json
       serviceChannels.forEach(serviceChannel => {
-        if (serviceChannel.channelId === 'none' || serviceChannel.channelId === 1010) {
+        if (serviceChannel.channelId === 'none' || serviceChannel.channelId.toString() === '1010') {
           const lineupChannel = channelLineup[serviceChannel.channelName];
           if (lineupChannel) {
             channels.push({
