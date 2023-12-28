@@ -62,6 +62,36 @@ Object.entries(channels).forEach(([service, channelInfos]) => {
   }
 });
 
+names.forEach((name) => {
+  const file = path.join(
+    __dirname,
+    "..",
+    "backend",
+    "services",
+    name,
+    `${name}.json`
+  );
+  console.log(`reading '${file}'`);
+  const data = fs.readFileSync(file, "utf8");
+  const records = JSON.parse(data) as ChannelInfo[];
+  channels[name] = records;
+
+  // Check for DikoPlus value in ComparisonServices
+  const serviceInfo = ComparisonServices.find((s) => s.service === name);
+  if (serviceInfo && !serviceInfo.DikoPlus) {
+    // If DikoPlus is true, copy the file to the public folder
+    const publicFolder = path.join(
+      __dirname,
+      "..",
+      "..",
+      "public",
+      `${name}.json`
+    );
+    fs.copyFileSync(file, publicFolder);
+    console.log(`Copied '${name}.json' to public folder`);
+  }
+});
+
 const comparisonServicesPath = path.join(
   __dirname,
   "..",

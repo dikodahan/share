@@ -36,7 +36,7 @@ Vue.component("playlist-generator", {
       <label for="fileInput" class="custom-file-upload" :class="{'disabled-label': !selectedService}">בחירת קובץ...</label>
     </p>
     <br>
-    <p class="hebp">הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
+    <p class="hebp">שלב ג׳: הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
       <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
     </p>
     <p v-if="errorMessage">{{ errorMessage }}</p>
