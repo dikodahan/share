@@ -1,6 +1,5 @@
 import * as fs from "fs";
 import * as path from "path";
-import * as https from 'https';
 import ComparisonServices from "./comparison-services.json";
 import ChannelLineup from "./services/channel-lineup.json";
 
@@ -10,38 +9,12 @@ export interface ChannelInfo {
   channelId: string | number;
 }
 
-async function getLastModifiedFromGitHub(serviceName: string): Promise<string> {
-  return new Promise((resolve, reject) => {
-    const options = {
-      hostname: 'api.github.com',
-      path: `/repos/dikodahan/share/contents/backend/src/services/${serviceName}/${serviceName}.json`,
-      method: 'GET',
-      headers: { 'User-Agent': 'Node.js' } // GitHub API requires a user-agent header
-    };
-
-    https.get(options, (res) => {
-      let data = '';
-
-      res.on('data', (chunk) => {
-        data += chunk;
-      });
-
-      res.on('end', () => {
-        const fileInfo = JSON.parse(data);
-        resolve(fileInfo.sha); // or use another property that indicates the last modified date
-      });
-    }).on('error', (err) => {
-      reject(err);
-    });
-  });
-}
-
 type ChannelStats = { [key: string]: ChannelInfo[] };
 
 const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem"];
 const channels: ChannelStats = {};
 
-for (const name of names) {
+names.forEach((name) => {
   const file = path.join(
     __dirname,
     "..",
@@ -51,19 +24,10 @@ for (const name of names) {
     `${name}.json`
   );
   console.log(`reading '${file}'`);
-
-  // Await the last modified date from GitHub
-  const lastModified = await getLastModifiedFromGitHub(name);
-  const serviceInfo = ComparisonServices.find((s) => s.service === name);
-  if (serviceInfo) {
-    serviceInfo.updated = lastModified; // Update the 'updated' field
-  }
-
-  // Read the local JSON file
   const data = fs.readFileSync(file, "utf8");
   const records = JSON.parse(data) as ChannelInfo[];
   channels[name] = records;
-}
+});
 
 const output = path.join(
   __dirname,
