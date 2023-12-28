@@ -28,7 +28,10 @@ names.forEach((name) => {
 
   console.log(`checking last commit for '${file}'`);
   try {
-    const lastCommitDate = execSync(`git log -1 --format=%cd -- ${file}`).toString().trim();
+    const gitCommand = `git -C "${path.dirname(file)}" log -1 --format=%cd -- "${path.basename(file)}"`;
+    console.log(`Executing: ${gitCommand}`); // Debugging line
+
+    const lastCommitDate = execSync(gitCommand).toString().trim();
     console.log(`Last commit date for ${name}: ${lastCommitDate}`);
 
     const service = ComparisonServices.find(s => s.service === name);
