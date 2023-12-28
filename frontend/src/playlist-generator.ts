@@ -47,19 +47,19 @@ Vue.component("playlist-generator", {
       </select>
     </p>
     <br>
-    <p class="hebp">שלב ב׳: בחרו אם ברצונכם איקונים ללא רקע, או על גבי רקע מושחר״
+    <p class="hebp">שלב ב׳: בחרו אם ברצונכם איקונים ללא רקע, או על גבי רקע מושחר:
       <select v-model="mode" class="service-dropdown" style="padding-left: 20px;">
         <option value="light">ללא רקע</option>
         <option value="dark">על רקע מושחר</option>
       </select>
     </p>
     <br>
-    <p class="hebp">שלב ב׳: בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
+    <p class="hebp">שלב ג׳: בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
       <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" :disabled="!selectedService" style="display: none;"/>
       <label for="fileInput" class="custom-file-upload" :class="{'disabled-label': !selectedService}">בחירת קובץ...</label>
     </p>
     <br>
-    <p class="hebp">שלב ג׳: הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
+    <p class="hebp">שלב ד׳: הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
       <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
     </p>
     <p v-if="errorMessage">{{ errorMessage }}</p>
@@ -138,7 +138,8 @@ Vue.component("playlist-generator", {
       const channelLineup: ChannelStats = await fetch('/channel-lineup.json').then(res => res.json());
     
       let channels: Channel[] = [];
-      let addedChannels = new Set();
+      let addedChannels = new Set(); // To track channels already added
+      let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' }; // Declare currentChannel here
     
       // Process channels from the M3U file
       for (const line of lines) {
