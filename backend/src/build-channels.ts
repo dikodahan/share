@@ -24,6 +24,14 @@ names.forEach((name) => {
     `${name}.json`
   );
   console.log(`reading '${file}'`);
+
+  const stats = fs.statSync(file);
+  const lastModifiedDate = stats.mtime.toISOString().split('T')[0];
+  const service = ComparisonServices.find(s => s.service === name);
+  if (service) {
+    service.updated = lastModifiedDate;
+  }
+  
   const data = fs.readFileSync(file, "utf8");
   const records = JSON.parse(data) as ChannelInfo[];
   channels[name] = records;
