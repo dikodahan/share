@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import { execSync } from 'child_process';
+import * as https from "https";
 import ComparisonServices from "./comparison-services.json";
 import ChannelLineup from "./services/channel-lineup.json";
 
@@ -12,39 +12,59 @@ export interface ChannelInfo {
 
 type ChannelStats = { [key: string]: ChannelInfo[] };
 
+// Function to fetch the last modified date from GitHub
+const fetchLastModifiedDate = (name: string): Promise<string> => {
+  return new Promise((resolve, reject) => {
+    const url = `https://api.github.com/repos/dikodahan/share/commits?path=backend/src/services/${name}/${name}.json`;
+
+    https.get(url, { headers: { 'User-Agent': 'Node.js' } }, (res) => {
+      let data = '';
+
+      res.on('data', (chunk) => {
+        data += chunk;
+      });
+
+      res.on('end', () => {
+        const commits = JSON.parse(data);
+        if (commits.length > 0) {
+          const lastCommit = commits[0];
+          resolve(lastCommit.commit.author.date);
+        } else {
+          resolve('');
+        }
+      });
+    }).on('error', (err) => {
+      reject(err);
+    });
+  });
+};
+
 const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem"];
 const channels: ChannelStats = {};
 
-names.forEach((name) => {
-  const file = path.join(
-    __dirname,
-    "..",
-    "backend",
-    "services",
-    name,
-    `${name}.json`
-  );
-  console.log(`reading '${file}'`);
+(async () => {
+  for (const name of names) {
+    // Fetch and update the last modified date
+    const lastModifiedDate = await fetchLastModifiedDate(name);
+    const serviceInfo = ComparisonServices.find((s) => s.service === name);
+    if (serviceInfo) {
+      serviceInfo.updated = lastModifiedDate;
 
-  console.log(`checking last commit for '${file}'`);
-  try {
-    const gitCommand = `git -C "${path.dirname(file)}" log -1 --format=%cd -- "${path.basename(file)}"`;
-    console.log(`Executing: ${gitCommand}`); // Debugging line
-
-    const lastCommitDate = execSync(gitCommand).toString().trim();
-    console.log(`Last commit date for ${name}: ${lastCommitDate}`);
-
-    const service = ComparisonServices.find(s => s.service === name);
-    if (service) {
-      service.updated = lastCommitDate;
+      // Original processing logic for each service
+      const file = path.join(
+        __dirname,
+        "..",
+        "backend",
+        "services",
+        name,
+        `${name}.json`
+      );
+      console.log(`reading '${file}'`);
+      const data = fs.readFileSync(file, "utf8");
+      const records = JSON.parse(data) as ChannelInfo[];
+      channels[name] = records;
     }
-  } catch (error) {
-    console.error(`Error getting last commit date for ${name}:`, error);
   }
-
-  const data = fs.readFileSync(file, "utf8");
-  const records = JSON.parse(data) as ChannelInfo[];
-  channels[name] = records;
 });
 
 const output = path.join(
@@ -94,8 +114,10 @@ names.forEach((name) => {
   const records = JSON.parse(data) as ChannelInfo[];
   channels[name] = records;
 
+  // Check for DikoPlus value in ComparisonServices
   const serviceInfo = ComparisonServices.find((s) => s.service === name);
   if (serviceInfo && !serviceInfo.DikoPlus) {
+    // If DikoPlus is true, copy the file to the public folder
     const publicFolder = path.join(
       __dirname,
       "..",
