@@ -25,13 +25,20 @@ names.forEach((name) => {
   );
   console.log(`reading '${file}'`);
 
-  const stats = fs.statSync(file);
-  const lastModifiedDate = stats.mtime.toISOString().split('T')[0];
-  const service = ComparisonServices.find(s => s.service === name);
-  if (service) {
-    service.updated = lastModifiedDate;
+  // Check if the file exists
+  if (fs.existsSync(file)) {
+    const stats = fs.statSync(file);
+    const lastModifiedDate = stats.mtime.toISOString().split('T')[0]; // format as 'YYYY-MM-DD'
+
+    // Find the service in ComparisonServices and update its 'updated' field
+    const service = ComparisonServices.find(s => s.service === name);
+    if (service) {
+      service.updated = lastModifiedDate;
+    }
+  } else {
+    console.warn(`File not found: ${file}`);
   }
-  
+
   const data = fs.readFileSync(file, "utf8");
   const records = JSON.parse(data) as ChannelInfo[];
   channels[name] = records;
