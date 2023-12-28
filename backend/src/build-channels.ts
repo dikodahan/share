@@ -41,7 +41,7 @@ type ChannelStats = { [key: string]: ChannelInfo[] };
 const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem"];
 const channels: ChannelStats = {};
 
-names.forEach(async (name) => {
+for (const name of names) {
   const file = path.join(
     __dirname,
     "..",
@@ -52,16 +52,18 @@ names.forEach(async (name) => {
   );
   console.log(`reading '${file}'`);
 
+  // Await the last modified date from GitHub
   const lastModified = await getLastModifiedFromGitHub(name);
   const serviceInfo = ComparisonServices.find((s) => s.service === name);
   if (serviceInfo) {
     serviceInfo.updated = lastModified; // Update the 'updated' field
   }
 
+  // Read the local JSON file
   const data = fs.readFileSync(file, "utf8");
   const records = JSON.parse(data) as ChannelInfo[];
   channels[name] = records;
-});
+}
 
 const output = path.join(
   __dirname,
