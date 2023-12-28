@@ -132,6 +132,7 @@ Vue.component("playlist-generator", {
       let channels: Channel[] = [];
       let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
     
+      // Process channels from the M3U file
       for (const line of lines) {
         if (line.startsWith('#EXTINF:')) {
           let modifiedLine = line.replace(/tvg-group="[^"]+"/, '');
@@ -160,11 +161,25 @@ Vue.component("playlist-generator", {
         }
       }
     
-      // Sort the channels based on their order in channel-lineup.json
+      // Include special channels from <service>.json
+      serviceChannels.forEach(serviceChannel => {
+        if (serviceChannel.channelId === 'none' || serviceChannel.channelId === 1010) {
+          const lineupChannel = channelLineup[serviceChannel.channelName];
+          if (lineupChannel) {
+            channels.push({
+              name: serviceChannel.channelName,
+              metadata: `#EXTINF:0 tvg-id="${lineupChannel.tvgId}"  tvg-logo="${lineupChannel.tvgLogo}",${serviceChannel.channelName}`,
+              url: lineupChannel.link,
+              extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
+            });
+          }
+        }
+      });
+    
+      // Sort and build the playlist
       const channelOrder = Object.keys(channelLineup);
       channels.sort((a, b) => channelOrder.indexOf(a.name) - channelOrder.indexOf(b.name));
     
-      // Build the sorted playlist
       let outputLines = ['#EXTM3U url-tvg="https://github.com/dikodahan/share02/raw/main/src/DikoPlusEPG.xml.gz"', ''];
       channels.forEach(channel => {
         outputLines.push(channel.metadata, channel.extgrp, channel.url, '');
