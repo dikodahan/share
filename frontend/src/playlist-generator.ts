@@ -54,12 +54,12 @@ Vue.component("playlist-generator", {
       </select>
     </p>
     <br>
-    <p class="hebp" v-if="selectedService" v-if="isFileUploaded">שלב ג׳: בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
+    <p class="hebp" v-if="selectedService">שלב ג׳: בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
       <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" :disabled="!selectedService" style="display: none;"/>
       <label for="fileInput" class="custom-file-upload" :class="{'disabled-label': !selectedService}">בחירת קובץ...</label>
     </p>
     <br>
-    <p class="hebp">שלב ד׳: הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
+    <p class="hebp" v-if="isFileUploaded">שלב ד׳: הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
       <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
     </p>
     <p v-if="errorMessage">{{ errorMessage }}</p>
