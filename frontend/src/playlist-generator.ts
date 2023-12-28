@@ -138,7 +138,7 @@ Vue.component("playlist-generator", {
       const channelLineup: ChannelStats = await fetch('/channel-lineup.json').then(res => res.json());
     
       let channels: Channel[] = [];
-      let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
+      let addedChannels = new Set();
     
       // Process channels from the M3U file
       for (const line of lines) {
@@ -171,17 +171,18 @@ Vue.component("playlist-generator", {
     
       // Include special channels from <service>.json
       serviceChannels.forEach(serviceChannel => {
-        const lineupChannel = channelLineup[serviceChannel.channelName];
-        if (lineupChannel) {
-          // Choose the logo based on the selected mode
-          const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
-    
-          channels.push({
-            name: serviceChannel.channelName,
-            metadata: `#EXTINF:0 tvg-id="${lineupChannel.tvgId}"  tvg-logo="${logoUrl}",${serviceChannel.channelName}`,
-            url: lineupChannel.link,
-            extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
-          });
+        if (!addedChannels.has(serviceChannel.channelName)) {
+          const lineupChannel = channelLineup[serviceChannel.channelName];
+          if (lineupChannel) {
+            const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
+            channels.push({
+              name: serviceChannel.channelName,
+              metadata: `#EXTINF:0 tvg-id="${lineupChannel.tvgId}"  tvg-logo="${logoUrl}",${serviceChannel.channelName}`,
+              url: lineupChannel.link,
+              extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
+            });
+            addedChannels.add(serviceChannel.channelName);
+          }
         }
       });
     
