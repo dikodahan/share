@@ -157,15 +157,12 @@ Vue.component("playlist-generator", {
         } else if (line.startsWith('http') && currentChannel.name) {
           currentChannel.url = line;
           channels.push(currentChannel);
-          currentChannel = {};
+          currentChannel = { name: '', metadata: '', url: '', extgrp: '' };
         }
       }
-    
-      // Sort the channels based on their order in channel-lineup.json
+      
       const channelOrder = Object.keys(channelLineup);
       channels.sort((a, b) => channelOrder.indexOf(a.name) - channelOrder.indexOf(b.name));
-    
-      // Build the sorted playlist
       let outputLines = ['#EXTM3U url-tvg="https://github.com/dikodahan/share02/raw/main/src/DikoPlusEPG.xml.gz"', ''];
       channels.forEach(channel => {
         outputLines.push(channel.metadata, channel.extgrp, channel.url, '');
