@@ -4,7 +4,6 @@ import * as https from "https";
 import ComparisonServices from "./comparison-services.json";
 import ChannelLineup from "./services/channel-lineup.json";
 
-
 export interface ChannelInfo {
   channelName: string;
   channelId: string | number;
@@ -44,13 +43,11 @@ const channels: ChannelStats = {};
 
 (async () => {
   for (const name of names) {
-    // Fetch and update the last modified date
     const lastModifiedDate = await fetchLastModifiedDate(name);
     const serviceInfo = ComparisonServices.find((s) => s.service === name);
     if (serviceInfo) {
       serviceInfo.updated = lastModifiedDate;
-
-      // Original processing logic for each service
+      
       const file = path.join(
         __dirname,
         "..",
@@ -65,91 +62,83 @@ const channels: ChannelStats = {};
       channels[name] = records;
     }
   }
-});
 
-const output = path.join(
-  __dirname,
-  "..",
-  "..",
-  "public",
-  "service-channel-names.json"
-);
-console.log(`writing to ${output} ${Object.keys(channels)} services`);
-fs.writeFileSync(output, JSON.stringify(channels, null, 2));
+  // Save the updated ComparisonServices to a file
+  fs.writeFileSync(
+    path.join(__dirname, "..", "..", "public", "comparison-services.json"),
+    JSON.stringify(ComparisonServices, null, 2)
+  );
 
-Object.entries(channels).forEach(([service, channelInfos]) => {
-  const info = ComparisonServices.find((s) => s.service === service);
-  if (info) {
-    const extraChannels = new Set(
-      channelInfos
-        .filter((ci) => ci.channelId === 'none' || ci.channelId === 1010)
-        .map((ci) => ci.channelName)
-    );
-    const regularChannels = new Set(
-      channelInfos
-        .filter((ci) => ci.channelId !== 'none' && ci.channelId !== 1010)
-        .map((ci) => ci.channelName)
-    );
-
-    const extraChannelsCount = extraChannels.size;
-    const regularChannelsCount = regularChannels.size;
-
-    info["ערוצי ישראל - אקסטרה 🆓"] = extraChannelsCount;
-    info["ערוצי ישראל - ספק ✅"] = regularChannelsCount;
-    info["ערוצי ישראל - סך הכל"] = extraChannelsCount + regularChannelsCount;
-  }
-});
-
-names.forEach((name) => {
-  const file = path.join(
+  const output = path.join(
     __dirname,
     "..",
-    "backend",
-    "services",
-    name,
-    `${name}.json`
+    "..",
+    "public",
+    "service-channel-names.json"
   );
-  console.log(`reading '${file}'`);
-  const data = fs.readFileSync(file, "utf8");
-  const records = JSON.parse(data) as ChannelInfo[];
-  channels[name] = records;
+  console.log(`writing to ${output} ${Object.keys(channels)} services`);
+  fs.writeFileSync(output, JSON.stringify(channels, null, 2));
 
-  // Check for DikoPlus value in ComparisonServices
-  const serviceInfo = ComparisonServices.find((s) => s.service === name);
-  if (serviceInfo && !serviceInfo.DikoPlus) {
-    // If DikoPlus is true, copy the file to the public folder
-    const publicFolder = path.join(
+  Object.entries(channels).forEach(([service, channelInfos]) => {
+    const info = ComparisonServices.find((s) => s.service === service);
+    if (info) {
+      const extraChannels = new Set(
+        channelInfos
+          .filter((ci) => ci.channelId === 'none' || ci.channelId === 1010)
+          .map((ci) => ci.channelName)
+      );
+      const regularChannels = new Set(
+        channelInfos
+          .filter((ci) => ci.channelId !== 'none' && ci.channelId !== 1010)
+          .map((ci) => ci.channelName)
+      );
+
+      const extraChannelsCount = extraChannels.size;
+      const regularChannelsCount = regularChannels.size;
+
+      info["ערוצי ישראל - אקסטרה 🆓"] = extraChannelsCount;
+      info["ערוצי ישראל - ספק ✅"] = regularChannelsCount;
+      info["ערוצי ישראל - סך הכל"] = extraChannelsCount + regularChannelsCount;
+    }
+  });
+
+  names.forEach((name) => {
+    const file = path.join(
       __dirname,
       "..",
-      "..",
-      "public",
+      "backend",
+      "services",
+      name,
       `${name}.json`
     );
-    fs.copyFileSync(file, publicFolder);
-    console.log(`Copied '${name}.json' to public folder`);
-  }
-});
+    console.log(`reading '${file}'`);
+    const data = fs.readFileSync(file, "utf8");
+    const records = JSON.parse(data) as ChannelInfo[];
+    channels[name] = records;
 
-const comparisonServicesPath = path.join(
-  __dirname,
-  "..",
-  "..",
-  "public",
-  "comparison-services.json"
-);
-fs.writeFileSync(
-  comparisonServicesPath,
-  JSON.stringify(ComparisonServices, null, 2)
-);
+    const serviceInfo = ComparisonServices.find((s) => s.service === name);
+    if (serviceInfo && serviceInfo.DikoPlus) {
+      const publicFolder = path.join(
+        __dirname,
+        "..",
+        "..",
+        "public",
+        `${name}.json`
+      );
+      fs.copyFileSync(file, publicFolder);
+      console.log(`Copied '${name}.json' to public folder`);
+    }
+  });
 
-const channelLineupPath = path.join(
-  __dirname,
-  "..",
-  "..",
-  "public",
-  "channel-lineup.json"
-);
-fs.writeFileSync(
-  channelLineupPath,
-  JSON.stringify(ChannelLineup, null, 2)
-);
+  const channelLineupPath = path.join(
+    __dirname,
+    "..",
+    "..",
+    "public",
+    "channel-lineup.json"
+  );
+  fs.writeFileSync(
+    channelLineupPath,
+    JSON.stringify(ChannelLineup, null, 2)
+  );
+})();
