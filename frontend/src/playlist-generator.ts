@@ -131,7 +131,7 @@ Vue.component("playlist-generator", {
       reader.readAsText(file);
     },
 
-    processM3UFile(content: string): Promise<string> {
+    async processM3UFile(content: string): Promise<string> {  // Marked as async
       const lines = content.split(/\r?\n/);
     
       const serviceChannels: ServiceChannel[] = await fetch(`/${this.selectedService}.json`).then(res => res.json());
@@ -199,7 +199,7 @@ Vue.component("playlist-generator", {
         outputLines.push(channel.metadata, channel.extgrp, channel.url, '');
       });
     
-      return outputLines.join('\n');
+      return Promise.resolve(outputLines.join('\n'));
     },
     
     downloadFile() {
