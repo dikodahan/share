@@ -81,7 +81,7 @@ Vue.component("playlist-generator", {
 
   computed: {
     nonDikoPlusServices() {
-      return this.comparisonServices.filter(service => !service.DikoPlus);
+      return this.comparisonServices.filter(service => service.DikoPlus == "📄");
     },
   },
 
