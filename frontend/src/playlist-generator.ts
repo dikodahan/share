@@ -107,27 +107,54 @@ Vue.component("playlist-generator", {
       reader.readAsText(file);
     },
 
-    processM3UFile(content: string): string {
-        const lines = content.split(/\r?\n/);
-        let shouldModify = false;
-  
-        const modifiedLines = lines.map(line => {
-          if (line.startsWith('#EXTGRP:1. Israel')) {
-            shouldModify = true;
-            return line;
-          } else if (line.startsWith('#EXTGRP:') || line.startsWith('#EXTINF:')) {
-            shouldModify = false;
+    async processM3UFile(content: string): Promise<string> {
+      const lines = content.split(/\r?\n/);
+      const serviceChannels = await fetch(`/${this.selectedService}.json`).then(res => res.json());
+      const channelLineup = await fetch('/channel-lineup.json').then(res => res.json());
+    
+      return lines.map(line => {
+        // 1. Replace the line that starts with "#EXTM3U"
+        if (line.startsWith('#EXTM3U')) {
+          return '#EXTM3U url-tvg="https://github.com/dikodahan/share02/raw/main/src/DikoPlusEPG.xml.gz"';
+        }
+    
+        // 2, 3, 4, 5. Match channels and replace tvg-id and tvg-logo
+        if (line.startsWith('#EXTINF:')) {
+          const tvgIdMatch = line.match(/tvg-id="([^"]+)"/);
+          if (tvgIdMatch) {
+            const originalTvgId = tvgIdMatch[1];
+            const serviceChannel = serviceChannels.find(c => c.channelId === originalTvgId);
+            if (serviceChannel) {
+              const lineupChannel = channelLineup[serviceChannel.channelName];
+              if (lineupChannel) {
+                line = line.replace(`tvg-id="${originalTvgId}"`, `tvg-id="${lineupChannel.tvgId}"`)
+                           .replace(/tvg-logo="[^"]+"/, `tvg-logo="${lineupChannel.tvgLogo}"`);
+              }
+            }
           }
-  
-          if (shouldModify) {
-            return line.replace(/3/g, '8');
-          } else {
-            return line;
+        }
+    
+        // 6. Remove tvg-group
+        line = line.replace(/tvg-group="[^"]+"/, '');
+    
+        // 7, 8. Replace channel name and EXTGRP
+        if (line.startsWith('#EXTGRP:')) {
+          const channelNameMatch = line.match(/#EXTGRP:(.+)/);
+          if (channelNameMatch) {
+            const originalGroupName = channelNameMatch[1];
+            const lineupChannel = Object.values(channelLineup).find(c => c.extGrp === originalGroupName);
+            if (lineupChannel) {
+              line = `#EXTGRP:${lineupChannel.extGrp}`;
+            }
           }
-        });
-  
-        return modifiedLines.join('\n');
-      },
+        }
+    
+        // 9. Leave the actual URL intact
+        // 10. Do not remove any other metadata
+        return line;
+      }).join('\n');
+    },
+    
 
     downloadFile() {
       if (!this.modifiedFile) {

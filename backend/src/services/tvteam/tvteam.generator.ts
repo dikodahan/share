@@ -17,12 +17,12 @@ export function* tvTeamGenerator(
     yield line;
   }
 
-  for (const { channelName, channelId, timeShift } of TvTeam) {
+  for (const { channelName } of TvTeam) {
     const { extGrp, tvgId, tvgLogo } =
       channelLineup[channelName as keyof typeof channelLineup];
     yield "";
-    yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" timeshift="${timeShift}",${channelName}`;
+    yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
     yield `#EXTGRP:${extGrp}`;
-    yield `${BASE_URL}:34000/${channelId}/mono.m3u8?token=${token}`;
+    yield `${BASE_URL}:34000/tvTeamId/mono.m3u8?token=${token}`;
   }
 }
