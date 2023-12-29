@@ -152,7 +152,6 @@ Vue.component("playlist-generator", {
     },
   
     formatDate(dateString: string) {
-      // Format the date in Hebrew
       const dateOptions: Intl.DateTimeFormatOptions = {
         year: 'numeric',
         month: 'long',
@@ -160,7 +159,6 @@ Vue.component("playlist-generator", {
       };
       const formattedDate = new Date(dateString).toLocaleDateString('he-IL', dateOptions);
     
-      // Format the time in English with AM/PM
       const timeOptions: Intl.DateTimeFormatOptions = {
         hour: 'numeric',
         minute: '2-digit',

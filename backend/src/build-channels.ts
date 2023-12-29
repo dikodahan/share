@@ -13,7 +13,6 @@ export interface ChannelInfo {
 type ChannelStats = { [key: string]: ChannelInfo[] };
 
 const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem", "sansat"];
-// const generics = ["SanSat"];
 const channels: ChannelStats = {};
 
 names.forEach((name) => {
@@ -91,31 +90,6 @@ names.forEach((name) => {
     console.log(`Copied '${name}.json' to public folder`);
   }
 });
-
-// generics.forEach((generic) => {
-//   const file = path.join(
-//     __dirname,
-//     "..",
-//     "backend",
-//     "services",
-//     generic,
-//     `${generic}.json`
-//   );
-//   console.log(`reading '${file}'`);
-//   const data = fs.readFileSync(file, "utf8");
-//   const records = JSON.parse(data) as ChannelInfo[];
-//   channels[generic] = records;
-// 
-//   const publicFolder = path.join(
-//     __dirname,
-//     "..",
-//     "..",
-//     "public",
-//     `${generic}.json`
-//   );
-//   fs.copyFileSync(file, publicFolder);
-//   console.log(`Copied '${generic}.json' to public folder`);
-// });
 
 const getGitHubFileLastCommitDate = (service: string): Promise<string> => {
   return new Promise((resolve, reject) => {
