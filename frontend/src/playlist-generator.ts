@@ -47,7 +47,7 @@ Vue.component("playlist-generator", {
           </option>
         </select>
       </p>
-      <p  class="hebp" v-if="selectedServiceUpdated" style="color: green; font-weight: bold;">תאריך עדכון אחרון: {{ selectedServiceUpdated }}</p>
+      <p  class="hebp" v-if="selectedServiceUpdated" style="color: #32CD32; font-weight: bold;">תאריך עדכון אחרון: {{ selectedServiceUpdated }}</p>
       <br>
       <p class="hebp" v-if="selectedService">שלב ב׳: בחרו אם ברצונכם לוגואים ללא רקע, או על גבי רקע מושחר:
         <select v-model="mode" class="service-dropdown" style="padding-left: 20px;">
