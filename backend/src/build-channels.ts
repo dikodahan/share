@@ -136,6 +136,8 @@ const updateServices = async () => {
   );
 }
 
+updateServices();
+
 const channelLineupPath = path.join(
   __dirname,
   "..",
