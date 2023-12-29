@@ -152,20 +152,24 @@ Vue.component("playlist-generator", {
     },
   
     formatDate(dateString: string) {
-      const options: Intl.DateTimeFormatOptions = {
+      // Format the date in Hebrew
+      const dateOptions: Intl.DateTimeFormatOptions = {
         year: 'numeric',
         month: 'long',
         day: 'numeric',
-        hour: 'numeric', // changed from '2-digit' to 'numeric' for hour
-        minute: '2-digit',
-        hour12: true,    // Ensure AM/PM is used
-        timeZoneName: 'short' // This can add the timezone abbreviation, optional
       };
-      const formattedDate = new Date(dateString).toLocaleString('en-US', options);
+      const formattedDate = new Date(dateString).toLocaleDateString('he-IL', dateOptions);
     
-      // Replace 'AM'/'PM' as per your preference
-      return formattedDate.replace('AM', 'am').replace('PM', 'pm');
-    },
+      // Format the time in English with AM/PM
+      const timeOptions: Intl.DateTimeFormatOptions = {
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true,
+      };
+      const formattedTime = new Date(dateString).toLocaleTimeString('en-US', timeOptions).toUpperCase();
+    
+      return `${formattedDate} בשעה ${formattedTime}`;
+    },    
 
     async processM3UFile(content: string): Promise<string> {
       const lines = content.split(/\r?\n/);
