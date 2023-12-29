@@ -101,6 +101,9 @@ const getGitHubFileLastModifiedDate = (service: string): Promise<string> => {
     };
 
     https.get(options, res => {
+      console.log(`Status Code: ${res.statusCode}`);
+      console.log(`Headers: ${JSON.stringify(res.headers)}`);
+
       const lastModified = res.headers['last-modified'];
       if (lastModified) {
         resolve(lastModified);
