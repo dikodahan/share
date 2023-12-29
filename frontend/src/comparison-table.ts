@@ -16,7 +16,7 @@ Vue.component("comparison-table", {
                 <thead class="title-case">
                     <tr>
                         <th>פרמטרים</th>
-                        <th v-for="service in allServiceNames">{{ service }}</th>
+                        <th v-for="serviceName in serviceNames">{{ serviceName }}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -40,7 +40,6 @@ Vue.component("comparison-table", {
     `,
   data() {
     return {
-      allServiceNames: [] as string[], // New property for all service names
       comparison: [] as ComparisonService[],
       parameters: [] as (keyof ComparisonService)[],
     };
@@ -50,10 +49,6 @@ Vue.component("comparison-table", {
       res.json()
     )) as ComparisonService[];
 
-    // Populate allServiceNames with names from all services
-    this.allServiceNames = comparison.map(service => service.name);
-
-    // Filter for services with display: true
     this.comparison = comparison.filter(service => service.display);
 
     this.parameters = Array.from(
@@ -64,6 +59,7 @@ Vue.component("comparison-table", {
   },
   computed: {
     serviceNames() {
+      // Only include names of services where display is true
       return this.comparison.map((c) => c.name);
     },
     starParams() {
