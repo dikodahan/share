@@ -4,6 +4,7 @@ const NON_AUTO_DISPLAY_PARAMS: Set<keyof ComparisonService> = new Set([
   "name",
   "service",
   "updated",
+  "display",
   ...STAR_PARAMS,
 ]);
 
