@@ -46,6 +46,7 @@ Vue.component("playlist-generator", {
         </option>
       </select>
     </p>
+    <p v-if="selectedServiceUpdated">תאריך עדכון אחרון: {{ selectedServiceUpdated }}</p>
     <br>
     <p class="hebp" v-if="selectedService">שלב ב׳: בחרו אם ברצונכם לוגואים ללא רקע, או על גבי רקע מושחר:
       <select v-model="mode" class="service-dropdown" style="padding-left: 20px;">
@@ -76,6 +77,7 @@ Vue.component("playlist-generator", {
       comparisonServices: [] as ComparisonService[],
       selectedService: '' as string,
       mode: 'light',
+      selectedServiceUpdated: '',
     };
   },
 
@@ -129,6 +131,20 @@ Vue.component("playlist-generator", {
         this.errorMessage = 'שגיאה בקריאת הקובץ.';
       };
       reader.readAsText(file);
+    },
+
+    updateServiceDate() {
+      const selectedServiceData = this.comparisonServices.find(service => service.service === this.selectedService);
+      if (selectedServiceData && selectedServiceData.updated) {
+        this.selectedServiceUpdated = this.formatDate(selectedServiceData.updated);
+      } else {
+        this.selectedServiceUpdated = '';
+      }
+    },
+  
+    formatDate(dateString) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric', hour: '12', minute: '2-digit' };
+      return new Date(dateString).toLocaleDateString('he-IL', options);
     },
 
     async processM3UFile(content: string): Promise<string> {
