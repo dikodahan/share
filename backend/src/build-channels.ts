@@ -128,8 +128,8 @@ const getGitHubFileLastCommitDate = (service: string): Promise<string> => {
 const updateServices = async () => {
   for (const service of ComparisonServices) {
     try {
-      const lastModifiedDate = await getGitHubFileLastModifiedDate(service.service);
-      service.updated = lastModifiedDate;
+      const lastCommitDate = await getGitHubFileLastCommitDate(service.service);
+      service.updated = lastCommitDate;
     } catch (error) {
       console.error(`Error updating service ${service.name}:`, error);
     }
@@ -146,17 +146,6 @@ const updateServices = async () => {
     comparisonServicesPath,
     JSON.stringify(ComparisonServices, null, 2)
   );
-}
-
-const updateServices = async () => {
-  for (const service of ComparisonServices) {
-    try {
-      const lastCommitDate = await getGitHubFileLastCommitDate(service.service);
-      service.updated = lastCommitDate;
-    } catch (error) {
-      console.error(`Error updating service ${service.name}:`, error);
-    }
-  }
 }
 
 const channelLineupPath = path.join(
