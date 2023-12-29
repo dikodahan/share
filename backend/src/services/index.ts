@@ -12,7 +12,7 @@ import { testGenerator } from "./test/test.generator";
 import { crystalGenerator } from "./crystal/crystal.generator";
 import { crystalDmGenerator } from "./crystaldm/crystaldm.generator";
 import { freeGenerator } from "./free/free.generator";
-import { sanSatGenerator } from "./SanSat/SanSat.generator";
+import { sanSatGenerator } from "./sansat/sansat.generator";
 
 
 type M3uGenerator = (username: string, password: string) => Generator<string, void, unknown>;
