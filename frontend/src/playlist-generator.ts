@@ -4,6 +4,7 @@ interface ComparisonService {
   service: string;
   name?: string;
   DikoPlus: string;
+  updated?: string;
 }
 
 interface ChannelStats {
@@ -150,8 +151,14 @@ Vue.component("playlist-generator", {
       }
     },
   
-    formatDate(dateString) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric', hour: '12', minute: '2-digit' };
+    formatDate(dateString: string) {
+      const options: Intl.DateTimeFormatOptions = {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      };
       return new Date(dateString).toLocaleDateString('he-IL', options);
     },
 
