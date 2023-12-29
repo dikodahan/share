@@ -39,7 +39,7 @@ Vue.component("playlist-generator", {
     <p class="hebp">שימו לב לתאריך העדכון האחרון של הספק הנבחר כדי לבדוק אם אתם צריכים לייצר קובץ מעודכן עבור השירות שלכם. אין אפשרות לעדכון אוטומטי בשירותים שמוגדרים כאן, ולכן עדכון ידני יצטרך להתבצע על ידיכם.</p>
     <br><br>
     <p class="hebp">שלב א׳: בחרו את הספק עבורו אם רוצים לייצר קובץ מעודכן:
-      <select v-model="selectedService" class="service-dropdown" style="padding-left: 20px;" @change="updateServiceDate">
+      <select v-model="selectedService" class="service-dropdown" style="padding-left: 20px;">
         <option disabled value="">בחר שירות...</option>
         <option v-for="service in nonDikoPlusServices" :value="service.service">
           {{ service.name }}
@@ -96,6 +96,14 @@ Vue.component("playlist-generator", {
     this.services = services;
     this.comparisonServices = comparisonServices;
     this.channelLineup = channelLineup;
+  },
+
+  watch: {
+    selectedService(newVal, oldVal) {
+      if (newVal !== oldVal) {
+        this.updateServiceDate();
+      }
+    }
   },
 
   methods: {
