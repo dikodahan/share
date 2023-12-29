@@ -35,37 +35,37 @@ interface Channel {
 Vue.component("playlist-generator", {
   template: `
     <div class="fixTableHead" style="padding-left: 20px; padding-right: 20px;">
-    <h1 class="hebh1"><u>עריכת קובץ פלייליסט ידני לשירות DikoPlus</u></h1>
-    <p class="hebp">בעזרת התהליך הזה תוכלו להעלות את קובץ הפלייליסט שלכם עבור שירותים שלא תומכים בשירות DikoPlus כדי לייצר קובץ פלייליסט מעודכן שיאפשר תמיכה מלאה בכל שירותי השירות, למעט עדכון אוטומטי של הרשימה. חשוב לציין שאתם חייבים לספק קובץ מקור מהספק! המערכת אינה תומכת בקבצים שעברו שינוי מהמקור.</p>
-    <p class="hebp">שימו לב לתאריך העדכון האחרון של הספק הנבחר כדי לבדוק אם אתם צריכים לייצר קובץ מעודכן עבור השירות שלכם. אין אפשרות לעדכון אוטומטי בשירותים שמוגדרים כאן, ולכן עדכון ידני יצטרך להתבצע על ידיכם.</p>
-    <br><br>
-    <p class="hebp">שלב א׳: בחרו את הספק עבורו אם רוצים לייצר קובץ מעודכן:
-      <select v-model="selectedService" class="service-dropdown" style="padding-left: 20px;">
-        <option disabled value="">בחר שירות...</option>
-        <option v-for="service in nonDikoPlusServices" :value="service.service">
-          {{ service.name }}
-        </option>
-      </select>
-    </p>
-    <p v-if="selectedServiceUpdated">תאריך עדכון אחרון: {{ selectedServiceUpdated }}</p>
-    <br>
-    <p class="hebp" v-if="selectedService">שלב ב׳: בחרו אם ברצונכם לוגואים ללא רקע, או על גבי רקע מושחר:
-      <select v-model="mode" class="service-dropdown" style="padding-left: 20px;">
-        <option value="light">ללא רקע</option>
-        <option value="dark">על רקע מושחר</option>
-      </select>
-    </p>
-    <br>
-    <p class="hebp" v-if="selectedService">שלב ג׳: בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
-      <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" :disabled="!selectedService" style="display: none;"/>
-      <label for="fileInput" class="custom-file-upload" :class="{'disabled-label': !selectedService}">בחירת קובץ...</label>
-    </p>
-    <br>
-    <p class="hebp" v-if="selectedService">שלב ד׳: הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
-      <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
-    </p>
-    <p v-if="errorMessage">{{ errorMessage }}</p>
-  </div>
+      <h1 class="hebh1"><u>עריכת קובץ פלייליסט ידני לשירות DikoPlus</u></h1>
+      <p class="hebp">בעזרת התהליך הזה תוכלו להעלות את קובץ הפלייליסט שלכם עבור שירותים שלא תומכים בשירות DikoPlus כדי לייצר קובץ פלייליסט מעודכן שיאפשר תמיכה מלאה בכל שירותי השירות, למעט עדכון אוטומטי של הרשימה. חשוב לציין שאתם חייבים לספק קובץ מקור מהספק! המערכת אינה תומכת בקבצים שעברו שינוי מהמקור.</p>
+      <p class="hebp">שימו לב לתאריך העדכון האחרון של הספק הנבחר כדי לבדוק אם אתם צריכים לייצר קובץ מעודכן עבור השירות שלכם. אין אפשרות לעדכון אוטומטי בשירותים שמוגדרים כאן, ולכן עדכון ידני יצטרך להתבצע על ידיכם.</p>
+      <br><br>
+      <p class="hebp">שלב א׳: בחרו את הספק עבורו אם רוצים לייצר קובץ מעודכן:
+        <select v-model="selectedService" class="service-dropdown" style="padding-left: 20px;">
+          <option disabled value="">בחר שירות...</option>
+          <option v-for="service in nonDikoPlusServices" :value="service.service">
+            {{ service.name }}
+          </option>
+        </select>
+      </p>
+      <p  class="hebp" v-if="selectedServiceUpdated" style="color: green; font-weight: bold;">תאריך עדכון אחרון: {{ selectedServiceUpdated }}</p>
+      <br>
+      <p class="hebp" v-if="selectedService">שלב ב׳: בחרו אם ברצונכם לוגואים ללא רקע, או על גבי רקע מושחר:
+        <select v-model="mode" class="service-dropdown" style="padding-left: 20px;">
+          <option value="light">ללא רקע</option>
+          <option value="dark">על רקע מושחר</option>
+        </select>
+      </p>
+      <br>
+      <p class="hebp" v-if="selectedService">שלב ג׳: בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
+        <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" :disabled="!selectedService" style="display: none;"/>
+        <label for="fileInput" class="custom-file-upload" :class="{'disabled-label': !selectedService}">בחירת קובץ...</label>
+      </p>
+      <br>
+      <p class="hebp" v-if="selectedService">שלב ד׳: הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
+        <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
+      </p>
+      <p v-if="errorMessage">{{ errorMessage }}</p>
+    </div>
   `,
 
   data() {
@@ -124,11 +124,11 @@ Vue.component("playlist-generator", {
       this.fileExtension = file.name.endsWith('.m3u') ? '.m3u' : '.m3u8';
   
       const reader = new FileReader();
-      reader.onload = async (e: ProgressEvent<FileReader>) => {  // Marked as async
+      reader.onload = async (e: ProgressEvent<FileReader>) => {
         const content = e.target?.result;
         if (typeof content === 'string') {
           try {
-            this.modifiedFile = await this.processM3UFile(content);  // Await the promise
+            this.modifiedFile = await this.processM3UFile(content);
             this.errorMessage = '';
           } catch (error) {
             this.errorMessage = 'שגיאה בעריכת הקובץ.';
@@ -157,7 +157,9 @@ Vue.component("playlist-generator", {
         month: 'long',
         day: 'numeric',
         hour: '2-digit',
-        minute: '2-digit'
+        minute: '2-digit',
+        hourCycle: 'h12',
+        hour12: true
       };
       return new Date(dateString).toLocaleDateString('he-IL', options);
     },
@@ -186,7 +188,6 @@ Vue.component("playlist-generator", {
               const lineupChannel = channelLineup[serviceChannel.channelName];
               const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
               
-              // Replace tvg-name or tvg-id with tvgId from lineupChannel
               const tvgIdReplacement = `tvg-id="${lineupChannel.tvgId}"`;
               if (tvgIdMatch) {
                 modifiedLine = modifiedLine.replace(`tvg-id="${channelId}"`, tvgIdReplacement);
