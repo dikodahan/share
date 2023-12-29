@@ -1,5 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
+import * as https from "https";
 import ComparisonServices from "./comparison-services.json";
 import ChannelLineup from "./services/channel-lineup.json";
 
@@ -90,17 +91,50 @@ names.forEach((name) => {
   }
 });
 
-const comparisonServicesPath = path.join(
-  __dirname,
-  "..",
-  "..",
-  "public",
-  "comparison-services.json"
-);
-fs.writeFileSync(
-  comparisonServicesPath,
-  JSON.stringify(ComparisonServices, null, 2)
-);
+const getGitHubFileLastModifiedDate = (service: string): Promise<string> => {
+  return new Promise((resolve, reject) => {
+    const options = {
+      method: "HEAD",
+      host: "api.github.com",
+      path: `/repos/dikodahan/share/contents/backend/src/services/${service}/${service}.json`,
+      headers: { 'User-Agent': 'Node.js' }
+    };
+
+    https.get(options, res => {
+      const lastModified = res.headers['last-modified'];
+      if (lastModified) {
+        resolve(lastModified);
+      } else {
+        reject("Last modified date not found");
+      }
+    }).on("error", e => {
+      reject(e);
+    });
+  });
+};
+
+const updateServices = async () => {
+  for (const service of ComparisonServices) {
+    try {
+      const lastModifiedDate = await getGitHubFileLastModifiedDate(service.service);
+      service.updated = lastModifiedDate;
+    } catch (error) {
+      console.error(`Error updating service ${service.name}:`, error);
+    }
+  }
+
+  const comparisonServicesPath = path.join(
+    __dirname,
+    "..",
+    "..",
+    "public",
+    "comparison-services.json"
+  );
+  fs.writeFileSync(
+    comparisonServicesPath,
+    JSON.stringify(ComparisonServices, null, 2)
+  );
+}
 
 const channelLineupPath = path.join(
   __dirname,
