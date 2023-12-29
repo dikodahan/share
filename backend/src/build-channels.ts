@@ -91,25 +91,34 @@ names.forEach((name) => {
   }
 });
 
-const getGitHubFileLastModifiedDate = (service: string): Promise<string> => {
+const getGitHubFileLastCommitDate = (service: string): Promise<string> => {
   return new Promise((resolve, reject) => {
     const options = {
-      method: "HEAD",
+      method: "GET",
       host: "api.github.com",
-      path: `/repos/dikodahan/share/contents/backend/src/services/${service}/${service}.json`,
+      path: `/repos/dikodahan/share/commits?path=backend/src/services/${service}/${service}.json`,
       headers: { 'User-Agent': 'Node.js' }
     };
 
-    https.get(options, res => {
-      console.log(`Status Code: ${res.statusCode}`);
-      console.log(`Headers: ${JSON.stringify(res.headers)}`);
+    let data = '';
 
-      const lastModified = res.headers['last-modified'];
-      if (lastModified) {
-        resolve(lastModified);
-      } else {
-        reject("Last modified date not found");
-      }
+    https.get(options, res => {
+      res.on('data', chunk => {
+        data += chunk;
+      });
+
+      res.on('end', () => {
+        try {
+          const commits = JSON.parse(data);
+          if (commits.length > 0 && commits[0].commit && commits[0].commit.committer) {
+            resolve(commits[0].commit.committer.date);
+          } else {
+            reject("No commits found for this file");
+          }
+        } catch (error) {
+          reject("Error parsing response: " + error);
+        }
+      });
     }).on("error", e => {
       reject(e);
     });
@@ -139,7 +148,16 @@ const updateServices = async () => {
   );
 }
 
-updateServices();
+const updateServices = async () => {
+  for (const service of ComparisonServices) {
+    try {
+      const lastCommitDate = await getGitHubFileLastCommitDate(service.service);
+      service.updated = lastCommitDate;
+    } catch (error) {
+      console.error(`Error updating service ${service.name}:`, error);
+    }
+  }
+}
 
 const channelLineupPath = path.join(
   __dirname,
