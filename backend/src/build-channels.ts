@@ -148,6 +148,12 @@ const updateServices = async () => {
   );
 }
 
+updateServices().then(() => {
+  console.log('Services updated successfully.');
+}).catch(error => {
+  console.error('Failed to update services:', error);
+});
+
 const channelLineupPath = path.join(
   __dirname,
   "..",
