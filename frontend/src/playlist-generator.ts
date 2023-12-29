@@ -3,7 +3,7 @@ export {};
 interface ComparisonService {
   service: string;
   name?: string;
-  DikoPlus: boolean; // Added field
+  DikoPlus: string;
 }
 
 interface ChannelStats {
