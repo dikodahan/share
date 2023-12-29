@@ -156,12 +156,15 @@ Vue.component("playlist-generator", {
         year: 'numeric',
         month: 'long',
         day: 'numeric',
-        hour: '2-digit',
+        hour: 'numeric', // changed from '2-digit' to 'numeric' for hour
         minute: '2-digit',
-        hourCycle: 'h12',
-        hour12: true
+        hour12: true,    // Ensure AM/PM is used
+        timeZoneName: 'short' // This can add the timezone abbreviation, optional
       };
-      return new Date(dateString).toLocaleDateString('he-IL', options);
+      const formattedDate = new Date(dateString).toLocaleString('en-US', options);
+    
+      // Replace 'AM'/'PM' as per your preference
+      return formattedDate.replace('AM', 'am').replace('PM', 'pm');
     },
 
     async processM3UFile(content: string): Promise<string> {
