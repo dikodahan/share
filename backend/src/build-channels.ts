@@ -13,7 +13,7 @@ export interface ChannelInfo {
 type ChannelStats = { [key: string]: ChannelInfo[] };
 
 const names = ["livego", "antifriz", "tvteam", "crystal", "dino", "edem"];
-const generic = ["SanSat"];
+const generics = ["SanSat"];
 const channels: ChannelStats = {};
 
 names.forEach((name) => {
