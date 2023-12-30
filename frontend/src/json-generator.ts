@@ -28,9 +28,13 @@ Vue.component("json-generator", {
       <br>
       <br>
       <p class="hebp">בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
-        <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" style="display: none;"/>
-        <label for="fileInput" class="custom-file-upload">בחירת קובץ...</label>
-      </p>
+            <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" style="display: none;"/>
+            <label for="fileInput" class="custom-file-upload">בחירת קובץ...</label>
+        </p>
+        <br>
+        <div v-if="uploadProgress > 0 && uploadProgress < 100">
+            <progress value="{{ uploadProgress }}" max="100"></progress> {{ uploadProgress }}%
+        </div>
       <br>
       <table>
         <tr>
@@ -75,6 +79,7 @@ Vue.component("json-generator", {
         channels: [] as Channel[],
         channelLineupOptions: [] as { label: string; value: LineupChannel }[],
         originalContent: '' as string,
+        uploadProgress: 0,
     };
   },
 
@@ -108,8 +113,22 @@ Vue.component("json-generator", {
         }
     
         this.fileExtension = file.name.endsWith('.m3u') ? '.m3u' : '.m3u8';
+        this.uploadProgress = 0; // Reset progress
     
         const reader = new FileReader();
+        
+        // Monitor progress
+        reader.onprogress = (event) => {
+            if (event.lengthComputable) {
+                const percentLoaded = Math.round((event.loaded / event.total) * 100);
+                this.uploadProgress = percentLoaded;
+            }
+        };
+    
+        reader.onloadstart = () => {
+            this.uploadProgress = 0;
+        };
+    
         reader.onload = async (e: ProgressEvent<FileReader>) => {
             const content = e.target?.result;
             if (typeof content === 'string') {
@@ -118,17 +137,22 @@ Vue.component("json-generator", {
                     this.channels = await this.processM3UFile(content);
                     this.errorMessage = '';
                     this.modifiedFile = content; // Initially set modifiedFile to the original content
+                    this.uploadProgress = 100; // Mark as complete
                 } catch (error) {
                     this.errorMessage = 'שגיאה בעריכת הקובץ.';
                     console.error(error);
+                    this.uploadProgress = 0; // Reset progress on error
                 }
             }
         };
+    
         reader.onerror = () => {
             this.errorMessage = 'שגיאה בקריאת הקובץ.';
+            this.uploadProgress = 0; // Reset progress on error
         };
+    
         reader.readAsText(file);
-    },  
+    },      
 
     async processM3UFile(content: string): Promise<Channel[]> {
         const lines = content.split('\n');
