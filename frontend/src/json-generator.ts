@@ -33,7 +33,7 @@ Vue.component("json-generator", {
         </p>
         <br>
         <div v-if="uploadProgress > 0 && uploadProgress < 100">
-            <progress value="{{ uploadProgress }}" max="100"></progress> {{ uploadProgress }}%
+            <progress :value="uploadProgress" max="100"></progress> {{ uploadProgress }}%
         </div>
       <br>
       <table>
