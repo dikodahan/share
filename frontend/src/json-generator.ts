@@ -17,7 +17,7 @@ interface Channel {
 }
 
 
-Vue.component("playlist-generator", {
+Vue.component("json-generator", {
   template: `
     <div class="fixTableHead" style="padding-left: 20px; padding-right: 20px;">
       <h1 class="hebh1"><u>יצירת קובץ שירות עבור ספק חדש</u></h1>
