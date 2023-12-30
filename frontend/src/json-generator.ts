@@ -1,3 +1,9 @@
+import Vue from 'vue';
+import VueSelect from 'vue-select';
+
+Vue.component('v-select', VueSelect);
+
+
 export {};
 
 interface LineupChannel {
@@ -15,7 +21,6 @@ interface Channel {
     logo?: string | null;
     selectedMapping?: LineupChannel;
 }
-
 
 Vue.component("json-generator", {
   template: `
@@ -38,13 +43,14 @@ Vue.component("json-generator", {
             <td><img :src="channel.logo" alt="Channel Logo"/></td>
             <td>{{ channel.name }}</td>
             <td>
-            <!-- Standard HTML Dropdown for mapping -->
-            <select v-model="channel.selectedMapping" class="service-dropdown">
-                <option disabled value="">בחר ערוץ...</option>
-                <option v-for="lineupChannel in channelLineupOptions" :value="lineupChannel">
-                    {{ lineupChannel.name }}
-                </option>
-            </select>       
+            <!-- Vue Select Dropdown for mapping -->
+            <v-select 
+              v-model="channel.selectedMapping" 
+              :options="channelLineupOptions" 
+              label="name"
+              :reduce="channel => channel" 
+              placeholder="בחר ערוץ...">
+            </v-select>
             </td>
         </tr>
       </table>
@@ -62,13 +68,9 @@ Vue.component("json-generator", {
         errorMessage: '',
         channelLineup: {} as Record<string, any>,
         channels: [] as Channel[],
-        channelLineupOptions: [] as { label: string; value: LineupChannel }[],
+        channelLineupOptions: [] as LineupChannel[],
         originalContent: '' as string,
     };
-  },
-
-  computed: {
-    
   },
 
   async beforeMount() {
@@ -78,7 +80,7 @@ Vue.component("json-generator", {
       this.channelLineupOptions = this.getChannelLineupOptions();
     } catch (error) {
       console.error('Error fetching channel lineup:', error);
-      // Handle error appropriately
+      this.errorMessage = 'שגיאה בטעינת ערוצים.';
     }
   },
 
@@ -137,8 +139,8 @@ Vue.component("json-generator", {
     getChannelLineupOptions() {
         return Object.entries(this.channelLineup).map(([name, details]) => {
             return {
-                name: name, // Channel name as key
-                ...details // Spread the rest of the details
+                name: name,
+                ...details
             };
         });
     },
