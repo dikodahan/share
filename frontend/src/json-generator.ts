@@ -24,15 +24,15 @@ Vue.component("json-generator", {
       <br>
       <br>
       <p class="hebp">בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
-        <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" :disabled="!selectedService" style="display: none;"/>
-        <label for="fileInput" class="custom-file-upload" :class="{'disabled-label': !selectedService}">בחירת קובץ...</label>
+        <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" style="display: none;"/>
+        <label for="fileInput" class="custom-file-upload">בחירת קובץ...</label>
       </p>
       <br>
       <table>
         <tr>
-            <th>Logo</th>
-            <th>Channel Name</th>
-            <th>Map to Channel</th>
+            <th>לוגו מקור</th>
+            <th>שם מקור</th>
+            <th>ערוץ בפועל</th>
         </tr>
         <tr v-for="channel in channels" :key="channel.name">
             <td><img :src="channel.logo" alt="Channel Logo"/></td>
