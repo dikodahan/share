@@ -23,11 +23,29 @@ interface Channel {
 
 Vue.component("json-generator", {
   template: `
-    <<div class="fixTableHead" style="padding-left: 20px; padding-right: 20px;">
+    <div class="fixTableHead" style="padding-left: 20px; padding-right: 20px;">
         <h1 class="hebh1"><u>יצירת קובץ שירות עבור ספק חדש</u></h1>
         <br>
-        <label class="hebp" for="providerInput">מה שם הספק (באנגלית) של הפלייליסט הזה?</label>
+        <p class="hebp">מה שם הספק (באנגלית) של הפלייליסט הזה?</p>
         <input class="input-left-align" type="text" id="providerInput" v-model="providerName" />
+        <br>
+
+        <p class="hebp">האם כל ערוצי ישראל מהספק מופיעים בתוך קבוצה אחת בפלייליסט?</p>
+        <input type="radio" id="yes" value="YES" v-model="isSingleGroup">
+        <label for="yes">כן</label>
+        <input type="radio" id="no" value="NO" v-model="isSingleGroup">
+        <label for="no">לא</label>
+        <br>
+
+        <div v-if="isSingleGroup === 'YES'">
+            <p class="hebp">אנא ספק את שם הקבוצה, בדיוק כפי שהיא מופיעה בנגן:</p>
+            <input class="input-left-align" type="text" v-model="groupName" />
+        </div>
+
+        <div v-if="isSingleGroup === 'NO'">
+            <p class="hebp">אנא ספק את הקידומת לכל ערוץ שמופיעה לכל ערוצי ישראל:</p>
+            <input class="input-left-align" type="text" v-model="channelPrefix" />
+        </div>
 
         <div v-if="providerName">
             <br>
@@ -84,6 +102,9 @@ Vue.component("json-generator", {
         originalContent: '' as string,
         uploadProgress: 0,
         providerName: '',
+        isSingleGroup: '',
+        groupName: '',
+        channelPrefix: '',
     };
   },
 
