@@ -36,21 +36,26 @@ Vue.component("json-generator", {
             <th>לוגו מקור</th>
             <th>שם מקור</th>
             <th>ערוץ בפועל</th>
+            <th>לוגו בפועל</th>
         </tr>
         <tr v-for="channel in channels" :key="channel.name">
             <td><img :src="channel.logo" alt="Channel Logo"/></td>
             <td>{{ channel.name }}</td>
             <td>
-            <!-- Standard HTML Dropdown for mapping -->
-            <select v-model="channel.selectedMapping" class="service-dropdown">
-                <option disabled value="">בחר ערוץ...</option>
-                <option v-for="lineupChannel in channelLineupOptions" :value="lineupChannel">
-                    {{ lineupChannel.name }}
-                </option>
-            </select>       
+                <!-- Standard HTML Dropdown for mapping -->
+                <select v-model="channel.selectedMapping" class="service-dropdown">
+                    <option disabled value="">בחר ערוץ...</option>
+                    <option v-for="lineupChannel in channelLineupOptions" :value="lineupChannel">
+                        {{ lineupChannel.name }}
+                    </option>
+                </select>       
+            </td>
+            <td>
+                <!-- Display logo from selectedMapping -->
+                <img v-if="channel.selectedMapping" :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
             </td>
         </tr>
-      </table>
+    </table>
       <p class="hebp">הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
         <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
       </p>

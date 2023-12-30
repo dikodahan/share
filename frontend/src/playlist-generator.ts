@@ -196,10 +196,8 @@ Vue.component("playlist-generator", {
       
             let modifiedLine = line;
             if (tvgIdMatch && tvgIdMatch[1]) {
-              // If tvg-id is present and non-empty, replace it with the value from channelLineup
               modifiedLine = line.replace(/tvg-id="[^"]+"/, `tvg-id="${lineupChannel.tvgId}"`);
             } else if (tvgNameMatch) {
-              // If tvg-id is empty or missing, replace tvg-name with the value from channelLineup
               modifiedLine = line.replace(/tvg-name="[^"]+"/, `tvg-name="${lineupChannel.tvgId}"`);
             }
       
@@ -220,7 +218,6 @@ Vue.component("playlist-generator", {
         }
       }      
     
-      // Add channels from the service JSON that were not in the playlist
       serviceChannels.forEach(serviceChannel => {
         if (!channels.some(channel => channel.name === serviceChannel.channelName)) {
           const lineupChannel = channelLineup[serviceChannel.channelName];
@@ -236,7 +233,6 @@ Vue.component("playlist-generator", {
         }
       });
     
-      // Sort channels based on the order in channelLineup
       channels.sort((a, b) => channelOrder.indexOf(a.name) - channelOrder.indexOf(b.name));
     
       let outputLines = ['#EXTM3U', ''];
