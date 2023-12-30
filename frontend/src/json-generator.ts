@@ -122,6 +122,7 @@ Vue.component("json-generator", {
             if (event.lengthComputable) {
                 const percentLoaded = Math.round((event.loaded / event.total) * 100);
                 this.uploadProgress = percentLoaded;
+                console.log('Upload Progress:', this.uploadProgress); // Debugging line
             }
         };
     
