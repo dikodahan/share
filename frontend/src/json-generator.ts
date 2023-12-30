@@ -12,8 +12,8 @@ interface Channel {
     name: string;
     metadata: string;
     url: string;
-    logo?: string;
-    selectedMapping?: LineupChannel;
+    logo?: string | null;
+    selectedMapping?: Channel;
 }
 
 
