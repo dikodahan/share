@@ -189,7 +189,9 @@ Vue.component("playlist-generator", {
           let serviceChannel = serviceChannels.find(c => c.channelId === channelId);
           if (!serviceChannel && channelId) {
             // If not found by tvg-id, try to match by tvg-name
-            serviceChannel = serviceChannels.find(c => c.channelId === tvgNameMatch[1]);
+            if (tvgNameMatch) {
+              serviceChannel = serviceChannels.find(c => c.channelId === tvgNameMatch[1]);
+            }
           }
     
           if (serviceChannel && channelLineup[serviceChannel.channelName]) {
