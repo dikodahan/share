@@ -39,7 +39,7 @@ Vue.component("json-generator", {
             <td>{{ channel.name }}</td>
             <td>
             <!-- Standard HTML Dropdown for mapping -->
-            <select v-model="channel.selectedMapping" class="channel-dropdown">
+            <select v-model="channel.selectedMapping" class="service-dropdown">
                 <option disabled value="">בחר ערוץ...</option>
                 <option v-for="lineupChannel in channelLineupOptions" :value="lineupChannel">
                     {{ lineupChannel.name }}
