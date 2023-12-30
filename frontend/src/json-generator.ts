@@ -5,6 +5,7 @@ interface LineupChannel {
     tvgLogo: string;
     tvgLogoDm: string;
     extGrp: string;
+    epgLink: string;
     link: string;
     name?: string;
 }
@@ -52,7 +53,9 @@ Vue.component("json-generator", {
             </td>
             <td>
                 <!-- Display logo from selectedMapping -->
-                <img v-if="channel.selectedMapping" :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
+                <a v-if="channel.selectedMapping && channel.selectedMapping.epgLink" :href="channel.selectedMapping.epgLink" target="_blank">
+                    <img :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
+                </a>
             </td>
         </tr>
     </table>
