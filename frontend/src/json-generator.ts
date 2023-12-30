@@ -23,50 +23,53 @@ interface Channel {
 
 Vue.component("json-generator", {
   template: `
-    <div class="fixTableHead" style="padding-left: 20px; padding-right: 20px;">
-      <h1 class="hebh1"><u>יצירת קובץ שירות עבור ספק חדש</u></h1>
-      <br>
-      <br>
-      <p class="hebp">בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
-            <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" style="display: none;"/>
-            <label for="fileInput" class="custom-file-upload">בחירת קובץ...</label>
-        </p>
+    <<div class="fixTableHead" style="padding-left: 20px; padding-right: 20px;">
+        <h1 class="hebh1"><u>יצירת קובץ שירות עבור ספק חדש</u></h1>
         <br>
-        <div v-if="uploadProgress > 0 && uploadProgress < 100">
-            <progress :value="uploadProgress" max="100"></progress> {{ uploadProgress }}%
+        <label for="providerInput">מה שם הספק (באנגלית) של הפלייליסט הזה?</label>
+        <input type="text" id="providerInput" v-model="providerName" />
+
+        <div v-if="providerName">
+            <br>
+            <p class="hebp">בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
+                <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" style="display: none;"/>
+                <label for="fileInput" class="custom-file-upload">בחירת קובץ...</label>
+            </p>
         </div>
-      <br>
-      <table>
-        <tr>
-            <th>לוגו מקור</th>
-            <th>שם מקור</th>
-            <th>ערוץ בפועל</th>
-            <th>לוגו בפועל</th>
-        </tr>
-        <tr v-for="channel in channels" :key="channel.name">
-            <td><img :src="channel.logo" alt="Channel Logo"/></td>
-            <td>{{ channel.name }}</td>
-            <td>
-                <!-- Standard HTML Dropdown for mapping -->
-                <select v-model="channel.selectedMapping" class="service-dropdown">
-                    <option disabled value="">בחר ערוץ...</option>
-                    <option v-for="lineupChannel in channelLineupOptions" :value="lineupChannel">
-                        {{ lineupChannel.name }}
-                    </option>
-                </select>       
-            </td>
-            <td>
-                <!-- Display logo from selectedMapping -->
-                <a v-if="channel.selectedMapping && channel.selectedMapping.epgLink" :href="channel.selectedMapping.epgLink" target="_blank">
-                    <img :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
-                </a>
-            </td>
-        </tr>
-    </table>
-      <p class="hebp">הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
-        <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
-      </p>
-      <p v-if="errorMessage">{{ errorMessage }}</p>
+
+        <div v-if="channels.length > 0">
+        <table>
+            <tr>
+                <th>לוגו מקור</th>
+                <th>שם מקור</th>
+                <th>ערוץ בפועל</th>
+                <th>לוגו בפועל</th>
+            </tr>
+            <tr v-for="channel in channels" :key="channel.name">
+                <td><img :src="channel.logo" alt="Channel Logo"/></td>
+                <td>{{ channel.name }}</td>
+                <td>
+                    <!-- Standard HTML Dropdown for mapping -->
+                    <select v-model="channel.selectedMapping" class="service-dropdown">
+                        <option disabled value="">בחר ערוץ...</option>
+                        <option v-for="lineupChannel in channelLineupOptions" :value="lineupChannel">
+                            {{ lineupChannel.name }}
+                        </option>
+                    </select>       
+                </td>
+                <td>
+                    <!-- Display logo from selectedMapping -->
+                    <a v-if="channel.selectedMapping && channel.selectedMapping.epgLink" :href="channel.selectedMapping.epgLink" target="_blank">
+                        <img :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <p class="hebp">הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
+            <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
+        </p>
+        <p v-if="errorMessage">{{ errorMessage }}</p>
+        </div>
     </div>
   `,
 
@@ -80,6 +83,7 @@ Vue.component("json-generator", {
         channelLineupOptions: [] as { label: string; value: LineupChannel }[],
         originalContent: '' as string,
         uploadProgress: 0,
+        providerName: '',
     };
   },
 
