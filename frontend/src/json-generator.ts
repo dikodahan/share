@@ -26,29 +26,36 @@ Vue.component("json-generator", {
     <div class="fixTableHead" style="padding-left: 20px; padding-right: 20px;">
         <h1 class="hebh1"><u>יצירת קובץ שירות עבור ספק חדש</u></h1>
         <br>
-        <p class="hebp">מה שם הספק (באנגלית) של הפלייליסט הזה?</p>
-        <input class="input-left-align" type="text" id="providerInput" v-model="providerName" />
-        <br>
 
-        <p class="hebp">האם כל ערוצי ישראל מהספק מופיעים בתוך קבוצה אחת בפלייליסט?</p>
-        <input type="radio" id="yes" value="YES" v-model="isSingleGroup">
-        <label for="yes">כן</label>
-        <input type="radio" id="no" value="NO" v-model="isSingleGroup">
-        <label for="no">לא</label>
-        <br>
+        <!-- First Question -->
+        <p class="hebp">מה שם הספק (באנגלית) של הפלייליסט הזה?
+            <input class="input-left-align" type="text" id="providerInput" v-model="providerName" />
+        </p>
 
-        <div v-if="isSingleGroup === 'YES'">
-            <p class="hebp">אנא ספק את שם הקבוצה, בדיוק כפי שהיא מופיעה בנגן:</p>
-            <input class="input-left-align" type="text" v-model="groupName" />
-        </div>
-
-        <div v-if="isSingleGroup === 'NO'">
-            <p class="hebp">אנא ספק את הקידומת לכל ערוץ שמופיעה לכל ערוצי ישראל:</p>
-            <input class="input-left-align" type="text" v-model="channelPrefix" />
-        </div>
-
+        <!-- Second Question: Appears after answering the first question -->
         <div v-if="providerName">
-            <br>
+            <p class="hebp">האם כל ערוצי ישראל מהספק מופיעים בתוך קבוצה אחת בפלייליסט?
+                <input type="radio" id="yes" value="YES" v-model="isSingleGroup">
+                <label for="yes">כן</label>
+                <input type="radio" id="no" value="NO" v-model="isSingleGroup">
+                <label for="no">לא</label>
+            </p>
+        </div>
+
+        <!-- Third Question: Appears after answering the second question -->
+        <div v-if="isSingleGroup === 'YES'">
+            <p class="hebp">אנא ספק את שם הקבוצה, בדיוק כפי שהיא מופיעה בנגן:
+                <input class="input-left-align" type="text" v-model="groupName" />
+            </p>
+        </div>
+        <div v-if="isSingleGroup === 'NO'">
+            <p class="hebp">אנא ספק את הקידומת לכל ערוץ שמופיעה לכל ערוצי ישראל:
+                <input class="input-left-align" type="text" v-model="channelPrefix" />
+            </p>
+        </div>
+
+        <!-- File Picker: Appears after answering the third question -->
+        <div v-if="(isSingleGroup === 'YES' && groupName) || (isSingleGroup === 'NO' && channelPrefix)">
             <p class="hebp">בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
                 <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" style="display: none;"/>
                 <label for="fileInput" class="custom-file-upload">בחירת קובץ...</label>
