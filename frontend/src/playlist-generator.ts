@@ -176,56 +176,53 @@ Vue.component("playlist-generator", {
       const channelLineup: ChannelStats = await fetch('/channel-lineup.json').then(res => res.json());
     
       let channels: Channel[] = [];
-      let processedChannelNames = new Set<string>();
       let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
     
       for (const line of lines) {
         if (line.startsWith('#EXTINF:')) {
-          let modifiedLine = line.replace(/tvg-group="[^"]+"/, '');
-          const tvgIdMatch = modifiedLine.match(/tvg-id="([^"]+)"/);
-          const tvgNameMatch = modifiedLine.match(/tvg-name="([^"]+)"/);
+          // Extract tvg-id and tvg-name from the line
+          const tvgIdMatch = line.match(/tvg-id="([^"]+)"/);
+          const tvgNameMatch = line.match(/tvg-name="([^"]+)"/);
+          let channelId = tvgIdMatch && tvgIdMatch[1] ? tvgIdMatch[1] : (tvgNameMatch ? tvgNameMatch[1] : '');
     
-          let channelId = tvgIdMatch ? tvgIdMatch[1] : (tvgNameMatch ? tvgNameMatch[1] : '');
+          // Find the corresponding service channel
+          let serviceChannel = serviceChannels.find(c => c.channelId === channelId);
+          if (!serviceChannel && channelId) {
+            // If not found by tvg-id, try to match by tvg-name
+            serviceChannel = serviceChannels.find(c => c.channelId === tvgNameMatch[1]);
+          }
     
-          if (channelId) {
-            const serviceChannel = serviceChannels.find(c => c.channelId === channelId);
-            if (serviceChannel && channelLineup[serviceChannel.channelName]) {
-              const lineupChannel = channelLineup[serviceChannel.channelName];
-              const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
-              
-              const tvgIdReplacement = `tvg-id="${lineupChannel.tvgId}"`;
-              if (tvgIdMatch) {
-                modifiedLine = modifiedLine.replace(`tvg-id="${channelId}"`, tvgIdReplacement);
-              } else if (tvgNameMatch) {
-                modifiedLine = modifiedLine.replace(`tvg-name="${channelId}"`, tvgIdReplacement);
-              }
+          if (serviceChannel && channelLineup[serviceChannel.channelName]) {
+            const lineupChannel = channelLineup[serviceChannel.channelName];
+            const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
     
-              currentChannel = {
-                name: serviceChannel.channelName,
-                metadata: modifiedLine.replace(/tvg-logo="[^"]+"/, `tvg-logo="${logoUrl}"`)
-                                      .replace(/,.*$/, `,${serviceChannel.channelName}`),
-                url: '',
-                extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
-              };
-            }
+            currentChannel = {
+              name: serviceChannel.channelName,
+              metadata: line.replace(/tvg-logo="[^"]+"/, `tvg-logo="${logoUrl}"`)
+                            .replace(/,.*$/, `,${serviceChannel.channelName}`),
+              url: '',
+              extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
+            };
+          } else {
+            // Handle the case where no match is found
+            currentChannel = { name: '', metadata: '', url: '', extgrp: '' };
           }
         } else if (line.startsWith('http') && currentChannel.name) {
           currentChannel.url = line;
           channels.push(currentChannel);
-          processedChannelNames.add(currentChannel.name);
           currentChannel = { name: '', metadata: '', url: '', extgrp: '' };
         }
       }
     
+      // Add channels from the service JSON that were not in the playlist
       serviceChannels.forEach(serviceChannel => {
-        if ((serviceChannel.channelId === 'none' || serviceChannel.channelId.toString() === '1010') &&
-            !processedChannelNames.has(serviceChannel.channelName)) {
+        if (!channels.some(channel => channel.name === serviceChannel.channelName)) {
           const lineupChannel = channelLineup[serviceChannel.channelName];
           if (lineupChannel) {
             const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
             channels.push({
               name: serviceChannel.channelName,
-              metadata: `#EXTINF:0 tvg-id="${lineupChannel.tvgId}"  tvg-logo="${logoUrl}",${serviceChannel.channelName}`,
+              metadata: `#EXTINF:0 tvg-id="${lineupChannel.tvgId}" tvg-logo="${logoUrl}",${serviceChannel.channelName}`,
               url: lineupChannel.link,
               extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
             });
@@ -233,16 +230,14 @@ Vue.component("playlist-generator", {
         }
       });
     
-      const channelOrder = Object.keys(channelLineup);
-      channels.sort((a, b) => channelOrder.indexOf(a.name) - channelOrder.indexOf(b.name));
-    
-      let outputLines = ['#EXTM3U url-tvg="https://github.com/dikodahan/share02/raw/main/src/DikoPlusEPG.xml.gz"', ''];
+      // Sort and generate the updated playlist
+      let outputLines = ['#EXTM3U', ''];
       channels.forEach(channel => {
         outputLines.push(channel.metadata, channel.extgrp, channel.url, '');
       });
     
       return Promise.resolve(outputLines.join('\n'));
-    },
+    },    
     
     downloadFile() {
       if (!this.modifiedFile) {
