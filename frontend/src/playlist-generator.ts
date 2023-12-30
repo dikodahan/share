@@ -177,36 +177,37 @@ Vue.component("playlist-generator", {
     
       let channels: Channel[] = [];
       let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
+      let channelOrder = Object.keys(channelLineup); // Used for sorting channels
     
       for (const line of lines) {
         if (line.startsWith('#EXTINF:')) {
-          // Extract tvg-id and tvg-name from the line
           const tvgIdMatch = line.match(/tvg-id="([^"]+)"/);
           const tvgNameMatch = line.match(/tvg-name="([^"]+)"/);
           let channelId = tvgIdMatch && tvgIdMatch[1] ? tvgIdMatch[1] : (tvgNameMatch ? tvgNameMatch[1] : '');
     
-          // Find the corresponding service channel
           let serviceChannel = serviceChannels.find(c => c.channelId === channelId);
-          if (!serviceChannel && channelId) {
-            // If not found by tvg-id, try to match by tvg-name
-            if (tvgNameMatch) {
-              serviceChannel = serviceChannels.find(c => c.channelId === tvgNameMatch[1]);
-            }
+          if (!serviceChannel && tvgNameMatch) {
+            serviceChannel = serviceChannels.find(c => c.channelId === tvgNameMatch[1]);
           }
     
           if (serviceChannel && channelLineup[serviceChannel.channelName]) {
             const lineupChannel = channelLineup[serviceChannel.channelName];
             const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
     
+            let modifiedLine = line;
+            if (tvgIdMatch || tvgNameMatch) {
+              // Replace tvg-id or tvg-name with the value from channelLineup
+              modifiedLine = line.replace(tvgIdMatch ? /tvg-id="[^"]+"/ : /tvg-name="[^"]+"/, `tvg-id="${lineupChannel.tvgId}"`);
+            }
+    
             currentChannel = {
               name: serviceChannel.channelName,
-              metadata: line.replace(/tvg-logo="[^"]+"/, `tvg-logo="${logoUrl}"`)
-                            .replace(/,.*$/, `,${serviceChannel.channelName}`),
+              metadata: modifiedLine.replace(/tvg-logo="[^"]+"/, `tvg-logo="${logoUrl}"`)
+                                    .replace(/,.*$/, `,${serviceChannel.channelName}`),
               url: '',
               extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
             };
           } else {
-            // Handle the case where no match is found
             currentChannel = { name: '', metadata: '', url: '', extgrp: '' };
           }
         } else if (line.startsWith('http') && currentChannel.name) {
@@ -232,7 +233,9 @@ Vue.component("playlist-generator", {
         }
       });
     
-      // Sort and generate the updated playlist
+      // Sort channels based on the order in channelLineup
+      channels.sort((a, b) => channelOrder.indexOf(a.name) - channelOrder.indexOf(b.name));
+    
       let outputLines = ['#EXTM3U', ''];
       channels.forEach(channel => {
         outputLines.push(channel.metadata, channel.extgrp, channel.url, '');
