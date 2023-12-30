@@ -14,7 +14,6 @@ interface Channel {
     url: string;
     logo?: string;
     selectedMapping?: LineupChannel;
-    extgrp: string;
 }
 
 
