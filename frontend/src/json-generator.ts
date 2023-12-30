@@ -124,12 +124,16 @@ Vue.component("json-generator", {
         const channels = [];
         for (let i = 0; i < lines.length; i++) {
             if (lines[i].startsWith('#EXTINF:')) {
-            const metadata = lines[i];
-            const url = lines[++i]; // URL follows metadata line
-            const name = metadata.split(',')[1];
-            const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
-            const logo = logoMatch ? logoMatch[1] : null;
-            channels.push({ name, metadata, url, logo });
+                const metadata = lines[i];
+                const url = lines[++i]; // URL follows metadata line
+                const name = metadata.split(',')[1];
+                const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
+                const logo = logoMatch ? logoMatch[1] : null;
+                const tvgIdMatch = metadata.match(/tvg-id="([^"]+)"/i); // Case-insensitive match
+                const tvgId = tvgIdMatch ? tvgIdMatch[1] : '';
+                const tvgNameMatch = metadata.match(/tvg-name="([^"]+)"/i); // Case-insensitive match
+                const tvgName = tvgNameMatch ? tvgNameMatch[1] : '';
+                channels.push({ name, metadata, url, logo, tvgId, tvgName });
             }
         }
         return channels;
@@ -145,13 +149,15 @@ Vue.component("json-generator", {
     },
     
     updatePlaylistContent() {
-        let updatedContent = this.originalContent;
-        this.channels.forEach(channel => {
-          if (channel.selectedMapping) {
-            updatedContent = updatedContent.replace(channel.name, channel.selectedMapping.name);
-          }
+        const updatedChannels = this.channels.map(channel => {
+            const channelId = channel.tvgId || channel.tvgName; // Fallback to tvg-name if tvg-id is empty
+            return {
+                channelName: channel.selectedMapping ? channel.selectedMapping.name : channel.name,
+                channelId: channelId
+            };
         });
-        return updatedContent;
+    
+        return JSON.stringify(updatedChannels, null, 2); // Pretty print the JSON
     },
 
     downloadFile() {
@@ -160,13 +166,13 @@ Vue.component("json-generator", {
             this.errorMessage = 'אין קובץ מתוקן להורדה.';
             return;
         }
-
-        const blob = new Blob([this.modifiedFile], { type: 'text/plain' });
+    
+        const blob = new Blob([this.modifiedFile], { type: 'application/json' });
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
-        link.download = 'DikoPlus' + this.fileExtension;
+        link.download = 'DikoPlus.json'; // Change to .json extension
         link.click();
-
+    
         URL.revokeObjectURL(link.href);
         this.modifiedFile = null;
     },
