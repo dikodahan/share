@@ -103,9 +103,10 @@ Vue.component("json-generator", {
             const content = e.target?.result;
             if (typeof content === 'string') {
                 try {
-                    // Process the M3U file and update the channels data property
+                    this.originalContent = content; // Store the original content
                     this.channels = await this.processM3UFile(content);
                     this.errorMessage = '';
+                    this.modifiedFile = content; // Initially set modifiedFile to the original content
                 } catch (error) {
                     this.errorMessage = 'שגיאה בעריכת הקובץ.';
                     console.error(error);
@@ -116,7 +117,7 @@ Vue.component("json-generator", {
             this.errorMessage = 'שגיאה בקריאת הקובץ.';
         };
         reader.readAsText(file);
-    },    
+    },  
 
     async processM3UFile(content: string): Promise<Channel[]> {
         const lines = content.split('\n');
