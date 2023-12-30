@@ -6,6 +6,7 @@ interface LineupChannel {
     tvgLogoDm: string;
     extGrp: string;
     link: string;
+    name?: string;
 }
 
 interface Channel {
@@ -14,6 +15,8 @@ interface Channel {
     url: string;
     logo?: string | null;
     selectedMapping?: LineupChannel;
+    tvgId?: string;
+    tvgName?: string;
 }
 
 
@@ -152,7 +155,7 @@ Vue.component("json-generator", {
         const updatedChannels = this.channels.map(channel => {
             const channelId = channel.tvgId || channel.tvgName; // Fallback to tvg-name if tvg-id is empty
             return {
-                channelName: channel.selectedMapping ? channel.selectedMapping.name : channel.name,
+                channelName: channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name,
                 channelId: channelId
             };
         });
