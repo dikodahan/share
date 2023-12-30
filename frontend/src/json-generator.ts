@@ -26,8 +26,8 @@ Vue.component("json-generator", {
     <<div class="fixTableHead" style="padding-left: 20px; padding-right: 20px;">
         <h1 class="hebh1"><u>יצירת קובץ שירות עבור ספק חדש</u></h1>
         <br>
-        <label for="providerInput">מה שם הספק (באנגלית) של הפלייליסט הזה?</label>
-        <input type="text" id="providerInput" v-model="providerName" />
+        <label class="hebp" for="providerInput">מה שם הספק (באנגלית) של הפלייליסט הזה?</label>
+        <input class="input-left-align" type="text" id="providerInput" v-model="providerName" />
 
         <div v-if="providerName">
             <br>

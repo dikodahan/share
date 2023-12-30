@@ -117,3 +117,7 @@ a:active {
   border-radius: 4px;
   border: 1px solid #ddd;
 }
+
+.input-left-align {
+  text-align: left;
+}
