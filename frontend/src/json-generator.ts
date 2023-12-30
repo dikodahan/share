@@ -13,7 +13,7 @@ interface Channel {
     metadata: string;
     url: string;
     logo?: string | null;
-    selectedMapping?: Channel;
+    selectedMapping?: LineupChannel;
 }
 
 
@@ -38,8 +38,13 @@ Vue.component("json-generator", {
             <td><img :src="channel.logo" alt="Channel Logo"/></td>
             <td>{{ channel.name }}</td>
             <td>
-            <!-- Dropdown for mapping -->
-            <v-select :options="channelLineupOptions" v-model="channel.selectedMapping"></v-select>
+            <!-- Standard HTML Dropdown for mapping -->
+            <select v-model="channel.selectedMapping" class="channel-dropdown">
+                <option disabled value="">בחר ערוץ...</option>
+                <option v-for="lineupChannel in channelLineupOptions" :value="lineupChannel">
+                    {{ lineupChannel.name }}
+                </option>
+            </select>       
             </td>
         </tr>
       </table>
@@ -130,18 +135,18 @@ Vue.component("json-generator", {
     },
     
     getChannelLineupOptions() {
-        // Convert channelLineup to dropdown options
-        return Object.values(this.channelLineup).map(channel => ({
-          label: channel.name, // Assuming 'name' is a property in channelLineup
-          value: channel
-        }));
+        return Object.entries(this.channelLineup).map(([name, details]) => {
+            return {
+                name: name, // Channel name as key
+                ...details // Spread the rest of the details
+            };
+        });
     },
     
     updatePlaylistContent() {
         let updatedContent = this.originalContent;
         this.channels.forEach(channel => {
           if (channel.selectedMapping) {
-            // Replace channel name in the content
             updatedContent = updatedContent.replace(channel.name, channel.selectedMapping.name);
           }
         });
