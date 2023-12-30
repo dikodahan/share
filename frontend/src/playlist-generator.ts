@@ -194,11 +194,13 @@ Vue.component("playlist-generator", {
             const lineupChannel = channelLineup[serviceChannel.channelName];
             const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
       
-            let modifiedLine = line;
+            let modifiedLine = line.replace(/group-title="[^"]+"/, ''); // Remove group-title
             if (tvgIdMatch && tvgIdMatch[1]) {
-              modifiedLine = line.replace(/tvg-id="[^"]+"/, `tvg-id="${lineupChannel.tvgId}"`);
+              // Replace tvg-id with the value from channelLineup
+              modifiedLine = modifiedLine.replace(/tvg-id="[^"]+"/, `tvg-id="${lineupChannel.tvgId}"`);
             } else if (tvgNameMatch) {
-              modifiedLine = line.replace(/tvg-name="[^"]+"/, `tvg-name="${lineupChannel.tvgId}"`);
+              // Replace tvg-name with the value from channelLineup
+              modifiedLine = modifiedLine.replace(/tvg-name="[^"]+"/, `tvg-name="${lineupChannel.tvgId}"`);
             }
       
             currentChannel = {
@@ -216,7 +218,7 @@ Vue.component("playlist-generator", {
           channels.push(currentChannel);
           currentChannel = { name: '', metadata: '', url: '', extgrp: '' };
         }
-      }      
+      }            
     
       serviceChannels.forEach(serviceChannel => {
         if (!channels.some(channel => channel.name === serviceChannel.channelName)) {
