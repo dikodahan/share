@@ -184,22 +184,25 @@ Vue.component("playlist-generator", {
           const tvgIdMatch = line.match(/tvg-id="([^"]+)"/);
           const tvgNameMatch = line.match(/tvg-name="([^"]+)"/);
           let channelId = tvgIdMatch && tvgIdMatch[1] ? tvgIdMatch[1] : (tvgNameMatch ? tvgNameMatch[1] : '');
-    
+      
           let serviceChannel = serviceChannels.find(c => c.channelId === channelId);
           if (!serviceChannel && tvgNameMatch) {
             serviceChannel = serviceChannels.find(c => c.channelId === tvgNameMatch[1]);
           }
-    
+      
           if (serviceChannel && channelLineup[serviceChannel.channelName]) {
             const lineupChannel = channelLineup[serviceChannel.channelName];
             const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
-    
+      
             let modifiedLine = line;
-            if (tvgIdMatch || tvgNameMatch) {
-              // Replace tvg-id or tvg-name with the value from channelLineup
-              modifiedLine = line.replace(tvgIdMatch ? /tvg-id="[^"]+"/ : /tvg-name="[^"]+"/, `tvg-id="${lineupChannel.tvgId}"`);
+            if (tvgIdMatch && tvgIdMatch[1]) {
+              // If tvg-id is present and non-empty, replace it with the value from channelLineup
+              modifiedLine = line.replace(/tvg-id="[^"]+"/, `tvg-id="${lineupChannel.tvgId}"`);
+            } else if (tvgNameMatch) {
+              // If tvg-id is empty or missing, replace tvg-name with the value from channelLineup
+              modifiedLine = line.replace(/tvg-name="[^"]+"/, `tvg-name="${lineupChannel.tvgId}"`);
             }
-    
+      
             currentChannel = {
               name: serviceChannel.channelName,
               metadata: modifiedLine.replace(/tvg-logo="[^"]+"/, `tvg-logo="${logoUrl}"`)
@@ -215,7 +218,7 @@ Vue.component("playlist-generator", {
           channels.push(currentChannel);
           currentChannel = { name: '', metadata: '', url: '', extgrp: '' };
         }
-      }
+      }      
     
       // Add channels from the service JSON that were not in the playlist
       serviceChannels.forEach(serviceChannel => {
