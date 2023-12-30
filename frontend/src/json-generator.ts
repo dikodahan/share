@@ -1,18 +1,20 @@
 export {};
 
 interface LineupChannel {
-  tvgId: string;
-  tvgLogo: string;
-  tvgLogoDm: string;
-  extGrp: string;
-  link: string;
+    tvgId: string;
+    tvgLogo: string;
+    tvgLogoDm: string;
+    extGrp: string;
+    link: string;
 }
 
 interface Channel {
-  name: string;
-  metadata: string;
-  url: string;
-  extgrp: string;
+    name: string;
+    metadata: string;
+    url: string;
+    logo?: string;
+    selectedMapping?: LineupChannel;
+    extgrp: string;
 }
 
 
@@ -55,8 +57,9 @@ Vue.component("playlist-generator", {
         fileExtension: '' as string,
         errorMessage: '',
         channelLineup: {} as Record<string, any>,
-        channels: [],
-        channelLineupOptions: [],
+        channels: [] as Channel[],
+        channelLineupOptions: [] as { label: string; value: LineupChannel }[],
+        originalContent: '' as string,
     };
   },
 
