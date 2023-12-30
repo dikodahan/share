@@ -185,16 +185,29 @@ Vue.component("json-generator", {
     },
     
     updatePlaylistContent() {
+        // Create a set of channel names from the uploaded playlist for easy lookup
+        const processedChannelNames = new Set(this.channels.map(channel => channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name));
+    
+        // Processed channels
         const updatedChannels = this.channels.map(channel => {
-            const channelId = channel.tvgId || channel.tvgName; // Fallback to tvg-name if tvg-id is empty
             return {
                 channelName: channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name,
-                channelId: channelId
+                channelId: channel.tvgId || channel.tvgName || 'none'
             };
         });
     
+        // Add missing channels from channelLineup
+        Object.entries(this.channelLineup).forEach(([name, lineupChannel]) => {
+            if (lineupChannel.link && !processedChannelNames.has(name)) {
+                updatedChannels.push({
+                    channelName: name,
+                    channelId: 'none'
+                });
+            }
+        });
+    
         return JSON.stringify(updatedChannels, null, 2); // Pretty print the JSON
-    },
+    },    
 
     downloadFile() {
         this.modifiedFile = this.updatePlaylistContent();
