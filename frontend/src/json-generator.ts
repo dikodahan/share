@@ -194,7 +194,6 @@ Vue.component("json-generator", {
         let currentGroup = '';
     
         for (let i = 0; i < lines.length; i++) {
-            // Capture the group name from the #EXTGRP line
             if (lines[i].startsWith('#EXTGRP:')) {
                 currentGroup = lines[i].substring(8).trim().toLowerCase();
             }
@@ -206,11 +205,10 @@ Vue.component("json-generator", {
                 const groupTitleMatch = metadata.match(/group-title="([^"]+)"/i);
                 let groupTitle = groupTitleMatch ? groupTitleMatch[1].toLowerCase() : currentGroup;
     
-                // Filter logic
                 let filterGroup = this.isSingleGroup === 'YES' ? this.groupName.toLowerCase() : this.channelPrefix.toLowerCase();
+                // Adjusted filtering logic for partial, case-insensitive match with #EXTGRP
                 if ((this.isSingleGroup === 'YES' && groupTitle.includes(filterGroup)) ||
                     (this.isSingleGroup === 'NO' && name.toLowerCase().startsWith(filterGroup))) {
-                    // Ensure all necessary data is captured in the Channel object
                     const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
                     const logo = logoMatch ? logoMatch[1] : undefined;
                     const tvgIdMatch = metadata.match(/tvg-id="([^"]+)"/i);
