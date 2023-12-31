@@ -203,19 +203,18 @@ Vue.component("json-generator", {
                 const name = metadata.split(',')[1];
                 const groupTitleMatch = metadata.match(/group-title="([^"]+)"/i);
                 const groupTitle = groupTitleMatch ? groupTitleMatch[1] : currentGroup; // Use group-title or fallback to currentGroup
-                // ... rest of the parsing logic ...
+                const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
+                const logo = logoMatch ? logoMatch[1] : null;
+                const tvgIdMatch = metadata.match(/tvg-id="([^"]+)"/i);
+                const tvgId = tvgIdMatch ? tvgIdMatch[1] : null;
+                const tvgNameMatch = metadata.match(/tvg-name="([^"]+)"/i);
+                const tvgName = tvgNameMatch ? tvgNameMatch[1] : null;
     
-                // Filter logic
-                let filterGroup = this.isSingleGroup === 'YES' ? this.groupName : this.channelPrefix;
-                if (this.isSingleGroup === 'YES' && groupTitle.toLowerCase() === filterGroup.toLowerCase()) {
-                    channels.push({ name, metadata, url, logo, tvgId, tvgName, groupTitle });
-                } else if (this.isSingleGroup === 'NO' && name.toLowerCase().startsWith(filterGroup.toLowerCase())) {
-                    channels.push({ name, metadata, url, logo, tvgId, tvgName, groupTitle });
-                }
+                // ... rest of the parsing logic ...
             }
         }
         return channels;
-    },    
+    },       
     
     getChannelLineupOptions() {
         return Object.entries(this.channelLineup).map(([name, details]) => {
