@@ -242,11 +242,12 @@ Vue.component("json-generator", {
     
     updatePlaylistContent() {
         const filteredChannels = this.channels.filter(channel => !channel.notWorking);
-        // Create a set of channel names from the uploaded playlist for easy lookup
-        const processedChannelNames = new Set(this.channels.map(channel => channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name));
+    
+        // Create a set of channel names from the filtered playlist for easy lookup
+        const processedChannelNames = new Set(filteredChannels.map(channel => channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name));
     
         // Processed channels
-        const updatedChannels = this.channels.map(channel => {
+        const updatedChannels = filteredChannels.map(channel => {
             return {
                 channelName: channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name,
                 channelId: channel.tvgId || channel.tvgName || 'none'
