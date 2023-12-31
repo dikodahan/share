@@ -213,7 +213,7 @@ Vue.component("json-generator", {
     
                 // Filter logic
                 let filterGroup = this.isSingleGroup === 'YES' ? this.groupName.toLowerCase() : this.channelPrefix.toLowerCase();
-                if ((this.isSingleGroup === 'YES' && groupTitle.toLowerCase() === filterGroup) ||
+                if ((this.isSingleGroup === 'YES' && groupTitle.includes(filterGroup)) ||
                     (this.isSingleGroup === 'NO' && name.toLowerCase().startsWith(filterGroup))) {
                     channels.push({ name, metadata, url, logo, tvgId, tvgName });
                 }
