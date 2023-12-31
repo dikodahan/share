@@ -189,20 +189,20 @@ Vue.component("json-generator", {
 
     async processM3UFile(content: string): Promise<Channel[]> {
         const lines = content.split('\n');
-        let channels = [];
-        let currentGroup = ''; // Variable to store the current group from #EXTGRP
+        let channels: Channel[] = []; // Explicitly type the channels array
+        let currentGroup = ''; 
     
         for (let i = 0; i < lines.length; i++) {
             if (lines[i].startsWith('#EXTGRP:')) {
-                currentGroup = lines[i].substring(8).trim(); // Get the group name after #EXTGRP
+                currentGroup = lines[i].substring(8).trim(); 
             }
     
             if (lines[i].startsWith('#EXTINF:')) {
                 const metadata = lines[i];
-                const url = lines[++i]; // URL follows metadata line
+                const url = lines[++i]; 
                 const name = metadata.split(',')[1];
                 const groupTitleMatch = metadata.match(/group-title="([^"]+)"/i);
-                const groupTitle = groupTitleMatch ? groupTitleMatch[1] : currentGroup; // Use group-title or fallback to currentGroup
+                const groupTitle = groupTitleMatch ? groupTitleMatch[1] : currentGroup; 
                 const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
                 const logo = logoMatch ? logoMatch[1] : null;
                 const tvgIdMatch = metadata.match(/tvg-id="([^"]+)"/i);
@@ -210,11 +210,14 @@ Vue.component("json-generator", {
                 const tvgNameMatch = metadata.match(/tvg-name="([^"]+)"/i);
                 const tvgName = tvgNameMatch ? tvgNameMatch[1] : null;
     
-                // ... rest of the parsing logic ...
+                // If you are using these variables, include them in your logic
+                // Otherwise, remove them to resolve the unused variable errors
+    
+                // Include your filtering logic here
             }
         }
         return channels;
-    },       
+    },           
     
     getChannelLineupOptions() {
         return Object.entries(this.channelLineup).map(([name, details]) => {
