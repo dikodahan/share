@@ -19,6 +19,7 @@ interface Channel {
     tvgId?: string;
     tvgName?: string;
     groupTitle?: string;
+    notWorking?: boolean;
 }
 
 
@@ -70,6 +71,7 @@ Vue.component("json-generator", {
                 <th>שם מקור</th>
                 <th>ערוץ בפועל</th>
                 <th>לוגו בפועל</th>
+                <th>ערוץ לא עובד</th>
             </tr>
             <tr v-for="channel in channels" :key="channel.name">
                 <td><img :src="channel.logo" alt="Channel Logo"/></td>
@@ -89,10 +91,13 @@ Vue.component("json-generator", {
                         <img :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
                     </a>
                 </td>
+                <td>
+                    <input type="checkbox" v-model="channel.notWorking">
+                </td>
             </tr>
         </table>
         <p class="hebp">הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
-            <button v-if="modifiedFile" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
+            <button v-if="modifiedFile && allChannelsMappedOrNotWorking" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
         </p>
         <p v-if="errorMessage">{{ errorMessage }}</p>
         </div>
@@ -117,7 +122,9 @@ Vue.component("json-generator", {
   },
 
   computed: {
-    
+    allChannelsMappedOrNotWorking() {
+        return this.channels.every(channel => channel.selectedMapping || channel.notWorking);
+    }
   },
 
   async beforeMount() {
@@ -234,6 +241,7 @@ Vue.component("json-generator", {
     },
     
     updatePlaylistContent() {
+        const filteredChannels = this.channels.filter(channel => !channel.notWorking);
         // Create a set of channel names from the uploaded playlist for easy lookup
         const processedChannelNames = new Set(this.channels.map(channel => channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name));
     
