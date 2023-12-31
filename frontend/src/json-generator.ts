@@ -201,14 +201,15 @@ Vue.component("json-generator", {
             if (lines[i].startsWith('#EXTINF:')) {
                 const metadata = lines[i];
                 const url = lines[++i];
-                const name = metadata.split(',')[1];
+                // Extract the channel name after the last comma
+                const name = metadata.substring(metadata.lastIndexOf(',') + 1).trim().toLowerCase();
                 const groupTitleMatch = metadata.match(/group-title="([^"]+)"/i);
                 let groupTitle = groupTitleMatch ? groupTitleMatch[1].toLowerCase() : currentGroup;
     
                 let filterGroup = this.isSingleGroup === 'YES' ? this.groupName.toLowerCase() : this.channelPrefix.toLowerCase();
-                // Adjusted filtering logic for partial, case-insensitive match with #EXTGRP
                 if ((this.isSingleGroup === 'YES' && groupTitle.includes(filterGroup)) ||
-                    (this.isSingleGroup === 'NO' && name.toLowerCase().startsWith(filterGroup))) {
+                    (this.isSingleGroup === 'NO' && name.startsWith(filterGroup))) {
+                    // Extract additional channel information as needed
                     const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
                     const logo = logoMatch ? logoMatch[1] : undefined;
                     const tvgIdMatch = metadata.match(/tvg-id="([^"]+)"/i);
@@ -221,7 +222,7 @@ Vue.component("json-generator", {
             }
         }
         return channels;
-    },
+    },    
     
     getChannelLineupOptions() {
         return Object.entries(this.channelLineup).map(([name, details]) => {
