@@ -18,6 +18,7 @@ interface Channel {
     selectedMapping?: LineupChannel;
     tvgId?: string;
     tvgName?: string;
+    groupTitle?: string;
 }
 
 
@@ -214,7 +215,7 @@ Vue.component("json-generator", {
                 let filterGroup = this.isSingleGroup === 'YES' ? this.groupName.toLowerCase() : this.channelPrefix.toLowerCase();
                 if ((this.isSingleGroup === 'YES' && groupTitle.toLowerCase() === filterGroup) ||
                     (this.isSingleGroup === 'NO' && name.toLowerCase().startsWith(filterGroup))) {
-                    channels.push({ name, metadata, url, logo, tvgId, tvgName, groupTitle });
+                    channels.push({ name, metadata, url, logo, tvgId, tvgName });
                 }
             }
         }
