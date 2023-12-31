@@ -190,30 +190,32 @@ Vue.component("json-generator", {
     async processM3UFile(content: string): Promise<Channel[]> {
         const lines = content.split('\n');
         let channels = [];
+        let currentGroup = ''; // Variable to store the current group from #EXTGRP
+    
         for (let i = 0; i < lines.length; i++) {
+            if (lines[i].startsWith('#EXTGRP:')) {
+                currentGroup = lines[i].substring(8).trim(); // Get the group name after #EXTGRP
+            }
+    
             if (lines[i].startsWith('#EXTINF:')) {
                 const metadata = lines[i];
                 const url = lines[++i]; // URL follows metadata line
                 const name = metadata.split(',')[1];
-                const groupTitleMatch = metadata.match(/group-title="([^"]+)"/i); // Case-insensitive match
-                const groupTitle = groupTitleMatch ? groupTitleMatch[1] : '';
-                const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
-                const logo = logoMatch ? logoMatch[1] : null;
-                const tvgIdMatch = metadata.match(/tvg-id="([^"]+)"/i); // Case-insensitive match
-                const tvgId = tvgIdMatch ? tvgIdMatch[1] : '';
-                const tvgNameMatch = metadata.match(/tvg-name="([^"]+)"/i); // Case-insensitive match
-                const tvgName = tvgNameMatch ? tvgNameMatch[1] : '';
+                const groupTitleMatch = metadata.match(/group-title="([^"]+)"/i);
+                const groupTitle = groupTitleMatch ? groupTitleMatch[1] : currentGroup; // Use group-title or fallback to currentGroup
+                // ... rest of the parsing logic ...
     
                 // Filter logic
-                if (this.isSingleGroup === 'YES' && groupTitle.toLowerCase() === this.groupName.toLowerCase()) {
+                let filterGroup = this.isSingleGroup === 'YES' ? this.groupName : this.channelPrefix;
+                if (this.isSingleGroup === 'YES' && groupTitle.toLowerCase() === filterGroup.toLowerCase()) {
                     channels.push({ name, metadata, url, logo, tvgId, tvgName, groupTitle });
-                } else if (this.isSingleGroup === 'NO' && name.toLowerCase().startsWith(this.channelPrefix.toLowerCase())) {
+                } else if (this.isSingleGroup === 'NO' && name.toLowerCase().startsWith(filterGroup.toLowerCase())) {
                     channels.push({ name, metadata, url, logo, tvgId, tvgName, groupTitle });
                 }
             }
         }
         return channels;
-    },
+    },    
     
     getChannelLineupOptions() {
         return Object.entries(this.channelLineup).map(([name, details]) => {
