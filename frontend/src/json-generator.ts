@@ -191,33 +191,37 @@ Vue.component("json-generator", {
     async processM3UFile(content: string): Promise<Channel[]> {
         const lines = content.split('\n');
         let channels: Channel[] = [];
-        let currentGroup = ''; // To store group from #EXTGRP
+        let currentGroup = '';
     
         for (let i = 0; i < lines.length; i++) {
-            // Capture group from #EXTGRP
             if (lines[i].startsWith('#EXTGRP:')) {
                 currentGroup = lines[i].substring(8).trim();
             }
     
             if (lines[i].startsWith('#EXTINF:')) {
                 const metadata = lines[i];
-                const url = lines[++i];
+                const url = lines[++i]; 
                 const name = metadata.split(',')[1];
                 const groupTitleMatch = metadata.match(/group-title="([^"]+)"/i);
-                const groupTitle = groupTitleMatch ? groupTitleMatch[1] : currentGroup;
+                let groupTitle = groupTitleMatch ? groupTitleMatch[1] : currentGroup;
+                groupTitle = groupTitle.toLowerCase();
     
-                // Use groupTitle or fallback to currentGroup and convert to lower case
-                let lowerCaseGroupTitle = groupTitle.toLowerCase();
+                const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
+                const logo = logoMatch ? logoMatch[1] : undefined;
+                const tvgIdMatch = metadata.match(/tvg-id="([^"]+)"/i);
+                const tvgId = tvgIdMatch ? tvgIdMatch[1] : undefined;
+                const tvgNameMatch = metadata.match(/tvg-name="([^"]+)"/i);
+                const tvgName = tvgNameMatch ? tvgNameMatch[1] : undefined;
+    
                 let filterGroup = this.isSingleGroup === 'YES' ? this.groupName.toLowerCase() : this.channelPrefix.toLowerCase();
-    
-                if ((this.isSingleGroup === 'YES' && lowerCaseGroupTitle.includes(filterGroup)) ||
+                if ((this.isSingleGroup === 'YES' && groupTitle.includes(filterGroup)) ||
                     (this.isSingleGroup === 'NO' && name.toLowerCase().startsWith(filterGroup))) {
                     channels.push({ name, metadata, url, logo, tvgId, tvgName });
                 }
             }
         }
         return channels;
-    },                         
+    },    
     
     getChannelLineupOptions() {
         return Object.entries(this.channelLineup).map(([name, details]) => {
