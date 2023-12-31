@@ -199,26 +199,22 @@ Vue.component("json-generator", {
     
             if (lines[i].startsWith('#EXTINF:')) {
                 const metadata = lines[i];
-                const url = lines[++i]; // This assumes the URL is the next line
+                const url = lines[++i];
                 const name = metadata.split(',')[1];
                 const groupTitleMatch = metadata.match(/group-title="([^"]+)"/i);
                 const groupTitle = groupTitleMatch ? groupTitleMatch[1] : currentGroup;
                 const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
-                const logo = logoMatch ? logoMatch[1] : null;
+                const logo = logoMatch ? logoMatch[1] : undefined; // Use undefined instead of null
                 const tvgIdMatch = metadata.match(/tvg-id="([^"]+)"/i);
-                const tvgId = tvgIdMatch ? tvgIdMatch[1] : null;
+                const tvgId = tvgIdMatch ? tvgIdMatch[1] : undefined; // Use undefined instead of null
                 const tvgNameMatch = metadata.match(/tvg-name="([^"]+)"/i);
-                const tvgName = tvgNameMatch ? tvgNameMatch[1] : null;
+                const tvgName = tvgNameMatch ? tvgNameMatch[1] : undefined; // Use undefined instead of null
     
-                // Check whether to include this channel based on filter criteria
-                if ((this.isSingleGroup === 'YES' && groupTitle.toLowerCase() === this.groupName.toLowerCase()) ||
-                    (this.isSingleGroup === 'NO' && name.toLowerCase().startsWith(this.channelPrefix.toLowerCase()))) {
-                    channels.push({ name, metadata, url, logo, tvgId, tvgName, groupTitle });
-                }
+                // Include your filtering logic here
             }
         }
         return channels;
-    },               
+    },                  
     
     getChannelLineupOptions() {
         return Object.entries(this.channelLineup).map(([name, details]) => {
