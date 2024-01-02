@@ -422,12 +422,6 @@
     {
         "tvgRec": "7",
         "catchupDays": "7",
-        "channelName": "דיסקברי מדע",
-        "channelId": "discovery-science-il"
-    },
-    {
-        "tvgRec": "7",
-        "catchupDays": "7",
         "channelName": "היסטוריה",
         "channelId": "history-il"
     },

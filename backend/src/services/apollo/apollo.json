@@ -568,15 +568,6 @@
     },
     {
       "extGrp"          : "טבע והיסטוריה",
-      "channelName"     : "דיסקברי מדע",
-      "tvgName"         : "IL: YES-DISC.SCIENCE FHD",
-      "tvgId"           : "discovery-science-YES",
-      "tvgLogo"         : "https://dikodahan.github.io/picons/light/Discovery-Science.png",
-      "groupTitle"      : "IL: Nature & History",
-      "channelId"       : 2419956
-    },
-    {
-      "extGrp"          : "טבע והיסטוריה",
       "channelName"     : "היסטוריה HD",
       "tvgName"         : "IL: YES-HISTORY FHD",
       "tvgId"           : "history-hd-YES",
