@@ -474,10 +474,10 @@
         "channelId": "i24-il"
     },
     {
-        "tvgRec": "7",
-        "catchupDays": "7",
+        "tvgRec": "0",
+        "catchupDays": "0",
         "channelName": "באנגלית DW חדשות",
-        "channelId": "i24-il"
+        "channelId": "none"
     },
     {
         "tvgRec": "0",
