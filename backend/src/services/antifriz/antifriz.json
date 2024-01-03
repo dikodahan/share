@@ -474,6 +474,12 @@
         "channelId": "i24-il"
     },
     {
+        "tvgRec": "7",
+        "catchupDays": "7",
+        "channelName": "באנגלית DW חדשות",
+        "channelId": "i24-il"
+    },
+    {
         "tvgRec": "0",
         "catchupDays": "0",
         "channelName": "אל ג׳אזירה באנגלית",
