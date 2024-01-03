@@ -482,6 +482,12 @@
     {
         "tvgRec": "0",
         "catchupDays": "0",
+        "channelName": "בערבית DW חדשות",
+        "channelId": "none"
+    },
+    {
+        "tvgRec": "0",
+        "catchupDays": "0",
         "channelName": "אל ג׳אזירה באנגלית",
         "channelId": "none"    
     },
