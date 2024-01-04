@@ -125,3 +125,23 @@ a:active {
 .advanced-options-header {
   cursor: pointer;
 }
+
+.collapsible-header {
+  cursor: pointer;
+  /* Additional styling for the header */
+}
+
+.collapsible-header .collapsed {
+  /* Style for collapsed state (e.g., arrow pointing right) */
+  transform: rotate(-90deg);
+}
+
+.collapsible-header .expanded {
+  /* Style for expanded state (e.g., arrow pointing down) */
+  transform: rotate(0deg);
+}
+
+.collapsible-header span {
+  display: inline-block;
+  transition: transform 0.3s ease; /* Smooth transition for arrow rotation */
+}

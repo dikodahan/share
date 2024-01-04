@@ -64,18 +64,19 @@ Vue.component("json-generator", {
             </p>
         </div>
 
-        <!-- Advanced Options Section -->
         <div v-if="channels.length > 0">
-            <p class="hebp" @click="toggleAdvancedOptions">אפשרויות מתקדמות<br>
-                <div v-show="showAdvancedOptions">
-                    <ul>
+            <div class="hebp collapsible-header" @click="toggleAdvancedOptions">
+                אפשרויות מתקדמות
+                <span :class="{'collapsed': !showAdvancedOptions, 'expanded': showAdvancedOptions}">&#9660;</span>
+            </div>
+            <div v-show="showAdvancedOptions">
+                <ul>
                     <li v-for="tag in metadataTags" :key="tag">
                         <input type="checkbox" :id="tag" :value="tag" v-model="selectedTags">
                         <label :for="tag">{{ tag }}</label>
                     </li>
-                    </ul>
-                </div>
-            </p>
+                </ul>
+            </div>
         </div>
 
         <div v-if="channels.length > 0">
