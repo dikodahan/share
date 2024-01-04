@@ -59,12 +59,12 @@ Vue.component("json-generator", {
         <!-- Third Question: Appears after answering the second question -->
         <div v-if="isSingleGroup === 'YES'">
             <p class="hebp">אנא ספק את שם הקבוצה, או חלק ממנה, כפי שהיא מופיעה בנגן:
-                <input class="input-left-align" type="text" v-model="groupName" @input="setTextInputDirection" />
+                <input type="text" v-model="groupName" @input="setTextInputDirection" />
             </p>
         </div>
         <div v-if="isSingleGroup === 'NO'">
             <p class="hebp">אנא ספק את הקידומת לכל ערוץ שמופיעה לכל ערוצי ישראל:
-                <input class="input-left-align" type="text" v-model="channelPrefix" @input="setTextInputDirection" />
+                <input type="text" v-model="channelPrefix" @input="setTextInputDirection" />
             </p>
         </div>
 
