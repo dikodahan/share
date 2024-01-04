@@ -51,6 +51,6 @@ export function* testGenerator(
       yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;
       yield `${link}`;
-    }
+  }
   }
 }
