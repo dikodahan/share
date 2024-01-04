@@ -66,15 +66,16 @@ Vue.component("json-generator", {
 
         <!-- Advanced Options Section -->
         <div v-if="channels.length > 0">
-            <h2 @click="toggleAdvancedOptions">Advanced Options</h2>
-            <div v-show="showAdvancedOptions">
-                <ul>
-                <li v-for="tag in metadataTags" :key="tag">
-                    <input type="checkbox" :id="tag" :value="tag" v-model="selectedTags">
-                    <label :for="tag">{{ tag }}</label>
-                </li>
-                </ul>
-            </div>
+            <p class="hebp" @click="toggleAdvancedOptions">אפשרויות מתקדמות<br>
+                <div v-show="showAdvancedOptions">
+                    <ul>
+                    <li v-for="tag in metadataTags" :key="tag">
+                        <input type="checkbox" :id="tag" :value="tag" v-model="selectedTags">
+                        <label :for="tag">{{ tag }}</label>
+                    </li>
+                    </ul>
+                </div>
+            </p>
         </div>
 
         <div v-if="channels.length > 0">
