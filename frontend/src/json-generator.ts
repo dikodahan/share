@@ -25,7 +25,7 @@ interface Channel {
 interface ChannelData {
     channelName: string;
     channelId: string;
-    [key: string]: string;
+    [key: string]: string | undefined;
 }
 
 function formatKeyName(key: string) {
@@ -289,10 +289,10 @@ Vue.component("json-generator", {
     
         // Processed channels with additional properties
         const updatedChannels = filteredChannels.map(channel => {
-            const channelData = {
+            const channelData: ChannelData = {
                 channelName: channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name,
                 channelId: channel.tvgId || channel.tvgName || 'none',
-                // Add additional properties based on selected tags
+                // Initialize additional properties here
             };
     
             this.selectedTags.forEach(tag => {
@@ -314,9 +314,9 @@ Vue.component("json-generator", {
         // Add missing channels from channelLineup with default values for selected tags
         Object.entries(this.channelLineup).forEach(([name, lineupChannel]) => {
             if (lineupChannel.link && !processedChannelNames.has(name)) {
-                const missingChannelData = {
+                const missingChannelData: ChannelData = {
                     channelName: name,
-                    channelId: 'none'
+                    channelId: 'none',
                 };
     
                 // Set default values for selected tags
