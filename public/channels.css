@@ -136,12 +136,12 @@ a:active {
 
 .collapsible-header .collapsed {
   /* Style for collapsed state (e.g., arrow pointing right) */
-  transform: rotate(-90deg);
+  transform: rotate(90deg);
 }
 
 .collapsible-header .expanded {
   /* Style for expanded state (e.g., arrow pointing down) */
-  transform: rotate(0deg);
+  transform: rotate(180deg);
 }
 
 .collapsible-header span {

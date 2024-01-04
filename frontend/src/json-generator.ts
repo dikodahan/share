@@ -66,8 +66,8 @@ Vue.component("json-generator", {
 
         <div v-if="channels.length > 0">
             <div class="collapsible-header" @click="toggleAdvancedOptions">
+            <span :class="{'collapsed': !showAdvancedOptions, 'expanded': showAdvancedOptions}">&#9660;</span>
                 אפשרויות מתקדמות
-                <span :class="{'collapsed': !showAdvancedOptions, 'expanded': showAdvancedOptions}">&#9660;</span>
             </div>
             <div v-show="showAdvancedOptions">
                 <ul>
@@ -77,6 +77,7 @@ Vue.component("json-generator", {
                     </li>
                 </ul>
             </div>
+            <br>
         </div>
 
         <div v-if="channels.length > 0">
