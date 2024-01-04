@@ -132,7 +132,7 @@ Vue.component("json-generator", {
         groupName: '',
         channelPrefix: '',
         showAdvancedOptions: false,
-        metadataTags: [],
+        metadataTags: [] as string[],
     };
   },
 
@@ -254,7 +254,7 @@ Vue.component("json-generator", {
             }
         }
     
-        this.metadataTags = Array.from(metadataTagsSet) as string[]; // Convert Set to Array
+        this.metadataTags = Array.from(metadataTagsSet) as string[]; // Convert Set to Array and assert type
         return channels;
     },
     
