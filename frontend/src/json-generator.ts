@@ -170,15 +170,17 @@ Vue.component("json-generator", {
   },
 
   methods: {
-    setTextInputDirection(event) {
+    setTextInputDirection(event: InputEvent) {
         const hebrewCharRange = /[\u0590-\u05FF]/;
-        const inputText = event.target.value;
+        const inputElement = event.target as HTMLInputElement; // Typecast to HTMLInputElement
+        const inputText = inputElement.value;
+    
         if (hebrewCharRange.test(inputText)) {
-          event.target.style.direction = 'rtl';
+          inputElement.style.direction = 'rtl';
         } else {
-          event.target.style.direction = 'ltr';
+          inputElement.style.direction = 'ltr';
         }
-    },
+      },
 
     async handleFileUpload(event: Event) {
         const files = (event.target as HTMLInputElement).files;
