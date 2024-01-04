@@ -121,3 +121,7 @@ a:active {
 .input-left-align {
   text-align: left;
 }
+
+.advanced-options-header {
+  cursor: pointer;
+}

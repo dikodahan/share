@@ -64,6 +64,19 @@ Vue.component("json-generator", {
             </p>
         </div>
 
+        <!-- Advanced Options Section -->
+        <div v-if="channels.length > 0">
+            <h2 @click="toggleAdvancedOptions">Advanced Options</h2>
+            <div v-show="showAdvancedOptions">
+                <ul>
+                <li v-for="tag in metadataTags" :key="tag">
+                    <input type="checkbox" :id="tag" :value="tag" v-model="selectedTags">
+                    <label :for="tag">{{ tag }}</label>
+                </li>
+                </ul>
+            </div>
+        </div>
+
         <div v-if="channels.length > 0">
         <table>
             <tr>
@@ -118,6 +131,8 @@ Vue.component("json-generator", {
         isSingleGroup: '',
         groupName: '',
         channelPrefix: '',
+        showAdvancedOptions: false,
+        metadataTags: [],
     };
   },
 
@@ -199,6 +214,7 @@ Vue.component("json-generator", {
         const lines = content.split('\n');
         let channels: Channel[] = [];
         let currentGroup = '';
+        let metadataTagsSet = new Set(); // To store unique metadata tags
     
         for (let i = 0; i < lines.length; i++) {
             if (lines[i].startsWith('#EXTGRP:')) {
@@ -226,10 +242,21 @@ Vue.component("json-generator", {
     
                     channels.push({ name, metadata, url, logo, tvgId, tvgName });
                 }
+    
+                // Extract all tags from the line for Advanced options
+                const tagRegex = /([a-zA-Z0-9-]+)="[^"]*"/g;
+                let match;
+                while ((match = tagRegex.exec(metadata)) !== null) {
+                    if (!['tvg-id', 'tvg-logo', 'group-title'].includes(match[1].toLowerCase())) {
+                        metadataTagsSet.add(match[1]);
+                    }
+                }
             }
         }
+    
+        this.metadataTags = Array.from(metadataTagsSet); // Convert Set to Array
         return channels;
-    },    
+    },
     
     getChannelLineupOptions() {
         return Object.entries(this.channelLineup).map(([name, details]) => {
@@ -283,5 +310,9 @@ Vue.component("json-generator", {
         URL.revokeObjectURL(link.href);
         this.modifiedFile = null;
     },
+    
+    toggleAdvancedOptions() {
+        this.showAdvancedOptions = !this.showAdvancedOptions;
+    },                        
   },
 });
