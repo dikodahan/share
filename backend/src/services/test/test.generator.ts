@@ -37,7 +37,7 @@ export function* testGenerator(
     if (testChannelArray) {
       for (const testChannel of testChannelArray) {
         const { channelId, tvgRec, catchupDays } = testChannel;
-        const { tvgId, tvgLogo, link, extGrp } = channelData;
+        const { tvgId, tvgLogo, extGrp } = channelData;
 
         yield "";
         yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
