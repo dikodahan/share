@@ -4,7 +4,7 @@ import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 import Free from "../free/free.json";
 
-export function* testGenerator(
+export function* liveGoDmGenerator(
   username: string,
   password: string
 ): Generator<string, void, unknown> {

@@ -7,7 +7,7 @@ import Free from "../free/free.json";
 const BASE_URL = "http://bethoven.af-stream.com";
 const CATCHUP_ENDPOINT = "video-${start}-${duration}.m3u8";
 
-export function* antiFrizGenerator(
+export function* antiFrizDmGenerator(
   _: string,
   token: string
 ): Generator<string, void, unknown> {
