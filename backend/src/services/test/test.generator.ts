@@ -2,6 +2,7 @@ import Test from "./test.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
+import Free from "../free/free.json";
 
 const BASE_URL = "http://bethoven.af-stream.com";
 const CATCHUP_ENDPOINT = "video-${start}-${duration}.m3u8";
@@ -27,28 +28,29 @@ export function* testGenerator(
     }
   });
 
+  const freeChannelSet = new Set(Free.map(c => c.channelName));
+
   for (const channelName of Object.keys(channelLineup)) {
     const testChannelArray = testChannels.get(channelName);
+    const channelData = channelLineup[channelName as keyof typeof channelLineup];
 
     if (testChannelArray) {
       for (const testChannel of testChannelArray) {
         const { channelId, tvgRec, catchupDays } = testChannel;
-        const channelData = channelLineup[channelName as keyof typeof channelLineup];
-
         const { tvgId, tvgLogo, link, extGrp } = channelData;
 
-        if (channelId == "none") {
-          yield "";
-          yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-          yield `#EXTGRP:${extGrp}`;
-          yield `${link}`;
-        } else {
-          yield "";
-          yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
-          yield `#EXTGRP:${extGrp}`;
-          yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
-        }
+        yield "";
+        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
+        yield `#EXTGRP:${extGrp}`;
+        yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
       }
+    } else if (freeChannelSet.has(channelName)) {
+      const { tvgId, tvgLogo, link, extGrp } = channelData;
+
+      yield "";
+      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${link}`;
     }
   }
 }
