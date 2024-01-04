@@ -22,6 +22,12 @@ interface Channel {
     notWorking?: boolean;
 }
 
+function formatKeyName(key) {
+    return key.split('-').map((part, index) => {
+        return index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1);
+    }).join('');
+}
+
 
 Vue.component("json-generator", {
   template: `
@@ -136,6 +142,7 @@ Vue.component("json-generator", {
         channelPrefix: '',
         showAdvancedOptions: false,
         metadataTags: [] as string[],
+        selectedTags: [] as string[],
     };
   },
 
@@ -273,25 +280,23 @@ Vue.component("json-generator", {
     updatePlaylistContent() {
         const filteredChannels = this.channels.filter(channel => !channel.notWorking);
     
-        // Create a set of channel names from the filtered playlist for easy lookup
-        const processedChannelNames = new Set(filteredChannels.map(channel => channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name));
-    
-        // Processed channels
         const updatedChannels = filteredChannels.map(channel => {
-            return {
+            const channelData = {
                 channelName: channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name,
-                channelId: channel.tvgId || channel.tvgName || 'none'
+                channelId: channel.tvgId || channel.tvgName || 'none',
+                // Add additional properties based on selected tags
             };
-        });
     
-        // Add missing channels from channelLineup
-        Object.entries(this.channelLineup).forEach(([name, lineupChannel]) => {
-            if (lineupChannel.link && !processedChannelNames.has(name)) {
-                updatedChannels.push({
-                    channelName: name,
-                    channelId: 'none'
-                });
-            }
+            this.selectedTags.forEach(tag => {
+                const regex = new RegExp(`${tag}="([^"]+)"`, 'i');
+                const match = channel.metadata.match(regex);
+                if (match) {
+                    const formattedKey = formatKeyName(tag);
+                    channelData[formattedKey] = match[1];
+                }
+            });
+    
+            return channelData;
         });
     
         return JSON.stringify(updatedChannels, null, 2); // Pretty print the JSON
