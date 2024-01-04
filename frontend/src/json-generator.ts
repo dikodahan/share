@@ -43,7 +43,7 @@ Vue.component("json-generator", {
 
         <!-- First Question -->
         <p class="hebp">מה שם הספק (באנגלית) של הפלייליסט הזה?
-            <input class="input-left-align" type="text" id="providerInput" v-model="providerName" />
+        <input class="input-left-align" type="text" id="providerInput" v-model="providerName" @input="setTextInputDirection" />
         </p>
 
         <!-- Second Question: Appears after answering the first question -->
@@ -58,13 +58,13 @@ Vue.component("json-generator", {
 
         <!-- Third Question: Appears after answering the second question -->
         <div v-if="isSingleGroup === 'YES'">
-            <p class="hebp">אנא ספק את שם הקבוצה, בדיוק כפי שהיא מופיעה בנגן:
-                <input class="input-left-align" type="text" v-model="groupName" />
+            <p class="hebp">אנא ספק את שם הקבוצה, או חלק ממנה, כפי שהיא מופיעה בנגן:
+                <input class="input-left-align" type="text" v-model="groupName" @input="setTextInputDirection" />
             </p>
         </div>
         <div v-if="isSingleGroup === 'NO'">
             <p class="hebp">אנא ספק את הקידומת לכל ערוץ שמופיעה לכל ערוצי ישראל:
-                <input class="input-left-align" type="text" v-model="channelPrefix" />
+                <input class="input-left-align" type="text" v-model="channelPrefix" @input="setTextInputDirection" />
             </p>
         </div>
 
@@ -170,6 +170,16 @@ Vue.component("json-generator", {
   },
 
   methods: {
+    setTextInputDirection(event) {
+        const hebrewCharRange = /[\u0590-\u05FF]/;
+        const inputText = event.target.value;
+        if (hebrewCharRange.test(inputText)) {
+          event.target.style.direction = 'rtl';
+        } else {
+          event.target.style.direction = 'ltr';
+        }
+    },
+
     async handleFileUpload(event: Event) {
         const files = (event.target as HTMLInputElement).files;
         if (!files) {
