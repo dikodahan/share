@@ -4,15 +4,12 @@ import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 import Free from "../free/free.json";
 
-const BASE_URL = "http://bethoven.af-stream.com";
-const CATCHUP_ENDPOINT = "video-${start}-${duration}.m3u8";
-
 export function* testGenerator(
-  _: string,
-  token: string
+  username: string,
+  password: string
 ): Generator<string, void, unknown> {
-  if (!token || token == "TOKEN") {
-    throw new UserException("Invalid token", 400);
+  if (!username || !password || username == "USERNAME" || password == "PASSWORD") {
+    throw new UserException("Invalid username or password", 400);
   }
 
   for (const line of epgGenerator()) {
@@ -36,21 +33,21 @@ export function* testGenerator(
 
     if (testChannelArray) {
       for (const testChannel of testChannelArray) {
-        const { channelId, tvgRec, catchupDays } = testChannel;
+        const { channelId, tvgShift, tvgName } = testChannel;
         const { tvgId, tvgLogo, extGrp } = channelData;
 
         yield "";
-        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
+        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-shift="${tvgShift}" tvg-logo="${tvgLogo}",${channelName}`;
         yield `#EXTGRP:${extGrp}`;
-        yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
+        yield `http://livego.club:8080/${username}/${password}/${channelId}`;
       }
     } else if (freeChannelSet.has(channelName)) {
       const { tvgId, tvgLogo, link, extGrp } = channelData;
 
       yield "";
-      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;
       yield `${link}`;
-  }
+    }
   }
 }
