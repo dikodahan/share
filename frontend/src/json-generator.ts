@@ -254,7 +254,7 @@ Vue.component("json-generator", {
             }
         }
     
-        this.metadataTags = Array.from(metadataTagsSet); // Convert Set to Array
+        this.metadataTags = Array.from(metadataTagsSet) as string[]; // Convert Set to Array
         return channels;
     },
     
