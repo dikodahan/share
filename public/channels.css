@@ -141,7 +141,7 @@ a:active {
 
 .collapsible-header .expanded {
   /* Style for expanded state (e.g., arrow pointing down) */
-  transform: rotate(180deg);
+  transform: rotate(0deg);
 }
 
 .collapsible-header span {
