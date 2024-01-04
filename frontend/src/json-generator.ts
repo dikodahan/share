@@ -22,8 +22,14 @@ interface Channel {
     notWorking?: boolean;
 }
 
-function formatKeyName(key) {
-    return key.split('-').map((part, index) => {
+interface ChannelData {
+    channelName: string;
+    channelId: string;
+    [key: string]: string;
+}
+
+function formatKeyName(key: string) {
+    return key.split('-').map((part: string, index: number) => {
         return index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1);
     }).join('');
 }
@@ -281,10 +287,9 @@ Vue.component("json-generator", {
         const filteredChannels = this.channels.filter(channel => !channel.notWorking);
     
         const updatedChannels = filteredChannels.map(channel => {
-            const channelData = {
+            const channelData: ChannelData = {
                 channelName: channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name,
                 channelId: channel.tvgId || channel.tvgName || 'none',
-                // Add additional properties based on selected tags
             };
     
             this.selectedTags.forEach(tag => {
