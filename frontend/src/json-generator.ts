@@ -43,7 +43,7 @@ Vue.component("json-generator", {
 
         <!-- First Question -->
         <p class="hebp">מה שם הספק (באנגלית) של הפלייליסט הזה?
-        <input class="input-left-align" type="text" id="providerInput" v-model="providerName" @input="setTextInputDirection" />
+        <input type="text" id="providerInput" v-model="providerName" @input="setTextInputDirection" />
         </p>
 
         <!-- Second Question: Appears after answering the first question -->
