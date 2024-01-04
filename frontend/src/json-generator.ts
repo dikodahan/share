@@ -354,7 +354,9 @@ Vue.component("json-generator", {
         const blob = new Blob([this.modifiedFile], { type: 'application/json' });
         const link = document.createElement('a');
         link.href = URL.createObjectURL(blob);
-        link.download = 'DikoPlus.json'; // Change to .json extension
+        // Use the provider name in the file name, default to 'DikoPlus' if not provided
+        const fileName = this.providerName ? `${this.providerName}.json` : 'DikoPlus.json';
+        link.download = fileName; // Set the download attribute to the dynamic file name
         link.click();
     
         URL.revokeObjectURL(link.href);
