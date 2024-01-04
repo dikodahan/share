@@ -2,6 +2,7 @@ import AntiFriz from "./antifriz.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
+import Free from "../free/free.json";
 
 const BASE_URL = "http://bethoven.af-stream.com";
 const CATCHUP_ENDPOINT = "video-${start}-${duration}.m3u8";
@@ -18,37 +19,38 @@ export function* antiFrizGenerator(
     yield line;
   }
 
-  const antifrizChannels = new Map<string, Array<typeof AntiFriz[number]>>();
+  const antiFrizChannels = new Map<string, Array<typeof AntiFriz[number]>>();
   AntiFriz.forEach(channel => {
-    if (antifrizChannels.has(channel.channelName)) {
-      antifrizChannels.get(channel.channelName)?.push(channel);
+    if (antiFrizChannels.has(channel.channelName)) {
+      antiFrizChannels.get(channel.channelName)?.push(channel);
     } else {
-      antifrizChannels.set(channel.channelName, [channel]);
+      antiFrizChannels.set(channel.channelName, [channel]);
     }
   });
 
+  const freeChannelSet = new Set(Free.map(c => c.channelName));
+
   for (const channelName of Object.keys(channelLineup)) {
-    const antifrizChannelArray = antifrizChannels.get(channelName);
+    const antiFrizChannelArray = antiFrizChannels.get(channelName);
+    const channelData = channelLineup[channelName as keyof typeof channelLineup];
 
-    if (antifrizChannelArray) {
-      for (const antifrizChannel of antifrizChannelArray) {
-        const { channelId, tvgRec, catchupDays } = antifrizChannel;
-        const channelData = channelLineup[channelName as keyof typeof channelLineup];
+    if (antiFrizChannelArray) {
+      for (const antiFrizChannel of antiFrizChannelArray) {
+        const { channelId, tvgRec, catchupDays } = antiFrizChannel;
+        const { tvgId, tvgLogo, extGrp } = channelData;
 
-        const { tvgId, tvgLogo, link, extGrp } = channelData;
-
-        if (channelId == "none") {
-          yield "";
-          yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-          yield `#EXTGRP:${extGrp}`;
-          yield `${link}`;
-        } else {
-          yield "";
-          yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
-          yield `#EXTGRP:${extGrp}`;
-          yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
-        }
+        yield "";
+        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" catchup-source="${BASE_URL}/${channelId}/${CATCHUP_ENDPOINT}?token=${token}" tvg-rec="${tvgRec}" catchup-days="${catchupDays}",${channelName}`;
+        yield `#EXTGRP:${extGrp}`;
+        yield `${BASE_URL}:1600/s/${token}/${channelId}/video.m3u8`;
       }
-    }
+    } else if (freeChannelSet.has(channelName)) {
+      const { tvgId, tvgLogo, link, extGrp } = channelData;
+
+      yield "";
+      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${link}`;
+  }
   }
 }
