@@ -49,12 +49,12 @@ Vue.component("channel-table", {
       fetch("/service-channel-names.json").then((res) => res.json()) as Promise<ChannelStats>,
       fetch("/comparison-services.json").then((res) => res.json()) as Promise<ComparisonService[]>,
       fetch("/channel-lineup.json").then((res) => res.json()) as Promise<Record<string, any>>,
-      fetch("/free.json").then((res) => res.json()) as Promise<string[]>
+      fetch("/free.json").then((res) => res.json()) as Promise<{ channelName: string }[]>
     ]);
     this.services = services;
     this.comparison = comparison;
     this.channelLineup = channelLineup;
-    this.freeChannels = freeChannels;
+    this.freeChannels = freeData.map(channel => channel.channelName);
   },
   methods: {
     getServiceName(service: string) {
