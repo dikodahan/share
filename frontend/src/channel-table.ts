@@ -45,7 +45,7 @@ Vue.component("channel-table", {
     };
   },
   async beforeMount() {
-    const [services, comparison, channelLineup] = await Promise.all([
+    const [services, comparison, channelLineup, freeData] = await Promise.all([
       fetch("/service-channel-names.json").then((res) => res.json()) as Promise<ChannelStats>,
       fetch("/comparison-services.json").then((res) => res.json()) as Promise<ComparisonService[]>,
       fetch("/channel-lineup.json").then((res) => res.json()) as Promise<Record<string, any>>,
@@ -54,7 +54,7 @@ Vue.component("channel-table", {
     this.services = services;
     this.comparison = comparison;
     this.channelLineup = channelLineup;
-    this.freeChannels = freeData.map(channel => channel.channelName);
+    this.freeChannels = freeData.map((channel: { channelName: string }) => channel.channelName);
   },
   methods: {
     getServiceName(service: string) {
