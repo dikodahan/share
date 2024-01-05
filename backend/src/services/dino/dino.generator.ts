@@ -2,6 +2,7 @@ import Dino from "./dino.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
+import Free from "../free/free.json";
 
 export function* dinoGenerator(
   username: string,
@@ -24,28 +25,29 @@ export function* dinoGenerator(
     }
   });
 
+  const freeChannelSet = new Set(Free.map(c => c.channelName));
+
   for (const channelName of Object.keys(channelLineup)) {
     const dinoChannelArray = dinoChannels.get(channelName);
+    const channelData = channelLineup[channelName as keyof typeof channelLineup];
 
     if (dinoChannelArray) {
       for (const dinoChannel of dinoChannelArray) {
         const { channelId } = dinoChannel;
-        const channelData = channelLineup[channelName as keyof typeof channelLineup];
+        const { tvgId, tvgLogo, extGrp } = channelData;
 
-        const { tvgId, tvgLogo, link, extGrp } = channelData;
-
-        if (channelId == 1010) {
-          yield "";
-          yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-          yield `#EXTGRP:${extGrp}`;
-          yield `${link}`;
-        } else {
-          yield "";
-          yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-          yield `#EXTGRP:${extGrp}`;
-          yield `http://smart.cwdn.cx:80/${username}/${password}/${channelId}`;
-        }
+        yield "";
+        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+        yield `#EXTGRP:${extGrp}`;
+        yield `http://smart.cwdn.cx:80/${username}/${password}/${channelId}`;
       }
+    } else if (freeChannelSet.has(channelName)) {
+      const { tvgId, tvgLogo, link, extGrp } = channelData;
+
+      yield "";
+      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${link}`;
     }
   }
 }

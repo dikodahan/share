@@ -45,16 +45,6 @@
       "channelId"       : 105867
     },
     {
-      "channelName"     : "ערוץ וואלה+",
-      "tvgName"         : 1010,
-      "channelId"       : 1010
-    },
-    {
-      "channelName"     : "ערוץ רלוונט",
-      "tvgName"         : 1010,
-      "channelId"       : 1010
-    },
-    {
       "channelName"     : "כאן חינוכית",
       "tvgName"         : "|IL| KABALA",
       "channelId"       : 9893
@@ -63,26 +53,6 @@
       "channelName"     : "טלויזיה שלנו",
       "tvgName"         : "|IL-4K| CLASSICA HD",
       "channelId"       : 105837
-    },
-    {
-      "channelName"     : "ערוץ ההידברות",
-      "tvgName"         : 1010,
-      "channelId"       : 1010
-    },
-    {
-      "channelName"     : "קבלה לעם",
-      "tvgName"         : 1010,
-      "channelId"       : 1010
-    },
-    {
-      "channelName"     : "ערוץ הכנסת",
-      "tvgName"         : 1010,
-      "channelId"       : 1010
-    },
-    {
-      "channelName"     : "ערוץ הנופלים והנופלות",
-      "tvgName"         : 1010,
-      "channelId"       : 1010
     },
     {
       "channelName"     : "SD ספורט 1",
@@ -715,71 +685,6 @@
       "channelId"       : 105871
     },
     {
-      "channelName"     : "ערוץ הקניות",
-      "tvgName"         : "",
-      "channelId"       : 1010
-    },
-    {
-        "channelName": "חדשות סי אן אן",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "חדשות פוקס",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "פוקס ביזנס",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "חדשות בלומברג",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "חדשות סקיי",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "באנגלית i24 חדשות",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "בצרפתית i24 חדשות",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "בערבית i24 חדשות",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "באנגלית DW חדשות",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "בערבית DW חדשות",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "אל ג׳אזירה באנגלית",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "אל ג׳אזירה בערבית",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
       "channelName"     : "ערוץ 9",
       "tvgName"         : "|IL-4K| CHANNEL 9 HD",
       "channelId"       : 105853
@@ -868,130 +773,5 @@
       "channelName"     : "הוט בומביי",
       "tvgName"         : "|IL| HOT BOMBAY",
       "channelId"       : 233302
-    },
-    {
-        "channelName": "גלצ",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "גלגלצ",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "כאן תרבות",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "כאן קול המוזיקה",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "כאן מורשת",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "כאן ב",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "כאן ג",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "88 כאן",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "כאן רקע",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "90 fm אמצע הדרך",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "91 fm רדיו לב המדינה",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "92.1 fm רדיו קול ברמה",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "93 fm רדיו קול חי",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "94 fm גלי ישראל",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "96 fm רדיו קול רגע",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "97 fm רדיו דרום",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "99 fm אקו",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "99.5 fm רדיו חם אש",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "100 fm רדיוס",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "101 fm רדיו ירושלים",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "101.5 fm רדיו באר-שבע",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "102 fm קול הים האדום אילת",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "102 fm רדיו תל אביב",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "103 fm רדיו ללא הפסקה",
-        "tvgName": "",
-        "channelId": 1010    
-    },
-    {
-        "channelName": "107.5 fm רדיו חיפה",
-        "tvgName": "",
-        "channelId": 1010        
     }
   ]

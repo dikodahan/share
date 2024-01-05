@@ -2,17 +2,13 @@ import Dino from "../dino/dino.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
+import Free from "../free/free.json";
 
 export function* dinoDmGenerator(
   username: string,
   password: string
 ): Generator<string, void, unknown> {
-  if (
-    !username ||
-    !password ||
-    username == "USERNAME" ||
-    password == "PASSWORD"
-  ) {
+  if (!username || !password || username == "USERNAME" || password == "PASSWORD") {
     throw new UserException("Invalid username or password", 400);
   }
 
@@ -29,28 +25,29 @@ export function* dinoDmGenerator(
     }
   });
 
+  const freeChannelSet = new Set(Free.map(c => c.channelName));
+
   for (const channelName of Object.keys(channelLineup)) {
     const dinoChannelArray = dinoChannels.get(channelName);
+    const channelData = channelLineup[channelName as keyof typeof channelLineup];
 
     if (dinoChannelArray) {
       for (const dinoChannel of dinoChannelArray) {
         const { channelId } = dinoChannel;
-        const channelData = channelLineup[channelName as keyof typeof channelLineup];
+        const { tvgId, tvgLogoDm, extGrp } = channelData;
 
-        const { tvgId, tvgLogoDm, link, extGrp } = channelData;
-
-        if (channelId == 1010) {
-          yield "";
-          yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
-          yield `#EXTGRP:${extGrp}`;
-          yield `${link}`;
-        } else {
-          yield "";
-          yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
-          yield `#EXTGRP:${extGrp}`;
-          yield `http://smart.cwdn.cx:80/${username}/${password}/${channelId}`;
-        }
+        yield "";
+        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
+        yield `#EXTGRP:${extGrp}`;
+        yield `http://smart.cwdn.cx:80/${username}/${password}/${channelId}`;
       }
+    } else if (freeChannelSet.has(channelName)) {
+      const { tvgId, tvgLogoDm, link, extGrp } = channelData;
+
+      yield "";
+      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${link}`;
     }
   }
 }
