@@ -163,4 +163,14 @@ fs.writeFileSync(
   JSON.stringify(ChannelLineup, null, 2)
 );
 
-
+const freePath = path.join(
+  __dirname,
+  "..",
+  "..",
+  "public",
+  "free.json"
+);
+fs.writeFileSync(
+  freePath,
+  JSON.stringify(Free, null, 2)
+);
