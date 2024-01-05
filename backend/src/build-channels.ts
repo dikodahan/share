@@ -3,6 +3,7 @@ import * as path from "path";
 import * as https from "https";
 import ComparisonServices from "./comparison-services.json";
 import ChannelLineup from "./services/channel-lineup.json";
+import Free from "./services/free/free.json";
 
 
 export interface ChannelInfo {
@@ -43,23 +44,19 @@ fs.writeFileSync(output, JSON.stringify(channels, null, 2));
 Object.entries(channels).forEach(([service, channelInfos]) => {
   const info = ComparisonServices.find((s) => s.service === service);
   if (info) {
-    const extraChannels = new Set(
-      channelInfos
-        .filter((ci) => ci.channelId === 'none' || ci.channelId === 1010)
-        .map((ci) => ci.channelName)
-    );
-    const regularChannels = new Set(
-      channelInfos
-        .filter((ci) => ci.channelId !== 'none' && ci.channelId !== 1010)
-        .map((ci) => ci.channelName)
-    );
+    // Count of regular channels is just the length of channelInfos
+    const regularChannelsCount = channelInfos.length;
 
-    const extraChannelsCount = extraChannels.size;
-    const regularChannelsCount = regularChannels.size;
+    // Determine the extra channels count
+    // Filter free channels to see if they are not in the current service's channel list
+    const extraChannelsCount = Free.filter(freeChannel => 
+      !channelInfos.some(ci => ci.channelName === freeChannel.channelName)
+    ).length;
 
-    info["ערוצי ישראל - אקסטרה 🆓"] = extraChannelsCount;
+    // Updating the service info
     info["ערוצי ישראל - ספק ✅"] = regularChannelsCount;
-    info["ערוצי ישראל - סך הכל"] = extraChannelsCount + regularChannelsCount;
+    info["ערוצי ישראל - אקסטרה 🆓"] = extraChannelsCount;
+    info["ערוצי ישראל - סך הכל"] = regularChannelsCount + extraChannelsCount;
   }
 });
 
