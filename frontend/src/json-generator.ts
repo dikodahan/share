@@ -297,7 +297,6 @@ Vue.component("json-generator", {
     
     updatePlaylistContent() {
         const filteredChannels = this.channels.filter(channel => !channel.notWorking);
-        const processedChannelNames = new Set(filteredChannels.map(channel => channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name));
     
         // Processed channels with additional properties
         const updatedChannels = filteredChannels.map(channel => {
@@ -323,26 +322,8 @@ Vue.component("json-generator", {
             return channelData;
         });
     
-        // Add missing channels from channelLineup with default values for selected tags
-        Object.entries(this.channelLineup).forEach(([name, lineupChannel]) => {
-            if (lineupChannel.link && !processedChannelNames.has(name)) {
-                const missingChannelData: ChannelData = {
-                    channelName: name,
-                    channelId: 'none',
-                };
-    
-                // Set default values for selected tags
-                this.selectedTags.forEach(tag => {
-                    const formattedKey = formatKeyName(tag);
-                    missingChannelData[formattedKey] = '0';
-                });
-    
-                updatedChannels.push(missingChannelData);
-            }
-        });
-    
         return JSON.stringify(updatedChannels, null, 2); // Pretty print the JSON
-    },        
+    },          
 
     downloadFile() {
         this.modifiedFile = this.updatePlaylistContent();
