@@ -44,13 +44,13 @@ fs.writeFileSync(output, JSON.stringify(channels, null, 2));
 Object.entries(channels).forEach(([service, channelInfos]) => {
   const info = ComparisonServices.find((s) => s.service === service);
   if (info) {
-    // Count of regular channels is just the length of channelInfos
-    const regularChannelsCount = channelInfos.length;
+    // Use a Set to count unique channel names
+    const uniqueChannelNames = new Set(channelInfos.map(ci => ci.channelName));
+    const regularChannelsCount = uniqueChannelNames.size;
 
     // Determine the extra channels count
-    // Filter free channels to see if they are not in the current service's channel list
     const extraChannelsCount = Free.filter(freeChannel => 
-      !channelInfos.some(ci => ci.channelName === freeChannel.channelName)
+      !uniqueChannelNames.has(freeChannel.channelName)
     ).length;
 
     // Updating the service info
