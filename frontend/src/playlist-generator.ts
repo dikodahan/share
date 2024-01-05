@@ -173,11 +173,12 @@ Vue.component("playlist-generator", {
       const lines = content.split(/\r?\n/);
     
       const serviceChannels: ServiceChannel[] = await fetch(`/${this.selectedService}.json`).then(res => res.json());
+      const freeChannels: { channelName: string }[] = await fetch('/free.json').then(res => res.json());
       const channelLineup: ChannelStats = await fetch('/channel-lineup.json').then(res => res.json());
     
       let channels: Channel[] = [];
       let currentChannel: Channel = { name: '', metadata: '', url: '', extgrp: '' };
-      let channelOrder = Object.keys(channelLineup); // Used for sorting channels
+      let channelOrder = Object.keys(channelLineup);
     
       for (const line of lines) {
         if (line.startsWith('#EXTINF:')) {
@@ -220,28 +221,30 @@ Vue.component("playlist-generator", {
         }
       }            
     
-      serviceChannels.forEach(serviceChannel => {
-        if (!channels.some(channel => channel.name === serviceChannel.channelName)) {
-          const lineupChannel = channelLineup[serviceChannel.channelName];
+      // Process channels from 'free.json'
+      freeChannels.forEach(freeChannel => {
+        if (!serviceChannels.some(serviceChannel => serviceChannel.channelName === freeChannel.channelName)) {
+          const lineupChannel = channelLineup[freeChannel.channelName];
           if (lineupChannel) {
             const logoUrl = this.mode === 'dark' ? lineupChannel.tvgLogoDm : lineupChannel.tvgLogo;
             channels.push({
-              name: serviceChannel.channelName,
-              metadata: `#EXTINF:0 tvg-id="${lineupChannel.tvgId}" tvg-logo="${logoUrl}",${serviceChannel.channelName}`,
+              name: freeChannel.channelName,
+              metadata: `#EXTINF:0 tvg-id="${lineupChannel.tvgId}" tvg-logo="${logoUrl}",${freeChannel.channelName}`,
               url: lineupChannel.link,
               extgrp: lineupChannel.extGrp ? `#EXTGRP:${lineupChannel.extGrp}` : ''
             });
           }
         }
       });
-    
+
+      // Sort channels based on the order in 'channel-lineup.json'
       channels.sort((a, b) => channelOrder.indexOf(a.name) - channelOrder.indexOf(b.name));
-    
+
       let outputLines = ['#EXTM3U', ''];
       channels.forEach(channel => {
         outputLines.push(channel.metadata, channel.extgrp, channel.url, '');
       });
-    
+
       return Promise.resolve(outputLines.join('\n'));
     },    
     
