@@ -41,6 +41,7 @@ Vue.component("channel-table", {
       services: {} as ChannelStats,
       comparison: [] as ComparisonService[],
       channelLineup: {} as Record<string, any>,
+      freeChannels: [] as string[],
     };
   },
   async beforeMount() {
@@ -48,10 +49,12 @@ Vue.component("channel-table", {
       fetch("/service-channel-names.json").then((res) => res.json()) as Promise<ChannelStats>,
       fetch("/comparison-services.json").then((res) => res.json()) as Promise<ComparisonService[]>,
       fetch("/channel-lineup.json").then((res) => res.json()) as Promise<Record<string, any>>,
+      fetch("/free.json").then((res) => res.json()) as Promise<string[]>
     ]);
     this.services = services;
     this.comparison = comparison;
     this.channelLineup = channelLineup;
+    this.freeChannels = freeChannels;
   },
   methods: {
     getServiceName(service: string) {
@@ -61,12 +64,27 @@ Vue.component("channel-table", {
       return this.channelLineup[channelName]?.tvgLogo || 'https://raw.githubusercontent.com/dikodahan/dikodahan.github.io/master/creative/img/Categories/DikoPlus-icon.png';
     },
     hasChannel(serviceChannels: ChannelInfo[], channelName: string) {
+      const isInService = serviceChannels.some((ci) => ci.channelName === channelName);
+      const isInFree = this.freeChannels.includes(channelName);
+  
+      if (isInService) {
+        // If the channel exists in the service file, always mark as "✅"
+        return "✅";
+      } else if (isInFree) {
+        // If the channel is not in the service file but in the free file, mark as "🆓"
+        return "🆓";
+      } else {
+        // If the channel is in neither file, mark as "🛑"
+        return "🛑";
+      }
+    },
+    /* hasChannel(serviceChannels: ChannelInfo[], channelName: string) {
       const channelInfo = serviceChannels.find((ci: ChannelInfo) => ci.channelName === channelName);
       if (channelInfo) {
         return channelInfo.channelId === 'none' || channelInfo.channelId === 1010 ? "🆓" : "✅";
       }
       return "🛑";
-    },
+    }, */
   },
   computed: {
     channelNames() {
