@@ -3,6 +3,7 @@ import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 import tokenValues from "./invalid-tokens.json";
+import Free from "../free/free.json";
 
 const BASE_URL = "http://ombrlgiv.akciatv.ru/iptv";
 
@@ -29,28 +30,29 @@ export function* edemGenerator(
     }
   });
 
+  const freeChannelSet = new Set(Free.map(c => c.channelName));
+
   for (const channelName of Object.keys(channelLineup)) {
     const edemChannelArray = edemChannels.get(channelName);
+    const channelData = channelLineup[channelName as keyof typeof channelLineup];
 
     if (edemChannelArray) {
       for (const edemChannel of edemChannelArray) {
-        const { tvgRec, channelId } = edemChannel;
-        const channelData = channelLineup[channelName as keyof typeof channelLineup];
+        const { channelId, tvgRec } = edemChannel;
+        const { tvgId, tvgLogo, extGrp } = channelData;
 
-        const { tvgId, tvgLogo, link, extGrp } = channelData;
-
-        if (channelId == 1010) {
-          yield "";
-          yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
-          yield `#EXTGRP:${extGrp}`;
-          yield `${link}`;
-        } else {
-          yield "";
-          yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="${tvgRec}",${channelName}`;
-          yield `#EXTGRP:${extGrp}`;
-          yield `${BASE_URL}/${token}/${channelId}/index.m3u`;
-        }
+        yield "";
+        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" tvg-rec="${tvgRec}",${channelName}`;
+        yield `#EXTGRP:${extGrp}`;
+        yield `${BASE_URL}/${token}/${channelId}/index.m3u`;
       }
+    } else if (freeChannelSet.has(channelName)) {
+      const { tvgId, tvgLogo, link, extGrp } = channelData;
+
+      yield "";
+      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${link}`;
     }
   }
 }
