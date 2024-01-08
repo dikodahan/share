@@ -101,11 +101,8 @@ Vue.component("json-generator", {
                 </td>
             </tr>
         </table>
-        <p class="hebp">הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
-            <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
-        </p>
-        <p class="hebp">TBD:
-            <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="submitFile" class="custom-submit-button">SUBMIT</button><br>
+        <p class="hebp">לחצו כאן על מנת להשלוח את בקשת ההוספה של הספק למפתחים:
+            <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="submitFile" class="custom-download-button">הגשת בקשת</button><br>
         </p>
         <p v-if="errorMessage">{{ errorMessage }}</p>
         </div>
@@ -328,29 +325,29 @@ Vue.component("json-generator", {
       return updatedChannels;
     },
 
-    downloadFile() {
-      const modifiedFile = JSON.stringify(
-        this.updatePlaylistContent(),
-        null,
-        2
-      );
-      if (!modifiedFile) {
-        this.errorMessage = "אין קובץ מתוקן להורדה.";
-        return;
-      }
+    // downloadFile() {
+    //   const modifiedFile = JSON.stringify(
+    //     this.updatePlaylistContent(),
+    //     null,
+    //     2
+    //   );
+    //   if (!modifiedFile) {
+    //     this.errorMessage = "אין קובץ מתוקן להורדה.";
+    //     return;
+    //   }
 
-      const blob = new Blob([modifiedFile], { type: "application/json" });
-      const link = document.createElement("a");
-      link.href = URL.createObjectURL(blob);
-      // Use the provider name in the file name, default to 'DikoPlus' if not provided
-      const fileName = this.providerName
-        ? `${this.providerName}.json`
-        : "DikoPlus.json";
-      link.download = fileName; // Set the download attribute to the dynamic file name
-      link.click();
+    //   const blob = new Blob([modifiedFile], { type: "application/json" });
+    //   const link = document.createElement("a");
+    //   link.href = URL.createObjectURL(blob);
+    //   // Use the provider name in the file name, default to 'DikoPlus' if not provided
+    //   const fileName = this.providerName
+    //     ? `${this.providerName}.json`
+    //     : "DikoPlus.json";
+    //   link.download = fileName; // Set the download attribute to the dynamic file name
+    //   link.click();
 
-      URL.revokeObjectURL(link.href);
-    },
+    //   URL.revokeObjectURL(link.href);
+    // },
 
     async submitFile() {
       try {
