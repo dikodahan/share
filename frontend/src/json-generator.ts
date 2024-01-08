@@ -102,7 +102,7 @@ Vue.component("json-generator", {
             </tr>
         </table>
         <p class="hebp">לחצו כאן על מנת להשלוח את בקשת ההוספה של הספק למפתחים:
-            <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="submitFile" class="custom-download-button">הגשת בקשת</button><br>
+            <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="submitFile" class="custom-download-button">הגשת בקשה</button><br>
         </p>
         <p v-if="errorMessage">{{ errorMessage }}</p>
         </div>
