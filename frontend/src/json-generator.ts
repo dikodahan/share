@@ -1,15 +1,14 @@
 import { Channel, ChannelData, LineupChannel, LineupOption } from "../../shared/types/channel-data";
 import { MappingSubmitRequest } from "../../shared/types/mapping-submit-request";
+import vSelect from 'vue-select';
+import 'vue-select/dist/vue-select.css';
 
 export {};
 
 function formatKeyName(key: string) {
-  return key
-    .split("-")
-    .map((part: string, index: number) => {
-      return index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1);
-    })
-    .join("");
+  return key.split("-").map((part, index) => {
+    return index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1);
+  }).join("");
 }
 
 Vue.component("json-generator", {
@@ -82,15 +81,13 @@ Vue.component("json-generator", {
                 <td><img :src="channel.logo" alt="Channel Logo"/></td>
                 <td>{{ channel.name }}</td>
                 <td>
-                  <div class="dropdown" @focus="channel.isDropdownVisible = true" @blur="channel.isDropdownVisible = false">
-                    <input type="text" v-model="channel.dropdownFilter" placeholder="Type to filter..." @focus="channel.isDropdownVisible = true">
-                    <ul v-if="channel.isDropdownVisible">
-                      <li v-for="option in getFilteredChannelLineupOptions(channel)" :key="option.name" @click="selectChannel(channel, option)">
-                        {{ option.name }}
-                      </li>
-                    </ul>
-                  </div>      
-                </td>
+                    <!-- Replace your existing dropdown implementation with vSelect -->
+                    <v-select :options="channelLineupOptions.map(option => option.name)"
+                              label="name"
+                              v-model="channel.selectedMapping"
+                              @input="channel.dropdownFilter = $event">
+                    </v-select>
+                  </td>
                       <!-- Display logo from selectedMapping -->
                       <a v-if="channel.selectedMapping && channel.selectedMapping.epgLink" :href="channel.selectedMapping.epgLink" target="_blank">
                           <img :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
