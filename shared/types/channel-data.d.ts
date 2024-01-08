@@ -18,6 +18,7 @@ export interface Channel {
   tvgName?: string;
   groupTitle?: string;
   notWorking?: boolean;
+  dropdownFilter?: string;
 }
 
 export interface ChannelData {

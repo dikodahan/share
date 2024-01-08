@@ -79,19 +79,20 @@ Vue.component("json-generator", {
                   <th>ערוץ לא עובד</th>
               </tr>
               <tr v-for="channel in channels" :key="channel.name">
-                  <td><img :src="channel.logo" alt="Channel Logo"/></td>
-                  <td>{{ channel.name }}</td>
-                  <td>
-                    <div class="dropdown">
-                      <input type="text" v-model="dropdownFilter" placeholder="Type to filter...">
-                      <ul v-if="dropdownFilter">
-                        <li v-for="option in filteredChannelLineupOptions" :key="option.name" @click="selectChannel(option)">
-                          {{ option.name }}
-                        </li>
-                      </ul>
-                    </div>      
-                  </td>
-                  <td>
+                <td><img :src="channel.logo" alt="Channel Logo"/></td>
+                <td>{{ channel.name }}</td>
+                <td>
+                  <div class="dropdown">
+                    <!-- Use channel-specific filter -->
+                    <input type="text" v-model="channel.dropdownFilter" placeholder="Type to filter...">
+                    <ul>
+                      <!-- Filter options based on channel-specific filter -->
+                      <li v-for="option in getFilteredChannelLineupOptions(channel)" :key="option.name" @click="selectChannel(channel, option)">
+                        {{ option.name }}
+                      </li>
+                    </ul>
+                  </div>      
+                </td>
                       <!-- Display logo from selectedMapping -->
                       <a v-if="channel.selectedMapping && channel.selectedMapping.epgLink" :href="channel.selectedMapping.epgLink" target="_blank">
                           <img :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
@@ -234,9 +235,19 @@ Vue.component("json-generator", {
       reader.readAsText(file);
     },
 
-    selectChannel(option: LineupOption) {
-      this.selectedChannel = option;
-      this.dropdownFilter = option.name;
+    getFilteredChannelLineupOptions(channel: Channel): LineupOption[] {
+      if (!channel.dropdownFilter) {
+        return this.channelLineupOptions;
+      }
+      const filterLowerCase = channel.dropdownFilter.toLowerCase();
+      return this.channelLineupOptions.filter(option =>
+        option.name.toLowerCase().includes(filterLowerCase)
+      );
+    },
+    
+    selectChannel(channel: Channel, option: LineupOption) {
+      channel.selectedMapping = option;
+      channel.dropdownFilter = option.name; // Update the filter text to the selected option's name
     },
 
     async processM3UFile(content: string): Promise<Channel[]> {
