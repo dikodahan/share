@@ -12,15 +12,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "axios": "^1.6.5",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "form-data": "^4.0.0"
   },
   "files": [
     "./bin/*",
     "./lib/*"
   ],
   "devDependencies": {
-    "@types/node": "^20.2.6",
     "@types/express": "^4.17.15",
+    "@types/node": "^20.2.6",
     "typescript": "^4.9.4"
   }
 }

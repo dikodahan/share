@@ -2,6 +2,9 @@ import Express from "express";
 import { SERVICE_GENERATORS } from "./services";
 import { UserException } from "./user-exception";
 import * as path from "path";
+import bodyParser from "body-parser";
+import { telegramChat } from "./telegram-chat";
+import { MappingSubmitRequest } from "../../shared/types/mapping-submit-request";
 
 const app = Express();
 
@@ -16,6 +19,17 @@ app.use(
     extensions: ["html"],
   })
 );
+
+app.post("/services/:service/submit", bodyParser.json(), async (req, res) => {
+  const service = req.params.service;
+  const {channels, description, serviceName} = req.body as MappingSubmitRequest;
+  if (service !== serviceName) {
+    res.status(400).send("Invalid service name");
+    return;
+  }
+  await telegramChat.sendDocument(description, `${serviceName}.json`, JSON.stringify(channels, null, 2));
+  res.send("ok");
+});
 
 app.use(
   "/scripts",

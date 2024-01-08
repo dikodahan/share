@@ -1,39 +1,16 @@
+import { Channel, ChannelData, LineupChannel } from "../../shared/types/channel-data";
+import { MappingSubmitRequest } from "../../shared/types/mapping-submit-request";
+
 export {};
 
-interface LineupChannel {
-    tvgId: string;
-    tvgLogo: string;
-    tvgLogoDm: string;
-    extGrp: string;
-    epgLink: string;
-    link: string;
-    name?: string;
-}
-
-interface Channel {
-    name: string;
-    metadata: string;
-    url: string;
-    logo?: string | null;
-    selectedMapping?: LineupChannel;
-    tvgId?: string;
-    tvgName?: string;
-    groupTitle?: string;
-    notWorking?: boolean;
-}
-
-interface ChannelData {
-    channelName: string;
-    channelId: string;
-    [key: string]: string | undefined;
-}
-
 function formatKeyName(key: string) {
-    return key.split('-').map((part: string, index: number) => {
-        return index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1);
-    }).join('');
+  return key
+    .split("-")
+    .map((part: string, index: number) => {
+      return index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1);
+    })
+    .join("");
 }
-
 
 Vue.component("json-generator", {
   template: `
@@ -71,7 +48,7 @@ Vue.component("json-generator", {
         <!-- File Picker: Appears after answering the third question -->
         <div v-if="(isSingleGroup === 'YES' && groupName) || (isSingleGroup === 'NO' && channelPrefix)">
             <p class="hebp">בחרו את קובץ הפלייליסט שקיבלתם מהספק שלכם:
-                <input type="file" id="fileInput" @change="handleFileUpload" accept=".m3u,.m3u8" style="display: none;"/>
+                <input type="file" id="fileInput" @change="handleFileLoad" accept=".m3u,.m3u8" style="display: none;"/>
                 <label for="fileInput" class="custom-file-upload">בחירת קובץ...</label>
             </p>
         </div>
@@ -125,7 +102,10 @@ Vue.component("json-generator", {
             </tr>
         </table>
         <p class="hebp">הורידו את הקובץ המעודכן כדי לטעון אותו בנגן שלכם:
-            <button v-if="modifiedFile && allChannelsMappedOrNotWorking" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
+            <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="downloadFile" class="custom-download-button">הורדת קובץ...</button><br>
+        </p>
+        <p class="hebp">TBD:
+            <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="submitFile" class="custom-submit-button">SUBMIT</button><br>
         </p>
         <p v-if="errorMessage">{{ errorMessage }}</p>
         </div>
@@ -134,218 +114,276 @@ Vue.component("json-generator", {
 
   data() {
     return {
-        modifiedFile: null as string | null,
-        fileExtension: '' as string,
-        errorMessage: '',
-        channelLineup: {} as Record<string, any>,
-        channels: [] as Channel[],
-        channelLineupOptions: [] as { label: string; value: LineupChannel }[],
-        originalContent: '' as string,
-        uploadProgress: 0,
-        providerName: '',
-        isSingleGroup: '',
-        groupName: '',
-        channelPrefix: '',
-        showAdvancedOptions: false,
-        metadataTags: [] as string[],
-        selectedTags: [] as string[],
+      //   modifiedFile: null as string | null,
+      fileExtension: "" as string,
+      errorMessage: "",
+      channelLineup: {} as Record<string, any>,
+      channels: [] as Channel[],
+      channelLineupOptions: [] as { label: string; value: LineupChannel }[],
+      originalContent: "" as string,
+      uploadProgress: 0,
+      providerName: "",
+      isSingleGroup: "",
+      groupName: "",
+      channelPrefix: "",
+      showAdvancedOptions: false,
+      metadataTags: [] as string[],
+      selectedTags: [] as string[],
     };
   },
 
   computed: {
     allChannelsMappedOrNotWorking() {
-        return this.channels.every(channel => channel.selectedMapping || channel.notWorking);
-    }
+      return this.channels.every(
+        (channel) => channel.selectedMapping || channel.notWorking
+      );
+    },
   },
 
   async beforeMount() {
     try {
-      const channelLineup = await fetch("/channel-lineup.json").then((res) => res.json());
+      const channelLineup = await fetch("/channel-lineup.json").then((res) =>
+        res.json()
+      );
       this.channelLineup = channelLineup;
       this.channelLineupOptions = this.getChannelLineupOptions();
     } catch (error) {
-      console.error('Error fetching channel lineup:', error);
+      console.error("Error fetching channel lineup:", error);
       // Handle error appropriately
     }
   },
 
   methods: {
     setTextInputDirection(event: InputEvent) {
-        const hebrewCharRange = /[\u0590-\u05FF]/;
-        const inputElement = event.target as HTMLInputElement; // Typecast to HTMLInputElement
-        const inputText = inputElement.value;
-    
-        if (hebrewCharRange.test(inputText)) {
-          inputElement.style.direction = 'rtl';
-        } else {
-          inputElement.style.direction = 'ltr';
-        }
-      },
+      const hebrewCharRange = /[\u0590-\u05FF]/;
+      const inputElement = event.target as HTMLInputElement; // Typecast to HTMLInputElement
+      const inputText = inputElement.value;
 
-    async handleFileUpload(event: Event) {
-        const files = (event.target as HTMLInputElement).files;
-        if (!files) {
-            this.errorMessage = 'לא נבחר קובץ.';
-            return;
+      if (hebrewCharRange.test(inputText)) {
+        inputElement.style.direction = "rtl";
+      } else {
+        inputElement.style.direction = "ltr";
+      }
+    },
+
+    async handleFileLoad(event: Event) {
+      const files = (event.target as HTMLInputElement).files;
+      if (!files) {
+        this.errorMessage = "לא נבחר קובץ.";
+        return;
+      }
+
+      const file = files[0];
+      if (!file.name.endsWith(".m3u") && !file.name.endsWith(".m3u8")) {
+        this.errorMessage = "קובץ לא תקין. רק קבצי m3u ו-m3u8 נתמכים";
+        return;
+      }
+
+      this.fileExtension = file.name.endsWith(".m3u") ? ".m3u" : ".m3u8";
+      this.uploadProgress = 0; // Reset progress
+
+      const reader = new FileReader();
+
+      // Monitor progress
+      reader.onprogress = (event) => {
+        if (event.lengthComputable) {
+          const percentLoaded = Math.round((event.loaded / event.total) * 100);
+          this.uploadProgress = percentLoaded;
+          console.log("Upload Progress:", this.uploadProgress); // Debugging line
         }
-    
-        const file = files[0];
-        if (!file.name.endsWith('.m3u') && !file.name.endsWith('.m3u8')) {
-            this.errorMessage = 'קובץ לא תקין. רק קבצי m3u ו-m3u8 נתמכים';
-            return;
-        }
-    
-        this.fileExtension = file.name.endsWith('.m3u') ? '.m3u' : '.m3u8';
-        this.uploadProgress = 0; // Reset progress
-    
-        const reader = new FileReader();
-        
-        // Monitor progress
-        reader.onprogress = (event) => {
-            if (event.lengthComputable) {
-                const percentLoaded = Math.round((event.loaded / event.total) * 100);
-                this.uploadProgress = percentLoaded;
-                console.log('Upload Progress:', this.uploadProgress); // Debugging line
-            }
-        };
-    
-        reader.onloadstart = () => {
-            this.uploadProgress = 0;
-        };
-    
-        reader.onload = async (e: ProgressEvent<FileReader>) => {
-            const content = e.target?.result;
-            if (typeof content === 'string') {
-                try {
-                    this.originalContent = content; // Store the original content
-                    this.channels = await this.processM3UFile(content);
-                    this.errorMessage = '';
-                    this.modifiedFile = content; // Initially set modifiedFile to the original content
-                    this.uploadProgress = 100; // Mark as complete
-                } catch (error) {
-                    this.errorMessage = 'שגיאה בעריכת הקובץ.';
-                    console.error(error);
-                    this.uploadProgress = 0; // Reset progress on error
-                }
-            }
-        };
-    
-        reader.onerror = () => {
-            this.errorMessage = 'שגיאה בקריאת הקובץ.';
+      };
+
+      reader.onloadstart = () => {
+        this.uploadProgress = 0;
+      };
+
+      reader.onload = async (e: ProgressEvent<FileReader>) => {
+        const content = e.target?.result;
+        if (typeof content === "string") {
+          try {
+            this.originalContent = content; // Store the original content
+            this.channels = await this.processM3UFile(content);
+            this.errorMessage = "";
+            // this.modifiedFile = content; // Initially set modifiedFile to the original content
+            this.uploadProgress = 100; // Mark as complete
+          } catch (error) {
+            this.errorMessage = "שגיאה בעריכת הקובץ.";
+            console.error(error);
             this.uploadProgress = 0; // Reset progress on error
-        };
-    
-        reader.readAsText(file);
-    },      
+          }
+        }
+      };
+
+      reader.onerror = () => {
+        this.errorMessage = "שגיאה בקריאת הקובץ.";
+        this.uploadProgress = 0; // Reset progress on error
+      };
+
+      reader.readAsText(file);
+    },
 
     async processM3UFile(content: string): Promise<Channel[]> {
-        const lines = content.split('\n');
-        let channels: Channel[] = [];
-        let currentGroup = '';
-        let metadataTagsSet = new Set(); // To store unique metadata tags
-    
-        for (let i = 0; i < lines.length; i++) {
-            if (lines[i].startsWith('#EXTGRP:')) {
-                currentGroup = lines[i].substring(8).trim().toLowerCase();
-            }
-    
-            if (lines[i].startsWith('#EXTINF:')) {
-                const metadata = lines[i];
-                const url = lines[++i];
-                // Extract the channel name after the last comma
-                const name = metadata.substring(metadata.lastIndexOf(',') + 1).trim().toLowerCase();
-                const groupTitleMatch = metadata.match(/group-title="([^"]+)"/i);
-                let groupTitle = groupTitleMatch ? groupTitleMatch[1].toLowerCase() : currentGroup;
-    
-                let filterGroup = this.isSingleGroup === 'YES' ? this.groupName.toLowerCase() : this.channelPrefix.toLowerCase();
-                if ((this.isSingleGroup === 'YES' && groupTitle.includes(filterGroup)) ||
-                    (this.isSingleGroup === 'NO' && name.startsWith(filterGroup))) {
-                    // Extract additional channel information as needed
-                    const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
-                    const logo = logoMatch ? logoMatch[1] : undefined;
-                    const tvgIdMatch = metadata.match(/tvg-id="([^"]+)"/i);
-                    const tvgId = tvgIdMatch ? tvgIdMatch[1] : undefined;
-                    const tvgNameMatch = metadata.match(/tvg-name="([^"]+)"/i);
-                    const tvgName = tvgNameMatch ? tvgNameMatch[1] : undefined;
-    
-                    channels.push({ name, metadata, url, logo, tvgId, tvgName });
-                }
-    
-                // Extract all tags from the line for Advanced options
-                const tagRegex = /([a-zA-Z0-9-]+)="[^"]*"/g;
-                let match;
-                while ((match = tagRegex.exec(metadata)) !== null) {
-                    if (!['tvg-id', 'tvg-logo', 'group-title'].includes(match[1].toLowerCase())) {
-                        metadataTagsSet.add(match[1]);
-                    }
-                }
-            }
+      const lines = content.split("\n");
+      let channels: Channel[] = [];
+      let currentGroup = "";
+      let metadataTagsSet = new Set(); // To store unique metadata tags
+
+      for (let i = 0; i < lines.length; i++) {
+        if (lines[i].startsWith("#EXTGRP:")) {
+          currentGroup = lines[i].substring(8).trim().toLowerCase();
         }
-    
-        this.metadataTags = Array.from(metadataTagsSet) as string[]; // Convert Set to Array and assert type
-        return channels;
+
+        if (lines[i].startsWith("#EXTINF:")) {
+          const metadata = lines[i];
+          const url = lines[++i];
+          // Extract the channel name after the last comma
+          const name = metadata
+            .substring(metadata.lastIndexOf(",") + 1)
+            .trim()
+            .toLowerCase();
+          const groupTitleMatch = metadata.match(/group-title="([^"]+)"/i);
+          let groupTitle = groupTitleMatch
+            ? groupTitleMatch[1].toLowerCase()
+            : currentGroup;
+
+          let filterGroup =
+            this.isSingleGroup === "YES"
+              ? this.groupName.toLowerCase()
+              : this.channelPrefix.toLowerCase();
+          if (
+            (this.isSingleGroup === "YES" &&
+              groupTitle.includes(filterGroup)) ||
+            (this.isSingleGroup === "NO" && name.startsWith(filterGroup))
+          ) {
+            // Extract additional channel information as needed
+            const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
+            const logo = logoMatch ? logoMatch[1] : undefined;
+            const tvgIdMatch = metadata.match(/tvg-id="([^"]+)"/i);
+            const tvgId = tvgIdMatch ? tvgIdMatch[1] : undefined;
+            const tvgNameMatch = metadata.match(/tvg-name="([^"]+)"/i);
+            const tvgName = tvgNameMatch ? tvgNameMatch[1] : undefined;
+
+            channels.push({ name, metadata, url, logo, tvgId, tvgName });
+          }
+
+          // Extract all tags from the line for Advanced options
+          const tagRegex = /([a-zA-Z0-9-]+)="[^"]*"/g;
+          let match;
+          while ((match = tagRegex.exec(metadata)) !== null) {
+            if (
+              !["tvg-id", "tvg-logo", "group-title"].includes(
+                match[1].toLowerCase()
+              )
+            ) {
+              metadataTagsSet.add(match[1]);
+            }
+          }
+        }
+      }
+
+      this.metadataTags = Array.from(metadataTagsSet) as string[]; // Convert Set to Array and assert type
+      return channels;
     },
-    
-    getChannelLineupOptions() {
-        return Object.entries(this.channelLineup).map(([name, details]) => {
-            return {
-                name: name, // Channel name as key
-                ...details // Spread the rest of the details
-            };
-        });
+
+    getChannelLineupOptions(): any[] {
+      return Object.entries(this.channelLineup).map(([name, details]) => {
+        return {
+          name: name, // Channel name as key
+          ...details, // Spread the rest of the details
+        };
+      });
     },
-    
-    updatePlaylistContent() {
-        const filteredChannels = this.channels.filter(channel => !channel.notWorking);
-    
-        // Processed channels with additional properties
-        const updatedChannels = filteredChannels.map(channel => {
-            const channelData: ChannelData = {
-                channelName: channel.selectedMapping ? channel.selectedMapping.name || channel.name : channel.name,
-                channelId: channel.tvgId || channel.tvgName || 'none',
-                // Initialize additional properties here
-            };
-    
-            this.selectedTags.forEach(tag => {
-                const regex = new RegExp(`${tag}="([^"]+)"`, 'i');
-                const match = channel.metadata.match(regex);
-                if (match) {
-                    const formattedKey = formatKeyName(tag);
-                    channelData[formattedKey] = match[1];
-                } else {
-                    // Default value for non-existing tags
-                    const formattedKey = formatKeyName(tag);
-                    channelData[formattedKey] = '0';
-                }
-            });
-    
-            return channelData;
+
+    updatePlaylistContent(): ChannelData[] {
+      const filteredChannels = this.channels.filter(
+        (channel) => !channel.notWorking
+      );
+
+      // Processed channels with additional properties
+      const updatedChannels = filteredChannels.map((channel) => {
+        const channelData: ChannelData = {
+          channelName: channel.selectedMapping
+            ? channel.selectedMapping.name || channel.name
+            : channel.name,
+          channelId: channel.tvgId || channel.tvgName || "none",
+          // Initialize additional properties here
+        };
+
+        this.selectedTags.forEach((tag) => {
+          const regex = new RegExp(`${tag}="([^"]+)"`, "i");
+          const match = channel.metadata.match(regex);
+          if (match) {
+            const formattedKey = formatKeyName(tag);
+            channelData[formattedKey] = match[1];
+          } else {
+            // Default value for non-existing tags
+            const formattedKey = formatKeyName(tag);
+            channelData[formattedKey] = "0";
+          }
         });
-    
-        return JSON.stringify(updatedChannels, null, 2); // Pretty print the JSON
-    },          
+
+        return channelData;
+      });
+
+      return updatedChannels;
+    },
 
     downloadFile() {
-        this.modifiedFile = this.updatePlaylistContent();
-        if (!this.modifiedFile) {
-            this.errorMessage = 'אין קובץ מתוקן להורדה.';
-            return;
-        }
-    
-        const blob = new Blob([this.modifiedFile], { type: 'application/json' });
-        const link = document.createElement('a');
-        link.href = URL.createObjectURL(blob);
-        // Use the provider name in the file name, default to 'DikoPlus' if not provided
-        const fileName = this.providerName ? `${this.providerName}.json` : 'DikoPlus.json';
-        link.download = fileName; // Set the download attribute to the dynamic file name
-        link.click();
-    
-        URL.revokeObjectURL(link.href);
-        this.modifiedFile = null;
+      const modifiedFile = JSON.stringify(
+        this.updatePlaylistContent(),
+        null,
+        2
+      );
+      if (!modifiedFile) {
+        this.errorMessage = "אין קובץ מתוקן להורדה.";
+        return;
+      }
+
+      const blob = new Blob([modifiedFile], { type: "application/json" });
+      const link = document.createElement("a");
+      link.href = URL.createObjectURL(blob);
+      // Use the provider name in the file name, default to 'DikoPlus' if not provided
+      const fileName = this.providerName
+        ? `${this.providerName}.json`
+        : "DikoPlus.json";
+      link.download = fileName; // Set the download attribute to the dynamic file name
+      link.click();
+
+      URL.revokeObjectURL(link.href);
     },
-    
+
+    async submitFile() {
+      try {
+        const channels = this.updatePlaylistContent();
+        const body: MappingSubmitRequest = {
+          channels,
+          description: "some description",
+          serviceName: this.providerName,
+        };
+
+        const res = await fetch(
+          `/services/${encodeURIComponent(this.providerName)}/submit`,
+          {
+            method: "POST",
+            body: JSON.stringify(body),
+            headers: {
+              "Content-Type": "application/json",
+            },
+          }
+        );
+        if (!res.ok) {
+          throw new Error(
+            `failed to submit file: ${res.status} ${res.statusText}`
+          );
+        }
+        console.debug(res.status, res.statusText, await res.text());
+      } catch (e) {
+        console.error(e);
+      }
+    },
+
     toggleAdvancedOptions() {
-        this.showAdvancedOptions = !this.showAdvancedOptions;
-    },                        
+      this.showAdvancedOptions = !this.showAdvancedOptions;
+    },
   },
 });

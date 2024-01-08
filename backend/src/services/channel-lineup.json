@@ -407,6 +407,14 @@
         "epgLink"      : "https://www.hot.net.il/heb/TV/TVGuide/",
         "extGrp"        : "סדרות"
     },
+    "ערוץ 24": {
+        "tvgId"         : "channel-24-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Channel-24.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Channel-24-DM.png",
+        "link"          : "",
+        "epgLink"      : "https://www.yes.co.il/content/tvguide",
+        "extGrp"        : "סדרות"
+    },
     "סלקום ישראלי": {
         "tvgId"         : "israel-CELLCOM",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Israeli.png",
@@ -1067,14 +1075,6 @@
         "tvgId"         : "investigation-discovery-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/ID.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/ID-DM.png",
-        "link"          : "",
-        "epgLink"      : "https://www.yes.co.il/content/tvguide",
-        "extGrp"        : "תרבות וסטייל"
-    },
-    "ערוץ 24": {
-        "tvgId"         : "channel-24-YES",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Channel-24.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Channel-24-DM.png",
         "link"          : "",
         "epgLink"      : "https://www.yes.co.il/content/tvguide",
         "extGrp"        : "תרבות וסטייל"
