@@ -25,3 +25,7 @@ export interface ChannelData {
   channelId: string;
   [key: string]: string | undefined;
 }
+
+interface LineupOption extends LineupChannel {
+  name: string;
+}

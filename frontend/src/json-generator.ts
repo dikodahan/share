@@ -1,4 +1,4 @@
-import { Channel, ChannelData, LineupChannel } from "../../shared/types/channel-data";
+import { Channel, ChannelData, LineupChannel, LineupOption } from "../../shared/types/channel-data";
 import { MappingSubmitRequest } from "../../shared/types/mapping-submit-request";
 
 export {};
@@ -70,41 +70,44 @@ Vue.component("json-generator", {
         </div>
 
         <div v-if="channels.length > 0">
-        <table>
-            <tr>
-                <th>לוגו מקור</th>
-                <th>שם מקור</th>
-                <th>ערוץ בפועל</th>
-                <th>לוגו בפועל</th>
-                <th>ערוץ לא עובד</th>
-            </tr>
-            <tr v-for="channel in channels" :key="channel.name">
-                <td><img :src="channel.logo" alt="Channel Logo"/></td>
-                <td>{{ channel.name }}</td>
-                <td>
-                    <!-- Standard HTML Dropdown for mapping -->
-                    <select v-model="channel.selectedMapping" class="service-dropdown">
-                        <option disabled value="">בחר ערוץ...</option>
-                        <option v-for="lineupChannel in channelLineupOptions" :value="lineupChannel">
-                            {{ lineupChannel.name }}
-                        </option>
-                    </select>       
-                </td>
-                <td>
-                    <!-- Display logo from selectedMapping -->
-                    <a v-if="channel.selectedMapping && channel.selectedMapping.epgLink" :href="channel.selectedMapping.epgLink" target="_blank">
-                        <img :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
-                    </a>
-                </td>
-                <td>
-                    <input type="checkbox" v-model="channel.notWorking">
-                </td>
-            </tr>
-        </table>
-        <p class="hebp">לחצו כאן על מנת להשלוח את בקשת ההוספה של הספק למפתחים:
-            <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="submitFile" class="custom-download-button">הגשת בקשה</button><br>
-        </p>
-        <p v-if="errorMessage">{{ errorMessage }}</p>
+          <table>
+              <tr>
+                  <th>לוגו מקור</th>
+                  <th>שם מקור</th>
+                  <th>ערוץ בפועל</th>
+                  <th>לוגו בפועל</th>
+                  <th>ערוץ לא עובד</th>
+              </tr>
+              <tr v-for="channel in channels" :key="channel.name">
+                  <td><img :src="channel.logo" alt="Channel Logo"/></td>
+                  <td>{{ channel.name }}</td>
+                  <td>
+                    <div class="dropdown">
+                      <input type="text" v-model="dropdownFilter" placeholder="Type to filter...">
+                      <ul v-if="dropdownFilter">
+                        <li v-for="option in filteredChannelLineupOptions" :key="option.name" @click="selectChannel(option)">
+                          {{ option.name }}
+                        </li>
+                      </ul>
+                    </div>      
+                  </td>
+                  <td>
+                      <!-- Display logo from selectedMapping -->
+                      <a v-if="channel.selectedMapping && channel.selectedMapping.epgLink" :href="channel.selectedMapping.epgLink" target="_blank">
+                          <img :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
+                      </a>
+                  </td>
+                  <td>
+                      <input type="checkbox" v-model="channel.notWorking">
+                  </td>
+              </tr>
+          </table>
+          <div v-if="channels.length && allChannelsMappedOrNotWorking">
+            <p class="hebp">לחצו כאן על מנת להשלוח את בקשת ההוספה של הספק למפתחים:
+                <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="submitFile" class="custom-download-button">הגשת בקשה</button><br>
+            </p>
+            <p v-if="errorMessage">{{ errorMessage }}</p>
+          </div>
         </div>
     </div>
   `,
@@ -116,7 +119,7 @@ Vue.component("json-generator", {
       errorMessage: "",
       channelLineup: {} as Record<string, any>,
       channels: [] as Channel[],
-      channelLineupOptions: [] as { label: string; value: LineupChannel }[],
+      channelLineupOptions: [] as LineupOption[],
       originalContent: "" as string,
       uploadProgress: 0,
       providerName: "",
@@ -126,6 +129,8 @@ Vue.component("json-generator", {
       showAdvancedOptions: false,
       metadataTags: [] as string[],
       selectedTags: [] as string[],
+      dropdownFilter: '',
+      selectedChannel: null as LineupOption | null,
     };
   },
 
@@ -133,6 +138,16 @@ Vue.component("json-generator", {
     allChannelsMappedOrNotWorking() {
       return this.channels.every(
         (channel) => channel.selectedMapping || channel.notWorking
+      );
+    },
+
+    filteredChannelLineupOptions(): LineupOption[] {
+      if (!this.dropdownFilter) {
+        return this.channelLineupOptions;
+      }
+      const filterLowerCase = this.dropdownFilter.toLowerCase();
+      return this.channelLineupOptions.filter(option =>
+        option.name.toLowerCase().includes(filterLowerCase)
       );
     },
   },
@@ -219,6 +234,11 @@ Vue.component("json-generator", {
       reader.readAsText(file);
     },
 
+    selectChannel(option: LineupOption) {
+      this.selectedChannel = option;
+      this.dropdownFilter = option.name;
+    },
+
     async processM3UFile(content: string): Promise<Channel[]> {
       const lines = content.split("\n");
       let channels: Channel[] = [];
@@ -286,7 +306,7 @@ Vue.component("json-generator", {
       return Object.entries(this.channelLineup).map(([name, details]) => {
         return {
           name: name, // Channel name as key
-          ...details, // Spread the rest of the details
+          ...details as LineupChannel, // Spread the rest of the details
         };
       });
     },
@@ -324,30 +344,6 @@ Vue.component("json-generator", {
 
       return updatedChannels;
     },
-
-    // downloadFile() {
-    //   const modifiedFile = JSON.stringify(
-    //     this.updatePlaylistContent(),
-    //     null,
-    //     2
-    //   );
-    //   if (!modifiedFile) {
-    //     this.errorMessage = "אין קובץ מתוקן להורדה.";
-    //     return;
-    //   }
-
-    //   const blob = new Blob([modifiedFile], { type: "application/json" });
-    //   const link = document.createElement("a");
-    //   link.href = URL.createObjectURL(blob);
-    //   // Use the provider name in the file name, default to 'DikoPlus' if not provided
-    //   const fileName = this.providerName
-    //     ? `${this.providerName}.json`
-    //     : "DikoPlus.json";
-    //   link.download = fileName; // Set the download attribute to the dynamic file name
-    //   link.click();
-
-    //   URL.revokeObjectURL(link.href);
-    // },
 
     async submitFile() {
       try {
