@@ -165,7 +165,8 @@ a:active {
 }
 
 .modal-content {
-  background-color: white;
+  background-color: rgb(172, 173, 174);
+  color: black;
   padding: 20px;
   border-radius: 5px;
   text-align: center;

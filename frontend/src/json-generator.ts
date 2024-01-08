@@ -84,20 +84,21 @@ Vue.component("json-generator", {
                 </td>
             </tr>
         </table>
-        <div v-if="channels.length && allChannelsMappedOrNotWorking">
+        <div v-if="channels.length && allChannelsMappedOrNotWorking && !submissionSuccessful">
           <p class="hebp">לחצו כאן על מנת להשלוח את בקשת ההוספה של הספק למפתחים:
-            <button v-if="channels.length && allChannelsMappedOrNotWorking && !submissionSuccessful" @click="submitFile" class="custom-download-button">הגשת בקשת</button>
+            <button @click="submitFile" class="custom-download-button">הגשת בקשת</button>
           </p>
-          <div v-if="showModal" class="modal">
-            <div class="modal-content">
-              <h4 class="hebh4">טופס הגשת הבקשה</h4>
-              <p class="hebp">הבקשה הוגשה בהצלחה. אישור על הוספת הספק תינתן בקבוצה.</p>
-              <button @click="closeModal">OK</button>
-            </div>
+        </div>
+
+        <div v-if="showModal" class="modal">
+          <div class="modal-content">
+            <h4 class="hebh4">טופס הגשת הבקשה</h4>
+            <p class="hebp">הבקשה הוגשה בהצלחה. אישור על הוספת הספק תינתן בקבוצה.</p>
+            <button @click="closeModal">OK</button>
           </div>
         </div>
         <p v-if="errorMessage">{{ errorMessage }}</p>
-        </div>
+      </div>
     </div>
   `,
 
@@ -212,9 +213,9 @@ Vue.component("json-generator", {
 
     closeModal() {
       this.showModal = false;
-      this.submissionSuccessful = false; // Hide the submit button
+      this.submissionSuccessful = true;
     },
-    
+
     async processM3UFile(content: string): Promise<Channel[]> {
       const lines = content.split("\n");
       let channels: Channel[] = [];
