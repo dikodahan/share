@@ -19,6 +19,7 @@ export interface Channel {
   groupTitle?: string;
   notWorking?: boolean;
   dropdownFilter?: string;
+  isDropdownVisible?: boolean;
 }
 
 export interface ChannelData {

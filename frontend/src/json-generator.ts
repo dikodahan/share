@@ -82,11 +82,9 @@ Vue.component("json-generator", {
                 <td><img :src="channel.logo" alt="Channel Logo"/></td>
                 <td>{{ channel.name }}</td>
                 <td>
-                  <div class="dropdown">
-                    <!-- Use channel-specific filter -->
-                    <input type="text" v-model="channel.dropdownFilter" placeholder="Type to filter...">
-                    <ul>
-                      <!-- Filter options based on channel-specific filter -->
+                  <div class="dropdown" @focus="channel.isDropdownVisible = true" @blur="channel.isDropdownVisible = false">
+                    <input type="text" v-model="channel.dropdownFilter" placeholder="Type to filter..." @focus="channel.isDropdownVisible = true">
+                    <ul v-if="channel.isDropdownVisible">
                       <li v-for="option in getFilteredChannelLineupOptions(channel)" :key="option.name" @click="selectChannel(channel, option)">
                         {{ option.name }}
                       </li>
@@ -244,10 +242,11 @@ Vue.component("json-generator", {
         option.name.toLowerCase().includes(filterLowerCase)
       );
     },
-    
+
     selectChannel(channel: Channel, option: LineupOption) {
       channel.selectedMapping = option;
       channel.dropdownFilter = option.name; // Update the filter text to the selected option's name
+      channel.isDropdownVisible = false; // Hide the dropdown
     },
 
     async processM3UFile(content: string): Promise<Channel[]> {
