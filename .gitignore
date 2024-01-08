@@ -1,3 +1,4 @@
 node_modules
 lib
 public/service-channel-names.json
+local*.*

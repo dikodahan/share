@@ -2,6 +2,7 @@ import Express from "express";
 import { SERVICE_GENERATORS } from "./services";
 import { UserException } from "./user-exception";
 import * as path from "path";
+import { telegramChat } from "./telegram-chat";
 
 const app = Express();
 
@@ -16,6 +17,14 @@ app.use(
     extensions: ["html"],
   })
 );
+
+app.get(
+  "/send",
+  async (req,res)=>{
+    await telegramChat.sendfile()
+    res.send("ok")
+  }
+)
 
 app.use(
   "/scripts",
