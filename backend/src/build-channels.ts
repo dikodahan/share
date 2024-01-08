@@ -75,7 +75,7 @@ names.forEach((name) => {
   channels[name] = records;
 
   const serviceInfo = ComparisonServices.find((s) => s.service === name);
-  if (serviceInfo && serviceInfo.DikoPlus == "📄") {
+  if (serviceInfo?.DikoPlus === "📄") {
     const publicFolder = path.join(
       __dirname,
       "..",

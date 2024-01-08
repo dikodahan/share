@@ -7,30 +7,28 @@ import { edemGenerator } from "./edem/edem.generator";
 import { edemDmGenerator } from "./edemdm/edemdm.generator";
 import { dinoGenerator } from "./dino/dino.generator";
 import { dinoDmGenerator } from "./dinodm/dinodm.generator";
-import { tvTeamGenerator } from "./tvteam/tvteam.generator";
 import { testGenerator } from "./test/test.generator";
 import { crystalGenerator } from "./crystal/crystal.generator";
 import { crystalDmGenerator } from "./crystaldm/crystaldm.generator";
 import { freeGenerator } from "./free/free.generator";
-import { sanSatGenerator } from "./sansat/sansat.generator";
 
-
-type M3uGenerator = (username: string, password: string) => Generator<string, void, unknown>;
+type M3uGenerator = (
+  username: string,
+  password: string
+) => Generator<string, void, unknown>;
 
 export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
-    "livegous": liveGoUsGenerator,
-    "livego": liveGoGenerator,
-    "livegodm": liveGoDmGenerator,
-    "dino": dinoGenerator,
-    "dinodm": dinoDmGenerator,
-    "antifriz": antiFrizGenerator,
-    "antifrizdm": antiFrizDmGenerator,
-    "edem": edemGenerator,
-    "edemdm": edemDmGenerator,
-    "tvteam": tvTeamGenerator,
-    "test": testGenerator,
-    "crystal": crystalGenerator,
-    "crystaldm": crystalDmGenerator,
-    "free": freeGenerator,
-    "sansat": sanSatGenerator
-}
+  livegous: liveGoUsGenerator,
+  livego: liveGoGenerator,
+  livegodm: liveGoDmGenerator,
+  dino: dinoGenerator,
+  dinodm: dinoDmGenerator,
+  antifriz: antiFrizGenerator,
+  antifrizdm: antiFrizDmGenerator,
+  edem: edemGenerator,
+  edemdm: edemDmGenerator,
+  test: testGenerator,
+  crystal: crystalGenerator,
+  crystaldm: crystalDmGenerator,
+  free: freeGenerator,
+};
