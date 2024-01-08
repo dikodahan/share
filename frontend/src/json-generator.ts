@@ -1,14 +1,15 @@
-import { Channel, ChannelData, LineupChannel, LineupOption } from "../../shared/types/channel-data";
+import { Channel, ChannelData, LineupChannel } from "../../shared/types/channel-data";
 import { MappingSubmitRequest } from "../../shared/types/mapping-submit-request";
-import vSelect from 'vue-select';
-import 'vue-select/dist/vue-select.css';
 
 export {};
 
 function formatKeyName(key: string) {
-  return key.split("-").map((part, index) => {
-    return index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1);
-  }).join("");
+  return key
+    .split("-")
+    .map((part: string, index: number) => {
+      return index === 0 ? part : part.charAt(0).toUpperCase() + part.slice(1);
+    })
+    .join("");
 }
 
 Vue.component("json-generator", {
@@ -69,53 +70,52 @@ Vue.component("json-generator", {
         </div>
 
         <div v-if="channels.length > 0">
-          <table>
-              <tr>
-                  <th>לוגו מקור</th>
-                  <th>שם מקור</th>
-                  <th>ערוץ בפועל</th>
-                  <th>לוגו בפועל</th>
-                  <th>ערוץ לא עובד</th>
-              </tr>
-              <tr v-for="channel in channels" :key="channel.name">
+        <table>
+            <tr>
+                <th>לוגו מקור</th>
+                <th>שם מקור</th>
+                <th>ערוץ בפועל</th>
+                <th>לוגו בפועל</th>
+                <th>ערוץ לא עובד</th>
+            </tr>
+            <tr v-for="channel in channels" :key="channel.name">
                 <td><img :src="channel.logo" alt="Channel Logo"/></td>
                 <td>{{ channel.name }}</td>
                 <td>
-                    <!-- Replace your existing dropdown implementation with vSelect -->
-                    <v-select :options="channelLineupOptions.map(option => option.name)"
-                              label="name"
-                              v-model="channel.selectedMapping"
-                              @input="channel.dropdownFilter = $event">
-                    </v-select>
-                  </td>
-                      <!-- Display logo from selectedMapping -->
-                      <a v-if="channel.selectedMapping && channel.selectedMapping.epgLink" :href="channel.selectedMapping.epgLink" target="_blank">
-                          <img :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
-                      </a>
-                  </td>
-                  <td>
-                      <input type="checkbox" v-model="channel.notWorking">
-                  </td>
-              </tr>
-          </table>
-          <div v-if="channels.length && allChannelsMappedOrNotWorking">
-            <p class="hebp">לחצו כאן על מנת להשלוח את בקשת ההוספה של הספק למפתחים:
-                <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="submitFile" class="custom-download-button">הגשת בקשה</button><br>
-            </p>
-            <p v-if="errorMessage">{{ errorMessage }}</p>
-          </div>
+                    <!-- Standard HTML Dropdown for mapping -->
+                    <select v-model="channel.selectedMapping" class="service-dropdown">
+                        <option disabled value="">בחר ערוץ...</option>
+                        <option v-for="lineupChannel in channelLineupOptions" :value="lineupChannel">
+                            {{ lineupChannel.name }}
+                        </option>
+                    </select>       
+                </td>
+                <td>
+                    <!-- Display logo from selectedMapping -->
+                    <a v-if="channel.selectedMapping && channel.selectedMapping.epgLink" :href="channel.selectedMapping.epgLink" target="_blank">
+                        <img :src="channel.selectedMapping.tvgLogo" alt="Selected Channel Logo"/>
+                    </a>
+                </td>
+                <td>
+                    <input type="checkbox" v-model="channel.notWorking">
+                </td>
+            </tr>
+        </table>
+        <p class="hebp">לחצו כאן על מנת להשלוח את בקשת ההוספה של הספק למפתחים:
+            <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="submitFile" class="custom-download-button">הגשת בקשת</button><br>
+        </p>
+        <p v-if="errorMessage">{{ errorMessage }}</p>
         </div>
     </div>
   `,
 
   data() {
     return {
-      //   modifiedFile: null as string | null,
       fileExtension: "" as string,
       errorMessage: "",
       channelLineup: {} as Record<string, any>,
       channels: [] as Channel[],
-      channelLineupOptions: [] as LineupOption[],
+      channelLineupOptions: [] as { label: string; value: LineupChannel }[],
       originalContent: "" as string,
       uploadProgress: 0,
       providerName: "",
@@ -125,8 +125,6 @@ Vue.component("json-generator", {
       showAdvancedOptions: false,
       metadataTags: [] as string[],
       selectedTags: [] as string[],
-      dropdownFilter: '',
-      selectedChannel: null as LineupOption | null,
     };
   },
 
@@ -134,16 +132,6 @@ Vue.component("json-generator", {
     allChannelsMappedOrNotWorking() {
       return this.channels.every(
         (channel) => channel.selectedMapping || channel.notWorking
-      );
-    },
-
-    filteredChannelLineupOptions(): LineupOption[] {
-      if (!this.dropdownFilter) {
-        return this.channelLineupOptions;
-      }
-      const filterLowerCase = this.dropdownFilter.toLowerCase();
-      return this.channelLineupOptions.filter(option =>
-        option.name.toLowerCase().includes(filterLowerCase)
       );
     },
   },
@@ -157,14 +145,13 @@ Vue.component("json-generator", {
       this.channelLineupOptions = this.getChannelLineupOptions();
     } catch (error) {
       console.error("Error fetching channel lineup:", error);
-      // Handle error appropriately
     }
   },
 
   methods: {
     setTextInputDirection(event: InputEvent) {
       const hebrewCharRange = /[\u0590-\u05FF]/;
-      const inputElement = event.target as HTMLInputElement; // Typecast to HTMLInputElement
+      const inputElement = event.target as HTMLInputElement;
       const inputText = inputElement.value;
 
       if (hebrewCharRange.test(inputText)) {
@@ -188,7 +175,7 @@ Vue.component("json-generator", {
       }
 
       this.fileExtension = file.name.endsWith(".m3u") ? ".m3u" : ".m3u8";
-      this.uploadProgress = 0; // Reset progress
+      this.uploadProgress = 0;
 
       const reader = new FileReader();
 
@@ -197,7 +184,7 @@ Vue.component("json-generator", {
         if (event.lengthComputable) {
           const percentLoaded = Math.round((event.loaded / event.total) * 100);
           this.uploadProgress = percentLoaded;
-          console.log("Upload Progress:", this.uploadProgress); // Debugging line
+          console.log("Upload Progress:", this.uploadProgress);
         }
       };
 
@@ -209,48 +196,31 @@ Vue.component("json-generator", {
         const content = e.target?.result;
         if (typeof content === "string") {
           try {
-            this.originalContent = content; // Store the original content
+            this.originalContent = content;
             this.channels = await this.processM3UFile(content);
             this.errorMessage = "";
-            // this.modifiedFile = content; // Initially set modifiedFile to the original content
-            this.uploadProgress = 100; // Mark as complete
+            this.uploadProgress = 100;
           } catch (error) {
             this.errorMessage = "שגיאה בעריכת הקובץ.";
             console.error(error);
-            this.uploadProgress = 0; // Reset progress on error
+            this.uploadProgress = 0;
           }
         }
       };
 
       reader.onerror = () => {
         this.errorMessage = "שגיאה בקריאת הקובץ.";
-        this.uploadProgress = 0; // Reset progress on error
+        this.uploadProgress = 0;
       };
 
       reader.readAsText(file);
-    },
-
-    getFilteredChannelLineupOptions(channel: Channel): LineupOption[] {
-      if (!channel.dropdownFilter) {
-        return this.channelLineupOptions;
-      }
-      const filterLowerCase = channel.dropdownFilter.toLowerCase();
-      return this.channelLineupOptions.filter(option =>
-        option.name.toLowerCase().includes(filterLowerCase)
-      );
-    },
-
-    selectChannel(channel: Channel, option: LineupOption) {
-      channel.selectedMapping = option;
-      channel.dropdownFilter = option.name; // Update the filter text to the selected option's name
-      channel.isDropdownVisible = false; // Hide the dropdown
     },
 
     async processM3UFile(content: string): Promise<Channel[]> {
       const lines = content.split("\n");
       let channels: Channel[] = [];
       let currentGroup = "";
-      let metadataTagsSet = new Set(); // To store unique metadata tags
+      let metadataTagsSet = new Set();
 
       for (let i = 0; i < lines.length; i++) {
         if (lines[i].startsWith("#EXTGRP:")) {
@@ -260,7 +230,6 @@ Vue.component("json-generator", {
         if (lines[i].startsWith("#EXTINF:")) {
           const metadata = lines[i];
           const url = lines[++i];
-          // Extract the channel name after the last comma
           const name = metadata
             .substring(metadata.lastIndexOf(",") + 1)
             .trim()
@@ -279,7 +248,6 @@ Vue.component("json-generator", {
               groupTitle.includes(filterGroup)) ||
             (this.isSingleGroup === "NO" && name.startsWith(filterGroup))
           ) {
-            // Extract additional channel information as needed
             const logoMatch = metadata.match(/tvg-logo="([^"]+)"/);
             const logo = logoMatch ? logoMatch[1] : undefined;
             const tvgIdMatch = metadata.match(/tvg-id="([^"]+)"/i);
@@ -290,7 +258,6 @@ Vue.component("json-generator", {
             channels.push({ name, metadata, url, logo, tvgId, tvgName });
           }
 
-          // Extract all tags from the line for Advanced options
           const tagRegex = /([a-zA-Z0-9-]+)="[^"]*"/g;
           let match;
           while ((match = tagRegex.exec(metadata)) !== null) {
@@ -305,15 +272,15 @@ Vue.component("json-generator", {
         }
       }
 
-      this.metadataTags = Array.from(metadataTagsSet) as string[]; // Convert Set to Array and assert type
+      this.metadataTags = Array.from(metadataTagsSet) as string[];
       return channels;
     },
 
     getChannelLineupOptions(): any[] {
       return Object.entries(this.channelLineup).map(([name, details]) => {
         return {
-          name: name, // Channel name as key
-          ...details as LineupChannel, // Spread the rest of the details
+          name: name,
+          ...details,
         };
       });
     },
@@ -323,14 +290,12 @@ Vue.component("json-generator", {
         (channel) => !channel.notWorking
       );
 
-      // Processed channels with additional properties
       const updatedChannels = filteredChannels.map((channel) => {
         const channelData: ChannelData = {
           channelName: channel.selectedMapping
             ? channel.selectedMapping.name || channel.name
             : channel.name,
           channelId: channel.tvgId || channel.tvgName || "none",
-          // Initialize additional properties here
         };
 
         this.selectedTags.forEach((tag) => {
@@ -340,7 +305,6 @@ Vue.component("json-generator", {
             const formattedKey = formatKeyName(tag);
             channelData[formattedKey] = match[1];
           } else {
-            // Default value for non-existing tags
             const formattedKey = formatKeyName(tag);
             channelData[formattedKey] = "0";
           }
