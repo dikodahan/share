@@ -2,3 +2,8 @@ node_modules
 lib
 public/service-channel-names.json
 local*.*
+public/channel-lineup.json
+public/comparison-services.json
+public/free.json
+public/sansat.json
+public/tvteam.json
