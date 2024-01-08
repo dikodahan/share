@@ -84,9 +84,11 @@ Vue.component("json-generator", {
                 </td>
             </tr>
         </table>
-        <p class="hebp">לחצו כאן על מנת להשלוח את בקשת ההוספה של הספק למפתחים:
-            <button v-if="channels.length && allChannelsMappedOrNotWorking" @click="submitFile" class="custom-download-button">הגשת בקשת</button><br>
-        </p>
+        <div v-if="channels.length && allChannelsMappedOrNotWorking">
+          <p class="hebp">לחצו כאן על מנת להשלוח את בקשת ההוספה של הספק למפתחים:
+            <button v-if="channels.length && allChannelsMappedOrNotWorking && !submissionSuccessful" @click="submitFile" class="custom-download-button">הגשת בקשת</button>
+          </p>
+        </div>
         <p v-if="errorMessage">{{ errorMessage }}</p>
         </div>
     </div>
@@ -108,6 +110,7 @@ Vue.component("json-generator", {
       showAdvancedOptions: false,
       metadataTags: [] as string[],
       selectedTags: [] as string[],
+      submissionSuccessful: false,
     };
   },
 
@@ -308,7 +311,7 @@ Vue.component("json-generator", {
           description: "some description",
           serviceName: this.providerName,
         };
-
+    
         const res = await fetch(
           `/services/${encodeURIComponent(this.providerName)}/submit`,
           {
@@ -319,19 +322,26 @@ Vue.component("json-generator", {
             },
           }
         );
+    
         if (!res.ok) {
           throw new Error(
             `failed to submit file: ${res.status} ${res.statusText}`
           );
         }
+    
+        // Set the flag to true on successful submission
+        this.submissionSuccessful = true;
+    
+        // Popup message
+        alert("File was successfully submitted.");
+    
         console.debug(res.status, res.statusText, await res.text());
       } catch (e) {
         console.error(e);
+        // Reset the flag in case of an error
+        this.submissionSuccessful = false;
+        // You can also show an error message to the user here
       }
-    },
-
-    toggleAdvancedOptions() {
-      this.showAdvancedOptions = !this.showAdvancedOptions;
-    },
+    },    
   },
 });
