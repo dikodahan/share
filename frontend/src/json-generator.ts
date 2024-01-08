@@ -52,23 +52,6 @@ Vue.component("json-generator", {
                 <label for="fileInput" class="custom-file-upload">בחירת קובץ...</label>
             </p>
         </div>
-
-        <div v-if="channels.length > 0">
-            <div class="collapsible-header" @click="toggleAdvancedOptions">
-            <span :class="{'collapsed': !showAdvancedOptions, 'expanded': showAdvancedOptions}">&#9660;</span>
-                אפשרויות מתקדמות
-            </div>
-            <div v-show="showAdvancedOptions">
-                <ul>
-                    <li v-for="tag in metadataTags" :key="tag">
-                        <input type="checkbox" :id="tag" :value="tag" v-model="selectedTags">
-                        <label :for="tag">{{ tag }}</label>
-                    </li>
-                </ul>
-            </div>
-            <br>
-        </div>
-
         <div v-if="channels.length > 0">
         <table>
             <tr>
@@ -289,7 +272,7 @@ Vue.component("json-generator", {
       const filteredChannels = this.channels.filter(
         (channel) => !channel.notWorking
       );
-
+    
       const updatedChannels = filteredChannels.map((channel) => {
         const channelData: ChannelData = {
           channelName: channel.selectedMapping
@@ -297,8 +280,9 @@ Vue.component("json-generator", {
             : channel.name,
           channelId: channel.tvgId || channel.tvgName || "none",
         };
-
-        this.selectedTags.forEach((tag) => {
+    
+        // Iterate over all metadata tags instead of selected tags
+        this.metadataTags.forEach((tag) => {
           const regex = new RegExp(`${tag}="([^"]+)"`, "i");
           const match = channel.metadata.match(regex);
           if (match) {
@@ -309,10 +293,10 @@ Vue.component("json-generator", {
             channelData[formattedKey] = "0";
           }
         });
-
+    
         return channelData;
       });
-
+    
       return updatedChannels;
     },
 
