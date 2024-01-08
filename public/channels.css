@@ -12,6 +12,9 @@ H2.hebh2 {
 H3.hebh3 {
   text-align: right;
 }
+H3.hebh4 {
+  text-align: right;
+}
 P.hebp {
   text-align: right;
   font-size: 16px;
@@ -147,4 +150,23 @@ a:active {
 .collapsible-header span {
   display: inline-block;
   transition: transform 0.3s ease; /* Smooth transition for arrow rotation */
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
 }

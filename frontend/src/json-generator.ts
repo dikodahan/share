@@ -88,6 +88,13 @@ Vue.component("json-generator", {
           <p class="hebp">לחצו כאן על מנת להשלוח את בקשת ההוספה של הספק למפתחים:
             <button v-if="channels.length && allChannelsMappedOrNotWorking && !submissionSuccessful" @click="submitFile" class="custom-download-button">הגשת בקשת</button>
           </p>
+          <div v-if="showModal" class="modal">
+            <div class="modal-content">
+              <h4 class="hebh4">טופס הגשת הבקשה</h4>
+              <p class="hebp">הבקשה הוגשה בהצלחה. אישור על הוספת הספק תינתן בקבוצה.</p>
+              <button @click="closeModal">OK</button>
+            </div>
+          </div>
         </div>
         <p v-if="errorMessage">{{ errorMessage }}</p>
         </div>
@@ -111,6 +118,7 @@ Vue.component("json-generator", {
       metadataTags: [] as string[],
       selectedTags: [] as string[],
       submissionSuccessful: false,
+      showModal: false,
     };
   },
 
@@ -202,6 +210,11 @@ Vue.component("json-generator", {
       reader.readAsText(file);
     },
 
+    closeModal() {
+      this.showModal = false;
+      this.submissionSuccessful = false; // Hide the submit button
+    },
+    
     async processM3UFile(content: string): Promise<Channel[]> {
       const lines = content.split("\n");
       let channels: Channel[] = [];
@@ -284,7 +297,6 @@ Vue.component("json-generator", {
           channelId: channel.tvgId || channel.tvgName || "none",
         };
     
-        // Iterate over all metadata tags instead of selected tags
         this.metadataTags.forEach((tag) => {
           const regex = new RegExp(`${tag}="([^"]+)"`, "i");
           const match = channel.metadata.match(regex);
@@ -324,23 +336,18 @@ Vue.component("json-generator", {
         );
     
         if (!res.ok) {
-          throw new Error(
-            `failed to submit file: ${res.status} ${res.statusText}`
-          );
+          throw new Error(/* ... */);
         }
     
-        // Set the flag to true on successful submission
         this.submissionSuccessful = true;
-    
         // Popup message
-        alert("File was successfully submitted.");
+        this.showModal = true;
     
         console.debug(res.status, res.statusText, await res.text());
       } catch (e) {
         console.error(e);
-        // Reset the flag in case of an error
+        this.showModal = false;
         this.submissionSuccessful = false;
-        // You can also show an error message to the user here
       }
     },    
   },
