@@ -319,9 +319,24 @@ Vue.component("json-generator", {
     async submitFile() {
       try {
         const channels = this.updatePlaylistContent();
+    
+        // Extract the first two channel listings from the original content
+        const lines = this.originalContent.split("\n");
+        let description = '';
+        let channelCount = 0;
+        for (const line of lines) {
+          if (line.startsWith("#EXTINF:")) {
+            channelCount++;
+          }
+          description += line + '\n';
+          if (channelCount === 2 && line.startsWith("http")) {
+            break;
+          }
+        }
+    
         const body: MappingSubmitRequest = {
           channels,
-          description: "some description",
+          description: description.trim(), // Use the extracted description
           serviceName: this.providerName,
         };
     
@@ -337,11 +352,10 @@ Vue.component("json-generator", {
         );
     
         if (!res.ok) {
-          throw new Error(/* ... */);
+          throw new Error(`failed to submit file: ${res.status} ${res.statusText}`);
         }
     
         this.submissionSuccessful = true;
-        // Popup message
         this.showModal = true;
     
         console.debug(res.status, res.statusText, await res.text());
@@ -350,6 +364,6 @@ Vue.component("json-generator", {
         this.showModal = false;
         this.submissionSuccessful = false;
       }
-    },    
+    },        
   },
 });
