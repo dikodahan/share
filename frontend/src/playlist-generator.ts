@@ -240,7 +240,7 @@ Vue.component("playlist-generator", {
       // Sort channels based on the order in 'channel-lineup.json'
       channels.sort((a, b) => channelOrder.indexOf(a.name) - channelOrder.indexOf(b.name));
 
-      let outputLines = ['#EXTM3U', ''];
+      let outputLines = ['#EXTM3U url-tvg="https://bit.ly/DikoPlusEPG"', ''];
       channels.forEach(channel => {
         outputLines.push(channel.metadata, channel.extgrp, channel.url, '');
       });
