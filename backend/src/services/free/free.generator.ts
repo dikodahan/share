@@ -22,7 +22,7 @@ export function* freeGenerator(
         const { tvgId, tvgLogo, link, extGrp } = channelData;
   
         yield "";
-        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}" group-logo="https://raw.githubusercontent.com/dikodahan/dikodahan.github.io/master/creative/img/Categories/DikoPlus-icon.png",${channelName}`;
         if (extGrp == "רדיו") {
             yield `#EXTGRP:${extGrp}`;
         } else {
