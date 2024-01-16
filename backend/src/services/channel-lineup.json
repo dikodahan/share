@@ -83,7 +83,7 @@
         "tvgId"           : "shelanu-tv-CUSTOM",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Shelanu-TV.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Shelanu-TV-DM.png",
-        "link"          : "https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1704848270/ei/LpedZfKDF9Oni9oPx_-i0A4/ip/85.120.16.2/id/OjB76d9jeYw.1/source/yt_live_broadcast/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/tx/24554063/txs/24554063%2C24554066/hfr/1/playlist_duration/30/manifest_duration/30/maudio/1/spc/UWF9f7oV6joEmUGPqAAl1nKtMQ9inpSpyBRhox0d0sFxBx4/vprv/1/go/1/pacing/0/nvgoi/1/keepalive/yes/fexp/24007246/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cmaudio%2Cspc%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AJfQdSswRAIgUkrzrW_CePrXX15Tvbn4kbDwiwHrlvGoKPYT9-fnwjwCIF-eURKbavjg7-Q9A1jt0uZCy8eGle8wfvSu3SqKyPOP/file/index.m3u8",
+        "link"          : "https://1247634592.rsc.cdn77.org/1247634592/index.m3u8",
         "epgLink"      : "https://www.shelanu.tv",
         "extGrp"          : "ראשי"
     },
