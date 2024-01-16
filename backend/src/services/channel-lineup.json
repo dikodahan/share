@@ -59,7 +59,7 @@
         "tvgId"         : "knesset-99-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Knesset.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Knesset-DM.png",
-        "link"          : "https://contact.gostreaming.tv/Knesset/myStream/chunklist_w882959991.m3u8",
+        "link"          : "https://contact.gostreaming.tv/Accessibility/myStream/playlist.m3u8",
         "epgLink"      : "https://www.yes.co.il/content/tvguide",
         "extGrp"        : "ראשי"
     },
@@ -67,7 +67,7 @@
     "tvgId"             : "hidabrut-YES",
     "tvgLogo"           : "https://dikodahan.github.io/picons/light/Hidabrut.png",
     "tvgLogoDm"         : "https://dikodahan.github.io/picons/dark/Hidabrut-DM.png",
-        "link"          : "https://edge-fs-10.cybercdn.live/HidabrootIL/Live97/HidabrootIL/Live97_high/chunks.m3u8",
+        "link"          : "https://htv-live.cybercdn.live/HidabrootIL/Live97/playlist.m3u8",
         "epgLink"      : "https://www.yes.co.il/content/tvguide",
         "extGrp"          : "ראשי"
     },
