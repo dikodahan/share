@@ -1,4 +1,3 @@
-import Nachotoy from "./nachotoy.json";
 import { UserException } from "../../user-exception";
 
 export function* nachotoyGenerator(
