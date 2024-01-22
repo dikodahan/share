@@ -1,12 +1,20 @@
 import Express from "express";
-import { SERVICE_GENERATORS } from "./services";
 import { UserException } from "./user-exception";
 import * as path from "path";
 import bodyParser from "body-parser";
 import { telegramChat } from "./telegram-chat";
 import { MappingSubmitRequest } from "../../shared/types/mapping-submit-request";
+import { asyncVodGenerator } from "./services/vod/asyncVodGenerator";
+import { fetchData as nachotoyFetchData } from "./services/vod/nachotoy.generator";
 
 const app = Express();
+
+type GeneratorFunction = (username: string, password: string) => AsyncGenerator<string, void, unknown>;
+
+const SERVICE_GENERATORS: Record<string, GeneratorFunction> = {
+  "nachotoy": (username, password) => asyncVodGenerator(nachotoyFetchData, username, password),
+  // ... other services
+};
 
 app.get("/", (_, res) => {
   res.redirect("https://dikodahan.github.io");
@@ -22,7 +30,7 @@ app.use(
 
 app.post("/services/:service/submit", bodyParser.json(), async (req, res) => {
   const service = req.params.service;
-  const {channels, description, serviceName} = req.body as MappingSubmitRequest;
+  const { channels, description, serviceName } = req.body as MappingSubmitRequest;
   if (service !== serviceName) {
     res.status(400).send("Invalid service name");
     return;
@@ -39,34 +47,24 @@ app.use(
   })
 );
 
-app.get("/:service", (req, res) => {
-  const { u: username, p: password } = req.query;
+app.get("/:service", async (req, res) => {
+  const username = req.query.u as string || '';
+  const password = req.query.p as string || '';
   const service = req.params.service;
 
   try {
-    const generator = SERVICE_GENERATORS[service?.toLowerCase()];
-    if (!generator) {
+    const generatorFunction = SERVICE_GENERATORS[service?.toLowerCase()];
+    if (!generatorFunction) {
       throw new UserException("Invalid service", 400);
     }
 
     console.log(`Generating '${service}'...`);
 
-    const content = Array.from(
-      generator(
-        typeof username === "string" ? username : "",
-        typeof password === "string" ? password : ""
-      )
-    ).join("\n");
-
-    res.set({
-      "Content-Type": "application/octet-stream",
-      "Content-Description": "File Transfer",
-      "Cache-Control": "must-revalidate",
-      "Content-Disposition": `attachment; filename="DikoPlus.m3u"`,
-      Pragma: "public",
-      Expires: "0",
-    });
-
+    const generator = generatorFunction(username, password);
+    let content = '';
+    for await (const part of generator) {
+      content += part + "\n";
+    }
     res.send(content);
   } catch (e) {
     console.error(e);

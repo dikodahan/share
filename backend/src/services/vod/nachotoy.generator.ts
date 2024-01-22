@@ -5,8 +5,8 @@ interface ApiResponse {
   message: string;
 }
 
-// Asynchronous function to fetch data
-async function fetchData(code: string): Promise<string> {
+// Exported asynchronous function to fetch data
+export async function fetchData(code: string): Promise<string> {
   if (!code || code === "CODE") {
     throw new UserException("Invalid code", 400);
   }
