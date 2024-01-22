@@ -5,13 +5,15 @@ interface ApiResponse {
   message: string;
 }
 
-// Exported asynchronous function to fetch data
-export async function fetchData(code: string): Promise<string> {
-  if (!code || code === "CODE") {
+// Exported asynchronous generator function to fetch data
+export async function* nachotoyAsyncGenerator(
+  password: string
+): AsyncGenerator<string, void, unknown> {
+  if (!password || password === "CODE") { // Assuming 'username' is the correct variable
     throw new UserException("Invalid code", 400);
   }
 
-  const apiUrl = `https://nachotoy.com/api/videoLink/${code}/0/0/1`;
+  const apiUrl = `https://nachotoy.com/api/videoLink/${password}/0/0/1`;
 
   const response = await fetch(apiUrl);
   if (!response.ok) {
@@ -19,13 +21,5 @@ export async function fetchData(code: string): Promise<string> {
   }
 
   const data = (await response.json()) as ApiResponse;
-  return data.message;
-}
-
-// Synchronous generator function
-export function* nachotoyGenerator(
-  _: string,
-  code: string
-): Generator<Promise<string>, void, unknown> {
-  yield fetchData(code);
+  yield data.message; // Use 'yield' instead of 'return'
 }
