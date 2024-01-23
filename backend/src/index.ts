@@ -5,6 +5,7 @@ import * as path from "path";
 import bodyParser from "body-parser";
 import { telegramChat } from "./telegram-chat";
 import { MappingSubmitRequest } from "../../shared/types/mapping-submit-request";
+import { loadVideo } from './services/vod/nachotoy.generator';
 
 const app = Express();
 
@@ -19,6 +20,16 @@ app.use(
     extensions: ["html"],
   })
 );
+
+app.get('/vod', async (req, res) => {
+  try {
+      const userUrl = `https://${req.headers.host}${req.url}`;
+      const videoUrl = await loadVideo(userUrl);
+      res.redirect(videoUrl);
+  } catch (error) {
+      res.status(500).send('Server error occurred');
+  }
+});
 
 app.post("/services/:service/submit", bodyParser.json(), async (req, res) => {
   const service = req.params.service;
