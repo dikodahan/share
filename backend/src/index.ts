@@ -5,7 +5,7 @@ import * as path from "path";
 import bodyParser from "body-parser";
 import { telegramChat } from "./telegram-chat";
 import { MappingSubmitRequest } from "../../shared/types/mapping-submit-request";
-// import { VOD_GENERATORS } from './services';
+import { VOD_GENERATORS } from './services';
 
 const app = Express();
 
@@ -21,23 +21,24 @@ app.use(
   })
 );
 
-// app.get('/vod/:service', async (req, res) => {
-//   const service = req.params.service;
-//   const userUrl = `https://${req.headers.host}${req.url}`;
+app.get('/vod/:service', async (req, res) => {
+  const service = req.params.service;
+  const userUrl = `https://${req.headers.host}${req.url}`;
 
-//   try {
-//       const generator = VOD_GENERATORS[service];
-//       if (!generator) {
-//           res.status(404).send('VOD service not found');
-//           return;
-//       }
+  try {
+      const generator = VOD_GENERATORS[service];
+      if (!generator) {
+          res.status(404).send('VOD service not found');
+          return;
+      }
 
-//       const videoUrl = await generator(userUrl);
-//       res.redirect(videoUrl);
-//   } catch (error) {
-//       res.status(500).send('Server error occurred');
-//   }
-// });
+      const m3u8Content = await generator(userUrl);
+      res.set("Content-Type", "application/vnd.apple.mpegurl");
+      res.send(m3u8Content);
+  } catch (error) {
+      res.status(500).send('Server error occurred');
+  }
+});
 
 app.post("/services/:service/submit", bodyParser.json(), async (req, res) => {
   const service = req.params.service;

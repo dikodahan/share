@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import axios from 'axios';
 
 export async function nachotoyGenerator(userUrl: string): Promise<string> {
     try {
@@ -11,20 +11,25 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
         }
 
         const apiUrl = `https://nachotoy.com/api/videoLink/${code}/0/0/1`;
-        const response = await fetch(apiUrl);
+        const response = await axios.get(apiUrl);
 
-        if (!response.ok) {
+        if (response.status !== 200) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        const data = await response.json() as { message: string };
-        const message = data.message;
+        const message = response.data.message;
         const videoUrl = message.split(',')[0].replace(/"/g, '');
 
-        return videoUrl;
+        // Fetch the content of the m3u8 file
+        const m3u8Response = await axios.get(videoUrl);
+        if (m3u8Response.status !== 200) {
+            throw new Error(`Error fetching m3u8 content. Status: ${m3u8Response.status}`);
+        }
+
+        return m3u8Response.data; // Return the content of the m3u8 file
     } catch (error) {
-        if (error instanceof Error) {
-            console.error('Error in loadVideo method:', error.message);
+        if (axios.isAxiosError(error)) {
+            console.error('Axios error:', error.message);
             return `Error: ${error.message}`;
         } else {
             console.error('An unexpected error occurred');

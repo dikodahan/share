@@ -11,7 +11,7 @@ import { testGenerator } from "./test/test.generator";
 import { crystalGenerator } from "./crystal/crystal.generator";
 import { crystalDmGenerator } from "./crystaldm/crystaldm.generator";
 import { freeGenerator } from "./free/free.generator";
-// import { nachotoyGenerator } from "./vod/nachotoy.generator";
+import { nachotoyGenerator } from "./vod/nachotoy.generator";
 import "./tvteam/tvteam.json";
 import "./sansat/sansat.json";
 
@@ -20,9 +20,9 @@ type M3uGenerator = (
   password: string
 ) => Generator<string, void, unknown>;
 
-// type VodGenerator = (
-//   userUrl: string
-// ) => Promise<string>;
+type VodGenerator = (
+  userUrl: string
+) => Promise<string>;
 
 export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
   livegous: liveGoUsGenerator,
@@ -40,6 +40,6 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
   free: freeGenerator,
 };
 
-// export const VOD_GENERATORS: Record<string, VodGenerator> = {
-//   nachotoy: nachotoyGenerator,
-// };
+export const VOD_GENERATORS: Record<string, VodGenerator> = {
+  nachotoy: nachotoyGenerator,
+};
