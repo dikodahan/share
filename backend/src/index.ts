@@ -22,7 +22,6 @@ app.use(
 );
 
 app.get("/vod/:service", async (req, res) => {
-  console.log("VOD service route hit:", req.params.service); //debugging
   const service = req.params.service;
   const userUrl = `https://${req.headers.host}${req.url}`;
 
@@ -61,7 +60,6 @@ app.use(
 );
 
 app.get("/:service", (req, res) => {
-  console.log("Generic service route hit:", req.params.service); //debugging
   const { u: username, p: password } = req.query;
   const service = req.params.service;
 

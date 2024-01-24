@@ -11,6 +11,7 @@ import { testGenerator } from "./test/test.generator";
 import { crystalGenerator } from "./crystal/crystal.generator";
 import { crystalDmGenerator } from "./crystaldm/crystaldm.generator";
 import { freeGenerator } from "./free/free.generator";
+import { moviesGenerator } from "./movies/movies.generator";
 import { nachotoyGenerator } from "./vod/nachotoy.generator";
 import "./tvteam/tvteam.json";
 import "./sansat/sansat.json";
@@ -38,6 +39,7 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
   crystal: crystalGenerator,
   crystaldm: crystalDmGenerator,
   free: freeGenerator,
+  movies: moviesGenerator,
 };
 
 export const VOD_GENERATORS: Record<string, VodGenerator> = {
