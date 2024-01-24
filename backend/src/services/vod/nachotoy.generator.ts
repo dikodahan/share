@@ -1,6 +1,6 @@
 import fetch from 'node-fetch';
 
-export async function loadVideo(userUrl: string): Promise<string> {
+export async function nachotoyGenerator(userUrl: string): Promise<string> {
     try {
         const urlParams = new URLSearchParams(new URL(userUrl).search);
         const code = urlParams.get('code');
