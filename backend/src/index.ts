@@ -1,11 +1,11 @@
 import Express from "express";
+import { VOD_GENERATORS } from './services';
 import { SERVICE_GENERATORS } from "./services";
 import { UserException } from "./user-exception";
 import * as path from "path";
 import bodyParser from "body-parser";
 import { telegramChat } from "./telegram-chat";
 import { MappingSubmitRequest } from "../../shared/types/mapping-submit-request";
-import { VOD_GENERATORS } from './services';
 
 const app = Express();
 
