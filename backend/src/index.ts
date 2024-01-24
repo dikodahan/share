@@ -21,7 +21,7 @@ app.use(
   })
 );
 
-app.get('/vod/:service', async (req, res) => {
+app.get("/vod/:service", async (req, res) => {
   const service = req.params.service;
   const userUrl = `https://${req.headers.host}${req.url}`;
 
