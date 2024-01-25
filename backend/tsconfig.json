@@ -12,6 +12,7 @@
 	},
 	"include": [
 		"../shared/**/*",
-		"src/**/*"
+		"src/**/*",
+		"opensubtitles-api.d.ts",
 	]
 }
