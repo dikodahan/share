@@ -1,4 +1,4 @@
-import OpenSubtitles from 'opensubtitles-api';
+import { OpenSubtitles } from 'opensubtitles.com';
 import fs from 'fs';
 import path from 'path';
 
@@ -10,13 +10,10 @@ async function getImdbId(code: string): Promise<string | null> {
     return movie ? movie.imdb : null;
 }
 
-// Function to fetch subtitles URL using OpenSubtitles API
+// Function to fetch subtitles URL using OpenSubtitles.com API
 async function fetchSubtitlesUrl(imdbId: string): Promise<string | null> {
     const OpenSubtitlesClient = new OpenSubtitles({
-        useragent: 'UserAgent', // Replace with your user agent
-        username: 'Username', // Optional, for logging in
-        password: 'Password', // Optional, for logging in
-        ssl: true
+        apikey: process.env.OPENSUBTITLES_APIKEY,
     });
 
     try {
