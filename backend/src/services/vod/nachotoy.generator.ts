@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { getImdbId, fetchSubtitlesUrl } from './subs'; // Importing functions from subs.ts
+import { getImdbId, fetchSubtitlesUrl } from '../../subs';
 
 export async function nachotoyGenerator(userUrl: string): Promise<string> {
     try {
