@@ -10,7 +10,7 @@ export function* moviesGenerator(
 
     for (const movie of Movies) {
         yield ""; // Empty line as per your request
-        yield `#EXTINF:0 tvg-id="${movie.imdb}" tvg-logo="${movie.poster}",${movie.name} (${movie.release})`;
+        yield `#EXTINF:${movie.length} tvg-id="${movie.imdb}" tvg-logo="${movie.poster}",${movie.name} (${movie.release})`;
         yield `#EXTGRP:Nachotoy Movies`;
         yield `#IMDB:${movie.imdb}`;
         yield `#DESCRIPTION:${movie.description}`;

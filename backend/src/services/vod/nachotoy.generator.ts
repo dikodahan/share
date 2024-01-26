@@ -1,4 +1,5 @@
 import axios from 'axios';
+import movies from '../movies/movies.json';
 
 export async function nachotoyGenerator(userUrl: string): Promise<string> {
     try {
@@ -25,8 +26,41 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
         if (m3u8Response.status !== 200) {
             throw new Error(`Error fetching m3u8 content. Status: ${m3u8Response.status}`);
         }
+        
+        // Find the corresponding movie based on the code
+        const movie = movies.find(m => m.code === code);
+        if (movie) {
+            let m3u8Content = m3u8Response.data;
+            let subtitlesContent = '';
+            let subtitlesAdded = false;
 
-        return m3u8Response.data; // Return the content of the m3u8 file
+            for (let i = 1; i <= 5; i++) {
+                const subsKey = `subs-${i}` as keyof typeof movie;
+                const langKey = `lang-${i}` as keyof typeof movie;
+
+                if (movie[subsKey] && movie[langKey]) {
+                    const lang = movie[langKey] as string;
+                    const subs = movie[subsKey] as string;
+                    const name = lang === 'he' ? 'עברית' : 'English';
+                    const defaultFlag = subtitlesAdded ? 'NO' : 'YES';
+
+                    // Build subtitle line
+                    subtitlesContent += `#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="${name}",DEFAULT=${defaultFlag},AUTOSELECT=YES,FORCED=NO,LANGUAGE="${lang}",URI="${subs}"\n`;
+                    subtitlesAdded = true;
+                }
+            }
+
+            if (subtitlesAdded) {
+                // Split the m3u8 content
+                const parts = m3u8Content.split("#EXTINF:");
+                // Insert subtitles and EXT-X-STREAM-INF line
+                m3u8Content = parts[0] + subtitlesContent + '#EXT-X-STREAM-INF:BANDWIDTH=1280000,SUBTITLES="subs"\n' + "#EXTINF:" + parts.slice(1).join("#EXTINF:");
+            }
+
+            return m3u8Content;
+        }
+
+        return m3u8Response.data; // Return the original content if no subtitles are found
     } catch (error) {
         if (axios.isAxiosError(error)) {
             console.error('Axios error:', error.message);
