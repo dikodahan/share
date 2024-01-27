@@ -34,18 +34,19 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
             let subtitlesContent = '';
             let subtitlesAdded = false;
 
-            for (let i = 1; i <= 5; i++) {
+            for (let i = 1; i <= 9; i++) { // Adjusted for up to 9 subtitle files
                 const subsKey = `subs-${i}` as keyof typeof movie;
                 const langKey = `lang-${i}` as keyof typeof movie;
+                const labelKey = `label-${i}` as keyof typeof movie;
 
-                if (movie[subsKey] && movie[langKey]) {
+                if (movie[subsKey] && movie[langKey] && movie[labelKey]) {
                     const lang = movie[langKey] as string;
                     const subs = movie[subsKey] as string;
-                    const name = lang === 'he' ? 'עברית' : 'English';
+                    const label = movie[labelKey] as string;
                     const defaultFlag = subtitlesAdded ? 'NO' : 'YES';
 
                     // Build subtitle line
-                    subtitlesContent += `#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="${name}",DEFAULT=${defaultFlag},AUTOSELECT=YES,FORCED=NO,LANGUAGE="${lang}",URI="${subs}"\n`;
+                    subtitlesContent += `#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="${label}",DEFAULT=${defaultFlag},AUTOSELECT=YES,FORCED=NO,LANGUAGE="${lang}",URI="${subs}"\n`;
                     subtitlesAdded = true;
                 }
             }
