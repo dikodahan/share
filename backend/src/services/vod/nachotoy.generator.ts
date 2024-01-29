@@ -21,16 +21,9 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
         const message = response.data.message;
         const videoUrl = message.split(',')[0].replace(/"/g, '');
 
-        // Fetch the content of the m3u8 file
-        const m3u8Response = await axios.get(videoUrl);
-        if (m3u8Response.status !== 200) {
-            throw new Error(`Error fetching m3u8 content. Status: ${m3u8Response.status}`);
-        }
-        
         // Find the corresponding movie based on the code
         const movie = movies.find(m => m.code === code);
         if (movie) {
-            let m3u8Content = m3u8Response.data;
             let subtitlesContent = '';
             let subtitlesAdded = false;
 
@@ -52,16 +45,13 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
             }
 
             if (subtitlesAdded) {
-                // Split the m3u8 content
-                const parts = m3u8Content.split("#EXTINF:");
-                // Insert subtitles and EXT-X-STREAM-INF line
-                m3u8Content = parts[0] + subtitlesContent + '#EXT-X-STREAM-INF:BANDWIDTH=1280000,SUBTITLES="subs"\n' + "#EXTINF:" + parts.slice(1).join("#EXTINF:");
+                // Build custom m3u8 content
+                return `#EXTM3U\n${subtitlesContent}#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1280000,RESOLUTION=1920x1080,SUBTITLES="subs"\n${videoUrl}`;
             }
-
-            return m3u8Content;
         }
 
-        return m3u8Response.data; // Return the original content if no subtitles are found
+        // Return the original video URL if no subtitles are found
+        return videoUrl;
     } catch (error) {
         if (axios.isAxiosError(error)) {
             console.error('Axios error:', error.message);
