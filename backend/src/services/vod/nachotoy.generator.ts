@@ -46,7 +46,7 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
 
             if (subtitlesAdded) {
                 // Build custom m3u8 content
-                return `#EXTM3U\n${subtitlesContent}#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1280000,RESOLUTION=1920x1080,SUBTITLES="subs"\n${videoUrl}`;
+                return `#EXTM3U\n#EXT-X-VERSION:3\n${subtitlesContent}#EXT-X-STREAM-INF:BANDWIDTH=1280000,SUBTITLES="subs"\n${videoUrl}`;
             }
         }
 

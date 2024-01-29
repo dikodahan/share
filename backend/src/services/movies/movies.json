@@ -102,10 +102,10 @@
         "imdb": "14371878",
         "subs-1": "https://piratim.xyz/vtt/tt14371878/323225.vtt",
         "lang-1": "he",
-        "label-1": "Wizdom 1",
+        "label-1": "Wizdom_1",
         "subs-2": "https://piratim.xyz/vtt/tt14371878/323226.vtt",
         "lang-2": "he",
-        "label-2": "Wizdom 2"
+        "label-2": "Wizdom_2"
     },
     {
         "name": "נפוליאון",
@@ -121,10 +121,10 @@
         "imdb": "13287846",
         "subs-1": "https://piratim.xyz/vtt/tt13287846/323136.vtt",
         "lang-1": "he",
-        "label-1": "Wizdom 1",
+        "label-1": "Wizdom_1",
         "subs-2": "https://piratim.xyz/vtt/tt13287846/323140.vtt",
         "lang-2": "he",
-        "label-2": "Wizdom 2"
+        "label-2": "Wizdom_2"
     },
     {
         "name": "משחק תפקידים",
