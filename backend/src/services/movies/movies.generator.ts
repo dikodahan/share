@@ -3,10 +3,10 @@ import { epgGenerator } from "../epg.generator";
 
 export function* moviesGenerator(): Generator<string, void, unknown> {
 
-    // Sort movies by release year while preserving original order within the same year
+    // Sort movies by release year in descending order while preserving original order within the same year
     const sortedMovies = Movies.slice().sort((a, b) => {
-        return parseInt(a.release) - parseInt(b.release) || Movies.indexOf(a) - Movies.indexOf(b);
-    });
+      return parseInt(b.release) - parseInt(a.release) || Movies.indexOf(a) - Movies.indexOf(b);
+  });
 
     for (const line of epgGenerator()) {
         yield line;
