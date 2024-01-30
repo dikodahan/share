@@ -27,7 +27,7 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
             let subtitlesContent = '';
             let subtitlesAdded = false;
 
-            for (let i = 1; i <= 9; i++) { // Adjusted for up to 9 subtitle files
+            for (let i = 1; i <= 9; i++) {
                 const subsKey = `subs-${i}` as keyof typeof movie;
                 const langKey = `lang-${i}` as keyof typeof movie;
                 const labelKey = `label-${i}` as keyof typeof movie;
@@ -38,8 +38,13 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
                     const label = movie[labelKey] as string;
                     const defaultFlag = subtitlesAdded ? 'NO' : 'YES';
 
+                    // Extract subtitle ID from the URL
+                    const subtitleId = subs.split('/').pop()?.split('.')[0];
+                    // Construct new URI
+                    const newUri = `https://raw.githubusercontent.com/dikodahan/share03/main/subs/${movie.imdb}/${subtitleId}/prog_index.m3u8`;
+
                     // Build subtitle line
-                    subtitlesContent += `#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="${label}",DEFAULT=${defaultFlag},AUTOSELECT=YES,FORCED=NO,LANGUAGE="${lang}",URI="${subs}"\n`;
+                    subtitlesContent += `#EXT-X-MEDIA:TYPE=SUBTITLES,GROUP-ID="subs",NAME="${label}",DEFAULT=${defaultFlag},AUTOSELECT=YES,FORCED=NO,LANGUAGE="${lang}",URI="${newUri}"\n`;
                     subtitlesAdded = true;
                 }
             }

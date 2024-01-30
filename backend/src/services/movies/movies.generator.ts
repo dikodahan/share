@@ -10,7 +10,8 @@ export function* moviesGenerator(
 
     for (const movie of Movies) {
         yield ""; // Empty line as per your request
-        yield `#EXTINF:${movie.length} tvg-id="${movie.imdb}" tvg-logo="${movie.poster}",${movie.name} (${movie.release})`;
+        const movieName = movie.hasOwnProperty('subs-1') ? movie.name : `${movie.name} [ללא כתוביות]`;
+        yield `#EXTINF:${movie.length} tvg-id="${movie.imdb}" tvg-logo="${movie.poster}",${movieName} (${movie.release})`;
         yield `#EXTGRP:סרטים - ${movie.genre}`;
         yield `#IMDB:${movie.imdb}`;
         yield `#DESCRIPTION:${movie.description}`;
