@@ -56,7 +56,7 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
         }
 
         // Return the original video URL if no subtitles are found
-        return videoUrl;
+        return `#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=1280000,SUBTITLES="subs"\n${videoUrl}`;
     } catch (error) {
         if (axios.isAxiosError(error)) {
             console.error('Axios error:', error.message);
