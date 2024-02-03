@@ -39,7 +39,13 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
                     const defaultFlag = subtitlesAdded ? 'NO' : 'YES';
 
                     // Extract subtitle ID from the URL
-                    const subtitleId = subs.split('/').pop()?.split('.')[0];
+                    let subtitleId = subs.split('/').pop()?.split('.')[0];
+                    if (subs.includes('raw.githubusercontent.com')) {
+                        // For OpenSubtitles, extract the ID from the GitHub URL
+                        const parts = subs.split('/');
+                        subtitleId = parts[parts.length - 2];
+                    }
+                    
                     // Construct new URI
                     const newUri = `https://raw.githubusercontent.com/dikodahan/share03/main/subs/${movie.imdb}/${subtitleId}/prog_index.m3u8`;
 
