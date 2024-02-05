@@ -40,11 +40,11 @@
         "extGrp"        : "ראשי"
     },
     "ערוץ רלוונט": {
-        "tvgId"         : "relevant-RELEVANT",
+        "tvgId"         : "relevant-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Relevant.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Relevant-DM.png",
         "link"          : "https://6180c994cb835402.mediapackage.eu-west-1.amazonaws.com/out/v1/06e44cd7f7e0445fbd669f279c997fd4/index.mpd",
-        "epgLink"      : "https://live.relevant.co.il/#/epg",
+        "epgLink"      : "https://www.yes.co.il/content/tvguide",
         "extGrp"        : "ראשי"
     },
     "ערוץ 98": {
