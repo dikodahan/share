@@ -77,12 +77,15 @@ app.get("/:service", (req, res) => {
         typeof password === "string" ? password : ""
       )
     ).join("\n");
+    
+    // Modify the filename based on the service
+    const filename = service.toLowerCase() === 'movies' ? "DikoPlusVOD.m3u8" : "DikoPlus.m3u";
 
     res.set({
       "Content-Type": "application/octet-stream",
       "Content-Description": "File Transfer",
       "Cache-Control": "must-revalidate",
-      "Content-Disposition": `attachment; filename="DikoPlus.m3u"`,
+      "Content-Disposition": `attachment; filename="${filename}"`,
       Pragma: "public",
       Expires: "0",
     });
