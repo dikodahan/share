@@ -32,6 +32,8 @@ app.get("/vod/:service", async (req, res) => {
           return;
       }
 
+      console.log(`Accessing movie on '${service}'...`);
+
       const m3u8Content = await generator(userUrl);
       res.set("Content-Type", "application/vnd.apple.mpegurl");
       res.send(m3u8Content);
