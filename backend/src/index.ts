@@ -6,6 +6,7 @@ import * as path from "path";
 import bodyParser from "body-parser";
 import { telegramChat } from "./telegram-chat";
 import { MappingSubmitRequest } from "../../shared/types/mapping-submit-request";
+import { scrapeMovies } from './services/vod/nachotoy-search';
 
 const app = Express();
 
@@ -53,6 +54,29 @@ app.post("/services/:service/submit", bodyParser.json(), async (req, res) => {
   res.send("ok");
 });
 
+// New function for web scraping end-point
+app.post('/api/scrape-movies', async (req, res) => {
+  try {
+      // Extract the search query from the request body
+      const searchQuery = req.body.query;
+
+      // Validate the search query
+      if (!searchQuery) {
+          return res.status(400).send('Search query is required');
+      }
+
+      // Call the scraping function
+      const movies = await scrapeMovies(searchQuery);
+
+      // Send the response
+      return res.json({ movies });
+  } catch (error) {
+      console.error('Error during scraping:', error);
+      return res.status(500).send('Internal Server Error');
+  }
+});
+// End of new function
+
 app.use(
   "/scripts",
   Express.static(path.join(__dirname, "../../lib/frontend"), {
@@ -80,7 +104,6 @@ app.get("/:service", (req, res) => {
       )
     ).join("\n");
     
-    // Modify the filename based on the service
     const filename = service.toLowerCase() === 'movies' ? "DikoPlusVOD.m3u8" : "DikoPlus.m3u";
 
     res.set({
