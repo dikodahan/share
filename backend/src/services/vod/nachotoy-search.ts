@@ -1,6 +1,5 @@
 const puppeteer = require('puppeteer');
 
-// New function to scrape movies
 export async function scrapeMovies(searchQuery: string) {
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
