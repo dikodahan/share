@@ -1,5 +1,5 @@
 import puppeteer from 'puppeteer-core';
-import chromium from '@sparticuz/chromium';
+import chromium from '@sparticuz/chromium-min';
 
 // Optional configurations (adjust as needed)
 chromium.setHeadlessMode = true; // Enable headless mode
