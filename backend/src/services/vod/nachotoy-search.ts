@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+import puppeteer from 'puppeteer';
 
 export async function scrapeMovies(searchQuery: string) {
     const browser = await puppeteer.launch();
