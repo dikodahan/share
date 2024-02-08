@@ -1,7 +1,19 @@
-import puppeteer from 'puppeteer';
+import puppeteer from 'puppeteer-core';
+import chromium from '@sparticuz/chromium';
+
+// Optional configurations (adjust as needed)
+chromium.setHeadlessMode = true; // Enable headless mode
+chromium.setGraphicsMode = false; // Disable WebGL
 
 export async function scrapeMovies(searchQuery: string) {
-    const browser = await puppeteer.launch();
+    // Launch the browser with the appropriate configurations
+    const browser = await puppeteer.launch({
+        args: chromium.args,
+        defaultViewport: chromium.defaultViewport,
+        executablePath: await chromium.executablePath(),
+        headless: chromium.headless,
+    });
+
     const page = await browser.newPage();
     await page.goto('https://nachotoy.com');
 
@@ -16,7 +28,8 @@ export async function scrapeMovies(searchQuery: string) {
         poster: string;
         name: string;
     }
-    
+
+    // Scrape the movie data
     const movies = await page.evaluate(() => {
         const results: Movie[] = [];
         const items = document.querySelectorAll('.card__Item-sc-am32tb-10');
@@ -26,7 +39,7 @@ export async function scrapeMovies(searchQuery: string) {
             results.push({ poster, name });
         });
         return results;
-    });    
+    });
 
     await browser.close();
     return movies;
