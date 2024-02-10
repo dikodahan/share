@@ -1,12 +1,27 @@
 import Movies from "./movies.json";
 import { epgGenerator } from "../epg.generator";
 
+type Movie = {
+    name: string;
+    description: string;
+    original: string;
+    length: number;
+    release: string;
+    genre: string;
+    rating: string;
+    poster: string;
+    backdrop: string;
+    code: string;
+    imdb: string;
+};
+
 export function* moviesGenerator(): Generator<string, void, unknown> {
 
+    const moviesArray: Movie[] = Movies as Movie[];
     // Sort movies by release year in descending order while preserving original order within the same year
-    const sortedMovies = Movies.slice().sort((a, b) => {
-      return parseInt(b.release) - parseInt(a.release) || Movies.indexOf(a) - Movies.indexOf(b);
-  });
+    const sortedMovies = moviesArray.slice().sort((a: Movie, b: Movie) => {
+        return parseInt(b.release) - parseInt(a.release) || moviesArray.indexOf(a) - moviesArray.indexOf(b);
+    });     
 
     for (const line of epgGenerator()) {
         yield line;
