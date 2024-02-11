@@ -1,3 +1,4 @@
+import axios from 'axios';
 import Movies from "./movies.json";
 import { epgGenerator } from "../epg.generator";
 
@@ -15,13 +16,31 @@ type Movie = {
     imdb: string;
 };
 
-export function* moviesGenerator(): Generator<string, void, unknown> {
+async function fetchRemoteMovies(): Promise<Movie[]> {
+    try {
+        const response = await axios.get('https://raw.githubusercontent.com/dikodahan/share03/main/src/data/new.json');
+        return response.data as Movie[];
+    } catch (error) {
+        console.error("Failed to fetch remote movies:", error);
+        return [];
+    }
+}
 
-    const moviesArray: Movie[] = Movies as Movie[];
+export async function* moviesGenerator(): AsyncGenerator<string, void, unknown> {
+    const localMovies: Movie[] = Movies as Movie[];
+    const remoteMovies: Movie[] = await fetchRemoteMovies();
+
+    // Merge and filter out duplicates
+    const uniqueMovieCodes = new Set(localMovies.map(movie => movie.code));
+    const combinedMovies = [
+        ...localMovies,
+        ...remoteMovies.filter(movie => !uniqueMovieCodes.has(movie.code))
+    ];
+
     // Sort movies by release year in descending order while preserving original order within the same year
-    const sortedMovies = moviesArray.slice().sort((a: Movie, b: Movie) => {
-        return parseInt(b.release) - parseInt(a.release) || moviesArray.indexOf(a) - moviesArray.indexOf(b);
-    });     
+    const sortedMovies = combinedMovies.slice().sort((a: Movie, b: Movie) => {
+        return parseInt(b.release) - parseInt(a.release) || combinedMovies.indexOf(a) - combinedMovies.indexOf(b);
+    });
 
     for (const line of epgGenerator()) {
         yield line;

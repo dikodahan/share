@@ -1,6 +1,6 @@
 import Express from "express";
-import { VOD_GENERATORS } from './services';
-import { SERVICE_GENERATORS } from "./services";
+import { Response } from 'express';
+import { SERVICE_GENERATORS, ASYNC_SERVICE_GENERATORS, VOD_GENERATORS } from "./services";
 import { UserException } from "./user-exception";
 import * as path from "path";
 import bodyParser from "body-parser";
@@ -61,7 +61,66 @@ app.use(
   })
 );
 
-app.get("/:service", (req, res) => {
+app.get("/:service", async (req, res) => {  // Updated to async
+  const { u: username, p: password } = req.query;
+  const service = req.params.service;
+
+  try {
+    // Check if the service is an async generator
+    const asyncGenerator = ASYNC_SERVICE_GENERATORS[service?.toLowerCase()];
+    if (asyncGenerator) {
+      console.log(`Generating '${service}' asynchronously...`);
+
+      const content = [];
+      for await (const line of asyncGenerator(
+        typeof username === "string" ? username : "",
+        typeof password === "string" ? password : ""
+      )) {
+        content.push(line);
+      }
+      sendResponse(res, service, content.join("\n"));
+      return;
+    }
+
+    // Handle synchronous generators
+    const generator = SERVICE_GENERATORS[service?.toLowerCase()];
+    if (!generator) {
+      throw new UserException("Invalid service", 400);
+    }
+
+    console.log(`Generating '${service}'...`);
+
+    const content = Array.from(
+      generator(
+        typeof username === "string" ? username : "",
+        typeof password === "string" ? password : ""
+      )
+    ).join("\n");
+    
+    sendResponse(res, service, content);
+  } catch (e) {
+    console.error(e);
+    e instanceof UserException
+      ? res.status(e.statusCode).send(e.message)
+      : res.status(500).send("Internal Server Error");
+  }
+});
+
+function sendResponse(res: Response, service: string, content: string) {
+  const filename = service.toLowerCase() === 'movies' ? "DikoPlusVOD.m3u8" : "DikoPlus.m3u";
+
+  res.set({
+    "Content-Type": "application/octet-stream",
+    "Content-Description": "File Transfer",
+    "Cache-Control": "must-revalidate",
+    "Content-Disposition": `attachment; filename="${filename}"`,
+    Pragma: "public",
+    Expires: "0",
+  });
+
+  res.send(content);
+}
+/* app.get("/:service", (req, res) => {
   const { u: username, p: password } = req.query;
   const service = req.params.service;
 
@@ -98,6 +157,6 @@ app.get("/:service", (req, res) => {
       ? res.status(e.statusCode).send(e.message)
       : res.status(500).send("Internal Server Error");
   }
-});
+}); */
 
 app.listen(3000, () => console.log("Started"));

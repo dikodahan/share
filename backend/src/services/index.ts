@@ -21,6 +21,11 @@ type M3uGenerator = (
   password: string
 ) => Generator<string, void, unknown>;
 
+type AsyncM3uGenerator = (
+  username: string,
+  password: string
+) => AsyncGenerator<string, void, unknown>;
+
 type VodGenerator = (
   userUrl: string
 ) => Promise<string>;
@@ -39,6 +44,9 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
   crystal: crystalGenerator,
   crystaldm: crystalDmGenerator,
   free: freeGenerator,
+};
+
+export const ASYNC_SERVICE_GENERATORS: Record<string, AsyncM3uGenerator> = {
   movies: moviesGenerator,
 };
 
