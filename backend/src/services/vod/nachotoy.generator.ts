@@ -1,5 +1,5 @@
 import axios from 'axios';
-import movies from '../movies/movies.json';
+import localMovies from '../movies/movies.json';
 
 type Movie = {
     name: string;
@@ -17,9 +17,20 @@ type Movie = {
     [key: string]: string | number;
 };
 
-const typedMovies: Movie[] = movies as Movie[];
+async function getCombinedMovies(): Promise<Movie[]> {
+    try {
+        const remoteMoviesUrl = 'https://raw.githubusercontent.com/dikodahan/share03/main/src/data/new.json';
+        const response = await axios.get<Movie[]>(remoteMoviesUrl);
+        const remoteMovies = response.data;
+        return [...localMovies as Movie[], ...remoteMovies];
+    } catch (error) {
+        console.error('Error fetching remote movies:', error);
+        return localMovies as Movie[]; // Fallback to local movies in case of an error
+    }
+}
 
 export async function nachotoyGenerator(userUrl: string): Promise<string> {
+    const movies = await getCombinedMovies();
     try {
         const urlParams = new URLSearchParams(new URL(userUrl).search);
         const code = urlParams.get('code');
@@ -40,7 +51,7 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
         const videoUrl = message.split(',')[0].replace(/"/g, '');
 
         // Find the corresponding movie based on the code
-        const movie = typedMovies.find((m: Movie) => m.code === code);
+        const movie = movies.find((m: Movie) => m.code === code);
         if (movie) {
             let subtitlesContent = '';
             let subtitlesAdded = false;
