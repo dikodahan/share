@@ -1,6 +1,24 @@
 import axios from 'axios';
 import movies from '../movies/movies.json';
 
+type Movie = {
+    name: string;
+    description: string;
+    original: string;
+    length: number;
+    release: string;
+    genre: string;
+    rating: string;
+    poster: string;
+    backdrop: string;
+    code: string;
+    imdb: string;
+    // Define the structure for subtitle properties if they follow a consistent pattern
+    [key: string]: string | number;
+};
+
+const typedMovies: Movie[] = movies as Movie[];
+
 export async function nachotoyGenerator(userUrl: string): Promise<string> {
     try {
         const urlParams = new URLSearchParams(new URL(userUrl).search);
@@ -22,7 +40,7 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
         const videoUrl = message.split(',')[0].replace(/"/g, '');
 
         // Find the corresponding movie based on the code
-        const movie = movies.find(m => m.code === code);
+        const movie = typedMovies.find((m: Movie) => m.code === code);
         if (movie) {
             let subtitlesContent = '';
             let subtitlesAdded = false;

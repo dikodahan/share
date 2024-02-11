@@ -526,5 +526,17 @@
     {
         "channelName": "MTV ישראל",
         "channelId": "IL: MTV HD"
+    },
+    {
+        "channelName": "מנצ׳סטר יונייטד",
+        "channelId": "IL: MU TV"
+    },
+    {
+        "channelName": "ערוץ האופנה הישראלי",
+        "channelId": "IL: Fashion"
+    },
+    {
+        "channelName": "הוט בוליווד",
+        "channelId": "Il: Bollywood HD"
     }
 ]
