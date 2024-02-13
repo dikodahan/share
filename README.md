@@ -1,4 +1,4 @@
 
 # Typescript module
 
-This project is tested with Browserstack.
+This project is tested with BrowserStack.
