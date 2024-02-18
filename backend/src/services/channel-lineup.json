@@ -999,6 +999,14 @@
         "epgLink"      : "https://www.yes.co.il/content/tvguide",
         "extGrp"        : "תרבות וסטייל"
     },
+    "ערוץ דוק טיוי": {
+        "tvgId"         : "doc-tv-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Doc-TV.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Doc-TV-DM.png",
+        "link"          : "",
+        "epgLink"      : "https://web.freetv.tv/comedy,2263/freetv-srtym-yrly,3479997",
+        "extGrp"        : "תרבות וסטייל"
+    },
     "ערוץ הבריאות": {
         "tvgId"         : "health-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Health.png",
@@ -1427,6 +1435,22 @@
         "tvgId"         : "special-romantic-shows-HOT",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Special-Romantic-Shows.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Special-Romantic-Shows-DM.png",
+        "link"          : "",
+        "epgLink"      : "https://www.hot.net.il/heb/TV/TVGuide/",
+        "extGrp"        : "שפות זרות"
+    },
+    "ערוץ הסדרות ההודיות": {
+        "tvgId"         : "indian-series-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Indian-Series.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Indian-Series-DM.png",
+        "link"          : "",
+        "epgLink"      : "https://www.hot.net.il/heb/TV/TVGuide/",
+        "extGrp"        : "שפות זרות"
+    },
+    "ערוץ הסדרות ההודיות 2": {
+        "tvgId"         : "indian-series-2-YES",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Indian-Series-2.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Indian-Series-2-DM.png",
         "link"          : "",
         "epgLink"      : "https://www.hot.net.il/heb/TV/TVGuide/",
         "extGrp"        : "שפות זרות"
