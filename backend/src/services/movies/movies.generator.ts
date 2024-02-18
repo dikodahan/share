@@ -1,6 +1,8 @@
 import axios from 'axios';
+import Airtable from 'airtable';
 import Movies from "./movies.json";
 import { epgGenerator } from "../epg.generator";
+import { UserException } from "../../user-exception";
 
 type Movie = {
     name: string;
@@ -26,7 +28,33 @@ async function fetchRemoteMovies(): Promise<Movie[]> {
     }
 }
 
-export async function* moviesGenerator(): AsyncGenerator<string, void, unknown> {
+const airtableApiKey = process.env.AIRTABLE_API;
+const baseId = process.env.AIRTABLE_BASE_ID;
+const airtableName = process.env.AIRTABLE_NAME;
+const airtableFieldName = process.env.AIRTABLE_FIELD_NAME;
+
+const base = new Airtable({ apiKey: airtableApiKey }).base(baseId);
+
+async function isValidToken(token: string): Promise<boolean> {
+    try {
+        const records = await base(airtableName).select({
+            filterByFormula: `{${airtableFieldName}} = '${token}'`
+        }).firstPage();        
+
+        return records.length > 0;
+    } catch (error) {
+        console.error("Error validating token:", error);
+        return false;
+    }
+}
+
+export async function* moviesGenerator(
+    _: string,
+    token: string
+): AsyncGenerator<string, void, unknown> {
+    if (!token || token === "TOKEN" || !(await isValidToken(token))) {
+        throw new UserException("Invalid token", 400);
+    }
     const localMovies: Movie[] = Movies as Movie[];
     const remoteMovies: Movie[] = await fetchRemoteMovies();
 
