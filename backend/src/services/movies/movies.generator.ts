@@ -33,6 +33,10 @@ const baseId = process.env.AIRTABLE_BASE_ID;
 const airtableName = process.env.AIRTABLE_NAME;
 const airtableFieldName = process.env.AIRTABLE_FIELD_NAME;
 
+if (!airtableApiKey || !baseId || !airtableName || !airtableFieldName) {
+    throw new Error("Missing required environment variables for Airtable configuration.");
+}
+
 const base = new Airtable({ apiKey: airtableApiKey }).base(baseId);
 
 async function isValidToken(token: string): Promise<boolean> {
