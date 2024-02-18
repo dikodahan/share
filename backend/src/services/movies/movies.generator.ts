@@ -37,13 +37,19 @@ if (!airtableApiKey || !baseId || !airtableName || !airtableFieldName) {
     throw new Error("Missing required environment variables for Airtable configuration.");
 }
 
-const base = new Airtable({ apiKey: airtableApiKey }).base(baseId);
+// These are now guaranteed to be strings
+const safeAirtableApiKey = airtableApiKey;
+const safeBaseId = baseId;
+const safeAirtablename = airtableName;
+const safeAirtableFieldName = airtableFieldName;
+
+const base = new Airtable({ apiKey: safeAirtableApiKey }).base(safeBaseId);
 
 async function isValidToken(token: string): Promise<boolean> {
     try {
-        const records = await base(airtableName).select({
-            filterByFormula: `{${airtableFieldName}} = '${token}'`
-        }).firstPage();        
+        const records = await base(safeAirtablename).select({
+            filterByFormula: `{${safeAirtableFieldName}} = '${token}'`
+        }).firstPage();
 
         return records.length > 0;
     } catch (error) {
