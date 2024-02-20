@@ -59,7 +59,7 @@
         "tvgId"         : "knesset-99-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Knesset.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Knesset-DM.png",
-        "link"          : "https://contact.gostreaming.tv/Knesset/myStream/playlist.m3u8",
+        "link"          : "https://contactgbs.mmdlive.lldns.net/contactgbs/a40693c59c714fecbcba2cee6e5ab957/manifest.m3u8",
         "epgLink"      : "https://www.yes.co.il/content/tvguide",
         "extGrp"        : "ראשי"
     },
