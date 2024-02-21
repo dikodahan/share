@@ -727,10 +727,10 @@
         "epgLink"      : "https://www.partner.co.il/w/tv/main/#!/epg",
         "extGrp"          : "ילדים"
     },
-    "סלקום קלטות ילדים": {
+    "סלקום ילדים": {
         "tvgId"         : "yeladim-CELLCOM",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Kids-Tapes.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Kids-Tapes-DM.png",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Kids.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Kids-DM.png",
         "link"          : "",
         "epgLink"      : "none",
         "extGrp"        : "ילדים"
