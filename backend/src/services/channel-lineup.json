@@ -271,7 +271,7 @@
         "epgLink"      : "https://www.partner.co.il/w/tv/main/#!/epg",
         "extGrp"        : "סרטים"
     },
-    "סלקום ילדים": {
+    "סלקום קידס": {
         "tvgId"         : "yeladim-CELLCOM",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Kids.png",
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Kids-DM.png",
