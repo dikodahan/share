@@ -159,6 +159,14 @@
         "epgLink"      : "https://www.partner.co.il/w/tv/main/#!/epg",
         "extGrp"        : "סרטים"
     },
+    "סלקום סרטים": {
+        "tvgId"         : "sratim-CELLCOM",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Sratim.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Sratim-DM.png",
+        "link"          : "",
+        "epgLink"      : "https://cellcom.co.il/production/Private/cellcomtv/content/",
+        "extGrp"        : "סרטים"
+    },
     "יס פופאפ": {
         "tvgId"           : "pop-up-YES",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Yes-Pop-Up.png",
@@ -205,14 +213,6 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/FreeTV-Movies-Romantic-DM.png",
         "link"          : "",
         "epgLink"      : "https://web.freetv.tv/comedy,2263/freetv-srtym-yrly,3479997",
-        "extGrp"        : "סרטים"
-    },
-    "סלקום סרטים": {
-        "tvgId"         : "sratim-CELLCOM",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Sratim.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Sratim-DM.png",
-        "link"          : "",
-        "epgLink"      : "https://cellcom.co.il/production/Private/cellcomtv/content/",
         "extGrp"        : "סרטים"
     },
     "יס קולנוע ישראלי": {
@@ -269,6 +269,14 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Partner-Kids-DM.png",
         "link"          : "",
         "epgLink"      : "https://www.partner.co.il/w/tv/main/#!/epg",
+        "extGrp"        : "סרטים"
+    },
+    "סלקום ילדים": {
+        "tvgId"         : "yeladim-CELLCOM",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Kids.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Kids-DM.png",
+        "link"          : "",
+        "epgLink"      : "none",
         "extGrp"        : "סרטים"
     },
     "יס פופאפ אנימציה": {
@@ -351,14 +359,6 @@
         "epgLink"      : "https://www.partner.co.il/w/tv/main/#!/epg",
         "extGrp"        : "סדרות"
     },
-    "HBO סלקום": {
-        "tvgId"         : "hbo-CELLCOM",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HBO.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HBO-DM.png",
-        "link"          : "",
-        "epgLink"      : "https://cellcom.co.il/production/Private/cellcomtv/content/",
-        "extGrp"        : "סדרות"
-    },
     "יס טלויזיה דרמה": {
         "tvgId"         : "tv-drama-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Yes-TV-Drama.png",
@@ -389,6 +389,14 @@
         "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HOT-HBO-DM.png",
         "link"          : "",
         "epgLink"      : "https://www.hot.net.il/heb/TV/TVGuide/",
+        "extGrp"        : "סדרות"
+    },
+    "HBO סלקום": {
+        "tvgId"         : "hbo-CELLCOM",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/HBO.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/HBO-DM.png",
+        "link"          : "",
+        "epgLink"      : "https://cellcom.co.il/production/Private/cellcomtv/content/",
         "extGrp"        : "סדרות"
     },
     "פרי טיוי טלויזיה סדרות": {
@@ -726,14 +734,6 @@
         "link"          : "",
         "epgLink"      : "https://www.partner.co.il/w/tv/main/#!/epg",
         "extGrp"          : "ילדים"
-    },
-    "סלקום ילדים": {
-        "tvgId"         : "yeladim-CELLCOM",
-        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Cellcom-Kids.png",
-        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/Cellcom-Kids-DM.png",
-        "link"          : "",
-        "epgLink"      : "none",
-        "extGrp"        : "ילדים"
     },
     "ילדותי": {
         "tvgId"         : "yalduti-YES",
