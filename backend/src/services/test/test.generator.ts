@@ -19,7 +19,15 @@ export async function* testGenerator(
   _: string,
   token: string
 ): AsyncGenerator<string, void, unknown> {
-  // ... [Existing setup code]
+  if (!token || token === "TOKEN") {
+    throw new UserException("Invalid token", 400);
+  }
+
+  const playlist: PlaylistData = await fetchAndParseM3UPlaylist(token);
+
+  for (const line of epgGenerator()) {
+    yield line;
+  }
 
   const playlist: PlaylistData = await fetchAndParseM3UPlaylist(token);
   const freeChannelSet = new Set(Free.map(c => c.channelName));
