@@ -9,6 +9,7 @@ const PLAYLIST_URL = "http://troya.one/pl/41/TOKEN/playlist.m3u8";
 
 type ChannelData = {
   tvgRec: string;
+  timeshift: string;
   url: string;
 };
 
@@ -78,9 +79,6 @@ function parseM3UPlaylist(data: string): PlaylistData {
 
   for (let i = 0; i < lines.length; i++) {
     if (lines[i].startsWith("#EXTINF:")) {
-      console.log("Parsing line:", lines[i]); // Debug log
-
-      // Adjusted regex to match 'timeshift' instead of 'tvg-rec'
       const channelData = lines[i].match(/tvg-id="([^"]+)".*timeshift="([^"]+)"/);
 
       let url = '';
@@ -91,15 +89,11 @@ function parseM3UPlaylist(data: string): PlaylistData {
         }
       }
 
-      console.log("Extracted Data:", channelData, url); // Debug log
-
       if (channelData && url) {
-        // Use the value of 'timeshift' for both 'tvgRec' and 'timeshift'
         playlist[channelData[1]] = { tvgRec: channelData[2], timeshift: channelData[2], url: url };
       }
     }
   }
 
-  console.log("Final Playlist:", playlist); // Debug log
   return playlist;
 }
