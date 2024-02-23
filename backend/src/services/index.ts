@@ -40,13 +40,13 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
   antifrizdm: antiFrizDmGenerator,
   edem: edemGenerator,
   edemdm: edemDmGenerator,
-  test: testGenerator,
   crystal: crystalGenerator,
   crystaldm: crystalDmGenerator,
   free: freeGenerator,
 };
 
 export const ASYNC_SERVICE_GENERATORS: Record<string, AsyncM3uGenerator> = {
+  test: testGenerator,
   movies: moviesGenerator,
 };
 

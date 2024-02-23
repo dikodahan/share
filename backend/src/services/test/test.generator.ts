@@ -1,53 +1,84 @@
+import axios from "axios";
 import Test from "./test.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 import Free from "../free/free.json";
 
+const PLAYLIST_URL = "http://troya.one/pl/41/TOKEN/playlist.m3u8";
+
 export function* testGenerator(
-  username: string,
-  password: string
+  _: string,
+  token: string
 ): Generator<string, void, unknown> {
-  if (!username || !password || username == "USERNAME" || password == "PASSWORD") {
-    throw new UserException("Invalid username or password", 400);
+  if (!token || token === "TOKEN") {
+    throw new UserException("Invalid token", 400);
   }
+
+  // Fetch and parse the M3U playlist
+  const playlist = yield* fetchAndParseM3UPlaylist(token);
 
   for (const line of epgGenerator()) {
     yield line;
   }
 
-  const testChannels = new Map<string, Array<typeof Test[number]>>();
+  const freeChannelSet = new Set(Free.map(c => c.channelName));
+  const testChannels = new Map<string, typeof Test[number]>();
+
   Test.forEach(channel => {
-    if (testChannels.has(channel.channelName)) {
-      testChannels.get(channel.channelName)?.push(channel);
-    } else {
-      testChannels.set(channel.channelName, [channel]);
-    }
+    testChannels.set(channel.channelId, channel);
   });
 
-  const freeChannelSet = new Set(Free.map(c => c.channelName));
+  // Process channels from the downloaded playlist
+  for (const [channelId, playlistData] of Object.entries(playlist)) {
+    const testChannel = testChannels.get(channelId);
+    const channelData = channelLineup[testChannel?.channelName as keyof typeof channelLineup];
 
-  for (const channelName of Object.keys(channelLineup)) {
-    const testChannelArray = testChannels.get(channelName);
-    const channelData = channelLineup[channelName as keyof typeof channelLineup];
-
-    if (testChannelArray) {
-      for (const testChannel of testChannelArray) {
-        const { channelId, tvgShift, tvgName } = testChannel;
-        const { tvgId, tvgLogo, extGrp } = channelData;
-
-        yield "";
-        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-shift="${tvgShift}" tvg-logo="${tvgLogo}",${channelName}`;
-        yield `#EXTGRP:${extGrp}`;
-        yield `http://livego.club:8080/${username}/${password}/${channelId}`;
-      }
-    } else if (freeChannelSet.has(channelName)) {
+    if (testChannel && channelData) {
+      yield "";
+      yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${testChannel.channelName}`;
+      yield `#EXTGRP:${channelData.extGrp}`;
+      yield playlistData.url;
+    } else if (freeChannelSet.has(testChannel?.channelName)) {
       const { tvgId, tvgLogo, link, extGrp } = channelData;
 
       yield "";
-      yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${testChannel?.channelName}`;
       yield `#EXTGRP:${extGrp}`;
       yield `${link}`;
     }
   }
+}
+
+async function fetchAndParseM3UPlaylist(token: string): Promise<Record<string, { tvgRec: string; url: string }>> {
+  const url = PLAYLIST_URL.replace("TOKEN", token);
+  const response = await axios.get(url);
+  const playlistData = response.data;
+  return parseM3UPlaylist(playlistData);
+}
+
+function parseM3UPlaylist(data: string): Record<string, { tvgRec: string; url: string }> {
+  const lines = data.split('\n');
+  const playlist = {};
+
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].startsWith("#EXTINF:")) {
+      const channelData = lines[i].match(/tvg-id="([^"]+)".*tvg-rec="([^"]+)"/);
+
+      // Find the next line that starts with 'http'
+      let url = '';
+      for (let j = i + 1; j < lines.length; j++) {
+        if (lines[j].startsWith("http")) {
+          url = lines[j];
+          break;
+        }
+      }
+
+      if (channelData && url) {
+        playlist[channelData[1]] = { tvgRec: channelData[2], url: url };
+      }
+    }
+  }
+
+  return playlist;
 }
