@@ -7,7 +7,12 @@ import Free from "../free/free.json";
 
 const PLAYLIST_URL = "http://troya.one/pl/41/TOKEN/playlist.m3u8";
 
-type PlaylistData = Record<string, { tvgRec: string; url: string }>;
+type ChannelData = {
+  tvgRec: string;
+  url: string;
+};
+
+type PlaylistData = Record<string, ChannelData>;
 
 export async function* testGenerator(
   _: string,
@@ -17,7 +22,7 @@ export async function* testGenerator(
     throw new UserException("Invalid token", 400);
   }
 
-  const playlist = await fetchAndParseM3UPlaylist(token);
+  const playlist: PlaylistData = await fetchAndParseM3UPlaylist(token);
 
   for (const line of epgGenerator()) {
     yield line;
@@ -33,20 +38,22 @@ export async function* testGenerator(
   // Process channels from the downloaded playlist
   for (const [channelId, playlistData] of Object.entries(playlist)) {
     const testChannel = testChannels.get(channelId);
-    const channelData = channelLineup[testChannel?.channelName as keyof typeof channelLineup];
-
-    if (testChannel && channelData) {
-      yield "";
-      yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${testChannel.channelName}`;
-      yield `#EXTGRP:${channelData.extGrp}`;
-      yield playlistData.url;
-    } else if (freeChannelSet.has(testChannel?.channelName)) {
-      const { tvgId, tvgLogo, link, extGrp } = channelData;
-
-      yield "";
-      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${testChannel?.channelName}`;
-      yield `#EXTGRP:${extGrp}`;
-      yield `${link}`;
+    if (testChannel) {
+      const channelData = channelLineup[testChannel.channelName as keyof typeof channelLineup];
+  
+      if (channelData) {
+        yield "";
+        yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${testChannel.channelName}`;
+        yield `#EXTGRP:${channelData.extGrp}`;
+        yield playlistData.url;
+      } else if (freeChannelSet.has(testChannel.channelName)) {
+        const { tvgId, tvgLogo, link, extGrp } = channelData;
+  
+        yield "";
+        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${testChannel.channelName}`;
+        yield `#EXTGRP:${extGrp}`;
+        yield `${link}`;
+      }
     }
   }
 }
@@ -60,7 +67,7 @@ async function fetchAndParseM3UPlaylist(token: string): Promise<PlaylistData> {
 
 function parseM3UPlaylist(data: string): PlaylistData {
   const lines = data.split('\n');
-  const playlist = {};
+  const playlist: PlaylistData = {};
 
   for (let i = 0; i < lines.length; i++) {
     if (lines[i].startsWith("#EXTINF:")) {
@@ -81,5 +88,5 @@ function parseM3UPlaylist(data: string): PlaylistData {
     }
   }
 
-  return playlist as PlaylistData;
+  return playlist;
 }
