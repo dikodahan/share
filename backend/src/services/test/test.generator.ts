@@ -7,16 +7,17 @@ import Free from "../free/free.json";
 
 const PLAYLIST_URL = "http://troya.one/pl/41/TOKEN/playlist.m3u8";
 
-export function* testGenerator(
+type PlaylistData = Record<string, { tvgRec: string; url: string }>;
+
+export async function* testGenerator(
   _: string,
   token: string
-): Generator<string, void, unknown> {
+): AsyncGenerator<string, void, unknown> {
   if (!token || token === "TOKEN") {
     throw new UserException("Invalid token", 400);
   }
 
-  // Fetch and parse the M3U playlist
-  const playlist = yield* fetchAndParseM3UPlaylist(token);
+  const playlist = await fetchAndParseM3UPlaylist(token);
 
   for (const line of epgGenerator()) {
     yield line;
@@ -50,14 +51,14 @@ export function* testGenerator(
   }
 }
 
-async function fetchAndParseM3UPlaylist(token: string): Promise<Record<string, { tvgRec: string; url: string }>> {
+async function fetchAndParseM3UPlaylist(token: string): Promise<PlaylistData> {
   const url = PLAYLIST_URL.replace("TOKEN", token);
   const response = await axios.get(url);
   const playlistData = response.data;
   return parseM3UPlaylist(playlistData);
 }
 
-function parseM3UPlaylist(data: string): Record<string, { tvgRec: string; url: string }> {
+function parseM3UPlaylist(data: string): PlaylistData {
   const lines = data.split('\n');
   const playlist = {};
 
@@ -80,5 +81,5 @@ function parseM3UPlaylist(data: string): Record<string, { tvgRec: string; url: s
     }
   }
 
-  return playlist;
+  return playlist as PlaylistData;
 }
