@@ -24,6 +24,9 @@ export async function* testGenerator(
 
   const playlist: PlaylistData = await fetchAndParseM3UPlaylist(token);
 
+  // Debug log to check the playlist content
+  console.log("Parsed Playlist:", playlist);
+
   for (const line of epgGenerator()) {
     yield line;
   }
@@ -35,25 +38,29 @@ export async function* testGenerator(
     testChannels.set(channel.channelId, channel);
   });
 
+  // Debug log to check the test channels
+  console.log("Test Channels:", testChannels);
+
   // Process channels from the downloaded playlist
   for (const [channelId, playlistData] of Object.entries(playlist)) {
     const testChannel = testChannels.get(channelId);
-    if (testChannel) {
-      const channelData = channelLineup[testChannel.channelName as keyof typeof channelLineup];
-  
-      if (channelData) {
-        yield "";
-        yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${testChannel.channelName}`;
-        yield `#EXTGRP:${channelData.extGrp}`;
-        yield playlistData.url;
-      } else if (freeChannelSet.has(testChannel.channelName)) {
-        const { tvgId, tvgLogo, link, extGrp } = channelData;
-  
-        yield "";
-        yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${testChannel.channelName}`;
-        yield `#EXTGRP:${extGrp}`;
-        yield `${link}`;
-      }
+    const channelData = channelLineup[testChannel?.channelName as keyof typeof channelLineup];
+
+    // Debug log to check each iteration
+    console.log("Processing Channel:", channelId, testChannel, channelData);
+
+    if (testChannel && channelData) {
+      yield "";
+      yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${testChannel.channelName}`;
+      yield `#EXTGRP:${channelData.extGrp}`;
+      yield playlistData.url;
+    } else if (testChannel && freeChannelSet.has(testChannel.channelName)) {
+      const { tvgId, tvgLogo, link, extGrp } = channelData;
+
+      yield "";
+      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${testChannel.channelName}`;
+      yield `#EXTGRP:${extGrp}`;
+      yield `${link}`;
     }
   }
 }
