@@ -19,16 +19,9 @@ export async function* testGenerator(
   _: string,
   token: string
 ): AsyncGenerator<string, void, unknown> {
-  if (!token || token === "TOKEN") {
-    throw new UserException("Invalid token", 400);
-  }
+  // ... [Existing setup code]
 
   const playlist: PlaylistData = await fetchAndParseM3UPlaylist(token);
-
-  for (const line of epgGenerator()) {
-    yield line;
-  }
-
   const freeChannelSet = new Set(Free.map(c => c.channelName));
   const testChannels = new Map<string, typeof Test[number]>();
 
@@ -36,28 +29,22 @@ export async function* testGenerator(
     testChannels.set(channel.channelId, channel);
   });
 
-  const processedChannels = new Set<string>();
+  // Generate the playlist based on the order in channel-lineup.json
+  for (const [channelName, channelData] of Object.entries(channelLineup)) {
+    const testChannel = Test.find(c => c.channelName === channelName);
+    const playlistData = testChannel ? playlist[testChannel.channelId] : undefined;
 
-  // Process channels based on the order in channel-lineup.json
-  for (const channelName in channelLineup) {
-    const testChannel = Test.find(channel => channel.channelName === channelName);
-    const channelData = channelLineup[channelName as keyof typeof channelLineup];
-    const playlistData = playlist[testChannel?.channelId];
-
-    if (testChannel && playlistData) {
+    if (playlistData) {
       yield "";
       yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${channelName}`;
       yield `#EXTGRP:${channelData.extGrp}`;
       yield playlistData.url;
-      processedChannels.add(channelName);
-    } else if (freeChannelSet.has(channelName) && !processedChannels.has(channelName)) {
+    } else if (freeChannelSet.has(channelName)) {
       const { tvgId, tvgLogo, link, extGrp } = channelData;
-
       yield "";
       yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;
       yield `${link}`;
-      processedChannels.add(channelName);
     }
   }
 }
