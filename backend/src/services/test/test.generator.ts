@@ -78,9 +78,10 @@ function parseM3UPlaylist(data: string): PlaylistData {
 
   for (let i = 0; i < lines.length; i++) {
     if (lines[i].startsWith("#EXTINF:")) {
+      console.log("Parsing line:", lines[i]); // Debug log
+
       const channelData = lines[i].match(/tvg-id="([^"]+)".*tvg-rec="([^"]+)"/);
 
-      // Find the next line that starts with 'http'
       let url = '';
       for (let j = i + 1; j < lines.length; j++) {
         if (lines[j].startsWith("http")) {
@@ -89,11 +90,14 @@ function parseM3UPlaylist(data: string): PlaylistData {
         }
       }
 
+      console.log("Extracted Data:", channelData, url); // Debug log
+
       if (channelData && url) {
         playlist[channelData[1]] = { tvgRec: channelData[2], url: url };
       }
     }
   }
 
+  console.log("Final Playlist:", playlist); // Debug log
   return playlist;
 }
