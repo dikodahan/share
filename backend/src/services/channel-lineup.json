@@ -583,6 +583,14 @@
         "epgLink"      : "https://www.yes.co.il/content/tvguide",
         "extGrp"        : "ספורט"
     },
+    "One Zero ליגת": {
+        "tvgId"         : "one-zero-CUSTOM",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/One-Zero.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/dark/One-Zero-DM.png",
+        "link"          : "",
+        "epgLink"      : "https://www.one.co.il/Soccer/League/1",
+        "extGrp"        : "ספורט"
+    },
     "יורוספורט 1": {
         "tvgId"         : "eurosport-1-YES",
         "tvgLogo"       : "https://dikodahan.github.io/picons/light/Eurosport1.png",
