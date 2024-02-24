@@ -1,542 +1,677 @@
 [
     {
-        "channelName": "כאן 11",
-        "channelId": "IL: Channel 11"
+      "channelName": "ערוץ 24",
+      "channelId": "IL: 24",
+      "tvgRec": "0"
     },
     {
-        "channelName": "קשת 12",
-        "channelId": "IL: Channel 12"
+      "channelName": "אנימל פלאנט",
+      "channelId": "IL: Animal Planet HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "רשת 13",
-        "channelId": "IL: Channel 13"
+      "channelName": "ערוץ האח הגדול",
+      "channelId": "IL: Big",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ערוץ 14",
-        "channelId": "IL: Channel 14"
+      "channelName": "בייבי",
+      "channelId": "IL: Baby TV",
+      "tvgRec": "0"
     },
     {
-        "channelName": "כאן חינוכית",
-        "channelId": "IL: Kan Chinuchit 23"
+      "channelName": "הוט בוליווד",
+      "channelId": "Il: Bollywood HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ערוץ ההידברות",
-        "channelId": "IL: Hidabroot"
+      "channelName": "ערוץ 9",
+      "channelId": "IL: Channel 9",
+      "tvgRec": "0"
     },
     {
-        "channelName": "HD ספורט 1",
-        "channelId": "IL: Sport 1 FHD"
+      "channelName": "כאן 11",
+      "channelId": "IL: Channel 11",
+      "tvgRec": "0"
     },
     {
-        "channelName": "SD ספורט 1",
-        "channelId": "IL: Sport 1 HD"
+      "channelName": "קשת 12",
+      "channelId": "IL: Channel 12",
+      "tvgRec": "2"
     },
     {
-        "channelName": "ספורט 2",
-        "channelId": "IL: Sport 2 FHD"
+      "channelName": "רשת 13",
+      "channelId": "IL: Channel 13",
+      "tvgRec": "2"
     },
     {
-        "channelName": "ספורט 2",
-        "channelId": "IL: Sport 2 HD"
+      "channelName": "ערוץ 14",
+      "channelId": "IL: Channel 14",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ספורט 3",
-        "channelId": "IL: Sport 3 FHD"
+      "channelName": "סלקום ישראלי",
+      "channelId": "IL: Cellcom Israel",
+      "tvgRec": "5"
     },
     {
-        "channelName": "ספורט 3",
-        "channelId": "IL: Sport 3 HD"
+      "channelName": "סלקום רוסיה",
+      "channelId": "IL: Cellcom Rus",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ספורט 4",
-        "channelId": "IL: Sport 4 FHD"
+      "channelName": "סלקום סרטים",
+      "channelId": "IL: Cellcom Sratim",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ספורט 4",
-        "channelId": "IL: Sport 4 HD"
+      "channelName": "סלקום קידס",
+      "channelId": "IL: Cellcom Yeladim",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ספורט 5",
-        "channelId": "IL: Sport 5 HD"
+      "channelName": "CBS ריאליטי",
+      "channelId": "IL: CBS Reality",
+      "tvgRec": "6"
     },
     {
-        "channelName": "4K ספורט 5",
-        "channelId": "IL: Sport 5 4K"
+      "channelName": "HBO סלקום",
+      "channelId": "IL: Doco HD",
+      "tvgRec": "4"
     },
     {
-        "channelName": "ספורט 5 לייב",
-        "channelId": "IL: Sport 5 Livе"
+      "channelName": "דיסקברי",
+      "channelId": "IL: Discovery Channel HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ספורט 5 פלוס",
-        "channelId": "IL: Sport 5 Plus"
+      "channelName": "דיסני",
+      "channelId": "IL: Disney Channel HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ספורט 5 סטארס",
-        "channelId": "IL: Sport 5 Stars"
+      "channelName": "דיסני ג׳וניור",
+      "channelId": "IL: Disney Jr.",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ספורט 5 גולד",
-        "channelId": "IL: Sport 5 Gold"
+      "channelName": "E! ערוץ",
+      "channelId": "IL: E!",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ספורט אדג׳",
-        "channelId": "IL: Edge Sport HD"
+      "channelName": "ערוץ אגו",
+      "channelId": "IL: Ego Total",
+      "tvgRec": "3"
     },
     {
-        "channelName": "ספורט אקסטרים",
-        "channelId": "IL: Extreme Sports"
+      "channelName": "יורוספורט 1",
+      "channelId": "IL: Eurosport 1 HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "ONE",
-        "channelId": "IL: ONE 1 HD"
+      "channelName": "יורוספורט 2",
+      "channelId": "IL: Eurosport 2 HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "ONE 2",
-        "channelId": "IL: ONE 2 HD"
+      "channelName": "ספורט אקסטרים",
+      "channelId": "IL: Extreme Sports",
+      "tvgRec": "6"
     },
     {
-        "channelName": "ONE doco",
-        "channelId": "IL: ONE Doco"
+      "channelName": "ספורט אדג׳",
+      "channelId": "IL: Edge Sport HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "יורוספורט 1",
-        "channelId": "IL: Eurosport 1 HD"
+      "channelName": "פרי טיוי ארץ נהדרת",
+      "channelId": "IL: Erez Nehederet HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "יורוספורט 2",
-        "channelId": "IL: Eurosport 2 HD"
+      "channelName": "פרי טיוי טלויזיה דרמה",
+      "channelId": "IL: Free Tv Drama HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "ספורט טוגו 1",
-        "channelId": "IL: Sport TO GO 1"
+      "channelName": "פרי טיוי טלויזיה קומדיה",
+      "channelId": "IL: Free Tv Comedy HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "ספורט טוגו 2",
-        "channelId": "IL: Sport TO GO 2"
+      "channelName": "פרי טיוי לייפסטייל",
+      "channelId": "IL: Free Tv Lifestyle HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "ערוץ ההומור",
-        "channelId": "IL: Humor Chanenel"
+      "channelName": "פרי טיוי אוכל",
+      "channelId": "IL: Free Tv Cooking HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "יס טלויזיה פעולה",
-        "channelId": "IL: YES TV Action HD"
+      "channelName": "פרי טיוי דוקומנטרי",
+      "channelId": "IL: Free Tv Doco HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "יס טלויזיה קומדיה",
-        "channelId": "IL: YES TV Comedy HD"
+      "channelName": "פרי טיוי טלויזיה סדרות",
+      "channelId": "IL: Free Series Global HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "יס טלויזיה דרמה",
-        "channelId": "IL: YES TV Drama HD"
+      "channelName": "פרי טיוי סרטים פעולה",
+      "channelId": "IL: Free Movies Action HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "יס סרטים פעולה",
-        "channelId": "IL: YES Movies Action HD"
+      "channelName": "פרי טיוי סרטים קומדיה",
+      "channelId": "IL: Free Movies Comedy HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "יס סרטים דרמה",
-        "channelId": "IL: YES Movies Drama HD"
+      "channelName": "פרי טיוי סרטים דרמה",
+      "channelId": "IL: Free Movies Drama HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "יס סרטים קומדיה",
-        "channelId": "IL: YES Movies Comedy HD"
+      "channelName": "פרי טיוי סרטים אימה",
+      "channelId": "IL: Free Movies Horror HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "יס קולנוע ישראלי",
-        "channelId": "IL: YES Israeli Cinema HD"
+      "channelName": "פרי טיוי סרטים רומנטיקה",
+      "channelId": "IL: Free Movies Romantic HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "יס סרטים ילדים",
-        "channelId": "IL: YES Movies Kids HD"
+      "channelName": "פרי טיוי סרטים ישראלי",
+      "channelId": "IL: Free Israeli Movies HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "יס דוקו",
-        "channelId": "IL: YES Docu HD"
+      "channelName": "ערוץ האוכל",
+      "channelId": "IL: Food Channel HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט 3",
-        "channelId": "IL: HOT 3 HD"
+      "channelName": "פודי",
+      "channelId": "IL: Foody HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "הוט 8",
-        "channelId": "IL: HOT 8 HD"
+      "channelName": "פומו",
+      "channelId": "IL: Fomo",
+      "tvgRec": "6"
     },
     {
-        "channelName": "הוט זון",
-        "channelId": "IL: HOT Zone HD"
+      "channelName": "ערוץ האופנה הישראלי",
+      "channelId": "IL: Fashion",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט קומדי סנטרל",
-        "channelId": "IL: HOT Comedy Central HD"
+      "channelName": "ערוץ החיים הטובים",
+      "channelId": "IL: Good Life TV HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט בידור ישראלי",
-        "channelId": "IL: HOT Bidur HD"
+      "channelName": "הופ!",
+      "channelId": "IL: Hop",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט סניור",
-        "channelId": "IL: HOT Senior HD"
+      "channelName": "HD היסטוריה",
+      "channelId": "IL: History HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט סינמה 1",
-        "channelId": "IL: HOT Cinema 1 HD"
+      "channelName": "ערוץ ההידברות",
+      "channelId": "IL: Hidabroot",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט סינמה 2",
-        "channelId": "IL: HOT Cinema 2 HD"
+      "channelName": "ערוץ הבריאות",
+      "channelId": "IL: Health Channel HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט סינמה 3",
-        "channelId": "IL: HOT Cinema 3 HD"
+      "channelName": "ערוץ ההומור",
+      "channelId": "IL: Humor Chanenel",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט סינמה 4",
-        "channelId": "IL: HOT Cinema 4 HD"
+      "channelName": "הוט סינמה 1",
+      "channelId": "IL: HOT Cinema 1 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט קולנוע ישראלי",
-        "channelId": "IL: HOT Cinema Israeli HD"
+      "channelName": "הוט סינמה 1 (רוסית)",
+      "channelId": "IL: HOT Cinema 1 HD (ru)",
+      "tvgRec": "6"
     },
     {
-        "channelName": "הוט סינמה משפחה",
-        "channelId": "IL: HOT Cinema Family HD"
+      "channelName": "הוט סינמה 2",
+      "channelId": "IL: HOT Cinema 2 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "HBO הוט",
-        "channelId": "IL: HOT HBO HD"
+      "channelName": "הוט סינמה 2 (רוסית)",
+      "channelId": "IL: HOT Cinema 2 HD (ru)",
+      "tvgRec": "6"
     },
     {
-        "channelName": "סלקום ישראלי",
-        "channelId": "IL: Cellcom Israel"
+      "channelName": "הוט סינמה 3",
+      "channelId": "IL: HOT Cinema 3 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "סלקום רוסיה",
-        "channelId": "IL: Cellcom Rus"
+      "channelName": "הוט סינמה 3 (רוסית)",
+      "channelId": "IL: HOT Cinema 3 HD (ru)",
+      "tvgRec": "6"
     },
     {
-        "channelName": "סלקום סרטים",
-        "channelId": "IL: Cellcom Sratim"
+      "channelName": "הוט סינמה 4",
+      "channelId": "IL: HOT Cinema 4 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "HBO סלקום",
-        "channelId": "IL: Doco HD"
+      "channelName": "הוט סינמה 4 (רוסית)",
+      "channelId": "IL: HOT Cinema 4 HD (ru)",
+      "tvgRec": "6"
     },
     {
-        "channelName": "סלקום דוקו",
-        "channelId": "IL: HBO HD"
+      "channelName": "הוט קולנוע ישראלי",
+      "channelId": "IL: HOT Cinema Israeli HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "סלקום קלטות ילדים",
-        "channelId": "IL: Cellcom Yeladim"
+      "channelName": "הוט סינמה משפחה",
+      "channelId": "IL: HOT Cinema Family HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פרטנר סרטים",
-        "channelId": "IL: Partner Sratim"
+      "channelName": "הוט זון",
+      "channelId": "IL: HOT Zone HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פרטנר סדרות",
-        "channelId": "IL: Partner Sdarot"
+      "channelName": "הוט זון (רוסית)",
+      "channelId": "IL: HOT Zone HD (ru)",
+      "tvgRec": "6"
     },
     {
-        "channelName": "פרטנר ילדים",
-        "channelId": "IL: Partner Yladim"
+      "channelName": "הוט 3",
+      "channelId": "IL: HOT 3 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פרי טיוי טלויזיה קומדיה",
-        "channelId": "IL: Free Tv Comedy HD"
+      "channelName": "הוט 8",
+      "channelId": "IL: HOT 8 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פרי טיוי טלויזיה דרמה",
-        "channelId": "IL: Free Tv Drama HD"
+      "channelName": "הוט בידור ישראלי",
+      "channelId": "IL: HOT Bidur HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פרי טיוי טלויזיה סדרות",
-        "channelId": "IL: Free Series Global HD"
+      "channelName": "הוט קומדי סנטרל",
+      "channelId": "IL: HOT Comedy Central HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פרי טיוי סרטים פעולה",
-        "channelId": "IL: Free Movies Action HD"
+      "channelName": "הוט ריל",
+      "channelId": "IL: HOT Real HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פרי טיוי סרטים קומדיה",
-        "channelId": "IL: Free Movies Comedy HD"
+      "channelName": "הוט סניור",
+      "channelId": "IL: HOT Senior HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "פרי טיוי סרטים דרמה",
-        "channelId": "IL: Free Movies Drama HD"
+      "channelName": "הוט באזז",
+      "channelId": "IL: HOT Buzz HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "פרי טיוי סרטים אימה",
-        "channelId": "IL: Free Movies Horror HD"
+      "channelName": "HBO הוט",
+      "channelId": "IL: HOT HBO HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פרי טיוי סרטים רומנטיקה",
-        "channelId": "IL: Free Movies Romantic HD"
+      "channelName": "סלקום דוקו",
+      "channelId": "IL: HBO HD",
+      "tvgRec": "4"
     },
     {
-        "channelName": "פרי טיוי סרטים ישראלי",
-        "channelId": "IL: Free Israeli Movies HD"
+      "channelName": "בית+",
+      "channelId": "IL: Home Plus",
+      "tvgRec": "6"
     },
     {
-        "channelName": "פרי טיוי דוקומנטרי",
-        "channelId": "IL: Free Tv Doco HD"
+      "channelName": "ג׳וניור",
+      "channelId": "IL: Junior",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פרי טיוי אוכל",
-        "channelId": "IL: Free Tv Cooking HD"
+      "channelName": "ג׳ים ג׳ם",
+      "channelId": "IL: Jim Jam",
+      "tvgRec": "6"
     },
     {
-        "channelName": "פרי טיוי לייפסטייל",
-        "channelId": "IL: Free Tv Lifestyle HD"
+      "channelName": "כאן חינוכית",
+      "channelId": "IL: Kan Chinuchit 23",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פרי טיוי ארץ נהדרת",
-        "channelId": "IL: Erez Nehederet HD"
+      "channelName": "הוט לולי",
+      "channelId": "IL: Luli",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פרי טיוי סברי מרנן",
-        "channelId": "IL: Savri HD"
+      "channelName": "לוגי",
+      "channelId": "IL: Logi",
+      "tvgRec": "6"
     },
     {
-        "channelName": "בייבי",
-        "channelId": "IL: Baby TV"
+      "channelName": "מנצ׳סטר יונייטד",
+      "channelId": "IL: MU TV",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הופ!",
-        "channelId": "IL: Hop"
+      "channelName": "MTV ישראל",
+      "channelId": "IL: MTV HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "הוט לולי",
-        "channelId": "IL: Luli"
+      "channelName": "מכאן 33",
+      "channelId": "IL: Makan HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "יויו",
-        "channelId": "IL: Yoyo"
+      "channelName": "ניקולודיאון",
+      "channelId": "IL: Nick HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "וויז",
-        "channelId": "IL: Wiz"
+      "channelName": "ניק ג׳וניור",
+      "channelId": "IL: Nick Jr HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "לוגי",
-        "channelId": "IL: Logi"
+      "channelName": "נשיונל ג׳יאוגרפיק",
+      "channelId": "IL: Nat Geo HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ילדותי",
-        "channelId": "IL: Yalduti"
+      "channelName": "נשיונל ג׳יאוגרפיק פראי",
+      "channelId": "IL: Nat Geo Wild",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט באזז",
-        "channelId": "IL: HOT Buzz HD"
+      "channelName": "ONE doco",
+      "channelId": "IL: ONE Doco",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ג׳ים ג׳ם",
-        "channelId": "IL: Jim Jam"
+      "channelName": "ONE",
+      "channelId": "IL: ONE 1 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ג׳וניור",
-        "channelId": "IL: Junior"
+      "channelName": "ONE 2",
+      "channelId": "IL: ONE 2 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "זום טון",
-        "channelId": "IL: Zoom Toon HD"
+      "channelName": "פרטנר ילדים",
+      "channelId": "IL: Partner Yladim",
+      "tvgRec": "6"
     },
     {
-        "channelName": "דיסני",
-        "channelId": "IL: Disney Channel HD"
+      "channelName": "פרטנר סרטים",
+      "channelId": "IL: Partner Sratim",
+      "tvgRec": "6"
     },
     {
-        "channelName": "דיסני ג׳וניור",
-        "channelId": "IL: Disney Jr."
+      "channelName": "פרטנר סדרות",
+      "channelId": "IL: Partner Sdarot",
+      "tvgRec": "6"
     },
     {
-        "channelName": "ניקולודיאון",
-        "channelId": "IL: Nick HD"
+      "channelName": "ערוץ הריאליטי",
+      "channelId": "IL: Reality HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ניק ג׳וניור",
-        "channelId": "IL: Nick Jr HD"
+      "channelName": "HD ספורט 1",
+      "channelId": "IL: Sport 1 FHD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "יס ניק טין",
-        "channelId": "IL: TeenNick"
+      "channelName": "SD ספורט 1",
+      "channelId": "IL: Sport 1 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "זום",
-        "channelId": "IL: Zoom"
+      "channelName": "ספורט 2",
+      "channelId": "IL: Sport 2 FHD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פומו",
-        "channelId": "IL: Fomo"
+      "channelName": "ספורט 2",
+      "channelId": "IL: Sport 2 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "אנימל פלאנט",
-        "channelId": "IL: Animal Planet HD"
+      "channelName": "ספורט 3",
+      "channelId": "IL: Sport 3 FHD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "נשיונל ג׳יאוגרפיק",
-        "channelId": "IL: Nat Geo HD"
+      "channelName": "ספורט 3",
+      "channelId": "IL: Sport 3 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "נשיונל ג׳יאוגרפיק פראי",
-        "channelId": "IL: Nat Geo Wild"
+      "channelName": "ספורט 4",
+      "channelId": "IL: Sport 4 FHD",
+      "tvgRec": "1"
     },
     {
-        "channelName": "דיסקברי",
-        "channelId": "IL: Discovery Channel HD"
+      "channelName": "ספורט 4",
+      "channelId": "IL: Sport 4 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "HD היסטוריה",
-        "channelId": "IL: History HD"
+      "channelName": "ספורט 5",
+      "channelId": "IL: Sport 5 HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ערוץ האוכל",
-        "channelId": "IL: Food Channel HD"
+      "channelName": "4K ספורט 5",
+      "channelId": "IL: Sport 5 4K",
+      "tvgRec": "0"
     },
     {
-        "channelName": "פודי",
-        "channelId": "IL: Foody HD"
+      "channelName": "ספורט 5 לייב",
+      "channelId": "IL: Sport 5 Livе",
+      "tvgRec": "3"
     },
     {
-        "channelName": "ערוץ הטיולים האמריקאי",
-        "channelId": "IL: Travel Channel HD"
+      "channelName": "ספורט 5 פלוס",
+      "channelId": "IL: Sport 5 Plus",
+      "tvgRec": "0"
     },
     {
-        "channelName": "בית+",
-        "channelId": "IL: Home Plus"
+      "channelName": "ספורט 5 גולד",
+      "channelId": "IL: Sport 5 Gold",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ערוץ החיים הטובים",
-        "channelId": "IL: Good Life TV HD"
+      "channelName": "ספורט 5 סטארס",
+      "channelId": "IL: Sport 5 Stars",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ערוץ הבריאות",
-        "channelId": "IL: Health Channel HD"
+      "channelName": "ספורט טוגו 1",
+      "channelId": "IL: Sport TO GO 1",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ערוץ אגו",
-        "channelId": "IL: Ego Total"
+      "channelName": "ספורט טוגו 2",
+      "channelId": "IL: Sport TO GO 2",
+      "tvgRec": "0"
     },
     {
-        "channelName": "E! ערוץ",
-        "channelId": "IL: E!"
+      "channelName": "פרי טיוי סברי מרנן",
+      "channelId": "IL: Savri HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "ערוץ הריאליטי",
-        "channelId": "IL: Reality HD"
+      "channelName": "ערוץ הטיולים האמריקאי",
+      "channelId": "IL: Travel Channel HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט ריל",
-        "channelId": "IL: HOT Real HD"
+      "channelName": "ערוץ הדרמות הטורקיות+",
+      "channelId": "IL: Turkish Dramas",
+      "tvgRec": "0"
     },
     {
-        "channelName": "CBS ריאליטי",
-        "channelId": "IL: CBS Reality"
+      "channelName": "ערוץ הדרמות הטורקיות 2",
+      "channelId": "IL: Turkish Drama 2",
+      "tvgRec": "0"
     },
     {
-        "channelName": "TLC",
-        "channelId": "IL: TLC HD"
+      "channelName": "ערוץ הדרמות הטורקיות 3",
+      "channelId": "IL: Turkish Drama 3",
+      "tvgRec": "6"
     },
     {
-        "channelName": "ערוץ 24",
-        "channelId": "IL: 24"
+      "channelName": "ספיישל סדרות רומנטיות",
+      "channelId": "IL: Special Romantic Shows",
+      "tvgRec": "6"
     },
     {
-        "channelName": "ערוץ האח הגדול",
-        "channelId": "IL: Big"
+      "channelName": "יס ניק טין",
+      "channelId": "IL: TeenNick",
+      "tvgRec": "6"
     },
     {
-        "channelName": "ערוץ 9",
-        "channelId": "IL: Channel 9"
+      "channelName": "TLC",
+      "channelId": "IL: TLC HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "הוט סינמה 1 רוסית",
-        "channelId": "IL: HOT Cinema 1 HD (ru)"
+      "channelName": "ויוה",
+      "channelId": "IL: Viva",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט סינמה 2 רוסית",
-        "channelId": "IL: HOT Cinema 2 HD (ru)"
+      "channelName": "ויוה+",
+      "channelId": "IL: Viva+",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט סינמה 3 רוסית",
-        "channelId": "IL: HOT Cinema 3 HD (ru)"
+      "channelName": "ויוה וינטג׳",
+      "channelId": "IL: Viva Vintage",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט סינמה 4 רוסית",
-        "channelId": "IL: HOT Cinema 4 HD (ru)"
+      "channelName": "ויוה פרימיום",
+      "channelId": "IL: Viva Premium HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הוט זון רוסית",
-        "channelId": "IL: HOT Zone HD (ru)"
+      "channelName": "ואמוס",
+      "channelId": "IL: Vamos HD",
+      "tvgRec": "6"
     },
     {
-        "channelName": "מכאן 33",
-        "channelId": "IL: Makan HD"
+      "channelName": "יס סרטים פעולה",
+      "channelId": "IL: YES Movies Action HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ויוה",
-        "channelId": "IL: Viva"
+      "channelName": "יס סרטים קומדיה",
+      "channelId": "IL: YES Movies Comedy HD",
+      "tvgRec": "1"
     },
     {
-        "channelName": "ויוה+",
-        "channelId": "IL: Viva+"
+      "channelName": "יס סרטים דרמה",
+      "channelId": "IL: YES Movies Drama HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ויוה וינטג׳",
-        "channelId": "IL: Viva Vintage"
+      "channelName": "יס סרטים ילדים",
+      "channelId": "IL: YES Movies Kids HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ויוה פרימיום",
-        "channelId": "IL: Viva Premium HD"
+      "channelName": "יס טלויזיה קומדיה",
+      "channelId": "IL: YES TV Comedy HD",
+      "tvgRec": "2"
     },
     {
-        "channelName": "ואמוס",
-        "channelId": "IL: Vamos HD"
+      "channelName": "יס טלויזיה פעולה",
+      "channelId": "IL: YES TV Action HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הערוץ הים תיכוני",
-        "channelId": "IL: Yam Tihoni HD"
+      "channelName": "יס טלויזיה דרמה",
+      "channelId": "IL: YES TV Drama HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הערוץ הים תיכוני+",
-        "channelId": "IL: Yam Tihoni Plus"
+      "channelName": "יס דוקו",
+      "channelId": "IL: YES Docu HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "הערוץ הים תיכוני 2",
-        "channelId": "IL: Yam Tihoni 2"
+      "channelName": "יס קולנוע ישראלי",
+      "channelId": "IL: YES Israeli Cinema HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ערוץ הדרמות הטורקיות+",
-        "channelId": "IL: Turkish Dramas"
+      "channelName": "הערוץ הים תיכוני",
+      "channelId": "IL: Yam Tihoni HD",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ערוץ הדרמות הטורקיות 2",
-        "channelId": "IL: Turkish Drama 2"
+      "channelName": "הערוץ הים תיכוני 2",
+      "channelId": "IL: Yam Tihoni 2",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ערוץ הדרמות הטורקיות 3",
-        "channelId": "IL: Turkish Drama 3"
+      "channelName": "הערוץ הים תיכוני+",
+      "channelId": "IL: Yam Tihoni Plus",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ספיישל דרמות רומנטיות",
-        "channelId": "IL: Special Romantic Shows"
+      "channelName": "יויו",
+      "channelId": "IL: YoYo",
+      "tvgRec": "6"
     },
     {
-        "channelName": "MTV ישראל",
-        "channelId": "IL: MTV HD"
+      "channelName": "ילדותי",
+      "channelId": "IL: Yalduti",
+      "tvgRec": "6"
     },
     {
-        "channelName": "מנצ׳סטר יונייטד",
-        "channelId": "IL: MU TV"
+      "channelName": "וויז",
+      "channelId": "IL: Wiz",
+      "tvgRec": "0"
     },
     {
-        "channelName": "ערוץ האופנה הישראלי",
-        "channelId": "IL: Fashion"
+      "channelName": "זום",
+      "channelId": "IL: Zoom",
+      "tvgRec": "6"
     },
     {
-        "channelName": "הוט בוליווד",
-        "channelId": "Il: Bollywood HD"
+      "channelName": "זום טון",
+      "channelId": "IL: Zoom Toon HD",
+      "tvgRec": "6"
     }
-]
+  ]
