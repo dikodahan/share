@@ -26,24 +26,26 @@ export async function* tvTeamDmGenerator(
   for (const line of epgGenerator()) {
     yield line;
   }
+  
   const playlist: PlaylistData = await fetchAndParseM3UPlaylist(token);
   const freeChannelSet = new Set(Free.map(c => c.channelName));
-  const tvteamChannels = new Map<string, typeof TvTeam[number][]>();
+  const tvteamChannels = new Map<string, Array<typeof TvTeam[number]>>();
 
   TvTeam.forEach(channel => {
-    if (!tvteamChannels.has(channel.channelName)) {
-      tvteamChannels.set(channel.channelName, []);
+    if (tvteamChannels.has(channel.channelName)) {
+      tvteamChannels.get(channel.channelName)?.push(channel);
+    } else {
+      tvteamChannels.set(channel.channelName, [channel]);
     }
-    tvteamChannels.get(channel.channelName)?.push(channel);
   });
 
-  for (const [channelName, channelData] of Object.entries(channelLineup)) {
+  for (const channelName of Object.keys(channelLineup)) {
     const tvteamChannelArray = tvteamChannels.get(channelName);
+    const channelData = channelLineup[channelName as keyof typeof channelLineup];
 
     if (tvteamChannelArray) {
       for (const tvteamChannel of tvteamChannelArray) {
         const playlistData = playlist[tvteamChannel.channelId];
-
         if (playlistData) {
           yield "";
           yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${channelName}`;
@@ -52,9 +54,9 @@ export async function* tvTeamDmGenerator(
         }
       }
     } else if (freeChannelSet.has(channelName)) {
-      const { tvgId, tvgLogoDm, link, extGrp } = channelData;
+      const { tvgId, tvgLogo, link, extGrp } = channelData;
       yield "";
-      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
+      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;
       yield `${link}`;
     }
