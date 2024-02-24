@@ -1,5 +1,5 @@
 import axios from "axios";
-import TvTeam from "../tvteam/tvteam.json";
+import TvTeam from "./tvteam.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
@@ -15,7 +15,7 @@ type ChannelData = {
 
 type PlaylistData = Record<string, ChannelData>;
 
-export async function* tvTeamDmGenerator(
+export async function* tvTeamGenerator(
   _: string,
   token: string
 ): AsyncGenerator<string, void, unknown> {
@@ -26,7 +26,7 @@ export async function* tvTeamDmGenerator(
   for (const line of epgGenerator()) {
     yield line;
   }
-  
+
   const playlist: PlaylistData = await fetchAndParseM3UPlaylist(token);
   const freeChannelSet = new Set(Free.map(c => c.channelName));
   const tvteamChannels = new Map<string, Array<typeof TvTeam[number]>>();
