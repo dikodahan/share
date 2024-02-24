@@ -15,7 +15,7 @@ type ChannelData = {
 
 type PlaylistData = Record<string, ChannelData>;
 
-export async function* tvTeamGenerator(
+export async function* tvTeamDmGenerator(
   _: string,
   token: string
 ): AsyncGenerator<string, void, unknown> {
