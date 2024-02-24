@@ -1,5 +1,5 @@
 import axios from "axios";
-import TvTeam from "./tvteam.json";
+import TvTeam from "../tvteam/tvteam.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
@@ -15,7 +15,7 @@ type ChannelData = {
 
 type PlaylistData = Record<string, ChannelData>;
 
-export async function* tvTeamGenerator(
+export async function* tvTeamDmGenerator(
   _: string,
   token: string
 ): AsyncGenerator<string, void, unknown> {
@@ -26,23 +26,33 @@ export async function* tvTeamGenerator(
   for (const line of epgGenerator()) {
     yield line;
   }
+  
   const playlist: PlaylistData = await fetchAndParseM3UPlaylist(token);
   const freeChannelSet = new Set(Free.map(c => c.channelName));
-  const tvteamChannels = new Map<string, typeof TvTeam[number]>();
+  const tvteamChannels = new Map<string, Array<typeof TvTeam[number]>>();
 
   TvTeam.forEach(channel => {
-    tvteamChannels.set(channel.channelId, channel);
+    if (tvteamChannels.has(channel.channelName)) {
+      tvteamChannels.get(channel.channelName)?.push(channel);
+    } else {
+      tvteamChannels.set(channel.channelName, [channel]);
+    }
   });
 
-  for (const [channelName, channelData] of Object.entries(channelLineup)) {
-    const tvteamChannel = TvTeam.find(c => c.channelName === channelName);
-    const playlistData = tvteamChannel ? playlist[tvteamChannel.channelId] : undefined;
+  for (const channelName of Object.keys(channelLineup)) {
+    const tvteamChannelArray = tvteamChannels.get(channelName);
+    const channelData = channelLineup[channelName as keyof typeof channelLineup];
 
-    if (playlistData) {
-      yield "";
-      yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${channelName}`;
-      yield `#EXTGRP:${channelData.extGrp}`;
-      yield playlistData.url;
+    if (tvteamChannelArray) {
+      for (const tvteamChannel of tvteamChannelArray) {
+        const playlistData = playlist[tvteamChannel.channelId];
+        if (playlistData) {
+          yield "";
+          yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${channelName}`;
+          yield `#EXTGRP:${channelData.extGrp}`;
+          yield playlistData.url;
+        }
+      }
     } else if (freeChannelSet.has(channelName)) {
       const { tvgId, tvgLogo, link, extGrp } = channelData;
       yield "";

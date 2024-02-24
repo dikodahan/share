@@ -48,15 +48,15 @@ export async function* tvTeamDmGenerator(
         const playlistData = playlist[tvteamChannel.channelId];
         if (playlistData) {
           yield "";
-          yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${channelName}`;
+          yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogoDm}" tvg-rec="${playlistData.tvgRec}",${channelName}`;
           yield `#EXTGRP:${channelData.extGrp}`;
           yield playlistData.url;
         }
       }
     } else if (freeChannelSet.has(channelName)) {
-      const { tvgId, tvgLogo, link, extGrp } = channelData;
+      const { tvgId, tvgLogoDm, link, extGrp } = channelData;
       yield "";
-      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogo}",${channelName}`;
+      yield `#EXTINF:0 tvg-id="${tvgId}" tvg-logo="${tvgLogoDm}",${channelName}`;
       yield `#EXTGRP:${extGrp}`;
       yield `${link}`;
     }
