@@ -33,11 +33,11 @@ export function* liveGoGenerator(
 
     if (liveGoChannelArray) {
       for (const liveGoChannel of liveGoChannelArray) {
-        const { channelId, tvgShift, tvgName } = liveGoChannel;
+        const { channelId, tvgName } = liveGoChannel;
         const { tvgId, tvgLogo, extGrp } = channelData;
 
         yield "";
-        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-shift="${tvgShift}" tvg-logo="${tvgLogo}",${channelName}`;
+        yield `#EXTINF:-1 tvg-id="${tvgId}" tvg-name="${tvgName}" tvg-logo="${tvgLogo}",${channelName}`;
         yield `#EXTGRP:${extGrp}`;
         yield `http://livego.club:8080/${username}/${password}/${channelId}`;
       }
