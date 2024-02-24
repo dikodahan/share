@@ -1,5 +1,5 @@
 import axios from "axios";
-import Test from "./test.json";
+import TvTeam from "./tvteam.json";
 import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
@@ -15,7 +15,7 @@ type ChannelData = {
 
 type PlaylistData = Record<string, ChannelData>;
 
-export async function* testGenerator(
+export async function* tvTeamGenerator(
   _: string,
   token: string
 ): AsyncGenerator<string, void, unknown> {
@@ -28,15 +28,15 @@ export async function* testGenerator(
   }
   const playlist: PlaylistData = await fetchAndParseM3UPlaylist(token);
   const freeChannelSet = new Set(Free.map(c => c.channelName));
-  const testChannels = new Map<string, typeof Test[number]>();
+  const tvteamChannels = new Map<string, typeof TvTeam[number]>();
 
-  Test.forEach(channel => {
-    testChannels.set(channel.channelId, channel);
+  TvTeam.forEach(channel => {
+    tvteamChannels.set(channel.channelId, channel);
   });
 
   for (const [channelName, channelData] of Object.entries(channelLineup)) {
-    const testChannel = Test.find(c => c.channelName === channelName);
-    const playlistData = testChannel ? playlist[testChannel.channelId] : undefined;
+    const tvteamChannel = TvTeam.find(c => c.channelName === channelName);
+    const playlistData = tvteamChannel ? playlist[tvteamChannel.channelId] : undefined;
 
     if (playlistData) {
       yield "";
