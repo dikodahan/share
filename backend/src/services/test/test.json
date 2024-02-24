@@ -673,5 +673,10 @@
       "channelName": "זום טון",
       "channelId": "IL: Zoom Toon HD",
       "tvgRec": "6"
+    },
+    {
+      "channelName": "ערוץ ההומור",
+      "channelId": "IL: Humor Chanenel",
+      "tvgRec": "0"
     }
   ]
