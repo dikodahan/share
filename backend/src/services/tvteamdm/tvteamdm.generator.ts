@@ -54,10 +54,17 @@ export async function* tvTeamDmGenerator(
 }
 
 async function fetchAndParseM3UPlaylist(token: string): Promise<PlaylistData> {
-  const url = PLAYLIST_URL.replace("TOKEN", token);
-  const response = await axios.get(url);
-  const playlistData = response.data;
-  return parseM3UPlaylist(playlistData);
+  try {
+    const url = PLAYLIST_URL.replace("TOKEN", token);
+    const response = await axios.get(url);
+    const playlistData = response.data;
+    return parseM3UPlaylist(playlistData);
+  } catch (error) {
+    if (axios.isAxiosError(error) && error.response && error.response.status === 404) {
+      throw new UserException("Invalid token provided", 400);
+    }
+    throw error;
+  }
 }
 
 function parseM3UPlaylist(data: string): PlaylistData {
