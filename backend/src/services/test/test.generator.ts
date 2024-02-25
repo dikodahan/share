@@ -142,7 +142,7 @@ async function validateDptToken(dptToken: string): Promise<void> {
       throw new UserException("Invalid DikoPlus token", 400);
     }
   } catch (error) {
-    console.error("Airtable Error:", error);
+    console.error("Full Airtable Error:", error);
     throw new UserException("Error accessing Airtable", 500);
   }
 }
