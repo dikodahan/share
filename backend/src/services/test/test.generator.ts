@@ -46,6 +46,9 @@ export async function* testGenerator(
   // Validate Base and Table
   await validateAirtableBaseAndTable(airtableInstance);
 
+  // Test Fetch Records from Airtable
+  await testFetchRecordsFromAirtable();
+
   // Validate DPT Token
   await validateDptToken(dpt);
 
@@ -146,7 +149,7 @@ async function validateDptToken(dptToken: string): Promise<void> {
       })
       .firstPage();
 
-    if (records.length === 0) {
+    if (!records || records.length === 0) {
       throw new UserException("Invalid DikoPlus token", 400);
     }
     console.log('Record fetched successfully from Airtable.');
@@ -180,5 +183,31 @@ async function validateAirtableBaseAndTable(airtable: Airtable) {
   } catch (error) {
     console.error('Error accessing Airtable base or table:', error);
     throw new UserException("Error accessing Airtable base or table", 500);
+  }
+}
+
+async function testFetchRecordsFromAirtable() {
+  try {
+    const base = new Airtable({ apiKey: getEnvVar('AIRTABLE_API') }).base(getEnvVar('AIRTABLE_BASE_ID'));
+    const tableName = getEnvVar('AIRTABLE_NAME');
+
+    console.log(`Testing fetching records from table '${tableName}'...`);
+
+    // Use a promise-based approach to fetch the first page of records
+    const records = await base(tableName).select({
+      maxRecords: 3,
+      view: "Grid view"
+    }).firstPage();
+
+    if (records) {
+      records.forEach(record => {
+        console.log('Retrieved record:', record.get('Username'));
+      });
+    }
+
+    console.log('Successfully fetched records from Airtable.');
+  } catch (error) {
+    console.error('Error testing fetch records from Airtable:', error);
+    throw new UserException("Error testing fetch records from Airtable", 500);
   }
 }
