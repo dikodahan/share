@@ -16,6 +16,7 @@ type ChannelData = {
 
 function getEnvVar(name: string): string {
   const value = process.env[name];
+  console.log(`Retrieving environment variable '${name}': ${value ? 'found' : 'not found'}`);
   if (!value) {
     throw new Error(`Environment variable ${name} is not set`);
   }
@@ -24,7 +25,6 @@ function getEnvVar(name: string): string {
 
 /// Initialize Airtable with the API key
 const airtable = new Airtable({ apiKey: getEnvVar('AIRTABLE_API') });
-console.log(`Airtable API from env var is: ${airtable}`);
 const base = airtable.base(getEnvVar('AIRTABLE_BASE_ID'));
 
 type PlaylistData = Record<string, ChannelData>;
@@ -129,6 +129,8 @@ async function validateDptToken(dptToken: string): Promise<void> {
   try {
     const airtableName = getEnvVar('AIRTABLE_NAME');
     const airtableFieldName = getEnvVar('AIRTABLE_FIELD_NAME');
+    
+    console.log(`Airtable Base: ${airtableName}, Field: ${airtableFieldName}`);
 
     const records = await base(airtableName)
       .select({
