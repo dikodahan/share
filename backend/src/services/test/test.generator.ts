@@ -38,7 +38,13 @@ export async function* testGenerator(
     throw new UserException("Invalid token", 400);
   }
 
-  // Validate DPT
+  // Validate Airtable Authentication
+  const airtableInstance = await testAirtableAuthentication();
+
+  // Validate Base and Table
+  await validateAirtableBaseAndTable(airtableInstance);
+
+  // Validate DPT Token
   await validateDptToken(dpt);
 
   for (const line of epgGenerator()) {
@@ -129,8 +135,8 @@ async function validateDptToken(dptToken: string): Promise<void> {
   try {
     const airtableName = getEnvVar('AIRTABLE_NAME');
     const airtableFieldName = getEnvVar('AIRTABLE_FIELD_NAME');
-    
-    console.log(`Airtable Base: ${airtableName}, Field: ${airtableFieldName}`);
+
+    console.log(`Attempting to fetch records from table '${airtableName}' using field '${airtableFieldName}'...`);
 
     const records = await base(airtableName)
       .select({
@@ -141,8 +147,36 @@ async function validateDptToken(dptToken: string): Promise<void> {
     if (records.length === 0) {
       throw new UserException("Invalid DikoPlus token", 400);
     }
+    console.log('Record fetched successfully from Airtable.');
   } catch (error) {
-    console.error("Full Airtable Error:", error);
-    throw new UserException("Error accessing Airtable", 500);
+    console.error("Error fetching records from Airtable:", error);
+    throw new UserException("Error fetching records from Airtable", 500);
+  }
+}
+
+async function testAirtableAuthentication() {
+  try {
+    const testAirtable = new Airtable({ apiKey: getEnvVar('AIRTABLE_API') });
+    console.log('Airtable authentication test passed.');
+    return testAirtable;
+  } catch (error) {
+    console.error('Airtable authentication test failed:', error);
+    throw new UserException("Error with Airtable authentication", 500);
+  }
+}
+
+async function validateAirtableBaseAndTable(airtable: Airtable) {
+  try {
+    const base = airtable.base(getEnvVar('AIRTABLE_BASE_ID'));
+    const tableName = getEnvVar('AIRTABLE_NAME');
+    console.log(`Testing access to base ID '${getEnvVar('AIRTABLE_BASE_ID')}' and table '${tableName}'...`);
+
+    // Test if we can retrieve metadata about the table
+    const table = base(tableName);
+    await table.select({ maxRecords: 1 }).firstPage();
+    console.log('Access to Airtable base and table verified.');
+  } catch (error) {
+    console.error('Error accessing Airtable base or table:', error);
+    throw new UserException("Error accessing Airtable base or table", 500);
   }
 }
