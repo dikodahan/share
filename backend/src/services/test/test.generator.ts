@@ -4,6 +4,7 @@ import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 import Free from "../free/free.json";
+import Airtable from 'airtable';
 
 const PLAYLIST_URL = "http://troya.one/pl/41/TOKEN/playlist.m3u8";
 
@@ -13,36 +14,67 @@ type ChannelData = {
   url: string;
 };
 
+function getEnvVar(name: string): string {
+  const value = process.env[name];
+  if (typeof value !== 'string') {
+    throw new Error(`Environment variable ${name} is not set`);
+  }
+  return value;
+}
+
+const AIRTABLE_API_KEY = getEnvVar('AIRTABLE_API');
+const AIRTABLE_BASE_ID = getEnvVar('AIRTABLE_BASE_ID');
+//const AIRTABLE_FIELD_NAME = getEnvVar('AIRTABLE_FIELD_NAME');
+//const AIRTABLE_NAME = getEnvVar('AIRTABLE_NAME');
+
+// Initialize Airtable with the API key
+const airtable = new Airtable({ apiKey: AIRTABLE_API_KEY });
+const base = airtable.base(AIRTABLE_BASE_ID);
+
 type PlaylistData = Record<string, ChannelData>;
 
 export async function* testGenerator(
   _: string,
-  token: string
+  token: string,
+  dpt: string
 ): AsyncGenerator<string, void, unknown> {
   if (!token || token === "TOKEN") {
     throw new UserException("Invalid token", 400);
   }
 
+  // Validate DPT
+  await validateDptToken(dpt);
+
   for (const line of epgGenerator()) {
     yield line;
   }
+
   const playlist: PlaylistData = await fetchAndParseM3UPlaylist(token);
   const freeChannelSet = new Set(Free.map(c => c.channelName));
-  const testChannels = new Map<string, typeof Test[number]>();
+  const testChannels = new Map<string, Array<typeof Test[number]>>();
 
   Test.forEach(channel => {
-    testChannels.set(channel.channelId, channel);
+    if (testChannels.has(channel.channelName)) {
+      testChannels.get(channel.channelName)?.push(channel);
+    } else {
+      testChannels.set(channel.channelName, [channel]);
+    }
   });
 
-  for (const [channelName, channelData] of Object.entries(channelLineup)) {
-    const testChannel = Test.find(c => c.channelName === channelName);
-    const playlistData = testChannel ? playlist[testChannel.channelId] : undefined;
+  for (const channelName of Object.keys(channelLineup)) {
+    const testChannelArray = testChannels.get(channelName);
+    const channelData = channelLineup[channelName as keyof typeof channelLineup];
 
-    if (playlistData) {
-      yield "";
-      yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${channelName}`;
-      yield `#EXTGRP:${channelData.extGrp}`;
-      yield playlistData.url;
+    if (testChannelArray) {
+      for (const testChannel of testChannelArray) {
+        const playlistData = playlist[testChannel.channelId];
+        if (playlistData) {
+          yield "";
+          yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${channelName}`;
+          yield `#EXTGRP:${channelData.extGrp}`;
+          yield playlistData.url;
+        }
+      }
     } else if (freeChannelSet.has(channelName)) {
       const { tvgId, tvgLogo, link, extGrp } = channelData;
       yield "";
@@ -54,10 +86,17 @@ export async function* testGenerator(
 }
 
 async function fetchAndParseM3UPlaylist(token: string): Promise<PlaylistData> {
-  const url = PLAYLIST_URL.replace("TOKEN", token);
-  const response = await axios.get(url);
-  const playlistData = response.data;
-  return parseM3UPlaylist(playlistData);
+  try {
+    const url = PLAYLIST_URL.replace("TOKEN", token);
+    const response = await axios.get(url);
+    const playlistData = response.data;
+    return parseM3UPlaylist(playlistData);
+  } catch (error) {
+    if (axios.isAxiosError(error) && error.response && error.response.status === 404) {
+      throw new UserException("Invalid token provided", 400);
+    }
+    throw error;
+  }
 }
 
 function parseM3UPlaylist(data: string): PlaylistData {
@@ -83,4 +122,24 @@ function parseM3UPlaylist(data: string): PlaylistData {
   }
 
   return playlist;
+}
+
+// Function to validate DPT token against Airtable
+async function validateDptToken(dptToken: string): Promise<void> {
+  if (typeof dptToken !== 'string') {
+    throw new UserException("DikoPlus token is required", 400);
+  }
+
+  const airtableName = getEnvVar('AIRTABLE_NAME');
+  const airtableFieldName = getEnvVar('AIRTABLE_FIELD_NAME');
+
+  const records = await base(airtableName)
+    .select({
+      filterByFormula: `{${airtableFieldName}} = '${dptToken}'`
+    })
+    .firstPage();
+
+  if (records.length === 0) {
+    throw new UserException("Invalid DikoPlus token", 400);
+  }
 }

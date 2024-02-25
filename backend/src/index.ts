@@ -1,6 +1,6 @@
 import Express from "express";
 import { Response } from 'express';
-import { SERVICE_GENERATORS, ASYNC_SERVICE_GENERATORS, VOD_GENERATORS } from "./services";
+import { SERVICE_GENERATORS, ASYNC_SERVICE_GENERATORS, AUTH_ASYNC_SERVICE_GENERATORS, VOD_GENERATORS } from "./services";
 import { UserException } from "./user-exception";
 import * as path from "path";
 import bodyParser from "body-parser";
@@ -61,21 +61,36 @@ app.use(
   })
 );
 
-app.get("/:service", async (req, res) => {  // Updated to async
-  const { u: username, p: password } = req.query;
+app.get("/:service", async (req, res) => {
+  const { u, p, dpt } = req.query;
   const service = req.params.service;
 
   try {
+    // Ensure query parameters are strings
+    const username = typeof u === "string" ? u : "";
+    const password = typeof p === "string" ? p : "";
+    const dptToken = typeof dpt === "string" ? dpt : "";
+
+    // Check if the service is an auth async generator
+    const authAsyncGenerator = AUTH_ASYNC_SERVICE_GENERATORS[service?.toLowerCase()];
+    if (authAsyncGenerator) {
+      console.log(`Generating '${service}' asynchronously with auth...`);
+
+      const content = [];
+      for await (const line of authAsyncGenerator(username, password, dptToken)) {
+        content.push(line);
+      }
+      sendResponse(res, service, content.join("\n"));
+      return;
+    }
+
     // Check if the service is an async generator
-    const asyncGenerator = ASYNC_SERVICE_GENERATORS[service?.toLowerCase()];
+    const asyncGenerator = ASYNC_SERVICE_GENERATORS[service];
     if (asyncGenerator) {
       console.log(`Generating '${service}' asynchronously...`);
 
       const content = [];
-      for await (const line of asyncGenerator(
-        typeof username === "string" ? username : "",
-        typeof password === "string" ? password : ""
-      )) {
+      for await (const line of asyncGenerator(username || "", password || "")) {
         content.push(line);
       }
       sendResponse(res, service, content.join("\n"));
@@ -83,20 +98,14 @@ app.get("/:service", async (req, res) => {  // Updated to async
     }
 
     // Handle synchronous generators
-    const generator = SERVICE_GENERATORS[service?.toLowerCase()];
+    const generator = SERVICE_GENERATORS[service];
     if (!generator) {
       throw new UserException("Invalid service", 400);
     }
 
     console.log(`Generating '${service}'...`);
 
-    const content = Array.from(
-      generator(
-        typeof username === "string" ? username : "",
-        typeof password === "string" ? password : ""
-      )
-    ).join("\n");
-    
+    const content = Array.from(generator(username || "", password || "")).join("\n");
     sendResponse(res, service, content);
   } catch (e) {
     console.error(e);
@@ -107,7 +116,7 @@ app.get("/:service", async (req, res) => {  // Updated to async
 });
 
 function sendResponse(res: Response, service: string, content: string) {
-  const filename = service.toLowerCase() === 'movies' ? "DikoPlusVOD.m3u8" : "DikoPlus.m3u";
+  const filename = service === 'movies' ? "DikoPlusVOD.m3u8" : "DikoPlus.m3u";
 
   res.set({
     "Content-Type": "application/octet-stream",
@@ -120,43 +129,5 @@ function sendResponse(res: Response, service: string, content: string) {
 
   res.send(content);
 }
-/* app.get("/:service", (req, res) => {
-  const { u: username, p: password } = req.query;
-  const service = req.params.service;
-
-  try {
-    const generator = SERVICE_GENERATORS[service?.toLowerCase()];
-    if (!generator) {
-      throw new UserException("Invalid service", 400);
-    }
-
-    console.log(`Generating '${service}'...`);
-
-    const content = Array.from(
-      generator(
-        typeof username === "string" ? username : "",
-        typeof password === "string" ? password : ""
-      )
-    ).join("\n");
-    
-    const filename = service.toLowerCase() === 'movies' ? "DikoPlusVOD.m3u8" : "DikoPlus.m3u";
-
-    res.set({
-      "Content-Type": "application/octet-stream",
-      "Content-Description": "File Transfer",
-      "Cache-Control": "must-revalidate",
-      "Content-Disposition": `attachment; filename="${filename}"`,
-      Pragma: "public",
-      Expires: "0",
-    });
-
-    res.send(content);
-  } catch (e) {
-    console.error(e);
-    e instanceof UserException
-      ? res.status(e.statusCode).send(e.message)
-      : res.status(500).send("Internal Server Error");
-  }
-}); */
 
 app.listen(3000, () => console.log("Started"));

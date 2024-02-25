@@ -24,7 +24,13 @@ type M3uGenerator = (
 
 type AsyncM3uGenerator = (
   username: string,
-  password: string
+  password: string,
+) => AsyncGenerator<string, void, unknown>;
+
+type AuthAsyncM3uGenerator = (
+  username: string,
+  password: string,
+  dpt: string
 ) => AsyncGenerator<string, void, unknown>;
 
 type VodGenerator = (
@@ -47,10 +53,13 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
 };
 
 export const ASYNC_SERVICE_GENERATORS: Record<string, AsyncM3uGenerator> = {
-  test: testGenerator,
   tvteam: tvTeamGenerator,
   tvteamdm: tvTeamDmGenerator,
   movies: moviesGenerator,
+};
+
+export const AUTH_ASYNC_SERVICE_GENERATORS: Record<string, AuthAsyncM3uGenerator> = {
+  test: testGenerator,
 };
 
 export const VOD_GENERATORS: Record<string, VodGenerator> = {
