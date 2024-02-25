@@ -24,6 +24,7 @@ function getEnvVar(name: string): string {
 
 /// Initialize Airtable with the API key
 const airtable = new Airtable({ apiKey: getEnvVar('AIRTABLE_API') });
+console.log(`Airtable API from env var is: ${airtable}`);
 const base = airtable.base(getEnvVar('AIRTABLE_BASE_ID'));
 
 type PlaylistData = Record<string, ChannelData>;
