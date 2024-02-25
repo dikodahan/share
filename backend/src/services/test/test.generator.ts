@@ -23,9 +23,15 @@ function getEnvVar(name: string): string {
   return value;
 }
 
+//const airtable = require('airtable');
+Airtable.configure({
+    endpointUrl: 'https://api.airtable.com',
+    apiKey: getEnvVar('AIRTABLE_API')
+});
+const base = Airtable.base(getEnvVar('AIRTABLE_BASE_ID'));
 /// Initialize Airtable with the API key
-const airtable = new Airtable({ apiKey: getEnvVar('AIRTABLE_API') });
-const base = airtable.base(getEnvVar('AIRTABLE_BASE_ID'));
+//const airtable = new Airtable({ apiKey: getEnvVar('AIRTABLE_API') });
+//const base = require(airtable).base(getEnvVar('AIRTABLE_BASE_ID'));
 
 type PlaylistData = Record<string, ChannelData>;
 
