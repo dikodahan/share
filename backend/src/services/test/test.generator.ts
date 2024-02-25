@@ -130,16 +130,21 @@ async function validateDptToken(dptToken: string): Promise<void> {
     throw new UserException("DikoPlus token is required", 400);
   }
 
-  const airtableName = getEnvVar('AIRTABLE_NAME');
-  const airtableFieldName = getEnvVar('AIRTABLE_FIELD_NAME');
+  try {
+    const airtableName = getEnvVar('AIRTABLE_NAME');
+    const airtableFieldName = getEnvVar('AIRTABLE_FIELD_NAME');
 
-  const records = await base(airtableName)
-    .select({
-      filterByFormula: `{${airtableFieldName}} = '${dptToken}'`
-    })
-    .firstPage();
+    const records = await base(airtableName)
+      .select({
+        filterByFormula: `{${airtableFieldName}} = '${dptToken}'`
+      })
+      .firstPage();
 
-  if (records.length === 0) {
-    throw new UserException("Invalid DikoPlus token", 400);
+    if (records.length === 0) {
+      throw new UserException("Invalid DikoPlus token", 400);
+    }
+  } catch (error) {
+    console.error("Airtable Error:", error);
+    throw new UserException("Error accessing Airtable", 500);
   }
 }
