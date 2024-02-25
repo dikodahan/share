@@ -16,20 +16,15 @@ type ChannelData = {
 
 function getEnvVar(name: string): string {
   const value = process.env[name];
-  if (typeof value !== 'string') {
+  if (!value) {
     throw new Error(`Environment variable ${name} is not set`);
   }
   return value;
 }
 
-const AIRTABLE_API_KEY = getEnvVar('AIRTABLE_API');
-const AIRTABLE_BASE_ID = getEnvVar('AIRTABLE_BASE_ID');
-//const AIRTABLE_FIELD_NAME = getEnvVar('AIRTABLE_FIELD_NAME');
-//const AIRTABLE_NAME = getEnvVar('AIRTABLE_NAME');
-
-// Initialize Airtable with the API key
-const airtable = new Airtable({ apiKey: AIRTABLE_API_KEY });
-const base = airtable.base(AIRTABLE_BASE_ID);
+/// Initialize Airtable with the API key
+const airtable = new Airtable({ apiKey: getEnvVar('AIRTABLE_API') });
+const base = airtable.base(getEnvVar('AIRTABLE_BASE_ID'));
 
 type PlaylistData = Record<string, ChannelData>;
 
