@@ -409,7 +409,7 @@
   },
   {
     "channelName": "SD ספורט 1",
-    "channelId": "sport1-sd-il",
+    "channelId": "sport1-hd-il",
     "catchupSource": "http://bethoven.af-stream.com/sport1-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
     "tvgRec": "7",
     "catchupDays": "7",
