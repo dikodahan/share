@@ -135,8 +135,12 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
     } catch (error) {
         if (error instanceof Error) {
             console.error('Error:', error.message);
+            return `Error: ${error.message}`; // Ensure a string is returned after logging the error
         } else {
             console.error('An unknown error occurred');
+            return 'Error: An unknown error occurred'; // Provide a fallback return statement
         }
     }
+    // Fallback return statement in case other code paths do not return
+    return 'An unexpected issue occurred, and the operation could not be completed.';
 }
