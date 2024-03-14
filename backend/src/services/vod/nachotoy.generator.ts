@@ -47,7 +47,7 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        const message = response.data.message;
+        //const message = response.data.message;
         const videoUrl = response.data.message;
 
         // Find the corresponding movie based on the code
