@@ -29,12 +29,22 @@ async function getCombinedMovies(): Promise<Movie[]> {
     }
 }
 
+async function fetchHLSContent(url: string): Promise<string> {
+    try {
+        const response = await axios.get(url, { responseType: 'text' });
+        return response.data;
+    } catch (error) {
+        console.error('Error fetching HLS content:', error);
+        throw new Error('Failed to fetch HLS content');
+    }
+}
+
 export async function nachotoyGenerator(userUrl: string): Promise<string> {
     const movies = await getCombinedMovies();
+    let subtitlesContent = ''; // Constructed as before
     try {
         const urlParams = new URLSearchParams(new URL(userUrl).search);
         const code = urlParams.get('code');
-
         if (!code) {
             console.error('Code parameter is missing in the URL');
             return 'Error: Code parameter is missing';
@@ -47,15 +57,13 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
 
-        //const message = response.data.message;
-        const videoUrl = response.data.message;
+        let videoUrl = response.data.message;
+        const isMasterFile = videoUrl.endsWith('master.m3u8');
 
-        // Find the corresponding movie based on the code
         const movie = movies.find((m: Movie) => m.code === code);
-        if (movie) {
-            let subtitlesContent = '';
-            let subtitlesAdded = false;
+        let subtitlesAdded = false;
 
+        if (movie) {
             for (let i = 1; i <= 9; i++) {
                 const subsKey = `subs-${i}` as keyof typeof movie;
                 const langKey = `lang-${i}` as keyof typeof movie;
@@ -90,15 +98,42 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
             }
         }
 
-        // Return the original video URL if no subtitles are found
-        return `#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=1280000,CLOSED-CAPTIONS=NONE,SUBTITLES="subs"\n${videoUrl}`;
-    } catch (error) {
-        if (axios.isAxiosError(error)) {
-            console.error('Axios error:', error.message);
-            return `Error: ${error.message}`;
+        if (isMasterFile) {
+            let masterContent = await fetchHLSContent(videoUrl);
+            
+            // Step 1: Ensure we do not duplicate the #EXTM3U tag
+            masterContent = masterContent.replace('#EXTM3U', '').trim();
+
+            // Step 2: Check and add #EXT-X-VERSION:3 if not present
+            if (!masterContent.startsWith('#EXT-X-VERSION')) {
+                masterContent = '#EXT-X-VERSION:3\n' + masterContent;
+            }
+            
+            // Adding subtitles content
+            masterContent = `${subtitlesContent}\n${masterContent}`;
+
+            // Step 4: Modify each #EXT-X-STREAM-INF line to include CLOSED-CAPTIONS=NONE,SUBTITLES="subs",
+            const lines = masterContent.split('\n');
+            const modifiedLines = lines.map(line => {
+                if (line.startsWith('#EXT-X-STREAM-INF')) {
+                    const parts = line.split(',');
+                    const insertIndex = parts.findIndex(part => part.startsWith('CODECS'));
+                    if (insertIndex !== -1) {
+                        // Inserting the CLOSED-CAPTIONS and SUBTITLES part just before CODECS
+                        parts.splice(insertIndex, 0, 'CLOSED-CAPTIONS=NONE', 'SUBTITLES="subs"');
+                    }
+                    return parts.join(',');
+                }
+                return line;
+            });
+            
+            return modifiedLines.join('\n');
         } else {
-            console.error('An unexpected error occurred');
-            return 'Error: An unexpected error occurred';
+            // Handling for playlist file or master file without subtitles
+            return `#EXTM3U\n#EXT-X-VERSION:3\n${subtitlesAdded ? subtitlesContent : ''}#EXT-X-STREAM-INF:BANDWIDTH=1280000,CLOSED-CAPTIONS=NONE,SUBTITLES="subs"\n${videoUrl}`;
         }
+    } catch (error) {
+        console.error('Error:', error.message);
+        return 'Error: An unexpected error occurred';
     }
 }
