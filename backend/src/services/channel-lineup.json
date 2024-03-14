@@ -1520,7 +1520,7 @@
         "extGrp"          : "רדיו"
     },
     "כאן מורשת": {
-        "tvgId"           : "mereshet-RADIO",
+        "tvgId"           : "moreshet-RADIO",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/Kan-Moreshet.png",
         "tvgLogoDm"       : "https://dikodahan.github.io/picons/dark/Kan-Moreshet-DM.png",
         "link"            : "https://playerservices.streamtheworld.com/api/livestream-redirect/KAN_MORESHET.mp3",
