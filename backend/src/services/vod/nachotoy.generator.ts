@@ -48,7 +48,7 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
         }
 
         const message = response.data.message;
-        const videoUrl = message.split(',')[0].replace(/"/g, '');
+        const videoUrl = response.data.message;
 
         // Find the corresponding movie based on the code
         const movie = movies.find((m: Movie) => m.code === code);
