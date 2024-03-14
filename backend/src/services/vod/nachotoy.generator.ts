@@ -58,7 +58,11 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
         }
 
         let videoUrl = response.data.message;
-        const isMasterFile = videoUrl.endsWith('master.m3u8');
+        // Use URL parsing to extract the file name
+        const url = new URL(videoUrl);
+        const pathname = url.pathname;
+        const fileName = pathname.substring(pathname.lastIndexOf('/') + 1);
+        const isMasterFile = fileName === 'master.m3u8';
 
         const movie = movies.find((m: Movie) => m.code === code);
         let subtitlesAdded = false;
