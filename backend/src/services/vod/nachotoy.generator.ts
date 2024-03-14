@@ -133,7 +133,10 @@ export async function nachotoyGenerator(userUrl: string): Promise<string> {
             return `#EXTM3U\n#EXT-X-VERSION:3\n${subtitlesAdded ? subtitlesContent : ''}#EXT-X-STREAM-INF:BANDWIDTH=1280000,CLOSED-CAPTIONS=NONE,SUBTITLES="subs"\n${videoUrl}`;
         }
     } catch (error) {
-        console.error('Error:', error.message);
-        return 'Error: An unexpected error occurred';
+        if (error instanceof Error) {
+            console.error('Error:', error.message);
+        } else {
+            console.error('An unknown error occurred');
+        }
     }
 }
