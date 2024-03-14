@@ -4,7 +4,6 @@ import channelLineup from "../channel-lineup.json";
 import { UserException } from "../../user-exception";
 import { epgGenerator } from "../epg.generator";
 import Free from "../free/free.json";
-import Airtable from 'airtable';
 
 const PLAYLIST_URL = "http://troya.one/pl/41/TOKEN/playlist.m3u8";
 
@@ -14,43 +13,15 @@ type ChannelData = {
   url: string;
 };
 
-function getEnvVar(name: string): string {
-  const value = process.env[name];
-  console.log(`Retrieving environment variable '${name}': ${value ? 'found' : 'not found'}`);
-  if (!value) {
-    throw new Error(`Environment variable ${name} is not set`);
-  }
-  return value;
-}
-
-Airtable.configure({
-    endpointUrl: 'https://api.airtable.com',
-    apiKey: getEnvVar('AIRTABLE_API')
-});
-const base = Airtable.base(getEnvVar('AIRTABLE_BASE_ID'));
-
 type PlaylistData = Record<string, ChannelData>;
 
 export async function* testGenerator(
   _: string,
-  token: string,
-  dpt: string
+  token: string
 ): AsyncGenerator<string, void, unknown> {
   if (!token || token === "TOKEN") {
     throw new UserException("Invalid token", 400);
   }
-
-  // Validate Airtable Authentication
-  const airtableInstance = await testAirtableAuthentication();
-
-  // Validate Base and Table
-  await validateAirtableBaseAndTable(airtableInstance);
-
-  // Test Fetch Records from Airtable
-  await testFetchRecordsFromAirtable();
-
-  // Validate DPT Token
-  await validateDptToken(dpt);
 
   for (const line of epgGenerator()) {
     yield line;
@@ -129,85 +100,4 @@ function parseM3UPlaylist(data: string): PlaylistData {
   }
 
   return playlist;
-}
-
-// Function to validate DPT token against Airtable
-async function validateDptToken(dptToken: string): Promise<void> {
-  if (typeof dptToken !== 'string') {
-    throw new UserException("DikoPlus token is required", 400);
-  }
-
-  try {
-    const airtableName = getEnvVar('AIRTABLE_NAME');
-    const airtableFieldName = getEnvVar('AIRTABLE_FIELD_NAME');
-
-    console.log(`Attempting to fetch records from table '${airtableName}' using field '${airtableFieldName}'...`);
-
-    const records = await base(airtableName)
-      .select({
-        filterByFormula: `{${airtableFieldName}} = '${dptToken}'`
-      })
-      .firstPage();
-
-    if (!records || records.length === 0) {
-      throw new UserException("Invalid DikoPlus token", 400);
-    }
-    console.log('Record fetched successfully from Airtable.');
-  } catch (error) {
-    console.error("Error fetching records from Airtable:", error);
-    throw new UserException("Error fetching records from Airtable", 500);
-  }
-}
-
-async function testAirtableAuthentication() {
-  try {
-    const testAirtable = new Airtable({ apiKey: getEnvVar('AIRTABLE_API') });
-    console.log('Airtable authentication test passed.');
-    return testAirtable;
-  } catch (error) {
-    console.error('Airtable authentication test failed:', error);
-    throw new UserException("Error with Airtable authentication", 500);
-  }
-}
-
-async function validateAirtableBaseAndTable(airtable: Airtable) {
-  try {
-    const base = airtable.base(getEnvVar('AIRTABLE_BASE_ID'));
-    const tableName = getEnvVar('AIRTABLE_NAME');
-    console.log(`Testing access to base ID '${getEnvVar('AIRTABLE_BASE_ID')}' and table '${tableName}'...`);
-
-    // Test if we can retrieve metadata about the table
-    const table = base(tableName);
-    await table.select({ maxRecords: 1 }).firstPage();
-    console.log('Access to Airtable base and table verified.');
-  } catch (error) {
-    console.error('Error accessing Airtable base or table:', error);
-    throw new UserException("Error accessing Airtable base or table", 500);
-  }
-}
-
-async function testFetchRecordsFromAirtable() {
-  try {
-    const base = new Airtable({ apiKey: getEnvVar('AIRTABLE_API') }).base(getEnvVar('AIRTABLE_BASE_ID'));
-    const tableName = getEnvVar('AIRTABLE_NAME');
-
-    console.log(`Testing fetching records from table '${tableName}'...`);
-
-    // Use a promise-based approach to fetch the first page of records
-    const records = await base(tableName).select({
-      maxRecords: 3,
-      view: "Grid view"
-    }).firstPage();
-
-    if (records) {
-      records.forEach(record => {
-        console.log('Retrieved record:', record.get('Username'));
-      });
-    }
-
-    console.log('Successfully fetched records from Airtable.');
-  } catch (error) {
-    console.error('Error testing fetch records from Airtable:', error);
-    throw new UserException("Error testing fetch records from Airtable", 500);
-  }
 }
