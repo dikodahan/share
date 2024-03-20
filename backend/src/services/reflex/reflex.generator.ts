@@ -82,19 +82,18 @@ function parseM3UPlaylist(data: string): PlaylistData {
 
   for (let i = 0; i < lines.length; i++) {
     if (lines[i].startsWith("#EXTINF:")) {
-      // Extract catchup information along with the URL in the subsequent line
-      const channelData = lines[i].match(/tvg-logo="([^"]+)"(.+),/);
+      const infoMatch = lines[i].match(/tvg-id="([^"]+)"[^,]*,(.+)/);
       let url = '';
-      for (let j = i + 1; j < lines.length; j++) {
+      for (let j = i + 1; j < lines.length && !url; j++) {
         if (lines[j].startsWith("http")) {
           url = lines[j];
-          break;
         }
       }
 
-      if (channelData && url) {
-        // Assuming channelData[1] captures everything after tvg-logo until the comma before the channel name
-        playlist[channelData[1]] = { catchupInfo: channelData[2].trim(), url: url };
+      // Ensure we have matched the channel info and found the URL
+      if (infoMatch && url) {
+        const channelId = infoMatch[1];
+        playlist[channelId] = { catchupInfo: infoMatch[0], url };
       }
     }
   }
