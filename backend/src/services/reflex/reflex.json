@@ -4,7 +4,7 @@
       "channelId": "58038",
       "catchupDays": "5",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/CH_11_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/CH_11_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "5"
     },
     {
@@ -12,7 +12,7 @@
       "channelId": "58039",
       "catchupDays": "5",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/CH_12_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/CH_12_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "5"
     },
     {
@@ -20,7 +20,7 @@
       "channelId": "58040",
       "catchupDays": "5",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/CH_13_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/CH_13_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "5"
     },
     {
@@ -28,7 +28,7 @@
       "channelId": "58041",
       "catchupDays": "5",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/CH_20_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/CH_20_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "5"
     },
     {
@@ -44,7 +44,7 @@
       "channelId": "58037",
       "catchupDays": "5",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/CH_9_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/CH_9_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "5"
     },
     {
@@ -76,7 +76,7 @@
       "channelId": "58386",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/Eurosport_1_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/Eurosport_1_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -84,7 +84,7 @@
       "channelId": "58387",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/Eurosport_2_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/Eurosport_2_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -100,7 +100,7 @@
       "channelId": "58046",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/SPORT_1_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_1_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -108,7 +108,7 @@
       "channelId": "58047",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/SPORT_2_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_2_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -116,7 +116,7 @@
       "channelId": "58049",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/SPORT_3_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_3_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -124,7 +124,7 @@
       "channelId": "58050",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/SPORT_4_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_4_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -132,7 +132,7 @@
       "channelId": "58383",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/Sport_5_4K_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/Sport_5_4K_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -140,7 +140,7 @@
       "channelId": "58054",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/Sport_5_Gold_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/Sport_5_Gold_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -148,7 +148,7 @@
       "channelId": "58048",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/SPORT_5_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_5_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -156,7 +156,7 @@
       "channelId": "58051",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/SPORT_5_LIVE_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_5_LIVE_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -164,7 +164,7 @@
       "channelId": "58052",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/SPORT_5_PLUS_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_5_PLUS_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -172,7 +172,7 @@
       "channelId": "58053",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/SPORT_5STARS_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_5STARS_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -212,7 +212,7 @@
       "channelId": "58370",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/yes_Doco_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/yes_Doco_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -220,7 +220,7 @@
       "channelId": "58388",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/YES_Israeli_Cinema_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/YES_Israeli_Cinema_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -228,7 +228,7 @@
       "channelId": "58371",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/yes_Kids_Movies_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/yes_Kids_Movies_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -236,7 +236,7 @@
       "channelId": "58392",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/Yes_Movies_Action_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/Yes_Movies_Action_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -244,7 +244,7 @@
       "channelId": "58391",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/Yes_Movies_Comedy_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/Yes_Movies_Comedy_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -252,7 +252,7 @@
       "channelId": "58390",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/Yes_Movies_Drama_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/Yes_Movies_Drama_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -260,7 +260,7 @@
       "channelId": "58389",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/YES_TV_Action_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/YES_TV_Action_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -268,7 +268,7 @@
       "channelId": "58369",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/yes_TV_Comedy_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/yes_TV_Comedy_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -276,7 +276,7 @@
       "channelId": "58368",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/yes_TV_Drama_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/yes_TV_Drama_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -388,7 +388,7 @@
       "channelId": "58318",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_1_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_1_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -404,7 +404,7 @@
       "channelId": "58319",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_2_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_2_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -420,7 +420,7 @@
       "channelId": "58320",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_3_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_3_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -436,7 +436,7 @@
       "channelId": "58321",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_4_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_4_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -516,7 +516,7 @@
       "channelId": "58044",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/ONE_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/ONE_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
@@ -524,7 +524,7 @@
       "channelId": "58045",
       "catchupDays": "3",
       "catchup": "default",
-      "catchupSource": "http://lb.reflextv.ru/ONE_2_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "catchupSource": "http://lb.reflextv.ru/ONE_2_HD_IL/video-${start}-${duration}.m3u8?token=",
       "timeshift": "3"
     },
     {
