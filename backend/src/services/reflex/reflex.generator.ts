@@ -8,8 +8,7 @@ import Free from "../free/free.json";
 const PLAYLIST_URL = "https://reflextv.ru/playlist/hls/TOKEN.m3u";
 
 type ChannelData = {
-  tvgRec: string;
-  timeshift: string;
+  catchupInfo: string;
   url: string;
 };
 
@@ -48,7 +47,7 @@ export async function* reflexGenerator(
         const playlistData = playlist[reflexChannel.channelId];
         if (playlistData) {
           yield "";
-          yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" tvg-rec="${playlistData.tvgRec}",${channelName}`;
+          yield `#EXTINF:0 tvg-id="${channelData.tvgId}" tvg-name="${channelData.tvgId}" tvg-logo="${channelData.tvgLogo}" ${playlistData.catchupInfo},${channelName}`;
           yield `#EXTGRP:${channelData.extGrp}`;
           yield playlistData.url;
         }
@@ -83,8 +82,8 @@ function parseM3UPlaylist(data: string): PlaylistData {
 
   for (let i = 0; i < lines.length; i++) {
     if (lines[i].startsWith("#EXTINF:")) {
-      const channelData = lines[i].match(/tvg-id="([^"]+)".*timeshift="([^"]+)"/);
-
+      // Extract catchup information along with the URL in the subsequent line
+      const channelData = lines[i].match(/tvg-logo="([^"]+)"(.+),/);
       let url = '';
       for (let j = i + 1; j < lines.length; j++) {
         if (lines[j].startsWith("http")) {
@@ -94,7 +93,8 @@ function parseM3UPlaylist(data: string): PlaylistData {
       }
 
       if (channelData && url) {
-        playlist[channelData[1]] = { tvgRec: channelData[2], timeshift: channelData[2], url: url };
+        // Assuming channelData[1] captures everything after tvg-logo until the comma before the channel name
+        playlist[channelData[1]] = { catchupInfo: channelData[2].trim(), url: url };
       }
     }
   }
