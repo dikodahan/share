@@ -82,18 +82,26 @@ function parseM3UPlaylist(data: string): PlaylistData {
 
   for (let i = 0; i < lines.length; i++) {
     if (lines[i].startsWith("#EXTINF:")) {
-      const infoMatch = lines[i].match(/tvg-id="([^"]+)"[^,]*,(.+)/);
+      // Find the index of the last quotation mark in the tvg-logo attribute
+      const logoEndIndex = lines[i].indexOf('"', lines[i].indexOf('tvg-logo="') + 'tvg-logo="'.length);
+      // Capture the content from the end of the tvg-logo attribute to the beginning of the channel name
+      const catchupInfoStart = lines[i].indexOf(' ', logoEndIndex) + 1; // Start after the space following the closing quote of tvg-logo
+      const catchupInfoEnd = lines[i].lastIndexOf(','); // The comma before the channel name
+      const catchupInfo = lines[i].substring(catchupInfoStart, catchupInfoEnd).trim();
+
       let url = '';
-      for (let j = i + 1; j < lines.length && !url; j++) {
+      for (let j = i + 1; j < lines.length; j++) {
         if (lines[j].startsWith("http")) {
           url = lines[j];
+          break;
         }
       }
 
-      // Ensure we have matched the channel info and found the URL
-      if (infoMatch && url) {
-        const channelId = infoMatch[1];
-        playlist[channelId] = { catchupInfo: infoMatch[0], url };
+      // Use tvg-id as the key for the playlist object. Adjust this part if necessary to match your key selection strategy.
+      const tvgIdMatch = lines[i].match(/tvg-id="([^"]+)"/);
+      if (tvgIdMatch && url) {
+        const tvgId = tvgIdMatch[1];
+        playlist[tvgId] = { catchupInfo, url };
       }
     }
   }
