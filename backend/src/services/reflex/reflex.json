@@ -1,0 +1,1066 @@
+[
+    {
+      "channelName": "כאן 11",
+      "channelId": "58038",
+      "catchupDays": "5",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/CH_11_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "5"
+    },
+    {
+      "channelName": "קשת 12",
+      "channelId": "58039",
+      "catchupDays": "5",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/CH_12_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "5"
+    },
+    {
+      "channelName": "רשת 13",
+      "channelId": "58040",
+      "catchupDays": "5",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/CH_13_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "5"
+    },
+    {
+      "channelName": "ערוץ 14",
+      "channelId": "58041",
+      "catchupDays": "5",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/CH_20_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "5"
+    },
+    {
+      "channelName": "כאן חינוכית",
+      "channelId": "58348",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ 9",
+      "channelId": "58037",
+      "catchupDays": "5",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/CH_9_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "5"
+    },
+    {
+      "channelName": "CBS ריאליטי",
+      "channelId": "58057",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "סלקום ישראלי",
+      "channelId": "58394",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "סלקום רוסיה",
+      "channelId": "58395",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "יורוספורט 1",
+      "channelId": "58386",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/Eurosport_1_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "יורוספורט 2",
+      "channelId": "58387",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/Eurosport_2_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "ספורט אקסטרים",
+      "channelId": "58434",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "HD ספורט 1",
+      "channelId": "58046",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_1_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "ספורט 2",
+      "channelId": "58047",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_2_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "ספורט 3",
+      "channelId": "58049",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_3_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "ספורט 4",
+      "channelId": "58050",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_4_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "4K ספורט 5",
+      "channelId": "58383",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/Sport_5_4K_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "ספורט 5 גולד",
+      "channelId": "58054",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/Sport_5_Gold_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "ספורט 5",
+      "channelId": "58048",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_5_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "ספורט 5 לייב",
+      "channelId": "58051",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_5_LIVE_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "ספורט 5 פלוס",
+      "channelId": "58052",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_5_PLUS_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "ספורט 5 סטארס",
+      "channelId": "58053",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/SPORT_5STARS_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "נשיונל ג׳יאוגרפיק פראי",
+      "channelId": "58064",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ילדותי",
+      "channelId": "58444",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הערוץ הים תיכוני 2",
+      "channelId": "58374",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הערוץ הים תיכוני",
+      "channelId": "58065",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "יס דוקו",
+      "channelId": "58370",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/yes_Doco_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "יס קולנוע ישראלי",
+      "channelId": "58388",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/YES_Israeli_Cinema_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "יס סרטים ילדים",
+      "channelId": "58371",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/yes_Kids_Movies_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "יס סרטים פעולה",
+      "channelId": "58392",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/Yes_Movies_Action_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "יס סרטים קומדיה",
+      "channelId": "58391",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/Yes_Movies_Comedy_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "יס סרטים דרמה",
+      "channelId": "58390",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/Yes_Movies_Drama_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "יס טלויזיה פעולה",
+      "channelId": "58389",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/YES_TV_Action_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "יס טלויזיה קומדיה",
+      "channelId": "58369",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/yes_TV_Comedy_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "יס טלויזיה דרמה",
+      "channelId": "58368",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/yes_TV_Drama_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "זום טון",
+      "channelId": "58441",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "זום",
+      "channelId": "58440",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ 24",
+      "channelId": "58382",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "אנימל פלאנט",
+      "channelId": "58393",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "דיסני",
+      "channelId": "58059",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "דיסני ג׳וניור",
+      "channelId": "58400",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "HD היסטוריה",
+      "channelId": "58136",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "בית+",
+      "channelId": "58061",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הופ!",
+      "channelId": "58347",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט 3",
+      "channelId": "58322",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט 8",
+      "channelId": "58363",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט בידור ישראלי",
+      "channelId": "58412",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט באזז",
+      "channelId": "58445",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט סינמה 1",
+      "channelId": "58318",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_1_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "הוט סינמה 1 (רוסית)",
+      "channelId": "58429",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט סינמה 2",
+      "channelId": "58319",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_2_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "הוט סינמה 2 (רוסית)",
+      "channelId": "58430",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט סינמה 3",
+      "channelId": "58320",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_3_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "הוט סינמה 3 (רוסית)",
+      "channelId": "58431",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט סינמה 4",
+      "channelId": "58321",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/HOT_Cinema_4_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "הוט סינמה 4 (רוסית)",
+      "channelId": "58432",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט קולנוע ישראלי",
+      "channelId": "58367",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט קומדי סנטרל",
+      "channelId": "58323",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט בידור ישראלי",
+      "channelId": "58428",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט סינמה משפחה",
+      "channelId": "58366",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "HBO הוט",
+      "channelId": "58349",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט ריל",
+      "channelId": "58365",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ניקולודיאון",
+      "channelId": "58375",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ניק ג׳וניור",
+      "channelId": "58345",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ONE",
+      "channelId": "58044",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/ONE_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "ONE 2",
+      "channelId": "58045",
+      "catchupDays": "3",
+      "catchup": "default",
+      "catchupSource": "http://lb.reflextv.ru/ONE_2_HD_IL/video-${start}-${duration}.m3u8?token=i5i7mtqjjj",
+      "timeshift": "3"
+    },
+    {
+      "channelName": "HBO סלקום",
+      "channelId": "58397",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "בייבי",
+      "channelId": "58056",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "E! ערוץ",
+      "channelId": "58372",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "יס ניק טין",
+      "channelId": "58346",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "דיסקברי",
+      "channelId": "58058",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ הילדים",
+      "channelId": "58401",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ הכוכבים",
+      "channelId": "58402",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "סלקום סרטים",
+      "channelId": "58396",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "סלקום קידס",
+      "channelId": "58405",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "סלקום דוקו",
+      "channelId": "58398",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ספורט אדג׳",
+      "channelId": "58384",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ אגו",
+      "channelId": "58410",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי ארץ נהדרת",
+      "channelId": "58419",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פומו",
+      "channelId": "58406",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ האוכל",
+      "channelId": "58060",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פודי",
+      "channelId": "58409",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי טלויזיה קומדיה",
+      "channelId": "58377",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי סרטים ישראלי",
+      "channelId": "58418",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי סרטים פעולה",
+      "channelId": "58417",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי סרטים דרמה",
+      "channelId": "58414",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי סרטים אימה",
+      "channelId": "58415",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי סרטים רומנטיקה",
+      "channelId": "58416",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי טלויזיה סדרות",
+      "channelId": "58413",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ החיים הטובים",
+      "channelId": "58350",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ הבריאות",
+      "channelId": "58351",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט סניור",
+      "channelId": "58427",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט זון",
+      "channelId": "58411",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט זון (רוסית)",
+      "channelId": "58433",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ ההומור",
+      "channelId": "58364",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט בוליווד",
+      "channelId": "58435",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ג׳וניור",
+      "channelId": "58062",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ג׳ים ג׳ם",
+      "channelId": "58442",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "לוגי",
+      "channelId": "58404",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הוט לולי",
+      "channelId": "58344",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "מכאן 33",
+      "channelId": "58448",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "מנצ׳סטר יונייטד",
+      "channelId": "58436",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "נשיונל ג׳יאוגרפיק",
+      "channelId": "58063",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ONE doco",
+      "channelId": "58385",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרטנר סדרות",
+      "channelId": "58380",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרטנר סרטים",
+      "channelId": "58379",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרטנר ילדים",
+      "channelId": "58378",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ הריאליטי",
+      "channelId": "58376",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי סברי מרנן",
+      "channelId": "58420",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ספורט טוגו 1",
+      "channelId": "58446",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ספורט טוגו 2",
+      "channelId": "58447",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ הטיולים האמריקאי",
+      "channelId": "58067",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "יויו",
+      "channelId": "58403",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ויוה+",
+      "channelId": "58066",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ויוה פרימיום",
+      "channelId": "58137",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ואמוס",
+      "channelId": "58399",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ויוה",
+      "channelId": "58055",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ויוה וינטג׳",
+      "channelId": "58373",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "וויז",
+      "channelId": "58443",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ספיישל סדרות רומנטיות",
+      "channelId": "58438",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ הדרמות הטורקיות 2",
+      "channelId": "58138",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ הדרמות הטורקיות+",
+      "channelId": "58439",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "הערוץ הים תיכוני+",
+      "channelId": "58068",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ הדרמות הטורקיות 3",
+      "channelId": "58139",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "TLC",
+      "channelId": "58408",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ הכוכבים",
+      "channelId": "58482",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "MTV ישראל",
+      "channelId": "58407",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "ערוץ האח הגדול",
+      "channelId": "58381",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי טלויזיה קומדיה",
+      "channelId": "58422",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי אוכל",
+      "channelId": "58424",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי דוקומנטרי",
+      "channelId": "58425",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי טלויזיה דרמה",
+      "channelId": "58421",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    },
+    {
+      "channelName": "פרי טיוי לייפסטייל",
+      "channelId": "58423",
+      "catchupDays": "0",
+      "catchup": "0",
+      "catchupSource": "0",
+      "timeshift": "0"
+    }
+  ]

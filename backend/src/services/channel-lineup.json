@@ -767,6 +767,14 @@
         "epgLink"      : "https://www.yes.co.il/content/tvguide",
         "extGrp"        : "ילדים"
     },
+    "ערוץ הילדים": {
+        "tvgId"         : "yeladim-FREETV",
+        "tvgLogo"       : "https://dikodahan.github.io/picons/light/Hayeladim-Channel.png",
+        "tvgLogoDm"     : "https://dikodahan.github.io/picons/light/Hayeladim-Channel-DM.png",
+        "link"          : "",
+        "epgLink"      : "https://web.freetv.tv/kids,1910/rw-hyldym,3513313",
+        "extGrp"        : "ילדים"
+    },
     "זום טון": {
         "tvgId"           : "zoom-toon-YES",
         "tvgLogo"         : "https://dikodahan.github.io/picons/light/ZoomToon.png",

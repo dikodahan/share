@@ -15,6 +15,7 @@ import { moviesGenerator } from "./movies/movies.generator";
 import { nachotoyGenerator } from "./vod/nachotoy.generator";
 import { tvTeamGenerator } from "./tvteam/tvteam.generator";
 import { tvTeamDmGenerator } from "./tvteamdm/tvteamdm.generator";
+import { reflexGenerator } from "./reflex/reflex.generator";
 import "./sansat/sansat.json";
 
 type M3uGenerator = (
@@ -55,6 +56,7 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
 export const ASYNC_SERVICE_GENERATORS: Record<string, AsyncM3uGenerator> = {
   tvteam: tvTeamGenerator,
   tvteamdm: tvTeamDmGenerator,
+  reflex: reflexGenerator,
   movies: moviesGenerator,
 };
 
