@@ -17,6 +17,8 @@ import { tvTeamGenerator } from "./tvteam/tvteam.generator";
 import { tvTeamDmGenerator } from "./tvteamdm/tvteamdm.generator";
 import { reflexGenerator } from "./reflex/reflex.generator";
 import { reflexDmGenerator } from "./reflexdm/reflexdm.generator";
+import { raspberryGenerator } from "./raspberry/raspberry.generator";
+import { raspberryDmGenerator } from "./raspberrydm/raspberrydm.generator";
 import "./sansat/sansat.json";
 
 type M3uGenerator = (
@@ -59,6 +61,8 @@ export const ASYNC_SERVICE_GENERATORS: Record<string, AsyncM3uGenerator> = {
   tvteamdm: tvTeamDmGenerator,
   reflex: reflexGenerator,
   reflexdm: reflexDmGenerator,
+  raspberry: raspberryGenerator,
+  raspberrydm: raspberryDmGenerator,
   movies: moviesGenerator,
 };
 

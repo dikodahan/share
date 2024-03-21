@@ -1,0 +1,634 @@
+[
+  {
+    "channelName": "ערוץ 9",
+    "channelId": "9-kanal-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/9-kanal-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "כאן 11",
+    "channelId": "11-kanal-il",
+    "catchupSource": "http://bethoven.af-stream.com/11-kanal-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "קשת 12",
+    "channelId": "12-kanal-il",
+    "catchupSource": "http://bethoven.af-stream.com/12-kanal-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "רשת 13",
+    "channelId": "13-kanal-il",
+    "catchupSource": "http://bethoven.af-stream.com/13-kanal-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ערוץ 14",
+    "channelId": "14-kanal-il",
+    "catchupSource": "http://bethoven.af-stream.com/14-kanal-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "בערבית i24 חדשות",
+    "channelId": "i24-il",
+    "catchupSource": "http://bethoven.af-stream.com/i24-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "יס סרטים פעולה",
+    "channelId": "yes-movies-action-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/yes-movies-action-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "יס סרטים קומדיה",
+    "channelId": "yes-movies-comedy-il",
+    "catchupSource": "http://bethoven.af-stream.com/yes-movies-comedy-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "יס סרטים דרמה",
+    "channelId": "yes-movies-drama-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/yes-movies-drama-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "יס סרטים ילדים",
+    "channelId": "yes-movies-kids-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/yes-movies-kids-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "יס טלויזיה פעולה",
+    "channelId": "yes-action-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/yes-action-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "יס טלויזיה קומדיה",
+    "channelId": "yes-comedy-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/yes-comedy-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "יס טלויזיה דרמה",
+    "channelId": "yes-drama-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/yes-drama-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט סינמה 1",
+    "channelId": "hot-cinema1-il",
+    "catchupSource": "http://bethoven.af-stream.com/hot-cinema1-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט סינמה 2",
+    "channelId": "hot-cinema2-il",
+    "catchupSource": "http://bethoven.af-stream.com/hot-cinema2-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט סינמה 3",
+    "channelId": "hot-cinema3-il",
+    "catchupSource": "http://bethoven.af-stream.com/hot-cinema3-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט סינמה 4",
+    "channelId": "hot-cinema4-il",
+    "catchupSource": "http://bethoven.af-stream.com/hot-cinema4-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "HBO הוט",
+    "channelId": "hot-hbo-il",
+    "catchupSource": "http://bethoven.af-stream.com/hot-hbo-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט זון",
+    "channelId": "hot-zone-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/hot-zone-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ויוה",
+    "channelId": "viva-il",
+    "catchupSource": "http://bethoven.af-stream.com/viva-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ויוה פרימיום",
+    "channelId": "viva-premium-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/viva-premium-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ויוה+",
+    "channelId": "viva-plus-il",
+    "catchupSource": "http://bethoven.af-stream.com/viva-plus-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ויוה וינטג׳",
+    "channelId": "viva-vintage-il",
+    "catchupSource": "http://bethoven.af-stream.com/viva-vintage-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט 3",
+    "channelId": "hot3-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/hot3-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט 8",
+    "channelId": "hot-8-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/hot-8-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "יס קולנוע ישראלי",
+    "channelId": "yes-israel-il",
+    "catchupSource": "http://bethoven.af-stream.com/yes-israel-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ערוץ 24",
+    "channelId": "channel24-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/channel24-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ערוץ הדרמות הטורקיות+",
+    "channelId": "turkish-dramas-plus-il",
+    "catchupSource": "http://bethoven.af-stream.com/turkish-dramas-plus-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ערוץ הדרמות הטורקיות 2",
+    "channelId": "turkish-dramas2-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/turkish-dramas2-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ערוץ הדרמות הטורקיות 3",
+    "channelId": "turkish-dramas3-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/turkish-dramas3-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הערוץ הים תיכוני",
+    "channelId": "yamtihoni-il",
+    "catchupSource": "http://bethoven.af-stream.com/yamtihoni-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הערוץ הים תיכוני+",
+    "channelId": "yam-tichoni-plus-hd",
+    "catchupSource": "http://bethoven.af-stream.com/yam-tichoni-plus-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט בוליווד",
+    "channelId": "hot-bollywood-il",
+    "catchupSource": "http://bethoven.af-stream.com/hot-bollywood-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "בולישואו",
+    "channelId": "hot-bolyshow-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/hot-bolyshow-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "אנימל פלאנט",
+    "channelId": "animal-planet-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/animal-planet-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "נשיונל ג׳יאוגרפיק פראי",
+    "channelId": "yes-natgeo-wild-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/yes-natgeo-wild-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "נשיונל ג׳יאוגרפיק",
+    "channelId": "yes-natgeo-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/yes-natgeo-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "דיסקברי",
+    "channelId": "discovery-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/discovery-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "HD היסטוריה",
+    "channelId": "history-il",
+    "catchupSource": "http://bethoven.af-stream.com/history-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ערוץ הטיולים האמריקאי",
+    "channelId": "travel-channel-il",
+    "catchupSource": "http://bethoven.af-stream.com/travel-channel-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "יס דוקו",
+    "channelId": "yes-docu-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/yes-docu-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "בית+",
+    "channelId": "home-plus-il",
+    "catchupSource": "http://bethoven.af-stream.com/home-plus-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ערוץ העיצוב",
+    "channelId": "the-design-channel-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/the-design-channel-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט בידור ישראלי",
+    "channelId": "entertainment-il",
+    "catchupSource": "http://bethoven.af-stream.com/entertainment-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "E! ערוץ",
+    "channelId": "e-il",
+    "catchupSource": "http://bethoven.af-stream.com/e-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "רשת האוכל",
+    "channelId": "food-network-il",
+    "catchupSource": "http://bethoven.af-stream.com/food-network-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "פודי",
+    "channelId": "foody-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/foody-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ערוץ הבריאות",
+    "channelId": "health-il",
+    "catchupSource": "http://bethoven.af-stream.com/health-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ערוץ החיים הטובים",
+    "channelId": "good-life-il",
+    "catchupSource": "http://bethoven.af-stream.com/good-life-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "CBS ריאליטי",
+    "channelId": "cbs-reality-il",
+    "catchupSource": "http://bethoven.af-stream.com/cbs-reality-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט ריל",
+    "channelId": "hot-real-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/hot-real-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "SD ספורט 1",
+    "channelId": "sport1-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/sport1-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ספורט 2",
+    "channelId": "sport2-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/sport2-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ספורט 3",
+    "channelId": "sport3-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/sport3-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ספורט 4",
+    "channelId": "sport4-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/sport4-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ספורט 5",
+    "channelId": "sport5-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/sport5-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ספורט 5 פלוס",
+    "channelId": "yes-sport5-plus-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/yes-sport5-plus-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ספורט 5 לייב",
+    "channelId": "sport5-plus-live-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/sport5-plus-live-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ספורט 5 סטארס",
+    "channelId": "sport5-stars-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/sport5-stars-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ספורט 5 גולד",
+    "channelId": "sport5-gold-il",
+    "catchupSource": "http://bethoven.af-stream.com/sport5-gold-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ONE",
+    "channelId": "one-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/one-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ONE 2",
+    "channelId": "one2-hd-il",
+    "catchupSource": "http://bethoven.af-stream.com/one2-hd-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ערוץ אגו",
+    "channelId": "ego-total-il",
+    "catchupSource": "http://bethoven.af-stream.com/ego-total-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ערוץ ההומור",
+    "channelId": "humor-channel-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/humor-channel-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט קומדי סנטרל",
+    "channelId": "hot-comedy-central-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/hot-comedy-central-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט סינמה משפחה",
+    "channelId": "cinema-family-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/cinema-family-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "דיסני",
+    "channelId": "yes-disney-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/yes-disney-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "דיסני ג׳וניור",
+    "channelId": "disney-jr-il",
+    "catchupSource": "http://bethoven.af-stream.com/disney-jr-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ניקולודיאון",
+    "channelId": "yes-nickelodeon-il",
+    "catchupSource": "http://bethoven.af-stream.com/yes-nickelodeon-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ניק ג׳וניור",
+    "channelId": "nick-jr-il",
+    "catchupSource": "http://bethoven.af-stream.com/nick-jr-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט ניק טין",
+    "channelId": "teennick-il",
+    "catchupSource": "http://bethoven.af-stream.com/teennick-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הופ!",
+    "channelId": "hop-childhood-il",
+    "catchupSource": "http://bethoven.af-stream.com/hop-childhood-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "הוט לולי",
+    "channelId": "luli-il",
+    "catchupSource": "http://bethoven.af-stream.com/luli-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "בייבי",
+    "channelId": "baby-il",
+    "catchupSource": "http://bethoven.af-stream.com/baby-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "זום",
+    "channelId": "zoom-il",
+    "catchupSource": "http://bethoven.af-stream.com/zoom-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "כאן חינוכית",
+    "channelId": "kan23-il",
+    "catchupSource": "http://bethoven.af-stream.com/kan23-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "ג׳וניור",
+    "channelId": "junior-il",
+    "catchupSource": "http://bethoven.af-stream.com/junior-il/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "IL מוזיקה",
+    "channelId": "music-il-hd",
+    "catchupSource": "http://bethoven.af-stream.com/music-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "0",
+    "catchupDays": "0",
+    "parentCode": "0"
+  },
+  {
+    "channelName": "4K ספורט 5",
+    "channelId": "sport5-il-4k",
+    "catchupSource": "http://bethoven.af-stream.com/music-il-hd/video-${start}-${duration}.m3u8?token=hmvtbwl1",
+    "tvgRec": "7",
+    "catchupDays": "7",
+    "parentCode": "0"
+  }
+]
