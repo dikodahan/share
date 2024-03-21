@@ -184,10 +184,6 @@
       "channelId": "58363"
     },
     {
-      "channelName": "הוט בידור ישראלי",
-      "channelId": "58412"
-    },
-    {
       "channelName": "הוט באזז",
       "channelId": "58445"
     },
@@ -236,6 +232,10 @@
       "channelId": "58428"
     },
     {
+      "channelName": "הוט בידור ישראלי",
+      "channelId": "58412"
+    },
+    {
       "channelName": "הוט סינמה משפחה",
       "channelId": "58366"
     },
@@ -265,7 +265,7 @@
     },
     {
       "channelName": "HBO סלקום",
-      "channelId": "58397"
+      "channelId": "58398"
     },
     {
       "channelName": "בייבי",
@@ -288,10 +288,6 @@
       "channelId": "58401"
     },
     {
-      "channelName": "ערוץ הכוכבים",
-      "channelId": "58402"
-    },
-    {
       "channelName": "סלקום סרטים",
       "channelId": "58396"
     },
@@ -301,7 +297,7 @@
     },
     {
       "channelName": "סלקום דוקו",
-      "channelId": "58398"
+      "channelId": "58397"
     },
     {
       "channelName": "ספורט אדג׳",
@@ -328,7 +324,7 @@
       "channelId": "58409"
     },
     {
-      "channelName": "פרי טיוי טלויזיה קומדיה",
+      "channelName": "פרי טיוי סרטים קומדיה",
       "channelId": "58377"
     },
     {
@@ -502,6 +498,10 @@
     {
       "channelName": "ערוץ הכוכבים",
       "channelId": "58482"
+    },
+    {
+      "channelName": "ערוץ הכוכבים",
+      "channelId": "58402"
     },
     {
       "channelName": "MTV ישראל",
