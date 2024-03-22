@@ -47,7 +47,6 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
   livegodm: liveGoDmGenerator,
   dino: dinoGenerator,
   dinodm: dinoDmGenerator,
-  antifrizdm: antiFrizDmGenerator,
   edem: edemGenerator,
   edemdm: edemDmGenerator,
   crystal: crystalGenerator,
@@ -57,6 +56,7 @@ export const SERVICE_GENERATORS: Record<string, M3uGenerator> = {
 
 export const ASYNC_SERVICE_GENERATORS: Record<string, AsyncM3uGenerator> = {
   antifriz: antiFrizGenerator,
+  antifrizdm: antiFrizDmGenerator,
   tvteam: tvTeamGenerator,
   tvteamdm: tvTeamDmGenerator,
   reflex: reflexGenerator,
